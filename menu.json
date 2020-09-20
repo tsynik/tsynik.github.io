@@ -1,0 +1,23 @@
+{"items":[
+    {"id":0,"icon":"","title":"Все каналы","target":{"type":"tv","link":null}},
+    {"id":19,"icon":"","title":"HD и 4K","target":{"type":"tv","link":null}},
+    {"id":1,"icon":"","title":"Эфирные","target":{"type":"tv","link":null}},
+    {"id":2,"icon":"","title":"Информационные","target":{"type":"tv","link":null}},
+    {"id":3,"icon":"","title":"Развлекательные","target":{"type":"tv","link":null}},
+    {"id":4,"icon":"","title":"Познавательные","target":{"type":"tv","link":null}},
+    {"id":5,"icon":"","title":"Детские","target":{"type":"tv","link":null}},
+    {"id":6,"icon":"","title":"Образовательные","target":{"type":"tv","link":null}},
+    {"id":7,"icon":"","title":"Спортивные","target":{"type":"tv","link":null}},
+    {"id":8,"icon":"","title":"Кино и сериалы","target":{"type":"tv","link":null}},
+    {"id":9,"icon":"","title":"Мужские","target":{"type":"tv","link":null}},
+    {"id":10,"icon":"","title":"Женские","target":{"type":"tv","link":null}},
+    {"id":11,"icon":"","title":"Музыкальные","target":{"type":"tv","link":null}},
+    {"id":12,"icon":"","title":"Кулинарные","target":{"type":"tv","link":null}},
+    {"id":13,"icon":"","title":"Религиозные","target":{"type":"tv","link":null}},
+    {"id":14,"icon":"","title":"Национальные","target":{"type":"tv","link":null}},
+    {"id":15,"icon":"","title":"Федеральные","target":{"type":"tv","link":null}},
+    {"id":16,"icon":"","title":"Региональные","target":{"type":"tv","link":null}},
+    {"id":17,"icon":"","title":"Телемагазины","target":{"type":"tv","link":null}},
+    {"id":18,"icon":"","title":"Эротические","target":{"type":"tv","link":null}},
+    {"id":30,"icon":"","title":"Моё","target":{"type":"screen","link":{"screen_name":"my"}}}
+],"default":0}
