@@ -1,2 +1,2 @@
-# tsynik.github.io
-just fun
+# just fun
+
