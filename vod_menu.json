@@ -1,6 +1,5 @@
 {"items":[
     {"id":4,"title":"Главная","target":{"type":"media_view","link":{"name":"main"}},"icon":"/images/bqo1tk5oldao2j46lppg.png"},
-    {"id":12,"title":"Моё","target":{"type":"screen","link":{"screen_name":"my"}},"icon":""},
     {"id":16,"title":"ТВ","target":{"type":"tv","link":null},"icon":""},
     {"id":41,"title":"Фильмы","target":{"type":"media_view","link":{"name":"movies"}},"icon":"/images/bqo1mvloldao2j46lpg0.png"},
     {"id":42,"title":"Сериалы","target":{"type":"media_view","link":{"name":"series"}},"icon":"/images/bqo1qmtoldao2j46lpk0.png"},
@@ -17,5 +16,6 @@
     {"id":9,"title":"Для компании","target":{"type":"media_view","link":{"id":333}},"icon":"/images/btk5pvloldaosq2miar0.png"},
     {"id":88,"title":"Промо #2","target":{"type":"media_view","link":{"id":88}},"icon":"/images/bqo1tk5oldao2j46lppg.png"},
     {"id":35,"title":"Промо #3","target":{"type":"media_view","link":{"id":35}},"icon":"/images/bqo1tk5oldao2j46lppg.png"},
-    {"id":36,"title":"Ещё фильмы","target":{"type":"media_view","link":{"id":36}},"icon":"/images/bqo1mvloldao2j46lpg0.png"}
+    {"id":36,"title":"Ещё фильмы","target":{"type":"media_view","link":{"id":36}},"icon":"/images/bqo1mvloldao2j46lpg0.png"},
+    {"id":12,"title":"Моё","target":{"type":"screen","link":{"screen_name":"my"}},"icon":""}
 ],"default":4}
