@@ -1,5 +1,5 @@
 {
-   "total_items":564,
+   "total_items":563,
    "items":[
       {
          "number":0,
@@ -11832,30 +11832,6 @@
          ],
          "full_logo":"/sdp/mos/nclogo1572514682273.png",
          "logo":"/sdp/mos/nclogo1572514682273.png"
-      },
-      {
-         "number":770,
-         "name":"ТВК 24",
-         "id":142492465,
-         "is_barker":false,
-         "is_erotic":false,
-         "description":"sib",
-         "age_level":{
-            "id":3,
-            "name":"0+",
-            "age_value":0
-         },
-         "sources":[
-            {
-               "url":"https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R13_OTT_SIB_KRSK_DOMASHNY/variant.m3u8"
-            }
-         ],
-         "themes":[
-            16,
-            19
-         ],
-         "full_logo":"/sdp/sib/broadcastChannel1590975885195.png",
-         "logo":"/sdp/sib/broadcastChannel1590975929913.png"
       },
       {
          "number":771,

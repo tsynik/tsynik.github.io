@@ -1,5 +1,5 @@
 {
-   "total_items":556,
+   "total_items":563,
    "items":[
       {
          "number":0,
@@ -11832,30 +11832,6 @@
          "logo":"/sdp/mos/nclogo1572514682273.png"
       },
       {
-         "number":770,
-         "name":"ТВК 24",
-         "id":142492465,
-         "is_barker":false,
-         "is_erotic":false,
-         "description":"sib",
-         "age_level":{
-            "id":3,
-            "name":"0+",
-            "age_value":0
-         },
-         "sources":[
-            {
-               "url":"https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R13_OTT_SIB_KRSK_DOMASHNY/variant.m3u8"
-            }
-         ],
-         "themes":[
-            16,
-            19
-         ],
-         "full_logo":"/sdp/sib/broadcastChannel1590975885195.png",
-         "logo":"/sdp/sib/broadcastChannel1590975929913.png"
-      },
-      {
          "number":771,
          "name":"Теледом",
          "id":9381776,
@@ -13315,6 +13291,206 @@
          "full_logo":"/sdp/mos/nclogo1538081820040.png",
          "logo":"/sdp/mos/nclogo1538081826716.png",
          "background":"/sdp/mos/nclogo1538081835080.png"
+      },
+      {
+         "number":970,
+         "name":"Арсенал HD",
+         "id":1000970,
+         "is_barker":false,
+         "is_erotic":false,
+         "description":"mos",
+         "age_level":{
+            "id":3,
+            "name":"0+",
+            "age_value":0
+         },
+         "sources":[
+            {
+               "url":"https://zabava-htlive.cdn.ngenix.net/hls/CH_ARSENALHD/variant.m3u8"
+            }
+         ],
+         "themes":[
+            8,
+            19
+         ],
+         "full_logo":"/sdp/ural/nclogo1525680745523.png",
+         "logo":"/sdp/ural/nclogo1525680748724.png",
+         "background":"/sdp/ural/nclogo1525680752433.png"
+      },
+      {
+         "number":971,
+         "name":"Наш кинопоказ HD",
+         "id":1000971,
+         "is_barker":false,
+         "is_erotic":false,
+         "description":"mos",
+         "age_level":{
+            "id":3,
+            "name":"0+",
+            "age_value":0
+         },
+         "sources":[
+            {
+               "url":"https://zabava-htlive.cdn.ngenix.net/hls/CH_NASHKINOPOKAZHD/variant.m3u8"
+            }
+         ],
+         "themes":[
+            8,
+            19
+         ],
+         "full_logo":"/sdp/ural/nclogo1525680745523.png",
+         "logo":"/sdp/ural/nclogo1525680748724.png",
+         "background":"/sdp/ural/nclogo1525680752433.png"
+      },
+      {
+         "number":972,
+         "name":"Про любовь HD",
+         "id":1000972,
+         "is_barker":false,
+         "is_erotic":false,
+         "description":"mos",
+         "age_level":{
+            "id":3,
+            "name":"0+",
+            "age_value":0
+         },
+         "sources":[
+            {
+               "url":"https://zabava-htlive.cdn.ngenix.net/hls/CH_PROLUBOVHD/variant.m3u8"
+            }
+         ],
+         "themes":[
+            8,
+            19
+         ],
+         "full_logo":"/sdp/ural/nclogo1525680745523.png",
+         "logo":"/sdp/ural/nclogo1525680748724.png",
+         "background":"/sdp/ural/nclogo1525680752433.png"
+      },
+      {
+         "number":973,
+         "name":"Блокбастер HD",
+         "id":1000973,
+         "is_barker":false,
+         "is_erotic":false,
+         "description":"mos",
+         "age_level":{
+            "id":3,
+            "name":"0+",
+            "age_value":0
+         },
+         "sources":[
+            {
+               "url":"https://zabava-htlive.cdn.ngenix.net/hls/CH_BLOCKBUSTERHD/variant.m3u8"
+            }
+         ],
+         "themes":[
+            8,
+            19
+         ],
+         "full_logo":"/sdp/ural/nclogo1525680745523.png",
+         "logo":"/sdp/ural/nclogo1525680748724.png",
+         "background":"/sdp/ural/nclogo1525680752433.png"
+      },
+      {
+         "number":974,
+         "name":"Камеди HD",
+         "id":1000974,
+         "is_barker":false,
+         "is_erotic":false,
+         "description":"mos",
+         "age_level":{
+            "id":3,
+            "name":"0+",
+            "age_value":0
+         },
+         "sources":[
+            {
+               "url":"https://zabava-htlive.cdn.ngenix.net/hls/CH_COMEDYHD/variant.m3u8"
+            }
+         ],
+         "themes":[
+            8,
+            19
+         ],
+         "full_logo":"/sdp/ural/nclogo1525680745523.png",
+         "logo":"/sdp/ural/nclogo1525680748724.png",
+         "background":"/sdp/ural/nclogo1525680752433.png"
+      },
+      {
+         "number":975,
+         "name":"Хит HD",
+         "id":1000975,
+         "is_barker":false,
+         "is_erotic":false,
+         "description":"mos",
+         "age_level":{
+            "id":3,
+            "name":"0+",
+            "age_value":0
+         },
+         "sources":[
+            {
+               "url":"https://zabava-htlive.cdn.ngenix.net/hls/CH_HITHD/variant.m3u8"
+            }
+         ],
+         "themes":[
+            8,
+            19
+         ],
+         "full_logo":"/sdp/ural/nclogo1525680745523.png",
+         "logo":"/sdp/ural/nclogo1525680748724.png",
+         "background":"/sdp/ural/nclogo1525680752433.png"
+      },
+      {
+         "number":976,
+         "name":"Наше Мужское HD",
+         "id":1000976,
+         "is_barker":false,
+         "is_erotic":false,
+         "description":"mos",
+         "age_level":{
+            "id":3,
+            "name":"0+",
+            "age_value":0
+         },
+         "sources":[
+            {
+               "url":"https://zabava-htlive.cdn.ngenix.net/hls/CH_NASHEMUZHSKOEHD/variant.m3u8"
+            }
+         ],
+         "themes":[
+            8,
+            19
+         ],
+         "full_logo":"/sdp/ural/nclogo1525680745523.png",
+         "logo":"/sdp/ural/nclogo1525680748724.png",
+         "background":"/sdp/ural/nclogo1525680752433.png"
+      },
+      {
+         "number":977,
+         "name":"Кинопоказ HD",
+         "id":1000977,
+         "is_barker":false,
+         "is_erotic":false,
+         "description":"mos",
+         "age_level":{
+            "id":3,
+            "name":"0+",
+            "age_value":0
+         },
+         "sources":[
+            {
+               "url":"https://zabava-htlive.cdn.ngenix.net/hls/CH_KINOPOKAZHD/variant.m3u8"
+            }
+         ],
+         "themes":[
+            8,
+            19
+         ],
+         "full_logo":"/sdp/ural/nclogo1525680745523.png",
+         "logo":"/sdp/ural/nclogo1525680748724.png",
+         "background":"/sdp/ural/nclogo1525680752433.png"
       },
       {
          "number":987,
