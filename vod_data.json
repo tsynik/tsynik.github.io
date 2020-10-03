@@ -227,12 +227,12 @@
          "content_name":"",
          "purchase_info":{
             "title":"Высокое качество",
-            "short_description":"Смотреть в Full HD",
+            "short_description":"Смотреть в HD",
             "full_description":"Смотреть в высоком качестве",
-            "by_period":"Смотреть в Full HD",
+            "by_period":"Смотреть в HD",
             "text_amount":"0 ₽",
             "duration":"бесплатно",
-            "quality":"Качество Full HD"
+            "quality":"Качество HD"
          },
          "variants":[
             
@@ -240,7 +240,7 @@
          "asset_type":48528946,
          "features":[
             {
-               "title":"Высокое (Full HD) качество",
+               "title":"Высокое (HD) качество",
                "is_active":true
             },
             {
