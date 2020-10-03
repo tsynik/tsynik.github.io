@@ -124,7 +124,7 @@
          "content_id":0,
          "content_name":"",
          "purchase_info":{
-            "title":"Высокое качество",
+            "title":"HD",
             "short_description":"Смотреть в HD",
             "full_description":"Смотреть в высоком качестве",
             "by_period":"Смотреть в HD",
@@ -175,7 +175,7 @@
          "content_id":0,
          "content_name":"",
          "purchase_info":{
-            "title":"Стандартное качество",
+            "title":"SD",
             "short_description":"Смотреть в SD",
             "full_description":"Смотреть в стандартном качестве",
             "by_period":"Смотреть в SD",
@@ -226,7 +226,7 @@
          "content_id":0,
          "content_name":"",
          "purchase_info":{
-            "title":"Высокое качество",
+            "title":"HD",
             "short_description":"Смотреть в HD",
             "full_description":"Смотреть в высоком качестве",
             "by_period":"Смотреть в HD",
@@ -277,7 +277,7 @@
          "content_id":0,
          "content_name":"",
          "purchase_info":{
-            "title":"Сверхвысокое качество",
+            "title":"4K",
             "short_description":"Смотреть в 4K",
             "full_description":"Смотреть в сверхвысоком качестве",
             "by_period":"Смотреть в 4K",
