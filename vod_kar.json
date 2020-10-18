@@ -1,96 +1,96 @@
 {
-    "id": 20739999,
-    "name": "Караоке",
-    "motto": "Каталог песен для любого случая",
-    "icon": "/images/bs2381toldaqs7749ijg.png",
-    "description_short": "Популярные, классические и современные песни на русском и иностранном языках на любой вкус",
-    "image": "/images/br9rq3doldaoo4e6akc0.png",
-    "colors": ["212121ff", "212121ff"],
-    "type": "KARAOKEABONEMENT",
-    "asset_types": [1000059, 2377438, 1000060, 48528946, 43464819, 48528948, 1000061, 81180663, 81180653],
-    "is_content_download_allowed": false,
-    "is_only_visible_in_bundle": false,
-    "quota": 0,
-    "tstv_depth": 0,
-    "rightholder_logo": "",
-    "is_tstv_default": false,
-    "tstv_controls":
-    {
-        "is_pltv_allowed": false,
-        "is_catchup_allowed": false,
-        "is_npvr_allowed": false
-    },
-    "is_channel_preview_enabled": false,
-    "description": "",
-    "purchase_options": [
-        {
-            "id": 0,
-            "bonus_price_id": 0,
-            "package_id": 90281,
-            "amount": 15000,
-            "currency": "RUB",
-            "price_desc": "Покупка в составе абонемента Караоке",
-            "icon": "/images/bs2381toldaqs7749ijg.png",
-            "usage_model": "SERVICE",
-            "period": 2592000,
-            "service_consist": "Подписка содержит 4500 караоке",
-            "external_id": "",
-            "portal_id": "",
-            "apple_id": "ru.rt.itv.karaoke",
-            "android_id": "ru.rt.itv.karaoke_wink",
-            "is_purchased": true,
-            "service_id": 20739999,
-            "service_name": "Караоке",
-            "service_type": "KARAOKEABONEMENT",
-            "content_type": "",
-            "content_id": 0,
-            "content_name": "",
-            "purchase_info":
-            {
-                "title": "Подключить подписку",
-                "short_description": "Подключить подписку на месяц",
-                "full_description": "Подписка «Караоке» за 150 ₽ на месяц",
-                "text_amount": "150 ₽",
-                "status": "Активна до 24.09.24",
-                "duration": "на месяц"
-            },
-            "variants": [],
-            "asset_type": 0,
-            "available_up_to": 1727210190,
-            "features": [
-                {
-                    "title": "4500 песен в одной подписке",
-                    "is_active": true
-                },
-                {
-                    "title": "Тематические подборки песен",
-                    "is_active": true
-                },
-                {
-                    "title": "Для большой компании",
-                    "is_active": true
-                }
-            ],
-            "is_download_allowed": false,
-            "seq_id": 0,
-            "is_quick_purchase": true
-        }
-    ],
-    "active": true,
-    "end_time": 1727210190,
-    "subscribe_mode": 1,
-    "karaoke_items_count": 4500,
-    "tstv_options":
-    {
-        "current_quota": 0,
-        "used_quota": 0,
-        "used_quota_text": "Используется 0 ч из 0 ч записи"
-    },
-    "service_rating": 0,
-    "promo_label_color": [],
-    "promo_label_text": "",
-    "service_icon": "",
-    "service_condition": "",
-    "advertising_image": "",
-    "nc_id": 213
+	 "id": 20739999,
+	 "name": "Караоке",
+	 "motto": "Каталог песен для любого случая",
+	 "icon": "/images/bs2381toldaqs7749ijg.png",
+	 "description_short": "Популярные, классические и современные песни на русском и иностранном языках на любой вкус",
+	 "image": "/images/br9rq3doldaoo4e6akc0.png",
+	 "colors": ["212121ff", "212121ff"],
+	 "type": "KARAOKEABONEMENT",
+	 "asset_types": [1000059, 2377438, 1000060, 48528946, 43464819, 48528948, 1000061, 81180663, 81180653],
+	 "is_content_download_allowed": false,
+	 "is_only_visible_in_bundle": false,
+	 "quota": 0,
+	 "tstv_depth": 0,
+	 "rightholder_logo": "",
+	 "is_tstv_default": false,
+	 "tstv_controls":
+	 {
+		  "is_pltv_allowed": false,
+		  "is_catchup_allowed": false,
+		  "is_npvr_allowed": false
+	 },
+	 "is_channel_preview_enabled": false,
+	 "description": "",
+	 "purchase_options": [
+		  {
+				"id": 0,
+				"bonus_price_id": 0,
+				"package_id": 90281,
+				"amount": 15000,
+				"currency": "RUB",
+				"price_desc": "Покупка в составе абонемента Караоке",
+				"icon": "/images/bs2381toldaqs7749ijg.png",
+				"usage_model": "SERVICE",
+				"period": 2592000,
+				"service_consist": "Подписка содержит 4500 караоке",
+				"external_id": "",
+				"portal_id": "",
+				"apple_id": "ru.rt.itv.karaoke",
+				"android_id": "ru.rt.itv.karaoke_wink",
+				"is_purchased": true,
+				"service_id": 20739999,
+				"service_name": "Караоке",
+				"service_type": "KARAOKEABONEMENT",
+				"content_type": "",
+				"content_id": 0,
+				"content_name": "",
+				"purchase_info":
+				{
+					 "title": "Подключить подписку",
+					 "short_description": "Подключить подписку на месяц",
+					 "full_description": "Подписка «Караоке» за 150 ₽ на месяц",
+					 "text_amount": "150 ₽",
+					 "status": "Активна до 24.09.24",
+					 "duration": "на месяц"
+				},
+				"variants": [],
+				"asset_type": 0,
+				"available_up_to": 1727210190,
+				"features": [
+					 {
+						  "title": "4500 песен в одной подписке",
+						  "is_active": true
+					 },
+					 {
+						  "title": "Тематические подборки песен",
+						  "is_active": true
+					 },
+					 {
+						  "title": "Для большой компании",
+						  "is_active": true
+					 }
+				],
+				"is_download_allowed": false,
+				"seq_id": 0,
+				"is_quick_purchase": true
+		  }
+	 ],
+	 "active": true,
+	 "end_time": 1727210190,
+	 "subscribe_mode": 1,
+	 "karaoke_items_count": 4500,
+	 "tstv_options":
+	 {
+		  "current_quota": 0,
+		  "used_quota": 0,
+		  "used_quota_text": "Используется 0 ч из 0 ч записи"
+	 },
+	 "service_rating": 0,
+	 "promo_label_color": [],
+	 "promo_label_text": "",
+	 "service_icon": "",
+	 "service_condition": "",
+	 "advertising_image": "",
+	 "nc_id": 213
 }
