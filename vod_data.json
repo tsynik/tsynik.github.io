@@ -354,5 +354,6 @@
 			}
 		]
 	},
-	"karaoke_id":".*user/services/20739999$"
+	"karaoke_id":".*user/services/20739999$",
+	"bypass_id":"0"
 }
