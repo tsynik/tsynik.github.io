@@ -8,39 +8,66 @@ http://a3569457483-s26881.cdn.ngenix.net/hls/russia_hd/playlist_3.m3u8
 #EXTINF:-1 tvg-id="rossia1" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_1.png" channelId="2" group-title="Эфирные",Россия 1
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/variant.m3u8
+#EXTINF:-1 logo="https://runigma.com.ua/EPG/png/360e/1_0_16_3EA_A_70_1680000_0_0_0.png" tvg-id="match-tv" tvg-logo="http://domnet.me/images/picons/tvico_n52.png" channelId="4" group-title="Эфирные",Матч! ТВ
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
 #EXTINF:-1 tvg-id="ntv" tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/ntv.jpg" channelId="6" group-title="Эфирные",НТВ
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
-#EXTINF:-1 logo="https://chas.tv/img/channel/rentv.png" tvg-id="rentv" tvg-logo="http://www.oreol.tv/img/ren-logo.jpg" channelId="11" group-title="Эфирные",Рен ТВ
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_HLS/variant.m3u8
-#EXTINF:-1 logo="http://img12.lostpic.net/2018/05/19/75b199484a538abc1dbb107840431bda.png" tvg-id="mir" tvg-logo="http://mega-mir.net/wp-content/uploads/2018/05/mir.jpg" channelId="138" group-title="Эфирные",Мир
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/variant.m3u8
-#EXTINF:-1 logo="https://img12.lostpic.net/2018/05/19/512e7079bd3b3c36a2204c05fc41938b.png" tvg-id="tvcentr" tvg-logo="https://nv.tvstroka.com/images/tvc.png" channelId="13" group-title="Эфирные",ТВ Центр
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8
-#EXTINF:-1 logo="https://runigma.com.ua/EPG/png/360e/1_0_16_51F_D_70_1680000_0_0_0.png" tvg-id="zvezda" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/zvezda_telekanal2.jpeg" channelId="17" group-title="Эфирные",Звезда
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/variant.m3u8
-#EXTINF:-1 logo="https://img12.lostpic.net/2018/05/12/737788d7672555a714164fe9d1b67e99.png" tvg-id="otr" tvg-logo="http://www.oreol.tv/img/OTR_logo.jpg" channelId="784" group-title="Эфирные",ОТР
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
 #EXTINF:-1 logo="https://static.epg.best/ru/5Kanal.ru.png" tvg-id="5kanal-ru" tvg-logo="https://krasnovosti.ru/online_tv/img/logo_channels/5_channel.jpg" channelId="7" group-title="Эфирные",Пятый канал
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
-#EXTINF:-1 logo="https://runigma.com.ua/EPG/png/360e/1_0_16_44E_B_70_1680000_0_0_0.png" tvg-id="domashny" tvg-logo="http://zala.by/sites/default/files/imagecache/film_poster/tv_channels/logos/domashniy.jpg" channelId="21" group-title="Эфирные",Домашний
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
 #EXTINF:-1 tvg-id="kultura" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_kultura.png" channelId="5" group-title="Эфирные",Россия К
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8
+#EXTINF:-1 tvg-id="rossia-24" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_24.png" channelId="10" group-title="Эфирные",Россия 24
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8
+#EXTINF:-1 logo="https://img12.lostpic.net/2018/05/19/565a5e152bb28cc5f587d4d3cc8b946c.png" tvg-id="karusel" tvg-logo="http://only4.tv/ch/822.png" channelId="20" group-title="Детские",Карусель
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
+#EXTINF:-1 logo="https://img12.lostpic.net/2018/05/12/737788d7672555a714164fe9d1b67e99.png" tvg-id="otr" tvg-logo="http://www.oreol.tv/img/OTR_logo.jpg" channelId="784" group-title="Эфирные",ОТР
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
+#EXTINF:-1 logo="https://img12.lostpic.net/2018/05/19/512e7079bd3b3c36a2204c05fc41938b.png" tvg-id="tvcentr" tvg-logo="https://nv.tvstroka.com/images/tvc.png" channelId="13" group-title="Эфирные",ТВ Центр
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8
+#EXTINF:-1 logo="https://chas.tv/img/channel/rentv.png" tvg-id="rentv" tvg-logo="http://www.oreol.tv/img/ren-logo.jpg" channelId="11" group-title="Эфирные",Рен ТВ
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_HLS/variant.m3u8
+#EXTINF:-1 tvg-id="spas" tvg-logo="https://www.telenettv.ru/img/channel-list/logo/mult2/2.jpg" channelId="244" group-title="Эфирные",Спас
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/variant.m3u8
+#EXTINF:-1 logo="https://chas.tv/img/channel/sts.png" tvg-id="sts" tvg-logo="http://www.oreol.tv/img/ctc_logo-01.jpg" channelId="12" group-title="Эфирные",СТС
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
+#EXTINF:-1 logo="https://runigma.com.ua/EPG/png/360e/1_0_16_44E_B_70_1680000_0_0_0.png" tvg-id="domashny" tvg-logo="http://zala.by/sites/default/files/imagecache/film_poster/tv_channels/logos/domashniy.jpg" channelId="21" group-title="Эфирные",Домашний
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
+#EXTINF:-1 logo="https://chas.tv/img/channel/tv3.png" tvg-id="tv3-ru" tvg-logo="http://only4.tv/ch/1008.png" channelId="8" group-title="Эфирные",ТВ-3
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
+#EXTINF:-1 logo="http://televizor.org/img/logopit/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0.png" tvg-id="piatnica" tvg-logo="http://kct.me/static/media/images/ktv/%D0%BF%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0.png" channelId="26" group-title="Эфирные",Пятница
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
+#EXTINF:-1 logo="https://runigma.com.ua/EPG/png/360e/1_0_16_51F_D_70_1680000_0_0_0.png" tvg-id="zvezda" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/zvezda_telekanal2.jpeg" channelId="17" group-title="Эфирные",Звезда
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/variant.m3u8
+#EXTINF:-1 logo="http://img12.lostpic.net/2018/05/19/75b199484a538abc1dbb107840431bda.png" tvg-id="mir" tvg-logo="http://mega-mir.net/wp-content/uploads/2018/05/mir.jpg" channelId="138" group-title="Эфирные",Мир
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/variant.m3u8
+#EXTINF:-1 logo="https://runigma.com.ua/EPG/png/360e/1_0_16_527_D_70_1680000_0_0_0.png" tvg-id="tnt" tvg-logo="http://www.oreol.tv/img/logo-tnt_s.jpg" channelId="16" group-title="Эфирные",ТНТ
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
+#EXTINF:-1 tvg-id="muztv" tvg-logo="http://only4.tv/ch/1313.png" channelId="136" group-title="Музыкальные",Муз-ТВ
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
+#EXTINF:-1 logo="https://runigma.com.ua/EPG/png/360e/1_0_16_722_12_70_1680000_0_0_0.png" tvg-id="2na2" tvg-logo="https://teleon.tv/images/logos/telekanal_2x2_ru.png" channelId="14" group-title="Эфирные",2x2
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
 #EXTINF:-1 logo="https://runigma.com.ua/EPG/png/360e/1_0_16_723_12_70_1680000_0_0_0.png" tvg-id="moskva-24" tvg-logo="http://periscope-app.ru/netcat_files/393/606/moskva_24.jpg" channelId="153" group-title="Информационные",Москва 24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MOSKOV24/variant.m3u8
-#EXTINF:-1 tvg-id="rossia-24" tvg-logo="https://getsiptv.ru/img/ch_icons/rossiya_24.png" channelId="10" group-title="Информационные",Россия 24
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8
 #EXTINF:-1 tvg-id="love-nature-4k" tvg-logo="https://pbs.twimg.com/profile_images/1083149125112086528/ywFqohr8_400x400.jpg" channelId="2035" group-title="Познавательные",Love Nature 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/variant.m3u8
@@ -59,12 +86,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw6000000/variant.m3u
 #EXTINF:-1 tvg-id="eurosport-4k" tvg-logo="http://s8.hostingkartinok.com/uploads/images/2020/12/59bdada690f0ac7826aea814547eae73.png" channelId="4024" group-title="Спортивные",Eurosport 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/variant.m3u8
-#EXTINF:-1 logo="https://runigma.com.ua/EPG/png/360e/1_0_16_3EA_A_70_1680000_0_0_0.png" tvg-id="match-tv" tvg-logo="http://domnet.me/images/picons/tvico_n52.png" channelId="4" group-title="Спортивные",Матч! ТВ
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
-#EXTINF:-1 logo="https://runigma.com.ua/EPG/png/360e/1_0_16_722_12_70_1680000_0_0_0.png" tvg-id="2na2" tvg-logo="https://teleon.tv/images/logos/telekanal_2x2_ru.png" channelId="14" group-title="Развлекательные",2x2
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
 #EXTINF:-1 tvg-id="russian-extreme-uhd" tvg-logo="https://img16.lostpic.net/2019/10/28/3d1a38e8f1177b7d6455213f14f36f02.png" channelId="2662" group-title="Развлекательные",Russian Extreme Ultra HD
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/bw6000000/variant.m3u8
@@ -74,30 +95,18 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="doverie" tvg-logo="http://only4.tv/ch/417.png" channelId="395" group-title="Развлекательные",Москва. Доверие
 #EXTVLCOPT:http-user-agent=Google
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_DOVERIE/variant.m3u8
-#EXTINF:-1 logo="http://televizor.org/img/logopit/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0.png" tvg-id="piatnica" tvg-logo="http://kct.me/static/media/images/ktv/%D0%BF%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0.png" channelId="26" group-title="Развлекательные",Пятница
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
 #EXTINF:-1 logo="https://runigma.com.ua/EPG/png/360e/1_0_16_452_B_70_1680000_0_0_0.png" tvg-id="sts-love" tvg-logo="http://kusa.k-itv.ru/wp-content/uploads/2016/08/sts2_love.jpg" channelId="1571" group-title="Развлекательные",СТС Love
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
-#EXTINF:-1 logo="https://chas.tv/img/channel/sts.png" tvg-id="sts" tvg-logo="http://www.oreol.tv/img/ctc_logo-01.jpg" channelId="12" group-title="Развлекательные",СТС
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
 #EXTINF:-1 shift="4" tvg-id="sts-mir" tvg-logo="http://telestroka.ru/i/ctc-mir.png" channelId="-1" group-title="Развлекательные",СТС-Мир
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_TSM/variant.m3u8
 #EXTINF:-1 logo="https://runigma.com.ua/EPG/png/360e/1_0_16_529_D_70_1680000_0_0_0.png" tvg-id="super" tvg-logo="http://www.oreol.tv/img/super_s.jpg" channelId="3876" group-title="Развлекательные",Супер
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8
-#EXTINF:-1 logo="https://chas.tv/img/channel/tv3.png" tvg-id="tv3-ru" tvg-logo="http://only4.tv/ch/1008.png" channelId="8" group-title="Развлекательные",ТВ-3
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
 #EXTINF:-1 logo="https://pbs.twimg.com/profile_banners/474974761/1574252854/300x100" tvg-logo="https://pbs.twimg.com/profile_images/1341996311860686848/HXPXmV_0_200x200.jpg" channelId="-1" group-title="Развлекательные",ТЕО-ТВ HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TEOTV/variant.m3u8
-#EXTINF:-1 logo="https://runigma.com.ua/EPG/png/360e/1_0_16_527_D_70_1680000_0_0_0.png" tvg-id="tnt" tvg-logo="http://www.oreol.tv/img/logo-tnt_s.jpg" channelId="16" group-title="Развлекательные",ТНТ
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
 #EXTINF:-1 logo="https://runigma.com.ua/EPG/png/360e/1_0_16_71C_12_70_1680000_0_0_0.png" tvg-id="tnt4" tvg-logo="http://www.oreol.tv/img/tht4.jpg" channelId="77" group-title="Развлекательные",ТНТ4
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
@@ -113,18 +122,12 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8
 #EXTINF:-1 tvg-id="disney" tvg-logo="https://www.goldmir.net/uploads/tv/channel/57/logo_big.jpg" channelId="19" group-title="Детские",Disney
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
-#EXTINF:-1 logo="https://img12.lostpic.net/2018/05/19/565a5e152bb28cc5f587d4d3cc8b946c.png" tvg-id="karusel" tvg-logo="http://only4.tv/ch/822.png" channelId="20" group-title="Детские",Карусель
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
 #EXTINF:-1 tvg-id="acb-tv" tvg-logo="https://www.netlink.su/uploads/smotreshka/devyataya_volna.png" channelId="330" group-title="Музыкальные",9 Волна
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R02_OTT_STH_CHERKS_9VOLNA-CHRK/variant.m3u8
 #EXTINF:-1 tvg-id="matur-tv" tvg-logo="https://teleon.tv/images/logos/matur-tv.png" channelId="-1" group-title="Музыкальные",Матур ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
-#EXTINF:-1 tvg-id="muztv" tvg-logo="http://only4.tv/ch/1313.png" channelId="136" group-title="Музыкальные",Муз ТВ
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 #EXTINF:-1 logo="https://www.omkc.ru/uploads/%D0%A0%D0%95%D0%94%20%D0%9C%D0%95%D0%94%D0%98%D0%90/15270282092196237.png" tvg-id="ultra-hd-cinema" tvg-logo="http://epg.it999.ru/img/2743.png" channelId="3982" group-title="Кино и сериалы",Ultra HD Cinema HD
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m3u8
@@ -941,9 +944,6 @@ http://s97982.cdn.ngenix.net/hls/CH_R02_OTT_DV_HVSK_OTTARIRANG/variant.m3u8
 #EXTINF:-1 tvg-id="vsio-tv" tvg-logo="https://s26037.cdn.ngenix.net/sdp/sib/nclogo1589611840425.png" channelId="211" group-title="Телемагазины",Всё ТВ HD
 #EXTVLCOPT:http-user-agent=Google
 http://s72169.cdn.ngenix.net/hls/CH_VSETVHD_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="spas" tvg-logo="https://www.telenettv.ru/img/channel-list/logo/mult2/2.jpg" channelId="244" group-title="Религиозные",Спас
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/variant.m3u8
 #EXTINF:-1 tvg-id="comedy-radio" group-title="Радио",Comedy Radio
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0
 #EXTVLCOPT:http-referrer=https://megafon.tv
