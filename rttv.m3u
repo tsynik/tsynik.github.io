@@ -128,12 +128,12 @@ http://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R02_OTT_STH_CHERKS_9VOLNA-CHRK
 #EXTINF:-1 tvg-id="matur-tv"$channelId="-1" group-title="Музыкальные",Матур ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
-#EXTINF:-1 group-title="Кино и сериалы",Ultra HD Cinema HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m3u8
 #EXTINF:-1 group-title="Кино и сериалы",Ultra HD Cinema
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8
+#EXTINF:-1 group-title="Кино и сериалы",Ultra HD Cinema HD
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m3u8
 #EXTINF:-1 tvg-id="12-omsk"$channelId="-1" group-title="Региональные",12 канал HD (Омск)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_12CHANNEL/variant.m3u8
@@ -296,9 +296,6 @@ http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_CHITA_ZABTV/variant
 #EXTINF:-1 tvg-id="ivanovo-ot"$channelId="-1" group-title="Региональные",Ивановское общественное телевидение
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_IVAN_IOT/variant.m3u8
-#EXTINF:-1 group-title="Региональные",Инфо 24 HD (Шадр Инфо)
-#EXTVLCOPT:http-user-agent=Google
-http://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SHINFO_URAL_KRG/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Информационная служба Югры
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_PERVIYSOVETSKIY/variant.m3u8
