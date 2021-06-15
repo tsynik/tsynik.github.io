@@ -189,7 +189,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_FUTBALL3HD/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="football-ru",Футбол HD
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_FUTBALLHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="ultra-hd-cinema",Ultra HD Cinema (UHD)
+#EXTINF:0 group-title="Ultra HD" tvg-id="ultra-hd-cinema",Ultra HD Cinema
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="rentv",РЕН ТВ HD
@@ -210,7 +210,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_C01_NICKELODEONHD/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="tlum-hd",Мульт HD
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TLUMHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="1hd",1 HD Music Television (HD)
+#EXTINF:0 group-title="HD" tvg-id="1hd",1 HD Music Television
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1HDMUSICTV/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="bridge-hd",Bridge TV HD
@@ -276,10 +276,10 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_PARAMOUNTCOMEDYHD/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="sony-tv",Sony Channel HD
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_C02_SETHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="star-cinema" tvg-logo="http://epg.it999.ru/img/2145.png",Star Cinema HD (Россия) (HD)
+#EXTINF:0 group-title="HD" tvg-id="star-cinema" tvg-logo="http://epg.it999.ru/img/2145.png",Star Cinema HD (Россия)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STARCINEMAHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="star-family" tvg-logo="http://epg.it999.ru/img/2153.png",Star Family HD (Россия) (HD)
+#EXTINF:0 group-title="HD" tvg-id="star-family" tvg-logo="http://epg.it999.ru/img/2153.png",Star Family HD (Россия)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STARFAMILYHD/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="tv1000-action",TV 1000 Action HD
@@ -354,25 +354,22 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_FOODHD/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="world-fashion-channel",World Fashion Channel HD
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_WFCHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="s1-surgut",C1 HD (Сургут) (HD)
+#EXTINF:0 group-title="HD" tvg-id="s1-surgut",C1 HD (Сургут)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_C1_URAL_SUR/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="info24",Инфо 24 HD
-#EXTVLCOPT:http-user-agent=Google
-http://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SHINFO_URAL_KRG/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="noyabrsk24",Ноябрьск 24 HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NOY24_URAL_NOY/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="osetia-iryston",Осетия Ирыстон HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VKAZ_IRISTON/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="otv-chelyabinsk",ОТВ HD (Челябинск) (HD)
+#EXTINF:0 group-title="HD" tvg-id="otv-chelyabinsk",ОТВ HD (Челябинск)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_CHEL/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="russia-today",Russia Today HD
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_RTTVHD/variant.m3u8
-#EXTINF:0 group-title="Ultra HD" tvg-id="russian-extreme-uhd", Russian Extreme Ultra (UHD)
+#EXTINF:0 group-title="Ultra HD" tvg-id="russian-extreme-uhd", Russian Extreme Ultra
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/variant.m3u8
 
@@ -442,9 +439,6 @@ http://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R02_OTT_STH_CHERKS_9VOLNA-CHRK
 #EXTINF:-1 tvg-id="matur-tv"$channelId="-1" group-title="Музыкальные",Матур ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
-#EXTINF:-1 group-title="Ultra HD",Ultra HD Cinema (UHD)
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8
 #EXTINF:-1 group-title="Кино и сериалы",Ultra HD Cinema (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m3u8
