@@ -87,12 +87,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_ANIMALPLANETHD/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="discovery-channel",Discovery Channel HD
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_DISCOVERYCHANNELHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="discovery-science",Discovery Science HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_DISCOVERYSCIENCEHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="dtx",DTX HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DTXHD/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="tayny-galaktiki",Galaxy TV HD
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TAINYGALAKTIKIHD/variant.m3u8
@@ -111,9 +105,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_MUSEUMHD/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="myzen-tv",myZen.tv HD
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_MYZENTVHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="nano-tv",Nano HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_NANOHD/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="nat-geo-wild",Nat Geo Wild HD
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_NATGEOWILDHD/variant.m3u8
@@ -132,9 +123,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_TLCHD/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="travel-channel",Travel Channel HD
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TRAVELCHANNELHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="travel-adventure",Travel+ Adventure HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C02_TRAVELCHANNELHD/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="viasat-explore",Viasat Explore HD
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_VIASATEXPLOREHD/variant.m3u8
@@ -171,9 +159,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT_GHD/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="ufc",UFC HD
 #EXTVLCOPT:http-user-agent=Google
 http://s37630.cdn.ngenix.net/hls/CH_UFCHD_HLS/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="fuel-tv-hd",Fuel TV HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_FUELHD/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="viasat-sport-hd",Viasat Sport HD
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_C06_VIASATSPORTHD/variant.m3u8
@@ -204,9 +189,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_FUTBALL3HD/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="football-ru",Футбол HD
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_FUTBALLHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="spike",Spike HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_SPIKEHD/variant.m3u8
 #EXTINF:0 group-title="HD" tvg-id="ultra-hd-cinema",Ultra HD Cinema (UHD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8
@@ -390,11 +372,9 @@ http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_CHEL/variant.m
 #EXTINF:0 group-title="HD" tvg-id="russia-today",Russia Today HD
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_RTTVHD/variant.m3u8
-#EXTINF:0 group-title="UHD" tvg-id="russian-extreme-uhd", Russian Extreme Ultra (UHD)
+#EXTINF:0 group-title="Ultra HD" tvg-id="russian-extreme-uhd", Russian Extreme Ultra (UHD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/variant.m3u8
-#EXTINF:0 group-title="UHD" tvg-id="ultra-hd-cinema", Ultra HD Cinema (UHD)
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="rossia1"$channelId="2" group-title="Развлекательные",Россия 1
 #EXTVLCOPT:http-user-agent=Google
@@ -402,16 +382,16 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/variant.m3u8
 #EXTINF:-1 group-title="Информационные",Москва 24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MOSKOV24/variant.m3u8
-#EXTINF:-1 tvg-id="love-nature-4k"$channelId="2035" group-title="Познавательные",Love Nature 4K
+#EXTINF:-1 tvg-id="love-nature-4k"$channelId="2035" group-title="Ultra HD",Love Nature 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="love-nature-4k"$channelId="2035" group-title="Познавательные",Love Nature 4K HD
+#EXTINF:-1 tvg-id="love-nature-4k"$channelId="2035" group-title="Познавательные",Love Nature 4K (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/bw6000000/variant.m3u8
-#EXTINF:-1 tvg-id="nasha-sibir-4k"$channelId="3923" group-title="Познавательные",Наша Сибирь 4K
+#EXTINF:-1 tvg-id="nasha-sibir-4k"$channelId="3923" group-title="Ultra HD",Наша Сибирь 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
-#EXTINF:-1 tvg-id="nasha-sibir-4k"$channelId="3923" group-title="Познавательные",Наша Сибирь 4K HD
+#EXTINF:-1 tvg-id="nasha-sibir-4k"$channelId="3923" group-title="Познавательные",Наша Сибирь 4K (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw6000000/variant.m3u8
 #EXTINF:-1 tvg-id="eurosport-4k"$channelId="4024" group-title="Спортивные",Eurosport 4K HD
@@ -462,10 +442,10 @@ http://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R02_OTT_STH_CHERKS_9VOLNA-CHRK
 #EXTINF:-1 tvg-id="matur-tv"$channelId="-1" group-title="Музыкальные",Матур ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
-#EXTINF:-1 group-title="Кино и сериалы",Ultra HD Cinema
+#EXTINF:-1 group-title="Ultra HD",Ultra HD Cinema (UHD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8
-#EXTINF:-1 group-title="Кино и сериалы",Ultra HD Cinema HD
+#EXTINF:-1 group-title="Кино и сериалы",Ultra HD Cinema (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m3u8
 #EXTINF:-1 tvg-id="12-omsk"$channelId="-1" group-title="Региональные",12 канал HD (Омск)
