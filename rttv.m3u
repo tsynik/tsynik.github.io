@@ -392,10 +392,10 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
 #EXTINF:-1 tvg-id="nasha-sibir-4k"$channelId="3923" group-title="Познавательные",Наша Сибирь 4K (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw6000000/variant.m3u8
-#EXTINF:-1 tvg-id="eurosport-4k"$channelId="4024" group-title="Спортивные",Eurosport 4K HD
+#EXTINF:-1 tvg-id="eurosport-4k"$channelId="4024" group-title="HD",Eurosport 4K (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw6000000/variant.m3u8
-#EXTINF:-1 tvg-id="eurosport-4k"$channelId="4024" group-title="Спортивные",Eurosport 4K
+#EXTINF:-1 tvg-id="eurosport-4k"$channelId="4024" group-title="Ultra HD",Eurosport 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="russian-extreme-uhd"$channelId="2662" group-title="Развлекательные",Russian Extreme Ultra (HD)
@@ -437,7 +437,7 @@ http://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R02_OTT_STH_CHERKS_9VOLNA-CHRK
 #EXTINF:-1 tvg-id="matur-tv"$channelId="-1" group-title="Музыкальные",Матур ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
-#EXTINF:-1 group-title="Кино и сериалы",Ultra HD Cinema (HD)
+#EXTINF:-1 group-title="HD",Ultra HD Cinema (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m3u8
 #EXTINF:-1 tvg-id="12-omsk"$channelId="-1" group-title="Региональные",12 канал HD (Омск)
