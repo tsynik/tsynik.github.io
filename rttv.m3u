@@ -1,311 +1,311 @@
 #EXTM3U deinterlace=1 m3uautoload=1 url-tvg="http://iptvx.one/EPG" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}"
 
-#EXTINF:0 group-title="HD" tvg-id="pervy",Первый канал HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_1TV/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="rossia1",Россия 1 HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_RUSSIA1HD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="ntv",НТВ HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_HD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="izvestia",Известия HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_IZVESTIYAHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="france-24",France 24 HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_FRANCE24HD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="360-int",360° HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_PODMOSKOVIEHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="animal-planet",Animal Planet HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_ANIMALPLANETHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="discovery-channel",Discovery Channel HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_DISCOVERYCHANNELHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="tayny-galaktiki",Galaxy TV HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TAINYGALAKTIKIHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="h2",H2 HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_H2HD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="history-hd",History HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_HDHISTORY/variant.m3u8
-#EXTINF:-1 group-title="HD" tvg-id="id-xtra-ru",ID Investigation Discovery HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_IDXTRAHD/variant.m3u8
-#EXTINF:-1 group-title="HD" tvg-id="museum-hd",Museum HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MUSEUMHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="myzen-tv",myZen.tv HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_MYZENTVHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="nat-geo-wild",Nat Geo Wild HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_NATGEOWILDHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="national-geographic",National Geographic HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_NGCHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="rtg-hd",RTG HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RTGHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="rtd-hd",RTД HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RTDHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="tlc",TLC HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_TLCHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="travel-channel",Travel Channel HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TRAVELCHANNELHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="viasat-explore",Viasat Explore HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_VIASATEXPLOREHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="viasat-history",Viasat History HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_VIASATHISTORYHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="viasat-nature-history-hd",Viasat Nature/History HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_VIASATNATUREHISTORYHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="bolshaya-azia",Большая Азия HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_BIGASIAHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="morskoy",Морской HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MORSKOYHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-name="Поехали!,Поехали! HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_POEHALIHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="planeta-hd",Моя Планета HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_IQHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="pobeda",Победа HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_POBEDAHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="eurosport1",Eurosport 1 HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C02_EUROSPORTHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="eurosport1",Eurosport 2 HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT2HD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="eurosport-gold",Eurosport Gold HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT_GHD/variant.m3u8
+# #EXTINF:0 group-title="HD" tvg-id="pervy",Первый канал HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_1TV/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="rossia1",Россия 1 HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_RUSSIA1HD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="ntv",НТВ HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_HD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="izvestia",Известия HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_IZVESTIYAHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="france-24",France 24 HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_FRANCE24HD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="360-int",360° HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_PODMOSKOVIEHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="animal-planet",Animal Planet HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_ANIMALPLANETHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="discovery-channel",Discovery Channel HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_DISCOVERYCHANNELHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="tayny-galaktiki",Galaxy TV HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_TAINYGALAKTIKIHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="h2",H2 HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_H2HD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="history-hd",History HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_HDHISTORY/variant.m3u8  
+# #EXTINF:-1 group-title="HD" tvg-id="id-xtra-ru",ID Investigation Discovery HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_IDXTRAHD/variant.m3u8  
+# #EXTINF:-1 group-title="HD" tvg-id="museum-hd",Museum HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_MUSEUMHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="myzen-tv",myZen.tv HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_MYZENTVHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="nat-geo-wild",Nat Geo Wild HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_NATGEOWILDHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="national-geographic",National Geographic HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_NGCHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="rtg-hd",RTG HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_RTGHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="rtd-hd",RTД HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_RTDHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="tlc",TLC HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_TLCHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="travel-channel",Travel Channel HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_TRAVELCHANNELHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="viasat-explore",Viasat Explore HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_VIASATEXPLOREHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="viasat-history",Viasat History HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_VIASATHISTORYHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="viasat-nature-history-hd",Viasat Nature/History HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_VIASATNATUREHISTORYHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="bolshaya-azia",Большая Азия HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_BIGASIAHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="morskoy",Морской HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_MORSKOYHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-name="Поехали!,Поехали! HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_POEHALIHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="planeta-hd",Моя Планета HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_IQHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="pobeda",Победа HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_POBEDAHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="eurosport1",Eurosport 1 HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C02_EUROSPORTHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="eurosport1",Eurosport 2 HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT2HD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="eurosport-gold",Eurosport Gold HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT_GHD/variant.m3u8  
 #EXTINF:0 group-title="HD" tvg-id="ufc",UFC HD
 #EXTVLCOPT:http-user-agent=Google
 http://s37630.cdn.ngenix.net/hls/CH_UFCHD_HLS/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="viasat-sport-hd",Viasat Sport HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C06_VIASATSPORTHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="kxl-hd",КХЛ HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C02_KHLHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="match-arena",Матч! Арена HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_SPORT1HD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="match-igra",Матч! Игра HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHIGRAHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="match-premier",Матч! Премьер HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C06_NASHFOOTBALLHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="match-tv",Матч! ТВ HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTVHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="match-football1",Матч! Футбол 1 HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_FUTBALL1HD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="match-football2",Матч! Футбол 2 HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_FUTBALL2HD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="match-football3",Матч! Футбол 3 HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_FUTBALL3HD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="football-ru",Футбол HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_FUTBALLHD/variant.m3u8
-#EXTINF:0 group-title="Ultra HD" tvg-id="ultra-hd-cinema",Ultra HD Cinema
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="rentv",РЕН ТВ HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTVHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="teatr",Театр HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_THEATERHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="tnt",ТНТ HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TNTHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="cartoon-network",Cartoon Network HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_CARTOON_NETWORKSHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="nickelodeon-hd",Nickelodeon HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C01_NICKELODEONHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="tlum-hd",Мульт HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TLUMHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="1hd",1 HD Music Television
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_1HDMUSICTV/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="bridge-hd",Bridge TV HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_BRIDGEHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="clubbing-tv",Clubbing TV HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_CLUBBINGHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="mezzo-live-hd",Mezzo Live HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_MEZZOLIVEHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="mtv-russia",MTV HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MTVHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id-="mtv-live-hd",MTV Live HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_MTVLIVEHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="russian-musicbox",Music Box RU HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAN_MUSICBOXHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="ru-tv",RU TV HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUTVHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="iconcerts",Stingray iConcerts HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ICONCERTSHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="zhara",Жара HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_JARAHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="o2tv",О2ТВ HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_O2TVHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="amedia1",A1 HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C01_HDAMEDIA/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="amedia2",A2 HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_A2PROLYBOV/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="amedia-hit",Amedia Hit HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_AMEDIAHITHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="amedia-premium",Amedia Premium HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_HDAMEDIAPREMIUM/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="bolt",Bolt HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_BOLTHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="fanhd",FAN HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_FANHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="fox",FOX HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C02_FOXHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="foxlife",FOX Life HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_FOXLIFEHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="paramount-channel",Paramount Channel HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C02_PARAMOUNTCHANNELHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="paramount-comedy",Paramount Comedy HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_PARAMOUNTCOMEDYHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="sony-tv",Sony Channel HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C02_SETHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="star-cinema" tvg-logo="http://epg.it999.ru/img/2145.png",Star Cinema HD (Россия)
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_STARCINEMAHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="star-family" tvg-logo="http://epg.it999.ru/img/2153.png",Star Family HD (Россия)
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_STARFAMILYHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="tv1000-action",TV 1000 Action HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TV1000ACTIONHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="tv1000",TV 1000 HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TV1000HD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="tv1000-russkoe-kino",TV 1000 Русское кино HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TV1000RUSSKOEKINOHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="vip-comedy",ViP Comedy HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_TV1000COMEDYHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="vip-megahit",ViP Megahit HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_TV1000MEGAHITHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="vip-premiere",ViP Premiere HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_TV1000PREMIUMHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="vip-serial",VIP Serial HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C06_VIASATGOLFHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="vsio-tv",Всё ТВ HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_VSETVHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="domkino-premium",Дом кино премиум HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMKINOPREMIUMHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="kino-tv",Кино ТВ HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_KINOTVHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="kinopremiera-hd",Кинопремьера HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_KINOPREMIEREHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="kinosvidanie",Киносвидание HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_KINODATEHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="kinosemiya",Киносемья HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_KINOFAMILYHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="kinoxit",Кинохит HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_KINOHITHD/variant.m3u8
-#EXTINF:0 tvg-id="russky-roman" group-title="HD",Русский роман HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSKIYROMANHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="strashnoe-hd",Страшное HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C01_STRASHNOEHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="bollywood-hd",Bollywood HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_BOLLYWOODHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="avto24",АВТО24 HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_AVTO24HD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="dialogi-o-rybalke",Диалоги о рыбалке HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DIALORYBHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="dikaya-oxota-hd",Дикая охота HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DIKAYAOHOTAHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="dikaya-rybalka-hd",Дикая рыбалка HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DIKAYARYBALKAHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="oxotnik-i-rybolov-hd",Охотник и рыболов HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_OHOTNIKIRYBOLOVHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="food-network",Food Network HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_FOODHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="world-fashion-channel",World Fashion Channel HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_WFCHD/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="s1-surgut",C1 HD (Сургут)
-#EXTVLCOPT:http-user-agent=Google
-http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_C1_URAL_SUR/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="noyabrsk24",Ноябрьск 24 HD
-#EXTVLCOPT:http-user-agent=Google
-http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NOY24_URAL_NOY/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="osetia-iryston",Осетия Ирыстон HD
-#EXTVLCOPT:http-user-agent=Google
-http://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VKAZ_IRISTON/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="otv-chelyabinsk",ОТВ HD (Челябинск)
-#EXTVLCOPT:http-user-agent=Google
-http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_CHEL/variant.m3u8
-#EXTINF:0 group-title="HD" tvg-id="russia-today",Russia Today HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_RTTVHD/variant.m3u8
+# #EXTINF:0 group-title="HD" tvg-id="viasat-sport-hd",Viasat Sport HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C06_VIASATSPORTHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="kxl-hd",КХЛ HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C02_KHLHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="match-arena",Матч! Арена HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_SPORT1HD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="match-igra",Матч! Игра HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHIGRAHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="match-premier",Матч! Премьер HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C06_NASHFOOTBALLHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="match-tv",Матч! ТВ HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTVHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="match-football1",Матч! Футбол 1 HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_FUTBALL1HD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="match-football2",Матч! Футбол 2 HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_FUTBALL2HD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="match-football3",Матч! Футбол 3 HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_FUTBALL3HD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="football-ru",Футбол HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_FUTBALLHD/variant.m3u8  
+# #EXTINF:0 group-title="Ultra HD" tvg-id="ultra-hd-cinema",Ultra HD Cinema  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="rentv",РЕН ТВ HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTVHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="teatr",Театр HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_THEATERHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="tnt",ТНТ HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_TNTHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="cartoon-network",Cartoon Network HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_CARTOON_NETWORKSHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="nickelodeon-hd",Nickelodeon HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C01_NICKELODEONHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="tlum-hd",Мульт HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_TLUMHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="1hd",1 HD Music Television  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_1HDMUSICTV/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="bridge-hd",Bridge TV HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_BRIDGEHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="clubbing-tv",Clubbing TV HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_CLUBBINGHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="mezzo-live-hd",Mezzo Live HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_MEZZOLIVEHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="mtv-russia",MTV HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_MTVHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id-="mtv-live-hd",MTV Live HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_MTVLIVEHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="russian-musicbox",Music Box RU HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAN_MUSICBOXHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="ru-tv",RU TV HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_RUTVHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="iconcerts",Stingray iConcerts HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_ICONCERTSHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="zhara",Жара HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_JARAHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="o2tv",О2ТВ HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_O2TVHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="amedia1",A1 HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C01_HDAMEDIA/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="amedia2",A2 HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_A2PROLYBOV/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="amedia-hit",Amedia Hit HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_AMEDIAHITHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="amedia-premium",Amedia Premium HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_HDAMEDIAPREMIUM/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="bolt",Bolt HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_BOLTHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="fanhd",FAN HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_FANHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="fox",FOX HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C02_FOXHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="foxlife",FOX Life HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_FOXLIFEHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="paramount-channel",Paramount Channel HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C02_PARAMOUNTCHANNELHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="paramount-comedy",Paramount Comedy HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_PARAMOUNTCOMEDYHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="sony-tv",Sony Channel HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C02_SETHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="star-cinema" tvg-logo="http://epg.it999.ru/img/2145.png",Star Cinema HD (Россия)  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_STARCINEMAHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="star-family" tvg-logo="http://epg.it999.ru/img/2153.png",Star Family HD (Россия)  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_STARFAMILYHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="tv1000-action",TV 1000 Action HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_TV1000ACTIONHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="tv1000",TV 1000 HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_TV1000HD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="tv1000-russkoe-kino",TV 1000 Русское кино HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_TV1000RUSSKOEKINOHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="vip-comedy",ViP Comedy HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_TV1000COMEDYHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="vip-megahit",ViP Megahit HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_TV1000MEGAHITHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="vip-premiere",ViP Premiere HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_TV1000PREMIUMHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="vip-serial",VIP Serial HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C06_VIASATGOLFHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="vsio-tv",Всё ТВ HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_VSETVHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="domkino-premium",Дом кино премиум HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMKINOPREMIUMHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="kino-tv",Кино ТВ HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_KINOTVHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="kinopremiera-hd",Кинопремьера HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_KINOPREMIEREHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="kinosvidanie",Киносвидание HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_KINODATEHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="kinosemiya",Киносемья HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_KINOFAMILYHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="kinoxit",Кинохит HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_KINOHITHD/variant.m3u8  
+# #EXTINF:0 tvg-id="russky-roman" group-title="HD",Русский роман HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSKIYROMANHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="strashnoe-hd",Страшное HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C01_STRASHNOEHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="bollywood-hd",Bollywood HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_BOLLYWOODHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="avto24",АВТО24 HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_AVTO24HD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="dialogi-o-rybalke",Диалоги о рыбалке HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_DIALORYBHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="dikaya-oxota-hd",Дикая охота HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_DIKAYAOHOTAHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="dikaya-rybalka-hd",Дикая рыбалка HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_DIKAYARYBALKAHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="oxotnik-i-rybolov-hd",Охотник и рыболов HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_OHOTNIKIRYBOLOVHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="food-network",Food Network HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_FOODHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="world-fashion-channel",World Fashion Channel HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_WFCHD/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="s1-surgut",C1 HD (Сургут)  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_C1_URAL_SUR/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="noyabrsk24",Ноябрьск 24 HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NOY24_URAL_NOY/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="osetia-iryston",Осетия Ирыстон HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VKAZ_IRISTON/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="otv-chelyabinsk",ОТВ HD (Челябинск)  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_CHEL/variant.m3u8  
+# #EXTINF:0 group-title="HD" tvg-id="russia-today",Russia Today HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_RTTVHD/variant.m3u8  
 #EXTINF:0 group-title="Ultra HD" tvg-id="russian-extreme-uhd",Russian Extreme Ultra
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/variant.m3u8
@@ -380,13 +380,13 @@ http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MOSKOV24/variant.m3u8
 #EXTINF:-1 tvg-id="love-nature-4k" channelId="2035" group-title="Ultra HD",Love Nature 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="love-nature-4k" channelId="2035" group-title="Познавательные",Love Nature 4K (HD)
+#EXTINF:-1 tvg-id="love-nature-4k" channelId="2035" group-title="HD",Love Nature 4K (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/bw6000000/variant.m3u8
 #EXTINF:-1 tvg-id="nasha-sibir-4k" channelId="3923" group-title="Ultra HD",Наша Сибирь 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
-#EXTINF:-1 tvg-id="nasha-sibir-4k" channelId="3923" group-title="Познавательные",Наша Сибирь 4K (HD)
+#EXTINF:-1 tvg-id="nasha-sibir-4k" channelId="3923" group-title="HD",Наша Сибирь 4K (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw6000000/variant.m3u8
 #EXTINF:-1 tvg-id="eurosport-4k" channelId="4024" group-title="HD",Eurosport 4K (HD)
@@ -395,7 +395,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw6000000/variant.m3u
 #EXTINF:-1 tvg-id="eurosport-4k" channelId="4024" group-title="Ultra HD",Eurosport 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="russian-extreme-uhd" channelId="2662" group-title="Развлекательные",Russian Extreme Ultra (HD)
+#EXTINF:-1 tvg-id="russian-extreme-uhd" channelId="2662" group-title="HD",Russian Extreme Ultra (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/bw6000000/variant.m3u8
 #EXTINF:-1 tvg-id="doverie" channelId="395" group-title="Развлекательные",Москва. Доверие
@@ -410,7 +410,7 @@ http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_TSM/variant.m3u8
 #EXTINF:-1 group-title="Развлекательные",Супер
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8
-#EXTINF:-1 group-title="Развлекательные",ТЕО-ТВ HD
+#EXTINF:-1 group-title="HD",ТЕО-ТВ HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TEOTV/variant.m3u8
 #EXTINF:-1 group-title="Развлекательные",ТНТ4
