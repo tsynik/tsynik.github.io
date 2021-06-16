@@ -306,9 +306,6 @@ http://s37630.cdn.ngenix.net/hls/CH_UFCHD_HLS/variant.m3u8
 # #EXTINF:0 group-title="HD" tvg-id="russia-today",Russia Today HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_RTTVHD/variant.m3u8  
-#EXTINF:0 group-title="Ultra HD" tvg-id="russian-extreme-uhd",Russian Extreme Ultra
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/variant.m3u8
 
 #EXTINF:-1 tvg-id="pervy" channelId="1" group-title="Эфирные",Первый канал
 #EXTVLCOPT:http-user-agent=Google
@@ -389,12 +386,15 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
 #EXTINF:-1 tvg-id="nasha-sibir-4k" channelId="3923" group-title="HD",Наша Сибирь 4K (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw6000000/variant.m3u8
-#EXTINF:-1 tvg-id="eurosport-4k" channelId="4024" group-title="HD",Eurosport 4K (HD)
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw6000000/variant.m3u8
 #EXTINF:-1 tvg-id="eurosport-4k" channelId="4024" group-title="Ultra HD",Eurosport 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/variant.m3u8
+#EXTINF:-1 tvg-id="eurosport-4k" channelId="4024" group-title="HD",Eurosport 4K (HD)
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw6000000/variant.m3u8
+#EXTINF:0 group-title="Ultra HD" tvg-id="russian-extreme-uhd",Russian Extreme Ultra
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/variant.m3u8
 #EXTINF:-1 tvg-id="russian-extreme-uhd" channelId="2662" group-title="HD",Russian Extreme Ultra (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/bw6000000/variant.m3u8
