@@ -21,7 +21,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8
 #EXTINF:-1 channelId="7" tvg-id="rossia-24" group-title="Эфирные",Россия 24
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8
-#EXTINF:-1 channelId="8" tvg-id="karusel" group-title="Детские",Карусель
+#EXTINF:-1 channelId="8" tvg-id="karusel" group-title="Эфирные",Карусель
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
 #EXTINF:-1 channelId="9" tvg-id="otr" group-title="Эфирные",ОТР
