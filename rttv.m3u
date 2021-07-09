@@ -1,36 +1,100 @@
 #EXTM3U deinterlace=1 m3uautoload=1 url-tvg="http://iptvx.one/EPG" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}"
-
-# #EXTINF:0 group-title="HD" tvg-id="pervy",Первый канал HD  
+# EFIR
+#EXTINF:-1 channelId="1" tvg-id="pervy" group-title="Эфирные",Первый канал
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
+#EXTINF:-1 channelId="2" tvg-id="rossia1" group-title="Эфирные",Россия 1
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/variant.m3u8
+#EXTINF:-1 channelId="3" tvg-id="match-tv" group-title="Эфирные",Матч! ТВ
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
+#EXTINF:-1 channelId="4" tvg-id="ntv" group-title="Эфирные",НТВ
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
+#EXTINF:-1 channelId="5" tvg-id="5kanal-ru" group-title="Эфирные",Пятый канал
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
+#EXTINF:-1 channelId="6" tvg-id="kultura" group-title="Эфирные",Россия К
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8
+#EXTINF:-1 channelId="7" tvg-id="rossia-24" group-title="Эфирные",Россия 24
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8
+#EXTINF:-1 channelId="8" tvg-id="karusel" group-title="Детские",Карусель
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
+#EXTINF:-1 channelId="9" tvg-id="otr" group-title="Эфирные",ОТР
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
+#EXTINF:-1 channelId="10" tvg-id="tvcentr" group-title="Эфирные",ТВ Центр
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8
+#EXTINF:-1 channelId="11" tvg-id="rentv" group-title="Эфирные",Рен ТВ
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_HLS/variant.m3u8
+#EXTINF:-1 channelId="12" tvg-id="spas" group-title="Эфирные",Спас
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/variant.m3u8
+#EXTINF:-1 channelId="13" tvg-id="sts" group-title="Эфирные",СТС
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
+#EXTINF:-1 channelId="14" tvg-id="domashny" group-title="Эфирные",Домашний
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
+#EXTINF:-1 channelId="15" tvg-id="tv3-ru" group-title="Эфирные",ТВ-3
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
+#EXTINF:-1 channelId="16" tvg-id="piatnica" group-title="Эфирные",Пятница
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
+#EXTINF:-1 channelId="17" tvg-id="zvezda" group-title="Эфирные",Звезда
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/variant.m3u8
+#EXTINF:-1 channelId="18" tvg-id="mir" group-title="Эфирные",Мир
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/variant.m3u8
+#EXTINF:-1 channelId="19" tvg-id="tnt" group-title="Эфирные",ТНТ
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
+#EXTINF:-1 channelId="20" tvg-id="muztv" group-title="Эфирные",Муз-ТВ
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
+#EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Эфирные",Москва 24
+#EXTVLCOPT:http-user-agent=Google
+http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MOSKOV24/variant.m3u8
+# HD
+# #EXTINF:-1 group-title="HD" tvg-id="pervy",Первый канал HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_1TV/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="rossia1",Россия 1 HD  
+# #EXTINF:-1 group-title="HD" tvg-id="rossia1",Россия 1 HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_RUSSIA1HD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="ntv",НТВ HD  
+# #EXTINF:-1 group-title="HD" tvg-id="ntv",НТВ HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_HD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="izvestia",Известия HD  
+# #EXTINF:-1 group-title="HD" tvg-id="izvestia",Известия HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_IZVESTIYAHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="france-24",France 24 HD  
+# #EXTINF:-1 group-title="HD" tvg-id="france-24",France 24 HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_FRANCE24HD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="360-int",360° HD  
+# #EXTINF:-1 group-title="HD" tvg-id="360-int",360° HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_PODMOSKOVIEHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="animal-planet",Animal Planet HD  
+# #EXTINF:-1 group-title="HD" tvg-id="animal-planet",Animal Planet HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_ANIMALPLANETHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="discovery-channel",Discovery Channel HD  
+# #EXTINF:-1 group-title="HD" tvg-id="discovery-channel",Discovery Channel HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_DISCOVERYCHANNELHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="tayny-galaktiki",Galaxy TV HD  
+# #EXTINF:-1 group-title="HD" tvg-id="tayny-galaktiki",Galaxy TV HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_TAINYGALAKTIKIHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="h2",H2 HD  
+# #EXTINF:-1 group-title="HD" tvg-id="h2",H2 HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_H2HD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="history-hd",History HD  
+# #EXTINF:-1 group-title="HD" tvg-id="history-hd",History HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_HDHISTORY/variant.m3u8  
 # #EXTINF:-1 group-title="HD" tvg-id="id-xtra-ru",ID Investigation Discovery HD  
@@ -39,372 +103,324 @@
 # #EXTINF:-1 group-title="HD" tvg-id="museum-hd",Museum HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_MUSEUMHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="myzen-tv",myZen.tv HD  
+# #EXTINF:-1 group-title="HD" tvg-id="myzen-tv",myZen.tv HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_MYZENTVHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="nat-geo-wild",Nat Geo Wild HD  
+# #EXTINF:-1 group-title="HD" tvg-id="nat-geo-wild",Nat Geo Wild HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_NATGEOWILDHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="national-geographic",National Geographic HD  
+# #EXTINF:-1 group-title="HD" tvg-id="national-geographic",National Geographic HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_NGCHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="rtg-hd",RTG HD  
+# #EXTINF:-1 group-title="HD" tvg-id="rtg-hd",RTG HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_RTGHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="rtd-hd",RTД HD  
+# #EXTINF:-1 group-title="HD" tvg-id="rtd-hd",RTД HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_RTDHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="tlc",TLC HD  
+# #EXTINF:-1 group-title="HD" tvg-id="tlc",TLC HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_TLCHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="travel-channel",Travel Channel HD  
+# #EXTINF:-1 group-title="HD" tvg-id="travel-channel",Travel Channel HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_TRAVELCHANNELHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="viasat-explore",Viasat Explore HD  
+# #EXTINF:-1 group-title="HD" tvg-id="viasat-explore",Viasat Explore HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_VIASATEXPLOREHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="viasat-history",Viasat History HD  
+# #EXTINF:-1 group-title="HD" tvg-id="viasat-history",Viasat History HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_VIASATHISTORYHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="viasat-nature-history-hd",Viasat Nature/History HD  
+# #EXTINF:-1 group-title="HD" tvg-id="viasat-nature-history-hd",Viasat Nature/History HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_VIASATNATUREHISTORYHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="bolshaya-azia",Большая Азия HD  
+# #EXTINF:-1 group-title="HD" tvg-id="bolshaya-azia",Большая Азия HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_BIGASIAHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="morskoy",Морской HD  
+# #EXTINF:-1 group-title="HD" tvg-id="morskoy",Морской HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_MORSKOYHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-name="Поехали!,Поехали! HD  
+# #EXTINF:-1 group-title="HD" tvg-name="Поехали!,Поехали! HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_POEHALIHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="planeta-hd",Моя Планета HD  
+# #EXTINF:-1 group-title="HD" tvg-id="planeta-hd",Моя Планета HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_IQHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="pobeda",Победа HD  
+# #EXTINF:-1 group-title="HD" tvg-id="pobeda",Победа HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_POBEDAHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="eurosport1",Eurosport 1 HD  
+# #EXTINF:-1 group-title="HD" tvg-id="eurosport1",Eurosport 1 HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C02_EUROSPORTHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="eurosport1",Eurosport 2 HD  
+# #EXTINF:-1 group-title="HD" tvg-id="eurosport1",Eurosport 2 HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT2HD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="eurosport-gold",Eurosport Gold HD  
+# #EXTINF:-1 group-title="HD" tvg-id="eurosport-gold",Eurosport Gold HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT_GHD/variant.m3u8  
-#EXTINF:0 group-title="HD" tvg-id="ufc",UFC HD
+#EXTINF:-1 channelId="600" tvg-id="ufc" group-title="HD",UFC HD
 #EXTVLCOPT:http-user-agent=Google
-http://s37630.cdn.ngenix.net/hls/CH_UFCHD_HLS/variant.m3u8
-# #EXTINF:0 group-title="HD" tvg-id="viasat-sport-hd",Viasat Sport HD  
+http://zabava-htlive.cdn.ngenix.net/hls/CH_UFCHD_HLS/variant.m3u8
+# http://s37630.cdn.ngenix.net/hls/CH_UFCHD_HLS/variant.m3u8
+# #EXTINF:-1 group-title="HD" tvg-id="viasat-sport-hd",Viasat Sport HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C06_VIASATSPORTHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="kxl-hd",КХЛ HD  
+# #EXTINF:-1 group-title="HD" tvg-id="kxl-hd",КХЛ HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C02_KHLHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="match-arena",Матч! Арена HD  
+# #EXTINF:-1 group-title="HD" tvg-id="match-arena",Матч! Арена HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_SPORT1HD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="match-igra",Матч! Игра HD  
+# #EXTINF:-1 group-title="HD" tvg-id="match-igra",Матч! Игра HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHIGRAHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="match-premier",Матч! Премьер HD  
+# #EXTINF:-1 group-title="HD" tvg-id="match-premier",Матч! Премьер HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C06_NASHFOOTBALLHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="match-tv",Матч! ТВ HD  
+# #EXTINF:-1 group-title="HD" tvg-id="match-tv",Матч! ТВ HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTVHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="match-football1",Матч! Футбол 1 HD  
+# #EXTINF:-1 group-title="HD" tvg-id="match-football1",Матч! Футбол 1 HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_FUTBALL1HD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="match-football2",Матч! Футбол 2 HD  
+# #EXTINF:-1 group-title="HD" tvg-id="match-football2",Матч! Футбол 2 HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_FUTBALL2HD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="match-football3",Матч! Футбол 3 HD  
+# #EXTINF:-1 group-title="HD" tvg-id="match-football3",Матч! Футбол 3 HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_FUTBALL3HD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="football-ru",Футбол HD  
+# #EXTINF:-1 group-title="HD" tvg-id="football-ru",Футбол HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_FUTBALLHD/variant.m3u8  
-# #EXTINF:0 group-title="Ultra HD" tvg-id="ultra-hd-cinema",Ultra HD Cinema  
-# #EXTVLCOPT:http-user-agent=Google  
-# http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="rentv",РЕН ТВ HD  
+# #EXTINF:-1 group-title="HD" tvg-id="rentv",РЕН ТВ HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTVHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="teatr",Театр HD  
+# #EXTINF:-1 group-title="HD" tvg-id="teatr",Театр HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_THEATERHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="tnt",ТНТ HD  
+# #EXTINF:-1 group-title="HD" tvg-id="tnt",ТНТ HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_TNTHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="cartoon-network",Cartoon Network HD  
+# #EXTINF:-1 group-title="HD" tvg-id="cartoon-network",Cartoon Network HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_CARTOON_NETWORKSHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="nickelodeon-hd",Nickelodeon HD  
+# #EXTINF:-1 group-title="HD" tvg-id="nickelodeon-hd",Nickelodeon HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C01_NICKELODEONHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="tlum-hd",Мульт HD  
+# #EXTINF:-1 group-title="HD" tvg-id="tlum-hd",Мульт HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_TLUMHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="1hd",1 HD Music Television  
+# #EXTINF:-1 group-title="HD" tvg-id="1hd",1 HD Music Television  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_1HDMUSICTV/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="bridge-hd",Bridge TV HD  
+# #EXTINF:-1 group-title="HD" tvg-id="bridge-hd",Bridge TV HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_BRIDGEHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="clubbing-tv",Clubbing TV HD  
+# #EXTINF:-1 group-title="HD" tvg-id="clubbing-tv",Clubbing TV HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_CLUBBINGHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="mezzo-live-hd",Mezzo Live HD  
+# #EXTINF:-1 group-title="HD" tvg-id="mezzo-live-hd",Mezzo Live HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_MEZZOLIVEHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="mtv-russia",MTV HD  
+# #EXTINF:-1 group-title="HD" tvg-id="mtv-russia",MTV HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_MTVHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id-="mtv-live-hd",MTV Live HD  
+# #EXTINF:-1 group-title="HD" tvg-id-="mtv-live-hd",MTV Live HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_MTVLIVEHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="russian-musicbox",Music Box RU HD  
+# #EXTINF:-1 group-title="HD" tvg-id="russian-musicbox",Music Box RU HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAN_MUSICBOXHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="ru-tv",RU TV HD  
+# #EXTINF:-1 group-title="HD" tvg-id="ru-tv",RU TV HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_RUTVHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="iconcerts",Stingray iConcerts HD  
+# #EXTINF:-1 group-title="HD" tvg-id="iconcerts",Stingray iConcerts HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_ICONCERTSHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="zhara",Жара HD  
+# #EXTINF:-1 group-title="HD" tvg-id="zhara",Жара HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_JARAHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="o2tv",О2ТВ HD  
+# #EXTINF:-1 group-title="HD" tvg-id="o2tv",О2ТВ HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_O2TVHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="amedia1",A1 HD  
+# #EXTINF:-1 group-title="HD" tvg-id="amedia1",A1 HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C01_HDAMEDIA/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="amedia2",A2 HD  
+# #EXTINF:-1 group-title="HD" tvg-id="amedia2",A2 HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_A2PROLYBOV/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="amedia-hit",Amedia Hit HD  
+# #EXTINF:-1 group-title="HD" tvg-id="amedia-hit",Amedia Hit HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_AMEDIAHITHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="amedia-premium",Amedia Premium HD  
+# #EXTINF:-1 group-title="HD" tvg-id="amedia-premium",Amedia Premium HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_HDAMEDIAPREMIUM/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="bolt",Bolt HD  
+# #EXTINF:-1 group-title="HD" tvg-id="bolt",Bolt HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_BOLTHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="fanhd",FAN HD  
+# #EXTINF:-1 group-title="HD" tvg-id="fanhd",FAN HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_FANHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="fox",FOX HD  
+# #EXTINF:-1 group-title="HD" tvg-id="fox",FOX HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C02_FOXHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="foxlife",FOX Life HD  
+# #EXTINF:-1 group-title="HD" tvg-id="foxlife",FOX Life HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_FOXLIFEHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="paramount-channel",Paramount Channel HD  
+# #EXTINF:-1 group-title="HD" tvg-id="paramount-channel",Paramount Channel HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C02_PARAMOUNTCHANNELHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="paramount-comedy",Paramount Comedy HD  
+# #EXTINF:-1 group-title="HD" tvg-id="paramount-comedy",Paramount Comedy HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_PARAMOUNTCOMEDYHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="sony-tv",Sony Channel HD  
+# #EXTINF:-1 group-title="HD" tvg-id="sony-tv",Sony Channel HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C02_SETHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="star-cinema" tvg-logo="http://epg.it999.ru/img/2145.png",Star Cinema HD (Россия)  
+# #EXTINF:-1 group-title="HD" tvg-id="star-cinema" tvg-logo="http://epg.it999.ru/img/2145.png",Star Cinema HD (Россия)  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_STARCINEMAHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="star-family" tvg-logo="http://epg.it999.ru/img/2153.png",Star Family HD (Россия)  
+# #EXTINF:-1 group-title="HD" tvg-id="star-family" tvg-logo="http://epg.it999.ru/img/2153.png",Star Family HD (Россия)  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_STARFAMILYHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="tv1000-action",TV 1000 Action HD  
+# #EXTINF:-1 group-title="HD" tvg-id="tv1000-action",TV 1000 Action HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_TV1000ACTIONHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="tv1000",TV 1000 HD  
+# #EXTINF:-1 group-title="HD" tvg-id="tv1000",TV 1000 HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_TV1000HD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="tv1000-russkoe-kino",TV 1000 Русское кино HD  
+# #EXTINF:-1 group-title="HD" tvg-id="tv1000-russkoe-kino",TV 1000 Русское кино HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_TV1000RUSSKOEKINOHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="vip-comedy",ViP Comedy HD  
+# #EXTINF:-1 group-title="HD" tvg-id="vip-comedy",ViP Comedy HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_TV1000COMEDYHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="vip-megahit",ViP Megahit HD  
+# #EXTINF:-1 group-title="HD" tvg-id="vip-megahit",ViP Megahit HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_TV1000MEGAHITHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="vip-premiere",ViP Premiere HD  
+# #EXTINF:-1 group-title="HD" tvg-id="vip-premiere",ViP Premiere HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_TV1000PREMIUMHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="vip-serial",VIP Serial HD  
+# #EXTINF:-1 group-title="HD" tvg-id="vip-serial",VIP Serial HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C06_VIASATGOLFHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="vsio-tv",Всё ТВ HD  
+# #EXTINF:-1 group-title="HD" tvg-id="vsio-tv",Всё ТВ HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_VSETVHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="domkino-premium",Дом кино премиум HD  
+# #EXTINF:-1 group-title="HD" tvg-id="domkino-premium",Дом кино премиум HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMKINOPREMIUMHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="kino-tv",Кино ТВ HD  
+# #EXTINF:-1 group-title="HD" tvg-id="kino-tv",Кино ТВ HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_KINOTVHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="kinopremiera-hd",Кинопремьера HD  
+# #EXTINF:-1 group-title="HD" tvg-id="kinopremiera-hd",Кинопремьера HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_KINOPREMIEREHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="kinosvidanie",Киносвидание HD  
+# #EXTINF:-1 group-title="HD" tvg-id="kinosvidanie",Киносвидание HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_KINODATEHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="kinosemiya",Киносемья HD  
+# #EXTINF:-1 group-title="HD" tvg-id="kinosemiya",Киносемья HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_KINOFAMILYHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="kinoxit",Кинохит HD  
+# #EXTINF:-1 group-title="HD" tvg-id="kinoxit",Кинохит HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_KINOHITHD/variant.m3u8  
-# #EXTINF:0 tvg-id="russky-roman" group-title="HD",Русский роман HD  
+# #EXTINF:-1 tvg-id="russky-roman" group-title="HD",Русский роман HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSKIYROMANHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="strashnoe-hd",Страшное HD  
+# #EXTINF:-1 group-title="HD" tvg-id="strashnoe-hd",Страшное HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C01_STRASHNOEHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="bollywood-hd",Bollywood HD  
+# #EXTINF:-1 group-title="HD" tvg-id="bollywood-hd",Bollywood HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_BOLLYWOODHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="avto24",АВТО24 HD  
+# #EXTINF:-1 group-title="HD" tvg-id="avto24",АВТО24 HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_AVTO24HD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="dialogi-o-rybalke",Диалоги о рыбалке HD  
+# #EXTINF:-1 group-title="HD" tvg-id="dialogi-o-rybalke",Диалоги о рыбалке HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_DIALORYBHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="dikaya-oxota-hd",Дикая охота HD  
+# #EXTINF:-1 group-title="HD" tvg-id="dikaya-oxota-hd",Дикая охота HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_DIKAYAOHOTAHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="dikaya-rybalka-hd",Дикая рыбалка HD  
+# #EXTINF:-1 group-title="HD" tvg-id="dikaya-rybalka-hd",Дикая рыбалка HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_DIKAYARYBALKAHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="oxotnik-i-rybolov-hd",Охотник и рыболов HD  
+# #EXTINF:-1 group-title="HD" tvg-id="oxotnik-i-rybolov-hd",Охотник и рыболов HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_OHOTNIKIRYBOLOVHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="food-network",Food Network HD  
+# #EXTINF:-1 group-title="HD" tvg-id="food-network",Food Network HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_FOODHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="world-fashion-channel",World Fashion Channel HD  
+# #EXTINF:-1 group-title="HD" tvg-id="world-fashion-channel",World Fashion Channel HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_WFCHD/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="s1-surgut",C1 HD (Сургут)  
+# #EXTINF:-1 group-title="HD" tvg-id="s1-surgut",C1 HD (Сургут)  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_C1_URAL_SUR/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="noyabrsk24",Ноябрьск 24 HD  
+# #EXTINF:-1 group-title="HD" tvg-id="noyabrsk24",Ноябрьск 24 HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NOY24_URAL_NOY/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="osetia-iryston",Осетия Ирыстон HD  
+# #EXTINF:-1 group-title="HD" tvg-id="osetia-iryston",Осетия Ирыстон HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VKAZ_IRISTON/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="otv-chelyabinsk",ОТВ HD (Челябинск)  
+# #EXTINF:-1 group-title="HD" tvg-id="otv-chelyabinsk",ОТВ HD (Челябинск)  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_CHEL/variant.m3u8  
-# #EXTINF:0 group-title="HD" tvg-id="russia-today",Russia Today HD  
+# #EXTINF:-1 group-title="HD" tvg-id="russia-today",Russia Today HD  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_RTTVHD/variant.m3u8  
 
-#EXTINF:-1 tvg-id="pervy" channelId="1" group-title="Эфирные",Первый канал
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
-#EXTINF:-1 tvg-id="rossia1" channelId="2" group-title="Эфирные",Россия 1
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/variant.m3u8
-#EXTINF:-1 group-title="Эфирные",Матч! ТВ
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
-#EXTINF:-1 tvg-id="ntv" channelId="6" group-title="Эфирные",НТВ
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
-#EXTINF:-1 group-title="Эфирные",Пятый канал
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
-#EXTINF:-1 tvg-id="kultura" channelId="5" group-title="Эфирные",Россия К
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8
-#EXTINF:-1 tvg-id="rossia-24" channelId="10" group-title="Эфирные",Россия 24
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8
-#EXTINF:-1 group-title="Детские",Карусель
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
-#EXTINF:-1 group-title="Эфирные",ОТР
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
-#EXTINF:-1 group-title="Эфирные",ТВ Центр
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8
-#EXTINF:-1 group-title="Эфирные",Рен ТВ
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="spas" channelId="244" group-title="Эфирные",Спас
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/variant.m3u8
-#EXTINF:-1 group-title="Эфирные",СТС
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
-#EXTINF:-1 group-title="Эфирные",Домашний
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
-#EXTINF:-1 group-title="Эфирные",ТВ-3
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
-#EXTINF:-1 group-title="Эфирные",Пятница
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
-#EXTINF:-1 group-title="Эфирные",Звезда
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/variant.m3u8
-#EXTINF:-1 group-title="Эфирные",Мир
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/variant.m3u8
-#EXTINF:-1 group-title="Эфирные",ТНТ
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
-#EXTINF:-1 tvg-id="muztv" channelId="136" group-title="Эфирные",Муз-ТВ
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
-#EXTINF:-1 group-title="Эфирные",2x2
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
-
-#EXTINF:-1 group-title="Информационные",Москва 24
-#EXTVLCOPT:http-user-agent=Google
-http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MOSKOV24/variant.m3u8
-#EXTINF:-1 tvg-id="love-nature-4k" channelId="2035" group-title="Ultra HD",Love Nature 4K
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="love-nature-4k" channelId="2035" group-title="HD",Love Nature 4K (HD)
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/bw6000000/variant.m3u8
-#EXTINF:-1 tvg-id="nasha-sibir-4k" channelId="3923" group-title="Ultra HD",Наша Сибирь 4K
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
-#EXTINF:-1 tvg-id="nasha-sibir-4k" channelId="3923" group-title="HD",Наша Сибирь 4K (HD)
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw6000000/variant.m3u8
-#EXTINF:-1 tvg-id="eurosport-4k" channelId="4024" group-title="Ultra HD",Eurosport 4K
+# UHD
+#EXTINF:-1 channelId="987" tvg-id="eurosport-4k" group-title="Ultra HD",Eurosport 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="eurosport-4k" channelId="4024" group-title="HD",Eurosport 4K (HD)
+#EXTINF:-1 channelId="987" tvg-id="eurosport-4k" group-title="HD",Eurosport 4K (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw6000000/variant.m3u8
-#EXTINF:0 group-title="Ultra HD" tvg-id="russian-extreme-uhd",Russian Extreme Ultra
+#EXTINF:-1 channelId="988" tvg-id="love-nature-4k" group-title="Ultra HD",Love Nature 4K
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/variant.m3u8
+#EXTINF:-1 channelId="988" tvg-id="love-nature-4k" group-title="HD",Love Nature 4K (HD)
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/bw6000000/variant.m3u8
+#EXTINF:-1 channelId="991" tvg-id="russian-extreme-uhd" group-title="Ultra HD",Russian Extreme Ultra
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/variant.m3u8
-#EXTINF:-1 tvg-id="russian-extreme-uhd" channelId="2662" group-title="HD",Russian Extreme Ultra (HD)
+#EXTINF:-1 channelId="991" tvg-id="russian-extreme-uhd" group-title="HD",Russian Extreme Ultra (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/bw6000000/variant.m3u8
-#EXTINF:-1 tvg-id="doverie" channelId="395" group-title="Развлекательные",Москва. Доверие
+#EXTINF:-1 channelId="992" tvg-id="ultra-hd-cinema" group-title="Ultra HD",Ultra HD Cinema
+#EXTVLCOPT:http-user-agent=Google  
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8  
+#EXTINF:-1 channelId="992" tvg-id="ultra-hd-cinema" group-title="HD",Ultra HD Cinema (HD)
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m3u8
+#EXTINF:-1 channelId="993" tvg-id="nasha-sibir-4k" group-title="Ultra HD",Наша Сибирь 4K
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
+#EXTINF:-1 channelId="993" tvg-id="nasha-sibir-4k" group-title="HD",Наша Сибирь 4K (HD)
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw6000000/variant.m3u8
+
+# OTHERS
+#EXTINF:-1 channelId="25" tvg-id="doverie" group-title="Развлекательные",Москва. Доверие
 #EXTVLCOPT:http-user-agent=Google
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_DOVERIE/variant.m3u8
-#EXTINF:-1 group-title="Развлекательные",СТС Love
+#EXTINF:-1 channelId="27" group-title="Развлекательные",Че
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
+#EXTINF:-1 channelId="34" group-title="Развлекательные",Ю
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8
+#EXTINF:-1 channelId="103" group-title="Развлекательные",СТС Love
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
-#EXTINF:-1 shift="4" tvg-id="sts-mir" channelId="-1" group-title="Развлекательные",СТС-Мир
+#EXTINF:-1 channelId="406" group-title="Развлекательные",2x2
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
+#EXTINF:-1 channelId="408" group-title="Развлекательные",ТНТ4
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
+#EXTINF:-1 shift="4" tvg-id="sts-mir" group-title="Развлекательные",СТС-Мир
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_TSM/variant.m3u8
 #EXTINF:-1 group-title="Развлекательные",Супер
@@ -413,34 +429,19 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8
 #EXTINF:-1 group-title="HD",ТЕО-ТВ HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TEOTV/variant.m3u8
-#EXTINF:-1 group-title="Развлекательные",ТНТ4
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
-# #EXTINF:-1 tvg-id="teledom" channelId="644" group-title="Развлекательные",Теледом  
-# #EXTVLCOPT:http-user-agent=Google  
-# http://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_TELEDOM/variant.m3u8  
-#EXTINF:-1 group-title="Развлекательные",Че
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
-#EXTINF:-1 group-title="Развлекательные",Ю
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8
-#EXTINF:-1 tvg-id="disney" channelId="19" group-title="Детские",Disney
+#EXTINF:-1 channelId="302" tvg-id="disney" group-title="Детские",Disney
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
-#EXTINF:-1 tvg-id="acb-tv" channelId="330" group-title="Музыкальные",9 Волна
+#EXTINF:-1 tvg-id="acb-tv" group-title="Музыкальные",9 Волна
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R02_OTT_STH_CHERKS_9VOLNA-CHRK/variant.m3u8
-#EXTINF:-1 tvg-id="matur-tv" channelId="-1" group-title="Музыкальные",Матур ТВ
+#EXTINF:-1 tvg-id="matur-tv" group-title="Музыкальные",Матур ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
-#EXTINF:-1 group-title="HD",Ultra HD Cinema (HD)
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m3u8
-#EXTINF:-1 tvg-id="12-omsk" channelId="-1" group-title="Региональные",12 канал HD (Омск)
+#EXTINF:-1 tvg-id="12-omsk" group-title="Региональные",12 канал HD (Омск)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_12CHANNEL/variant.m3u8
-#EXTINF:-1 tvg-id="31-kanal-chelyabinsk" channelId="-1" group-title="Региональные",31 канал Челябинск
+#EXTINF:-1 tvg-id="31-kanal-chelyabinsk" group-title="Региональные",31 канал Челябинск
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_31TVK_CHEL/variant.m3u8
 #EXTINF:-1 group-title="Региональные",41 Регион
@@ -449,208 +450,208 @@ http://s14131.cdn.ngenix.net/hls/CH_R02_OTT_DV_KAM_41REG_OTT/variant.m3u8
 #EXTINF:-1 group-title="Региональные",41 Телеканал ВТК АРГУС HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_ARGUS/variant.m3u8
-#EXTINF:-1 tvg-id="49kanal" channelId="271" group-title="Региональные",49 канал Новосибирск
+#EXTINF:-1 tvg-id="49kanal" group-title="Региональные",49 канал Новосибирск
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_49CHANNEL/variant.m3u8
-#EXTINF:-1 tvg-id="6tv" channelId="-1" group-title="Региональные",6 ТВ
+#EXTINF:-1 tvg-id="6tv" group-title="Региональные",6 ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_6TV/variant.m3u8
-#EXTINF:-1 tvg-id="7kanal-krasnoyarsk" channelId="756" group-title="Региональные",Рен ТВ 7 Канал (Красноярск)
+#EXTINF:-1 tvg-id="7kanal-krasnoyarsk" group-title="Региональные",Рен ТВ 7 Канал (Красноярск)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R13_OTT_SIB_KRSK_RENTV/variant.m3u8
-#EXTINF:-1 tvg-id="8vladik" channelId="1535" group-title="Региональные",8 канал Владивосток
+#EXTINF:-1 tvg-id="8vladik" group-title="Региональные",8 канал Владивосток
 #EXTVLCOPT:http-user-agent=Google
 http://s91030.cdn.ngenix.net/hls/CH_R01_OTT_DV_VLD_OTT8KANAL/variant.m3u8
-#EXTINF:-1 tvg-id="8kanal-krasnoyarsk" channelId="2480" group-title="Региональные",8 канал Красноярский край
+#EXTINF:-1 tvg-id="8kanal-krasnoyarsk" group-title="Региональные",8 канал Красноярский край
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_SIB_KRSK_8CHANNEL/variant.m3u8
-#EXTINF:-1 tvg-id="8kanal-novosibirsk" channelId="-1" group-title="Региональные",8 канал Новосибирск
+#EXTINF:-1 tvg-id="8kanal-novosibirsk" group-title="Региональные",8 канал Новосибирск
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_8CHANNEL/variant.m3u8
-#EXTINF:-1 tvg-id="kurgan-ru" channelId="-1" group-title="Региональные",Kurgan.ru
+#EXTINF:-1 tvg-id="kurgan-ru" group-title="Региональные",Kurgan.ru
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_KURRU_URAL_KRG/variant.m3u8
 #EXTINF:-1 group-title="Региональные",MTVmix
 #EXTVLCOPT:http-user-agent=Google
 http://s45177.cdn.ngenix.net/hls/CH_R02_MTVMIX/variant.m3u8
-#EXTINF:-1 tvg-id="tmtv" channelId="1914" group-title="Региональные",TMTV
+#EXTINF:-1 tvg-id="tmtv" group-title="Региональные",TMTV
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_KZN_TMTV/variant.m3u8
 #EXTINF:-1 group-title="Региональные",TV Губерния
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_VRZH_TVGUBERNIYA/variant.m3u8
-#EXTINF:-1 tvg-id="ugra-travel" channelId="3158" group-title="Региональные",UGRA Travel
+#EXTINF:-1 tvg-id="ugra-travel" group-title="Региональные",UGRA Travel
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_TRAVEL/variant.m3u8
-#EXTINF:-1 tvg-id="univer-tv" channelId="1763" group-title="Региональные",Univer TV
+#EXTINF:-1 tvg-id="univer-tv" group-title="Региональные",Univer TV
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R04_UNIVER/variant.m3u8
-#EXTINF:-1 tvg-id="aist" channelId="611" group-title="Региональные",АИСТ HD
+#EXTINF:-1 tvg-id="aist" group-title="Региональные",АИСТ HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_AIST/variant.m3u8
-#EXTINF:-1 tvg-id="atv-media" channelId="1775" group-title="Региональные",АТВ-Медиа
+#EXTINF:-1 tvg-id="atv-media" group-title="Региональные",АТВ-Медиа
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_ATV/variant.m3u8
-#EXTINF:-1 tvg-id="atv-media" channelId="1775" group-title="Региональные",АТВ-Ставрополь
+#EXTINF:-1 tvg-id="atv-media" group-title="Региональные",АТВ-Ставрополь
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ATVMEDIA/variant.m3u8
-#EXTINF:-1 tvg-id="aktis" channelId="-1" group-title="Региональные",Актис HD
+#EXTINF:-1 tvg-id="aktis" group-title="Региональные",Актис HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-irk-htlive-lb.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_AKTIS/variant.m3u8
-#EXTINF:-1 tvg-id="arig-us-24" channelId="522" group-title="Региональные",Ариг Ус 24 HD
+#EXTINF:-1 tvg-id="arig-us-24" group-title="Региональные",Ариг Ус 24 HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ARIGUS/variant.m3u8
-#EXTINF:-1 tvg-id="arig-us-24" channelId="522" group-title="Региональные",Ариг Ус 24
+#EXTINF:-1 tvg-id="arig-us-24" group-title="Региональные",Ариг Ус 24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_UUDE_ARIGUS/variant.m3u8
-#EXTINF:-1 tvg-id="arktik-tv" channelId="-1" group-title="Региональные",Арктик-TV HD
+#EXTINF:-1 tvg-id="arktik-tv" group-title="Региональные",Арктик-TV HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R03_ARCTIC/variant.m3u8
-#EXTINF:-1 tvg-id="vremia-arktiki" channelId="-1" group-title="Региональные",Арктика 24 HD
+#EXTINF:-1 tvg-id="vremia-arktiki" group-title="Региональные",Арктика 24 HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_ARKTIKA24_URAL_YNF/variant.m3u8
-#EXTINF:-1 tvg-id="arxyz24" channelId="313" group-title="Региональные",Архыз-24 HD
+#EXTINF:-1 tvg-id="arxyz24" group-title="Региональные",Архыз-24 HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STH_CHERKS_ARKHIZ241/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Астрахань 24 HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-astrh-htlive.cdn.ngenix.net/hls/CH_R01_ASTRAKHAN24/variant.m3u8
-#EXTINF:-1 tvg-id="afontovo-kr" channelId="362" group-title="Региональные",Афонтово HD (Красноярск)
+#EXTINF:-1 tvg-id="afontovo-kr" group-title="Региональные",Афонтово HD (Красноярск)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KRSK_AFONTOVO/variant.m3u8
-#EXTINF:-1 tvg-id="bst" channelId="396" group-title="Региональные",БСТ
+#EXTINF:-1 tvg-id="bst" group-title="Региональные",БСТ
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_BST/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Барс
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_IVAN_BARS/variant.m3u8
-#EXTINF:-1 tvg-id="bashkortostan24" channelId="3979" group-title="Региональные",Башкортостан 24
+#EXTINF:-1 tvg-id="bashkortostan24" group-title="Региональные",Башкортостан 24
 #EXTVLCOPT:http-user-agent=Google
 http://s45177.cdn.ngenix.net/hls/CH_R02_BASHKORTOSTAN24/variant.m3u8
-#EXTINF:-1 tvg-id="belgorod24" channelId="2879" group-title="Региональные",Белгород 24
+#EXTINF:-1 tvg-id="belgorod24" group-title="Региональные",Белгород 24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R02_BELGOROD24/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Брянская Губерния
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-bryansk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BRYANSK_BRGRUBER/variant.m3u8
-#EXTINF:-1 tvg-id="vot-tv" channelId="37" group-title="Региональные",ВОТ ТВ
+#EXTINF:-1 tvg-id="vot-tv" group-title="Региональные",ВОТ ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R01_VOTTV/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Вектор 24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R02_VEKTOR24_GUBK/variant.m3u8
-#EXTINF:-1 tvg-id="vetta24" channelId="3960" group-title="Региональные",Ветта 24
+#EXTINF:-1 tvg-id="vetta24" group-title="Региональные",Ветта 24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VETTA24_PERM/variant.m3u8
-#EXTINF:-1 tvg-id="volga" channelId="811" group-title="Региональные",Волга
+#EXTINF:-1 tvg-id="volga" group-title="Региональные",Волга
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_NN_VOLGA/variant.m3u8
-#EXTINF:-1 tvg-id="volgograd-1" channelId="1812" group-title="Региональные",Волгоград 1 HD
+#EXTINF:-1 tvg-id="volgograd-1" group-title="Региональные",Волгоград 1 HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-vgrad-htlive.cdn.ngenix.net/hls/CH_R06_OTT_STH_VGRAD_VOLGOGRAD1/variant.m3u8
-#EXTINF:-1 tvg-id="volgograd-24" channelId="126" group-title="Региональные",Волгоград 24 HD
+#EXTINF:-1 tvg-id="volgograd-24" group-title="Региональные",Волгоград 24 HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-vgrad-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VGRAD_VOLGOGRAD24/variant.m3u8
-#EXTINF:-1 tvg-id="vostok-24" channelId="-1" group-title="Региональные",Восток 24
+#EXTINF:-1 tvg-id="vostok-24" group-title="Региональные",Восток 24
 #EXTVLCOPT:http-user-agent=Google
 http://s91030.cdn.ngenix.net/hls/CH_R01_OTT_DV_VLD_VOSTOK24_OTT/variant.m3u8
-#EXTINF:-1 tvg-id="vremia-n" channelId="-1" group-title="Региональные",Время Н
+#EXTINF:-1 tvg-id="vremia-n" group-title="Региональные",Время Н
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R04_VREMYAN/variant.m3u8
-#EXTINF:-1 tvg-id="vsia-ufa" channelId="1336" group-title="Региональные",Вся Уфа
+#EXTINF:-1 tvg-id="vsia-ufa" group-title="Региональные",Вся Уфа
 #EXTVLCOPT:http-user-agent=Google
 http://s45177.cdn.ngenix.net/hls/CH_R03_VSYUFA/variant.m3u8
-#EXTINF:-1 tvg-id="gis-samara" channelId="957" group-title="Региональные",ГИС Самара
+#EXTINF:-1 tvg-id="gis-samara" group-title="Региональные",ГИС Самара
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_OTT_VLG_SAMARA_SAMARAGIS/variant.m3u8
-#EXTINF:-1 tvg-id="gorodskoy-briansk" channelId="-1" group-title="Региональные",Городской Брянск
+#EXTINF:-1 tvg-id="gorodskoy-briansk" group-title="Региональные",Городской Брянск
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-bryansk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BRYANSK_GORODSKOY/variant.m3u8
-#EXTINF:-1 tvg-id="gorodskoy-yaroslavl" channelId="579" group-title="Региональные",Городской телеканал Ярославль
+#EXTINF:-1 tvg-id="gorodskoy-yaroslavl" group-title="Региональные",Городской телеканал Ярославль
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_YARL_GTREG/variant.m3u8
-#EXTINF:-1 tvg-id="gubernia-33" channelId="4641" group-title="Региональные",Губерния 33
+#EXTINF:-1 tvg-id="gubernia-33" group-title="Региональные",Губерния 33
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_VLAD_GUBERNIA33/variant.m3u8
-#EXTINF:-1 tvg-id="gubernia-samara" channelId="710" group-title="Региональные",Губерния Самара
+#EXTINF:-1 tvg-id="gubernia-samara" group-title="Региональные",Губерния Самара
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_OTT_VLG_SAMARA_GUBERNIA/variant.m3u8
-#EXTINF:-1 tvg-id="gubernia" channelId="779" group-title="Региональные",Губерния ТВ (Хабаровск)
+#EXTINF:-1 tvg-id="gubernia" group-title="Региональные",Губерния ТВ (Хабаровск)
 #EXTVLCOPT:http-user-agent=Google
 http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_GUBERNYA/variant.m3u8
-#EXTINF:-1 tvg-id="don-24" channelId="3888" group-title="Региональные",ДОН 24 HD
+#EXTINF:-1 tvg-id="don-24" group-title="Региональные",ДОН 24 HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-rd-htlive.cdn.ngenix.net/hls/CH_R02_OTT_STH_RD_DON24/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Девятка ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R02_OTT_VLG_KIROV_9TV/variant.m3u8
-#EXTINF:-1 tvg-id="dzenzhinsk-tv" channelId="1387" group-title="Региональные",Дзержинск ТВ
+#EXTINF:-1 tvg-id="dzenzhinsk-tv" group-title="Региональные",Дзержинск ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R01_DZERZHINSK/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Евразия
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R02_EVRAZIY/variant.m3u8
-#EXTINF:-1 tvg-id="enisey-region" channelId="620" group-title="Региональные",Енисей регион HD
+#EXTINF:-1 tvg-id="enisey-region" group-title="Региональные",Енисей регион HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KRSK_ENISEY/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Заб.TV 24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_CHITA_ZABTV/variant.m3u8
-#EXTINF:-1 tvg-id="ivanovo-ot" channelId="-1" group-title="Региональные",Ивановское общественное телевидение
+#EXTINF:-1 tvg-id="ivanovo-ot" group-title="Региональные",Ивановское общественное телевидение
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_IVAN_IOT/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Информационная служба Югры
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_PERVIYSOVETSKIY/variant.m3u8
-#EXTINF:-1 tvg-id="ktv-gorod" channelId="-1" group-title="Региональные",КТВ Город
+#EXTINF:-1 tvg-id="ktv-gorod" group-title="Региональные",КТВ Город
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_VRZH_CTVGOROD/variant.m3u8
-#EXTINF:-1 tvg-id="kabardino-balkaria" channelId="-1" group-title="Региональные",Кабардино-Балкария
+#EXTINF:-1 tvg-id="kabardino-balkaria" group-title="Региональные",Кабардино-Балкария
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-nalch-htlive-lb.cdn.ngenix.net/hls/CH_R01_OTT_STH_NALCH_KBR/variant.m3u8
-#EXTINF:-1 tvg-id="kavkaz24" channelId="2717" group-title="Региональные",Кавказ 24
+#EXTINF:-1 tvg-id="kavkaz24" group-title="Региональные",Кавказ 24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_STAVR_KAVKAZ24/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Камчатка 1 HD
 #EXTVLCOPT:http-user-agent=Google
 http://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_KAMCHATKA/variant.m3u8
-#EXTINF:-1 tvg-id="kaskad24" channelId="1912" group-title="Региональные",Каскад-24
+#EXTINF:-1 tvg-id="kaskad24" group-title="Региональные",Каскад-24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_KASKAD/variant.m3u8
-#EXTINF:-1 tvg-id="katun-24" channelId="926" group-title="Региональные",Катунь-24 (Барнаул)
+#EXTINF:-1 tvg-id="katun-24" group-title="Региональные",Катунь-24 (Барнаул)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_BUL_KATUN24/variant.m3u8
-#EXTINF:-1 tvg-id="kolyma-plus" channelId="-1" group-title="Региональные",Колыма-Плюс HD
+#EXTINF:-1 tvg-id="kolyma-plus" group-title="Региональные",Колыма-Плюс HD
 #EXTVLCOPT:http-user-agent=Google
 http://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_KOLYMA/variant.m3u8
-#EXTINF:-1 tvg-id="krasnodar" channelId="-1" group-title="Региональные",Краснодар HD
+#EXTINF:-1 tvg-id="krasnodar" group-title="Региональные",Краснодар HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_KRDAR_KRASNODAR/variant.m3u8
-#EXTINF:-1 tvg-id="kuban-24" channelId="582" group-title="Региональные",Майкопское ТВ
+#EXTINF:-1 tvg-id="kuban-24" group-title="Региональные",Майкопское ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_OTT_STH_KRDAR_MAYKOP/variant.m3u8
-#EXTINF:-1 tvg-id="kuban-24" channelId="582" group-title="Региональные",Кубань 24
+#EXTINF:-1 tvg-id="kuban-24" group-title="Региональные",Кубань 24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_OTT_STH_KRDAR_KUBAN24-T/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Кузбасс 1
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-kem-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KEM_GTRK/variant.m3u8
-#EXTINF:-1 tvg-id="lipeckoe-vremia" channelId="4162" group-title="Региональные",Липецкое время HD
+#EXTINF:-1 tvg-id="lipeckoe-vremia" group-title="Региональные",Липецкое время HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_LIPETSK_LVREM/variant.m3u8
-#EXTINF:-1 tvg-id="metr" channelId="-1" group-title="Региональные",МЭТР
+#EXTINF:-1 tvg-id="metr" group-title="Региональные",МЭТР
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-yola-htlive.cdn.ngenix.net/hls/CH_R03_METR/variant.m3u8
-#EXTINF:-1 tvg-id="maydan" channelId="398" group-title="Региональные",Майдан
+#EXTINF:-1 tvg-id="maydan" group-title="Региональные",Майдан
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R05_OTT_VLG_KZN_MAIDAN/variant.m3u8
-#EXTINF:-1 tvg-id="my-i-gorod" channelId="-1" group-title="Региональные",Мы и город
+#EXTINF:-1 tvg-id="my-i-gorod" group-title="Региональные",Мы и город
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MIGOR_URAL_KRASN/variant.m3u8
-#EXTINF:-1 tvg-id="mig-tv-noyabrsk" channelId="-1" group-title="Региональные",МИГ ТВ HD Ноябрьск
+#EXTINF:-1 tvg-id="mig-tv-noyabrsk" group-title="Региональные",МИГ ТВ HD Ноябрьск
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MIG_TV_URAL_YNF/variant.m3u8
-#EXTINF:-1 tvg-id="mir-belogoria" channelId="1108" group-title="Региональные",Мир Белогорья
+#EXTINF:-1 tvg-id="mir-belogoria" group-title="Региональные",Мир Белогорья
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BELG_MIR_BLG/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Мордовия 24
@@ -659,40 +660,40 @@ http://rt-vlg-srnk-htlive.cdn.ngenix.net/hls/CH_R02_MORDOVIY24/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Муравленко 24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_MURAVLENKO_24/variant.m3u8
-#EXTINF:-1 tvg-id="saxa" channelId="1744" group-title="Региональные",НВК Саха
+#EXTINF:-1 tvg-id="saxa" group-title="Региональные",НВК Саха
 #EXTVLCOPT:http-user-agent=Google
 http://s34351.cdn.ngenix.net/hls/CH_R03_OTT_DV_YKT_NVC_OTT/variant.m3u8
-#EXTINF:-1 tvg-id="nntv" channelId="1388" group-title="Региональные",ННТВ
+#EXTINF:-1 tvg-id="nntv" group-title="Региональные",ННТВ
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R02_OTT_VLG_NN_NNTV/variant.m3u8
-#EXTINF:-1 tvg-id="ntv" channelId="6" group-title="Региональные",НТВ (Мурманск)
+#EXTINF:-1 channelId="4" tvg-id="ntv" group-title="Региональные",НТВ (Мурманск)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R03_OTT_NW_MURM_NTV/variant.m3u8
-#EXTINF:-1 tvg-id="ntk-kz" channelId="394" group-title="Региональные",НТК
+#EXTINF:-1 tvg-id="ntk-kz" group-title="Региональные",НТК
 #EXTVLCOPT:http-user-agent=Google
 http://s97982.cdn.ngenix.net/hls/CH_R79_OTT_DV_HVSK_NTK/variant.m3u8
-#EXTINF:-1 tvg-id="ntm" channelId="580" group-title="Региональные",НТМ
+#EXTINF:-1 tvg-id="ntm" group-title="Региональные",НТМ
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-srnk-htlive.cdn.ngenix.net/hls/CH_R01_NTM/variant.m3u8
-#EXTINF:-1 tvg-id="nts-irkutsk" channelId="-1" group-title="Региональные",НТС Иркутск
+#EXTINF:-1 tvg-id="nts-irkutsk" group-title="Региональные",НТС Иркутск
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_RENTVIRK/variant.m3u8
-#EXTINF:-1 tvg-id="nts-irbit" channelId="1631" group-title="Региональные",НТС-Ирбит (Екатеринбург)
+#EXTINF:-1 tvg-id="nts-irbit" group-title="Региональные",НТС-Ирбит (Екатеринбург)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_IRBITVEST_EKT/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Национальное телевидение Чувашии
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VLG_CHR_NATIONALTV/variant.m3u8
-#EXTINF:-1 tvg-id="nash-dom" channelId="718" group-title="Региональные",Наш дом
+#EXTINF:-1 tvg-id="nash-dom" group-title="Региональные",Наш дом
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-penza-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_PENZA_NASHDOM/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Наши города (Когалым)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NGOR_URAL_SUR/variant.m3u8
-#EXTINF:-1 tvg-id="nika-tv" channelId="3962" group-title="Региональные",Ника ТВ
+#EXTINF:-1 tvg-id="nika-tv" group-title="Региональные",Ника ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-kaluga-htlive.cdn.ngenix.net/hls/CH_R01_NIKA/variant.m3u8
-#EXTINF:-1 tvg-id="novgorodskoe-obl-tv" channelId="764" group-title="Региональные",Новгородское областное телевидение
+#EXTINF:-1 tvg-id="novgorodskoe-obl-tv" group-title="Региональные",Новгородское областное телевидение
 #EXTVLCOPT:http-user-agent=Google
 http://rt-nw-novg-htlive.cdn.ngenix.net/hls/CH_R02_NOVGORODTV/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Новое время (Радужный)
@@ -701,34 +702,34 @@ http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_RADUZNYI/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Новый век (Тамбов)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-tamb-htlive.cdn.ngenix.net/hls/CH_R03_OTT_CT_TAMB_NOVIY_VEK/variant.m3u8
-#EXTINF:-1 tvg-id="noyabrsk24" channelId="3965" group-title="Региональные",Ноябрьск 24 HD
+#EXTINF:-1 tvg-id="noyabrsk24" group-title="Региональные",Ноябрьск 24 HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NOY24_URAL_NOY/variant.m3u8
-#EXTINF:-1 tvg-id="ort-planeta-orenburg" channelId="-1" group-title="Региональные",ОРТ-Планета (Оренбург)
+#EXTINF:-1 tvg-id="ort-planeta-orenburg" group-title="Региональные",ОРТ-Планета (Оренбург)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R03_ORTPLANET/variant.m3u8
-#EXTINF:-1 tvg-id="otv-eburg" channelId="306" group-title="Региональные",ОТВ Екатеринбург HD
+#EXTINF:-1 tvg-id="otv-eburg" group-title="Региональные",ОТВ Екатеринбург HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_EKT/variant.m3u8
 #EXTINF:-1 group-title="Региональные",ОТВ Приморье
 #EXTVLCOPT:http-user-agent=Google
 http://s91030.cdn.ngenix.net/hls/CH_R25_OTT_DV_VLD_OTV/variant.m3u8
-#EXTINF:-1 tvg-id="otv-saxalin" channelId="-1" group-title="Региональные",ОТВ Сахалин
+#EXTINF:-1 tvg-id="otv-saxalin" group-title="Региональные",ОТВ Сахалин
 #EXTVLCOPT:http-user-agent=Google
 http://s14553.cdn.ngenix.net/hls/CH_R65_OTT_DV_SLIN_OTV_SLIN/variant.m3u8
-#EXTINF:-1 tvg-id="otv-chelyabinsk" channelId="1917" group-title="Региональные",ОТВ Челябинск HD
+#EXTINF:-1 tvg-id="otv-chelyabinsk" group-title="Региональные",ОТВ Челябинск HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_CHEL/variant.m3u8
-#EXTINF:-1 tvg-id="ots" channelId="210" group-title="Региональные",ОТС HD
+#EXTINF:-1 tvg-id="ots" group-title="Региональные",ОТС HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_OTS/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Область 45 HD (Курган)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_OBLAST45/variant.m3u8
-#EXTINF:-1 tvg-id="objektiv-59" channelId="-1" group-title="Региональные",Объектив 59 HD
+#EXTINF:-1 tvg-id="objektiv-59" group-title="Региональные",Объектив 59 HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R04_OTT_OBJECTIVE59/variant.m3u8
-#EXTINF:-1 tvg-id="osetia-iryston" channelId="4161" group-title="Региональные",Осетия-Ирыстон HD
+#EXTINF:-1 tvg-id="osetia-iryston" group-title="Региональные",Осетия-Ирыстон HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VKAZ_IRISTON/variant.m3u8
 #EXTINF:-1 group-title="Региональные",ОТР (Екатеринбург)
@@ -740,46 +741,46 @@ http://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R01_OTR/variant.m3u8
 #EXTINF:-1 group-title="Региональные",ОТР (Сыктывкар)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R01_OTR_SKTV/variant.m3u8
-#EXTINF:-1 tvg-id="pervy-oblastnoy-orel" channelId="521" group-title="Региональные",Первый областной Орел
+#EXTINF:-1 tvg-id="pervy-oblastnoy-orel" group-title="Региональные",Первый областной Орел
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_PERVOBL/variant.m3u8
-#EXTINF:-1 tvg-id="pervy-tulsky" channelId="717" group-title="Региональные",Первый Тульский HD
+#EXTINF:-1 tvg-id="pervy-tulsky" group-title="Региональные",Первый Тульский HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-tula-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_TULA_PERV_TUL/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Первый Ярославский HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_YARL_NTM/variant.m3u8
-#EXTINF:-1 tvg-id="pervy-gorodskoy-kirov" channelId="414" group-title="Региональные",Первый городской Киров
+#EXTINF:-1 tvg-id="pervy-gorodskoy-kirov" group-title="Региональные",Первый городской Киров
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R03_PERVYGORODSKOY/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Первый городской Омск
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_1GORODSKOY/variant.m3u8
-#EXTINF:-1 tvg-id="pervy" channelId="1" group-title="Региональные",Первый канал (Магадан)
+#EXTINF:-1 channelId="1" tvg-id="pervy" group-title="Региональные",Первый канал (Магадан)
 #EXTVLCOPT:http-user-agent=Google
 http://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_1TV/variant.m3u8
-#EXTINF:-1 tvg-id="prima" channelId="707" group-title="Региональные",Прима
+#EXTINF:-1 tvg-id="prima" group-title="Региональные",Прима
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3u8
-#EXTINF:-1 tvg-id="prodvizhenie" channelId="3138" group-title="Региональные",Продвижение
+#EXTINF:-1 tvg-id="prodvizhenie" group-title="Региональные",Продвижение
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_PRODVIZHENIE/variant.m3u8
-#EXTINF:-1 group-title="Региональные",Пятый канал (Москва)
+#EXTINF:-1 channelId="5" group-title="Региональные",Пятый канал (Москва)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_5TV/variant.m3u8
-#EXTINF:-1 group-title="Региональные",Пятый канал (Санкт-Петербург)
+#EXTINF:-1 channelId="5" group-title="Региональные",Пятый канал (Санкт-Петербург)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_5TV/variant.m3u8
-#EXTINF:-1 tvg-id="rgvk-dagestan" channelId="3967" group-title="Региональные",РГВК Дагестан
+#EXTINF:-1 tvg-id="rgvk-dagestan" group-title="Региональные",РГВК Дагестан
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-mahachk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_MAHACHK_DAGESTAN/variant.m3u8
 #EXTINF:-1 group-title="Региональные",РИМ
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_RIM_URAL_KURAL/variant.m3u8
-#EXTINF:-1 tvg-id="rts-abakan" channelId="-1" group-title="Региональные",РТС - Абакан
+#EXTINF:-1 tvg-id="rts-abakan" group-title="Региональные",РТС - Абакан
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_ABAKAN_RTS/variant.m3u8
-#EXTINF:-1 tvg-id="region29" channelId="-1" group-title="Региональные",Регион 29
+#EXTINF:-1 tvg-id="region29" group-title="Региональные",Регион 29
 #EXTVLCOPT:http-user-agent=Google
 http://rt-nw-arkh-htlive.cdn.ngenix.net/hls/CH_R02_PRAVDASEVERA/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Рен ТВ (Екатеринбург)
@@ -788,7 +789,7 @@ http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_RENTV_EKT/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Репортер 73
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_REP73/variant.m3u8
-#EXTINF:-1 tvg-id="rifey-tv" channelId="1918" group-title="Региональные",Рифей-ТВ
+#EXTINF:-1 tvg-id="rifey-tv" group-title="Региональные",Рифей-ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R02_OTT_RENTV_REFEY_PERM/variant.m3u8
 #EXTINF:-1 tvg-id="rossia1" channelId="2" group-title="Региональные",Россия 1 (Екатеринбург)
@@ -803,58 +804,58 @@ http://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA1_SKTV/variant.m3u8
 #EXTINF:-1 tvg-id="rossia1" channelId="2" group-title="Региональные",Россия 1 (Хабаровск)
 #EXTVLCOPT:http-user-agent=Google
 http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_ROSSIA1/variant.m3u8
-#EXTINF:-1 tvg-id="rossia-24" channelId="10" group-title="Региональные",Россия 24 (Екатеринбург)
+#EXTINF:-1 tvg-id="rossia-24" channelId="7" group-title="Региональные",Россия 24 (Екатеринбург)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_ROSSIA24_EKT/variant.m3u8
-#EXTINF:-1 tvg-id="rossia-24" channelId="10" group-title="Региональные",Россия 24 (Магадан)
+#EXTINF:-1 tvg-id="rossia-24" channelId="7" group-title="Региональные",Россия 24 (Магадан)
 #EXTVLCOPT:http-user-agent=Google
 http://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_ROSSIA24/variant.m3u8
-#EXTINF:-1 tvg-id="rossia-24" channelId="10" group-title="Региональные",Россия 24 (Омск)
+#EXTINF:-1 tvg-id="rossia-24" channelId="7" group-title="Региональные",Россия 24 (Омск)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_ROSSIA24_OMSKOBL/variant.m3u8
-#EXTINF:-1 tvg-id="rossia-24" channelId="10" group-title="Региональные",Россия 24 (Хабаровск)
+#EXTINF:-1 tvg-id="rossia-24" channelId="7" group-title="Региональные",Россия 24 (Хабаровск)
 #EXTVLCOPT:http-user-agent=Google
 http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_ROSSIA24/variant.m3u8
-#EXTINF:-1 tvg-id="rostov-papa" channelId="3964" group-title="Региональные",Ростов-ПАПА HD
+#EXTINF:-1 tvg-id="rostov-papa" group-title="Региональные",Ростов-ПАПА HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-rd-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_RD_ROSTOVPAPA/variant.m3u8
-#EXTINF:-1 tvg-id="russky-sever" channelId="844" group-title="Региональные",Русский Север
+#EXTINF:-1 tvg-id="russky-sever" group-title="Региональные",Русский Север
 #EXTVLCOPT:http-user-agent=Google
 http://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Русь (Кострома)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-kostroma-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_KOSTROMA_RUS/variant.m3u8
-#EXTINF:-1 tvg-id="rybinsk40" channelId="3959" group-title="Региональные",Рыбинск-40
+#EXTINF:-1 tvg-id="rybinsk40" group-title="Региональные",Рыбинск-40
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_RYBINSK40/variant.m3u8
-#EXTINF:-1 tvg-id="s1-surgut" channelId="1797" group-title="Региональные",С1 Сургут HD
+#EXTINF:-1 tvg-id="s1-surgut" group-title="Региональные",С1 Сургут HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_C1_URAL_SUR/variant.m3u8
-#EXTINF:-1 tvg-id="stv-baykal" channelId="-1" group-title="Региональные",СТВ-Байкал
+#EXTINF:-1 tvg-id="stv-baykal" group-title="Региональные",СТВ-Байкал
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_UUDE_STVBAYKAL/variant.m3u8
-#EXTINF:-1 tvg-id="settv-xabarovsk" channelId="-1" group-title="Региональные",СЭТ TV Хабаровск
+#EXTINF:-1 tvg-id="settv-xabarovsk" group-title="Региональные",СЭТ TV Хабаровск
 #EXTVLCOPT:http-user-agent=Google
 http://s97982.cdn.ngenix.net/hls/CH_R02_OTT_DV_HVSK_OTTS3TTV/variant.m3u8
-#EXTINF:-1 tvg-id="samara24" channelId="-1" group-title="Региональные",Самара 24
+#EXTINF:-1 tvg-id="samara24" group-title="Региональные",Самара 24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_SAMARA24/variant.m3u8
-#EXTINF:-1 tvg-id="sampo-tv" channelId="674" group-title="Региональные",Сампо ТВ 360°
+#EXTINF:-1 tvg-id="sampo-tv" group-title="Региональные",Сампо ТВ 360°
 #EXTVLCOPT:http-user-agent=Google
 http://rt-nw-pzav-htlive.cdn.ngenix.net/hls/CH_R01_SAMPOTV/variant.m3u8
-#EXTINF:-1 tvg-id="saratov-24" channelId="2880" group-title="Региональные",Саратов 24
+#EXTINF:-1 tvg-id="saratov-24" group-title="Региональные",Саратов 24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R01_SARATOV24/variant.m3u8
-#EXTINF:-1 tvg-id="svoyo-tv-stavropol" channelId="3966" group-title="Региональные",Своё ТВ Ставрополь HD
+#EXTINF:-1 tvg-id="svoyo-tv-stavropol" group-title="Региональные",Своё ТВ Ставрополь HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STH_STAVR_STV-PLUS/variant.m3u8
-#EXTINF:-1 tvg-id="selenga-tv" channelId="-1" group-title="Региональные",Селенга-ТВ
+#EXTINF:-1 tvg-id="selenga-tv" group-title="Региональные",Селенга-ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_UUDE_SELENGA/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Семерка HD (Иркутск)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_SEMERKA/variant.m3u8
-#EXTINF:-1 name="Сочи 24" tvg-id="sochi24" channelId="-1" group-title="Региональные",Сочи24 HD
+#EXTINF:-1 name="Сочи 24" tvg-id="sochi24" group-title="Региональные",Сочи24 HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R01_MAKS241/variant.m3u8
 #EXTINF:-1 group-title="Региональные",СТВ (Симбирское телевидение)
@@ -863,10 +864,10 @@ http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_STB/variant.m3u8
 #EXTINF:-1 group-title="Региональные",СТВ (360° Ульяновск)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_UL_STB/variant.m3u8
-#EXTINF:-1 tvg-id="41-domashny" channelId="1825" group-title="Региональные",Студия 41
+#EXTINF:-1 tvg-id="41-domashny" group-title="Региональные",Студия 41
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STUDIO41/variant.m3u8
-#EXTINF:-1 tvg-id="surgut-24" channelId="-1" group-title="Региональные",Сургут 24
+#EXTINF:-1 tvg-id="surgut-24" group-title="Региональные",Сургут 24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SURGUT24/variant.m3u8
 #EXTINF:-1 group-title="Региональные",43 Регион
@@ -881,10 +882,10 @@ http://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8
 #EXTINF:-1 group-title="Региональные",ТВ-ИН HD (Магнитогорск)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_TVIN_MAGN/variant.m3u8
-#EXTINF:-1 tvg-id="tv21plus" channelId="-1" group-title="Региональные",ТВ21+ (Мурманск)
+#EXTINF:-1 tvg-id="tv21plus" group-title="Региональные",ТВ21+ (Мурманск)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R01_TV21PLUS/variant.m3u8
-#EXTINF:-1 tvg-id="tk-variant" channelId="-1" group-title="Региональные",ТК Вариант
+#EXTINF:-1 tvg-id="tk-variant" group-title="Региональные",ТК Вариант
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_VARIANT_V/variant.m3u8
 #EXTINF:-1 group-title="Региональные",ТК Центр HD (Красноярск)
@@ -896,7 +897,7 @@ http://rt-ct-ryaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_RYAZ_TKP/variant.m3u8
 #EXTINF:-1 group-title="Региональные",ТНВ-Планета
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_TNV_PLANETA_URAL/variant.m3u8
-#EXTINF:-1 tvg-id="tnv" channelId="34" group-title="Региональные",ТНВ-Татарстан
+#EXTINF:-1 tvg-id="tnv" group-title="Региональные",ТНВ-Татарстан
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R01_TNVT/variant.m3u8
 #EXTINF:-1 group-title="Региональные",ТНР24 (Нижневартовск)
@@ -905,46 +906,46 @@ http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TNR24/variant.m3u8
 #EXTINF:-1 group-title="Региональные",ТОЛК (Барнаул)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_BUL_TOLK/variant.m3u8
-#EXTINF:-1 tvg-id="tagil-tv-24" channelId="2486" group-title="Региональные",Тагил-ТВ 24
+#EXTINF:-1 tvg-id="tagil-tv-24" group-title="Региональные",Тагил-ТВ 24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_TAGILTV_URAL_TAG/variant.m3u8
-#EXTINF:-1 tvg-id="tatarstan24" channelId="3961" group-title="Региональные",Татарстан-24
+#EXTINF:-1 tvg-id="tatarstan24" group-title="Региональные",Татарстан-24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R02_OTT_VLG_KZN_EFIR24/variant.m3u8
-#EXTINF:-1 tvg-id="tverskoy-prospekt" channelId="537" group-title="Региональные",Тверской проспект
+#EXTINF:-1 tvg-id="tverskoy-prospekt" group-title="Региональные",Тверской проспект
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ct-tver-htlive.cdn.ngenix.net/hls/CH_R01_TVERPROSP/variant.m3u8
-#EXTINF:-1 tvg-id="tivisi-hd" channelId="-1" group-title="Региональные",ТиВиСи HD
+#EXTINF:-1 tvg-id="tivisi-hd" group-title="Региональные",ТиВиСи HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_TIVICI/variant.m3u8
-#EXTINF:-1 tvg-id="tivikom" channelId="1102" group-title="Региональные",Тивиком HD
+#EXTINF:-1 tvg-id="tivikom" group-title="Региональные",Тивиком HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_UUDE_TIVICOM/variant.m3u8
-#EXTINF:-1 tvg-id="tolpartv" channelId="-1" group-title="Региональные",Толпар-ТВ (Уфа)
+#EXTINF:-1 tvg-id="tolpartv" group-title="Региональные",Толпар-ТВ (Уфа)
 #EXTVLCOPT:http-user-agent=Google
 http://s45177.cdn.ngenix.net/hls/CH_R02_TOLPAR/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Тольятти 24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R01_TOLYTTI24/variant.m3u8
-#EXTINF:-1 tvg-id="tomskoe-vremia" channelId="2484" group-title="Региональные",Томское время HD
+#EXTINF:-1 tvg-id="tomskoe-vremia" group-title="Региональные",Томское время HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-tomsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_TOMSK_TOMSKVREMIA/variant.m3u8
-#EXTINF:-1 tvg-id="tumenskoe-vremia" channelId="719" group-title="Региональные",Тюменское время
+#EXTINF:-1 tvg-id="tumenskoe-vremia" group-title="Региональные",Тюменское время
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-tum-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TUMVR_URAL_TUM/variant.m3u8
-#EXTINF:-1 tvg-id="udmurtia" channelId="3963" group-title="Региональные",Удмуртия
+#EXTINF:-1 tvg-id="udmurtia" group-title="Региональные",Удмуртия
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-izhsk-htlive.cdn.ngenix.net/hls/CH_R03_MYUDMURTIA/variant.m3u8
 #EXTINF:-1 group-title="Региональные",УлПравда ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R01_ULPRAVDA/variant.m3u8
-#EXTINF:-1 tvg-id="ural-inform" channelId="-1" group-title="Региональные",Урал-Информ ТВ
+#EXTINF:-1 tvg-id="ural-inform" group-title="Региональные",Урал-Информ ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R02_OTT_5TV_URALIFORM_PERM/variant.m3u8
-#EXTINF:-1 tvg-id="xamdan-kalm24" channelId="-1" group-title="Региональные",Хамдан-Калмыкия 24 (Элиста)
+#EXTINF:-1 tvg-id="xamdan-kalm24" group-title="Региональные",Хамдан-Калмыкия 24 (Элиста)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-elista-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_ELISTA_HAMDAN/variant.m3u8
-#EXTINF:-1 tvg-id="chavash-en" channelId="689" group-title="Региональные",Чаваш ЕН (Чувашия)
+#EXTINF:-1 tvg-id="chavash-en" group-title="Региональные",Чаваш ЕН (Чувашия)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_NATIONALTV/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Че (Омск)
@@ -959,7 +960,7 @@ http://rt-vlg-penza-htlive.cdn.ngenix.net/hls/CH_R01_EXPRESS/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Эфир (Казань)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R01_EFIR/variant.m3u8
-#EXTINF:-1 tvg-id="utv-cheboxary" channelId="1795" group-title="Региональные",ЮТВ Чебоксары
+#EXTINF:-1 tvg-id="utv-cheboxary" group-title="Региональные",ЮТВ Чебоксары
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VLG_CHR_UTV/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Югорск ТВ
@@ -968,13 +969,13 @@ http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_YUGORSKTV/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Югра
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_URAL_SUR/variant.m3u8
-#EXTINF:-1 tvg-id="yurgan" channelId="1794" group-title="Региональные",Юрган
+#EXTINF:-1 tvg-id="yurgan" group-title="Региональные",Юрган
 #EXTVLCOPT:http-user-agent=Google
 http://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R01_YURGAN/variant.m3u8
-#EXTINF:-1 tvg-id="yakutia24" channelId="-1" group-title="Региональные",Якутия 24
+#EXTINF:-1 tvg-id="yakutia24" group-title="Региональные",Якутия 24
 #EXTVLCOPT:http-user-agent=Google
 http://s34351.cdn.ngenix.net/hls/CH_R14_OTT_DV_YKT_YKT/variant.m3u8
-#EXTINF:-1 tvg-id="yamal-region" channelId="267" group-title="Региональные",Ямал-Регион
+#EXTINF:-1 tvg-id="yamal-region" group-title="Региональные",Ямал-Регион
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_YAMREG_URAL_YNF/variant.m3u8
 #EXTINF:-1 group-title="Региональные",ё
@@ -989,13 +990,13 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_4/variant.m3u8
 #EXTINF:-1 group-title="Региональные +",2x2 (+7)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_7/variant.m3u8
-#EXTINF:-1 shift="+2" tvg-id="disney-pl2" channelId="19" group-title="Региональные +",Disney (+2)
+#EXTINF:-1 shift="+2" tvg-id="disney-pl2" channelId="302" group-title="Региональные +",Disney (+2)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R02_DISNEYCHANNEL/variant.m3u8
-#EXTINF:-1 shift="+4" tvg-id="disney-pl4" channelId="19" group-title="Региональные +",Disney (+4)
+#EXTINF:-1 shift="+4" tvg-id="disney-pl4" channelId="302" group-title="Региональные +",Disney (+4)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_4/variant.m3u8
-#EXTINF:-1 shift="+7" tvg-id="disney-pl7" channelId="19" group-title="Региональные +",Disney (+7)
+#EXTINF:-1 shift="+7" tvg-id="disney-pl7" channelId="302" group-title="Региональные +",Disney (+7)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_7/variant.m3u8
 #EXTINF:-1 group-title="Региональные +",Домашний (+2)
@@ -1034,25 +1035,25 @@ http://rt-sib-galt-htlive.cdn.ngenix.net/hls/CH_R01_MIR_GALT/variant.m3u8
 #EXTINF:-1 group-title="Региональные +",Мир (+7)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR_7/variant.m3u8
-#EXTINF:-1 tvg-id="muztv" channelId="136" tvg-shift="-2" group-title="Региональные +",Муз ТВ (+2)
+#EXTINF:-1 tvg-id="muztv" channelId="20" tvg-shift="-2" group-title="Региональные +",Муз ТВ (+2)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_2/variant.m3u8
-#EXTINF:-1 tvg-id="muztv" channelId="136" tvg-shift="-4" group-title="Региональные +",Муз ТВ (+4)
+#EXTINF:-1 tvg-id="muztv" channelId="20" tvg-shift="-4" group-title="Региональные +",Муз ТВ (+4)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/variant.m3u8
-#EXTINF:-1 shift="+7" tvg-id="muztv-pl7" channelId="136" group-title="Региональные +",Муз ТВ (+7)
+#EXTINF:-1 shift="+7" tvg-id="muztv-pl7" channelId="20" group-title="Региональные +",Муз ТВ (+7)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8
-#EXTINF:-1 tvg-id="ntv-pl1" channelId="6" group-title="Региональные +",НТВ (Саратов +1)
+#EXTINF:-1 tvg-id="ntv-pl1" channelId="4" group-title="Региональные +",НТВ (Саратов +1)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_NTV/variant.m3u8
-#EXTINF:-1 shift="+2" tvg-id="ntv-pl2" channelId="6" group-title="Региональные +",НТВ (+2)
+#EXTINF:-1 shift="+2" tvg-id="ntv-pl2" channelId="4" group-title="Региональные +",НТВ (+2)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8
-#EXTINF:-1 shift="+4" tvg-id="ntv-pl4" channelId="6" group-title="Региональные +",НТВ (+4)
+#EXTINF:-1 shift="+4" tvg-id="ntv-pl4" channelId="4" group-title="Региональные +",НТВ (+4)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_4/variant.m3u8
-#EXTINF:-1 shift="+7" tvg-id="ntv-pl7" channelId="6" group-title="Региональные +",НТВ (+7)
+#EXTINF:-1 shift="+7" tvg-id="ntv-pl7" channelId="4" group-title="Региональные +",НТВ (+7)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_7/variant.m3u8
 #EXTINF:-1 shift="+1" tvg-id="pervy-pl1" channelId="1" group-title="Региональные +",Первый канал (+1)
@@ -1226,10 +1227,10 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8
 #EXTINF:-1 group-title="Региональные +",Ю (+7)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
-#EXTINF:-1 tvg-id="arirang" channelId="529" group-title="Зарубежные",Arirang
+#EXTINF:-1 tvg-id="arirang" group-title="Зарубежные",Arirang
 #EXTVLCOPT:http-user-agent=Google
 http://s97982.cdn.ngenix.net/hls/CH_R02_OTT_DV_HVSK_OTTARIRANG/variant.m3u8
-#EXTINF:-1 tvg-id="vsio-tv" channelId="211" group-title="Телемагазины",Всё ТВ HD
+#EXTINF:-1 tvg-id="vsio-tv" channelId="0" group-title="Телемагазины",Всё ТВ HD
 #EXTVLCOPT:http-user-agent=Google
 http://s72169.cdn.ngenix.net/hls/CH_VSETVHD_HLS/variant.m3u8
 
