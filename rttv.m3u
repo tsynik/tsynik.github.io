@@ -1243,11 +1243,13 @@ http://ott-cdn.ucom.am/s45/index.m3u8
 http://ott-cdn.ucom.am/s33/index.m3u8
 #EXTINF:-1 tvg-id="amedia-hit" tvg-name="Amedia Hit" tvg-country="RU" tvg-language="Russian" group-title="HD",Amedia Hit HD
 https://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8
+#EXTINF:-1 tvg-id="jimjam" tvg-name="JimJam" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="Детские",JimJam Россия
+http://188.40.68.167/russia/jimjam/playlist.m3u8
 #EXTINF:-1 tvg-id="MilleniumTV.ru" tvg-name="Millenium TV" tvg-country="RU" tvg-language="Russian" group-title="Кино и сериалы",Millenium TV
 http://tv1.mmg.ooo/live/sd.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="MilleniumTV.ru" tvg-name="Millenium TV" tvg-country="RU" tvg-language="Russian" group-title="HD",Millenium TV HD
 http://tv1.mmg.ooo/live/hd.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="russian-musicbox" tvg-name="MusicBox Russia" tvg-country="RU" tvg-language="Russian" group-title="HD",MusicBox Russia HD
+#EXTINF:-1 tvg-id="russian-musicbox" tvg-name="MusicBox Russia" tvg-country="RU" tvg-language="Russian" group-title="Музыкальные",MusicBox Russia HD
 https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
 #EXTINF:-1 tvg-id="ru-tv" tvg-name="RU.TV" tvg-country="RU" tvg-language="Russian" group-title="Музыкальные",RU.TV HD
 https://rut-v.gcdn.co/streams/1410_95/playlist.m3u8
@@ -1257,8 +1259,8 @@ https://sc.id-tv.kz/domkino_hd_38_39.m3u8
 http://edge05.beetv.kz/btv/SWM/Dom_kino_Prem/Dom_kino_Prem.m3u8
 #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" tvg-country="RU" tvg-language="Russian" group-title="Кино и сериалы",Индийское кино
 http://212.42.193.122:8888/play/a00k/index.m3u8
-#EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" tvg-country="RU" tvg-language="Russian" group-title="Кино и сериалы",Индийское кино
-https://sc.id-tv.kz/Indiiskoe_kino_38_39.m3u8
+# #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" tvg-country="RU" tvg-language="Russian" group-title="Кино и сериалы",Индийское кино  
+# https://sc.id-tv.kz/Indiiskoe_kino_38_39.m3u8  
 #EXTINF:-1 tvg-id="kinopremiera-hd" tvg-name="Кинопремьера" tvg-country="RU" tvg-language="Russian" group-title="HD",Кинопремьера HD
 http://212.42.193.122:8888/play/a00i/index.m3u8
 #EXTINF:-1 tvg-id="kinoxit" tvg-name="Кинохит" tvg-country="RU" tvg-language="Russian" group-title="Кино и сериалы",Кинохит
@@ -1267,5 +1269,7 @@ http://212.42.193.122:8888/play/a00h/index.m3u8
 https://strm.yandex.ru/kal/kinoclassic/kinoclassic0.m3u8
 #EXTINF:-1 tvg-id="mir-seriala" tvg-name="Мир сериала" tvg-country="RU" tvg-language="Russian" group-title="Кино и сериалы",Мир сериала
 http://185.161.224.216/dash/Mir_seriala_SD.ism/playlist.mpd
+#EXTINF:-1 tvg-id="perec-int" tvg-name="Перец" tvg-country="RU" tvg-language="Russian" group-title="Развлекательные",Перец
+http://212.42.193.122:8888/play/a00j/index.m3u8
 #EXTINF:-1 tvg-id="fox" tvg-name="Fox Russia" tvg-country="RU" tvg-language="Russian" group-title="Кино и сериалы",Fox Россия
 http://188.40.68.167/russia/fox_russia_sd/playlist.m3u8
