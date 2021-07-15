@@ -378,31 +378,31 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_UFCHD_HLS/variant.m3u8
 #EXTINF:-1 channelId="987" tvg-id="eurosport-4k" group-title="4K Ultra HD",Eurosport 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/variant.m3u8
-#EXTINF:-1 channelId="987" tvg-id="eurosport-4k" group-title="HD",Eurosport 4K (HD)
+#EXTINF:-1 channelId="987" tvg-id="eurosport-4k" group-title="HD",Eurosport 4K (1080p)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw6000000/variant.m3u8
 #EXTINF:-1 channelId="988" tvg-id="love-nature-4k" group-title="4K Ultra HD",Love Nature 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/variant.m3u8
-#EXTINF:-1 channelId="988" tvg-id="love-nature-4k" group-title="HD",Love Nature 4K (HD)
+#EXTINF:-1 channelId="988" tvg-id="love-nature-4k" group-title="HD",Love Nature 4K (1080p)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/bw6000000/variant.m3u8
 #EXTINF:-1 channelId="991" tvg-id="russian-extreme-uhd" group-title="4K Ultra HD",Russian Extreme Ultra
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/variant.m3u8
-#EXTINF:-1 channelId="991" tvg-id="russian-extreme-uhd" group-title="HD",Russian Extreme Ultra (HD)
+#EXTINF:-1 channelId="991" tvg-id="russian-extreme-uhd" group-title="HD",Russian Extreme Ultra (1080p)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/bw6000000/variant.m3u8
 #EXTINF:-1 channelId="992" tvg-id="ultra-hd-cinema" group-title="4K Ultra HD",Ultra HD Cinema
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8
-#EXTINF:-1 channelId="992" tvg-id="ultra-hd-cinema" group-title="HD",Ultra HD Cinema (HD)
+#EXTINF:-1 channelId="992" tvg-id="ultra-hd-cinema" group-title="HD",Ultra HD Cinema (1080p)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m3u8
 #EXTINF:-1 channelId="993" tvg-id="nasha-sibir-4k" group-title="4K Ultra HD",Наша Сибирь 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
-#EXTINF:-1 channelId="993" tvg-id="nasha-sibir-4k" group-title="HD",Наша Сибирь 4K (HD)
+#EXTINF:-1 channelId="993" tvg-id="nasha-sibir-4k" group-title="HD",Наша Сибирь 4K (1080p)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw6000000/variant.m3u8
 #
