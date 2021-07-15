@@ -1249,18 +1249,14 @@ http://tv1.mmg.ooo/live/sd.stream/playlist.m3u8
 http://tv1.mmg.ooo/live/hd.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="russian-musicbox" tvg-name="MusicBox Russia" tvg-country="RU" tvg-language="Russian" group-title="HD",MusicBox Russia HD
 https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
-#EXTINF:-1 tvg-id="ru-tv" tvg-name="RU.TV" tvg-country="RU" tvg-language="Russian" group-title="Музыкальные",RU.TV
+#EXTINF:-1 tvg-id="ru-tv" tvg-name="RU.TV" tvg-country="RU" tvg-language="Russian" group-title="Музыкальные",RU.TV HD
 https://rut-v.gcdn.co/streams/1410_95/playlist.m3u8
-#EXTINF:-1 tvg-id="ru-tv" tvg-name="RU.TV" tvg-country="RU" tvg-language="Russian" group-title="HD",RU.TV HD
-http://rutv.gcdn.co/streams/1410_95/playlist.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" tvg-name="Дом Кино Премиум" tvg-country="RU" tvg-language="Russian" tvg-logo="https://www.domkino-premium.tv/im/logo3d.png" group-title="Кино и сериалы",Дом Кино Премиум
 https://sc.id-tv.kz/domkino_hd_38_39.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" tvg-name="Дом кино Премиум" tvg-country="RU" tvg-language="Russian" tvg-logo="https://www.domkino-premium.tv/im/logo3d.png" group-title="HD",Дом кино Премиум HD
 http://edge05.beetv.kz/btv/SWM/Dom_kino_Prem/Dom_kino_Prem.m3u8
 #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" tvg-country="RU" tvg-language="Russian" group-title="Кино и сериалы",Индийское кино
 http://212.42.193.122:8888/play/a00k/index.m3u8
-#EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" tvg-country="RU" tvg-language="Russian" group-title="Кино и сериалы",Индийское кино
-http://89.106.234.3:80/Indiiskoe_kino_34_35.m3u8
 #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" tvg-country="RU" tvg-language="Russian" group-title="Кино и сериалы",Индийское кино
 https://sc.id-tv.kz/Indiiskoe_kino_38_39.m3u8
 #EXTINF:-1 tvg-id="kinopremiera-hd" tvg-name="Кинопремьера" tvg-country="RU" tvg-language="Russian" group-title="HD",Кинопремьера HD
