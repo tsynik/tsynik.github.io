@@ -1265,7 +1265,7 @@ http://212.42.193.122:8888/play/a00k/index.m3u8
 http://212.42.193.122:8888/play/a00i/index.m3u8
 #EXTINF:-1 tvg-id="kinoxit" tvg-name="Кинохит" group-title="Кино и сериалы",Кинохит
 http://212.42.193.122:8888/play/a00h/index.m3u8
-#EXTINF:-1 tvg-id="kinokomedia" tvg-name="Кинокомедия" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="Кино и сериалы",Кинокомедия
+#EXTINF:-1 tvg-name="Комедия" group-title="Кино и сериалы",Комедия
 http://188.40.68.167/russia/komediya/playlist.m3u8
 #EXTINF:-1 tvg-id="klassika-kino" tvg-name="Классика Кино" group-title="Кино и сериалы",Классика Кино
 https://strm.yandex.ru/kal/kinoclassic/kinoclassic0.m3u8
