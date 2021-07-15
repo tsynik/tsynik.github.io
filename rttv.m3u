@@ -1253,6 +1253,8 @@ http://ott-cdn.ucom.am/s45/index.m3u8
 http://ott-cdn.ucom.am/s33/index.m3u8
 #EXTINF:-1 tvg-id="amedia-hit" tvg-name="Amedia Hit" group-title="HD",Amedia Hit HD
 https://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8
+#EXTINF:-1 tvg-id="cinema-ru" tvg-name="Cinema" group-title="Кино и сериалы",Cinema
+https://sc.id-tv.kz/Cinema_34_35.m3u8
 #EXTINF:-1 tvg-id="jimjam" tvg-name="JimJam" group-title="Детские",JimJam
 http://188.40.68.167/russia/jimjam/playlist.m3u8
 # #EXTINF:-1 tvg-id="MilleniumTV.ru" tvg-name="Millenium TV" group-title="Кино и сериалы",Millenium TV  
@@ -1261,8 +1263,12 @@ http://188.40.68.167/russia/jimjam/playlist.m3u8
 # http://tv1.mmg.ooo/live/hd.stream/playlist.m3u8  
 #EXTINF:-1 tvg-id="russian-musicbox" tvg-name="MusicBox Russia" group-title="Музыкальные",MusicBox Russia HD
 https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
+#EXTINF:-1 tvg-id="nat-geo-wild" tvg-name="Nat Geo Wild" group-title="Познавательные",National Geographic Wild
+https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
 #EXTINF:-1 tvg-id="ru-tv" tvg-name="RU.TV" group-title="Музыкальные",RU.TV HD
 https://rut-v.gcdn.co/streams/1410_95/playlist.m3u8
+#EXTINF:-1 tvg-id="viasat-history" tvg-name="Viasat History" group-title="Познавательные",Viasat History
+https://s1.idata.uz/stch_temp20/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" tvg-name="Дом Кино Премиум" group-title="Кино и сериалы",Дом Кино Премиум
 https://sc.id-tv.kz/domkino_hd_38_39.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" tvg-name="Дом кино Премиум" group-title="HD",Дом кино Премиум HD
