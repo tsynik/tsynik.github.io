@@ -1,5 +1,7 @@
 #EXTM3U deinterlace=1 m3uautoload=1 url-tvg="http://iptvx.one/EPG" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}"
+#
 # 1-21
+#
 #EXTINF:-1 channelId="1" tvg-id="pervy" group-title="Эфирные",Первый канал
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
@@ -63,7 +65,9 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 #EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Эфирные",Москва 24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MOSKOV24/variant.m3u8
+#
 # HD
+#
 # #EXTINF:-1 group-title="HD" tvg-id="pervy",Первый канал HD
 # #EXTVLCOPT:http-user-agent=Google
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_1TV/variant.m3u8
@@ -368,7 +372,9 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_UFCHD_HLS/variant.m3u8
 # #EXTINF:-1 group-title="HD" tvg-id="russia-today",Russia Today HD
 # #EXTVLCOPT:http-user-agent=Google
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_RTTVHD/variant.m3u8
+#
 # 4K
+#
 #EXTINF:-1 channelId="987" tvg-id="eurosport-4k" group-title="4K Ultra HD",Eurosport 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/variant.m3u8
@@ -399,7 +405,9 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
 #EXTINF:-1 channelId="993" tvg-id="nasha-sibir-4k" group-title="HD",Наша Сибирь 4K (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw6000000/variant.m3u8
+#
 # OTHERS
+#
 #EXTINF:-1 channelId="25" tvg-id="doverie" group-title="Развлекательные",Москва. Доверие
 #EXTVLCOPT:http-user-agent=Google
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_DOVERIE/variant.m3u8
@@ -1228,10 +1236,12 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
 # #EXTINF:-1 tvg-id="arirang" group-title="Зарубежные",Arirang  
 # #EXTVLCOPT:http-user-agent=Google  
 # http://s97982.cdn.ngenix.net/hls/CH_R02_OTT_DV_HVSK_OTTARIRANG/variant.m3u8  
-#EXTINF:-1 tvg-id="vsio-tv" channelId="0" group-title="HD",Всё ТВ HD
-#EXTVLCOPT:http-user-agent=Google
-http://s72169.cdn.ngenix.net/hls/CH_VSETVHD_HLS/variant.m3u8
+# #EXTINF:-1 tvg-id="vsio-tv" channelId="0" group-title="Телемагазины",Всё ТВ HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://s72169.cdn.ngenix.net/hls/CH_VSETVHD_HLS/variant.m3u8  
+#
 # IPTV-ORG
+#
 # https://github.com/iptv-org/iptv | https://iptv-org.github.io/iptv/countries/ru.m3u
 #EXTINF:-1 tvg-id="1hd" tvg-name="1HD Music Television" group-title="Музыкальные",1HD Music Television
 http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/tracks-v1a1/index.m3u8
