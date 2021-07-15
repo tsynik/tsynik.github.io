@@ -1245,14 +1245,17 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
 # https://github.com/iptv-org/iptv | https://iptv-org.github.io/iptv/countries/ru.m3u
 #EXTINF:-1 tvg-id="1hd" tvg-name="1HD Music Television" group-title="Музыкальные",1HD Music Television
 http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="amedia1" tvg-name="A1" group-title="Кино и сериалы",A1
+#EXTINF:-1 tvg-id="amedia1" tvg-name="A1" group-title="Кино и сериалы",A1 (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s45/index.m3u8
-#EXTINF:-1 tvg-id="amedia2" tvg-name="A2" group-title="Кино и сериалы",A2
+#EXTINF:-1 tvg-id="amedia2" tvg-name="A2" group-title="Кино и сериалы",A2 (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s33/index.m3u8
 #EXTINF:-1 tvg-id="amedia-hit" tvg-name="Amedia Hit" group-title="HD",Amedia Hit HD
 https://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8
+#EXTINF:-1 tvg-id="amedia-premium" tvg-name="Amedia Premium" group-title="Кино и сериалы",Amedia Premium (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s64/index.m3u8
 #EXTINF:-1 tvg-id="cinema-ru" tvg-name="Cinema" group-title="Кино и сериалы",Cinema
 https://sc.id-tv.kz/Cinema_34_35.m3u8
 #EXTINF:-1 tvg-id="jimjam" tvg-name="JimJam" group-title="Детские",JimJam
@@ -1263,7 +1266,7 @@ http://188.40.68.167/russia/jimjam/playlist.m3u8
 # http://tv1.mmg.ooo/live/hd.stream/playlist.m3u8  
 #EXTINF:-1 tvg-id="russian-musicbox" tvg-name="MusicBox Russia" group-title="Музыкальные",MusicBox Russia HD
 https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
-#EXTINF:-1 tvg-id="nat-geo-wild" tvg-name="Nat Geo Wild" group-title="Познавательные",National Geographic Wild
+#EXTINF:-1 tvg-id="nat-geo-wild" tvg-name="Nat Geo Wild" group-title="HD",National Geographic Wild
 https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
 #EXTINF:-1 tvg-id="ru-tv" tvg-name="RU.TV" group-title="Музыкальные",RU.TV HD
 https://rut-v.gcdn.co/streams/1410_95/playlist.m3u8
