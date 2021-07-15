@@ -368,32 +368,32 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_UFCHD_HLS/variant.m3u8
 # #EXTINF:-1 group-title="HD" tvg-id="russia-today",Russia Today HD
 # #EXTVLCOPT:http-user-agent=Google
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C04_RTTVHD/variant.m3u8
-# UHD
-#EXTINF:-1 channelId="987" tvg-id="eurosport-4k" group-title="Ultra HD",Eurosport 4K
+# 4K
+#EXTINF:-1 channelId="987" tvg-id="eurosport-4k" group-title="4K Ultra HD",Eurosport 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/variant.m3u8
 #EXTINF:-1 channelId="987" tvg-id="eurosport-4k" group-title="HD",Eurosport 4K (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw6000000/variant.m3u8
-#EXTINF:-1 channelId="988" tvg-id="love-nature-4k" group-title="Ultra HD",Love Nature 4K
+#EXTINF:-1 channelId="988" tvg-id="love-nature-4k" group-title="4K Ultra HD",Love Nature 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/variant.m3u8
 #EXTINF:-1 channelId="988" tvg-id="love-nature-4k" group-title="HD",Love Nature 4K (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/bw6000000/variant.m3u8
-#EXTINF:-1 channelId="991" tvg-id="russian-extreme-uhd" group-title="Ultra HD",Russian Extreme Ultra
+#EXTINF:-1 channelId="991" tvg-id="russian-extreme-uhd" group-title="4K Ultra HD",Russian Extreme Ultra
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/variant.m3u8
 #EXTINF:-1 channelId="991" tvg-id="russian-extreme-uhd" group-title="HD",Russian Extreme Ultra (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/bw6000000/variant.m3u8
-#EXTINF:-1 channelId="992" tvg-id="ultra-hd-cinema" group-title="Ultra HD",Ultra HD Cinema
+#EXTINF:-1 channelId="992" tvg-id="ultra-hd-cinema" group-title="4K Ultra HD",Ultra HD Cinema
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8
 #EXTINF:-1 channelId="992" tvg-id="ultra-hd-cinema" group-title="HD",Ultra HD Cinema (HD)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m3u8
-#EXTINF:-1 channelId="993" tvg-id="nasha-sibir-4k" group-title="Ultra HD",Наша Сибирь 4K
+#EXTINF:-1 channelId="993" tvg-id="nasha-sibir-4k" group-title="4K Ultra HD",Наша Сибирь 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
 #EXTINF:-1 channelId="993" tvg-id="nasha-sibir-4k" group-title="HD",Наша Сибирь 4K (HD)
@@ -1225,10 +1225,10 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Ю (+7)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
-#EXTINF:-1 tvg-id="arirang" group-title="Зарубежные",Arirang
-#EXTVLCOPT:http-user-agent=Google
-http://s97982.cdn.ngenix.net/hls/CH_R02_OTT_DV_HVSK_OTTARIRANG/variant.m3u8
-#EXTINF:-1 tvg-id="vsio-tv" channelId="0" group-title="Телемагазины",Всё ТВ HD
+# #EXTINF:-1 tvg-id="arirang" group-title="Зарубежные",Arirang  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://s97982.cdn.ngenix.net/hls/CH_R02_OTT_DV_HVSK_OTTARIRANG/variant.m3u8  
+#EXTINF:-1 tvg-id="vsio-tv" channelId="0" group-title="HD",Всё ТВ HD
 #EXTVLCOPT:http-user-agent=Google
 http://s72169.cdn.ngenix.net/hls/CH_VSETVHD_HLS/variant.m3u8
 # IPTV-ORG
