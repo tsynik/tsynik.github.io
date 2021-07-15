@@ -1265,22 +1265,23 @@ http://212.42.193.122:8888/play/a00k/index.m3u8
 http://212.42.193.122:8888/play/a00i/index.m3u8
 #EXTINF:-1 tvg-id="kinoxit" tvg-name="Кинохит" group-title="Кино и сериалы",Кинохит
 http://212.42.193.122:8888/play/a00h/index.m3u8
+#EXTINF:-1 tvg-id="kinokomedia" tvg-name="Кинокомедия" tvg-country="RU" tvg-language="Russian" tvg-logo="" group-title="Кино и сериалы",Кинокомедия
+http://188.40.68.167/russia/komediya/playlist.m3u8
 #EXTINF:-1 tvg-id="klassika-kino" tvg-name="Классика Кино" group-title="Кино и сериалы",Классика Кино
 https://strm.yandex.ru/kal/kinoclassic/kinoclassic0.m3u8
 #EXTINF:-1 tvg-id="mir-seriala" tvg-name="Мир сериала" group-title="Кино и сериалы",Мир сериала
-http://185.161.224.216/dash/Mir_seriala_SD.ism/playlist.mpd
+http://188.40.68.167/russia/mir_seriala/playlist.m3u8
+# #EXTINF:-1 tvg-id="mir-seriala" tvg-name="Мир сериала" group-title="Кино и сериалы",Мир сериала  
+# http://185.161.224.216/dash/Mir_seriala_SD.ism/playlist.mpd  
 #EXTINF:-1 tvg-id="o_" tvg-name="О!" tvg-country="RU" group-title="Детские",О!
 https://sc.id-tv.kz/o_34_35.m3u8
 #EXTINF:-1 tvg-id="o2tv" tvg-name="О2ТВ" tvg-country="RU" group-title="HD",О2ТВ HD
 https://strm.yandex.ru/kal/o2/o20.m3u8
 #EXTINF:-1 tvg-id="perec-int" tvg-name="Перец" group-title="Развлекательные",Перец
 http://212.42.193.122:8888/play/a00j/index.m3u8
-#EXTINF:-1 tvg-id="radost-moya" tvg-name="Радость моя" tvg-country="RU" group-title="Детские",Радость моя (576p)
-http://188.40.68.167/russia/radost_moya/playlist.m3u8
-#EXTINF:-1 tvg-id="radost-moya" tvg-name="Радость моя" tvg-country="RU" group-title="Детские",Радость моя
-http://cdn-01.bonus-tv.ru:8080/radostmoya_edge/tracks-v1a1/index.m3u8
+# #EXTINF:-1 tvg-id="radost-moya" tvg-name="Радость моя" tvg-country="RU" group-title="Религиозные",Радость моя  
+# http://188.40.68.167/russia/radost_moya/playlist.m3u8  
 #EXTINF:-1 tvg-id="smaylik-tv" tvg-name="Смайлик ТВ" tvg-country="RU" group-title="Детские",Смайлик ТВ HD
 http://62.32.67.187:1935/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
-
 #EXTINF:-1 tvg-id="fox" tvg-name="Fox Russia" group-title="Кино и сериалы",Fox Россия
 http://188.40.68.167/russia/fox_russia_sd/playlist.m3u8
