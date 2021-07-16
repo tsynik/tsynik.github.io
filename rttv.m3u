@@ -453,9 +453,9 @@ http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_31TVK_CHEL/variant.m3u8
 #EXTINF:-1 group-title="Региональные",41 Регион
 #EXTVLCOPT:http-user-agent=Google
 http://s14131.cdn.ngenix.net/hls/CH_R02_OTT_DV_KAM_41REG_OTT/variant.m3u8
-#EXTINF:-1 group-title="Региональные",41 Телеканал ВТК АРГУС HD
-#EXTVLCOPT:http-user-agent=Google
-http://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_ARGUS/variant.m3u8
+# #EXTINF:-1 group-title="Региональные",41 Телеканал ВТК АРГУС HD
+# #EXTVLCOPT:http-user-agent=Google
+# http://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_ARGUS/variant.m3u8
 #EXTINF:-1 tvg-id="49kanal" group-title="Региональные",49 канал Новосибирск
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_49CHANNEL/variant.m3u8
