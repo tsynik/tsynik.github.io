@@ -1285,6 +1285,8 @@ https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
 https://rut-v.gcdn.co/streams/1410_95/playlist.m3u8
 #EXTINF:-1 tvg-id="viasat-history" tvg-name="Viasat History" group-title="Познавательные",Viasat History
 https://s1.idata.uz/stch_temp20/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-name="VIVA Russia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/VIVA_2011_logo.svg/1280px-VIVA_2011_logo.svg.png" group-title="Музыкальные",VIVA Russia (1080p)
+http://195.9.195.19:8001/hls2/vivarussia/index.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" tvg-name="Дом Кино Премиум" group-title="Кино и сериалы",Дом Кино Премиум
 https://sc.id-tv.kz/domkino_hd_38_39.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" tvg-name="Дом кино Премиум" group-title="HD",Дом кино Премиум HD
