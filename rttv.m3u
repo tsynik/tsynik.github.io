@@ -858,9 +858,9 @@ http://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STH_STAVR_STV-PLUS/vari
 #EXTINF:-1 tvg-id="selenga-tv" group-title="Региональные",Селенга-ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_UUDE_SELENGA/variant.m3u8
-# #EXTINF:-1 group-title="Региональные",Семерка HD (Иркутск)  
-# #EXTVLCOPT:http-user-agent=Google  
-# http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_SEMERKA/variant.m3u8  
+# #EXTINF:-1 group-title="Региональные",Семерка HD (Иркутск)
+# #EXTVLCOPT:http-user-agent=Google
+# http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_SEMERKA/variant.m3u8
 #EXTINF:-1 name="Сочи 24" tvg-id="sochi24" group-title="Региональные",Сочи24 HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R01_MAKS241/variant.m3u8
@@ -870,9 +870,9 @@ http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_STB/variant.m3u8
 #EXTINF:-1 group-title="Региональные",СТВ (360° Ульяновск)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_UL_STB/variant.m3u8
-# #EXTINF:-1 tvg-id="41-domashny" group-title="Региональные",Студия 41  
-# #EXTVLCOPT:http-user-agent=Google  
-# http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STUDIO41/variant.m3u8  
+# #EXTINF:-1 tvg-id="41-domashny" group-title="Региональные",Студия 41
+# #EXTVLCOPT:http-user-agent=Google
+# http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STUDIO41/variant.m3u8
 #EXTINF:-1 tvg-id="surgut-24" group-title="Региональные",Сургут 24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SURGUT24/variant.m3u8
@@ -1233,12 +1233,12 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8
 #EXTINF:-1 group-title="Региональные",Ю (+7)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
-# #EXTINF:-1 tvg-id="arirang" group-title="Зарубежные",Arirang  
-# #EXTVLCOPT:http-user-agent=Google  
-# http://s97982.cdn.ngenix.net/hls/CH_R02_OTT_DV_HVSK_OTTARIRANG/variant.m3u8  
-# #EXTINF:-1 tvg-id="vsio-tv" channelId="0" group-title="Телемагазины",Всё ТВ HD  
-# #EXTVLCOPT:http-user-agent=Google  
-# http://s72169.cdn.ngenix.net/hls/CH_VSETVHD_HLS/variant.m3u8  
+# #EXTINF:-1 tvg-id="arirang" group-title="Зарубежные",Arirang
+# #EXTVLCOPT:http-user-agent=Google
+# http://s97982.cdn.ngenix.net/hls/CH_R02_OTT_DV_HVSK_OTTARIRANG/variant.m3u8
+# #EXTINF:-1 tvg-id="vsio-tv" channelId="0" group-title="Телемагазины",Всё ТВ HD
+# #EXTVLCOPT:http-user-agent=Google
+# http://s72169.cdn.ngenix.net/hls/CH_VSETVHD_HLS/variant.m3u8
 #
 # IPTV-ORG
 #
@@ -1275,9 +1275,9 @@ http://188.40.68.167/russia/jimjam/playlist.m3u8
 https://strm.yandex.ru/kal/hdmedia/hdmedia0.m3u8
 #EXTINF:-1 tvg-id="hitv" tvg-name="HITV" group-title="Музыкальные",HITV (1080p)
 https://strm.yandex.ru/kal/hittv/hittv0.m3u8
-# #EXTINF:-1 tvg-id="MilleniumTV.ru" tvg-name="Millenium TV" group-title="Кино и сериалы",Millenium TV  
-# http://tv1.mmg.ooo/live/sd.stream/playlist.m3u8  
-# #EXTINF:-1 tvg-id="MilleniumTV.ru" tvg-name="Millenium TV" group-title="HD",Millenium TV HD  
+# #EXTINF:-1 tvg-id="MilleniumTV.ru" tvg-name="Millenium TV" group-title="Кино и сериалы",Millenium TV
+# http://tv1.mmg.ooo/live/sd.stream/playlist.m3u8
+# #EXTINF:-1 tvg-id="MilleniumTV.ru" tvg-name="Millenium TV" group-title="HD",Millenium TV HD
 # http://tv1.mmg.ooo/live/hd.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="mtv-hits" tvg-name="MTV Hits" tvg-country="EUR" group-title="Музыкальные",MTV Hits Europe (576p)
 http://188.40.68.167/russia/mtv_hits/playlist.m3u8
@@ -1300,8 +1300,8 @@ https://sc.id-tv.kz/domkino_hd_38_39.m3u8
 http://edge05.beetv.kz/btv/SWM/Dom_kino_Prem/Dom_kino_Prem.m3u8
 #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" group-title="Кино и сериалы",Индийское кино
 http://212.42.193.122:8888/play/a00k/index.m3u8
-# #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" group-title="Кино и сериалы",Индийское кино  
-# https://sc.id-tv.kz/Indiiskoe_kino_38_39.m3u8  
+# #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" group-title="Кино и сериалы",Индийское кино
+# https://sc.id-tv.kz/Indiiskoe_kino_38_39.m3u8
 #EXTINF:-1 tvg-id="kinopremiera-hd" tvg-name="Кинопремьера" group-title="HD",Кинопремьера HD
 http://212.42.193.122:8888/play/a00i/index.m3u8
 #EXTINF:-1 tvg-id="kinoxit" tvg-name="Кинохит" group-title="Кино и сериалы",Кинохит
@@ -1310,18 +1310,22 @@ http://212.42.193.122:8888/play/a00h/index.m3u8
 http://188.40.68.167/russia/komediya/playlist.m3u8
 #EXTINF:-1 tvg-id="klassika-kino" tvg-name="Классика Кино" group-title="Кино и сериалы",Классика Кино
 https://strm.yandex.ru/kal/kinoclassic/kinoclassic0.m3u8
+#EXTINF:-1 tvg-id="match-igra" tvg-name="Матч! Игра" group-title="Спортивные",Матч! Игра
+https://s1.idata.uz/stch_temp19/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="mir-seriala" tvg-name="Мир сериала" group-title="Кино и сериалы",Мир сериала
 http://188.40.68.167/russia/mir_seriala/playlist.m3u8
-# #EXTINF:-1 tvg-id="mir-seriala" tvg-name="Мир сериала" group-title="Кино и сериалы",Мир сериала  
-# http://185.161.224.216/dash/Mir_seriala_SD.ism/playlist.mpd  
+# #EXTINF:-1 tvg-id="mir-seriala" tvg-name="Мир сериала" group-title="Кино и сериалы",Мир сериала
+# http://185.161.224.216/dash/Mir_seriala_SD.ism/playlist.mpd
 #EXTINF:-1 tvg-id="o_" tvg-name="О!" tvg-country="RU" group-title="Детские",О!
 https://sc.id-tv.kz/o_34_35.m3u8
 #EXTINF:-1 tvg-id="o2tv" tvg-name="О2ТВ" tvg-country="RU" group-title="HD",О2ТВ HD
 https://strm.yandex.ru/kal/o2/o20.m3u8
 #EXTINF:-1 tvg-id="perec-int" tvg-name="Перец" group-title="Развлекательные",Перец
 http://212.42.193.122:8888/play/a00j/index.m3u8
-# #EXTINF:-1 tvg-id="radost-moya" tvg-name="Радость моя" tvg-country="RU" group-title="Религиозные",Радость моя  
-# http://188.40.68.167/russia/radost_moya/playlist.m3u8  
+# #EXTINF:-1 tvg-id="radost-moya" tvg-name="Радость моя" tvg-country="RU" group-title="Религиозные",Радость моя
+# http://188.40.68.167/russia/radost_moya/playlist.m3u8
+#EXTINF:-1 tvg-id="start" tvg-name="Старт" group-title="Спортивные",Старт (1080p)
+https://strm.yandex.ru/kal/start/start0.m3u8
 #EXTINF:-1 tvg-id="smaylik-tv" tvg-name="Смайлик ТВ" tvg-country="RU" group-title="Детские",Смайлик ТВ HD
 http://62.32.67.187:1935/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
 #EXTINF:-1 tvg-id="fox" tvg-name="Fox Russia" group-title="Кино и сериалы",Fox Россия
