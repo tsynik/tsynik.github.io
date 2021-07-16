@@ -858,9 +858,9 @@ http://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STH_STAVR_STV-PLUS/vari
 #EXTINF:-1 tvg-id="selenga-tv" group-title="Региональные",Селенга-ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_UUDE_SELENGA/variant.m3u8
-#EXTINF:-1 group-title="Региональные",Семерка HD (Иркутск)
-#EXTVLCOPT:http-user-agent=Google
-http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_SEMERKA/variant.m3u8
+# #EXTINF:-1 group-title="Региональные",Семерка HD (Иркутск)  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_SEMERKA/variant.m3u8  
 #EXTINF:-1 name="Сочи 24" tvg-id="sochi24" group-title="Региональные",Сочи24 HD
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R01_MAKS241/variant.m3u8
@@ -870,9 +870,9 @@ http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_STB/variant.m3u8
 #EXTINF:-1 group-title="Региональные",СТВ (360° Ульяновск)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_UL_STB/variant.m3u8
-#EXTINF:-1 tvg-id="41-domashny" group-title="Региональные",Студия 41
-#EXTVLCOPT:http-user-agent=Google
-http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STUDIO41/variant.m3u8
+# #EXTINF:-1 tvg-id="41-domashny" group-title="Региональные",Студия 41  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STUDIO41/variant.m3u8  
 #EXTINF:-1 tvg-id="surgut-24" group-title="Региональные",Сургут 24
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SURGUT24/variant.m3u8
@@ -984,7 +984,7 @@ http://s34351.cdn.ngenix.net/hls/CH_R14_OTT_DV_YKT_YKT/variant.m3u8
 #EXTINF:-1 tvg-id="yamal-region" group-title="Региональные",Ямал-Регион
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_YAMREG_URAL_YNF/variant.m3u8
-#EXTINF:-1 group-title="Региональные",ё
+#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/1/1e/%D0%81_%282018%2C_%D0%B1%D0%B5%D0%B7_%D1%84%D0%BE%D0%BD%D0%B0%29.png/revision/latest/scale-to-width-down/166?cb=20190216153653&path-prefix=ru" group-title="Музыкальные",#ё
 #EXTVLCOPT:http-user-agent=Google
 http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_M1/variant.m3u8
 #EXTINF:-1 group-title="Региональные",2x2 (+2)
