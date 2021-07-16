@@ -1262,6 +1262,9 @@ https://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8
 #EXTINF:-1 tvg-id="amedia-premium" tvg-name="Amedia Premium" group-title="Кино и сериалы",Amedia Premium (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s64/index.m3u8
+#EXTINF:-1 tvg-id="bridge-tv" tvg-name="Bridge TV" group-title="Музыкальные",Bridge TV (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s34/index.m3u8
 #EXTINF:-1 tvg-id="cinema-ru" tvg-name="Cinema" group-title="Кино и сериалы",Cinema
 https://sc.id-tv.kz/Cinema_34_35.m3u8
 #EXTINF:-1 tvg-id="jimjam" tvg-name="JimJam" group-title="Детские",JimJam
@@ -1270,7 +1273,7 @@ http://188.40.68.167/russia/jimjam/playlist.m3u8
 # http://tv1.mmg.ooo/live/sd.stream/playlist.m3u8  
 # #EXTINF:-1 tvg-id="MilleniumTV.ru" tvg-name="Millenium TV" group-title="HD",Millenium TV HD  
 # http://tv1.mmg.ooo/live/hd.stream/playlist.m3u8  
-#EXTINF:-1 tvg-id="russian-musicbox" tvg-name="MusicBox Russia" group-title="Музыкальные",MusicBox Russia HD
+#EXTINF:-1 tvg-id="russian-musicbox" tvg-name="MusicBox Russia" group-title="Музыкальные",MusicBox Russia
 https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
 #EXTINF:-1 tvg-id="nat-geo-wild" tvg-name="Nat Geo Wild" group-title="HD",National Geographic Wild
 https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
