@@ -161,9 +161,9 @@ http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MOSKOV24/variant.m3u8
 # #EXTINF:-1 group-title="HD" tvg-id="eurosport-gold" catchup-enable="1",Eurosport Gold HD
 # #EXTVLCOPT:http-user-agent=Google
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT_GHD/variant.m3u8
-#EXTINF:-1 channelId="600" tvg-id="ufc" group-title="HD" catchup-enable="1",UFC HD
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_UFCHD_HLS/variant.m3u8
+# #EXTINF:-1 channelId="600" tvg-id="ufc" group-title="HD" catchup-enable="1",UFC HD  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_UFCHD_HLS/variant.m3u8  
 # http://s37630.cdn.ngenix.net/hls/CH_UFCHD_HLS/variant.m3u8
 # #EXTINF:-1 group-title="HD" tvg-id="viasat-sport-hd" catchup-enable="1",Viasat Sport HD
 # #EXTVLCOPT:http-user-agent=Google
