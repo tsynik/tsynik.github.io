@@ -1243,92 +1243,92 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
 # IPTV-ORG
 #
 # https://github.com/iptv-org/iptv | https://iptv-org.github.io/iptv/countries/ru.m3u
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="1hd" tvg-name="1HD Music Television" group-title="Музыкальные",1HD Music Television
+#EXTINF:-1 catchup-enable="0" tvg-id="1hd" tvg-name="1HD Music Television" group-title="Музыкальные",1HD Music Television
 http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/tracks-v1a1/index.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="Эфирные"",360°
+#EXTINF:-1 catchup-enable="0" channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="Эфирные"",360°
 https://video1.in-news.ru/360/index.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="HD",360° HD
+#EXTINF:-1 catchup-enable="0" channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="HD",360° HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/1080.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" channelId="52" tvg-id="360-news" tvg-name="360° Новости" group-title="HD",360° Новости HD
+#EXTINF:-1 catchup-enable="0" channelId="52" tvg-id="360-news" tvg-name="360° Новости" group-title="HD",360° Новости HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="amedia1" tvg-name="A1" group-title="Кино и сериалы",A1 (480p)
+#EXTINF:-1 catchup-enable="0" tvg-id="amedia1" tvg-name="A1" group-title="Кино и сериалы",A1 (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s45/index.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="amedia2" tvg-name="A2" group-title="Кино и сериалы",A2 (480p)
+#EXTINF:-1 catchup-enable="0" tvg-id="amedia2" tvg-name="A2" group-title="Кино и сериалы",A2 (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s33/index.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="amedia-hit" tvg-name="Amedia Hit" group-title="HD",Amedia Hit HD
+#EXTINF:-1 catchup-enable="0" tvg-id="amedia-hit" tvg-name="Amedia Hit" group-title="HD",Amedia Hit HD
 https://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="amedia-premium" tvg-name="Amedia Premium" group-title="Кино и сериалы",Amedia Premium (480p)
+#EXTINF:-1 catchup-enable="0" tvg-id="amedia-premium" tvg-name="Amedia Premium" group-title="Кино и сериалы",Amedia Premium (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s64/index.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="bridge-tv" tvg-name="Bridge TV" group-title="Музыкальные",Bridge TV (480p)
+#EXTINF:-1 catchup-enable="0" tvg-id="bridge-tv" tvg-name="Bridge TV" group-title="Музыкальные",Bridge TV (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s34/index.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="cinema-ru" tvg-name="Cinema" group-title="Кино и сериалы",Cinema
+#EXTINF:-1 catchup-enable="0" tvg-id="cinema-ru" tvg-name="Cinema" group-title="Кино и сериалы",Cinema
 https://sc.id-tv.kz/Cinema_34_35.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="freshtv" tvg-name="Fresh TV" group-title="Музыкальные",Fresh-TV (720p)
+#EXTINF:-1 catchup-enable="0" tvg-id="freshtv" tvg-name="Fresh TV" group-title="Музыкальные",Fresh-TV (720p)
 https://strm.yandex.ru/kal/fresh/fresh0.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="jimjam" tvg-name="JimJam" group-title="Детские",JimJam
+#EXTINF:-1 catchup-enable="0" tvg-id="jimjam" tvg-name="JimJam" group-title="Детские",JimJam
 http://188.40.68.167/russia/jimjam/playlist.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="hd-media" tvg-name="HD Медиа" group-title="Познавательные",HD Медиа (720p)
+#EXTINF:-1 catchup-enable="0" tvg-id="hd-media" tvg-name="HD Медиа" group-title="Познавательные",HD Медиа (720p)
 https://strm.yandex.ru/kal/hdmedia/hdmedia0.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="hitv" tvg-name="HITV" group-title="Музыкальные",HITV (1080p)
+#EXTINF:-1 catchup-enable="0" tvg-id="hitv" tvg-name="HITV" group-title="Музыкальные",HITV (1080p)
 https://strm.yandex.ru/kal/hittv/hittv0.m3u8
 # #EXTINF:-1 tvg-id="MilleniumTV.ru" tvg-name="Millenium TV" group-title="Кино и сериалы",Millenium TV
 # http://tv1.mmg.ooo/live/sd.stream/playlist.m3u8
 # #EXTINF:-1 tvg-id="MilleniumTV.ru" tvg-name="Millenium TV" group-title="HD",Millenium TV HD
 # http://tv1.mmg.ooo/live/hd.stream/playlist.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="mtv-hits" tvg-name="MTV Hits" tvg-country="EUR" group-title="Музыкальные",MTV Hits Europe (576p)
+#EXTINF:-1 catchup-enable="0" tvg-id="mtv-hits" tvg-name="MTV Hits" tvg-country="EUR" group-title="Музыкальные",MTV Hits Europe (576p)
 http://188.40.68.167/russia/mtv_hits/playlist.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="russian-musicbox" tvg-name="MusicBox Russia" group-title="Музыкальные",MusicBox Russia
+#EXTINF:-1 catchup-enable="0" tvg-id="russian-musicbox" tvg-name="MusicBox Russia" group-title="Музыкальные",MusicBox Russia
 https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="nat-geo-wild" tvg-name="Nat Geo Wild" group-title="HD",National Geographic Wild
+#EXTINF:-1 catchup-enable="0" tvg-id="nat-geo-wild" tvg-name="Nat Geo Wild" group-title="HD",National Geographic Wild
 https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="rtg-hd" tvg-name="RTG HD" group-title="Познавательные",RTG HD (480p)
+#EXTINF:-1 catchup-enable="0" tvg-id="rtg-hd" tvg-name="RTG HD" group-title="Познавательные",RTG HD (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s63/index.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="ru-tv" tvg-name="RU.TV" group-title="Музыкальные",RU.TV HD
+#EXTINF:-1 catchup-enable="0" tvg-id="ru-tv" tvg-name="RU.TV" group-title="Музыкальные",RU.TV HD
 https://rut-v.gcdn.co/streams/1410_95/playlist.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="viasat-history" tvg-name="Viasat History" group-title="Познавательные",Viasat History
+#EXTINF:-1 catchup-enable="0" tvg-id="viasat-history" tvg-name="Viasat History" group-title="Познавательные",Viasat History
 https://s1.idata.uz/stch_temp20/tracks-v1a1/mono.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="no_epg_music" tvg-name="VIVA Russia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/VIVA_2011_logo.svg/1280px-VIVA_2011_logo.svg.png" group-title="Музыкальные",VIVA Russia (1080p)
+#EXTINF:-1 catchup-enable="0" tvg-id="no_epg_music" tvg-name="VIVA Russia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/VIVA_2011_logo.svg/1280px-VIVA_2011_logo.svg.png" group-title="Музыкальные",VIVA Russia (1080p)
 http://195.9.195.19:8001/hls2/vivarussia/index.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="domkino-premium" tvg-name="Дом Кино Премиум" group-title="Кино и сериалы",Дом Кино Премиум
+#EXTINF:-1 catchup-enable="0" tvg-id="domkino-premium" tvg-name="Дом Кино Премиум" group-title="Кино и сериалы",Дом Кино Премиум
 https://sc.id-tv.kz/domkino_hd_38_39.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="domkino-premium" tvg-name="Дом кино Премиум" group-title="HD",Дом кино Премиум HD
+#EXTINF:-1 catchup-enable="0" tvg-id="domkino-premium" tvg-name="Дом кино Премиум" group-title="HD",Дом кино Премиум HD
 http://edge05.beetv.kz/btv/SWM/Dom_kino_Prem/Dom_kino_Prem.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="indiyskoe-kino" tvg-name="Индийское кино" group-title="Кино и сериалы",Индийское кино
+#EXTINF:-1 catchup-enable="0" tvg-id="indiyskoe-kino" tvg-name="Индийское кино" group-title="Кино и сериалы",Индийское кино
 http://212.42.193.122:8888/play/a00k/index.m3u8
 # #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" group-title="Кино и сериалы",Индийское кино
 # https://sc.id-tv.kz/Indiiskoe_kino_38_39.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="kinopremiera-hd" tvg-name="Кинопремьера" group-title="HD",Кинопремьера HD
+#EXTINF:-1 catchup-enable="0" tvg-id="kinopremiera-hd" tvg-name="Кинопремьера" group-title="HD",Кинопремьера HD
 http://212.42.193.122:8888/play/a00i/index.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="kinoxit" tvg-name="Кинохит" group-title="Кино и сериалы",Кинохит
+#EXTINF:-1 catchup-enable="0" tvg-id="kinoxit" tvg-name="Кинохит" group-title="Кино и сериалы",Кинохит
 http://212.42.193.122:8888/play/a00h/index.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-name="Комедия" group-title="Кино и сериалы",Комедия
+#EXTINF:-1 catchup-enable="0" tvg-name="Комедия" group-title="Кино и сериалы",Комедия
 http://188.40.68.167/russia/komediya/playlist.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="klassika-kino" tvg-name="Классика Кино" group-title="Кино и сериалы",Классика Кино
+#EXTINF:-1 catchup-enable="0" tvg-id="klassika-kino" tvg-name="Классика Кино" group-title="Кино и сериалы",Классика Кино
 https://strm.yandex.ru/kal/kinoclassic/kinoclassic0.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="match-tv" tvg-name="Матч! ТВ" group-title="Спортивные",Матч! ТВ (576p)
+#EXTINF:-1 catchup-enable="0" tvg-id="match-tv" tvg-name="Матч! ТВ" group-title="Спортивные",Матч! ТВ (576p)
 http://176.114.16.54:80/match/index.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="match-igra" tvg-name="Матч! Игра" group-title="Спортивные",Матч! Игра (576p)
+#EXTINF:-1 catchup-enable="0" tvg-id="match-igra" tvg-name="Матч! Игра" group-title="Спортивные",Матч! Игра (576p)
 https://s1.idata.uz/stch_temp19/tracks-v1a1/mono.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="mir-seriala" tvg-name="Мир сериала" group-title="Кино и сериалы",Мир сериала
+#EXTINF:-1 catchup-enable="0" tvg-id="mir-seriala" tvg-name="Мир сериала" group-title="Кино и сериалы",Мир сериала
 http://188.40.68.167/russia/mir_seriala/playlist.m3u8
 # #EXTINF:-1 tvg-id="mir-seriala" tvg-name="Мир сериала" group-title="Кино и сериалы",Мир сериала
 # http://185.161.224.216/dash/Mir_seriala_SD.ism/playlist.mpd
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="o_" tvg-name="О!" tvg-country="RU" group-title="Детские",О!
+#EXTINF:-1 catchup-enable="0" tvg-id="o_" tvg-name="О!" tvg-country="RU" group-title="Детские",О!
 https://sc.id-tv.kz/o_34_35.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="o2tv" tvg-name="О2ТВ" tvg-country="RU" group-title="HD",О2ТВ HD
+#EXTINF:-1 catchup-enable="0" tvg-id="o2tv" tvg-name="О2ТВ" tvg-country="RU" group-title="HD",О2ТВ HD
 https://strm.yandex.ru/kal/o2/o20.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="perec-int" tvg-name="Перец" group-title="Развлекательные",Перец
+#EXTINF:-1 catchup-enable="0" tvg-id="perec-int" tvg-name="Перец" group-title="Развлекательные",Перец
 http://212.42.193.122:8888/play/a00j/index.m3u8
 # #EXTINF:-1 tvg-id="radost-moya" tvg-name="Радость моя" tvg-country="RU" group-title="Религиозные",Радость моя
 # http://188.40.68.167/russia/radost_moya/playlist.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="start" tvg-name="Старт" group-title="Спортивные",Старт (1080p)
+#EXTINF:-1 catchup-enable="0" tvg-id="start" tvg-name="Старт" group-title="Спортивные",Старт (1080p)
 https://strm.yandex.ru/kal/start/start0.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="smaylik-tv" tvg-name="Смайлик ТВ" tvg-country="RU" group-title="Детские",Смайлик ТВ HD
+#EXTINF:-1 catchup-enable="0" tvg-id="smaylik-tv" tvg-name="Смайлик ТВ" tvg-country="RU" group-title="Детские",Смайлик ТВ HD
 http://62.32.67.187:1935/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
-#EXTINF:-1 catchup-enable="0" tvg-rec="0" tvg-id="fox" tvg-name="Fox Russia" group-title="Кино и сериалы",Fox Россия
+#EXTINF:-1 catchup-enable="0" tvg-id="fox" tvg-name="Fox Russia" group-title="Кино и сериалы",Fox Россия
 http://188.40.68.167/russia/fox_russia_sd/playlist.m3u8
