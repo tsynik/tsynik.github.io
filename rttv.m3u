@@ -1243,7 +1243,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
 # IPTV-ORG
 #
 # https://github.com/iptv-org/iptv | https://iptv-org.github.io/iptv/countries/ru.m3u
-#EXTINF:-1 tvg-id="1hd" tvg-name="1HD Music Television" group-title="Музыкальные" catchup-enable="0",1HD Music Television
+#EXTINF:-1 tvg-id="1hd" tvg-name="1HD Music Television" group-title="HD" catchup-enable="0",1HD Music Television
 http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/tracks-v1a1/index.m3u8
 #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="Эфирные"" catchup-enable="0",360°
 https://video1.in-news.ru/360/index.m3u8
@@ -1321,6 +1321,49 @@ http://188.40.68.167/russia/fox_russia_sd/playlist.m3u8
 #
 # Yandex
 #
+#EXTINF:-1 tvg-id="1hd" group-title="Музыкальные" catchup-enable="0",1HD
+https://strm.yandex.ru/kal/1hd/1hd0.m3u8
+
+#EXTINF:-1 tvg-id="360-news" group-title="Информационные" catchup-enable="0",360° Новости
+https://strm.yandex.ru/kal/360news_supres/360news_supres0.m3u8
+
+#EXTINF:-1 tvg-id="360-podmoskovie" group-title="Развлекательные" catchup-enable="0",360° Подмосковье
+https://strm.yandex.ru/kal/360tv_supres/360tv_supres0.m3u8
+
+#EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы" catchup-enable="0",A1
+https://strm.yandex.ru/kal/a1/a10.m3u8
+
+#EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы" catchup-enable="0",A2
+https://strm.yandex.ru/kal/a2/a20.m3u8
+
+#EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
+https://strm.yandex.ru/kal/europaplus/europaplus0.m3u8
+
+#EXTINF:-1 tvg-id="freshtv" tvg-name="Fresh TV" group-title="Музыкальные" catchup-enable="0",Fresh-TV
+https://strm.yandex.ru/kal/fresh/fresh0.m3u8
+#EXTINF:-1 tvg-id="freshtv" group-title="HD" catchup-enable="0",Fresh-TV (720p)
+https://strm.yandex.ru/kal/fresh/fresh0_169_720p.json/index-v1-a1.m3u8
+
+#EXTINF:-1 tvg-id="hd-media" tvg-name="HD Медиа" group-title="Познавательные" catchup-enable="0",HD Медиа
+https://strm.yandex.ru/kal/hdmedia/hdmedia0.m3u8
+#EXTINF:-1 tvg-id="hd-media" tvg-name="HD Медиа" group-title="HD" catchup-enable="0",HD Медиа (720p)
+https://strm.yandex.ru/kal/hdmedia/hdmedia0_169_720p.json/index-v1-a1.m3u8
+
+#EXTINF:-1 tvg-id="hitv" tvg-name="HITV" group-title="Музыкальные" catchup-enable="0",HITV HD
+https://strm.yandex.ru/kal/hittv/hittv0.m3u8
+#EXTINF:-1 tvg-id="hitv" tvg-name="HITV" group-title="HD" catchup-enable="0",HITV (1080p)
+https://strm.yandex.ru/kal/hittv/hittv0_169_1080p.json/index-v1-a1.m3u8
+
+#EXTINF:-1 tvg-id="rtg-hd" group-title="Познавательные" catchup-enable="0",RTG HD
+https://strm.yandex.ru/kal/rtg/rtg0.json
+#EXTINF:-1 tvg-id="rtg-hd" group-title="HD" catchup-enable="0",RTG (1080p)
+https://strm.yandex.ru/kal/rtg/rtg0_169_1080p.json/index-v1-a1.m3u8
+
+#EXTINF:-1 tvg-id="russian-musicbox" tvg-name="MusicBox Russia" group-title="Музыкальные" catchup-enable="0",Russian MusicBox
+https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
+#EXTINF:-1 tvg-id="russian-musicbox" group-title="HD" catchup-enable="0",Russian MusicBox (1080p)
+https://strm.yandex.ru/kal/rmbox/rmbox0_169_1080p.json/index-v1-a1.m3u8
+
 #EXTINF:-1 tvg-id="dajving-tv" group-title="HD" catchup-enable="0",Дайвинг.TV (720p)
 https://strm.yandex.ru/kal/diving/diving0_169_720p.json/index-v1-a1.m3u8
 
@@ -1330,7 +1373,7 @@ https://strm.yandex.ru/kal/tvrain/tvrain0_169_720p.json/index-v1-a1.m3u8
 #EXTINF:-1 tvg-id="zagorodny" group-title="HD" catchup-enable="0",Загородный (1080p)
 https://strm.yandex.ru/kal/zagorod/zagorod0_169_1080p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="klassika-kino" group-title="Кино и сериалы" catchup-enable="0",Классика Кино
+#EXTINF:-1 tvg-id="klassika-kino" group-title="Кино и сериалы" catchup-enable="0",Классика кино HD
 https://strm.yandex.ru/kal/kinoclassic/kinoclassic0.m3u8
 
 #EXTINF:-1 tvg-id="krik-tv" group-title="HD" catchup-enable="0",Крик-ТВ (720p)
@@ -1362,6 +1405,9 @@ https://strm.yandex.ru/kal/ohotnik/ohotnik0_169_1080p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="skazki-zayki" group-title="Детские" catchup-enable="0",Сказки Зайки (720p)
 https://strm.yandex.ru/kal/skazkizayki/skazkizayki0_169_720p.json/index-v1-a1.m3u8
+
+#EXTINF:-1tvg-id="smaylik-tv" group-title="Детские" catchup-enable="0",Смайлик ТВ
+https://strm.yandex.ru/kal/smilik/smilik0.m3u8
 
 #EXTINF:-1 tvg-id="sovkino" group-title="Кино и сериалы" catchup-enable="0",Советское кино
 https://strm.yandex.ru/kal/sovkino/sovkino0_169_576p.json/index-v1-a1.m3u8
@@ -1396,28 +1442,3 @@ https://strm.yandex.ru/kal/tnomer/tnomer0_169_576p.json/index-v1-a1.m3u8
 https://strm.yandex.ru/kal/football/football0.json
 #EXTINF:-1 tvg-id="football-ru" group-title="HD" catchup-enable="0",ТК Футбол (1080p)
 https://strm.yandex.ru/kal/football/football0_169_1080p.json/index-v1-a1.m3u8
-
-#EXTINF:-1 tvg-id="freshtv" tvg-name="Fresh TV" group-title="Музыкальные" catchup-enable="0",Fresh-TV
-https://strm.yandex.ru/kal/fresh/fresh0.m3u8
-#EXTINF:-1 tvg-id="freshtv" group-title="HD" catchup-enable="0",Fresh-TV (720p)
-https://strm.yandex.ru/kal/fresh/fresh0_169_720p.json/index-v1-a1.m3u8
-
-#EXTINF:-1 tvg-id="hd-media" tvg-name="HD Медиа" group-title="Познавательные" catchup-enable="0",HD Медиа
-https://strm.yandex.ru/kal/hdmedia/hdmedia0.m3u8
-#EXTINF:-1 tvg-id="hd-media" tvg-name="HD Медиа" group-title="HD" catchup-enable="0",HD Медиа (720p)
-https://strm.yandex.ru/kal/hdmedia/hdmedia0_169_720p.json/index-v1-a1.m3u8
-
-#EXTINF:-1 tvg-id="hitv" tvg-name="HITV" group-title="Музыкальные" catchup-enable="0",HITV
-https://strm.yandex.ru/kal/hittv/hittv0.m3u8
-#EXTINF:-1 tvg-id="hitv" tvg-name="HITV" group-title="HD" catchup-enable="0",HITV (1080p)
-https://strm.yandex.ru/kal/hittv/hittv0_169_1080p.json/index-v1-a1.m3u8
-
-# #EXTINF:-1 tvg-id="rtg-hd" group-title="Познавательные" catchup-enable="0",RTG
-# https://strm.yandex.ru/kal/rtg/rtg0.json
-# #EXTINF:-1 tvg-id="rtg-hd" group-title="HD" catchup-enable="0",RTG (1080p)
-# https://strm.yandex.ru/kal/rtg/rtg0_169_1080p.json/index-v1-a1.m3u8
-
-#EXTINF:-1 tvg-id="russian-musicbox" tvg-name="MusicBox Russia" group-title="Музыкальные" catchup-enable="0",MusicBox Russia
-https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
-#EXTINF:-1 tvg-id="russian-musicbox" group-title="HD" catchup-enable="0",Russian MusicBox (1080p)
-https://strm.yandex.ru/kal/rmbox/rmbox0_169_1080p.json/index-v1-a1.m3u8
