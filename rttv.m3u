@@ -450,9 +450,9 @@ http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_12CHANNEL/varia
 #EXTINF:-1 tvg-id="31-kanal-chelyabinsk" group-title="Региональные" catchup-enable="1",31 канал Челябинск
 #EXTVLCOPT:http-user-agent=Google
 http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_31TVK_CHEL/variant.m3u8
-# #EXTINF:-1 group-title="Региональные" catchup-enable="1",41 Регион  
-# #EXTVLCOPT:http-user-agent=Google  
-# http://s14131.cdn.ngenix.net/hls/CH_R02_OTT_DV_KAM_41REG_OTT/variant.m3u8  
+# #EXTINF:-1 group-title="Региональные" catchup-enable="1",41 Регион
+# #EXTVLCOPT:http-user-agent=Google
+# http://s14131.cdn.ngenix.net/hls/CH_R02_OTT_DV_KAM_41REG_OTT/variant.m3u8
 # #EXTINF:-1 group-title="Региональные" catchup-enable="1",41 Телеканал ВТК АРГУС HD
 # #EXTVLCOPT:http-user-agent=Google
 # http://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_ARGUS/variant.m3u8
@@ -1321,46 +1321,46 @@ http://188.40.68.167/russia/fox_russia_sd/playlist.m3u8
 #
 # Yandex
 #
-#EXTINF:-1 tvg-id="dajving-tv" group-title="HD" catchup-enable="0",Дайвинг.TV
+#EXTINF:-1 tvg-id="dajving-tv" group-title="HD" catchup-enable="0",Дайвинг.TV (720p)
 https://strm.yandex.ru/kal/diving/diving0_169_720p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="dozhd" group-title="HD" catchup-enable="0",Дождь HD
+#EXTINF:-1 tvg-id="dozhd" group-title="HD" catchup-enable="0",Дождь (720p)
 https://strm.yandex.ru/kal/tvrain/tvrain0_169_720p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="zagorodny" group-title="HD" catchup-enable="0",Загородный HD
+#EXTINF:-1 tvg-id="zagorodny" group-title="HD" catchup-enable="0",Загородный (1080p)
 https://strm.yandex.ru/kal/zagorod/zagorod0_169_1080p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="klassika-kino" group-title="Кино и сериалы" catchup-enable="0",Классика Кино
 https://strm.yandex.ru/kal/kinoclassic/kinoclassic0.m3u8
 
-#EXTINF:-1 tvg-id="krik-tv" group-title="HD" catchup-enable="0",Крик-ТВ
+#EXTINF:-1 tvg-id="krik-tv" group-title="HD" catchup-enable="0",Крик-ТВ (720p)
 https://strm.yandex.ru/kal/krik_tv/krik_tv0_169_720p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="lubimoe-tv" group-title="HD" catchup-enable="0",Любимое.ТВ HD
+#EXTINF:-1 tvg-id="lubimoe-tv" group-title="HD" catchup-enable="0",Любимое.ТВ (720p)
 https://strm.yandex.ru/kal/lovedtv/lovedtv0_169_720p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="mir-24" group-title="HD" catchup-enable="0",Мир 24
+#EXTINF:-1 tvg-id="mir-24" group-title="HD" catchup-enable="0",Мир 24 (720p)
 https://strm.yandex.ru/kal/mir24_supres/mir24_supres0_169_720p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="nasha-sibir" group-title="HD" catchup-enable="0",Наша Сибирь HD
 https://strm.yandex.ru/kal/sibir/sibir0_169_1080p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="neizvestnaya-planeta" group-title="Познавательные" catchup-enable="0",Неизвестная Планета (1080p)
-https://strm.yandex.ru/kal/unknownplanet/unknownplanet0.json
-#EXTINF:-1 tvg-id="neizvestnaya-planeta" group-title="HD" catchup-enable="0",Неизвестная Планета HD
-https://strm.yandex.ru/kal/unknownplanet/unknownplanet0_169_720p.json/index-v1-a1.m3u8
+# #EXTINF:-1 tvg-id="neizvestnaya-planeta" group-title="Познавательные" catchup-enable="0",Неизвестная Планета (1080p)
+# https://strm.yandex.ru/kal/unknownplanet/unknownplanet0.json
+# #EXTINF:-1 tvg-id="neizvestnaya-planeta" group-title="HD" catchup-enable="0",Неизвестная Планета HD
+# https://strm.yandex.ru/kal/unknownplanet/unknownplanet0_169_720p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="o2tv" tvg-name="О2ТВ" group-title="Музыкальные" catchup-enable="0",О!2 ТВ (1080p)
+#EXTINF:-1 tvg-id="o2tv" tvg-name="О2ТВ" group-title="Музыкальные" catchup-enable="0",О!2 ТВ
 https://strm.yandex.ru/kal/o2/o20.m3u8
 #EXTINF:-1 tvg-id="o2tv" tvg-name="О2ТВ" group-title="HD" catchup-enable="0",0!2 HD
 https://strm.yandex.ru/kal/o2/o20_169_1080p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="oxotnik-i-rybolov-hd" group-title="Познавательные" catchup-enable="0",Охотник и Рыболов (1080p)
+#EXTINF:-1 tvg-id="oxotnik-i-rybolov-hd" group-title="Познавательные" catchup-enable="0",Охотник и Рыболов
 https://strm.yandex.ru/kal/ohotnik/ohotnik0.json
-#EXTINF:-1 tvg-id="oxotnik-i-rybolov-hd" group-title="HD" catchup-enable="0",Охотник и Рыболов HD
+#EXTINF:-1 tvg-id="oxotnik-i-rybolov-hd" group-title="HD" catchup-enable="0",Охотник и Рыболов (1080p)
 https://strm.yandex.ru/kal/ohotnik/ohotnik0_169_1080p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="skazki-zayki" group-title="Детские" catchup-enable="0",Сказки Зайки
+#EXTINF:-1 tvg-id="skazki-zayki" group-title="Детские" catchup-enable="0",Сказки Зайки (720p)
 https://strm.yandex.ru/kal/skazkizayki/skazkizayki0_169_720p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="sovkino" group-title="Кино и сериалы" catchup-enable="0",Советское кино
@@ -1369,24 +1369,24 @@ https://strm.yandex.ru/kal/sovkino/sovkino0_169_576p.json/index-v1-a1.m3u8
 #EXTINF:-1 tvg-id="sovmultf" group-title="Детские" catchup-enable="0",Советские мультфильмы
 https://strm.yandex.ru/kal/sovmult/sovmult0_169_576p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="sovsek" group-title="Познавательные" catchup-enable="0",Совершенно секретно (720p)
-https://strm.yandex.ru/kal/sovsec/sovsec0.m3u8
-#EXTINF:-1 tvg-id="sovsek" group-title="HD" catchup-enable="0",Совершенно секретно HD
-https://strm.yandex.ru/kal/sovsec_supres/sovsec_supres0_54_720p.json/index-v1-a1.m3u8
+# #EXTINF:-1 tvg-id="sovsek" group-title="Познавательные" catchup-enable="0",Совершенно секретно
+# https://strm.yandex.ru/kal/sovsec/sovsec0.m3u8
+# #EXTINF:-1 tvg-id="sovsek" group-title="HD" catchup-enable="0",Совершенно секретно (720p)
+# https://strm.yandex.ru/kal/sovsec_supres/sovsec_supres0_54_720p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="soyuz" group-title="Религиозные" catchup-enable="0",Союз
 https://strm.yandex.ru/kal/soyuz/soyuz0.m3u8
-#EXTINF:-1 tvg-id="soyuz" group-title="HD" catchup-enable="0",Союз HD
+#EXTINF:-1 tvg-id="soyuz" group-title="HD" catchup-enable="0",Союз (720p)
 https://strm.yandex.ru/kal/soyuz_supres/soyuz_supres0_169_720p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="start" tvg-name="Старт" group-title="Спортивные" catchup-enable="0",СТАРТ
 https://strm.yandex.ru/kal/start/start0.m3u8
-#EXTINF:-1 tvg-id="start" group-title="HD" catchup-enable="0",СТАРТ
+#EXTINF:-1 tvg-id="start" group-title="HD" catchup-enable="0",СТАРТ (720p)
 https://strm.yandex.ru/kal/start/start0_169_720p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="tvtour" group-title="Познавательные" catchup-enable="0",ТВТУР (720p)
+#EXTINF:-1 tvg-id="tvtour" group-title="Познавательные" catchup-enable="0",ТВТУР
 https://strm.yandex.ru/kal/tvtour/tvtour0.m3u8
-#EXTINF:-1 tvg-id="tvtour" group-title="HD" catchup-enable="0",ТВТУР HD
+#EXTINF:-1 tvg-id="tvtour" group-title="HD" catchup-enable="0",ТВТУР (720p)
 https://strm.yandex.ru/kal/tvtour/tvtour0_169_720p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="tnomer" group-title="" catchup-enable="0",Тномер
@@ -1394,30 +1394,30 @@ https://strm.yandex.ru/kal/tnomer/tnomer0_169_576p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="0",ТК Футбол
 https://strm.yandex.ru/kal/football/football0.json
-#EXTINF:-1 tvg-id="football-ru" group-title="HD" catchup-enable="0",ТК Футбол HD
+#EXTINF:-1 tvg-id="football-ru" group-title="HD" catchup-enable="0",ТК Футбол (1080p)
 https://strm.yandex.ru/kal/football/football0_169_1080p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="freshtv" tvg-name="Fresh TV" group-title="Музыкальные" catchup-enable="0",Fresh-TV (720p)
+#EXTINF:-1 tvg-id="freshtv" tvg-name="Fresh TV" group-title="Музыкальные" catchup-enable="0",Fresh-TV
 https://strm.yandex.ru/kal/fresh/fresh0.m3u8
-#EXTINF:-1 tvg-id="freshtv" group-title="HD" catchup-enable="0",Fresh-TV HD
+#EXTINF:-1 tvg-id="freshtv" group-title="HD" catchup-enable="0",Fresh-TV (720p)
 https://strm.yandex.ru/kal/fresh/fresh0_169_720p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="hd-media" tvg-name="HD Медиа" group-title="Познавательные" catchup-enable="0",HD Медиа (720p)
+#EXTINF:-1 tvg-id="hd-media" tvg-name="HD Медиа" group-title="Познавательные" catchup-enable="0",HD Медиа
 https://strm.yandex.ru/kal/hdmedia/hdmedia0.m3u8
-#EXTINF:-1 tvg-id="hd-media" tvg-name="HD Медиа" group-title="HD" catchup-enable="0",HD Медиа
+#EXTINF:-1 tvg-id="hd-media" tvg-name="HD Медиа" group-title="HD" catchup-enable="0",HD Медиа (720p)
 https://strm.yandex.ru/kal/hdmedia/hdmedia0_169_720p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="hitv" tvg-name="HITV" group-title="Музыкальные" catchup-enable="0",HITV (1080p)
+#EXTINF:-1 tvg-id="hitv" tvg-name="HITV" group-title="Музыкальные" catchup-enable="0",HITV
 https://strm.yandex.ru/kal/hittv/hittv0.m3u8
-#EXTINF:-1 tvg-id="hitv" tvg-name="HITV" group-title="HD" catchup-enable="0",HITV HD
+#EXTINF:-1 tvg-id="hitv" tvg-name="HITV" group-title="HD" catchup-enable="0",HITV (1080p)
 https://strm.yandex.ru/kal/hittv/hittv0_169_1080p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="rtg-hd" group-title="Познавательные" catchup-enable="0",RTG
-https://strm.yandex.ru/kal/rtg/rtg0.json
-#EXTINF:-1 tvg-id="rtg-hd" group-title="HD" catchup-enable="0",RTG HD
-https://strm.yandex.ru/kal/rtg/rtg0_169_1080p.json/index-v1-a1.m3u8
+# #EXTINF:-1 tvg-id="rtg-hd" group-title="Познавательные" catchup-enable="0",RTG
+# https://strm.yandex.ru/kal/rtg/rtg0.json
+# #EXTINF:-1 tvg-id="rtg-hd" group-title="HD" catchup-enable="0",RTG (1080p)
+# https://strm.yandex.ru/kal/rtg/rtg0_169_1080p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="russian-musicbox" tvg-name="MusicBox Russia" group-title="Музыкальные" catchup-enable="0",MusicBox Russia
 https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
-#EXTINF:-1 tvg-id="russian-musicbox" group-title="HD" catchup-enable="0",Russian MusicBox HD
+#EXTINF:-1 tvg-id="russian-musicbox" group-title="HD" catchup-enable="0",Russian MusicBox (1080p)
 https://strm.yandex.ru/kal/rmbox/rmbox0_169_1080p.json/index-v1-a1.m3u8
