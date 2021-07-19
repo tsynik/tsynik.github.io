@@ -1233,9 +1233,9 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8
 #EXTINF:-1 group-title="Региональные" catchup-enable="1",Ю (+7)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
-# #EXTINF:-1 tvg-id="arirang" group-title="Зарубежные" catchup-enable="1",Arirang
-# #EXTVLCOPT:http-user-agent=Google
-# http://s97982.cdn.ngenix.net/hls/CH_R02_OTT_DV_HVSK_OTTARIRANG/variant.m3u8
+#EXTINF:-1 tvg-id="arirang" group-title="Зарубежные" catchup-enable="1",Arirang
+#EXTVLCOPT:http-user-agent=Google
+http://s97982.cdn.ngenix.net/hls/CH_R02_OTT_DV_HVSK_OTTARIRANG/variant.m3u8
 # #EXTINF:-1 tvg-id="vsio-tv" channelId="0" group-title="Телемагазины" catchup-enable="1",Всё ТВ HD
 # #EXTVLCOPT:http-user-agent=Google
 # http://s72169.cdn.ngenix.net/hls/CH_VSETVHD_HLS/variant.m3u8
@@ -1362,7 +1362,7 @@ https://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
 # #EXTINF:-1 tvg-id="rtg-hd" group-title="HD" catchup-enable="0",RTG (1080p)
 # https://strm.yandex.ru/kal/rtg/rtg0_169_1080p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="rtg-hd" group-title="HD" catchup-enable="0",Russia Today HD
+#EXTINF:-1 tvg-id="russia-today" group-title="Зарубежные" catchup-enable="0",Russia Today HD
 https://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
 
 #EXTINF:-1 tvg-id="russian-musicbox" tvg-name="MusicBox Russia" group-title="Музыкальные" catchup-enable="0",Russian MusicBox
