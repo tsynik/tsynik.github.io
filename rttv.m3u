@@ -1357,8 +1357,8 @@ https://strm.yandex.ru/kal/hittv/hittv0_169_1080p.json/index-v1-a1.m3u8
 #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",MusicBox Gold
 https://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
 
-# #EXTINF:-1 tvg-id="rtg-hd" group-title="Познавательные" catchup-enable="0",RTG HD
-# https://strm.yandex.ru/kal/rtg/rtg0.json
+#EXTINF:-1 tvg-id="rtg-hd" group-title="Познавательные" catchup-enable="0",RTG HD
+https://strm.yandex.ru/kal/rtg/rtg0.m3u8
 # #EXTINF:-1 tvg-id="rtg-hd" group-title="HD" catchup-enable="0",RTG (1080p)
 # https://strm.yandex.ru/kal/rtg/rtg0_169_1080p.json/index-v1-a1.m3u8
 
@@ -1371,7 +1371,7 @@ https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
 https://strm.yandex.ru/kal/rmbox/rmbox0_169_1080p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="dajving-tv" group-title="Познавательные" catchup-enable="0",Дайвинг.TV
-https://strm.yandex.ru/kal/diving/diving0.json
+https://strm.yandex.ru/kal/diving/diving0.m3u8
 #EXTINF:-1 tvg-id="dajving-tv" group-title="HD" catchup-enable="0",Дайвинг.TV (720p)
 https://strm.yandex.ru/kal/diving/diving0_169_720p.json/index-v1-a1.m3u8
 
@@ -1398,8 +1398,8 @@ https://strm.yandex.ru/kal/mir24_supres/mir24_supres0_169_720p.json/index-v1-a1.
 #EXTINF:-1 tvg-id="nasha-sibir" group-title="HD" catchup-enable="0",Наша Сибирь HD
 https://strm.yandex.ru/kal/sibir/sibir0_169_1080p.json/index-v1-a1.m3u8
 
-# #EXTINF:-1 tvg-id="neizvestnaya-planeta" group-title="Познавательные" catchup-enable="0",Неизвестная Планета HD
-# https://strm.yandex.ru/kal/unknownplanet/unknownplanet0.json
+#EXTINF:-1 tvg-id="neizvestnaya-planeta" group-title="Познавательные" catchup-enable="0",Неизвестная Планета HD
+https://strm.yandex.ru/kal/unknownplanet/unknownplanet0.m3u8
 # #EXTINF:-1 tvg-id="neizvestnaya-planeta" group-title="HD" catchup-enable="0",Неизвестная Планета (1080p)
 # https://strm.yandex.ru/kal/unknownplanet/unknownplanet0_169_720p.json/index-v1-a1.m3u8
 
@@ -1409,12 +1409,12 @@ https://strm.yandex.ru/kal/o2/o20.m3u8
 https://strm.yandex.ru/kal/o2/o20_169_1080p.json/index-v1-a1.m3u8
 
 # #EXTINF:-1 tvg-id="oxotnik-i-rybolov-hd" group-title="Познавательные" catchup-enable="0",Охотник и Рыболов
-# https://strm.yandex.ru/kal/ohotnik/ohotnik0.json
+# https://strm.yandex.ru/kal/ohotnik/ohotnik0.m3u8
 # #EXTINF:-1 tvg-id="oxotnik-i-rybolov-hd" group-title="HD" catchup-enable="0",Охотник и Рыболов (1080p)
 # https://strm.yandex.ru/kal/ohotnik/ohotnik0_169_1080p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="skazki-zayki" group-title="Детские" tvg-logo="https://www.cableman.ru/sites/default/files/skazki_zayki.png" catchup-enable="0",Сказки Зайки
-https://strm.yandex.ru/kal/skazkizayki/skazkizayki0.json
+https://strm.yandex.ru/kal/skazkizayki/skazkizayki0.m3u8
 #EXTINF:-1 tvg-id="skazki-zayki" group-title="HD" tvg-logo="https://www.cableman.ru/sites/default/files/skazki_zayki.png" catchup-enable="0",Сказки Зайки (720p)
 https://strm.yandex.ru/kal/skazkizayki/skazkizayki0_169_720p.json/index-v1-a1.m3u8
 
@@ -1422,7 +1422,8 @@ https://strm.yandex.ru/kal/skazkizayki/skazkizayki0_169_720p.json/index-v1-a1.m3
 https://strm.yandex.ru/kal/smilik/smilik0.m3u8
 
 #EXTINF:-1 tvg-id="sovkino" group-title="Кино и сериалы" catchup-enable="0",Советское кино
-https://strm.yandex.ru/kal/sovkino/sovkino0_169_576p.json/index-v1-a1.m3u8
+https://strm.yandex.ru/kal/sovkino/sovkino0.m3u8
+# https://strm.yandex.ru/kal/sovkino/sovkino0_169_576p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="sovmultf" group-title="Детские" catchup-enable="0",Советские мультфильмы
 https://strm.yandex.ru/kal/sovmult/sovmult0_169_576p.json/index-v1-a1.m3u8
@@ -1450,7 +1451,7 @@ https://strm.yandex.ru/kal/tvtour/tvtour0_169_720p.json/index-v1-a1.m3u8
 #EXTINF:-1 tvg-id="tnomer" group-title="" catchup-enable="0",Тномер
 https://strm.yandex.ru/kal/tnomer/tnomer0_169_576p.json/index-v1-a1.m3u8
 
-# #EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="0",ТК Футбол
-# https://strm.yandex.ru/kal/football/football0.json
+#EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="0",ТК Футбол
+https://strm.yandex.ru/kal/football/football0.m3u8
 # #EXTINF:-1 tvg-id="football-ru" group-title="HD" catchup-enable="0",ТК Футбол (1080p)
 # https://strm.yandex.ru/kal/football/football0_169_1080p.json/index-v1-a1.m3u8
