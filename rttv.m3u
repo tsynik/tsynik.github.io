@@ -1245,8 +1245,8 @@ http://s97982.cdn.ngenix.net/hls/CH_R02_OTT_DV_HVSK_OTTARIRANG/variant.m3u8
 # https://github.com/iptv-org/iptv | https://iptv-org.github.io/iptv/countries/ru.m3u
 #EXTINF:-1 tvg-id="1hd" tvg-name="1HD Music Television" group-title="HD" catchup-enable="0",1HD Music Television
 http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/tracks-v1a1/index.m3u8
-#EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="Эфирные"" catchup-enable="0",360°
-https://video1.in-news.ru/360/index.m3u8
+# #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="Эфирные"" catchup-enable="0",360°
+# https://video1.in-news.ru/360/index.m3u8
 #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="HD" catchup-enable="0",360° HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/1080.m3u8
 #EXTINF:-1 channelId="52" tvg-id="360-news" tvg-name="360° Новости" group-title="HD" catchup-enable="0",360° Новости HD
@@ -1324,11 +1324,11 @@ http://188.40.68.167/russia/fox_russia_sd/playlist.m3u8
 #EXTINF:-1 tvg-id="1hd" group-title="Музыкальные" catchup-enable="0",1HD
 https://strm.yandex.ru/kal/1hd/1hd0.m3u8
 
-#EXTINF:-1 tvg-id="360-news" group-title="Общие" catchup-enable="0",360° Новости
-https://strm.yandex.ru/kal/360news/360news0.m3u8
-
-#EXTINF:-1 tvg-id="360-podmoskovie" group-title="Общие" catchup-enable="0",360° Подмосковье
+#EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" group-title="Эфирные" catchup-enable="0",360° Подмосковье
 https://strm.yandex.ru/kal/360tv/360tv0.m3u8
+
+#EXTINF:-1 channelId="52" tvg-id="360-news" group-title="Эфирные"" catchup-enable="0",360° Новости
+https://strm.yandex.ru/kal/360news/360news0.m3u8
 
 # #EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы" catchup-enable="0",A1
 # https://strm.yandex.ru/kal/a1/a10.m3u8
