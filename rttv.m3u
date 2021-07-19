@@ -1321,7 +1321,7 @@ http://188.40.68.167/russia/fox_russia_sd/playlist.m3u8
 #
 # Yandex
 #
-#EXTINF:-1 tvg-id="1hd" group-title="Музыкальные" catchup-enable="0",1HD
+#EXTINF:-1 tvg-id="1hd" group-title="Музыкальные" catchup-enable="0",1HD Music Television
 https://strm.yandex.ru/kal/1hd/1hd0.m3u8
 
 #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" group-title="Эфирные" catchup-enable="0",360° Подмосковье
