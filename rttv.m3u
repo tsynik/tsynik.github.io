@@ -1284,7 +1284,7 @@ http://ott-cdn.ucom.am/s63/index.m3u8
 https://rut-v.gcdn.co/streams/1410_95/playlist.m3u8
 # #EXTINF:-1 tvg-id="viasat-history" tvg-name="Viasat History" group-title="Познавательные" catchup-enable="0",Viasat History 
 # https://s1.idata.uz/stch_temp20/tracks-v1a1/mono.m3u8 
-#EXTINF:-1 tvg-id="no_epg_music" tvg-name="VIVA Russia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/VIVA_2011_logo.svg/1280px-VIVA_2011_logo.svg.png" group-title="Музыкальные" catchup-enable="0",VIVA Russia (1080p)
+#EXTINF:-1 tvg-id="no_epg_music" tvg-name="VIVA Russia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/VIVA_2011_logo.svg/1280px-VIVA_2011_logo.svg.png" group-title="Музыкальные" catchup-enable="0",VIVA Russia HD
 http://195.9.195.19:8001/hls2/vivarussia/index.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" tvg-name="Дом Кино Премиум" group-title="Кино и сериалы" catchup-enable="0",Дом Кино Премиум
 https://sc.id-tv.kz/domkino_hd_38_39.m3u8
@@ -1428,8 +1428,8 @@ https://strm.yandex.ru/kal/sovmult/sovmult0_169_576p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="soyuz" group-title="Религиозные" catchup-enable="0",Союз
 https://strm.yandex.ru/kal/soyuz/soyuz0.m3u8
-#EXTINF:-1 tvg-id="soyuz" group-title="HD" catchup-enable="0",Союз (720p)
-https://strm.yandex.ru/kal/soyuz_supres/soyuz_supres0_169_720p.json/index-v1-a1.m3u8
+# #EXTINF:-1 tvg-id="soyuz" group-title="HD" catchup-enable="0",Союз (720p)
+# https://strm.yandex.ru/kal/soyuz_supres/soyuz_supres0_169_720p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="start" tvg-name="Старт" group-title="Спортивные" catchup-enable="0",СТАРТ
 https://strm.yandex.ru/kal/start/start0.m3u8
