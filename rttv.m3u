@@ -1339,7 +1339,7 @@ https://strm.yandex.ru/kal/360tv/360tv0.m3u8
 #EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
 https://strm.yandex.ru/kal/europaplus/europaplus0.m3u8
 
-#EXTINF:-1 tvg-id="freshtv" tvg-name="Fresh TV" group-title="Музыкальные" catchup-enable="0",Fresh-TV
+#EXTINF:-1 tvg-id="freshtv" tvg-name="Fresh TV" group-title="Музыкальные" catchup-enable="0",Fresh.TV
 https://strm.yandex.ru/kal/fresh/fresh0.m3u8
 #EXTINF:-1 tvg-id="freshtv" group-title="HD" catchup-enable="0",Fresh-TV (720p)
 https://strm.yandex.ru/kal/fresh/fresh0_169_720p.json/index-v1-a1.m3u8
@@ -1370,6 +1370,8 @@ https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
 #EXTINF:-1 tvg-id="russian-musicbox" group-title="HD" catchup-enable="0",Russian MusicBox (1080p)
 https://strm.yandex.ru/kal/rmbox/rmbox0_169_1080p.json/index-v1-a1.m3u8
 
+#EXTINF:-1 tvg-id="dajving-tv" group-title="Познавательные" catchup-enable="0",Дайвинг.TV
+https://strm.yandex.ru/kal/diving/diving0.json
 #EXTINF:-1 tvg-id="dajving-tv" group-title="HD" catchup-enable="0",Дайвинг.TV (720p)
 https://strm.yandex.ru/kal/diving/diving0_169_720p.json/index-v1-a1.m3u8
 
@@ -1436,9 +1438,9 @@ https://strm.yandex.ru/kal/start/start0.m3u8
 #EXTINF:-1 tvg-id="start" group-title="HD" catchup-enable="0",СТАРТ (720p)
 https://strm.yandex.ru/kal/start/start0_169_720p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="tvtour" group-title="Познавательные" catchup-enable="0",ТВТУР
+#EXTINF:-1 tvg-id="tvtour" group-title="Познавательные" tvg-logo="https://www.planeta-online.tv//uploads/channel/logo/d2c7237285880591bbaa6c1a6b482331609738ec.png" catchup-enable="0",ТВТУР.TV
 https://strm.yandex.ru/kal/tvtour/tvtour0.m3u8
-#EXTINF:-1 tvg-id="tvtour" group-title="HD" catchup-enable="0",ТВТУР (720p)
+#EXTINF:-1 tvg-id="tvtour" group-title="HD" tvg-logo="https://www.planeta-online.tv//uploads/channel/logo/d2c7237285880591bbaa6c1a6b482331609738ec.png" catchup-enable="0",ТВТУР.TV (720p)
 https://strm.yandex.ru/kal/tvtour/tvtour0_169_720p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="tnomer" group-title="" catchup-enable="0",Тномер
