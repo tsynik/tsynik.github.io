@@ -1392,8 +1392,8 @@ https://strm.yandex.ru/kal/krik_tv/krik_tv0_169_720p.json/index-v1-a1.m3u8
 #EXTINF:-1 tvg-id="lubimoe-tv" group-title="HD" catchup-enable="0",Любимое.ТВ (720p)
 https://strm.yandex.ru/kal/lovedtv/lovedtv0_169_720p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="mir-24" group-title="HD" catchup-enable="0",Мир 24 (720p)
-https://strm.yandex.ru/kal/mir24_supres/mir24_supres0_169_720p.json/index-v1-a1.m3u8
+# #EXTINF:-1 tvg-id="mir-24" group-title="HD" catchup-enable="0",Мир 24
+# https://strm.yandex.ru/kal/mir24/mir24.m3u8
 
 #EXTINF:-1 tvg-id="nasha-sibir" group-title="HD" catchup-enable="0",Наша Сибирь HD
 https://strm.yandex.ru/kal/sibir/sibir0_169_1080p.json/index-v1-a1.m3u8
