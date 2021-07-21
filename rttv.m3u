@@ -378,13 +378,13 @@ http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MOSKOV24/variant.m3u8
 #EXTINF:-1 channelId="987" tvg-id="eurosport-4k" group-title="4K Ultra HD" catchup-enable="1",Eurosport 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/variant.m3u8
-#EXTINF:-1 channelId="987" tvg-id="eurosport-4k" group-title="HD" catchup-enable="1",Eurosport 4K (1080p)
+#EXTINF:-1 channelId="987" tvg-id="eurosport-4k" group-title=" Спортивные" catchup-enable="1",Eurosport 4K (1080p)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw6000000/variant.m3u8
 #EXTINF:-1 channelId="988" tvg-id="love-nature-4k" group-title="4K Ultra HD" catchup-enable="1",Love Nature 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/variant.m3u8
-#EXTINF:-1 channelId="988" tvg-id="love-nature-4k" group-title="HD" catchup-enable="1",Love Nature 4K (1080p)
+#EXTINF:-1 channelId="988" tvg-id="love-nature-4k" group-title="Познавательные" catchup-enable="1",Love Nature 4K (1080p)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/bw6000000/variant.m3u8
 #EXTINF:-1 channelId="991" tvg-id="russian-extreme-uhd" group-title="4K Ultra HD" catchup-enable="1",Russian Extreme Ultra
@@ -396,13 +396,13 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/bw6000000/var
 #EXTINF:-1 channelId="992" tvg-id="ultra-hd-cinema" group-title="4K Ultra HD" catchup-enable="1",Ultra HD Cinema
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8
-#EXTINF:-1 channelId="992" tvg-id="ultra-hd-cinema" group-title="HD" catchup-enable="1",Ultra HD Cinema (1080p)
+#EXTINF:-1 channelId="992" tvg-id="ultra-hd-cinema" group-title="Кино и сериалы" catchup-enable="1",Ultra HD Cinema (1080p)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m3u8
 #EXTINF:-1 channelId="993" tvg-id="nasha-sibir-4k" group-title="4K Ultra HD" catchup-enable="1",Наша Сибирь 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
-# #EXTINF:-1 channelId="993" tvg-id="nasha-sibir-4k" group-title="HD" catchup-enable="1",Наша Сибирь 4K (1080p)
+# #EXTINF:-1 channelId="993" tvg-id="nasha-sibir-4k" group-title="Познавательные" catchup-enable="1",Наша Сибирь 4K (1080p)
 # #EXTVLCOPT:http-user-agent=Google
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw6000000/variant.m3u8
 #
@@ -1290,14 +1290,14 @@ http://195.9.195.19:8001/hls2/vivarussia/index.m3u8
 https://sc.id-tv.kz/domkino_hd_38_39.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" tvg-name="Дом кино Премиум" group-title="HD" catchup-enable="0",Дом кино Премиум HD
 http://edge05.beetv.kz/btv/SWM/Dom_kino_Prem/Dom_kino_Prem.m3u8
+# #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" group-title="Кино и сериалы" catchup-enable="0",Индийское кино  
+# http://212.42.193.122:8888/play/a00k/index.m3u8  
 #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" group-title="Кино и сериалы" catchup-enable="0",Индийское кино
-http://212.42.193.122:8888/play/a00k/index.m3u8
-# #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" group-title="Кино и сериалы" catchup-enable="0",Индийское кино
-# https://sc.id-tv.kz/Indiiskoe_kino_38_39.m3u8
-#EXTINF:-1 tvg-id="kinopremiera-hd" tvg-name="Кинопремьера" group-title="HD" catchup-enable="0",Кинопремьера HD
-http://212.42.193.122:8888/play/a00i/index.m3u8
-#EXTINF:-1 tvg-id="kinoxit" tvg-name="Кинохит" group-title="Кино и сериалы" catchup-enable="0",Кинохит
-http://212.42.193.122:8888/play/a00h/index.m3u8
+https://sc.id-tv.kz/Indiiskoe_kino_38_39.m3u8
+# #EXTINF:-1 tvg-id="kinopremiera-hd" tvg-name="Кинопремьера" group-title="HD" catchup-enable="0",Кинопремьера HD  
+# http://212.42.193.122:8888/play/a00i/index.m3u8  
+# #EXTINF:-1 tvg-id="kinoxit" tvg-name="Кинохит" group-title="Кино и сериалы" catchup-enable="0",Кинохит  
+# http://212.42.193.122:8888/play/a00h/index.m3u8  
 #EXTINF:-1 tvg-name="Комедия" group-title="Кино и сериалы" catchup-enable="0",Комедия
 http://188.40.68.167/russia/komediya/playlist.m3u8
 #EXTINF:-1 tvg-id="match-tv" tvg-name="Матч! ТВ" group-title="Спортивные" catchup-enable="0",Матч! ТВ (576p)
@@ -1310,8 +1310,8 @@ http://188.40.68.167/russia/mir_seriala/playlist.m3u8
 # http://185.161.224.216/dash/Mir_seriala_SD.ism/playlist.mpd
 #EXTINF:-1 tvg-id="o_" tvg-name="О!" group-title="Детские" catchup-enable="0",О!
 https://sc.id-tv.kz/o_34_35.m3u8
-#EXTINF:-1 tvg-id="perec-int" tvg-name="Перец" group-title="Развлекательные" catchup-enable="0",Перец
-http://212.42.193.122:8888/play/a00j/index.m3u8
+# #EXTINF:-1 tvg-id="perec-int" tvg-name="Перец" group-title="Развлекательные" catchup-enable="0",Перец  
+# http://212.42.193.122:8888/play/a00j/index.m3u8  
 # #EXTINF:-1 tvg-id="radost-moya" tvg-name="Радость моя" group-title="Религиозные" catchup-enable="0",Радость моя
 # http://188.40.68.167/russia/radost_moya/playlist.m3u8
 # #EXTINF:-1 tvg-id="smaylik-tv" tvg-name="Смайлик ТВ" group-title="Детские" catchup-enable="0",Смайлик ТВ HD
@@ -1338,6 +1338,8 @@ https://strm.yandex.ru/kal/360tv/360tv0.m3u8
 
 #EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
 https://strm.yandex.ru/kal/europaplus/europaplus0.m3u8
+#EXTINF:-1 tvg-id="europa-plus-tv" group-title="HD" catchup-enable="0",Europa Plus TV (1080p)
+https://strm.yandex.ru/kal/europaplus/europaplus0_169_1080p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="freshtv" tvg-name="Fresh TV" group-title="Музыкальные" catchup-enable="0",Fresh.TV
 https://strm.yandex.ru/kal/fresh/fresh0.m3u8
