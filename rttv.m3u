@@ -1436,10 +1436,10 @@ https://strm.yandex.ru/kal/rmbox/rmbox0_169_1080p.json/index-v1-a1.m3u8
 #EXTINF:-1 tvg-id="zagorodny" group-title="HD" catchup-enable="0",Загородный (1080p)
 https://strm.yandex.ru/kal/zagorod/zagorod0_169_1080p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="klassika-kino" group-title="Кино и сериалы" catchup-enable="0",Классика кино
-https://strm.yandex.ru/kal/kinoclassic/kinoclassic0.m3u8
-#EXTINF:-1 tvg-id="klassika-kino" group-title="HD" catchup-enable="0",Классика кино (720p)
-https://strm.yandex.ru/kal/kinoclassic/kinoclassic0_169_720p.json/index-v1-a1.m3u8
+# #EXTINF:-1 tvg-id="klassika-kino" group-title="Кино и сериалы" catchup-enable="0",Классика кино
+# https://strm.yandex.ru/kal/kinoclassic/kinoclassic0.m3u8
+# #EXTINF:-1 tvg-id="klassika-kino" group-title="HD" catchup-enable="0",Классика кино (720p)
+# https://strm.yandex.ru/kal/kinoclassic/kinoclassic0_169_720p.json/index-v1-a1.m3u8
 
 # #EXTINF:-1 tvg-id="krik-tv" group-title="HD" catchup-enable="0",Крик-ТВ (720p)
 # https://strm.yandex.ru/kal/krik_tv/krik_tv0_169_720p.json/index-v1-a1.m3u8
@@ -1467,10 +1467,10 @@ https://strm.yandex.ru/kal/sibir/sibir0_169_1080p.json/index-v1-a1.m3u8
 # #EXTINF:-1 tvg-id="oxotnik-i-rybolov-hd" group-title="HD" catchup-enable="0",Охотник и Рыболов (1080p)
 # https://strm.yandex.ru/kal/ohotnik/ohotnik0_169_1080p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="skazki-zayki" group-title="Детские" tvg-logo="https://www.cableman.ru/sites/default/files/skazki_zayki.png" catchup-enable="0",Сказки Зайки
-https://strm.yandex.ru/kal/skazkizayki/skazkizayki0.m3u8
-#EXTINF:-1 tvg-id="skazki-zayki" group-title="HD" tvg-logo="https://www.cableman.ru/sites/default/files/skazki_zayki.png" catchup-enable="0",Сказки Зайки (720p)
-https://strm.yandex.ru/kal/skazkizayki/skazkizayki0_169_720p.json/index-v1-a1.m3u8
+# #EXTINF:-1 tvg-id="skazki-zayki" group-title="Детские" tvg-logo="https://www.cableman.ru/sites/default/files/skazki_zayki.png" catchup-enable="0",Сказки Зайки
+# https://strm.yandex.ru/kal/skazkizayki/skazkizayki0.m3u8
+# #EXTINF:-1 tvg-id="skazki-zayki" group-title="HD" tvg-logo="https://www.cableman.ru/sites/default/files/skazki_zayki.png" catchup-enable="0",Сказки Зайки (720p)
+# https://strm.yandex.ru/kal/skazkizayki/skazkizayki0_169_720p.json/index-v1-a1.m3u8
 
 #EXTINF:-1tvg-id="smaylik-tv" group-title="Детские" catchup-enable="0",Смайлик ТВ
 https://strm.yandex.ru/kal/smilik/smilik0.m3u8
