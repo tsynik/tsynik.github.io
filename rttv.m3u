@@ -1325,31 +1325,28 @@ http://188.40.68.167/russia/fox_russia_sd/playlist.m3u8
 https://sc.id-tv.kz/domkino_hd_38_39.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Киносемья HD
 https://sc.id-tv.kz/Kinosemiya_hd_34_35.m3u8
-
+#EXTINF:-1 group-title="HD" catchup-enable="0",Кинохит HD
+https://sc.id-tv.kz/Kinohit_hd_38_39.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Мир 24 HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Мир HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 tvg-id="mir-premium" group-title="HD" catchup-enable="0",Мир Премиум
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
+#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Моя планета
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:mplan.smil/chunklist_b800000.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино
+https://sc.id-tv.kz/Mujskoe_kino_hd_38_39.m3u8
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",СТС Love
 http://83.139.135.241:4022/udp/235.1.10.187:10000?zi/
+#EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс Плюс
+https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Amedia Hit HD
 # https://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Bollywood HD
 https://sc.id-tv.kz/bollywood_hd_34_35.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",FOX HD
 https://sc.id-tv.kz/FOX_HD_34_35.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киносемья HD
-https://sc.id-tv.kz/Kinosemiya_hd_34_35.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Кинохит
-https://sc.id-tv.kz/Kinohit_hd_38_39.m3u8
-#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Моя планета
-http://cdnmg.secure.live.rtr-vesti.ru/live/smil:mplan.smil/chunklist_b800000.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино
-https://sc.id-tv.kz/Mujskoe_kino_hd_38_39.m3u8
-#EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс Плюс
-https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Millenium TV
 # http://tv1.mmg.ooo/live/sd.stream/playlist.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Millenium TV HD
