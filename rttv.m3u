@@ -1267,8 +1267,8 @@ https://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8
 http://ott-cdn.ucom.am/s34/index.m3u8
 #EXTINF:-1 tvg-id="cinema-ru" tvg-name="Cinema" group-title="Кино и сериалы" catchup-enable="0",Cinema
 https://sc.id-tv.kz/Cinema_34_35.m3u8
-#EXTINF:-1 tvg-id="jimjam" tvg-name="JimJam" group-title="Детские" catchup-enable="0",JimJam
-http://188.40.68.167/russia/jimjam/playlist.m3u8
+# #EXTINF:-1 tvg-id="jimjam" tvg-name="JimJam" group-title="Детские" catchup-enable="0",JimJam
+# http://188.40.68.167/russia/jimjam/playlist.m3u8
 # #EXTINF:-1 tvg-id="MilleniumTV.ru" tvg-name="Millenium TV" group-title="Кино и сериалы" catchup-enable="0",Millenium TV
 # http://tv1.mmg.ooo/live/sd.stream/playlist.m3u8
 # #EXTINF:-1 tvg-id="MilleniumTV.ru" tvg-name="Millenium TV" group-title="HD" catchup-enable="0",Millenium TV HD
@@ -1339,6 +1339,8 @@ http://cdnmg.secure.live.rtr-vesti.ru/live/smil:mplan.smil/chunklist_b800000.m3u
 https://sc.id-tv.kz/Mujskoe_kino_hd_38_39.m3u8
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",СТС Love
 http://83.139.135.241:4022/udp/235.1.10.187:10000?zi/
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Фантастика Sci-Fi
+https://v2.catcast.tv/content/38801/index.m3u8
 #EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс Плюс
 https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Amedia Hit HD
@@ -1479,8 +1481,8 @@ https://strm.yandex.ru/kal/smilik/smilik0.m3u8
 # https://strm.yandex.ru/kal/sovkino/sovkino0.m3u8
 # https://strm.yandex.ru/kal/sovkino/sovkino0_169_576p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="sovmultf" group-title="Детские" catchup-enable="0",Советские мультфильмы
-https://strm.yandex.ru/kal/sovmult/sovmult0_169_576p.json/index-v1-a1.m3u8
+# #EXTINF:-1 tvg-id="sovmultf" group-title="Детские" catchup-enable="0",Советские мультфильмы
+# https://strm.yandex.ru/kal/sovmult/sovmult0_169_576p.json/index-v1-a1.m3u8
 
 # #EXTINF:-1 tvg-id="sovsek" group-title="Познавательные" catchup-enable="0",Совершенно секретно
 # https://strm.yandex.ru/kal/sovsec/sovsec0.m3u8
