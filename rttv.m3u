@@ -1331,7 +1331,7 @@ https://sc.id-tv.kz/Kinohit_hd_38_39.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Мир HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1 tvg-id="mir-premium" group-title="HD" catchup-enable="0",Мир Премиум
+#EXTINF:-1 tvg-id="mir-premium" group-title="HD" tvg-logo="https://epg.iptvx.one/icn/mir-premium.png" catchup-enable="0",Мир Премиум
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Моя планета
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:mplan.smil/chunklist_b800000.m3u8
@@ -1353,7 +1353,7 @@ https://sc.id-tv.kz/FOX_HD_34_35.m3u8
 # http://tv1.mmg.ooo/live/hd.stream/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Nat Geo Wild HD
 https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
-#EXTINF:-1 tvg-id="rtd-hd" group-title="HD" catchup-enable="0",RTД HD
+#EXTINF:-1 tvg-id="rtd-hd" group-title="HD" tvg-logo="https://epg.iptvx.one/icn/rtd-hd.png" catchup-enable="0",RTД HD
 https://hls.rt.com/hls/rtdru.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Sony Sci-Fi
 https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
