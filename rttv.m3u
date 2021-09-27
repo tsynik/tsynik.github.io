@@ -1335,6 +1335,10 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:mplan.smil/chunklist_b800000.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино
 https://sc.id-tv.kz/Mujskoe_kino_hd_38_39.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Наше новое кино
+http://46.34.209.243/btv/SWM/Nashe_novoe_kino/Nashe_novoe_kino_720p_3500kbps.m3u8
+#EXTINF:-1 group-title="HD" catchup-enable="0",Наше новое кино HD
+http://87.247.44.26/btv/SWM/Nashe_novoe_kino/Nashe_novoe_kino_1080p_5000kbps.m3u8
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",СТС Love
 http://83.139.135.241:4022/udp/235.1.10.187:10000?zi/
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Фантастика Sci-Fi
@@ -1363,6 +1367,8 @@ http://87.247.44.26/btv/SWM/NatGeo_channel/NatGeo_channel_1080p_5000kbps.m3u8
 https://hls.rt.com/hls/rtdru.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Sony Sci-Fi
 https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 HD
+http://pilot.multiscreen.moldtelecom.md/live/eds/tv1000_hd/HLSv3/tv1000_hd.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 Action HD
 https://okkotv-live.cdnvideo.ru/channel/TV1000_Action_HD.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 Русское кино HD
