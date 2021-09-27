@@ -1298,8 +1298,8 @@ https://sc.id-tv.kz/Indiiskoe_kino_38_39.m3u8
 # http://212.42.193.122:8888/play/a00i/index.m3u8
 # #EXTINF:-1 tvg-id="kinoxit" tvg-name="Кинохит" group-title="Кино и сериалы" catchup-enable="0",Кинохит
 # http://212.42.193.122:8888/play/a00h/index.m3u8
-#EXTINF:-1 tvg-name="Комедия" group-title="Кино и сериалы" catchup-enable="0",Комедия
-http://188.40.68.167/russia/komediya/playlist.m3u8
+# #EXTINF:-1 tvg-name="Комедия" group-title="Кино и сериалы" catchup-enable="0",Комедия
+# http://188.40.68.167/russia/komediya/playlist.m3u8
 #EXTINF:-1 tvg-id="match-tv" tvg-name="Матч! ТВ" group-title="Спортивные" catchup-enable="0",Матч! ТВ (576p)
 http://176.114.16.54:80/match/index.m3u8
 #EXTINF:-1 tvg-id="match-igra" tvg-name="Матч! Игра" group-title="Спортивные" catchup-enable="0",Матч! Игра (576p)
@@ -1327,7 +1327,7 @@ https://sc.id-tv.kz/domkino_hd_38_39.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Мир HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1 tvg-id="mir-premium" group-title="HD" catchup-enable="0",Мир Премиум HD
+#EXTINF:-1 tvg-id="mir-premium" group-title="HD" catchup-enable="0",Мир Премиум
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",СТС Love
 http://83.139.135.241:4022/udp/235.1.10.187:10000?zi/
