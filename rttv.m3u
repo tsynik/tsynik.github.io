@@ -1319,6 +1319,43 @@ https://sc.id-tv.kz/o_34_35.m3u8
 #EXTINF:-1 tvg-id="fox" tvg-name="Fox Russia" group-title="Кино и сериалы" catchup-enable="0",Fox Россия
 http://188.40.68.167/russia/fox_russia_sd/playlist.m3u8
 #
+# Smartoteka
+#
+#EXTINF:-1 group-title="HD" catchup-enable="0,Первый канал HD
+http://213.178.61.23:4022/udp/232.1.20.4:1234
+#EXTINF:-1 group-title="HD" catchup-enable="0",Мир 24 HD
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+#EXTINF:-1 group-title="HD" catchup-enable="0",Мир HD
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+#EXTINF:-1 group-title="Россия" catchup-enable="0,Мир Премиум
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
+#EXTINF:-1 group-title="Россия" catchup-enable="0,СТС HD
+http://83.139.135.241:4022/udp/235.1.10.111:10000?zi/
+#EXTINF:-1 group-title="Россия" catchup-enable="0,СТС Love
+http://83.139.135.241:4022/udp/235.1.10.187:10000?zi/
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0,Sony Sci-Fi
+https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0,TV1000 Action HD
+https://okkotv-live.cdnvideo.ru/channel/TV1000_Action_HD.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0,TV1000 Русское кино
+https://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0,VIP Premiere
+https://okkotv-live.cdnvideo.ru/channel/VIP_Premiere_HD.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0,VIP Megahit
+https://okkotv-live.cdnvideo.ru/channel/VIP_Megahit_HD.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0,VIP Comedy
+https://okkotv-live.cdnvideo.ru/channel/VIP_Comedy_HD.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0,Феникс Плюс
+https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
+#EXTINF:-1 group-title="Познавательные" catchup-enable="0,Моя планета
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:mplan.smil/chunklist_b800000.m3u8
+#EXTINF:-1 group-title="Познавательные" catchup-enable="0,RTD HD
+https://hls.rt.com/hls/rtdru.m3u8
+#EXTINF:-1 group-title="Познавательные" catchup-enable="0,Viasat Nature HD
+https://okkotv-live.cdnvideo.ru/channel/Viasat_Nature_ad_HD.m3u8
+#EXTINF:-1 group-title="Познавательные" catchup-enable="0,Viasat Explore HD
+https://okkotv-live.cdnvideo.ru/channel/Viasat_Explore_HD.m3u8
+#
 # Yandex
 #
 #EXTINF:-1 tvg-id="1hd" group-title="Музыкальные" catchup-enable="0",1HD Music Television
