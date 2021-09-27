@@ -1245,23 +1245,12 @@ http://s97982.cdn.ngenix.net/hls/CH_R02_OTT_DV_HVSK_OTTARIRANG/variant.m3u8
 # https://github.com/iptv-org/iptv | https://iptv-org.github.io/iptv/countries/ru.m3u
 #EXTINF:-1 tvg-id="1hd" tvg-name="1HD Music Television" group-title="HD" catchup-enable="0",1HD Music Television
 http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/tracks-v1a1/index.m3u8
-# #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="Эфирные"" catchup-enable="0",360°
-# https://video1.in-news.ru/360/index.m3u8
 #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="HD" catchup-enable="0",360° HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/1080.m3u8
 #EXTINF:-1 channelId="52" tvg-id="360-news" tvg-name="360° Новости" group-title="HD" catchup-enable="0",360° Новости HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
-# #EXTINF:-1 tvg-id="amedia1" tvg-name="A1" group-title="Кино и сериалы" catchup-enable="0",A1 (480p)
-# #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-# http://ott-cdn.ucom.am/s45/index.m3u8
-# #EXTINF:-1 tvg-id="amedia2" tvg-name="A2" group-title="Кино и сериалы" catchup-enable="0",A2 (480p)
-# #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-# http://ott-cdn.ucom.am/s33/index.m3u8
 #EXTINF:-1 tvg-id="amedia-hit" tvg-name="Amedia Hit" group-title="HD" catchup-enable="0",Amedia Hit HD
 https://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8
-# #EXTINF:-1 tvg-id="amedia-premium" tvg-name="Amedia Premium" group-title="Кино и сериалы" catchup-enable="0",Amedia Premium (480p)
-# #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-# http://ott-cdn.ucom.am/s64/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv" tvg-name="Bridge TV" group-title="Музыкальные" catchup-enable="0",Bridge TV (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s34/index.m3u8
@@ -1269,33 +1258,16 @@ http://ott-cdn.ucom.am/s34/index.m3u8
 https://sc.id-tv.kz/Cinema_34_35.m3u8
 # #EXTINF:-1 tvg-id="jimjam" tvg-name="JimJam" group-title="Детские" catchup-enable="0",JimJam
 # http://188.40.68.167/russia/jimjam/playlist.m3u8
-# #EXTINF:-1 tvg-id="MilleniumTV.ru" tvg-name="Millenium TV" group-title="Кино и сериалы" catchup-enable="0",Millenium TV
-# http://tv1.mmg.ooo/live/sd.stream/playlist.m3u8
-# #EXTINF:-1 tvg-id="MilleniumTV.ru" tvg-name="Millenium TV" group-title="HD" catchup-enable="0",Millenium TV HD
-# http://tv1.mmg.ooo/live/hd.stream/playlist.m3u8
 # #EXTINF:-1 tvg-id="mtv-hits" tvg-name="MTV Hits" tvg-country="EUR" group-title="Музыкальные" catchup-enable="0",MTV Hits Europe (576p)
 # http://188.40.68.167/russia/mtv_hits/playlist.m3u8
-# #EXTINF:-1 tvg-id="rtg-hd" tvg-name="RTG HD" group-title="Познавательные" catchup-enable="0",RTG HD (480p)
-# #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-# http://ott-cdn.ucom.am/s63/index.m3u8
 #EXTINF:-1 tvg-id="ru-tv" tvg-name="RU.TV" group-title="Музыкальные" catchup-enable="0",RU.TV HD
 https://rut-v.gcdn.co/streams/1410_95/playlist.m3u8
-# #EXTINF:-1 tvg-id="viasat-history" tvg-name="Viasat History" group-title="Познавательные" catchup-enable="0",Viasat History
-# https://s1.idata.uz/stch_temp20/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="no_epg_music" tvg-name="VIVA Russia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/VIVA_2011_logo.svg/1280px-VIVA_2011_logo.svg.png" group-title="Музыкальные" catchup-enable="0",VIVA Russia HD
 http://195.9.195.19:8001/hls2/vivarussia/index.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" tvg-name="Дом Кино Премиум" group-title="Кино и сериалы" catchup-enable="0",Дом Кино Премиум
 https://sc.id-tv.kz/domkino_hd_38_39.m3u8
-# #EXTINF:-1 tvg-id="domkino-premium" tvg-name="Дом кино Премиум" group-title="HD" catchup-enable="0",Дом кино Премиум HD
-# http://edge05.beetv.kz/btv/SWM/Dom_kino_Prem/Dom_kino_Prem.m3u8
-# #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" group-title="Кино и сериалы" catchup-enable="0",Индийское кино
-# http://212.42.193.122:8888/play/a00k/index.m3u8
 #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" group-title="Кино и сериалы" catchup-enable="0",Индийское кино
 https://sc.id-tv.kz/Indiiskoe_kino_38_39.m3u8
-# #EXTINF:-1 tvg-id="kinopremiera-hd" tvg-name="Кинопремьера" group-title="HD" catchup-enable="0",Кинопремьера HD
-# http://212.42.193.122:8888/play/a00i/index.m3u8
-# #EXTINF:-1 tvg-id="kinoxit" tvg-name="Кинохит" group-title="Кино и сериалы" catchup-enable="0",Кинохит
-# http://212.42.193.122:8888/play/a00h/index.m3u8
 # #EXTINF:-1 tvg-name="Комедия" group-title="Кино и сериалы" catchup-enable="0",Комедия
 # http://188.40.68.167/russia/komediya/playlist.m3u8
 #EXTINF:-1 tvg-id="match-tv" tvg-name="Матч! ТВ" group-title="Спортивные" catchup-enable="0",Матч! ТВ (576p)
@@ -1319,32 +1291,6 @@ http://188.40.68.167/russia/fox_russia_sd/playlist.m3u8
 #
 # Smartoteka
 #
-#EXTINF:-1 group-title="HD" catchup-enable="0",Дом кино Премиум HD
-https://sc.id-tv.kz/domkino_hd_38_39.m3u8
-#EXTINF:-1 group-title="HD" catchup-enable="0",Киносемья HD
-https://sc.id-tv.kz/Kinosemiya_hd_34_35.m3u8
-#EXTINF:-1 group-title="HD" catchup-enable="0",Кинохит HD
-https://sc.id-tv.kz/Kinohit_hd_38_39.m3u8
-#EXTINF:-1 group-title="HD" catchup-enable="0",Мир 24 HD
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
-#EXTINF:-1 group-title="HD" catchup-enable="0",Мир HD
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1 tvg-id="mir-premium" group-title="HD" tvg-logo="https://epg.iptvx.one/icn/mir-premium.png" catchup-enable="0",Мир Премиум
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
-#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Моя планета
-http://cdnmg.secure.live.rtr-vesti.ru/live/smil:mplan.smil/chunklist_b800000.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино
-https://sc.id-tv.kz/Mujskoe_kino_hd_38_39.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Наше новое кино
-http://46.34.209.243/btv/SWM/Nashe_novoe_kino/Nashe_novoe_kino_720p_3500kbps.m3u8
-#EXTINF:-1 group-title="HD" catchup-enable="0",Наше новое кино HD
-http://87.247.44.26/btv/SWM/Nashe_novoe_kino/Nashe_novoe_kino_1080p_5000kbps.m3u8
-#EXTINF:-1 group-title="Развлекательные" catchup-enable="0",СТС Love
-http://83.139.135.241:4022/udp/235.1.10.187:10000?zi/
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Фантастика Sci-Fi
-https://v2.catcast.tv/content/38801/index.m3u8
-#EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс Плюс
-https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Amedia Hit HD
 # https://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Animal Planet HD
@@ -1383,6 +1329,32 @@ https://okkotv-live.cdnvideo.ru/channel/VIP_Comedy_HD.m3u8
 https://okkotv-live.cdnvideo.ru/channel/Viasat_Nature_ad_HD.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viasat Explore HD
 https://okkotv-live.cdnvideo.ru/channel/Viasat_Explore_HD.m3u8
+#EXTINF:-1 group-title="HD" catchup-enable="0",Дом кино Премиум HD
+https://sc.id-tv.kz/domkino_hd_38_39.m3u8
+#EXTINF:-1 group-title="HD" catchup-enable="0",Киносемья HD
+https://sc.id-tv.kz/Kinosemiya_hd_34_35.m3u8
+#EXTINF:-1 group-title="HD" catchup-enable="0",Кинохит HD
+https://sc.id-tv.kz/Kinohit_hd_38_39.m3u8
+#EXTINF:-1 group-title="HD" catchup-enable="0",Мир 24 HD
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+#EXTINF:-1 group-title="HD" catchup-enable="0",Мир HD
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+#EXTINF:-1 tvg-id="mir-premium" group-title="HD" tvg-logo="https://epg.iptvx.one/icn/mir-premium.png" catchup-enable="0",Мир Премиум
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
+#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Моя планета
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:mplan.smil/chunklist_b800000.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино
+https://sc.id-tv.kz/Mujskoe_kino_hd_38_39.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Наше новое кино
+http://46.34.209.243/btv/SWM/Nashe_novoe_kino/Nashe_novoe_kino_720p_3500kbps.m3u8
+#EXTINF:-1 group-title="HD" catchup-enable="0",Наше новое кино HD
+http://87.247.44.26/btv/SWM/Nashe_novoe_kino/Nashe_novoe_kino_1080p_5000kbps.m3u8
+#EXTINF:-1 group-title="Развлекательные" catchup-enable="0",СТС Love
+http://83.139.135.241:4022/udp/235.1.10.187:10000?zi/
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Фантастика Sci-Fi
+https://v2.catcast.tv/content/38801/index.m3u8
+#EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс Плюс
+https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
 #
 # Yandex
 #
@@ -1405,11 +1377,6 @@ https://strm.yandex.ru/kal/360tv/360tv0.m3u8
 https://strm.yandex.ru/kal/europaplus/europaplus0.m3u8
 #EXTINF:-1 tvg-id="europa-plus-tv" group-title="HD" catchup-enable="0",Europa Plus TV (1080p)
 https://strm.yandex.ru/kal/europaplus/europaplus0_169_1080p.json/index-v1-a1.m3u8
-
-# #EXTINF:-1 tvg-id="freshtv" tvg-name="Fresh TV" group-title="Музыкальные" catchup-enable="0",Fresh.TV
-# https://strm.yandex.ru/kal/fresh/fresh0.m3u8
-# #EXTINF:-1 tvg-id="freshtv" group-title="HD" catchup-enable="0",Fresh.TV (720p)
-# https://strm.yandex.ru/kal/fresh/fresh0_169_720p.json/index-v1-a1.m3u8
 
 # #EXTINF:-1 tvg-id="hd-media" tvg-name="HD Медиа" group-title="Познавательные" catchup-enable="0",HD Медиа
 # https://strm.yandex.ru/kal/hdmedia/hdmedia0.m3u8
@@ -1437,11 +1404,6 @@ https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
 #EXTINF:-1 tvg-id="russian-musicbox" group-title="HD" catchup-enable="0",Russian MusicBox (1080p)
 https://strm.yandex.ru/kal/rmbox/rmbox0_169_1080p.json/index-v1-a1.m3u8
 
-# #EXTINF:-1 tvg-id="dajving-tv" group-title="Познавательные" catchup-enable="0",Дайвинг.TV
-# https://strm.yandex.ru/kal/diving/diving0.m3u8
-# #EXTINF:-1 tvg-id="dajving-tv" group-title="HD" catchup-enable="0",Дайвинг.TV (720p)
-# https://strm.yandex.ru/kal/diving/diving0_169_720p.json/index-v1-a1.m3u8
-
 # #EXTINF:-1 tvg-id="dozhd" group-title="HD" catchup-enable="0",Дождь (720p)
 # https://strm.yandex.ru/kal/tvrain/tvrain0_169_720p.json/index-v1-a1.m3u8
 
@@ -1455,6 +1417,7 @@ https://strm.yandex.ru/kal/zagorod/zagorod0_169_1080p.json/index-v1-a1.m3u8
 
 # #EXTINF:-1 tvg-id="krik-tv" group-title="HD" catchup-enable="0",Крик-ТВ (720p)
 # https://strm.yandex.ru/kal/krik_tv/krik_tv0_169_720p.json/index-v1-a1.m3u8
+
 # #EXTINF:-1 tvg-id="lubimoe-tv" group-title="HD" catchup-enable="0",Любимое.ТВ (720p)
 # https://strm.yandex.ru/kal/lovedtv/lovedtv0_169_720p.json/index-v1-a1.m3u8
 
@@ -1478,11 +1441,6 @@ https://strm.yandex.ru/kal/zagorod/zagorod0_169_1080p.json/index-v1-a1.m3u8
 # https://strm.yandex.ru/kal/ohotnik/ohotnik0.m3u8
 # #EXTINF:-1 tvg-id="oxotnik-i-rybolov-hd" group-title="HD" catchup-enable="0",Охотник и Рыболов (1080p)
 # https://strm.yandex.ru/kal/ohotnik/ohotnik0_169_1080p.json/index-v1-a1.m3u8
-
-# #EXTINF:-1 tvg-id="skazki-zayki" group-title="Детские" tvg-logo="https://www.cableman.ru/sites/default/files/skazki_zayki.png" catchup-enable="0",Сказки Зайки
-# https://strm.yandex.ru/kal/skazkizayki/skazkizayki0.m3u8
-# #EXTINF:-1 tvg-id="skazki-zayki" group-title="HD" tvg-logo="https://www.cableman.ru/sites/default/files/skazki_zayki.png" catchup-enable="0",Сказки Зайки (720p)
-# https://strm.yandex.ru/kal/skazkizayki/skazkizayki0_169_720p.json/index-v1-a1.m3u8
 
 #EXTINF:-1tvg-id="smaylik-tv" group-title="Детские" catchup-enable="0",Смайлик ТВ
 https://strm.yandex.ru/kal/smilik/smilik0.m3u8
@@ -1508,11 +1466,6 @@ https://strm.yandex.ru/kal/soyuz/soyuz0.m3u8
 https://strm.yandex.ru/kal/start/start0.m3u8
 #EXTINF:-1 tvg-id="start" group-title="HD" catchup-enable="0",СТАРТ (720p)
 https://strm.yandex.ru/kal/start/start0_169_720p.json/index-v1-a1.m3u8
-
-# #EXTINF:-1 tvg-id="tvtour" group-title="Познавательные" tvg-logo="https://www.planeta-online.tv//uploads/channel/logo/d2c7237285880591bbaa6c1a6b482331609738ec.png" catchup-enable="0",ТВТУР.TV
-# https://strm.yandex.ru/kal/tvtour/tvtour0.m3u8
-# #EXTINF:-1 tvg-id="tvtour" group-title="HD" tvg-logo="https://www.planeta-online.tv//uploads/channel/logo/d2c7237285880591bbaa6c1a6b482331609738ec.png" catchup-enable="0",ТВТУР.TV (720p)
-# https://strm.yandex.ru/kal/tvtour/tvtour0_169_720p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="tnomer" group-title="" catchup-enable="0",Тномер
 https://strm.yandex.ru/kal/tnomer/tnomer0_169_576p.json/index-v1-a1.m3u8
