@@ -1275,8 +1275,6 @@ https://sc.id-tv.kz/Cinema_34_35.m3u8
 # http://tv1.mmg.ooo/live/hd.stream/playlist.m3u8
 # #EXTINF:-1 tvg-id="mtv-hits" tvg-name="MTV Hits" tvg-country="EUR" group-title="Музыкальные" catchup-enable="0",MTV Hits Europe (576p)
 # http://188.40.68.167/russia/mtv_hits/playlist.m3u8
-# #EXTINF:-1 tvg-id="nat-geo-wild" tvg-name="Nat Geo Wild" group-title="HD" catchup-enable="0",National Geographic Wild HD
-# https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
 # #EXTINF:-1 tvg-id="rtg-hd" tvg-name="RTG HD" group-title="Познавательные" catchup-enable="0",RTG HD (480p)
 # #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 # http://ott-cdn.ucom.am/s63/index.m3u8
@@ -1353,15 +1351,17 @@ https://sc.id-tv.kz/FOX_HD_34_35.m3u8
 # http://tv1.mmg.ooo/live/sd.stream/playlist.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Millenium TV HD
 # http://tv1.mmg.ooo/live/hd.stream/playlist.m3u8
-#EXTINF:-1 group-title="HD" catchup-enable="0",Nat Geo Wild HD
+#EXTINF:-1 tvg-id="nat-geo-wild" tvg-name="Nat Geo Wild" group-title="HD" catchup-enable="0",National Geographic Wild HD
 https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
+#EXTINF:-1 group-title="HD" catchup-enable="0",National Geographic HD
+http://87.247.44.26/btv/SWM/NatGeo_channel/NatGeo_channel_1080p_5000kbps.m3u8
 #EXTINF:-1 tvg-id="rtd-hd" group-title="HD" tvg-logo="https://epg.iptvx.one/icn/rtd-hd.png" catchup-enable="0",RTД HD
 https://hls.rt.com/hls/rtdru.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Sony Sci-Fi
 https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 Action HD
 https://okkotv-live.cdnvideo.ru/channel/TV1000_Action_HD.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 Русское кино
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 Русское кино HD
 https://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",VIP Premiere
 https://okkotv-live.cdnvideo.ru/channel/VIP_Premiere_HD.m3u8
@@ -1451,8 +1451,8 @@ https://strm.yandex.ru/kal/zagorod/zagorod0_169_1080p.json/index-v1-a1.m3u8
 # #EXTINF:-1 tvg-id="mir-24" group-title="HD" catchup-enable="0",Мир 24
 # https://strm.yandex.ru/kal/mir24/mir24.m3u8
 
-#EXTINF:-1 tvg-id="nasha-sibir" group-title="HD" catchup-enable="0",Наша Сибирь HD
-https://strm.yandex.ru/kal/sibir/sibir0_169_1080p.json/index-v1-a1.m3u8
+# #EXTINF:-1 tvg-id="nasha-sibir" group-title="HD" catchup-enable="0",Наша Сибирь HD
+# https://strm.yandex.ru/kal/sibir/sibir0_169_1080p.json/index-v1-a1.m3u8
 
 # #EXTINF:-1 tvg-id="neizvestnaya-planeta" group-title="Познавательные" catchup-enable="0",Неизвестная Планета
 # https://strm.yandex.ru/kal/unknownplanet/unknownplanet0.m3u8
