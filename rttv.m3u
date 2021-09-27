@@ -1288,16 +1288,16 @@ https://rut-v.gcdn.co/streams/1410_95/playlist.m3u8
 http://195.9.195.19:8001/hls2/vivarussia/index.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" tvg-name="Дом Кино Премиум" group-title="Кино и сериалы" catchup-enable="0",Дом Кино Премиум
 https://sc.id-tv.kz/domkino_hd_38_39.m3u8
-# #EXTINF:-1 tvg-id="domkino-premium" tvg-name="Дом кино Премиум" group-title="HD" catchup-enable="0",Дом кино Премиум HD  
-# http://edge05.beetv.kz/btv/SWM/Dom_kino_Prem/Dom_kino_Prem.m3u8  
-# #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" group-title="Кино и сериалы" catchup-enable="0",Индийское кино  
-# http://212.42.193.122:8888/play/a00k/index.m3u8  
+# #EXTINF:-1 tvg-id="domkino-premium" tvg-name="Дом кино Премиум" group-title="HD" catchup-enable="0",Дом кино Премиум HD
+# http://edge05.beetv.kz/btv/SWM/Dom_kino_Prem/Dom_kino_Prem.m3u8
+# #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" group-title="Кино и сериалы" catchup-enable="0",Индийское кино
+# http://212.42.193.122:8888/play/a00k/index.m3u8
 #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" group-title="Кино и сериалы" catchup-enable="0",Индийское кино
 https://sc.id-tv.kz/Indiiskoe_kino_38_39.m3u8
-# #EXTINF:-1 tvg-id="kinopremiera-hd" tvg-name="Кинопремьера" group-title="HD" catchup-enable="0",Кинопремьера HD  
-# http://212.42.193.122:8888/play/a00i/index.m3u8  
-# #EXTINF:-1 tvg-id="kinoxit" tvg-name="Кинохит" group-title="Кино и сериалы" catchup-enable="0",Кинохит  
-# http://212.42.193.122:8888/play/a00h/index.m3u8  
+# #EXTINF:-1 tvg-id="kinopremiera-hd" tvg-name="Кинопремьера" group-title="HD" catchup-enable="0",Кинопремьера HD
+# http://212.42.193.122:8888/play/a00i/index.m3u8
+# #EXTINF:-1 tvg-id="kinoxit" tvg-name="Кинохит" group-title="Кино и сериалы" catchup-enable="0",Кинохит
+# http://212.42.193.122:8888/play/a00h/index.m3u8
 #EXTINF:-1 tvg-name="Комедия" group-title="Кино и сериалы" catchup-enable="0",Комедия
 http://188.40.68.167/russia/komediya/playlist.m3u8
 #EXTINF:-1 tvg-id="match-tv" tvg-name="Матч! ТВ" group-title="Спортивные" catchup-enable="0",Матч! ТВ (576p)
@@ -1310,8 +1310,8 @@ http://188.40.68.167/russia/mir_seriala/playlist.m3u8
 # http://185.161.224.216/dash/Mir_seriala_SD.ism/playlist.mpd
 #EXTINF:-1 tvg-id="o_" tvg-name="О!" group-title="Детские" catchup-enable="0",О!
 https://sc.id-tv.kz/o_34_35.m3u8
-# #EXTINF:-1 tvg-id="perec-int" tvg-name="Перец" group-title="Развлекательные" catchup-enable="0",Перец  
-# http://212.42.193.122:8888/play/a00j/index.m3u8  
+# #EXTINF:-1 tvg-id="perec-int" tvg-name="Перец" group-title="Развлекательные" catchup-enable="0",Перец
+# http://212.42.193.122:8888/play/a00j/index.m3u8
 # #EXTINF:-1 tvg-id="radost-moya" tvg-name="Радость моя" group-title="Религиозные" catchup-enable="0",Радость моя
 # http://188.40.68.167/russia/radost_moya/playlist.m3u8
 # #EXTINF:-1 tvg-id="smaylik-tv" tvg-name="Смайлик ТВ" group-title="Детские" catchup-enable="0",Смайлик ТВ HD
@@ -1331,8 +1331,8 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",СТС Love
 http://83.139.135.241:4022/udp/235.1.10.187:10000?zi/
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Amedia Hit HD  
-# https://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8  
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Amedia Hit HD
+# https://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Millenium TV
 http://tv1.mmg.ooo/live/sd.stream/playlist.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Millenium TV HD
@@ -1382,15 +1382,15 @@ https://strm.yandex.ru/kal/europaplus/europaplus0.m3u8
 #EXTINF:-1 tvg-id="europa-plus-tv" group-title="HD" catchup-enable="0",Europa Plus TV (1080p)
 https://strm.yandex.ru/kal/europaplus/europaplus0_169_1080p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="freshtv" tvg-name="Fresh TV" group-title="Музыкальные" catchup-enable="0",Fresh.TV
-https://strm.yandex.ru/kal/fresh/fresh0.m3u8
-#EXTINF:-1 tvg-id="freshtv" group-title="HD" catchup-enable="0",Fresh.TV (720p)
-https://strm.yandex.ru/kal/fresh/fresh0_169_720p.json/index-v1-a1.m3u8
+# #EXTINF:-1 tvg-id="freshtv" tvg-name="Fresh TV" group-title="Музыкальные" catchup-enable="0",Fresh.TV
+# https://strm.yandex.ru/kal/fresh/fresh0.m3u8
+# #EXTINF:-1 tvg-id="freshtv" group-title="HD" catchup-enable="0",Fresh.TV (720p)
+# https://strm.yandex.ru/kal/fresh/fresh0_169_720p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="hd-media" tvg-name="HD Медиа" group-title="Познавательные" catchup-enable="0",HD Медиа
-https://strm.yandex.ru/kal/hdmedia/hdmedia0.m3u8
-#EXTINF:-1 tvg-id="hd-media" tvg-name="HD Медиа" group-title="HD" catchup-enable="0",HD Медиа (720p)
-https://strm.yandex.ru/kal/hdmedia/hdmedia0_169_720p.json/index-v1-a1.m3u8
+# #EXTINF:-1 tvg-id="hd-media" tvg-name="HD Медиа" group-title="Познавательные" catchup-enable="0",HD Медиа
+# https://strm.yandex.ru/kal/hdmedia/hdmedia0.m3u8
+# #EXTINF:-1 tvg-id="hd-media" tvg-name="HD Медиа" group-title="HD" catchup-enable="0",HD Медиа (720p)
+# https://strm.yandex.ru/kal/hdmedia/hdmedia0_169_720p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="hitv" tvg-name="HITV" group-title="Музыкальные" catchup-enable="0",HITV HD
 https://strm.yandex.ru/kal/hittv/hittv0.m3u8
@@ -1429,11 +1429,10 @@ https://strm.yandex.ru/kal/kinoclassic/kinoclassic0.m3u8
 #EXTINF:-1 tvg-id="klassika-kino" group-title="HD" catchup-enable="0",Классика кино (720p)
 https://strm.yandex.ru/kal/kinoclassic/kinoclassic0_169_720p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="krik-tv" group-title="HD" catchup-enable="0",Крик-ТВ (720p)
-https://strm.yandex.ru/kal/krik_tv/krik_tv0_169_720p.json/index-v1-a1.m3u8
-
-#EXTINF:-1 tvg-id="lubimoe-tv" group-title="HD" catchup-enable="0",Любимое.ТВ (720p)
-https://strm.yandex.ru/kal/lovedtv/lovedtv0_169_720p.json/index-v1-a1.m3u8
+# #EXTINF:-1 tvg-id="krik-tv" group-title="HD" catchup-enable="0",Крик-ТВ (720p)
+# https://strm.yandex.ru/kal/krik_tv/krik_tv0_169_720p.json/index-v1-a1.m3u8
+# #EXTINF:-1 tvg-id="lubimoe-tv" group-title="HD" catchup-enable="0",Любимое.ТВ (720p)
+# https://strm.yandex.ru/kal/lovedtv/lovedtv0_169_720p.json/index-v1-a1.m3u8
 
 # #EXTINF:-1 tvg-id="mir-24" group-title="HD" catchup-enable="0",Мир 24
 # https://strm.yandex.ru/kal/mir24/mir24.m3u8
@@ -1486,10 +1485,10 @@ https://strm.yandex.ru/kal/start/start0.m3u8
 #EXTINF:-1 tvg-id="start" group-title="HD" catchup-enable="0",СТАРТ (720p)
 https://strm.yandex.ru/kal/start/start0_169_720p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="tvtour" group-title="Познавательные" tvg-logo="https://www.planeta-online.tv//uploads/channel/logo/d2c7237285880591bbaa6c1a6b482331609738ec.png" catchup-enable="0",ТВТУР.TV
-https://strm.yandex.ru/kal/tvtour/tvtour0.m3u8
-#EXTINF:-1 tvg-id="tvtour" group-title="HD" tvg-logo="https://www.planeta-online.tv//uploads/channel/logo/d2c7237285880591bbaa6c1a6b482331609738ec.png" catchup-enable="0",ТВТУР.TV (720p)
-https://strm.yandex.ru/kal/tvtour/tvtour0_169_720p.json/index-v1-a1.m3u8
+# #EXTINF:-1 tvg-id="tvtour" group-title="Познавательные" tvg-logo="https://www.planeta-online.tv//uploads/channel/logo/d2c7237285880591bbaa6c1a6b482331609738ec.png" catchup-enable="0",ТВТУР.TV
+# https://strm.yandex.ru/kal/tvtour/tvtour0.m3u8
+# #EXTINF:-1 tvg-id="tvtour" group-title="HD" tvg-logo="https://www.planeta-online.tv//uploads/channel/logo/d2c7237285880591bbaa6c1a6b482331609738ec.png" catchup-enable="0",ТВТУР.TV (720p)
+# https://strm.yandex.ru/kal/tvtour/tvtour0_169_720p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="tnomer" group-title="" catchup-enable="0",Тномер
 https://strm.yandex.ru/kal/tnomer/tnomer0_169_576p.json/index-v1-a1.m3u8
