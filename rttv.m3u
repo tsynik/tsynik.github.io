@@ -1355,7 +1355,7 @@ https://sc.id-tv.kz/FOX_HD_34_35.m3u8
 # http://tv1.mmg.ooo/live/sd.stream/playlist.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Millenium TV HD
 # http://tv1.mmg.ooo/live/hd.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="nat-geo-wild" tvg-name="Nat Geo Wild" group-title="HD" catchup-enable="0",National Geographic Wild HD
+#EXTINF:-1 tvg-id="nat-geo-wild" tvg-name="Nat Geo Wild" group-title="HD" catchup-enable="0",Nat Geo Wild HD
 https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",National Geographic HD
 http://87.247.44.26/btv/SWM/NatGeo_channel/NatGeo_channel_1080p_5000kbps.m3u8
