@@ -402,9 +402,9 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m
 #EXTINF:-1 channelId="993" tvg-id="nasha-sibir-4k" group-title="4K Ultra HD" catchup-enable="1",Наша Сибирь 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
-# #EXTINF:-1 channelId="993" tvg-id="nasha-sibir-4k" group-title="Познавательные" catchup-enable="1",Наша Сибирь 4K (1080p)
-# #EXTVLCOPT:http-user-agent=Google
-# http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw6000000/variant.m3u8
+#EXTINF:-1 channelId="993" tvg-id="nasha-sibir-4k" group-title="Познавательные" catchup-enable="1",Наша Сибирь 4K (1080p)
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw6000000/variant.m3u8
 #
 # OTHERS
 #
@@ -1291,6 +1291,8 @@ http://188.40.68.167/russia/fox_russia_sd/playlist.m3u8
 #
 # Smartoteka
 #
+#EXTINF:-1 group-title="Музыкальные" catchup-enable="0",1HD Music
+http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/tracks-v1a1/index.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Amedia Hit HD
 # https://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Animal Planet HD
@@ -1301,6 +1303,10 @@ https://sc.id-tv.kz/bollywood_hd_34_35.m3u8
 http://pilot.multiscreen.moldtelecom.md/live/eds/discovery_channel_sd/HLSv3/discovery_channel_sd.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",FOX HD
 https://sc.id-tv.kz/FOX_HD_34_35.m3u8
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Eurosport 1
+http://46.34.209.243:80/btv/SWM/Eurosport/Eurosport_576p_2000kbps.m3u8
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Eurosport 2
+http://46.34.209.243/btv/SWM/Eurosport2/Eurosport2_576p_2000kbps.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Millenium TV
 # http://tv1.mmg.ooo/live/sd.stream/playlist.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Millenium TV HD
@@ -1319,6 +1325,8 @@ http://pilot.multiscreen.moldtelecom.md/live/eds/tv1000_hd/HLSv3/tv1000_hd.m3u8
 https://okkotv-live.cdnvideo.ru/channel/TV1000_Action_HD.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 Русское кино HD
 https://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
+#EXTINF:-1 group-title="Музыкальные" catchup-enable="0",V2Beat HD
+http://de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",VIP Premiere
 https://okkotv-live.cdnvideo.ru/channel/VIP_Premiere_HD.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",VIP Megahit
@@ -1329,12 +1337,32 @@ https://okkotv-live.cdnvideo.ru/channel/VIP_Comedy_HD.m3u8
 https://okkotv-live.cdnvideo.ru/channel/Viasat_Nature_ad_HD.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viasat Explore HD
 https://okkotv-live.cdnvideo.ru/channel/Viasat_Explore_HD.m3u8
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Боец
+http://81.23.184.88:4022/udp/234.0.0.6:2000
 #EXTINF:-1 group-title="HD" catchup-enable="0",Дом кино Премиум HD
 https://sc.id-tv.kz/domkino_hd_38_39.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киносемья HD
 https://sc.id-tv.kz/Kinosemiya_hd_34_35.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Кинохит
 https://sc.id-tv.kz/Kinohit_hd_38_39.m3u8
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч!
+http://178.163.15.218:4022/udp/234.0.0.204:2000?zi/
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Арена
+http://81.23.184.88:4022/udp/234.0.0.12:2000
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Игра
+http://178.163.15.218:4022/udp/234.0.0.211:2000?zi/
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! HD
+https://bl.uma.media/live/133529/HLS/4614144_3,2883584/1/1/playlist.m3u8
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна
+http://81.23.184.88:4022/udp/234.0.0.188:2000
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Премьер
+https://95-213-224-183.livesports24.online/mpremierrus.m3u8
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Футбол 1 HD
+http://185.230.140.203/MATCH_FOOTBALL1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Футбол 2 HD
+http://185.230.140.203/MATCH_FOOTBALL2/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Футбол 3
+https://cdn.onarmtv.com/str/8/output.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Мир 24 HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Мир HD
@@ -1349,12 +1377,16 @@ https://sc.id-tv.kz/Mujskoe_kino_hd_38_39.m3u8
 http://46.34.209.243/btv/SWM/Nashe_novoe_kino/Nashe_novoe_kino_720p_3500kbps.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Наше новое кино HD
 http://87.247.44.26/btv/SWM/Nashe_novoe_kino/Nashe_novoe_kino_1080p_5000kbps.m3u8
+#EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Страна FM HD
+http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",СТС Love
 http://83.139.135.241:4022/udp/235.1.10.187:10000?zi/
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Фантастика Sci-Fi
-https://v2.catcast.tv/content/38801/index.m3u8
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Фантастика Sci-Fi
+# https://v2.catcast.tv/content/38801/index.m3u8
 #EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс Плюс
 https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Футбол
+http://81.23.184.88:4022/udp/234.0.0.197:2000
 #
 # Yandex
 #
