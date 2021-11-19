@@ -1260,8 +1260,8 @@ https://sc.id-tv.kz/Cinema_34_35.m3u8
 # http://188.40.68.167/russia/jimjam/playlist.m3u8
 # #EXTINF:-1 tvg-id="mtv-hits" tvg-name="MTV Hits" tvg-country="EUR" group-title="Музыкальные" catchup-enable="0",MTV Hits Europe (576p)
 # http://188.40.68.167/russia/mtv_hits/playlist.m3u8
-#EXTINF:-1 tvg-id="ru-tv" tvg-name="RU.TV" group-title="Музыкальные" catchup-enable="0",RU.TV HD
-https://rut-v.gcdn.co/streams/1410_95/playlist.m3u8
+# #EXTINF:-1 tvg-id="ru-tv" tvg-name="RU.TV" group-title="Музыкальные" catchup-enable="0",RU.TV HD
+# https://rut-v.gcdn.co/streams/1410_95/playlist.m3u8
 #EXTINF:-1 tvg-id="no_epg_music" tvg-name="VIVA Russia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/VIVA_2011_logo.svg/1280px-VIVA_2011_logo.svg.png" group-title="Музыкальные" catchup-enable="0",VIVA Russia HD
 http://195.9.195.19:8001/hls2/vivarussia/index.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" tvg-name="Дом Кино Премиум" group-title="Кино и сериалы" catchup-enable="0",Дом Кино Премиум
@@ -1409,10 +1409,10 @@ https://strm.yandex.ru/kal/europaplus/europaplus0_169_1080p.json/index-v1-a1.m3u
 # #EXTINF:-1 tvg-id="hd-media" tvg-name="HD Медиа" group-title="HD" catchup-enable="0",HD Медиа (720p)
 # https://strm.yandex.ru/kal/hdmedia/hdmedia0_169_720p.json/index-v1-a1.m3u8
 
-#EXTINF:-1 tvg-id="hitv" tvg-name="HITV" group-title="Музыкальные" catchup-enable="0",HITV HD
-https://strm.yandex.ru/kal/hittv/hittv0.m3u8
-#EXTINF:-1 tvg-id="hitv" tvg-name="HITV" group-title="HD" catchup-enable="0",HITV (1080p)
-https://strm.yandex.ru/kal/hittv/hittv0_169_1080p.json/index-v1-a1.m3u8
+# #EXTINF:-1 tvg-id="hitv" tvg-name="HITV" group-title="Музыкальные" catchup-enable="0",HITV HD
+# https://strm.yandex.ru/kal/hittv/hittv0.m3u8
+# #EXTINF:-1 tvg-id="hitv" tvg-name="HITV" group-title="HD" catchup-enable="0",HITV (1080p)
+# https://strm.yandex.ru/kal/hittv/hittv0_169_1080p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",MusicBox Gold
 https://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
