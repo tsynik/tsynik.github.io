@@ -1275,8 +1275,8 @@ https://s1.idata.uz/stch_temp19/tracks-v1a1/mono.m3u8
 # http://188.40.68.167/russia/mir_seriala/playlist.m3u8
 #EXTINF:-1 tvg-id="o_" tvg-name="О!" group-title="Детские" catchup-enable="0",О!
 https://sc.id-tv.kz/o_34_35.m3u8
-#EXTINF:-1 tvg-id="fox" tvg-name="Fox Russia" group-title="Кино и сериалы" catchup-enable="0",Fox Россия
-http://188.40.68.167/russia/fox_russia_sd/playlist.m3u8
+# #EXTINF:-1 tvg-id="fox" tvg-name="Fox Russia" group-title="Кино и сериалы" catchup-enable="0",Fox Россия
+# http://188.40.68.167/russia/fox_russia_sd/playlist.m3u8
 #
 # Smartoteka
 #
@@ -1356,8 +1356,8 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 tvg-id="mir-premium" group-title="HD" tvg-logo="https://epg.iptvx.one/icn/mir-premium.png" catchup-enable="0",Мир Премиум
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
-#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Моя планета
-http://cdnmg.secure.live.rtr-vesti.ru/live/smil:mplan.smil/chunklist_b800000.m3u8
+# #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Моя планета
+# http://cdnmg.secure.live.rtr-vesti.ru/live/smil:mplan.smil/chunklist_b800000.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино
 https://sc.id-tv.kz/Mujskoe_kino_hd_38_39.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Наше новое кино
@@ -1418,3 +1418,4 @@ https://strm.yandex.ru/kal/start/start0_169_720p.json/index-v1-a1.m3u8
 #
 # #EXTINF:-1 tvg-id="tnomer" group-title="HD" catchup-enable="0",Тномер
 # https://strm.yandex.ru/kal/tnomer/tnomer0_169_576p.json/index-v1-a1.m3u8
+#
