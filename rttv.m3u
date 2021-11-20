@@ -1330,8 +1330,8 @@ https://okkotv-live.cdnvideo.ru/channel/Viasat_History_ad_HD.m3u8
 https://sc.id-tv.kz/domkino_hd_38_39.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киносемья HD
 https://sc.id-tv.kz/Kinosemiya_hd_34_35.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Кинозал Хит HD
-https://hls.myvideocontent.ru/hls/vipcinemahd/index.m3u8
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Кинозал Хит HD
+# https://hls.myvideocontent.ru/hls/vipcinemahd/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Кинохит
 https://sc.id-tv.kz/Kinohit_hd_38_39.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч!
@@ -1364,8 +1364,8 @@ https://sc.id-tv.kz/Mujskoe_kino_hd_38_39.m3u8
 http://46.34.209.243/btv/SWM/Nashe_novoe_kino/Nashe_novoe_kino_720p_3500kbps.m3u8
 # #EXTINF:-1 group-title="HD" catchup-enable="0",Наше новое кино HD
 http://46.34.209.243/btv/SWM/Nashe_novoe_kino/Nashe_novoe_kino_1080p_5000kbps.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Премьера
-https://autopilot.catcast.tv/content/39161/index.m3u8
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Премьера
+# https://autopilot.catcast.tv/content/39161/index.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Смайлик ТВ HD
 http://62.32.67.187:1935/WEB_Smilik/Smilik.stream/playlist.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Страна FM HD
