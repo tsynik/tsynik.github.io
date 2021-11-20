@@ -74,9 +74,9 @@ http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MOSKOV24/variant.m3u8
 # #EXTINF:-1 group-title="HD" tvg-id="rossia1" catchup-enable="1",Россия 1 HD
 # #EXTVLCOPT:http-user-agent=Google
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C05_RUSSIA1HD/variant.m3u8
-# #EXTINF:-1 group-title="HD" tvg-id="ntv" catchup-enable="1",НТВ HD
-# #EXTVLCOPT:http-user-agent=Google
-# http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_HD/variant.m3u8
+#EXTINF:-1 group-title="HD" tvg-id="ntv" catchup-enable="1",НТВ HD
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_HD/variant.m3u8
 # #EXTINF:-1 group-title="HD" tvg-id="izvestia" catchup-enable="1",Известия HD
 # #EXTVLCOPT:http-user-agent=Google
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_C03_IZVESTIYAHD/variant.m3u8
