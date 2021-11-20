@@ -1336,20 +1336,34 @@ https://sc.id-tv.kz/Kinosemiya_hd_34_35.m3u8
 https://sc.id-tv.kz/Kinohit_hd_38_39.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч!
 http://178.163.15.218:4022/udp/234.0.0.204:2000?zi/
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Арена
-http://81.23.184.88:4022/udp/234.0.0.12:2000
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Боец
-http://81.23.184.88:4022/udp/234.0.0.6:2000
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Игра
-http://178.163.15.218:4022/udp/234.0.0.211:2000?zi/
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! HD
 https://bl.uma.media/live/133529/HLS/4614144_3,2883584/1/1/playlist.m3u8
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна
-http://81.23.184.88:4022/udp/234.0.0.188:2000
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Арена
+https://95-213-224-179.livesports24.online/rumatcharena.m3u8
+# http://81.23.184.88:4022/udp/234.0.0.12:2000
+# #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Боец
+# http://81.23.184.88:4022/udp/234.0.0.6:2000
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Игра
+http://185.74.7.220:8080/igra/tracks-v1a1/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-id="match-planeta" catchup-enable="0",Матч! Планета
+https://95-213-224-179.livesports24.online/matchplanetarus.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Премьер
 https://95-213-224-183.livesports24.online/mpremierrus.m3u8
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Футбол 3
-https://cdn.onarmtv.com/str/8/output.m3u8
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна
+https://95-213-224-179.livesports24.online/mnashsport.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-id="match-football1" catchup-enable="0",Матч! Футбол 1
+https://95-213-224-179.livesports24.online/ntvmatchfoot1.m3u8
+# #EXTINF:-1 group-title="Спорт" tvg-id="match-football1" catchup-enable="0",Матч! Футбол 1 HD
+# https://okkotv-live.cdnvideo.ru/channel/Match_Football_1_HD.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-id="match-football2" catchup-enable="0",Матч! Футбол 2
+https://95-213-224-179.livesports24.online/mfootball2rus.m3u8
+# #EXTINF:-1 group-title="Спорт" tvg-id="match-football2" catchup-enable="0",Матч! Футбол 2 HD
+# https://okkotv-live.cdnvideo.ru/channel/Match_Football_2_HD.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-id="match-football3" catchup-enable="0",Матч! Футбол 3
+https://95-213-224-179.livesports24.online/rumatchf3.m3u8
+# https://cdn.onarmtv.com/str/8/output.m3u8
+# #EXTINF:-1 group-title="Спорт" tvg-id="match-football3" catchup-enable="0",Матч! Футбол 3 HD
+# https://okkotv-live.cdnvideo.ru/channel/Match_Football_3_HD.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Мир 24 HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Мир HD
@@ -1374,8 +1388,8 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 # https://v2.catcast.tv/content/38801/index.m3u8
 #EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс Плюс
 https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Футбол
-http://81.23.184.88:4022/udp/234.0.0.197:2000
+# #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Футбол
+# http://81.23.184.88:4022/udp/234.0.0.197:2000
 #
 # Yandex
 #
