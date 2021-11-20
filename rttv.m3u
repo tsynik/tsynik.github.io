@@ -1256,36 +1256,26 @@ https://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8
 http://ott-cdn.ucom.am/s34/index.m3u8
 #EXTINF:-1 tvg-id="cinema-ru" tvg-name="Cinema" group-title="Кино и сериалы" catchup-enable="0",Cinema
 https://sc.id-tv.kz/Cinema_34_35.m3u8
-# #EXTINF:-1 tvg-id="jimjam" tvg-name="JimJam" group-title="Детские" catchup-enable="0",JimJam
-# http://188.40.68.167/russia/jimjam/playlist.m3u8
-# #EXTINF:-1 tvg-id="mtv-hits" tvg-name="MTV Hits" tvg-country="EUR" group-title="Музыкальные" catchup-enable="0",MTV Hits Europe (576p)
-# http://188.40.68.167/russia/mtv_hits/playlist.m3u8
-# #EXTINF:-1 tvg-id="ru-tv" tvg-name="RU.TV" group-title="Музыкальные" catchup-enable="0",RU.TV HD
-# https://rut-v.gcdn.co/streams/1410_95/playlist.m3u8
+#EXTINF:-1 tvg-id="jimjam" tvg-name="JimJam" group-title="Детские" catchup-enable="0",JimJam
+http://188.40.68.167/russia/jimjam/playlist.m3u8
 #EXTINF:-1 tvg-id="no_epg_music" tvg-name="VIVA Russia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/VIVA_2011_logo.svg/1280px-VIVA_2011_logo.svg.png" group-title="Музыкальные" catchup-enable="0",VIVA Russia HD
 http://195.9.195.19:8001/hls2/vivarussia/index.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" tvg-name="Дом Кино Премиум" group-title="Кино и сериалы" catchup-enable="0",Дом Кино Премиум
 https://sc.id-tv.kz/domkino_hd_38_39.m3u8
 #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" group-title="Кино и сериалы" catchup-enable="0",Индийское кино
 https://sc.id-tv.kz/Indiiskoe_kino_38_39.m3u8
-# #EXTINF:-1 tvg-name="Комедия" group-title="Кино и сериалы" catchup-enable="0",Комедия
-# http://188.40.68.167/russia/komediya/playlist.m3u8
+#EXTINF:-1 tvg-name="Комедия" group-title="Кино и сериалы" catchup-enable="0",Комедия
+http://188.40.68.167/russia/komediya/playlist.m3u8
 #EXTINF:-1 tvg-id="match-tv" tvg-name="Матч! ТВ" group-title="Спортивные" catchup-enable="0",Матч! ТВ (576p)
 http://176.114.16.54:80/match/index.m3u8
 #EXTINF:-1 tvg-id="match-igra" tvg-name="Матч! Игра" group-title="Спортивные" catchup-enable="0",Матч! Игра (576p)
 https://s1.idata.uz/stch_temp19/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="mir-seriala" tvg-name="Мир сериала" group-title="Кино и сериалы" catchup-enable="0",Мир сериала
-http://188.40.68.167/russia/mir_seriala/playlist.m3u8
 # #EXTINF:-1 tvg-id="mir-seriala" tvg-name="Мир сериала" group-title="Кино и сериалы" catchup-enable="0",Мир сериала
-# http://185.161.224.216/dash/Mir_seriala_SD.ism/playlist.mpd
+# http://188.40.68.167/russia/mir_seriala/playlist.m3u8
+#EXTINF:-1 tvg-id="mir-seriala" tvg-name="Мир сериала" group-title="Кино и сериалы" catchup-enable="0",Мир сериала
+http://185.161.224.216/dash/Mir_seriala_SD.ism/playlist.mpd
 #EXTINF:-1 tvg-id="o_" tvg-name="О!" group-title="Детские" catchup-enable="0",О!
 https://sc.id-tv.kz/o_34_35.m3u8
-# #EXTINF:-1 tvg-id="perec-int" tvg-name="Перец" group-title="Развлекательные" catchup-enable="0",Перец
-# http://212.42.193.122:8888/play/a00j/index.m3u8
-# #EXTINF:-1 tvg-id="radost-moya" tvg-name="Радость моя" group-title="Религиозные" catchup-enable="0",Радость моя
-# http://188.40.68.167/russia/radost_moya/playlist.m3u8
-# #EXTINF:-1 tvg-id="smaylik-tv" tvg-name="Смайлик ТВ" group-title="Детские" catchup-enable="0",Смайлик ТВ HD
-# http://62.32.67.187:1935/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
 #EXTINF:-1 tvg-id="fox" tvg-name="Fox Russia" group-title="Кино и сериалы" catchup-enable="0",Fox Россия
 http://188.40.68.167/russia/fox_russia_sd/playlist.m3u8
 #
@@ -1307,10 +1297,6 @@ http://46.34.209.243:80/btv/SWM/Eurosport/Eurosport_576p_2000kbps.m3u8
 http://46.34.209.243/btv/SWM/Eurosport2/Eurosport2_576p_2000kbps.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",FOX HD
 https://sc.id-tv.kz/FOX_HD_34_35.m3u8
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Millenium TV
-# http://tv1.mmg.ooo/live/sd.stream/playlist.m3u8
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Millenium TV HD
-# http://tv1.mmg.ooo/live/hd.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="nat-geo-wild" tvg-name="Nat Geo Wild" group-title="Познавательные" catchup-enable="0",Nat Geo Wild HD
 https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
 # #EXTINF:-1 group-title="Познавательные" catchup-enable="0",National Geographic HD
@@ -1384,35 +1370,13 @@ http://81.23.184.88:4022/udp/234.0.0.197:2000
 #
 # Yandex
 #
-# #EXTINF:-1 tvg-id="1hd" group-title="Музыкальные" catchup-enable="0",1HD Music Television
-# https://strm.yandex.ru/kal/1hd/1hd0.m3u8
-
 #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" group-title="Эфирные" catchup-enable="0",360° Подмосковье
 https://strm.yandex.ru/kal/360tv/360tv0.m3u8
-
-# #EXTINF:-1 channelId="52" tvg-id="360-news" group-title="Эфирные"" catchup-enable="0",360° Новости
-# https://strm.yandex.ru/kal/360news/360news0.m3u8
-
-# #EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы" catchup-enable="0",A1
-# https://strm.yandex.ru/kal/a1/a10.m3u8
- 
-# #EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы" catchup-enable="0",A2
-# https://strm.yandex.ru/kal/a2/a20.m3u8
 
 #EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
 https://strm.yandex.ru/kal/europaplus/europaplus0.m3u8
 #EXTINF:-1 tvg-id="europa-plus-tv" group-title="HD" catchup-enable="0",Europa Plus TV (1080p)
 https://strm.yandex.ru/kal/europaplus/europaplus0_169_1080p.json/index-v1-a1.m3u8
-
-# #EXTINF:-1 tvg-id="hd-media" tvg-name="HD Медиа" group-title="Познавательные" catchup-enable="0",HD Медиа
-# https://strm.yandex.ru/kal/hdmedia/hdmedia0.m3u8
-# #EXTINF:-1 tvg-id="hd-media" tvg-name="HD Медиа" group-title="HD" catchup-enable="0",HD Медиа (720p)
-# https://strm.yandex.ru/kal/hdmedia/hdmedia0_169_720p.json/index-v1-a1.m3u8
-
-# #EXTINF:-1 tvg-id="hitv" tvg-name="HITV" group-title="Музыкальные" catchup-enable="0",HITV HD
-# https://strm.yandex.ru/kal/hittv/hittv0.m3u8
-# #EXTINF:-1 tvg-id="hitv" tvg-name="HITV" group-title="HD" catchup-enable="0",HITV (1080p)
-# https://strm.yandex.ru/kal/hittv/hittv0_169_1080p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",MusicBox Gold
 https://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
@@ -1430,58 +1394,8 @@ https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
 #EXTINF:-1 tvg-id="russian-musicbox" group-title="HD" catchup-enable="0",Russian MusicBox (1080p)
 https://strm.yandex.ru/kal/rmbox/rmbox0_169_1080p.json/index-v1-a1.m3u8
 
-# #EXTINF:-1 tvg-id="dozhd" group-title="HD" catchup-enable="0",Дождь (720p)
-# https://strm.yandex.ru/kal/tvrain/tvrain0_169_720p.json/index-v1-a1.m3u8
-
 #EXTINF:-1 tvg-id="zagorodny" group-title="HD" catchup-enable="0",Загородный (1080p)
 https://strm.yandex.ru/kal/zagorod/zagorod0_169_1080p.json/index-v1-a1.m3u8
-
-# #EXTINF:-1 tvg-id="klassika-kino" group-title="Кино и сериалы" catchup-enable="0",Классика кино
-# https://strm.yandex.ru/kal/kinoclassic/kinoclassic0.m3u8
-# #EXTINF:-1 tvg-id="klassika-kino" group-title="HD" catchup-enable="0",Классика кино (720p)
-# https://strm.yandex.ru/kal/kinoclassic/kinoclassic0_169_720p.json/index-v1-a1.m3u8
-
-# #EXTINF:-1 tvg-id="krik-tv" group-title="HD" catchup-enable="0",Крик-ТВ (720p)
-# https://strm.yandex.ru/kal/krik_tv/krik_tv0_169_720p.json/index-v1-a1.m3u8
-
-# #EXTINF:-1 tvg-id="lubimoe-tv" group-title="HD" catchup-enable="0",Любимое.ТВ (720p)
-# https://strm.yandex.ru/kal/lovedtv/lovedtv0_169_720p.json/index-v1-a1.m3u8
-
-# #EXTINF:-1 tvg-id="mir-24" group-title="HD" catchup-enable="0",Мир 24
-# https://strm.yandex.ru/kal/mir24/mir24.m3u8
-
-# #EXTINF:-1 tvg-id="nasha-sibir" group-title="HD" catchup-enable="0",Наша Сибирь HD
-# https://strm.yandex.ru/kal/sibir/sibir0_169_1080p.json/index-v1-a1.m3u8
-
-# #EXTINF:-1 tvg-id="neizvestnaya-planeta" group-title="Познавательные" catchup-enable="0",Неизвестная Планета
-# https://strm.yandex.ru/kal/unknownplanet/unknownplanet0.m3u8
-# #EXTINF:-1 tvg-id="neizvestnaya-planeta" group-title="HD" catchup-enable="0",Неизвестная Планета (1080p)
-# https://strm.yandex.ru/kal/unknownplanet/unknownplanet0_169_720p.json/index-v1-a1.m3u8
-
-# #EXTINF:-1 tvg-id="o2tv" tvg-name="О2ТВ" group-title="Музыкальные" catchup-enable="0",О!2 HD
-# https://strm.yandex.ru/kal/o2/o20.m3u8
-# #EXTINF:-1 tvg-id="o2tv" tvg-name="О2ТВ" group-title="HD" catchup-enable="0",0!2 (1080p)
-# https://strm.yandex.ru/kal/o2/o20_169_1080p.json/index-v1-a1.m3u8
-
-# #EXTINF:-1 tvg-id="oxotnik-i-rybolov-hd" group-title="Познавательные" catchup-enable="0",Охотник и Рыболов
-# https://strm.yandex.ru/kal/ohotnik/ohotnik0.m3u8
-# #EXTINF:-1 tvg-id="oxotnik-i-rybolov-hd" group-title="HD" catchup-enable="0",Охотник и Рыболов (1080p)
-# https://strm.yandex.ru/kal/ohotnik/ohotnik0_169_1080p.json/index-v1-a1.m3u8
-
-#EXTINF:-1tvg-id="smaylik-tv" group-title="Детские" catchup-enable="0",Смайлик ТВ
-https://strm.yandex.ru/kal/smilik/smilik0.m3u8
-
-# #EXTINF:-1 tvg-id="sovkino" group-title="Кино и сериалы" catchup-enable="0",Советское кино
-# https://strm.yandex.ru/kal/sovkino/sovkino0.m3u8
-# https://strm.yandex.ru/kal/sovkino/sovkino0_169_576p.json/index-v1-a1.m3u8
-
-# #EXTINF:-1 tvg-id="sovmultf" group-title="Детские" catchup-enable="0",Советские мультфильмы
-# https://strm.yandex.ru/kal/sovmult/sovmult0_169_576p.json/index-v1-a1.m3u8
-
-# #EXTINF:-1 tvg-id="sovsek" group-title="Познавательные" catchup-enable="0",Совершенно секретно
-# https://strm.yandex.ru/kal/sovsec/sovsec0.m3u8
-# #EXTINF:-1 tvg-id="sovsek" group-title="HD" catchup-enable="0",Совершенно секретно (720p)
-# https://strm.yandex.ru/kal/sovsec_supres/sovsec_supres0_54_720p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="soyuz" group-title="Религиозные" catchup-enable="0",Союз
 https://strm.yandex.ru/kal/soyuz/soyuz0.m3u8
@@ -1495,8 +1409,3 @@ https://strm.yandex.ru/kal/start/start0_169_720p.json/index-v1-a1.m3u8
 
 #EXTINF:-1 tvg-id="tnomer" group-title="" catchup-enable="0",Тномер
 https://strm.yandex.ru/kal/tnomer/tnomer0_169_576p.json/index-v1-a1.m3u8
-
-# #EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="0",ТК Футбол
-# https://strm.yandex.ru/kal/football/football0.m3u8
-# #EXTINF:-1 tvg-id="football-ru" group-title="HD" catchup-enable="0",ТК Футбол (1080p)
-# https://strm.yandex.ru/kal/football/football0_169_1080p.json/index-v1-a1.m3u8
