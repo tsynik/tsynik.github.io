@@ -982,6 +982,10 @@ https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
 https://hls.rt.com/hls/rtdru.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Sony Sci-Fi
 https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Cinema HD
+http://95.67.12.94:9001
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Family HD
+http://95.67.12.94:9002
 #EXTINF:-1 group-title="Детские" catchup-enable="0",TiJi
 http://iptv.prosto.tv:7000/ch73/video.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 HD
