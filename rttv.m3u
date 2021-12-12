@@ -1100,4 +1100,20 @@ https://strm.yandex.ru/kal/soyuz/soyuz0.m3u8
 https://strm.yandex.ru/kal/start/start0.m3u8
 #EXTINF:-1 tvg-id="start" group-title="HD" catchup-enable="0",СТАРТ (720p)
 https://strm.yandex.ru/kal/start/start0_169_720p.json/index-v1-a1.m3u8
+#
+# Lamp plugins: http://9ak.ru/v/t.js
+#
+#EXTINF:-1 tvg-name="Пятница HD" group-title="Развлекательные" catchup-enable="0",Пятница HD
+http://bl.uma.media/live/410336/HLS_R/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613010957/e2cf94524a064ecb46389bb54a359d9a/playlist.m3u8
+#EXTINF:-1 tvg-name="Рен ТВ HD" group-title="Развлекательные" catchup-enable="0",Рен ТВ HD
+http://103.194.169.171:8282/Ren_TV_HD_RU_hi/mono.m3u8?token=93a611c10082e5eec57f8bec55d8dc4c
+#EXTINF:-1 tvg-name="СТС HD" group-title="Развлекательные" catchup-enable="0",СТС HD
+http://103.194.169.171:8282/RU:sts_HD/mono.m3u8?token=93a611c10082e5eec57f8bec55d8dc4c
+#EXTINF:-1 tvg-name="Суббота! HD" group-title="Развлекательные" catchup-enable="0",Суббота! HD
+http://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
+#EXTINF:-1 tvg-name="ТНТ HD" group-title="Развлекательные" catchup-enable="0",ТНТ HD
+https://bl.uma.media/live/410338/HLS/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613013807/79ad96b5b87fdce129191b83aaf2fb46/playlist.m3u8
+#EXTINF:-1 tvg-name="ТНТ4 HD" group-title="Развлекательные" catchup-enable="0",ТНТ4 HD
+http://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d161f37174905bc712e81b60d3411fc1/playlist.m3u8
+
 ###############################################################################
