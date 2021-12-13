@@ -66,23 +66,41 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 #EXTVLCOPT:http-user-agent=Google
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MOSKOV24/variant.m3u8
 #
+# Lamp plugins: http://9ak.ru/v/t.js | http://9ak.ru/v/raz/
+#
+#EXTINF:-1 tvg-name="Пятница HD" group-title="HD" catchup-enable="0",Пятница HD
+http://bl.uma.media/live/410336/HLS_R/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613010957/e2cf94524a064ecb46389bb54a359d9a/playlist.m3u8
+#EXTINF:-1 tvg-name="Рен ТВ HD" group-title="HD" catchup-enable="0",Рен ТВ HD
+http://103.194.169.171:8282/Ren_TV_HD_RU_hi/mono.m3u8?token=93a611c10082e5eec57f8bec55d8dc4c
+#EXTINF:-1 tvg-name="СТС HD" group-title="HD" catchup-enable="0",СТС HD
+http://103.194.169.171:8282/RU:sts_HD/mono.m3u8?token=93a611c10082e5eec57f8bec55d8dc4c
+#EXTINF:-1 tvg-name="Суббота! HD" group-title="HD" catchup-enable="0",Суббота! HD
+http://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
+#EXTINF:-1 tvg-name="ТНТ HD" group-title="HD" catchup-enable="0",ТНТ HD
+https://bl.uma.media/live/410338/HLS/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613013807/79ad96b5b87fdce129191b83aaf2fb46/playlist.m3u8
+#EXTINF:-1 tvg-name="ТНТ4 HD" group-title="HD" catchup-enable="0",ТНТ4 HD
+http://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d161f37174905bc712e81b60d3411fc1/playlist.m3u8
+#
 # 4K
 #
-#EXTINF:-1 channelId="987" tvg-id="eurosport-4k" group-title="4K Ultra HD" catchup-enable="1",Eurosport 4K
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/variant.m3u8
-#EXTINF:-1 channelId="988" tvg-id="love-nature-4k" group-title="4K Ultra HD" catchup-enable="1",Love Nature 4K
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/variant.m3u8
-#EXTINF:-1 channelId="991" tvg-id="russian-extreme-uhd" group-title="4K Ultra HD" catchup-enable="1",Russian Extreme Ultra
-#EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/variant.m3u8
-#EXTINF:-1 channelId="992" tvg-id="ultra-hd-cinema" group-title="4K Ultra HD" catchup-enable="1",Ultra HD Cinema
+#EXTINF:-1 channelId="160" tvg-id="ultra-hd-cinema" group-title="4K Ultra HD" catchup-enable="1",Ultra HD Cinema
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8
-#EXTINF:-1 channelId="993" tvg-id="nasha-sibir-4k" group-title="4K Ultra HD" catchup-enable="1",Наша Сибирь 4K
+#EXTINF:-1 channelId="258" tvg-id="love-nature-4k" group-title="4K Ultra HD" catchup-enable="1",Love Nature 4K
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/variant.m3u8
+#EXTINF:-1 channelId="259" tvg-id="nasha-sibir-4k" group-title="4K Ultra HD" catchup-enable="1",Наша Сибирь 4K
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
+#EXTINF:-1 channelId="260" group-title="4K Ultra HD" catchup-enable="1",Глазами туриста 4K
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_GLAZAMITURISTA4K/variant.m3u8
+#EXTINF:-1 channelId="625" tvg-id="eurosport-4k" group-title="4K Ultra HD" catchup-enable="1",Eurosport 4K
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/variant.m3u8
+#EXTINF:-1 channelId="626" tvg-id="russian-extreme-uhd" group-title="4K Ultra HD" catchup-enable="1",Russian Extreme Ultra
+#EXTVLCOPT:http-user-agent=Google
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/variant.m3u8
 #
 # OTHERS
 #
@@ -906,7 +924,7 @@ http://s97982.cdn.ngenix.net/hls/CH_R02_OTT_DV_HVSK_OTTARIRANG/variant.m3u8
 # #EXTVLCOPT:http-user-agent=Google
 # http://s72169.cdn.ngenix.net/hls/CH_VSETVHD_HLS/variant.m3u8
 #
-# HD
+# 1080
 #
 #EXTINF:-1 channelId="987" tvg-id="eurosport-4k" group-title=" Спортивные" catchup-enable="1",Eurosport 4K (1080p)
 #EXTVLCOPT:http-user-agent=Google
@@ -923,21 +941,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m
 #EXTINF:-1 channelId="993" tvg-id="nasha-sibir-4k" group-title="Познавательные" catchup-enable="1",Наша Сибирь 4K (1080p)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw6000000/variant.m3u8
-#
-# Lamp plugins: http://9ak.ru/v/t.js
-#
-#EXTINF:-1 tvg-name="Пятница HD" group-title="HD" catchup-enable="0",Пятница HD
-http://bl.uma.media/live/410336/HLS_R/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613010957/e2cf94524a064ecb46389bb54a359d9a/playlist.m3u8
-#EXTINF:-1 tvg-name="Рен ТВ HD" group-title="HD" catchup-enable="0",Рен ТВ HD
-http://103.194.169.171:8282/Ren_TV_HD_RU_hi/mono.m3u8?token=93a611c10082e5eec57f8bec55d8dc4c
-#EXTINF:-1 tvg-name="СТС HD" group-title="HD" catchup-enable="0",СТС HD
-http://103.194.169.171:8282/RU:sts_HD/mono.m3u8?token=93a611c10082e5eec57f8bec55d8dc4c
-#EXTINF:-1 tvg-name="Суббота! HD" group-title="HD" catchup-enable="0",Суббота! HD
-http://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
-#EXTINF:-1 tvg-name="ТНТ HD" group-title="HD" catchup-enable="0",ТНТ HD
-https://bl.uma.media/live/410338/HLS/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613013807/79ad96b5b87fdce129191b83aaf2fb46/playlist.m3u8
-#EXTINF:-1 tvg-name="ТНТ4 HD" group-title="HD" catchup-enable="0",ТНТ4 HD
-http://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d161f37174905bc712e81b60d3411fc1/playlist.m3u8
 #
 # IPTV-ORG https://github.com/iptv-org/iptv | https://iptv-org.github.io/iptv/countries/ru.m3u
 # Smartoteka https://iptvlist.ru/playlists2/smartoteka
@@ -1054,7 +1057,7 @@ https://95-213-224-179.livesports24.online/rumatchf3.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Мир HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1 tvg-id="mir-premium" group-title="HD" tvg-logo="https://epg.iptvx.one/icn/mir-premium.png" catchup-enable="0",Мир Премиум
+#EXTINF:-1 tvg-id="mir-premium" group-title="HD" tvg-logo="https://epg.iptvx.one/icn/mir-premium.png" catchup-enable="0",Мир Премиум HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино  
 # https://sc.id-tv.kz/Mujskoe_kino_hd_38_39.m3u8  
@@ -1113,5 +1116,14 @@ https://strm.yandex.ru/kal/soyuz/soyuz0.m3u8
 https://strm.yandex.ru/kal/start/start0.m3u8
 #EXTINF:-1 tvg-id="start" group-title="HD" catchup-enable="0",СТАРТ (720p)
 https://strm.yandex.ru/kal/start/start0_169_720p.json/index-v1-a1.m3u8
+#
+# http://9ak.ru/v/rel/
+#
+#EXTINF:-1 group-title="Релакс" catchup-enable="0",Природа
+http://a.jsrdn.com/broadcast/76381deeda/+0000/c.m3u8
+#EXTINF:-1 group-title="Релакс" catchup-enable="0",Лед
+http://iptv.prosto.tv:7000/ch317/video.m3u8
+#EXTINF:-1 group-title="Релакс" catchup-enable="0",Камин
+http://stirr.ott-channels.stingray.com/naturescape/master_1920x1080_4500kbps.m3u8
 
 ###############################################################################
