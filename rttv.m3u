@@ -85,22 +85,22 @@ http://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d16
 #
 #EXTINF:-1 channelId="160" tvg-id="ultra-hd-cinema" group-title="4K Ultra HD" catchup-enable="1",Ultra HD Cinema
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw20000000/variant.m3u8
 #EXTINF:-1 channelId="258" tvg-id="love-nature-4k" group-title="4K Ultra HD" catchup-enable="1",Love Nature 4K
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_LOVENATURE4K_HLS/bw20000000/variant.m3u8
 #EXTINF:-1 channelId="259" tvg-id="nasha-sibir-4k" group-title="4K Ultra HD" catchup-enable="1",Наша Сибирь 4K
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw20000000/variant.m3u8
 #EXTINF:-1 channelId="260" group-title="4K Ultra HD" catchup-enable="1",Глазами туриста 4K
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_GLAZAMITURISTA4K/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_GLAZAMITURISTA4K/bw20000000/variant.m3u8
 #EXTINF:-1 channelId="625" tvg-id="eurosport-4k" group-title="4K Ultra HD" catchup-enable="1",Eurosport 4K
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw20000000/variant.m3u8
 #EXTINF:-1 channelId="626" tvg-id="russian-extreme-uhd" group-title="4K Ultra HD" catchup-enable="1",Russian Extreme Ultra
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/bw20000000/variant.m3u8
 #
 # OTHERS
 #
