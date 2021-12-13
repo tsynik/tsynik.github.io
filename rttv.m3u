@@ -125,7 +125,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
 #EXTINF:-1 shift="4" tvg-id="sts-mir" group-title="Развлекательные" catchup-enable="1",СТС-Мир
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_TSM/variant.m3u8
-#EXTINF:-1 group-title="Развлекательные" catchup-enable="1",Суббота!
+#EXTINF:-1 channelId="54" group-title="Развлекательные" catchup-enable="1",Суббота!
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="1",ТЕО-ТВ HD
@@ -1053,11 +1053,11 @@ https://95-213-224-179.livesports24.online/ntvmatchfoot1.m3u8
 https://95-213-224-179.livesports24.online/mfootball2rus.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="match-football3" catchup-enable="0",Матч! Футбол 3
 https://95-213-224-179.livesports24.online/rumatchf3.m3u8
-#EXTINF:-1 group-title="HD" catchup-enable="0",Мир 24 HD
+#EXTINF:-1 group-title="HD" catchup-enable="0",Мир 24
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
-#EXTINF:-1 group-title="HD" catchup-enable="0",Мир HD
+#EXTINF:-1 group-title="HD" catchup-enable="0",Мир
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1 tvg-id="mir-premium" group-title="HD" tvg-logo="https://epg.iptvx.one/icn/mir-premium.png" catchup-enable="0",Мир Премиум HD
+#EXTINF:-1 group-title="HD" tvg-logo="https://epg.iptvx.one/icn/mir-premium.png" catchup-enable="0",Мир Премиум
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино  
 # https://sc.id-tv.kz/Mujskoe_kino_hd_38_39.m3u8  
