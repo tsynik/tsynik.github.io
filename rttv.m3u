@@ -70,10 +70,10 @@ http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MOSKOV24/variant.m3u8
 #
 #EXTINF:-1 tvg-name="Пятница HD" group-title="HD" catchup-enable="0",Пятница HD
 http://bl.uma.media/live/410336/HLS_R/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613010957/e2cf94524a064ecb46389bb54a359d9a/playlist.m3u8
-#EXTINF:-1 tvg-name="Рен ТВ HD" group-title="HD" catchup-enable="0",Рен ТВ HD
-http://103.194.169.171:8282/Ren_TV_HD_RU_hi/mono.m3u8?token=93a611c10082e5eec57f8bec55d8dc4c
-#EXTINF:-1 tvg-name="СТС HD" group-title="HD" catchup-enable="0",СТС HD
-http://103.194.169.171:8282/RU:sts_HD/mono.m3u8?token=93a611c10082e5eec57f8bec55d8dc4c
+# #EXTINF:-1 tvg-name="Рен ТВ HD" group-title="HD" catchup-enable="0",Рен ТВ HD  
+# http://103.194.169.171:8282/Ren_TV_HD_RU_hi/mono.m3u8?token=93a611c10082e5eec57f8bec55d8dc4c  
+# #EXTINF:-1 tvg-name="СТС HD" group-title="HD" catchup-enable="0",СТС HD  
+# http://103.194.169.171:8282/RU:sts_HD/mono.m3u8?token=93a611c10082e5eec57f8bec55d8dc4c  
 #EXTINF:-1 tvg-name="Суббота! HD" group-title="HD" catchup-enable="0",Суббота! HD
 http://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
 #EXTINF:-1 tvg-name="ТНТ HD" group-title="HD" catchup-enable="0",ТНТ HD
