@@ -125,7 +125,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
 #EXTINF:-1 shift="4" tvg-id="sts-mir" group-title="Развлекательные" catchup-enable="1",СТС-Мир
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_TSM/variant.m3u8
-#EXTINF:-1 group-title="Развлекательные" catchup-enable="1",Супер
+#EXTINF:-1 group-title="Развлекательные" catchup-enable="1",Суббота!
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="1",ТЕО-ТВ HD
