@@ -80,7 +80,7 @@ http://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb
 https://bl.uma.media/live/410338/HLS/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613013807/79ad96b5b87fdce129191b83aaf2fb46/playlist.m3u8
 #EXTINF:-1 tvg-name="ТНТ4 HD" group-title="HD" catchup-enable="0",ТНТ4 HD
 http://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d161f37174905bc712e81b60d3411fc1/playlist.m3u8
-#EXTINF:-1 shift="4" tvg-id="sts-mir" group-title="HD" catchup-enable="0",Телестанция Мир
+#EXTINF:-1 shift="4" tvg-id="sts-mir" group-title="Региональные" catchup-enable="0",Телестанция Мир (1080p)
 http://serv30.vintera.tv:8081/stanciya_mir/mir/playlist.m3u8
 #
 # 4K
@@ -124,7 +124,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
 #EXTINF:-1 channelId="408" group-title="Развлекательные" catchup-enable="1",ТНТ4
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
-#EXTINF:-1 shift="4" tvg-id="sts-mir" group-title="Развлекательные" catchup-enable="1",Телестанция Мир
+#EXTINF:-1 shift="4" tvg-id="sts-mir" group-title="Региональные" catchup-enable="1",Телестанция Мир
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_TSM/variant.m3u8
 #EXTINF:-1 channelId="54" group-title="Развлекательные" catchup-enable="1",Суббота!
