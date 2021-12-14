@@ -149,7 +149,7 @@ http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_49CHANNEL/variant
 #EXTINF:-1 tvg-id="6tv" group-title="Региональные" catchup-enable="1",6 ТВ
 #EXTVLCOPT:http-user-agent=Google
 http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_6TV/variant.m3u8
-#EXTINF:-1 tvg-id="7kanal-krasnoyarsk" group-title="Региональные" catchup-enable="1",Рен ТВ 7 Канал (Красноярск)
+#EXTINF:-1 tvg-id="7kanal-krasnoyarsk" group-title="Региональные" catchup-enable="1",7 Канал (Красноярск)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R13_OTT_SIB_KRSK_RENTV/variant.m3u8
 #EXTINF:-1 tvg-id="8vladik" group-title="Региональные" catchup-enable="1",8 канал Владивосток
@@ -926,7 +926,7 @@ http://s97982.cdn.ngenix.net/hls/CH_R02_OTT_DV_HVSK_OTTARIRANG/variant.m3u8
 # #EXTVLCOPT:http-user-agent=Google
 # http://s72169.cdn.ngenix.net/hls/CH_VSETVHD_HLS/variant.m3u8
 #
-# 1080
+# RT-TV 1080
 #
 #EXTINF:-1 channelId="987" tvg-id="eurosport-4k" group-title=" Спортивные" catchup-enable="1",Eurosport 4K (1080p)
 #EXTVLCOPT:http-user-agent=Google
@@ -946,6 +946,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw6000000/variant.m3u8
 #
 # IPTV-ORG https://github.com/iptv-org/iptv | https://iptv-org.github.io/iptv/countries/ru.m3u
 # Smartoteka https://iptvlist.ru/playlists2/smartoteka
+# http://9ak.ru/v/t.js | http://9ak.ru/v/spo/
 #
 #EXTINF:-1 tvg-id="1hd" tvg-name="1HD Music Television" group-title="Музыкальные" catchup-enable="0",1HD Music Television
 http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/tracks-v1a1/index.m3u8
@@ -985,7 +986,7 @@ https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
 #EXTINF:-1 tvg-id="rtd-hd" group-title="HD" tvg-logo="https://epg.iptvx.one/icn/rtd-hd.png" catchup-enable="0",RTД HD
 https://hls.rt.com/hls/rtdru.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Sony Sci-Fi
-https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
+http://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Cinema HD  
 # http://95.67.12.94:9001  
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Family HD  
@@ -995,30 +996,30 @@ http://iptv.prosto.tv:7000/ch73/video.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 HD
 http://pilot.multiscreen.moldtelecom.md/live/eds/tv1000_hd/HLSv3/tv1000_hd.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 Action HD
-https://okkotv-live.cdnvideo.ru/channel/TV1000_Action_HD.m3u8
+http://okkotv-live.cdnvideo.ru/channel/TV1000_Action_HD.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 Русское кино HD
-https://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
+http://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
 # #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",V2Beat HD
 # http://de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viasat Nature HD
-https://okkotv-live.cdnvideo.ru/channel/Viasat_Nature_ad_HD.m3u8
+http://okkotv-live.cdnvideo.ru/channel/Viasat_Nature_ad_HD.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Viasat Sport HD
 http://iptv.prosto.tv:7000/ch108/video.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viasat Explore HD
-https://okkotv-live.cdnvideo.ru/channel/Viasat_Explore_HD.m3u8
+http://okkotv-live.cdnvideo.ru/channel/Viasat_Explore_HD.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viasat History HD
-https://okkotv-live.cdnvideo.ru/channel/Viasat_History_ad_HD.m3u8
+http://okkotv-live.cdnvideo.ru/channel/Viasat_History_ad_HD.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",VIP Comedy
-https://okkotv-live.cdnvideo.ru/channel/VIP_Comedy_HD.m3u8
+http://okkotv-live.cdnvideo.ru/channel/VIP_Comedy_HD.m3u8
 #http://iptv.prosto.tv:7000/ch44/video.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",VIP Megahit
-https://okkotv-live.cdnvideo.ru/channel/VIP_Megahit_HD.m3u8
+http://okkotv-live.cdnvideo.ru/channel/VIP_Megahit_HD.m3u8
 #http://iptv.prosto.tv:7000/ch43/video.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",VIP Premiere
-https://okkotv-live.cdnvideo.ru/channel/VIP_Premiere_HD.m3u8
+http://okkotv-live.cdnvideo.ru/channel/VIP_Premiere_HD.m3u8
 #http://iptv.prosto.tv:7000/ch45/video.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",VIP Serial
-https://okkotv-live.cdnvideo.ru/channel/VIP_Serial_HD.m3u8
+http://okkotv-live.cdnvideo.ru/channel/VIP_Serial_HD.m3u8
 #EXTINF:-1 tvg-id="no_epg_music" tvg-name="VIVA Russia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/VIVA_2011_logo.svg/1280px-VIVA_2011_logo.svg.png" group-title="Музыкальные" catchup-enable="0",VIVA Russia HD
 http://195.9.195.19:8001/hls2/vivarussia/index.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Дом кино Премиум  
@@ -1032,29 +1033,32 @@ http://188.40.68.167/russia/komediya/playlist.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Кинохит  
 # https://sc.id-tv.kz/Kinohit_hd_38_39.m3u8  
 #EXTINF:-1 group-title="Спортивные" tvg-id="kxl-hd" catchup-enable="0",КХЛ HD
-https://95-213-224-179.livesports24.online/khlhdru.m3u8
+http://95-213-224-179.livesports24.online/khlhdru.m3u8
 #EXTINF:-1 tvg-id="match-tv" tvg-name="Матч! ТВ" group-title="Спортивные" catchup-enable="0",Матч! ТВ (576p)
 http://176.114.16.54:80/match/index.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! HD
-https://bl.uma.media/live/133529/HLS/4614144_3,2883584/1/1/playlist.m3u8
+# https://bl.uma.media/live/133529/HLS/4614144_3,2883584/1/1/playlist.m3u8
+http://bl.uma.media/live/133529/HLS/133529_3/0/9buM8rCowhJqpNkFVmXz5zjHho9g/playlist.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Арена
-https://95-213-224-179.livesports24.online/rumatcharena.m3u8
+http://95-213-224-179.livesports24.online/rumatcharena.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Боец
-https://95-213-224-179.livesports24.online/matchboetsru.m3u8
+http://95-213-224-179.livesports24.online/matchboetsru.m3u8
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Игра
 # http://185.74.7.220:8080/igra/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="match-planeta" catchup-enable="0",Матч! Планета
-https://95-213-224-179.livesports24.online/matchplanetarus.m3u8
+http://95-213-224-179.livesports24.online/matchplanetarus.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Премьер
-https://95-213-224-183.livesports24.online/mpremierrus.m3u8
+http://95-213-224-183.livesports24.online/mpremierrus.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна
-https://95-213-224-179.livesports24.online/mnashsport.m3u8
+http://95-213-224-179.livesports24.online/mnashsport.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="match-football1" catchup-enable="0",Матч! Футбол 1
-https://95-213-224-179.livesports24.online/ntvmatchfoot1.m3u8
+http://95-213-224-179.livesports24.online/ntvmatchfoot1.m3u8
+# #EXTINF:-1 group-title="Спортивные" tvg-id="match-football2" catchup-enable="0",Матч! Футбол 2  
+# https://95-213-224-179.livesports24.online/mfootball2rus.m3u8  
 #EXTINF:-1 group-title="Спортивные" tvg-id="match-football2" catchup-enable="0",Матч! Футбол 2
-https://95-213-224-179.livesports24.online/mfootball2rus.m3u8
+http://185.129.1.242:80/matchfutbol2hd/mpegts
 #EXTINF:-1 group-title="Спортивные" tvg-id="match-football3" catchup-enable="0",Матч! Футбол 3
-https://95-213-224-179.livesports24.online/rumatchf3.m3u8
+http://95-213-224-179.livesports24.online/rumatchf3.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Мир 24
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Мир
@@ -1078,46 +1082,46 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Фантастика Sci-Fi
 # https://v2.catcast.tv/content/38801/index.m3u8
 #EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс Плюс
-https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
+http://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
 #
 # Yandex
 #
 # #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" group-title="Эфирные" catchup-enable="0",360° Подмосковье  
-# https://strm.yandex.ru/kal/360tv/360tv0.m3u8  
+# http://strm.yandex.ru/kal/360tv/360tv0.m3u8  
 #
 #EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
-https://strm.yandex.ru/kal/europaplus/europaplus0.m3u8
+http://strm.yandex.ru/kal/europaplus/europaplus0.m3u8
 #EXTINF:-1 tvg-id="europa-plus-tv" group-title="HD" catchup-enable="0",Europa Plus TV (1080p)
-https://strm.yandex.ru/kal/europaplus/europaplus0_169_1080p.json/index-v1-a1.m3u8
+http://strm.yandex.ru/kal/europaplus/europaplus0_169_1080p.json/index-v1-a1.m3u8
 #
 #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",MusicBox Gold
-https://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
+http://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
 #
 #EXTINF:-1 tvg-id="rtg-hd" group-title="Познавательные" catchup-enable="0",RTG HD
-https://strm.yandex.ru/kal/rtg/rtg0.m3u8
+http://strm.yandex.ru/kal/rtg/rtg0.m3u8
 #EXTINF:-1 tvg-id="rtg-hd" group-title="HD" catchup-enable="0",RTG HD (1080p)
-https://strm.yandex.ru/kal/rtg/rtg0_169_1080p.json/index-v1-a1.m3u8
+http://strm.yandex.ru/kal/rtg/rtg0_169_1080p.json/index-v1-a1.m3u8
 #
 #EXTINF:-1 tvg-id="russia-today" group-title="Зарубежные" catchup-enable="0",Russia Today
-https://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
+http://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
 #
 #EXTINF:-1 tvg-id="russian-musicbox" tvg-name="MusicBox Russia" group-title="Музыкальные" catchup-enable="0",Russian MusicBox
-https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
+http://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
 #EXTINF:-1 tvg-id="russian-musicbox" group-title="HD" catchup-enable="0",Russian MusicBox (1080p)
-https://strm.yandex.ru/kal/rmbox/rmbox0_169_1080p.json/index-v1-a1.m3u8
+http://strm.yandex.ru/kal/rmbox/rmbox0_169_1080p.json/index-v1-a1.m3u8
 #
 #EXTINF:-1 tvg-id="zagorodny" group-title="HD" catchup-enable="0",Загородный (1080p)
-https://strm.yandex.ru/kal/zagorod/zagorod0_169_1080p.json/index-v1-a1.m3u8
+http://strm.yandex.ru/kal/zagorod/zagorod0_169_1080p.json/index-v1-a1.m3u8
 #
 #EXTINF:-1 tvg-id="soyuz" group-title="Религиозные" catchup-enable="0",Союз
-https://strm.yandex.ru/kal/soyuz/soyuz0.m3u8
+http://strm.yandex.ru/kal/soyuz/soyuz0.m3u8
 # #EXTINF:-1 tvg-id="soyuz" group-title="HD" catchup-enable="0",Союз (720p)
-# https://strm.yandex.ru/kal/soyuz_supres/soyuz_supres0_169_720p.json/index-v1-a1.m3u8
+# http://strm.yandex.ru/kal/soyuz_supres/soyuz_supres0_169_720p.json/index-v1-a1.m3u8
 #
 #EXTINF:-1 tvg-id="start" tvg-name="Старт" group-title="Спортивные" catchup-enable="0",СТАРТ
-https://strm.yandex.ru/kal/start/start0.m3u8
+http://strm.yandex.ru/kal/start/start0.m3u8
 #EXTINF:-1 tvg-id="start" group-title="HD" catchup-enable="0",СТАРТ (720p)
-https://strm.yandex.ru/kal/start/start0_169_720p.json/index-v1-a1.m3u8
+http://strm.yandex.ru/kal/start/start0_169_720p.json/index-v1-a1.m3u8
 #
 # http://9ak.ru/v/rel/
 #
