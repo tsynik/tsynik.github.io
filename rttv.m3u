@@ -74,8 +74,6 @@ https://okkotv-live.cdnvideo.ru/channel/Pervii_Kanal_OTT_HD.m3u8
 https://okkotv-live.cdnvideo.ru/channel/Russia1HD.m3u8
 # http://a3569458063-s26881.cdn.ngenix.net/hls/russia_hd/playlist_4.m3u8
 # http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_hd/playlist_4.m3u8
-# #EXTINF:-1 group-title="HD" catchup-enable="0",Россия 24 HD
-# http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",РЕН ТВ HD
 https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8
 # http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/chunklist_b1024000.m3u8
@@ -83,24 +81,6 @@ https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8
 https://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",СТС Kids HD
 https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
-#EXTINF:-1 tvg-id="amedia1" group-title="HD",A1 HD
-https://okkotv-live.cdnvideo.ru/channel/A1_HD.m3u8
-#EXTINF:-1 tvg-id="amedia2" group-title="HD",A2 HD
-https://okkotv-live.cdnvideo.ru/channel/A2_HD.m3u8
-#EXTINF:-1 tvg-id="amedia-hit" group-title="HD",Amedia Hit HD
-https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD.m3u8
-#EXTINF:-1 tvg-id="national-geographic" group-title="HD" catchup-enable="0",National Geographic HD
-https://okkotv-live.cdnvideo.ru/channel/NGC_HD.m3u8
-#EXTINF:-1 tvg-id="nat-geo-wild" group-title="HD" catchup-enable="0",Nat Geo Wild Russia HD
-https://okkotv-live.cdnvideo.ru/channel/NGC_Wild_HD.m3u8
-#EXTINF:-1 group-title="HD" catchup-enable="0",TV1000 HD
-https://okkotv-live.cdnvideo.ru/channel/TV1000_HD.m3u8
-#EXTINF:-1 group-title="HD" catchup-enable="0",TV1000 Action HD
-https://okkotv-live.cdnvideo.ru/channel/TV1000_Action_HD.m3u8
-#EXTINF:-1 group-title="HD" catchup-enable="0",TV1000 Русское кино HD
-https://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
-#EXTINF:-1 group-title="HD" catchup-enable="0",Мультиландия HD
-https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
 #
 # Lamp plugins: http://9ak.ru/v/t.js | http://9ak.ru/v/raz/
 #
@@ -990,8 +970,14 @@ http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/tracks-v1a1/index.m3u8
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/1080.m3u8
 #EXTINF:-1 channelId="52" tvg-id="360-news" tvg-name="360° Новости" group-title="Эфирные" catchup-enable="0",360° Новости HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Amedia Hit HD
-https://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8
+#EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы",A1 HD
+https://okkotv-live.cdnvideo.ru/channel/A1_HD.m3u8
+#EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы",A2 HD
+https://okkotv-live.cdnvideo.ru/channel/A2_HD.m3u8
+#EXTINF:-1 tvg-id="amedia-hit" group-title="Кино и сериалы",Amedia Hit HD
+https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD.m3u8
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Amedia Hit HD
+# https://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8
 # #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Animal Planet HD
 # http://46.34.209.244:80/btv/SWM/animal_hd/animal_hd_1080p_5000kbps.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood HD
@@ -1007,19 +993,23 @@ https://sc.id-tv.kz/Cinema_34_35.m3u8
 http://213.226.137.133:81/tl/l11/mpegts
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Eurosport 2
 http://213.226.137.133:81/tl/l326/mpegts
-# #EXTINF:-1 tvg-id="fox" tvg-name="Fox Russia" group-title="Кино и сериалы" catchup-enable="0",Fox Россия
+# #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы" catchup-enable="0",Fox Россия
 # http://188.40.68.167/russia/fox_russia_sd/playlist.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",FOX HD
 https://sc.id-tv.kz/FOX_HD_34_35.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Hollywood HD
 http://iptv.prosto.tv:7000/ch50/video.m3u8
-#EXTINF:-1 tvg-id="jimjam" tvg-name="JimJam" group-title="Детские" catchup-enable="0",JimJam
+#EXTINF:-1 tvg-id="jimjam" group-title="Детские" catchup-enable="0",JimJam
 http://188.40.68.167/russia/jimjam/playlist.m3u8
-x#EXTINF:-1 tvg-id="nat-geo-wild" tvg-name="Nat Geo Wild" group-title="Познавательные" catchup-enable="0",Nat Geo Wild HD
-https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
+#EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные" catchup-enable="0",Nat Geo Wild Russia HD
+https://okkotv-live.cdnvideo.ru/channel/NGC_Wild_HD.m3u8
+#EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные" catchup-enable="0",National Geographic HD
+https://okkotv-live.cdnvideo.ru/channel/NGC_HD.m3u8
+# #EXTINF:-1 tvg-id="nat-geo-wild" tvg-name="Nat Geo Wild" group-title="Познавательные" catchup-enable="0",Nat Geo Wild HD
+# https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
 # #EXTINF:-1 group-title="Познавательные" catchup-enable="0",National Geographic HD
 # http://87.247.44.26/btv/SWM/NatGeo_channel/NatGeo_channel_1080p_5000kbps.m3u8
-#EXTINF:-1 tvg-id="rtd-hd" group-title="HD" tvg-logo="https://epg.iptvx.one/icn/rtd-hd.png" catchup-enable="0",RTД HD
+#EXTINF:-1 tvg-id="rtd-hd" group-title="HD" catchup-enable="0",RTД HD
 https://hls.rt.com/hls/rtdru.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Sony Sci-Fi
 http://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
@@ -1030,11 +1020,12 @@ http://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",TiJi
 http://iptv.prosto.tv:7000/ch73/video.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 HD
-http://pilot.multiscreen.moldtelecom.md/live/eds/tv1000_hd/HLSv3/tv1000_hd.m3u8
+https://okkotv-live.cdnvideo.ru/channel/TV1000_HD.m3u8
+# http://pilot.multiscreen.moldtelecom.md/live/eds/tv1000_hd/HLSv3/tv1000_hd.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 Action HD
-http://okkotv-live.cdnvideo.ru/channel/TV1000_Action_HD.m3u8
+https://okkotv-live.cdnvideo.ru/channel/TV1000_Action_HD.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 Русское кино HD
-http://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
+https://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
 # #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",V2Beat HD
 # http://de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viasat Nature HD
@@ -1107,6 +1098,8 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино  
 # https://sc.id-tv.kz/Mujskoe_kino_hd_38_39.m3u8  
+#EXTINF:-1 group-title="Детские" catchup-enable="0",Мультиландия HD
+https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Наше новое кино  
 # http://46.34.209.243/btv/SWM/Nashe_novoe_kino/Nashe_novoe_kino_720p_3500kbps.m3u8  
 #EXTINF:-1 tvg-id="o_" tvg-name="О!" group-title="Детские" catchup-enable="0",О!
@@ -1115,6 +1108,8 @@ https://sc.id-tv.kz/o_34_35.m3u8
 # https://autopilot.catcast.tv/content/39161/index.m3u8
 #EXTINF:-1 tvg-id="rossia-24" group-title="HD" catchup-enable="0",Россия 24 (576i)
 http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist.m3u8
+# #EXTINF:-1 group-title="HD" catchup-enable="0",Россия 24 HD
+# http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Смайлик ТВ HD
 http://62.32.67.187:1935/WEB_Smilik/Smilik.stream/playlist.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Страна FM HD
