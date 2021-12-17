@@ -1154,9 +1154,9 @@ http://strm.yandex.ru/kal/start/start0_169_720p.json/index-v1-a1.m3u8
 #
 # http://9ak.ru/v/rel/
 #
-#EXTINF:-1 group-title="Релакс" catchup-enable="0",Природа
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Природа
 http://a.jsrdn.com/broadcast/76381deeda/+0000/c.m3u8
-#EXTINF:-1 group-title="Релакс" catchup-enable="0",Камин
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Камин
 http://stirr.ott-channels.stingray.com/naturescape/master_1920x1080_4500kbps.m3u8
 
 ###############################################################################
