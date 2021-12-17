@@ -1107,8 +1107,8 @@ https://sc.id-tv.kz/o_34_35.m3u8
 # https://autopilot.catcast.tv/content/39161/index.m3u8
 #EXTINF:-1 tvg-id="rossia-24" group-title="HD" catchup-enable="0",Россия 24 (1024x576)
 http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist.m3u8
-#EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Страна FM HD
-http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
+# #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Страна FM HD
+# http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Фантастика Sci-Fi
 # https://v2.catcast.tv/content/38801/index.m3u8
 #EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс Плюс
