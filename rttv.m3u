@@ -1009,7 +1009,7 @@ https://okkotv-live.cdnvideo.ru/channel/NGC_HD.m3u8
 # https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
 # #EXTINF:-1 group-title="Познавательные" catchup-enable="0",National Geographic HD
 # http://87.247.44.26/btv/SWM/NatGeo_channel/NatGeo_channel_1080p_5000kbps.m3u8
-#EXTINF:-1 tvg-id="rtd-hd" group-title="HD" catchup-enable="0",RTД HD
+#EXTINF:-1 tvg-id="rtd-hd" tvg-logo="https://epg.iptvx.one/icn/rtd-hd.png" group-title="HD" catchup-enable="0",RTД HD
 https://hls.rt.com/hls/rtdru.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Sony Sci-Fi
 http://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
@@ -1106,10 +1106,8 @@ https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
 https://sc.id-tv.kz/o_34_35.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Премьера
 # https://autopilot.catcast.tv/content/39161/index.m3u8
-#EXTINF:-1 tvg-id="rossia-24" group-title="HD" catchup-enable="0",Россия 24 (576i)
+#EXTINF:-1 tvg-id="rossia-24" group-title="HD" catchup-enable="0",Россия 24 (1024x576)
 http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist.m3u8
-# #EXTINF:-1 group-title="HD" catchup-enable="0",Россия 24 HD
-# http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Смайлик ТВ HD
 http://62.32.67.187:1935/WEB_Smilik/Smilik.stream/playlist.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Страна FM HD
