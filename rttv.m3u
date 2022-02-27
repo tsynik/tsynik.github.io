@@ -73,6 +73,8 @@ http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MOSKOV24/variant.m3u8
 https://okkotv-live.cdnvideo.ru/channel/Pervii_Kanal_OTT_HD.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Россия 1 HD
 https://okkotv-live.cdnvideo.ru/channel/Russia1HD.m3u8
+# #EXTINF:-1 group-title="HD" catchup-enable="0",НТВ HD  
+# http://78.58.133.179:28000/play/a001/index.m3u8  
 # http://a3569458063-s26881.cdn.ngenix.net/hls/russia_hd/playlist_4.m3u8
 # http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_hd/playlist_4.m3u8
 # #EXTINF:-1 group-title="HD" catchup-enable="0",РЕН ТВ HD  
@@ -475,9 +477,9 @@ http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3u
 #EXTINF:-1 tvg-id="prodvizhenie" group-title="Региональные" catchup-enable="1",Продвижение
 #EXTVLCOPT:http-user-agent=Google
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_PRODVIZHENIE/variant.m3u8
-#EXTINF:-1 channelId="5" group-title="Региональные" catchup-enable="1",Пятый канал (Москва)
-#EXTVLCOPT:http-user-agent=Google
-http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_5TV/variant.m3u8
+# #EXTINF:-1 channelId="5" group-title="Региональные" catchup-enable="1",Пятый канал (Москва)  
+# #EXTVLCOPT:http-user-agent=Google  
+# http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_5TV/variant.m3u8  
 #EXTINF:-1 channelId="5" group-title="Региональные" catchup-enable="1",Пятый канал (Санкт-Петербург)
 #EXTVLCOPT:http-user-agent=Google
 http://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_5TV/variant.m3u8
@@ -1085,13 +1087,13 @@ http://37.187.28.95:2022/matc_boec/mpegts
 # http://95-213-224-179.livesports24.online/mnashsport.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна HD
 http://bl.uma.media/live/291661/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
-#EXTINF:-1 group-title="Спортивные" tvg-id="match-football1" catchup-enable="0",Матч! Футбол 1
-https://95-213-172-222.livesports24.online/ntvmatchfoot1.m3u8
-#EXTINF:-1 group-title="Спортивные" tvg-id="match-football2" catchup-enable="0",Матч! Футбол 2
-https://95-213-224-179.livesports24.online/mfootball2rus.m3u8
-# http://185.129.1.242:80/matchfutbol2hd/mpegts
-#EXTINF:-1 group-title="Спортивные" tvg-id="match-football3" catchup-enable="0",Матч! Футбол 3
-http://185.129.1.242:80/matchfutbol3hd/mpegts
+# #EXTINF:-1 group-title="Спортивные" tvg-id="match-football1" catchup-enable="0",Матч! Футбол 1  
+# https://95-213-172-222.livesports24.online/ntvmatchfoot1.m3u8  
+# #EXTINF:-1 group-title="Спортивные" tvg-id="match-football2" catchup-enable="0",Матч! Футбол 2  
+# https://95-213-224-179.livesports24.online/mfootball2rus.m3u8  
+# # http://185.129.1.242:80/matchfutbol2hd/mpegts  
+# #EXTINF:-1 group-title="Спортивные" tvg-id="match-football3" catchup-enable="0",Матч! Футбол 3  
+# http://185.129.1.242:80/matchfutbol3hd/mpegts  
 # https://95-213-224-179.livesports24.online/rumatchf3.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Мир 24
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
@@ -1101,12 +1103,10 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское Кино HD
 https://sc.id-tv.kz/Mujskoe_kino_hd_34_35.m3u8
-#EXTINF:-1 group-title="Детские" catchup-enable="0",Мультиландия HD
-https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
+# #EXTINF:-1 group-title="Детские" catchup-enable="0",Мультиландия HD  
+# https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8  
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Наше новое кино
 # http://46.34.209.243/btv/SWM/Nashe_novoe_kino/Nashe_novoe_kino_720p_3500kbps.m3u8
-#EXTINF:-1 group-title="HD" catchup-enable="0",НТВ HD
-http://78.58.133.179:28000/play/a001/index.m3u8
 #EXTINF:-1 tvg-id="o_" tvg-name="О!" group-title="Детские" catchup-enable="0",О!
 https://sc.id-tv.kz/o_34_35.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Премьера
@@ -1163,7 +1163,7 @@ http://strm.yandex.ru/kal/start/start0.m3u8
 #
 #EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Природа
 http://a.jsrdn.com/broadcast/76381deeda/+0000/c.m3u8
-#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Камин
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Природа
 http://stirr.ott-channels.stingray.com/naturescape/master_1920x1080_4500kbps.m3u8
 
 ###############################################################################
