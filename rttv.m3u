@@ -4,73 +4,72 @@
 #
 #EXTINF:-1 channelId="1" tvg-id="pervy" group-title="Эфирные" catchup-enable="1",Первый канал
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="2" tvg-id="rossia1" group-title="Эфирные" catchup-enable="1",Россия 1
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="3" tvg-id="match-tv" group-title="Эфирные" catchup-enable="1",Матч! ТВ
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="4" tvg-id="ntv" group-title="Эфирные" catchup-enable="1",НТВ
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="5" tvg-id="5kanal-ru" group-title="Эфирные" catchup-enable="1",Пятый канал
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="6" tvg-id="kultura" group-title="Эфирные" catchup-enable="1",Россия К
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="7" tvg-id="rossia-24" group-title="Эфирные" catchup-enable="1",Россия 24
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="8" tvg-id="karusel" group-title="Эфирные" catchup-enable="1",Карусель
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="9" tvg-id="otr" group-title="Эфирные" catchup-enable="1",ОТР
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="10" tvg-id="tvcentr" group-title="Эфирные" catchup-enable="1",ТВ Центр
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="11" tvg-id="rentv" group-title="Эфирные" catchup-enable="1",Рен ТВ
 #EXTVLCOPT:http-user-agent=Google
-# http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="12" tvg-id="spas" group-title="Эфирные" catchup-enable="1",Спас
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="13" tvg-id="sts" group-title="Эфирные" catchup-enable="1",СТС
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="14" tvg-id="domashny" group-title="Эфирные" catchup-enable="1",Домашний
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="15" tvg-id="tv3-ru" group-title="Эфирные" catchup-enable="1",ТВ-3
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="16" tvg-id="piatnica" group-title="Эфирные" catchup-enable="1",Пятница
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="17" tvg-id="zvezda" group-title="Эфирные" catchup-enable="1",Звезда
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="18" tvg-id="mir" group-title="Эфирные" catchup-enable="1",Мир
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="19" tvg-id="tnt" group-title="Эфирные" catchup-enable="1",ТНТ
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="20" tvg-id="muztv" group-title="Эфирные" catchup-enable="1",Муз-ТВ
 #EXTVLCOPT:http-user-agent=Google
-http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/bw2000000/variant.m3u8?version=2
 #EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Эфирные" catchup-enable="1",Москва 24
 #EXTVLCOPT:http-user-agent=Google
-http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MOSKOV24/variant.m3u8
+http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_MOSKOV24/bw2000000/variant.m3u8?version=2
 #
 # https://iptv-org.github.io/iptv/countries/ru.m3u (HD)
 #
-#EXTINF:-1 group-title="HD" catchup-enable="0",Первый канал HD
-https://okkotv-live.cdnvideo.ru/channel/Pervii_Kanal_OTT_HD.m3u8
+# #EXTINF:-1 group-title="HD" catchup-enable="0",Первый канал HD
+# https://okkotv-live.cdnvideo.ru/channel/Pervii_Kanal_OTT_HD.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Россия 1 HD
 https://okkotv-live.cdnvideo.ru/channel/Russia1HD.m3u8
 # #EXTINF:-1 group-title="HD" catchup-enable="0",НТВ HD  
@@ -87,12 +86,16 @@ https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
 #
 # Lamp plugins: http://9ak.ru/v/t.js | http://9ak.ru/v/raz/
 #
+#EXTINF:-1 group-title="HD" catchup-enable="0",Первый музыкальный HD
+http://rtmp.one.by:1300
 #EXTINF:-1 tvg-name="Пятница HD" group-title="HD" catchup-enable="0",Пятница HD
 http://bl.uma.media/live/410336/HLS_R/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613010957/e2cf94524a064ecb46389bb54a359d9a/playlist.m3u8
-# #EXTINF:-1 tvg-name="Рен ТВ HD" group-title="HD" catchup-enable="0",Рен ТВ HD
-# http://103.194.169.171:8282/Ren_TV_HD_RU_hi/mono.m3u8?token=93a611c10082e5eec57f8bec55d8dc4c
-# #EXTINF:-1 tvg-name="СТС HD" group-title="HD" catchup-enable="0",СТС HD
-# http://103.194.169.171:8282/RU:sts_HD/mono.m3u8?token=93a611c10082e5eec57f8bec55d8dc4c
+#EXTINF:-1 tvg-name="Рен ТВ HD" group-title="HD" catchup-enable="0",Рен ТВ HD
+http://livetv.mylifeisgood.ml:8880/mfolive.m3u8?media=rentv
+#EXTINF:-1 tvg-name="СТС HD" group-title="HD" catchup-enable="0",СТС HD
+http://livetv.mylifeisgood.ml/mfolive.m3u8?media=sts
+#EXTINF:-1 group-title="HD" catchup-enable="0",Страна FM HD
+http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 tvg-name="Суббота! HD" group-title="HD" catchup-enable="0",Суббота! HD
 http://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
 #EXTINF:-1 tvg-id="tnt" group-title="HD" catchup-enable="0",ТНТ HD
@@ -1111,8 +1114,8 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 # https://sc.id-tv.kz/o_34_35.m3u8  
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Премьера
 # https://autopilot.catcast.tv/content/39161/index.m3u8
-#EXTINF:-1 tvg-id="rossia-24" group-title="HD" catchup-enable="0",Россия 24 (1024x576)
-http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist.m3u8
+# #EXTINF:-1 tvg-id="rossia-24" group-title="HD" catchup-enable="0",Россия 24 (1024x576)  
+# http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist.m3u8  
 # #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Страна FM HD
 # http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Фантастика Sci-Fi
@@ -1163,7 +1166,27 @@ http://strm.yandex.ru/kal/start/start0.m3u8
 #
 #EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Природа
 http://a.jsrdn.com/broadcast/76381deeda/+0000/c.m3u8
-#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Природа
-http://stirr.ott-channels.stingray.com/naturescape/master_1920x1080_4500kbps.m3u8
-
+#
+#
+#
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Животные FHD
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9537b8932c837b49397343/playlist.m3u8
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Космос FHD
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953819932c837b49397345/playlist.m3u8
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Пляжи FHD
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95396f932c837b49397360/playlist.m3u8
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Лес FHD
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953836932c837b49397355/playlist.m3u8
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Озёра FHD
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95385c932c837b49397356/playlist.m3u8
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Горы FHD
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95387b932c837b49397357/playlist.m3u8
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Реки FHD
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95388f932c837b4939735a/playlist.m3u8
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Закат FHD
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538a5932c837b4939735b/playlist.m3u8
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Джунгли FHD
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538b9932c837b4939735c/playlist.m3u8
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Камин HD
+http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 ###############################################################################
