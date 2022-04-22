@@ -939,9 +939,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8
 #EXTINF:-1 group-title="Региональные" catchup-enable="1",Ю (+7)
 #EXTVLCOPT:http-user-agent=Google
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
-#EXTINF:-1 tvg-id="arirang" group-title="Зарубежные" catchup-enable="1",Arirang
-#EXTVLCOPT:http-user-agent=Google
-http://s97982.cdn.ngenix.net/hls/CH_R02_OTT_DV_HVSK_OTTARIRANG/variant.m3u8
 # #EXTINF:-1 tvg-id="vsio-tv" channelId="0" group-title="Телемагазины" catchup-enable="1",Всё ТВ HD
 # #EXTVLCOPT:http-user-agent=Google
 # http://s72169.cdn.ngenix.net/hls/CH_VSETVHD_HLS/variant.m3u8
@@ -969,8 +966,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw6000000/variant.m3u8
 # smarttvapp https://smarttvapp.ru/app/iptvfull.m3u
 # http://9ak.ru/v/t.js | http://9ak.ru/v/spo/
 #
-#EXTINF:-1 tvg-id="1hd" tvg-name="1HD Music Television" group-title="Музыкальные" catchup-enable="0",1HD Music Television
-http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/tracks-v1a1/index.m3u8
+# #EXTINF:-1 tvg-id="1hd" tvg-name="1HD Music Television" group-title="Музыкальные" catchup-enable="0",1HD Music Television  
+# http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/tracks-v1a1/index.m3u8  
 #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="Эфирные" catchup-enable="0",360° HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/1080.m3u8
 #EXTINF:-1 channelId="52" tvg-id="360-news" tvg-name="360° Новости" group-title="Эфирные" catchup-enable="0",360° Новости HD
@@ -1020,8 +1017,8 @@ http://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
 # http://95.67.12.94:9001
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Family HD
 # http://95.67.12.94:9002
-#EXTINF:-1 group-title="Детские" catchup-enable="0",TiJi
-http://iptv.prosto.tv:7000/ch73/video.m3u8
+# #EXTINF:-1 group-title="Детские" catchup-enable="0",TiJi  
+# http://iptv.prosto.tv:7000/ch73/video.m3u8  
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 HD
 https://okkotv-live.cdnvideo.ru/channel/TV1000_HD.m3u8
 # http://pilot.multiscreen.moldtelecom.md/live/eds/tv1000_hd/HLSv3/tv1000_hd.m3u8
@@ -1100,7 +1097,7 @@ http://bl.uma.media/live/291661/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb
 # https://95-213-224-179.livesports24.online/rumatchf3.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Мир 24
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
-#EXTINF:-1 group-title="HD" catchup-enable="0",Мир
+#EXTINF:-1 group-title="HD" catchup-enable="0",Мир HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 group-title="HD" tvg-logo="https://epg.iptvx.one/icn/mir-premium.png" catchup-enable="0",Мир Премиум
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
@@ -1141,7 +1138,7 @@ http://strm.yandex.ru/kal/rtg/rtg0.m3u8
 #EXTINF:-1 tvg-id="rtg-hd" group-title="HD" catchup-enable="0",RTG HD (1080p)
 http://strm.yandex.ru/kal/rtg/rtg0_169_1080p.json/index-v1-a1.m3u8
 #
-#EXTINF:-1 tvg-id="russia-today" group-title="Зарубежные" catchup-enable="0",Russia Today
+#EXTINF:-1 tvg-id="russia-today" group-title="HD" catchup-enable="0",Russia Today HD
 http://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
 #
 #EXTINF:-1 tvg-id="russian-musicbox" tvg-name="MusicBox Russia" group-title="Музыкальные" catchup-enable="0",Russian MusicBox
@@ -1169,23 +1166,23 @@ http://a.jsrdn.com/broadcast/76381deeda/+0000/c.m3u8
 #
 #
 #
-#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Животные FHD
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Животные HD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9537b8932c837b49397343/playlist.m3u8
-#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Космос FHD
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Космос HD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953819932c837b49397345/playlist.m3u8
-#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Пляжи FHD
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Пляжи HD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95396f932c837b49397360/playlist.m3u8
-#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Лес FHD
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Лес HD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953836932c837b49397355/playlist.m3u8
-#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Озёра FHD
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Озёра HD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95385c932c837b49397356/playlist.m3u8
-#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Горы FHD
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Горы HD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95387b932c837b49397357/playlist.m3u8
-#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Реки FHD
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Реки HD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95388f932c837b4939735a/playlist.m3u8
-#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Закат FHD
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Закат HD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538a5932c837b4939735b/playlist.m3u8
-#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Джунгли FHD
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Джунгли HD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538b9932c837b4939735c/playlist.m3u8
 #EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Камин HD
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
