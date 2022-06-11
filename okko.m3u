@@ -1,156 +1,99 @@
 #EXTM3U deinterlace=1 m3uautoload=1 url-tvg="https://iptvx.one/EPG"
-# https://okko.tv/collection/tvchannels
-#EXTINF:-1 ,Первый канал HD
-#EXTVLCOPT:http-user-agent=Google
-https://okkotv-live.cdnvideo.ru/channel/Pervii_Kanal_OTT_HD.m3u8
+#
+# https://okko.tv/collection/tvchannels (GEO block)
+#
+# #EXTINF:-1 ,Первый канал HD
+#https://okkotv-live.cdnvideo.ru/channel/Pervii_Kanal_OTT_HD.m3u8
 #EXTINF:-1 ,Россия 1 HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Russia1HD.m3u8
 #EXTINF:-1 ,Матч! HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Match_OTT_HD.m3u8
 #EXTINF:-1 ,5 канал
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/5_OTT.m3u8
 #EXTINF:-1 ,Россия 24
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Russia24.m3u8
 #EXTINF:-1 ,Россия Культура
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Russia_K_SD.m3u8
 #EXTINF:-1 ,СПАС
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Spas.m3u8
 #EXTINF:-1 ,Рен ТВ HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8
 #EXTINF:-1 ,СТС HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT.m3u8
 #EXTINF:-1 ,Домашний HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Dom_HD_OTT.m3u8
 #EXTINF:-1 ,ТВ-3 HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/TV3_OTT_HD.m3u8
 #EXTINF:-1 ,Пятница HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Pyatnizza_OTT_HD.m3u8
 #EXTINF:-1 ,ТНТ HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/TNT_OTT_HD.m3u8
 #EXTINF:-1 ,Ю
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Yu_OTT.m3u8
 #EXTINF:-1 ,Че
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Che_OTT_2.m3u8
 #EXTINF:-1 ,СТС Love
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/CTC_Love_OTT_2.m3u8
 #EXTINF:-1 ,Звезда
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Zvezda_SD.m3u8
 #EXTINF:-1 ,Мир
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Mir_OTT.m3u8
 #EXTINF:-1 ,МузТВ
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/MuzTV.m3u8
 #EXTINF:-1 ,Известия HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Izvestiya_HD_2.m3u8
 #EXTINF:-1 ,A1 HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/A1_HD.m3u8
 #EXTINF:-1 ,A2 HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/A2_HD.m3u8
 #EXTINF:-1 ,CTC Kids HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
 #EXTINF:-1 ,Amedia Hit HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD.m3u8
 #EXTINF:-1,Fox HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Fox_HD.m3u8
 #EXTINF:-1 ,Fox Life HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD.m3u8
 #EXTINF:-1 ,VIP Serial HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/VIP_Serial_HD.m3u8
 #EXTINF:-1 ,VIP Premiere HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/VIP_Premiere_HD.m3u8
 #EXTINF:-1 ,VIP Megahit HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/VIP_Megahit_HD.m3u8
 #EXTINF:-1 ,VIP Comedy HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/VIP_Comedy_HD.m3u8
 #EXTINF:-1 ,TV1000 HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/TV1000_HD.m3u8
 #EXTINF:-1 ,TV1000 Action HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/TV1000_Action_HD.m3u8
 #EXTINF:-1 ,TV1000 Kino HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
 #EXTINF:-1 ,Sony Sci-Fi
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
 #EXTINF:-1 ,Black
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Sony_Turbo.m3u8
 #EXTINF:-1 ,Red
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Sony_ET.m3u8
-#EXTINF:-1 ,Феникс Кино
-#EXTVLCOPT:http-user-agent=Google
-https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
 #EXTINF:-1 ,Viasat Nature HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Viasat_Nature_ad_HD.m3u8
 #EXTINF:-1 ,Viasat Explore HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Viasat_Explore_HD.m3u8
 #EXTINF:-1 ,Viasat History HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Viasat_History_ad_HD.m3u8
 #EXTINF:-1 ,Disney
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Disney.m3u8
 #EXTINF:-1 ,Мультиландия HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
-#EXTINF:-1 ,National Geographic Wild HD
-#EXTVLCOPT:http-user-agent=Google
-https://okkotv-live.cdnvideo.ru/channel/NGC_Wild_HD.m3u8
-#EXTINF:-1 ,National Geographic HD
-#EXTVLCOPT:http-user-agent=Google
-https://okkotv-live.cdnvideo.ru/channel/NGC_HD.m3u8
-#EXTINF:-1,Baby TV
-#EXTVLCOPT:http-user-agent=Google
-https://okkotv-live.cdnvideo.ru/channel/BabyTV.m3u8
-#EXTINF:-1,Калейдоскоп
-#EXTVLCOPT:http-user-agent=Google
+#EXTINF:-1 ,Калейдоскоп
 https://okkotv-live.cdnvideo.ru/channel/Kaleidoskop.m3u8
-#EXTINF:-1,Дикий
-#EXTVLCOPT:http-user-agent=Google
+#EXTINF:-1 ,Дикий
 https://okkotv-live.cdnvideo.ru/channel/Dikiy.m3u8
-#EXTINF:-1,Дикая охота HD
-#EXTVLCOPT:http-user-agent=Google
+#EXTINF:-1 ,Дикая охота HD
 https://okkotv-live.cdnvideo.ru/channel/Dikaya_Ohota_HD.m3u8
-#EXTINF:-1,Дикая рыбалка HD
-#EXTVLCOPT:http-user-agent=Google
+#EXTINF:-1 ,Дикая рыбалка HD
 https://okkotv-live.cdnvideo.ru/channel/Dikaya_Rybalka_HD.m3u8
-#EXTINF:-1,START Air HD
-#EXTVLCOPT:http-user-agent=Google
+#EXTINF:-1 ,START Air HD
 https://okkotv-live.cdnvideo.ru/channel/START_Air_HD.m3u8
 #EXTINF:-1 ,START World HD
-#EXTVLCOPT:http-user-agent=Google
 https://okkotv-live.cdnvideo.ru/channel/START_World_HD.m3u8
 ###############################################################################
