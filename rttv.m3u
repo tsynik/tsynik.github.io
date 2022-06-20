@@ -69,10 +69,10 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/bw2000000/variant.m3u8?version=
 # https://okko.tv/collection/tvchannels (GEO block)
 # http://lamp.royalwebhosting.net/freetv.js
 #
-#EXTINF:-1 group-title="HD" catchup-enable="0",Дикая охота HD
-https://okkotv-live.cdnvideo.ru/channel/Dikaya_Ohota_HD.m3u8
-#EXTINF:-1 group-title="HD" catchup-enable="0",Дикая рыбалка HD
-https://okkotv-live.cdnvideo.ru/channel/Dikaya_Rybalka_HD.m3u8
+# #EXTINF:-1 group-title="HD" catchup-enable="0",Дикая охота HD
+# https://okkotv-live.cdnvideo.ru/channel/Dikaya_Ohota_HD.m3u8
+# #EXTINF:-1 group-title="HD" catchup-enable="0",Дикая рыбалка HD
+# https://okkotv-live.cdnvideo.ru/channel/Dikaya_Rybalka_HD.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Домашний HD
 https://okkotv-live.cdnvideo.ru/channel/Dom_HD_OTT.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Известия HD
@@ -996,8 +996,10 @@ http://hls1.inetcom.ru/hls_v4/230.3.4.168.m3u8
 # http://188.40.68.167/russia/jimjam/playlist.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL
 http://hls1.inetcom.ru/hls_v4/230.3.4.57.m3u8
-#EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL Prime HD
+#EXTINF:-1 group-title="Спортивные" tvg-id="kxl-prime" catchup-enable="0",KHL Prime HD
 http://hls1.inetcom.ru/hls_v4/230.3.4.71.m3u8
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",MMA-TV
+http://hls1.inetcom.ru/hls_v4/230.3.3.63.m3u8
 #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
 http://hls1.inetcom.ru/hls_v4/230.3.3.151.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Music Box Russia
