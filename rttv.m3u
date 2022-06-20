@@ -1148,26 +1148,18 @@ http://hls1.inetcom.ru/hls_v4/230.3.4.215.m3u8
 #
 #EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
 http://strm.yandex.ru/kal/europaplus/europaplus0.m3u8
-#EXTINF:-1 tvg-id="europa-plus-tv" group-title="HD" catchup-enable="0",Europa Plus TV (1080p)
-http://strm.yandex.ru/kal/europaplus/europaplus0_169_1080p.json/index-v1-a1.m3u8
 #
 #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
 http://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
-#EXTINF:-1 tvg-id="musicbox" group-title="HD" catchup-enable="0",Music Box Gold (1080p)
-http://strm.yandex.ru/kal/musicboxgold/musicboxgold0_169_1080p.json/index-v1-a1.m3u8
 #
 #EXTINF:-1 tvg-id="rtg-hd" group-title="Познавательные" catchup-enable="0",RTG HD
 http://strm.yandex.ru/kal/rtg/rtg0.m3u8
-#EXTINF:-1 tvg-id="rtg-hd" group-title="HD" catchup-enable="0",RTG HD (1080p)
-http://strm.yandex.ru/kal/rtg/rtg0_169_1080p.json/index-v1-a1.m3u8
 #
 #EXTINF:-1 tvg-id="russia-today" group-title="HD" catchup-enable="0",Russia Today HD
 http://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
 #
 #EXTINF:-1 tvg-id="russian-musicbox" group-title="Музыкальные" catchup-enable="0",Russian Music Box
 http://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
-#EXTINF:-1 tvg-id="russian-musicbox" group-title="HD" catchup-enable="0",Russian Music Box (1080p)
-http://strm.yandex.ru/kal/rmbox/rmbox0_169_1080p.json/index-v1-a1.m3u8
 #
 #EXTINF:-1 tvg-id="start" tvg-name="Старт" group-title="Спортивные" catchup-enable="0",СТАРТ
 http://strm.yandex.ru/kal/start/start0.m3u8
