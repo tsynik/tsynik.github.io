@@ -970,7 +970,7 @@ http://hls1.inetcom.ru/hls_v4/230.3.4.220.m3u8
 https://sc.id-tv.kz/bollywood_hd_34_35.m3u8
 #EXTINF:-1 tvg-id="bridge-tv" tvg-name="Bridge TV" group-title="Музыкальные" catchup-enable="0",Bridge TV
 http://hls1.inetcom.ru/hls_v4/230.3.4.79.m3u8
-#EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Bridge TV Русский Хит
+#EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Bridge TV Русский хит
 http://hls1.inetcom.ru/hls_v4/230.3.4.80.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Bridge TV Hits
 http://hls1.inetcom.ru/hls_v4/230.3.4.169.m3u8
@@ -986,8 +986,8 @@ http://hls1.inetcom.ru/hls_v4/230.3.3.88.m3u8
 # http://188.40.68.167/russia/fox_russia_sd/playlist.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",FOX HD
 https://sc.id-tv.kz/FOX_HD_34_35.m3u8
-#EXTINF:-1 group-title="Детские" catchup-enable="0",Gulli Girl
-http://hls1.inetcom.ru/hls_v4/230.3.4.144.m3u8
+# #EXTINF:-1 group-title="Детские" catchup-enable="0",Gulli Girl
+# http://hls1.inetcom.ru/hls_v4/230.3.4.144.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Hollywood
 http://hls1.inetcom.ru/hls_v4/230.3.4.168.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Hollywood HD
