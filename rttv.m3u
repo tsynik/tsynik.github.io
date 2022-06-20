@@ -1070,7 +1070,7 @@ http://hls1.inetcom.ru/hls_v4/230.3.3.59.m3u8
 http://hls1.inetcom.ru/hls_v4/230.3.3.64.m3u8
 #EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы" catchup-enable="0",Кинохит
 http://hls1.inetcom.ru/hls_v4/230.3.4.65.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Комедийное
+#EXTINF:-1 tvg-id="komedijnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Комедийное HD
 http://hls1.inetcom.ru/hls_v4/230.3.3.212.m3u8
 #EXTINF:-1 tvg-id="la-minor" group-title="Музыкальные" catchup-enable="0",Ля-минор
 http://hls1.inetcom.ru/hls_v4/230.3.4.52.m3u8
@@ -1123,8 +1123,6 @@ http://hls1.inetcom.ru/hls_v4/230.3.4.133.m3u8
 # https://sc.id-tv.kz/o_34_35.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Первый музыкальный HD
 http://rtmp.one.by:1300
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Премьера
-# https://autopilot.catcast.tv/content/39161/index.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Радость моя
 http://hls1.inetcom.ru/hls_v4/230.3.3.104.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Родное кино
@@ -1137,12 +1135,8 @@ http://hls1.inetcom.ru/hls_v4/230.3.4.221.m3u8
 http://hls1.inetcom.ru/hls_v4/230.3.4.236.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский роман
 http://hls1.inetcom.ru/hls_v4/230.3.4.112.m3u8
-# #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Страна FM HD
-# http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",ТНТ Music
 http://hls1.inetcom.ru/hls_v4/230.3.4.180.m3u8
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Фантастика Sci-Fi
-# https://v2.catcast.tv/content/38801/index.m3u8
 #EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс Плюс Кино
 http://hls1.inetcom.ru/hls_v4/230.3.4.215.m3u8
 # http://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
@@ -1159,6 +1153,8 @@ http://strm.yandex.ru/kal/europaplus/europaplus0_169_1080p.json/index-v1-a1.m3u8
 #
 #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
 http://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
+#EXTINF:-1 tvg-id="musicbox" group-title="HD" catchup-enable="0",Music Box Gold (1080p)
+http://strm.yandex.ru/kal/musicboxgold/musicboxgold0_169_1080p.json/index-v1-a1.m3u8
 #
 #EXTINF:-1 tvg-id="rtg-hd" group-title="Познавательные" catchup-enable="0",RTG HD
 http://strm.yandex.ru/kal/rtg/rtg0.m3u8
@@ -1172,16 +1168,6 @@ http://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
 http://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
 #EXTINF:-1 tvg-id="russian-musicbox" group-title="HD" catchup-enable="0",Russian Music Box (1080p)
 http://strm.yandex.ru/kal/rmbox/rmbox0_169_1080p.json/index-v1-a1.m3u8
-#
-# #EXTINF:-1 tvg-id="zagorodny" group-title="HD" catchup-enable="0",Загородный HD
-# http://strm.yandex.ru/kal/zagorod/zagorod0.m3u8
-# #EXTINF:-1 tvg-id="zagorodny" group-title="HD" catchup-enable="0",Загородный (1080p)
-# http://strm.yandex.ru/kal/zagorod/zagorod0_169_1080p.json/index-v1-a1.m3u8
-#
-# #EXTINF:-1 tvg-id="soyuz" group-title="Религиозные" catchup-enable="0",Союз
-# http://strm.yandex.ru/kal/soyuz/soyuz0.m3u8
-# #EXTINF:-1 tvg-id="soyuz" group-title="HD" catchup-enable="0",Союз (720p)
-# http://strm.yandex.ru/kal/soyuz_supres/soyuz_supres0_169_720p.json/index-v1-a1.m3u8
 #
 #EXTINF:-1 tvg-id="start" tvg-name="Старт" group-title="Спортивные" catchup-enable="0",СТАРТ
 http://strm.yandex.ru/kal/start/start0.m3u8
