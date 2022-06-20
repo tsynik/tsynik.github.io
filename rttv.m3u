@@ -1034,15 +1034,15 @@ http://okkotv-live.cdnvideo.ru/channel/Viasat_Nature_ad_HD.m3u8
 http://okkotv-live.cdnvideo.ru/channel/Viasat_Explore_HD.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viasat History HD
 http://okkotv-live.cdnvideo.ru/channel/Viasat_History_ad_HD.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",VIP Comedy
+#EXTINF:-1 tvg-id="vip-comedy" group-title="Кино и сериалы" catchup-enable="0",VIP Comedy HD
 http://okkotv-live.cdnvideo.ru/channel/VIP_Comedy_HD.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",VIP Megahit
+#EXTINF:-1 tvg-id="vip-megahit" group-title="Кино и сериалы" catchup-enable="0",VIP Megahit HD
 http://okkotv-live.cdnvideo.ru/channel/VIP_Megahit_HD.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",VIP Premiere
+#EXTINF:-1 tvg-id="vip-premiere" group-title="Кино и сериалы" catchup-enable="0",VIP Premiere HD
 http://okkotv-live.cdnvideo.ru/channel/VIP_Premiere_HD.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",VIP Serial
+#EXTINF:-1 tvg-id="vip-serial" group-title="Кино и сериалы" catchup-enable="0",VIP Serial HD
 http://okkotv-live.cdnvideo.ru/channel/VIP_Serial_HD.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Дом кино Премиум
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Дом кино Премиум HD
 http://hls1.inetcom.ru/hls_v4/230.3.3.19.m3u8
 #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" group-title="Кино и сериалы" catchup-enable="0",Индийское кино
 http://hls1.inetcom.ru/hls_v4/230.3.3.57.m3u8
