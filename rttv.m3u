@@ -1164,6 +1164,17 @@ http://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
 #EXTINF:-1 tvg-id="start" tvg-name="Старт" group-title="Спортивные" catchup-enable="0",СТАРТ
 http://strm.yandex.ru/kal/start/start0.m3u8
 #
+# Adults
+#
+#EXTINF:-1 group-title="Взрослые" catchup-enable="0",Brazzers
+http://hls1.inetcom.ru/hls_v4/230.3.4.143.m3u8
+#EXTINF:-1 group-title="Взрослые" catchup-enable="0",Extasy 4K
+http://213.81.133.133:8080/extasy4k/index.m3u8
+#EXTINF:-1 group-title="Взрослые" catchup-enable="0",O-la-la
+http://hls1.inetcom.ru/hls_v4/230.3.3.7.m3u8
+#EXTINF:-1 group-title="Взрослые" catchup-enable="0",Русская Ночь
+http://hls1.inetcom.ru/hls_v4/230.3.4.110.m3u8
+#
 # http://9ak.ru/v/rel/
 #
 #EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Природа
