@@ -2,64 +2,64 @@
 #
 # 1-21
 #
-#EXTINF:-1 channelId="1" tvg-id="pervy" group-title="Эфирные" catchup-enable="1",Первый канал
+#EXTINF:-1 channelId="1" tvg-id="pervy" group-title="Эфирные" catchup-enable="0",Первый канал
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="2" tvg-id="rossia1" group-title="Эфирные" catchup-enable="1",Россия 1
+#EXTINF:-1 channelId="2" tvg-id="rossia1" group-title="Эфирные" catchup-enable="0",Россия 1
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="3" tvg-id="match-tv" group-title="Эфирные" catchup-enable="1",Матч! ТВ
+#EXTINF:-1 channelId="3" tvg-id="match-tv" group-title="Эфирные" catchup-enable="0",Матч! ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="4" tvg-id="ntv" group-title="Эфирные" catchup-enable="1",НТВ
+#EXTINF:-1 channelId="4" tvg-id="ntv" group-title="Эфирные" catchup-enable="0",НТВ
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="5" tvg-id="5kanal-ru" group-title="Эфирные" catchup-enable="1",Пятый канал
+#EXTINF:-1 channelId="5" tvg-id="5kanal-ru" group-title="Эфирные" catchup-enable="0",Пятый канал
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="6" tvg-id="kultura" group-title="Эфирные" catchup-enable="1",Россия К
+#EXTINF:-1 channelId="6" tvg-id="kultura" group-title="Эфирные" catchup-enable="0",Россия К
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="7" tvg-id="rossia-24" group-title="Эфирные" catchup-enable="1",Россия 24
+#EXTINF:-1 channelId="7" tvg-id="rossia-24" group-title="Эфирные" catchup-enable="0",Россия 24
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="8" tvg-id="karusel" group-title="Эфирные" catchup-enable="1",Карусель
+#EXTINF:-1 channelId="8" tvg-id="karusel" group-title="Эфирные" catchup-enable="0",Карусель
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="9" tvg-id="otr" group-title="Эфирные" catchup-enable="1",ОТР
+#EXTINF:-1 channelId="9" tvg-id="otr" group-title="Эфирные" catchup-enable="0",ОТР
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="10" tvg-id="tvcentr" group-title="Эфирные" catchup-enable="1",ТВ Центр
+#EXTINF:-1 channelId="10" tvg-id="tvcentr" group-title="Эфирные" catchup-enable="0",ТВ Центр
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="11" tvg-id="rentv" group-title="Эфирные" catchup-enable="1",Рен ТВ
+#EXTINF:-1 channelId="11" tvg-id="rentv" group-title="Эфирные" catchup-enable="0",Рен ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="12" tvg-id="spas" group-title="Эфирные" catchup-enable="1",Спас
+#EXTINF:-1 channelId="12" tvg-id="spas" group-title="Эфирные" catchup-enable="0",Спас
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_SPAS/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="13" tvg-id="sts" group-title="Эфирные" catchup-enable="1",СТС
+#EXTINF:-1 channelId="13" tvg-id="sts" group-title="Эфирные" catchup-enable="0",СТС
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="14" tvg-id="domashny" group-title="Эфирные" catchup-enable="1",Домашний
+#EXTINF:-1 channelId="14" tvg-id="domashny" group-title="Эфирные" catchup-enable="0",Домашний
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="15" tvg-id="tv3-ru" group-title="Эфирные" catchup-enable="1",ТВ-3
+#EXTINF:-1 channelId="15" tvg-id="tv3-ru" group-title="Эфирные" catchup-enable="0",ТВ-3
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="16" tvg-id="piatnica" group-title="Эфирные" catchup-enable="1",Пятница
+#EXTINF:-1 channelId="16" tvg-id="piatnica" group-title="Эфирные" catchup-enable="0",Пятница
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="17" tvg-id="zvezda" group-title="Эфирные" catchup-enable="1",Звезда
+#EXTINF:-1 channelId="17" tvg-id="zvezda" group-title="Эфирные" catchup-enable="0",Звезда
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="18" tvg-id="mir" group-title="Эфирные" catchup-enable="1",Мир
+#EXTINF:-1 channelId="18" tvg-id="mir" group-title="Эфирные" catchup-enable="0",Мир
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MIR/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="19" tvg-id="tnt" group-title="Эфирные" catchup-enable="1",ТНТ
+#EXTINF:-1 channelId="19" tvg-id="tnt" group-title="Эфирные" catchup-enable="0",ТНТ
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/bw2000000/variant.m3u8?version=2
-#EXTINF:-1 channelId="20" tvg-id="muztv" group-title="Эфирные" catchup-enable="1",Муз-ТВ
+#EXTINF:-1 channelId="20" tvg-id="muztv" group-title="Эфирные" catchup-enable="0",Муз-ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.36.1 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/bw2000000/variant.m3u8?version=2
 #
