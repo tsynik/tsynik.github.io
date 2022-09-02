@@ -145,9 +145,6 @@ http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TEOTV/variant.m3u8
 #EXTINF:-1 channelId="302" tvg-id="disney" group-title="Детские" catchup-enable="0",Disney
 #EXTVLCOPT:http-user-agent=WINK/1.39.2 (AndroidTV/9) HlsWinkPlayer
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
-#EXTINF:-1 tvg-id="acb-tv" group-title="Музыкальные" catchup-enable="0",9 Волна
-#EXTVLCOPT:http-user-agent=WINK/1.39.2 (AndroidTV/9) HlsWinkPlayer
-http://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R02_OTT_STH_CHERKS_9VOLNA-CHRK/variant.m3u8
 #EXTINF:-1 tvg-id="matur-tv" group-title="Музыкальные" catchup-enable="0",Матур ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.39.2 (AndroidTV/9) HlsWinkPlayer
 http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
@@ -1156,10 +1153,8 @@ http://hls1.inetcom.ru/hls_v4/230.3.4.110.m3u8
 #
 # http://9ak.ru/v/rel/
 #
-#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Природа
+#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Природа HD
 http://a.jsrdn.com/broadcast/76381deeda/+0000/c.m3u8
-#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Животные HD
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9537b8932c837b49397343/playlist.m3u8
 #EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Космос HD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953819932c837b49397345/playlist.m3u8
 #EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Пляжи HD
@@ -1176,6 +1171,4 @@ https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95388f932c837b4939735a/
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538a5932c837b4939735b/playlist.m3u8
 #EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Джунгли HD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538b9932c837b4939735c/playlist.m3u8
-#EXTINF:-1 tvg-id="no_epg" group-title="Релакс" catchup-enable="0",Камин HD
-http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 ###############################################################################
