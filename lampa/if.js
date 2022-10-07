@@ -12,7 +12,7 @@
       };
 
       this.update = function (data) {
-        html.find('.new-interface-info__head,.new-interface-info__details').text('&nbsp;'); // ---
+        html.find('.new-interface-info__head,.new-interface-info__details').text(''); // ---
         html.find('.new-interface-info__title').text(data.title);
         html.find('.new-interface-info__description').text(data.overview || '...');
         Lampa.Background.change(Lampa.Api.img(data.backdrop_path, 'w200'));
