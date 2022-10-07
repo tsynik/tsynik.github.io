@@ -14,7 +14,7 @@
       this.update = function (data) {
         html.find('.new-interface-info__head,.new-interface-info__details').text('\xa0'); // ---
         html.find('.new-interface-info__title').text(data.title);
-        html.find('.new-interface-info__description').text(data.overview || '...');
+        html.find('.new-interface-info__description').text(data.overview || '\xa0'); /// ...
         Lampa.Background.change(Lampa.Api.img(data.backdrop_path, 'w200'));
         this.load(data);
       };
@@ -34,7 +34,7 @@
         }).join(' | '));
         if (data.runtime) details.push(Lampa.Utils.secondsToTime(data.runtime * 60, true));
         if (pg) details.push('<span class="full-start__pg" style="font-size: 0.8em;">' + pg + '</span>');
-        html.find('.new-interface-info__head').empty().append(head.join(', '));
+        html.find('.new-interface-info__head').empty().append(head.join('\25cf ')); // ', '
         html.find('.new-interface-info__details').html(details.join('<span class="new-interface-info__split">&#9679;</span>'));
       };
 
