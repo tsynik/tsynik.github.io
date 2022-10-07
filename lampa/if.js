@@ -34,7 +34,7 @@
         }).join(' | '));
         if (data.runtime) details.push(Lampa.Utils.secondsToTime(data.runtime * 60, true));
         if (pg) details.push('<span class="full-start__pg" style="font-size: 0.8em;">' + pg + '</span>');
-        html.find('.new-interface-info__head').empty().append(head.join(' \u{25CF} ')); // ', '
+        html.find('.new-interface-info__head').empty().append(head.join(' \u{00B7} ')); // ', '
         html.find('.new-interface-info__details').html(details.join('<span class="new-interface-info__split">&#9679;</span>'));
       };
 
