@@ -1,8 +1,8 @@
+// source: http://lampatv.fun/freetv.js https://t.me/lampa_channels
 (function() {
 	'use strict';
 
-// Перключение клавишами пульта
-	
+// Перключение клавишами пульта	
 	Lampa.Keypad.listener.follow('keydown', function (e) {
 		var code = e.code;
 	 // Lampa.Noty.show('code_ '+ code);
@@ -21,7 +21,7 @@
 	});
 
 //СКАЗОЧНИК
-	
+
 //	Object.defineProperty(navigator, 'userAgent', {
 //		get: function () { return 'http-user-agent=WINK/1.28.2 (AndroidTV/9) HlsWinkPlayer'; }
 //	});
@@ -41,46 +41,46 @@
 		var cors = '';
 		var catalogs = [{
 				title: 'Полный список',
-				url: 'http://45.90.219.39/json/all.json' //ITCO
+				url: 'http://lampatv.fun/json/all.json' //ITCO
 			},	{
 				title: 'Беларусь',
-				url: 'http://45.90.219.39/json/belarus.json' //BD1C
+				url: 'http://lampatv.fun/json/belarus.json' //BD1C
 			},	{
 				title: 'Україна',
-				url: 'http://45.90.219.39/json/ua.json' //F1EF //J2W2
+				url: 'http://lampatv.fun/json/ua.json' //F1EF //J2W2
 			},	{
 				title: 'Общие и новостные',
-				url: 'http://45.90.219.39/json/news.json' //3C1E
+				url: 'http://lampatv.fun/json/news.json' //3C1E
 			},	{
 				title: 'Развивающие',
-				url: 'http://45.90.219.39/json/razviv.json' //XEWW
+				url: 'http://lampatv.fun/json/razviv.json' //XEWW
 			},	{
 				title: 'Кино',
-				url: 'http://45.90.219.39/json/cinema.json' //JA6E
+				url: 'http://lampatv.fun/json/cinema.json' //JA6E
 			},	{
 				title: 'Разное',
-				url: 'http://45.90.219.39/json/raznoe.json' //GQXY
+				url: 'http://lampatv.fun/json/raznoe.json' //GQXY
 			},	{
 				title: 'Детские',
-				url: 'http://45.90.219.39/json/kids.json' //PAN7
+				url: 'http://lampatv.fun/json/kids.json' //PAN7
 			},	{
 				title: 'Спорт',
-				url: 'http://45.90.219.39/json/sport.json' //7F9B
+				url: 'http://lampatv.fun/json/sport.json' //7F9B
 			},	{
 				title: 'Музыка',
-				url: 'http://45.90.219.39/json/music.json' //CY0I
+				url: 'http://lampatv.fun/json/music.json' //CY0I
 			},	{
 				title: 'Заявки',
-				url: 'http://45.90.219.39/json/zayavki.json' //JM1H
+				url: 'http://lampatv.fun/json/zayavki.json' //JM1H
 			},	{
 				title: 'Эротика',
-				url: 'http://45.90.219.39/json/erotic.json' //JM1H
+				url: 'http://lampatv.fun/json/erotic.json' //JM1H
 			},	{
 				title: 'Wink',
-				url: 'http://45.90.219.39/json/wink.json'
+				url: 'http://lampatv.fun/json/wink.json'
 			},	{
 				title: 'Регионы',
-				url: 'http://45.90.219.39/json/region.json'
+				url: 'http://lampatv.fun/json/region.json'
 			}];
 		this.create = function() {
 			var _this = this;
@@ -241,10 +241,10 @@
 		Lampa.Listener.follow('app', function(r) {
 			if (r.type == 'ready') {
 				var ico = '<svg width="16px" height="16px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" color="#fff" fill="currentColor" class="bi bi-tv"><path d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3l.024.001a1.46 1.46 0 0 1 .538.143.757.757 0 0 1 .302.254c.067.1.145.277.145.602v5.991l-.001.024a1.464 1.464 0 0 1-.143.538.758.758 0 0 1-.254.302c-.1.067-.277.145-.602.145H2.009l-.024-.001a1.464 1.464 0 0 1-.538-.143.758.758 0 0 1-.302-.254C1.078 10.502 1 10.325 1 10V4.009l.001-.024a1.46 1.46 0 0 1 .143-.538.758.758 0 0 1 .254-.302C1.498 3.078 1.675 3 2 3h11.991zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"/></svg>';
-				var menu_items = $('<li class="menu__item selector focus" data-action="freetv_r"><div class="menu__ico">' + ico + '</div><div class="menu__text">FreeTV</div></li>');
+				var menu_items = $('<li class="menu__item selector focus" data-action="freetv_r"><div class="menu__ico">' + ico + '</div><div class="menu__text">Free.TV</div></li>');
 				menu_items.on('hover:enter', function() {
 					Lampa.Activity.push({
-						url: 'http://45.90.219.39/json/all_freetv.json',
+						url: 'http://lampatv.fun/json/all_freetv.json',
 						title: 'Основные',
 						component: 'freetv_n',
 						page: 1
@@ -482,7 +482,7 @@
 		Lampa.Listener.follow('app', function(r) {
 			if (r.type == 'ready') {
 				var ico = '<img src="http://cdn.kulik.uz/retro-tv.png"/>';
-				var menu_items = $('<li class="menu__item selector focus" data-action="tvtv_r"><div class="menu__ico">' + ico + '</div><div class="menu__text">КulikTV</div></li>');
+				var menu_items = $('<li class="menu__item selector focus" data-action="tvtv_r"><div class="menu__ico">' + ico + '</div><div class="menu__text">Кulik.TV</div></li>');
 				menu_items.on('hover:enter', function() {
 					Lampa.Activity.push({
 						url: 'http://cdn.kulik.uz/tv/fed.json',
