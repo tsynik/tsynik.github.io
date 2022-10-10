@@ -1,9 +1,21 @@
+// Main Menu Exit
 (function() {
 	'use strict';
 
+	Lampa.Lang.add({
+		exit_menu: {
+			ru: 'Выход',
+			en: 'Exit',
+			uk: 'Вихід',
+			be: 'Вынахад',
+			zh: '出口',
+			pt: 'Saída'
+		}
+	});
+
 	function exit_n(object) {
 		this.create = function () {};
-		this.build = function() { this.activity.loader(false); };
+		this.build = function() {}; // this.activity.loader(false);
 		this.start = function () {};
 		this.pause = function() {};
 		this.stop = function() {};
@@ -11,28 +23,19 @@
 		this.destroy = function() {};
 	}
 	
-	Lampa.Lang.add({
-		exit_menu: {
-			ru: 'Выход',
-			uk: 'Вихід',
-			be: 'Вынахад',
-			en: 'Exit',
-			zh: '出口'
-		}
-	});
-
 	function startexit_n() {
 		window.plugin_exit_n_ready = true;
 		Lampa.Component.add('exit_n', exit_n);
 		Lampa.Listener.follow('app', function(r) {
 			if (r.type == 'ready') {
-				var ico = '<svg width="16px" height="16px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" color="#eee" fill="currentColor" class="bi bi-tv"><path d="M2.5 13.5A.5.5 0 0 1 3 13h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zM13.991 3l.024.001a1.46 1.46 0 0 1 .538.143.757.757 0 0 1 .302.254c.067.1.145.277.145.602v5.991l-.001.024a1.464 1.464 0 0 1-.143.538.758.758 0 0 1-.254.302c-.1.067-.277.145-.602.145H2.009l-.024-.001a1.464 1.464 0 0 1-.538-.143.758.758 0 0 1-.302-.254C1.078 10.502 1 10.325 1 10V4.009l.001-.024a1.46 1.46 0 0 1 .143-.538.758.758 0 0 1 .254-.302C1.498 3.078 1.675 3 2 3h11.991zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2z"/></svg>';
+				var ico = '<svg color="#eee" enable-background="new 0 0 500 500" id="layer_1" version="1.1" viewBox="0 0 500 500" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="249.9" cy="250.4" r="204.7" stroke="currentColor" stroke-miterlimit="10"/><circle cx="249.9" cy="247.4" fill="#FFFFFF" r="181.8" stroke="currentColor" stroke-miterlimit="10"/><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="22" x1="162" x2="337.8" y1="159.5" y2="335.3"/><line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="22" x1="337.8" x2="162" y1="159.5" y2="335.3"/></svg>';
 				var menu_items = $('<li class="menu__item selector" data-action="exit_r"><div class="menu__ico">' + ico + '</div><div class="menu__text">' + Lampa.Lang.translate('exit_menu') + '</div></li>');
 					menu_items.on('hover:enter', function() {
 						Lampa.Activity.out();
 						if(Lampa.Platform.is('tizen')) tizen.application.getCurrentApplication().exit();
 						if(Lampa.Platform.is('webos')) window.close();
 						if(Lampa.Platform.is('android')) Lampa.Android.exit();
+						if(Lampa.Platform.is('orsay')) Lampa.Orsay.exit();
 					});
 					$('.menu .menu__list').eq(2).append(menu_items);
 			}
