@@ -13,15 +13,15 @@
 		}
 	});
 
-// 	function exit_m(object) {
-// 		this.create = function () {};
-// 		this.build = function() {}; // this.activity.loader(false);
-// 		this.start = function () {};
-// 		this.pause = function() {};
-// 		this.stop = function() {};
-// 		this.render = function() {};
-// 		this.destroy = function() {};
-// 	}
+	function exit_m(object) {
+		this.create = function () {};
+		this.build = function() {}; // this.activity.loader(false);
+		this.start = function () {};
+		this.pause = function() {};
+		this.stop = function() {};
+		this.render = function() {};
+		this.destroy = function() {};
+	}
 	
 	function createExitMenu() {
 		window.plugin_exit_m_ready = true;
