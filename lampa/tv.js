@@ -19,19 +19,18 @@
 		var items = [];
 		var html = $('');
 		var body = $('');
-		body.append('');
 		var info = null;
-		var last = null; var cors = '';
+		var last = null;
 		var catalogs = [
-		{ title: 'Все каналы', url: 'http://newtv.mail66.org/tv2.json' },
-		{ title: 'Федеральные', url: 'http://newtv.mail66.org/tv2.json?gr=tv' },
-		{ title: 'Детские', url: 'http://newtv.mail66.org/tv2.json?gr=%D0%B4%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B5' },
-		{ title: 'Развлекательные', url: 'http://newtv.mail66.org/tv2.json?gr=%D1%80%D0%B0%D0%B7%D0%B2%D0%BB%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5' },
-		{ title: 'Спортивные', url: 'http://newtv.mail66.org/tv2.json?gr=%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5' },
-		{ title: 'Фильмы', url: 'http://newtv.mail66.org/tv2.json?gr=%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D1%8B' },
-		{ title: 'Научные', url: 'http://newtv.mail66.org/tv2.json?gr=%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D1%8B%D0%B5' },
-		{ title: 'Музыка', url: 'http://newtv.mail66.org/tv2.json?gr=%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0' },
-		{ title: 'Хобби', url: 'http://newtv.mail66.org/tv2.json?gr=%D1%85%D0%BE%D0%B1%D0%B1%D0%B8' }
+			{ title: 'Все каналы', url: 'http://newtv.mail66.org/tv2.json' },
+			{ title: 'Федеральные', url: 'http://newtv.mail66.org/tv2.json?gr=tv' },
+			{ title: 'Детские', url: 'http://newtv.mail66.org/tv2.json?gr=%D0%B4%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B5' },
+			{ title: 'Развлекательные', url: 'http://newtv.mail66.org/tv2.json?gr=%D1%80%D0%B0%D0%B7%D0%B2%D0%BB%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5' },
+			{ title: 'Спортивные', url: 'http://newtv.mail66.org/tv2.json?gr=%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5' },
+			{ title: 'Фильмы', url: 'http://newtv.mail66.org/tv2.json?gr=%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D1%8B' },
+			{ title: 'Научные', url: 'http://newtv.mail66.org/tv2.json?gr=%D0%BD%D0%B0%D1%83%D1%87%D0%BD%D1%8B%D0%B5' },
+			{ title: 'Музыка', url: 'http://newtv.mail66.org/tv2.json?gr=%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0' },
+			{ title: 'Хобби', url: 'http://newtv.mail66.org/tv2.json?gr=%D1%85%D0%BE%D0%B1%D0%B1%D0%B8' }
 		];
 		this.create = function() {
 			var _this = this;
@@ -41,8 +40,9 @@
 				html.append(empty.render());
 				_this.start = empty.start;
 				_this.activity.loader(false);
-				_this.activity.toggle(); });
-				return this.render();
+				_this.activity.toggle();
+			});
+			return this.render();
 		};
 		this.append = function (data) {
 			var _this3 = this;
@@ -53,7 +53,7 @@
 				if (!element.tvshift) element.tvshift = 0;
 				card.addClass('card-id-'+element.tvid+'_'+element.tvshift);
 				card.find('.card__img').css({ 'cursor': 'pointer', 'background-color': '#353535a6' });
-				card.find('.card__age').css({ 'margin-top': '0.2em ' });
+				card.find('.card__age').css({ 'margin-top': '0.2em' });
 				var img = card.find('.card__img')[0];
 				img.onload = function () { card.addClass('card--loaded'); };
 				img.onerror = function (e) { };
@@ -76,7 +76,7 @@
 						$('.noti').html(element.tvid+'_'+element.tvshift);
 						if ($('.player-info__body')[0]) {
 							if (Lampa.Player.render().find('#title_epg').length === 0) Lampa.Player.render().find('.player-info__name').append('');
-							parseone($('.noti').html());
+							parseOne($('.noti').html());
 						}
 					});
 					body.append(card);
@@ -85,12 +85,12 @@
 			};
 			var skset1 = setInterval(function () {
 				if ($('.player-info__body')[0]) {
-					parseone($('.noti').html());
+					parseOne($('.noti').html());
 				} else {
 					parseEpg();
 				}
 			}, 60000);
-			var parseone = function (str) {
+			var parseOne = function (str) {
 				$.get('http://newtv.mail66.org/2.php?ids='+str, function(data, status){
 					Lampa.Player.render().find('#title_epg').text(' - Сейчас: ' + data);
 				});
@@ -111,12 +111,12 @@
 			};
 			this.build = function(data) {
 				var _this2 = this;
-				Lampa.Template.add('button_category', "Разделы\ n ");
+				Lampa.Template.add('button_category', "Разделы\n ");
 				Lampa.Template.add('info_radio', '()');
 				var btn = Lampa.Template.get('button_category');
 				info = Lampa.Template.get('info_radio');
-				info.find('#stantion_filtr ').append(btn);
-				info.find('.view--category ').on('hover: enter hover: click ', function () {
+				info.find('#stantion_filtr').append(btn);
+				info.find('.view--category').on('hover: enter hover: click', function () {
 					_this2.selectGroup();
 				});
 				scroll.render().addClass('layer--wheight').data('mheight', info);
@@ -214,11 +214,11 @@
 			if (r.type == 'ready') {
 				var icos = '';
 				var mtitle = Lampa.Lang.translate('tv_menu');
-				var menu_itemss = $('' + icos + mtitle);
+				var menu_itemss = $('' + icos + 'ТВ');
 				menu_itemss.on('hover: enter', function() {
 					Lampa.Activity.push({
 						url: 'http://newtv.mail66.org/tv2.json',
-						title: mtitle,
+						title: 'ТВ',
 						component: 'iptvskaz_n',
 						page: 1
 					});
