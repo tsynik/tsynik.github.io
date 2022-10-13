@@ -9,19 +9,18 @@
 
 			this.get = function (method) {
 				return new Promise(function (resolve, reject) {
-					var account = Lampa.Storage.get('account', '{}');
-					console.log("account: " + account.toString());
-					console.log("account.token: " + account.token + " profile: " + account.profile.id);
-					if (account.token) {
+					//var account = Lampa.Storage.get('account', '{}');
+					//console.log("account.token: " + account.token + " profile: " + account.profile.id);
+					//if (account.token) {
 						network.silent(api_url + method, resolve, reject, false, {
 							headers: {
-								token: account.token,
-								profile: account.profile.id
+								token: 'eyJpZCI6MjExNDF9.WQl+KH5ZLHhV+1VToXOGe/8zSIqV7Cmrl+rXFtajOYc=',//account.token,
+								profile: '22856'//account.profile.id
 							}
 						});
-					} else {
-						reject();
-					}
+					//} else {
+					//	reject();
+					//}
 				});
 			};
 
