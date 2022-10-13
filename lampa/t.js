@@ -64,11 +64,11 @@
       this.create = function () {
         this.activity.loader(true);
         this.start = this.controllerList.bind(this);
-        if (window.innerWidth < 767) this.empty(); else {
+//        if (window.innerWidth < 767) this.empty(); else {
           api.get('list').then(this.list.bind(this)).then(function (id) {
             return api.get('playlist/' + id);
           }).then(this.build.bind(this))["catch"](this.empty.bind(this));
-        }
+//        }
         return this.render();
       };
 
