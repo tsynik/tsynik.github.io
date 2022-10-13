@@ -10,7 +10,7 @@
 			this.get = function (method) {
 				return new Promise(function (resolve, reject) {
 					var account = Lampa.Storage.get('account', '{}');
-					console.log("account: " + account);
+					console.log("account: " + account.toString());
 					console.log("account.token: " + account.token + " profile: " + account.profile.id);
 					if (account.token) {
 						network.silent(api_url + method, resolve, reject, false, {
