@@ -39,7 +39,7 @@
 	function createExitMenu() {
 		window.plugin_exit_m_ready = true;
 		Lampa.Component.add('exit_m', exit_m);
-		if (window.appready) add();else {
+		if (window.appready) add(); else {
 			Lampa.Listener.follow('app', function (e) {
 				if (e.type == 'ready') add();
 			});
