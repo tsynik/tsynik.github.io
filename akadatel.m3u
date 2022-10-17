@@ -1538,7 +1538,7 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18137/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18197/index.m3u8
 #EXTINF:0 group-title="Кинозалы" tvg-id="6601" tvg-logo="http://epg.it999.ru/img2/6601.png" tvg-rec="0",PROKOP TV SERIAL FHD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19272/index.m3u8
-#EXTINF:0 group-title="Кинозалы" tvg-id="6613" tvg-logo="http://epg.it999.ru/img2/6613.png" tvg-rec="0",kino watch тв Ужастик HD
+#EXTINF:0 group-title="Кинозалы" tvg-id="6613" tvg-logo="http://epg.it999.ru/img2/6613.png" tvg-rec="0",kino watch ТВ Ужастик HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19273/index.m3u8
 #EXTINF:0 group-title="Кинозалы" tvg-id="6696" tvg-logo="http://epg.it999.ru/img2/6696.png" tvg-rec="0",BOX Franchise HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19274/index.m3u8
@@ -1612,17 +1612,17 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19310/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19311/index.m3u8
 #EXTINF:0 group-title="Кинозалы" tvg-id="6726" tvg-logo="http://epg.it999.ru/img/6726.png" tvg-rec="0",SKY HIGH LO FI HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19312/index.m3u8
-#EXTINF:0 group-title="Кинозалы" tvg-id="6606" tvg-logo="http://epg.it999.ru/img2/6606.png" tvg-rec="0",Малдер тв ХИТ HD
+#EXTINF:0 group-title="Кинозалы" tvg-id="6606" tvg-logo="http://epg.it999.ru/img2/6606.png" tvg-rec="0",Малдер ТВ ХИТ HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19263/index.m3u8
-#EXTINF:0 group-title="Кинозалы" tvg-id="6607" tvg-logo="http://epg.it999.ru/img2/6607.png" tvg-rec="0",Малдер тв VHS
+#EXTINF:0 group-title="Кинозалы" tvg-id="6607" tvg-logo="http://epg.it999.ru/img2/6607.png" tvg-rec="0",Малдер ТВ VHS
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19264/index.m3u8
-#EXTINF:0 group-title="Кинозалы" tvg-id="6608" tvg-logo="http://epg.it999.ru/img2/6608.png" tvg-rec="0",Малдер тв Фантастика
+#EXTINF:0 group-title="Кинозалы" tvg-id="6608" tvg-logo="http://epg.it999.ru/img2/6608.png" tvg-rec="0",Малдер ТВ Фантастика
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19265/index.m3u8
-#EXTINF:0 group-title="Кинозалы" tvg-id="6609" tvg-logo="http://epg.it999.ru/img2/6609.png" tvg-rec="0",Малдер тв Сериал
+#EXTINF:0 group-title="Кинозалы" tvg-id="6609" tvg-logo="http://epg.it999.ru/img2/6609.png" tvg-rec="0",Малдер ТВ Сериал
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19266/index.m3u8
-#EXTINF:0 group-title="Кинозалы" tvg-id="6610" tvg-logo="http://epg.it999.ru/img2/6610.png" tvg-rec="0",Малдер тв Семейный
+#EXTINF:0 group-title="Кинозалы" tvg-id="6610" tvg-logo="http://epg.it999.ru/img2/6610.png" tvg-rec="0",Малдер ТВ Семейный
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19267/index.m3u8
-#EXTINF:0 group-title="Кинозалы" tvg-id="6611" tvg-logo="http://epg.it999.ru/img2/6611.png" tvg-rec="0",Малдер тв Ужасы
+#EXTINF:0 group-title="Кинозалы" tvg-id="6611" tvg-logo="http://epg.it999.ru/img2/6611.png" tvg-rec="0",Малдер ТВ Ужасы
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19268/index.m3u8
 #EXTINF:0 group-title="Кинозалы" tvg-id="6600" tvg-logo="http://epg.it999.ru/img2/6600.png" tvg-rec="0",PROKOP TV SERIAL HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19271/index.m3u8
@@ -1640,47 +1640,47 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19318/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/212/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="3",Матч! FHD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2413/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="0",МАТЧ! HD 50
+#EXTINF:0 group-title="Спорт" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="0",Матч! HD 50
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10020/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="7",Матч ТВ
+#EXTINF:0 group-title="Спорт" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="7",Матч!
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/535/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="3",Матч +2
+#EXTINF:0 group-title="Спорт" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="3",Матч! +2
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6012/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="3",Матч +4
+#EXTINF:0 group-title="Спорт" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="3",Матч! +4
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6023/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="3",Матч +8
+#EXTINF:0 group-title="Спорт" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="3",Матч! +8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6052/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2050" tvg-logo="http://epg.it999.ru/img/2050.png" tvg-rec="7",Матч! Игра HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/225/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2050" tvg-logo="http://epg.it999.ru/img/2050.png" tvg-rec="3",Матч! Игра FHD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2406/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2050" tvg-logo="http://epg.it999.ru/img/2050.png" tvg-rec="0",Матч Игра HD 50
+#EXTINF:0 group-title="Спорт" tvg-id="2050" tvg-logo="http://epg.it999.ru/img/2050.png" tvg-rec="0",Матч! Игра HD 50
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10014/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2050" tvg-logo="http://epg.it999.ru/img/2050.png" tvg-rec="7",Матч! Игра
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/529/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2003" tvg-logo="http://epg.it999.ru/img/2003.png" tvg-rec="7",Матч! Арена HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/207/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2003" tvg-logo="http://epg.it999.ru/img/2003.png" tvg-rec="3",Матч Арена HD ORIG
+#EXTINF:0 group-title="Спорт" tvg-id="2003" tvg-logo="http://epg.it999.ru/img/2003.png" tvg-rec="3",Матч! Арена HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9010/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2003" tvg-logo="http://epg.it999.ru/img/2003.png" tvg-rec="7",Матч! Арена
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/528/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2250" tvg-logo="http://epg.it999.ru/img/2250.png" tvg-rec="7",МАТЧ ПРЕМЬЕР HD
+#EXTINF:0 group-title="Спорт" tvg-id="2250" tvg-logo="http://epg.it999.ru/img/2250.png" tvg-rec="7",Матч! Премьер HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/220/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2250" tvg-logo="http://epg.it999.ru/img/2250.png" tvg-rec="3",Матч! Премьер FHD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2414/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2250" tvg-logo="http://epg.it999.ru/img/2250.png" tvg-rec="0",МАТЧ Премьер HD 50
+#EXTINF:0 group-title="Спорт" tvg-id="2250" tvg-logo="http://epg.it999.ru/img/2250.png" tvg-rec="0",Матч! Премьер HD 50
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10021/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2250" tvg-logo="http://epg.it999.ru/img/2250.png" tvg-rec="7",МАТЧ ПРЕМЬЕР
+#EXTINF:0 group-title="Спорт" tvg-id="2250" tvg-logo="http://epg.it999.ru/img/2250.png" tvg-rec="7",Матч! Премьер
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/531/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2250" tvg-logo="http://epg.it999.ru/img/2250.png" tvg-rec="3",МАТЧ ПРЕМЬЕР ORIG
+#EXTINF:0 group-title="Спорт" tvg-id="2250" tvg-logo="http://epg.it999.ru/img/2250.png" tvg-rec="3",Матч! Премьер ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9246/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2044" tvg-logo="http://epg.it999.ru/img/2044.png" tvg-rec="3",Матч! Футбол 1 FHD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2407/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2044" tvg-logo="http://epg.it999.ru/img/2044.png" tvg-rec="7",Матч! Футбол 1 HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/222/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2044" tvg-logo="http://epg.it999.ru/img/2044.png" tvg-rec="3",МАТЧ! Футбол 1 HD 50 ORIG
+#EXTINF:0 group-title="Спорт" tvg-id="2044" tvg-logo="http://epg.it999.ru/img/2044.png" tvg-rec="3",Матч! Футбол 1 HD 50 ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5072/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2044" tvg-logo="http://epg.it999.ru/img/2044.png" tvg-rec="0",МАТЧ! Футбол 1 HD 50
+#EXTINF:0 group-title="Спорт" tvg-id="2044" tvg-logo="http://epg.it999.ru/img/2044.png" tvg-rec="0",Матч! Футбол 1 HD 50
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10015/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2044" tvg-logo="http://epg.it999.ru/img/2044.png" tvg-rec="7",Матч! Футбол 1
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/124/index.m3u8
@@ -1688,7 +1688,7 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/124/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2420/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="1042" tvg-logo="http://epg.it999.ru/img/1042.png" tvg-rec="7",Матч! Футбол 2 HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/211/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="1042" tvg-logo="http://epg.it999.ru/img/1042.png" tvg-rec="0",Матч футбол 2 HD 50
+#EXTINF:0 group-title="Спорт" tvg-id="1042" tvg-logo="http://epg.it999.ru/img/1042.png" tvg-rec="0",Матч! футбол 2 HD 50
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10027/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="1042" tvg-logo="http://epg.it999.ru/img/1042.png" tvg-rec="7",Матч! Футбол 2
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/530/index.m3u8
@@ -1698,13 +1698,13 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2408/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/206/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2005" tvg-logo="http://epg.it999.ru/img/2005.png" tvg-rec="3",Матч! Футбол 3 HD 50 ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5071/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2005" tvg-logo="http://epg.it999.ru/img/2005.png" tvg-rec="0",Матч Футбол 3 HD 50
+#EXTINF:0 group-title="Спорт" tvg-id="2005" tvg-logo="http://epg.it999.ru/img/2005.png" tvg-rec="0",Матч! Футбол 3 HD 50
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10016/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2005" tvg-logo="http://epg.it999.ru/img/2005.png" tvg-rec="7",Матч! Футбол 3
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/522/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2042" tvg-logo="http://epg.it999.ru/img/2042.png" tvg-rec="7",МАТЧ! СТРАНА
+#EXTINF:0 group-title="Спорт" tvg-id="2042" tvg-logo="http://epg.it999.ru/img/2042.png" tvg-rec="7",Матч! Страна
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/107/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2042" tvg-logo="http://epg.it999.ru/img/2042.png" tvg-rec="3",МАТЧ! СТРАНА ORIG
+#EXTINF:0 group-title="Спорт" tvg-id="2042" tvg-logo="http://epg.it999.ru/img/2042.png" tvg-rec="3",Матч! Страна ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9157/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2043" tvg-logo="http://epg.it999.ru/img/2043.png" tvg-rec="7",Матч! Планета
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/123/index.m3u8
@@ -1788,7 +1788,7 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9042/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/144/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2053" tvg-logo="http://epg.it999.ru/img/2053.png" tvg-rec="3",Extreme Sports ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9160/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2243" tvg-logo="http://epg.it999.ru/img/2243.png" tvg-rec="3",XSPORT HD
+#EXTINF:0 group-title="Спорт" tvg-id="2243" tvg-logo="http://epg.it999.ru/img/2243.png" tvg-rec="3",Xsport HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/996/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2243" tvg-logo="http://epg.it999.ru/img/2243.png" tvg-rec="3",Xsport HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5077/index.m3u8
@@ -1822,7 +1822,7 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5083/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10012/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2782" tvg-logo="http://epg.it999.ru/img/2782.png" tvg-rec="3",Телеканал Футбол
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5050/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2782" tvg-logo="http://epg.it999.ru/img/2782.png" tvg-rec="3",Футбол ORIG
+#EXTINF:0 group-title="Спорт" tvg-id="2782" tvg-logo="http://epg.it999.ru/img/2782.png" tvg-rec="3",Телеканал Футбол ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9251/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2529" tvg-logo="http://epg.it999.ru/img/2529.png" tvg-rec="3",Моторспорт ТВ HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2146/index.m3u8
@@ -1830,11 +1830,11 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2146/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2145/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2529" tvg-logo="http://epg.it999.ru/img/2529.png" tvg-rec="3",Моторспорт ТВ ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9248/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2362" tvg-logo="http://epg.it999.ru/img/2362.png" tvg-rec="3",FAST&FUN BOX HD
+#EXTINF:0 group-title="Спорт" tvg-id="2362" tvg-logo="http://epg.it999.ru/img/2362.png" tvg-rec="3",Fast&Fun Box HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/1018/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2362" tvg-logo="http://epg.it999.ru/img/2362.png" tvg-rec="0",Fastnfunbox
+#EXTINF:0 group-title="Спорт" tvg-id="2362" tvg-logo="http://epg.it999.ru/img/2362.png" tvg-rec="0",Fast&Fun Box
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15231/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="3792" tvg-logo="http://epg.it999.ru/img/3792.png" tvg-rec="0",Fightbox
+#EXTINF:0 group-title="Спорт" tvg-id="3792" tvg-logo="http://epg.it999.ru/img/3792.png" tvg-rec="0",FightBox
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15232/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2629" tvg-logo="http://epg.it999.ru/img/2629.png" tvg-rec="3",Fuel TV HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2396/index.m3u8
@@ -1844,7 +1844,7 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6384/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9083/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2530" tvg-logo="http://epg.it999.ru/img/2530.png" tvg-rec="3",СТАРТ
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2154/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="4629" tvg-logo="http://epg.it999.ru/img/4629.png" tvg-rec="0",Мир Баскетбола
+#EXTINF:0 group-title="Спорт" tvg-id="4629" tvg-logo="http://epg.it999.ru/img/4629.png" tvg-rec="0",Мир баскетбола
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10033/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="3117" tvg-logo="http://epg.it999.ru/img/3117.png" tvg-rec="3",Super Tennis HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6079/index.m3u8
@@ -1928,7 +1928,7 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16039/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16040/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="6530" tvg-logo="http://epg.it999.ru/img2/6530.png" tvg-rec="0",EXXEN SPOR 1
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19077/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="4656" tvg-logo="http://epg.it999.ru/img/4656.png" tvg-rec="0",sky Sport F1 DE
+#EXTINF:0 group-title="Спорт" tvg-id="4656" tvg-logo="http://epg.it999.ru/img/4656.png" tvg-rec="0",Sky Sport F1 DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19022/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="6482" tvg-logo="http://epg.it999.ru/img2/6482.png" tvg-rec="0",Sport1+ HD DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19023/index.m3u8
@@ -1936,29 +1936,29 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19023/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19025/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="6485" tvg-logo="http://epg.it999.ru/img2/6485.png" tvg-rec="0",Sport Digital HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19026/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2878" tvg-logo="http://epg.it999.ru/img/2878.png" tvg-rec="0",sky Sport 1 FHD DE
+#EXTINF:0 group-title="Спорт" tvg-id="2878" tvg-logo="http://epg.it999.ru/img/2878.png" tvg-rec="0",Sky Sport 1 FHD DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19027/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2878" tvg-logo="http://epg.it999.ru/img/2878.png" tvg-rec="0",sky Sport 1 DE
+#EXTINF:0 group-title="Спорт" tvg-id="2878" tvg-logo="http://epg.it999.ru/img/2878.png" tvg-rec="0",Sky Sport 1 DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19028/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2879" tvg-logo="http://epg.it999.ru/img/2879.png" tvg-rec="0",sky Sport 2 DE
+#EXTINF:0 group-title="Спорт" tvg-id="2879" tvg-logo="http://epg.it999.ru/img/2879.png" tvg-rec="0",Sky Sport 2 DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19029/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6489" tvg-logo="http://epg.it999.ru/img2/6489.png" tvg-rec="0",sky Sport 3 DE
+#EXTINF:0 group-title="Спорт" tvg-id="6489" tvg-logo="http://epg.it999.ru/img2/6489.png" tvg-rec="0",Sky Sport 3 DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19030/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6490" tvg-logo="http://epg.it999.ru/img2/6490.png" tvg-rec="0",sky Sport 4 DE
+#EXTINF:0 group-title="Спорт" tvg-id="6490" tvg-logo="http://epg.it999.ru/img2/6490.png" tvg-rec="0",Sky Sport 4 DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19031/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6491" tvg-logo="http://epg.it999.ru/img2/6491.png" tvg-rec="0",sky Sport 5 DE
+#EXTINF:0 group-title="Спорт" tvg-id="6491" tvg-logo="http://epg.it999.ru/img2/6491.png" tvg-rec="0",Sky Sport 5 DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19032/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6492" tvg-logo="http://epg.it999.ru/img2/6492.png" tvg-rec="0",sky Sport 6 DE
+#EXTINF:0 group-title="Спорт" tvg-id="6492" tvg-logo="http://epg.it999.ru/img2/6492.png" tvg-rec="0",Sky Sport 6 DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19033/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6493" tvg-logo="http://epg.it999.ru/img2/6493.png" tvg-rec="0",sky Sport 7 DE
+#EXTINF:0 group-title="Спорт" tvg-id="6493" tvg-logo="http://epg.it999.ru/img2/6493.png" tvg-rec="0",Sky Sport 7 DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19034/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6494" tvg-logo="http://epg.it999.ru/img2/6494.png" tvg-rec="0",sky Sport 8 DE
+#EXTINF:0 group-title="Спорт" tvg-id="6494" tvg-logo="http://epg.it999.ru/img2/6494.png" tvg-rec="0",Sky Sport 8 DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19035/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6495" tvg-logo="http://epg.it999.ru/img2/6495.png" tvg-rec="0",sky Sport 9 DE
+#EXTINF:0 group-title="Спорт" tvg-id="6495" tvg-logo="http://epg.it999.ru/img2/6495.png" tvg-rec="0",Sky Sport 9 DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19036/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6496" tvg-logo="http://epg.it999.ru/img2/6496.png" tvg-rec="0",sky Sport 10 DE
+#EXTINF:0 group-title="Спорт" tvg-id="6496" tvg-logo="http://epg.it999.ru/img2/6496.png" tvg-rec="0",Sky Sport 10 DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19037/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6497" tvg-logo="http://epg.it999.ru/img2/6497.png" tvg-rec="0",sky Sport Austria 4 HD (ONLY ON MATCH DAYS)
+#EXTINF:0 group-title="Спорт" tvg-id="6497" tvg-logo="http://epg.it999.ru/img2/6497.png" tvg-rec="0",Sky Sport Austria 4 HD (ONLY ON MATCH DAYS)
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19038/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="6498" tvg-logo="http://epg.it999.ru/img2/6498.png" tvg-rec="0",Eurosport360 1 HD DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19039/index.m3u8
@@ -1968,15 +1968,15 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19040/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19041/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2878" tvg-logo="http://epg.it999.ru/img/2878.png" tvg-rec="0",Sky Sport UHD DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19044/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6504" tvg-logo="http://epg.it999.ru/img2/6504.png" tvg-rec="0",TNT SPORTS 1 HD
+#EXTINF:0 group-title="Спорт" tvg-id="6504" tvg-logo="http://epg.it999.ru/img2/6504.png" tvg-rec="0",TNT Sports 1 HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19051/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6505" tvg-logo="http://epg.it999.ru/img2/6505.png" tvg-rec="0",TNT SPORTS 2 HD
+#EXTINF:0 group-title="Спорт" tvg-id="6505" tvg-logo="http://epg.it999.ru/img2/6505.png" tvg-rec="0",TNT Sports 2 HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19052/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6506" tvg-logo="http://epg.it999.ru/img2/6506.png" tvg-rec="0",TNT SPORTS 3 HD
+#EXTINF:0 group-title="Спорт" tvg-id="6506" tvg-logo="http://epg.it999.ru/img2/6506.png" tvg-rec="0",TNT Sports 3 HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19053/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6507" tvg-logo="http://epg.it999.ru/img2/6507.png" tvg-rec="0",TNT SPORTS 4 HD
+#EXTINF:0 group-title="Спорт" tvg-id="6507" tvg-logo="http://epg.it999.ru/img2/6507.png" tvg-rec="0",TNT Sports 4 HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19054/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6508" tvg-logo="http://epg.it999.ru/img2/6508.png" tvg-rec="0",TNT SPORTS 6 HD
+#EXTINF:0 group-title="Спорт" tvg-id="6508" tvg-logo="http://epg.it999.ru/img2/6508.png" tvg-rec="0",TNT Sports 6 HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19055/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="6509" tvg-logo="http://epg.it999.ru/img2/6509.png" tvg-rec="0",ESPN HD BR
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19056/index.m3u8
@@ -2042,63 +2042,63 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19115/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19116/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="6545" tvg-logo="http://epg.it999.ru/img2/6545.png" tvg-rec="0",RTV Sport (San Marino)
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19117/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6555" tvg-logo="http://epg.it999.ru/img2/6555.png" tvg-rec="0",SKY SPORT 24
+#EXTINF:0 group-title="Спорт" tvg-id="6555" tvg-logo="http://epg.it999.ru/img2/6555.png" tvg-rec="0",Sky Sport 24
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19127/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6556" tvg-logo="http://epg.it999.ru/img2/6556.png" tvg-rec="0",SKY SPORT ARENA
+#EXTINF:0 group-title="Спорт" tvg-id="6556" tvg-logo="http://epg.it999.ru/img2/6556.png" tvg-rec="0",Sky Sport ARENA
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19128/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6557" tvg-logo="http://epg.it999.ru/img2/6557.png" tvg-rec="0",SKY SPORT CALCIO
+#EXTINF:0 group-title="Спорт" tvg-id="6557" tvg-logo="http://epg.it999.ru/img2/6557.png" tvg-rec="0",Sky Sport CALCIO
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19129/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6558" tvg-logo="http://epg.it999.ru/img2/6558.png" tvg-rec="0",SKY SPORT COLLECTION
+#EXTINF:0 group-title="Спорт" tvg-id="6558" tvg-logo="http://epg.it999.ru/img2/6558.png" tvg-rec="0",Sky Sport COLLECTION
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19130/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6559" tvg-logo="http://epg.it999.ru/img2/6559.png" tvg-rec="0",SKY SPORT FOOTBALL
+#EXTINF:0 group-title="Спорт" tvg-id="6559" tvg-logo="http://epg.it999.ru/img2/6559.png" tvg-rec="0",Sky Sport FOOTBALL
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19131/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6560" tvg-logo="http://epg.it999.ru/img2/6560.png" tvg-rec="0",SKY SPORT GOLF
+#EXTINF:0 group-title="Спорт" tvg-id="6560" tvg-logo="http://epg.it999.ru/img2/6560.png" tvg-rec="0",Sky Sport GOLF
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19132/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6561" tvg-logo="http://epg.it999.ru/img2/6561.png" tvg-rec="0",SKY SPORT MOTOGP
+#EXTINF:0 group-title="Спорт" tvg-id="6561" tvg-logo="http://epg.it999.ru/img2/6561.png" tvg-rec="0",Sky Sport MOTOGP
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19133/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6562" tvg-logo="http://epg.it999.ru/img2/6562.png" tvg-rec="0",SKY SPORT NBA
+#EXTINF:0 group-title="Спорт" tvg-id="6562" tvg-logo="http://epg.it999.ru/img2/6562.png" tvg-rec="0",Sky Sport NBA
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19134/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6563" tvg-logo="http://epg.it999.ru/img2/6563.png" tvg-rec="0",SKY SPORT UNO
+#EXTINF:0 group-title="Спорт" tvg-id="6563" tvg-logo="http://epg.it999.ru/img2/6563.png" tvg-rec="0",Sky Sport UNO
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19135/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6539" tvg-logo="http://epg.it999.ru/img2/6539.png" tvg-rec="0",SKY SUPER TENNIS
+#EXTINF:0 group-title="Спорт" tvg-id="6539" tvg-logo="http://epg.it999.ru/img2/6539.png" tvg-rec="0",Sky SUPER TENNIS
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19136/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="6563" tvg-logo="http://epg.it999.ru/img2/6563.png" tvg-rec="0",Sky Sport Uno HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19137/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6566" tvg-logo="http://epg.it999.ru/img2/6566.png" tvg-rec="0",Fox Sports South
+#EXTINF:0 group-title="Спорт" tvg-id="6566" tvg-logo="http://epg.it999.ru/img2/6566.png" tvg-rec="0",FOX Sports South
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19138/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6567" tvg-logo="http://epg.it999.ru/img2/6567.png" tvg-rec="0",FOX SPORTS ARIZONA HD
+#EXTINF:0 group-title="Спорт" tvg-id="6567" tvg-logo="http://epg.it999.ru/img2/6567.png" tvg-rec="0",FOX Sports ARIZONA HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19139/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6568" tvg-logo="http://epg.it999.ru/img2/6568.png" tvg-rec="0",FOX SPORTS FLORIDA HD
+#EXTINF:0 group-title="Спорт" tvg-id="6568" tvg-logo="http://epg.it999.ru/img2/6568.png" tvg-rec="0",FOX Sports FLORIDA HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19140/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6569" tvg-logo="http://epg.it999.ru/img2/6569.png" tvg-rec="0",FOX SPORTS HOUSTON HD
+#EXTINF:0 group-title="Спорт" tvg-id="6569" tvg-logo="http://epg.it999.ru/img2/6569.png" tvg-rec="0",FOX Sports HOUSTON HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19141/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6570" tvg-logo="http://epg.it999.ru/img2/6570.png" tvg-rec="0",FOX SPORTS PRIME TICKET HD
+#EXTINF:0 group-title="Спорт" tvg-id="6570" tvg-logo="http://epg.it999.ru/img2/6570.png" tvg-rec="0",FOX Sports PRIME TICKET HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19142/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6571" tvg-logo="http://epg.it999.ru/img2/6571.png" tvg-rec="0",FOX SPORTS SOUTHWEST PLUS HD
+#EXTINF:0 group-title="Спорт" tvg-id="6571" tvg-logo="http://epg.it999.ru/img2/6571.png" tvg-rec="0",FOX Sports SOUTHWEST PLUS HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19143/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6572" tvg-logo="http://epg.it999.ru/img2/6572.png" tvg-rec="0",FOX SPORTS SPORTSTIME OHIO HD
+#EXTINF:0 group-title="Спорт" tvg-id="6572" tvg-logo="http://epg.it999.ru/img2/6572.png" tvg-rec="0",FOX Sports SPORTSTIME OHIO HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19144/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6573" tvg-logo="http://epg.it999.ru/img2/6573.png" tvg-rec="0",FOX SPORTS SUN HD
+#EXTINF:0 group-title="Спорт" tvg-id="6573" tvg-logo="http://epg.it999.ru/img2/6573.png" tvg-rec="0",FOX Sports SUN HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19145/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6574" tvg-logo="http://epg.it999.ru/img2/6574.png" tvg-rec="0",FOX SPORTS OKLAHOMA HD
+#EXTINF:0 group-title="Спорт" tvg-id="6574" tvg-logo="http://epg.it999.ru/img2/6574.png" tvg-rec="0",FOX Sports OKLAHOMA HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19146/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="6575" tvg-logo="http://epg.it999.ru/img2/6575.png" tvg-rec="0",Bally Sports Great Lakes
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19149/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6576" tvg-logo="http://epg.it999.ru/img2/6576.png" tvg-rec="0",BALLY SPORTS SUN
+#EXTINF:0 group-title="Спорт" tvg-id="6576" tvg-logo="http://epg.it999.ru/img2/6576.png" tvg-rec="0",Bally Sports SUN
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19150/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6577" tvg-logo="http://epg.it999.ru/img2/6577.png" tvg-rec="0",BALLY SPORTS SOUTHEAST CAROLINAS
+#EXTINF:0 group-title="Спорт" tvg-id="6577" tvg-logo="http://epg.it999.ru/img2/6577.png" tvg-rec="0",Bally Sports SOUTHEAST CAROLINAS
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19151/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6578" tvg-logo="http://epg.it999.ru/img2/6578.png" tvg-rec="0",BALLY SPORTS NORTH
+#EXTINF:0 group-title="Спорт" tvg-id="6578" tvg-logo="http://epg.it999.ru/img2/6578.png" tvg-rec="0",Bally Sports NORTH
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19152/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6579" tvg-logo="http://epg.it999.ru/img2/6579.png" tvg-rec="0",Bally SPORTS MIDWEST
+#EXTINF:0 group-title="Спорт" tvg-id="6579" tvg-logo="http://epg.it999.ru/img2/6579.png" tvg-rec="0",Bally Sports MIDWEST
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19153/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6580" tvg-logo="http://epg.it999.ru/img2/6580.png" tvg-rec="0",Espn News HD USA
+#EXTINF:0 group-title="Спорт" tvg-id="6580" tvg-logo="http://epg.it999.ru/img2/6580.png" tvg-rec="0",ESPN News HD USA
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19154/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="6581" tvg-logo="http://epg.it999.ru/img2/6581.png" tvg-rec="0",ESPN 2 HD USA
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19155/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="6582" tvg-logo="http://epg.it999.ru/img2/6582.png" tvg-rec="0",ESPN USA
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19156/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6583" tvg-logo="http://epg.it999.ru/img2/6583.png" tvg-rec="0",ELEVEN SPORTS 1 UHD PT
+#EXTINF:0 group-title="Спорт" tvg-id="6583" tvg-logo="http://epg.it999.ru/img2/6583.png" tvg-rec="0",ELEVEN Sports 1 UHD PT
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19158/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="6586" tvg-logo="http://epg.it999.ru/img2/6586.png" tvg-rec="0",Viasat Sport Ultra HD DK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19163/index.m3u8
@@ -3046,7 +3046,7 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18056/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18064/index.m3u8
 #EXTINF:0 group-title="Детские" tvg-id="6402" tvg-logo="http://epg.it999.ru/img2/6402.png" tvg-rec="0",PROKOP TV CARTOONS HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18141/index.m3u8
-#EXTINF:0 group-title="Детские" tvg-id="6612" tvg-logo="http://epg.it999.ru/img2/6612.png" tvg-rec="0",Малдер тв Мультики 90ых
+#EXTINF:0 group-title="Детские" tvg-id="6612" tvg-logo="http://epg.it999.ru/img2/6612.png" tvg-rec="0",Малдер ТВ Мультики 90ых
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19269/index.m3u8
 #EXTINF:0 group-title="Детские" tvg-id="6128" tvg-logo="http://epg.it999.ru/img2/6128.png" tvg-rec="0",Fresh Kids
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19288/index.m3u8
@@ -3404,7 +3404,7 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18151/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16020/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="6010" tvg-logo="http://epg.it999.ru/img2/6010.png" tvg-rec="0",LoveIsRadio.by
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16015/index.m3u8
-#EXTINF:0 group-title="Музыка" tvg-id="6012" tvg-logo="http://epg.it999.ru/img2/6012.png" tvg-rec="0",Радио Шансон тв HD
+#EXTINF:0 group-title="Музыка" tvg-id="6012" tvg-logo="http://epg.it999.ru/img2/6012.png" tvg-rec="0",Радио Шансон ТВ HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16036/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="6013" tvg-logo="http://epg.it999.ru/img2/6013.png" tvg-rec="0",Muzzik Zz 4K
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16044/index.m3u8
@@ -4006,21 +4006,21 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15339/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15421/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="3005" tvg-logo="http://epg.it999.ru/img/3005.png" tvg-rec="0",ОТР +7 (Владивосток)
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15341/index.m3u8
-#EXTINF:0 group-title="Региональные" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="0",МАТЧ! +0 (Липецк)
+#EXTINF:0 group-title="Региональные" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="0",Матч! +0 (Липецк)
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15314/index.m3u8
-#EXTINF:0 group-title="Региональные" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="0",МАТЧ! +0 (Белгород)
+#EXTINF:0 group-title="Региональные" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="0",Матч! +0 (Белгород)
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15409/index.m3u8
-#EXTINF:0 group-title="Региональные" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="0",МАТЧ! +0 (Элиста)
+#EXTINF:0 group-title="Региональные" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="0",Матч! +0 (Элиста)
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15448/index.m3u8
-#EXTINF:0 group-title="Региональные" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="0",МАТЧ! +2 (Уфа)
+#EXTINF:0 group-title="Региональные" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="0",Матч! +2 (Уфа)
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15307/index.m3u8
-#EXTINF:0 group-title="Региональные" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="0",МАТЧ! +3 (Омск)
+#EXTINF:0 group-title="Региональные" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="0",Матч! +3 (Омск)
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15432/index.m3u8
-#EXTINF:0 group-title="Региональные" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="0",МАТЧ! +4 (Томск)
+#EXTINF:0 group-title="Региональные" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="0",Матч! +4 (Томск)
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15387/index.m3u8
-#EXTINF:0 group-title="Региональные" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="0",МАТЧ! +4 (Алтай-Дианэт)
+#EXTINF:0 group-title="Региональные" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="0",Матч! +4 (Алтай-Дианэт)
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15289/index.m3u8
-#EXTINF:0 group-title="Региональные" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="0",МАТЧ! +7 (Владивосток)
+#EXTINF:0 group-title="Региональные" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="0",Матч! +7 (Владивосток)
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15335/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2265" tvg-logo="http://epg.it999.ru/img/2265.png" tvg-rec="0",Телеканал 360 HD +2 (Белорецк-ЗТ)
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15371/index.m3u8
@@ -5528,45 +5528,45 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15281/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16058/index.m3u8
 #EXTINF:0 group-title="Германия | Germany" tvg-id="6174" tvg-logo="http://epg.it999.ru/img2/6174.png" tvg-rec="0",ZDF Info HD DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/17042/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="6439" tvg-logo="http://epg.it999.ru/img2/6439.png" tvg-rec="0",sky one HD DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="6439" tvg-logo="http://epg.it999.ru/img2/6439.png" tvg-rec="0",Sky one HD DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19000/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="6429" tvg-logo="http://epg.it999.ru/img2/6429.png" tvg-rec="0",sky Crime HD DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="6429" tvg-logo="http://epg.it999.ru/img2/6429.png" tvg-rec="0",Sky Crime HD DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19001/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="6440" tvg-logo="http://epg.it999.ru/img2/6440.png" tvg-rec="0",sky Comedy HD DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="6440" tvg-logo="http://epg.it999.ru/img2/6440.png" tvg-rec="0",Sky Comedy HD DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19002/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="6435" tvg-logo="http://epg.it999.ru/img2/6435.png" tvg-rec="0",sky Serien & Shows HD DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="6435" tvg-logo="http://epg.it999.ru/img2/6435.png" tvg-rec="0",Sky Serien & Shows HD DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19003/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="4460" tvg-logo="http://epg.it999.ru/img/4460.png" tvg-rec="0",sky Cinema Thriller HD DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="4460" tvg-logo="http://epg.it999.ru/img/4460.png" tvg-rec="0",Sky Cinema Thriller HD DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19004/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="6445" tvg-logo="http://epg.it999.ru/img2/6445.png" tvg-rec="0",sky Cinema Classics HD DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="6445" tvg-logo="http://epg.it999.ru/img2/6445.png" tvg-rec="0",Sky Cinema Classics HD DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19005/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="6434" tvg-logo="http://epg.it999.ru/img2/6434.png" tvg-rec="0",sky replay HD DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="6434" tvg-logo="http://epg.it999.ru/img2/6434.png" tvg-rec="0",Sky replay HD DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19006/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="6435" tvg-logo="http://epg.it999.ru/img2/6435.png" tvg-rec="0",sky Serien & Shows DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="6435" tvg-logo="http://epg.it999.ru/img2/6435.png" tvg-rec="0",Sky Serien & Shows DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19007/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="2869" tvg-logo="http://epg.it999.ru/img/2869.png" tvg-rec="0",sky Cinema Family DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="2869" tvg-logo="http://epg.it999.ru/img/2869.png" tvg-rec="0",Sky Cinema Family DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19008/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="2868" tvg-logo="http://epg.it999.ru/img/2868.png" tvg-rec="0",sky Atlantic DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="2868" tvg-logo="http://epg.it999.ru/img/2868.png" tvg-rec="0",Sky Atlantic DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19009/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="6438" tvg-logo="http://epg.it999.ru/img2/6438.png" tvg-rec="0",sky Cinema Fun DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="6438" tvg-logo="http://epg.it999.ru/img2/6438.png" tvg-rec="0",Sky Cinema Fun DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19010/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="6439" tvg-logo="http://epg.it999.ru/img2/6439.png" tvg-rec="0",sky one DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="6439" tvg-logo="http://epg.it999.ru/img2/6439.png" tvg-rec="0",Sky one DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19011/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="6440" tvg-logo="http://epg.it999.ru/img2/6440.png" tvg-rec="0",sky Comedy DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="6440" tvg-logo="http://epg.it999.ru/img2/6440.png" tvg-rec="0",Sky Comedy DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19012/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="2866" tvg-logo="http://epg.it999.ru/img/2866.png" tvg-rec="0",sky Cinema Special DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="2866" tvg-logo="http://epg.it999.ru/img/2866.png" tvg-rec="0",Sky Cinema Special DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19013/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="6442" tvg-logo="http://epg.it999.ru/img2/6442.png" tvg-rec="0",sky Cinema Premieren DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="6442" tvg-logo="http://epg.it999.ru/img2/6442.png" tvg-rec="0",Sky Cinema Premieren DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19014/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="6443" tvg-logo="http://epg.it999.ru/img2/6443.png" tvg-rec="0",sky Cinema Premieren +24 DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="6443" tvg-logo="http://epg.it999.ru/img2/6443.png" tvg-rec="0",Sky Cinema Premieren +24 DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19015/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="2863" tvg-logo="http://epg.it999.ru/img/2863.png" tvg-rec="0",sky Cinema Action DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="2863" tvg-logo="http://epg.it999.ru/img/2863.png" tvg-rec="0",Sky Cinema Action DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19016/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="6445" tvg-logo="http://epg.it999.ru/img2/6445.png" tvg-rec="0",sky Cinema Classics DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="6445" tvg-logo="http://epg.it999.ru/img2/6445.png" tvg-rec="0",Sky Cinema Classics DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19017/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="6438" tvg-logo="http://epg.it999.ru/img2/6438.png" tvg-rec="0",sky Cinema Fun HD DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="6438" tvg-logo="http://epg.it999.ru/img2/6438.png" tvg-rec="0",Sky Cinema Fun HD DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19018/index.m3u8
-#EXTINF:0 group-title="Германия | Germany" tvg-id="2871" tvg-logo="http://epg.it999.ru/img/2871.png" tvg-rec="0",sky Krimi DE
+#EXTINF:0 group-title="Германия | Germany" tvg-id="2871" tvg-logo="http://epg.it999.ru/img/2871.png" tvg-rec="0",Sky Krimi DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19019/index.m3u8
 #EXTINF:0 group-title="Германия | Germany" tvg-id="6448" tvg-logo="http://epg.it999.ru/img2/6448.png" tvg-rec="0",Sky Nature HD DE
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19020/index.m3u8
@@ -6040,9 +6040,9 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2318/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2319/index.m3u8
 #EXTINF:0 group-title="Турция | Türk" tvg-id="2617" tvg-logo="http://epg.it999.ru/img/2617.png" tvg-rec="3",TV 4 HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2321/index.m3u8
-#EXTINF:0 group-title="Турция | Türk" tvg-id="2618" tvg-logo="http://epg.it999.ru/img/2618.png" tvg-rec="3",beIN SPORTS HABER
+#EXTINF:0 group-title="Турция | Türk" tvg-id="2618" tvg-logo="http://epg.it999.ru/img/2618.png" tvg-rec="3",beIN Sports HABER
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2322/index.m3u8
-#EXTINF:0 group-title="Турция | Türk" tvg-id="2618" tvg-logo="http://epg.it999.ru/img/2618.png" tvg-rec="3",beIN SPORTS HABER HD
+#EXTINF:0 group-title="Турция | Türk" tvg-id="2618" tvg-logo="http://epg.it999.ru/img/2618.png" tvg-rec="3",beIN Sports HABER HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2323/index.m3u8
 #EXTINF:0 group-title="Турция | Türk" tvg-id="2620" tvg-logo="http://epg.it999.ru/img/2620.png" tvg-rec="3",CARTOON NETWORK TR
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2325/index.m3u8
@@ -6696,7 +6696,7 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19126/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19103/index.m3u8
 #EXTINF:0 group-title="Италия | Italia" tvg-id="6542" tvg-logo="http://epg.it999.ru/img2/6542.png" tvg-rec="0",Udinese TV
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19114/index.m3u8
-#EXTINF:0 group-title="Испания | Spain" tvg-id="2927" tvg-logo="http://epg.it999.ru/img/2927.png" tvg-rec="3",BEIN SPORTS HD ES
+#EXTINF:0 group-title="Испания | Spain" tvg-id="2927" tvg-logo="http://epg.it999.ru/img/2927.png" tvg-rec="3",BEIN Sports HD ES
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2543/index.m3u8
 #EXTINF:0 group-title="Испания | Spain" tvg-id="3100" tvg-logo="http://epg.it999.ru/img/3100.png" tvg-rec="3",Movistar Cine Doc & Roll HD ES
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6077/index.m3u8
@@ -6788,7 +6788,7 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6158/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6160/index.m3u8
 #EXTINF:0 group-title="Бразилия | Brasil" tvg-id="3075" tvg-logo="http://epg.it999.ru/img/3075.png" tvg-rec="0",BAND SP HD BR
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6159/index.m3u8
-#EXTINF:0 group-title="Бразилия | Brasil" tvg-id="3075" tvg-logo="http://epg.it999.ru/img/3075.png" tvg-rec="0",BAND SPORTS HD BR
+#EXTINF:0 group-title="Бразилия | Brasil" tvg-id="3075" tvg-logo="http://epg.it999.ru/img/3075.png" tvg-rec="0",BAND Sports HD BR
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6157/index.m3u8
 #EXTINF:0 group-title="Бразилия | Brasil" tvg-id="6450" tvg-logo="http://epg.it999.ru/img2/6450.png" tvg-rec="0",HBO2 BR
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19045/index.m3u8
@@ -6816,29 +6816,29 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2506/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6564/index.m3u8
 #EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="3559" tvg-logo="http://epg.it999.ru/img/3559.png" tvg-rec="3",BT SPORT ESPN FHD UK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6563/index.m3u8
-#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="3553" tvg-logo="http://epg.it999.ru/img/3553.png" tvg-rec="3",PREMIER SPORTS UK
+#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="3553" tvg-logo="http://epg.it999.ru/img/3553.png" tvg-rec="3",PREMIER Sports UK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6555/index.m3u8
 #EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="3554" tvg-logo="http://epg.it999.ru/img/3554.png" tvg-rec="3",EUROSPORT 2 HD UK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6556/index.m3u8
-#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4569" tvg-logo="http://epg.it999.ru/img/4569.png" tvg-rec="0",SKY SPORTS PREMIER LEAGUE UK
+#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4569" tvg-logo="http://epg.it999.ru/img/4569.png" tvg-rec="0",SKY Sports PREMIER LEAGUE UK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7335/index.m3u8
-#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4570" tvg-logo="http://epg.it999.ru/img/4570.png" tvg-rec="0",SKY SPORTS FOOTBALL UK
+#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4570" tvg-logo="http://epg.it999.ru/img/4570.png" tvg-rec="0",SKY Sports FOOTBALL UK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7336/index.m3u8
-#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4571" tvg-logo="http://epg.it999.ru/img/4571.png" tvg-rec="0",SKY SPORTS MAIN EVENT UK
+#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4571" tvg-logo="http://epg.it999.ru/img/4571.png" tvg-rec="0",SKY Sports MAIN EVENT UK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7337/index.m3u8
-#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4572" tvg-logo="http://epg.it999.ru/img/4572.png" tvg-rec="0",SKY SPORTS ARENA UK
+#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4572" tvg-logo="http://epg.it999.ru/img/4572.png" tvg-rec="0",SKY Sports ARENA UK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7338/index.m3u8
-#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4573" tvg-logo="http://epg.it999.ru/img/4573.png" tvg-rec="0",SKY SPORTS MIX UK
+#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4573" tvg-logo="http://epg.it999.ru/img/4573.png" tvg-rec="0",SKY Sports MIX UK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7339/index.m3u8
 #EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4579" tvg-logo="http://epg.it999.ru/img/4579.png" tvg-rec="0",Sky Sports Action HD UK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7340/index.m3u8
-#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4575" tvg-logo="http://epg.it999.ru/img/4575.png" tvg-rec="0",SKY SPORTS RACING UK
+#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4575" tvg-logo="http://epg.it999.ru/img/4575.png" tvg-rec="0",SKY Sports RACING UK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7341/index.m3u8
-#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4576" tvg-logo="http://epg.it999.ru/img/4576.png" tvg-rec="0",SKY SPORTS F1 UK
+#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4576" tvg-logo="http://epg.it999.ru/img/4576.png" tvg-rec="0",SKY Sports F1 UK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7342/index.m3u8
-#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4577" tvg-logo="http://epg.it999.ru/img/4577.png" tvg-rec="0",SKY SPORTS CRICKET UK
+#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4577" tvg-logo="http://epg.it999.ru/img/4577.png" tvg-rec="0",SKY Sports CRICKET UK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7343/index.m3u8
-#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4578" tvg-logo="http://epg.it999.ru/img/4578.png" tvg-rec="0",SKY SPORTS GOLF UK
+#EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4578" tvg-logo="http://epg.it999.ru/img/4578.png" tvg-rec="0",SKY Sports GOLF UK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7344/index.m3u8
 #EXTINF:0 group-title="Великобритания | United Kingdom" tvg-id="4579" tvg-logo="http://epg.it999.ru/img/4579.png" tvg-rec="0",Sky Sports Action FHD UK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7345/index.m3u8
@@ -6990,17 +6990,17 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/962/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7225/index.m3u8
 #EXTINF:0 group-title="США | USA" tvg-id="4587" tvg-logo="http://epg.it999.ru/img/4587.png" tvg-rec="0",NBA TV HD US
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7226/index.m3u8
-#EXTINF:0 group-title="США | USA" tvg-id="4558" tvg-logo="http://epg.it999.ru/img/4558.png" tvg-rec="0",FOX SPORTS 1 US
+#EXTINF:0 group-title="США | USA" tvg-id="4558" tvg-logo="http://epg.it999.ru/img/4558.png" tvg-rec="0",FOX Sports 1 US
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7322/index.m3u8
-#EXTINF:0 group-title="США | USA" tvg-id="4559" tvg-logo="http://epg.it999.ru/img/4559.png" tvg-rec="0",FOX SPORTS 2 US
+#EXTINF:0 group-title="США | USA" tvg-id="4559" tvg-logo="http://epg.it999.ru/img/4559.png" tvg-rec="0",FOX Sports 2 US
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7323/index.m3u8
-#EXTINF:0 group-title="США | USA" tvg-id="4560" tvg-logo="http://epg.it999.ru/img/4560.png" tvg-rec="0",CBS SPORTS NETWORK US
+#EXTINF:0 group-title="США | USA" tvg-id="4560" tvg-logo="http://epg.it999.ru/img/4560.png" tvg-rec="0",CBS Sports NETWORK US
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7324/index.m3u8
 #EXTINF:0 group-title="США | USA" tvg-id="4588" tvg-logo="http://epg.it999.ru/img/4588.png" tvg-rec="0",MSG US
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7325/index.m3u8
 #EXTINF:0 group-title="США | USA" tvg-id="4589" tvg-logo="http://epg.it999.ru/img/4589.png" tvg-rec="0",MSG 2 US
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7326/index.m3u8
-#EXTINF:0 group-title="США | USA" tvg-id="4561" tvg-logo="http://epg.it999.ru/img/4561.png" tvg-rec="0",NBC SPORTS NETWORK US
+#EXTINF:0 group-title="США | USA" tvg-id="4561" tvg-logo="http://epg.it999.ru/img/4561.png" tvg-rec="0",NBC Sports NETWORK US
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7327/index.m3u8
 #EXTINF:0 group-title="США | USA" tvg-id="4562" tvg-logo="http://epg.it999.ru/img/4562.png" tvg-rec="0",NHL NETWORK US
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7328/index.m3u8
