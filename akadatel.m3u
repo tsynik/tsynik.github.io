@@ -1804,23 +1804,23 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18035/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/519/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2048" tvg-logo="http://epg.it999.ru/img/2048.png" tvg-rec="3",KHL ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9250/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2189" tvg-logo="http://epg.it999.ru/img/2189.png" tvg-rec="3",Футбол 1
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/1109/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2189" tvg-logo="http://epg.it999.ru/img/2189.png" tvg-rec="3",Футбол 1 HD ORIG
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5073/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2190" tvg-logo="http://epg.it999.ru/img/2190.png" tvg-rec="3",Футбол 2
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/1110/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2190" tvg-logo="http://epg.it999.ru/img/2190.png" tvg-rec="3",Футбол 2 HD ORIG
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5074/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2669" tvg-logo="http://epg.it999.ru/img/2669.png" tvg-rec="3",Футбол 3 HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/290/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2669" tvg-logo="http://epg.it999.ru/img/2669.png" tvg-rec="3",Футбол 3 HD ORIG
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5083/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="4619" tvg-logo="http://epg.it999.ru/img/4619.png" tvg-rec="0",Шахтар HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10012/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2782" tvg-logo="http://epg.it999.ru/img/2782.png" tvg-rec="3",Телеканал Футбол
+# #EXTINF:0 group-title="Спорт" tvg-id="2189" tvg-logo="http://epg.it999.ru/img/2189.png" tvg-rec="3",Футбол 1  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/1109/index.m3u8  
+# #EXTINF:0 group-title="Спорт" tvg-id="2189" tvg-logo="http://epg.it999.ru/img/2189.png" tvg-rec="3",Футбол 1 HD ORIG  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5073/index.m3u8  
+# #EXTINF:0 group-title="Спорт" tvg-id="2190" tvg-logo="http://epg.it999.ru/img/2190.png" tvg-rec="3",Футбол 2  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/1110/index.m3u8  
+# #EXTINF:0 group-title="Спорт" tvg-id="2190" tvg-logo="http://epg.it999.ru/img/2190.png" tvg-rec="3",Футбол 2 HD ORIG  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5074/index.m3u8  
+# #EXTINF:0 group-title="Спорт" tvg-id="2669" tvg-logo="http://epg.it999.ru/img/2669.png" tvg-rec="3",Футбол 3 HD  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/290/index.m3u8  
+# #EXTINF:0 group-title="Спорт" tvg-id="2669" tvg-logo="http://epg.it999.ru/img/2669.png" tvg-rec="3",Футбол 3 HD ORIG  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5083/index.m3u8  
+# #EXTINF:0 group-title="Спорт" tvg-id="4619" tvg-logo="http://epg.it999.ru/img/4619.png" tvg-rec="0",Шахтар HD  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10012/index.m3u8  
+#EXTINF:0 group-title="Спорт" tvg-id="2782" tvg-logo="http://epg.it999.ru/img/2782.png" tvg-rec="3",Футбол
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5050/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2782" tvg-logo="http://epg.it999.ru/img/2782.png" tvg-rec="3",Телеканал Футбол ORIG
+#EXTINF:0 group-title="Спорт" tvg-id="2782" tvg-logo="http://epg.it999.ru/img/2782.png" tvg-rec="3",Футбол ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9251/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2529" tvg-logo="http://epg.it999.ru/img/2529.png" tvg-rec="3",Моторспорт ТВ HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2146/index.m3u8
