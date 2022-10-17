@@ -965,8 +965,8 @@ https://strm.yandex.ru/kal/bridge_tv_fresh/bridge_tv_fresh0.m3u8
 https://strm.yandex.ru/kal/bridgetv_shlyager/bridgetv_shlyager0.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Bridge TV Classic
 https://strm.yandex.ru/kal/bridgetvclassic/bridgetvclassic0.m3u8
-#EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Bridge TV Deluxe
-http://livetv.mylifeisgood.ml/mfolive.m3u8?media=bridgedeluxetv
+# #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Bridge TV Deluxe
+# http://livetv.mylifeisgood.ml/mfolive.m3u8?media=bridgedeluxetv
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Bridge TV Hits
 https://strm.yandex.ru/kal/bridgetvhits/bridgetvhits0.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" tvg-logo="https://smotret.tv/images/cinema-classic-tv.jpg" catchup-enable="0",Cinema Classic TV
@@ -976,8 +976,8 @@ http://api.alpaca.t62a.com/hls/9114/stream0.m3u8
 http://nopic.kulik.uz/channel/407560e0/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Eurosport 1
 http://nopic.kulik.uz/channel/12ce3677/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Eurosport 2
-http://nopic.kulik.uz/channel/12ceaad6/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0
+# #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Eurosport 2
+# http://nopic.kulik.uz/channel/12ceaad6/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0
 #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы" catchup-enable="0",FOX HD
 https://okkotv-live.cdnvideo.ru/channel/Fox_HD.m3u8
 # #EXTINF:-1 group-title="Детские" catchup-enable="0",Gulli Girl
@@ -1116,8 +1116,8 @@ http://origin5.mediacdn.ru/live/tntmusic/index.m3u8
 #
 # #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" group-title="Эфирные" catchup-enable="0",360° Подмосковье
 # http://strm.yandex.ru/kal/360tv/360tv0.m3u8
-#EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
-http://strm.yandex.ru/kal/europaplus/europaplus0.m3u8
+# #EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
+# http://strm.yandex.ru/kal/europaplus/europaplus0.m3u8
 #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
 http://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
 #EXTINF:-1 tvg-id="rtg-hd" group-title="Познавательные" catchup-enable="0",RTG HD
