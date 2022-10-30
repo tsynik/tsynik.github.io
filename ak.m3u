@@ -8,20 +8,20 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15131/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2402/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="146" tvg-logo="http://epg.it999.ru/img2/983.png" tvg-rec="7",Первый HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/204/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3025" tvg-logo="http://epg.it999.ru/img2/3025.png" tvg-rec="0",Первый HD +4
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15117/index.m3u8
+# #EXTINF:0 group-title="Общие" tvg-id="3025" tvg-logo="http://epg.it999.ru/img2/3025.png" tvg-rec="0",Первый HD +4  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15117/index.m3u8  
 #EXTINF:0 group-title="Общие" tvg-id="146" tvg-logo="http://epg.it999.ru/img2/146.png" tvg-rec="3",Первый канал ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9201/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="146" tvg-logo="http://epg.it999.ru/img2/146.png" tvg-rec="7",Первый канал
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/127/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="2034" tvg-logo="http://epg.it999.ru/img2/2034.png" tvg-rec="3",Первый канал +2
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/714/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3025" tvg-logo="http://epg.it999.ru/img2/3025.png" tvg-rec="0",Первый канал +4
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6021/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3026" tvg-logo="http://epg.it999.ru/img2/3026.png" tvg-rec="0",Первый канал +6
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6037/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3027" tvg-logo="http://epg.it999.ru/img2/3027.png" tvg-rec="0",Первый канал +8
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6050/index.m3u8
+# #EXTINF:0 group-title="Общие" tvg-id="2034" tvg-logo="http://epg.it999.ru/img2/2034.png" tvg-rec="3",Первый канал +2  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/714/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3025" tvg-logo="http://epg.it999.ru/img2/3025.png" tvg-rec="0",Первый канал +4  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6021/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3026" tvg-logo="http://epg.it999.ru/img2/3026.png" tvg-rec="0",Первый канал +6  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6037/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3027" tvg-logo="http://epg.it999.ru/img2/3027.png" tvg-rec="0",Первый канал +8  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6050/index.m3u8  
 #EXTINF:0 group-title="Общие" tvg-id="711" tvg-logo="http://epg.it999.ru/img2/984.png" tvg-rec="0",Россия 1 HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7252/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="711" tvg-logo="http://epg.it999.ru/img2/984.png" tvg-rec="0",Россия 1 HD 50Hz
@@ -34,14 +34,14 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/205/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9202/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="711" tvg-logo="http://epg.it999.ru/img2/711.png" tvg-rec="7",Россия 1
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/504/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3000" tvg-logo="http://epg.it999.ru/img2/3000.png" tvg-rec="0",Россия 1 +2
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6011/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3001" tvg-logo="http://epg.it999.ru/img2/3001.png" tvg-rec="0",Россия 1 +4
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6022/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3002" tvg-logo="http://epg.it999.ru/img2/3002.png" tvg-rec="0",Россия 1 +6
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6038/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3003" tvg-logo="http://epg.it999.ru/img2/3003.png" tvg-rec="0",Россия 1 +8
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6051/index.m3u8
+# #EXTINF:0 group-title="Общие" tvg-id="3000" tvg-logo="http://epg.it999.ru/img2/3000.png" tvg-rec="0",Россия 1 +2  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6011/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3001" tvg-logo="http://epg.it999.ru/img2/3001.png" tvg-rec="0",Россия 1 +4  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6022/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3002" tvg-logo="http://epg.it999.ru/img2/3002.png" tvg-rec="0",Россия 1 +6  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6038/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3003" tvg-logo="http://epg.it999.ru/img2/3003.png" tvg-rec="0",Россия 1 +8  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6051/index.m3u8  
 #EXTINF:0 group-title="Общие" tvg-id="162" tvg-logo="http://epg.it999.ru/img2/2001.png" tvg-rec="3",НТВ HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9028/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="162" tvg-logo="http://epg.it999.ru/img2/2001.png" tvg-rec="7",НТВ HD
@@ -50,40 +50,40 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/213/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9203/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="162" tvg-logo="http://epg.it999.ru/img2/162.png" tvg-rec="7",НТВ
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/501/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="2036" tvg-logo="http://epg.it999.ru/img2/2036.png" tvg-rec="3",НТВ +2
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/713/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="2964" tvg-logo="http://epg.it999.ru/img2/2964.png" tvg-rec="0",НТВ +4
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6024/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3028" tvg-logo="http://epg.it999.ru/img2/3028.png" tvg-rec="0",НТВ +7
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6039/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3029" tvg-logo="http://epg.it999.ru/img2/3029.png" tvg-rec="0",НТВ +8
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6053/index.m3u8
+# #EXTINF:0 group-title="Общие" tvg-id="2036" tvg-logo="http://epg.it999.ru/img2/2036.png" tvg-rec="3",НТВ +2  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/713/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="2964" tvg-logo="http://epg.it999.ru/img2/2964.png" tvg-rec="0",НТВ +4  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6024/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3028" tvg-logo="http://epg.it999.ru/img2/3028.png" tvg-rec="0",НТВ +7  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6039/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3029" tvg-logo="http://epg.it999.ru/img2/3029.png" tvg-rec="0",НТВ +8  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6053/index.m3u8  
 #EXTINF:0 group-title="Общие" tvg-id="649" tvg-logo="http://epg.it999.ru/img2/649.png" tvg-rec="3",ТВЦ ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9095/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="649" tvg-logo="http://epg.it999.ru/img2/649.png" tvg-rec="7",ТВЦ
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/520/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="2038" tvg-logo="http://epg.it999.ru/img2/2038.png" tvg-rec="3",ТВЦ +2
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/716/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3037" tvg-logo="http://epg.it999.ru/img2/3037.png" tvg-rec="0",ТВЦ +4
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6027/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3038" tvg-logo="http://epg.it999.ru/img2/3038.png" tvg-rec="0",ТВЦ +7
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6041/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3039" tvg-logo="http://epg.it999.ru/img2/3039.png" tvg-rec="0",ТВЦ +8
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6056/index.m3u8
+# #EXTINF:0 group-title="Общие" tvg-id="2038" tvg-logo="http://epg.it999.ru/img2/2038.png" tvg-rec="3",ТВЦ +2  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/716/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3037" tvg-logo="http://epg.it999.ru/img2/3037.png" tvg-rec="0",ТВЦ +4  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6027/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3038" tvg-logo="http://epg.it999.ru/img2/3038.png" tvg-rec="0",ТВЦ +7  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6041/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3039" tvg-logo="http://epg.it999.ru/img2/3039.png" tvg-rec="0",ТВЦ +8  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6056/index.m3u8  
 #EXTINF:0 group-title="Общие" tvg-id="5691" tvg-logo="http://epg.it999.ru/img2/5691.png" tvg-rec="0",ТВЦ International
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15229/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="427" tvg-logo="http://epg.it999.ru/img2/427.png" tvg-rec="3",5 канал ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9096/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="427" tvg-logo="http://epg.it999.ru/img2/427.png" tvg-rec="7",5 канал
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/112/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="2035" tvg-logo="http://epg.it999.ru/img2/2035.png" tvg-rec="3",5 канал +2
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/746/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3030" tvg-logo="http://epg.it999.ru/img2/3030.png" tvg-rec="0",5 канал +4
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6025/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3031" tvg-logo="http://epg.it999.ru/img2/3031.png" tvg-rec="0",5 канал +7
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6040/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3032" tvg-logo="http://epg.it999.ru/img2/3032.png" tvg-rec="0",5 канал +8
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6054/index.m3u8
+# #EXTINF:0 group-title="Общие" tvg-id="2035" tvg-logo="http://epg.it999.ru/img2/2035.png" tvg-rec="3",5 канал +2  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/746/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3030" tvg-logo="http://epg.it999.ru/img2/3030.png" tvg-rec="0",5 канал +4  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6025/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3031" tvg-logo="http://epg.it999.ru/img2/3031.png" tvg-rec="0",5 канал +7  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6040/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3032" tvg-logo="http://epg.it999.ru/img2/3032.png" tvg-rec="0",5 канал +8  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6054/index.m3u8  
 #EXTINF:0 group-title="Общие" tvg-id="353" tvg-logo="http://epg.it999.ru/img2/1767.png" tvg-rec="0",ТНТ HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7251/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="353" tvg-logo="http://epg.it999.ru/img2/353.png" tvg-rec="0",ТНТ HD 50Hz
@@ -96,12 +96,12 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/237/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/717/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="353" tvg-logo="http://epg.it999.ru/img2/353.png" tvg-rec="7",ТНТ
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/502/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3022" tvg-logo="http://epg.it999.ru/img2/3022.png" tvg-rec="0",ТНТ +2
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6020/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3023" tvg-logo="http://epg.it999.ru/img2/3023.png" tvg-rec="0",ТНТ +4
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6035/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3024" tvg-logo="http://epg.it999.ru/img2/3024.png" tvg-rec="0",ТНТ +7
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6049/index.m3u8
+# #EXTINF:0 group-title="Общие" tvg-id="3022" tvg-logo="http://epg.it999.ru/img2/3022.png" tvg-rec="0",ТНТ +2  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6020/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3023" tvg-logo="http://epg.it999.ru/img2/3023.png" tvg-rec="0",ТНТ +4  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6035/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3024" tvg-logo="http://epg.it999.ru/img2/3024.png" tvg-rec="0",ТНТ +7  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6049/index.m3u8  
 #EXTINF:0 group-title="Общие" tvg-id="5692" tvg-logo="http://epg.it999.ru/img2/5692.png" tvg-rec="0",ТНТ International
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15230/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="79" tvg-logo="http://epg.it999.ru/img2/79.png" tvg-rec="3",СТС HD ORIG
@@ -109,13 +109,13 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9000/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="79" tvg-logo="http://epg.it999.ru/img2/79.png" tvg-rec="3",СТС HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6303/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="79" tvg-logo="http://epg.it999.ru/img2/79.png" tvg-rec="7",СТС
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/506/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3007" tvg-logo="http://epg.it999.ru/img2/3007.png" tvg-rec="0",СТС +2
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6015/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3008" tvg-logo="http://epg.it999.ru/img2/3008.png" tvg-rec="0",СТС +4
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6029/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3009" tvg-logo="http://epg.it999.ru/img2/3009.png" tvg-rec="0",СТС +7
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6043/index.m3u8
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/506/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3007" tvg-logo="http://epg.it999.ru/img2/3007.png" tvg-rec="0",СТС +2  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6015/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3008" tvg-logo="http://epg.it999.ru/img2/3008.png" tvg-rec="0",СТС +4  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6029/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3009" tvg-logo="http://epg.it999.ru/img2/3009.png" tvg-rec="0",СТС +7  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6043/index.m3u8  
 #EXTINF:0 group-title="Общие" tvg-id="5652" tvg-logo="http://epg.it999.ru/img2/5652.png" tvg-rec="0",СТС International
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15228/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="18" tvg-logo="http://epg.it999.ru/img2/2487.png" tvg-rec="3",Рен ТВ HD ORIG
@@ -126,12 +126,12 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2024/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9205/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="18" tvg-logo="http://epg.it999.ru/img2/18.png" tvg-rec="7",Рен ТВ
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/128/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="2037" tvg-logo="http://epg.it999.ru/img2/2037.png" tvg-rec="3",Рен ТВ +2
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/747/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3033" tvg-logo="http://epg.it999.ru/img2/3033.png" tvg-rec="0",Рен ТВ +4
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6028/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3034" tvg-logo="http://epg.it999.ru/img2/3034.png" tvg-rec="0",Рен ТВ +7
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6042/index.m3u8
+# #EXTINF:0 group-title="Общие" tvg-id="2037" tvg-logo="http://epg.it999.ru/img2/2037.png" tvg-rec="3",Рен ТВ +2  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/747/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3033" tvg-logo="http://epg.it999.ru/img2/3033.png" tvg-rec="0",Рен ТВ +4  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6028/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3034" tvg-logo="http://epg.it999.ru/img2/3034.png" tvg-rec="0",Рен ТВ +7  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6042/index.m3u8  
 #EXTINF:0 group-title="Общие" tvg-id="726" tvg-logo="http://epg.it999.ru/img2/726.png" tvg-rec="0",Мир HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15119/index.m3u8
 # #EXTINF:0 group-title="Общие" tvg-id="726" tvg-logo="http://epg.it999.ru/img2/726.png" tvg-rec="7",Мир  
@@ -140,32 +140,38 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15119/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9211/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="726" tvg-logo="http://epg.it999.ru/img2/726.png" tvg-rec="7",Мир
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/214/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3019" tvg-logo="http://epg.it999.ru/img2/3019.png" tvg-rec="0",Мир +2
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6019/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3020" tvg-logo="http://epg.it999.ru/img2/3020.png" tvg-rec="0",Мир +4
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6034/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3021" tvg-logo="http://epg.it999.ru/img2/3021.png" tvg-rec="0",Мир +7
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6048/index.m3u8
+# #EXTINF:0 group-title="Общие" tvg-id="3019" tvg-logo="http://epg.it999.ru/img2/3019.png" tvg-rec="0",Мир +2  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6019/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3020" tvg-logo="http://epg.it999.ru/img2/3020.png" tvg-rec="0",Мир +4  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6034/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3021" tvg-logo="http://epg.it999.ru/img2/3021.png" tvg-rec="0",Мир +7  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6048/index.m3u8  
+#EXTINF:0 group-title="Общие" tvg-id="726" tvg-logo="http://epg.it999.ru/img2/726.png" tvg-rec="0",Мир HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18037/index.m3u8
+#EXTINF:0 group-title="Общие" tvg-id="2078" tvg-logo="http://epg.it999.ru/img2/2078.png" tvg-rec="0",Мир World
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19259/index.m3u8
+#EXTINF:0 group-title="Общие" tvg-id="2023" tvg-logo="http://epg.it999.ru/img2/2023.png" tvg-rec="0",Мир Premium
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19241/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="1000" tvg-logo="http://epg.it999.ru/img2/1000.png" tvg-rec="3",ОТР ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9100/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="1000" tvg-logo="http://epg.it999.ru/img2/1000.png" tvg-rec="7",ОТР
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/705/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3004" tvg-logo="http://epg.it999.ru/img2/3004.png" tvg-rec="0",ОТР +2
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6014/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3005" tvg-logo="http://epg.it999.ru/img2/3005.png" tvg-rec="0",ОТР +4
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6026/index.m3u8
+# #EXTINF:0 group-title="Общие" tvg-id="3004" tvg-logo="http://epg.it999.ru/img2/3004.png" tvg-rec="0",ОТР +2  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6014/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3005" tvg-logo="http://epg.it999.ru/img2/3005.png" tvg-rec="0",ОТР +4  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6026/index.m3u8  
 #EXTINF:0 group-title="Общие" tvg-id="405" tvg-logo="http://epg.it999.ru/img2/405.png" tvg-rec="0",Звезда HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15115/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="405" tvg-logo="http://epg.it999.ru/img2/405.png" tvg-rec="3",Звезда ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9098/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="405" tvg-logo="http://epg.it999.ru/img2/405.png" tvg-rec="7",Звезда
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/544/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="2039" tvg-logo="http://epg.it999.ru/img2/2039.png" tvg-rec="3",Звезда +2
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/739/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3035" tvg-logo="http://epg.it999.ru/img2/3035.png" tvg-rec="0",Звезда +4
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6033/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3036" tvg-logo="http://epg.it999.ru/img2/3036.png" tvg-rec="0",Звезда +7
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6047/index.m3u8
+# #EXTINF:0 group-title="Общие" tvg-id="2039" tvg-logo="http://epg.it999.ru/img2/2039.png" tvg-rec="3",Звезда +2  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/739/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3035" tvg-logo="http://epg.it999.ru/img2/3035.png" tvg-rec="0",Звезда +4  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6033/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3036" tvg-logo="http://epg.it999.ru/img2/3036.png" tvg-rec="0",Звезда +7  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6047/index.m3u8  
 #EXTINF:0 group-title="Общие" tvg-id="6669" tvg-logo="http://epg.it999.ru/img2/6669.png" tvg-rec="0",Звезда Плюс HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19230/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="4661" tvg-logo="http://epg.it999.ru/img2/4661.png" tvg-rec="7",Звезда Плюс
@@ -180,36 +186,36 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5033/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9206/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="698" tvg-logo="http://epg.it999.ru/img2/698.png" tvg-rec="7",ТВ3
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/508/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3013" tvg-logo="http://epg.it999.ru/img2/3013.png" tvg-rec="0",ТВ3 +2
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6017/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3014" tvg-logo="http://epg.it999.ru/img2/3014.png" tvg-rec="0",ТВ3 +4
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6031/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3015" tvg-logo="http://epg.it999.ru/img2/3015.png" tvg-rec="0",ТВ3 +7
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6045/index.m3u8
+# #EXTINF:0 group-title="Общие" tvg-id="3013" tvg-logo="http://epg.it999.ru/img2/3013.png" tvg-rec="0",ТВ3 +2  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6017/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3014" tvg-logo="http://epg.it999.ru/img2/3014.png" tvg-rec="0",ТВ3 +4  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6031/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3015" tvg-logo="http://epg.it999.ru/img2/3015.png" tvg-rec="0",ТВ3 +7  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6045/index.m3u8  
 #EXTINF:0 group-title="Общие" tvg-id="1003" tvg-logo="http://epg.it999.ru/img2/2765.png" tvg-rec="3",Пятница! HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5031/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="1003" tvg-logo="http://epg.it999.ru/img2/1003.png" tvg-rec="3",Пятница! ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9207/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="1003" tvg-logo="http://epg.it999.ru/img2/1003.png" tvg-rec="7",Пятница!
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/503/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3016" tvg-logo="http://epg.it999.ru/img2/3016.png" tvg-rec="0",Пятница! +2
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6018/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3017" tvg-logo="http://epg.it999.ru/img2/3017.png" tvg-rec="0",Пятница! +4
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6032/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3018" tvg-logo="http://epg.it999.ru/img2/3018.png" tvg-rec="0",Пятница! +7
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6046/index.m3u8
+# #EXTINF:0 group-title="Общие" tvg-id="3016" tvg-logo="http://epg.it999.ru/img2/3016.png" tvg-rec="0",Пятница! +2  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6018/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3017" tvg-logo="http://epg.it999.ru/img2/3017.png" tvg-rec="0",Пятница! +4  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6032/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3018" tvg-logo="http://epg.it999.ru/img2/3018.png" tvg-rec="0",Пятница! +7  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6046/index.m3u8  
 #EXTINF:0 group-title="Общие" tvg-id="304" tvg-logo="http://epg.it999.ru/img2/304.png" tvg-rec="0",Домашний HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15116/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="304" tvg-logo="http://epg.it999.ru/img2/304.png" tvg-rec="3",Домашний ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9104/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="304" tvg-logo="http://epg.it999.ru/img2/304.png" tvg-rec="7",Домашний
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/514/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3010" tvg-logo="http://epg.it999.ru/img2/3010.png" tvg-rec="0",Домашний +2
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6016/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3011" tvg-logo="http://epg.it999.ru/img2/3011.png" tvg-rec="0",Домашний +4
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6030/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="3012" tvg-logo="http://epg.it999.ru/img2/3012.png" tvg-rec="0",Домашний +7
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6044/index.m3u8
+# #EXTINF:0 group-title="Общие" tvg-id="3010" tvg-logo="http://epg.it999.ru/img2/3010.png" tvg-rec="0",Домашний +2  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6016/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3011" tvg-logo="http://epg.it999.ru/img2/3011.png" tvg-rec="0",Домашний +4  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6030/index.m3u8  
+# #EXTINF:0 group-title="Общие" tvg-id="3012" tvg-logo="http://epg.it999.ru/img2/3012.png" tvg-rec="0",Домашний +7  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6044/index.m3u8  
 #EXTINF:0 group-title="Общие" tvg-id="187" tvg-logo="http://epg.it999.ru/img2/187.png" tvg-rec="7",Культура
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/505/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="2142" tvg-logo="http://epg.it999.ru/img2/2142.png" tvg-rec="3",Настоящее время
@@ -250,16 +256,10 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16022/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16023/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="6031" tvg-logo="http://epg.it999.ru/img2/6031.png" tvg-rec="0",Министерство идей HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16025/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="726" tvg-logo="http://epg.it999.ru/img2/726.png" tvg-rec="0",МИР HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18037/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="2547" tvg-logo="http://epg.it999.ru/img2/2547.png" tvg-rec="0",Россия РТР
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18042/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="649" tvg-logo="http://epg.it999.ru/img2/649.png" tvg-rec="0",ТВ Центр HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19222/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="2078" tvg-logo="http://epg.it999.ru/img2/2078.png" tvg-rec="0",Мир World
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19259/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="2023" tvg-logo="http://epg.it999.ru/img2/2023.png" tvg-rec="0",Мир Premium
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19241/index.m3u8
 #EXTINF:0 group-title="Кино" tvg-id="566" tvg-logo="http://epg.it999.ru/img2/566.png" tvg-rec="3",Кинопремьера HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9020/index.m3u8
 #EXTINF:0 group-title="Кино" tvg-id="566" tvg-logo="http://epg.it999.ru/img2/566.png" tvg-rec="7",Кинопремьера HD
@@ -548,19 +548,19 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2046/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9129/index.m3u8
 #EXTINF:0 group-title="Кино" tvg-id="2492" tvg-logo="http://epg.it999.ru/img2/2492.png" tvg-rec="7",Amedia 2
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/510/index.m3u8
-#EXTINF:0 group-title="Кино" tvg-id="1031" tvg-logo="http://epg.it999.ru/img2/1031.png" tvg-rec="3",Fox HD ORIG
+#EXTINF:0 group-title="Кино" tvg-id="1031" tvg-logo="http://epg.it999.ru/img2/1031.png" tvg-rec="3",FOX HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9018/index.m3u8
-#EXTINF:0 group-title="Кино" tvg-id="1031" tvg-logo="http://epg.it999.ru/img2/1031.png" tvg-rec="7",Fox HD
+#EXTINF:0 group-title="Кино" tvg-id="1031" tvg-logo="http://epg.it999.ru/img2/1031.png" tvg-rec="7",FOX HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/219/index.m3u8
-#EXTINF:0 group-title="Кино" tvg-id="659" tvg-logo="http://epg.it999.ru/img2/659.png" tvg-rec="3",Fox Russia ORIG
+#EXTINF:0 group-title="Кино" tvg-id="659" tvg-logo="http://epg.it999.ru/img2/659.png" tvg-rec="3",FOX Russia ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9135/index.m3u8
-#EXTINF:0 group-title="Кино" tvg-id="659" tvg-logo="http://epg.it999.ru/img2/659.png" tvg-rec="7",Fox Russia
+#EXTINF:0 group-title="Кино" tvg-id="659" tvg-logo="http://epg.it999.ru/img2/659.png" tvg-rec="7",FOX Russia
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/550/index.m3u8
-#EXTINF:0 group-title="Кино" tvg-id="615" tvg-logo="http://epg.it999.ru/img2/615.png" tvg-rec="3",Fox Life HD
+#EXTINF:0 group-title="Кино" tvg-id="615" tvg-logo="http://epg.it999.ru/img2/615.png" tvg-rec="3",FOX Life HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6389/index.m3u8
-#EXTINF:0 group-title="Кино" tvg-id="615" tvg-logo="http://epg.it999.ru/img2/615.png" tvg-rec="3",Fox Life ORIG
+#EXTINF:0 group-title="Кино" tvg-id="615" tvg-logo="http://epg.it999.ru/img2/615.png" tvg-rec="3",FOX Life ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9232/index.m3u8
-#EXTINF:0 group-title="Кино" tvg-id="615" tvg-logo="http://epg.it999.ru/img2/615.png" tvg-rec="7",Fox Life
+#EXTINF:0 group-title="Кино" tvg-id="615" tvg-logo="http://epg.it999.ru/img2/615.png" tvg-rec="7",FOX Life
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/553/index.m3u8
 #EXTINF:0 group-title="Кино" tvg-id="934" tvg-logo="http://epg.it999.ru/img2/934.png" tvg-rec="3",Hollywood HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9017/index.m3u8
@@ -590,11 +590,11 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6392/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9136/index.m3u8
 #EXTINF:0 group-title="Кино" tvg-id="834" tvg-logo="http://epg.it999.ru/img2/834.png" tvg-rec="7",Дом кино
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/154/index.m3u8
-#EXTINF:0 group-title="Кино" tvg-id="2509" tvg-logo="http://epg.it999.ru/img2/2509.png" tvg-rec="3",Наше любимое HD ORIG
+#EXTINF:0 group-title="Кино" tvg-id="2509" tvg-logo="http://epg.it999.ru/img2/2509.png" tvg-rec="3",Любимое HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9062/index.m3u8
-#EXTINF:0 group-title="Кино" tvg-id="2509" tvg-logo="http://epg.it999.ru/img2/2509.png" tvg-rec="3",Наше любимое HD
+#EXTINF:0 group-title="Кино" tvg-id="2509" tvg-logo="http://epg.it999.ru/img2/2509.png" tvg-rec="3",Любимое HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2106/index.m3u8
-# #EXTINF:0 group-title="Кино" tvg-id="477" tvg-logo="http://epg.it999.ru/img2/477.png" tvg-rec="7",Любимое кино
+# #EXTINF:0 group-title="Кино" tvg-id="477" tvg-logo="http://epg.it999.ru/img2/477.png" tvg-rec="7",Наше любимое кино
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/722/index.m3u8
 #EXTINF:0 group-title="Кино" tvg-id="477" tvg-logo="http://epg.it999.ru/img2/477.png" tvg-rec="3",Наше любимое кино ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9143/index.m3u8
@@ -3072,9 +3072,11 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15018/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15019/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="1722" tvg-logo="http://epg.it999.ru/img2/1722.png" tvg-rec="7",Club MTV
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/558/index.m3u8
+#EXTINF:0 group-title="Музыка" tvg-id="2022" tvg-logo="http://epg.it999.ru/img2/2022.png" tvg-rec="0",Bridge Deluxe HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19224/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="2022" tvg-logo="http://epg.it999.ru/img2/2022.png" tvg-rec="3",Bridge TV HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9012/index.m3u8
-#EXTINF:0 group-title="Музыка" tvg-id="2022" tvg-logo="http://epg.it999.ru/img2/2022.png" tvg-rec="7",Bridge HD
+#EXTINF:0 group-title="Музыка" tvg-id="2022" tvg-logo="http://epg.it999.ru/img2/2022.png" tvg-rec="7",Bridge TV HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/236/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="4373" tvg-logo="http://epg.it999.ru/img2/4373.png" tvg-rec="3",Bridge TV Classic ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9259/index.m3u8
@@ -3082,15 +3084,21 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9259/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9253/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="151" tvg-logo="http://epg.it999.ru/img2/151.png" tvg-rec="7",Bridge TV
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/122/index.m3u8
-#EXTINF:0 group-title="Музыка" tvg-id="2024" tvg-logo="http://epg.it999.ru/img2/2024.png" tvg-rec="7",Bridge TV HITS
+#EXTINF:0 group-title="Музыка" tvg-id="2024" tvg-logo="http://epg.it999.ru/img2/2024.png" tvg-rec="0",Bridge TV Hits HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19227/index.m3u8
+#EXTINF:0 group-title="Музыка" tvg-id="2024" tvg-logo="http://epg.it999.ru/img2/2024.png" tvg-rec="7",Bridge TV Hits
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/711/index.m3u8
+#EXTINF:0 group-title="Музыка" tvg-id="591" tvg-logo="http://epg.it999.ru/img2/591.png" tvg-rec="0",Bridge Русский Хит HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19226/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="591" tvg-logo="http://epg.it999.ru/img2/591.png" tvg-rec="0",Bridge TV Русский Хит ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9176/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="591" tvg-logo="http://epg.it999.ru/img2/591.png" tvg-rec="3",Bridge TV Русский Хит
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/120/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="4621" tvg-logo="http://epg.it999.ru/img2/4621.png" tvg-rec="0",Bridge TV Шлягер
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10038/index.m3u8
-#EXTINF:0 group-title="Музыка" tvg-id="6188" tvg-logo="http://epg.it999.ru/img2/6188.png" tvg-rec="0",Bridge tv Фрэш
+#EXTINF:0 group-title="Музыка" tvg-id="6188" tvg-logo="http://epg.it999.ru/img2/6188.png" tvg-rec="0",Bridge Fresh HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19225/index.m3u8
+#EXTINF:0 group-title="Музыка" tvg-id="6188" tvg-logo="http://epg.it999.ru/img2/6188.png" tvg-rec="0",Bridge TV Fresh
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/17043/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="491" tvg-logo="http://epg.it999.ru/img2/491.png" tvg-rec="3",VH1 European ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9167/index.m3u8
@@ -3144,6 +3152,8 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/14147/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9166/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="715" tvg-logo="http://epg.it999.ru/img2/715.png" tvg-rec="7",Музыка
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/155/index.m3u8
+#EXTINF:0 group-title="Музыка" tvg-id="680" tvg-logo="http://epg.it999.ru/img2/680.png" tvg-rec="0",ТНТ Music HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19223/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="680" tvg-logo="http://epg.it999.ru/img2/680.png" tvg-rec="0",ТНТ Music HD 1080
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/14166/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="680" tvg-logo="http://epg.it999.ru/img2/680.png" tvg-rec="3",ТНТ Music ORIG
@@ -3152,6 +3162,8 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9178/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/710/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="2409" tvg-logo="http://epg.it999.ru/img2/2409.png" tvg-rec="0",Russian Music Box HD 1080
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/14163/index.m3u8
+#EXTINF:0 group-title="Музыка" tvg-id="6640" tvg-logo="http://epg.it999.ru/img2/6640.png" tvg-rec="0",Russian Music Box HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19255/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="2409" tvg-logo="http://epg.it999.ru/img2/2409.png" tvg-rec="3",Russian Music Box ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9168/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="2409" tvg-logo="http://epg.it999.ru/img2/2409.png" tvg-rec="7",Russian Music Box
@@ -3282,6 +3294,8 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/13067/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/13035/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="5128" tvg-logo="http://epg.it999.ru/img2/5128.png" tvg-rec="0",МиниМакс Rock HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/13015/index.m3u8
+#EXTINF:0 group-title="Музыка" tvg-id="5136" tvg-logo="http://epg.it999.ru/img2/5136.png" tvg-rec="0",МиниМакс World Hits HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/13023/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="5393" tvg-logo="http://epg.it999.ru/img2/5393.png" tvg-rec="0",Первый музыкальный 4K
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/14141/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="5390" tvg-logo="http://epg.it999.ru/img2/5390.png" tvg-rec="0",Первый музыкальный HD 1080
@@ -3322,8 +3336,6 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/14138/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/14139/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="5363" tvg-logo="http://epg.it999.ru/img2/5363.png" tvg-rec="0",YOSSO TV Music Hits
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/14179/index.m3u8
-#EXTINF:0 group-title="Музыка" tvg-id="5136" tvg-logo="http://epg.it999.ru/img2/5136.png" tvg-rec="0",МиниМакс World Hits HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/13023/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="4472" tvg-logo="http://epg.it999.ru/img2/4472.png" tvg-rec="0",Ritsa TV
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7224/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="5454" tvg-logo="http://epg.it999.ru/img2/5454.png" tvg-rec="0",SKY HIGH CONCERT HD
@@ -3488,22 +3500,24 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18163/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18148/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="6614" tvg-logo="http://epg.it999.ru/img2/6614.png" tvg-rec="0",YES-MTV 00s
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19167/index.m3u8
+#EXTINF:0 group-title="Музыка" tvg-id="6629" tvg-logo="http://epg.it999.ru/img2/6629.png" tvg-rec="0",MTV Base UK
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19198/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="6426" tvg-logo="http://epg.it999.ru/img2/6426.png" tvg-rec="0",MTV Classic USA
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19148/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="6427" tvg-logo="http://epg.it999.ru/img2/6427.png" tvg-rec="0",MTV 00's PT
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19159/index.m3u8
+#EXTINF:0 group-title="Музыка" tvg-id="6623" tvg-logo="http://epg.it999.ru/img2/6623.png" tvg-rec="0",MTV Music UK HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19192/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="6628" tvg-logo="http://epg.it999.ru/img2/6628.png" tvg-rec="0",Now 90s HD UK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19197/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="6627" tvg-logo="http://epg.it999.ru/img2/6627.png" tvg-rec="0",Now 80s HD UK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19196/index.m3u8
-#EXTINF:0 group-title="Музыка" tvg-id="6625" tvg-logo="http://epg.it999.ru/img2/6625.png" tvg-rec="0",NOW 70s UK
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19194/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="6626" tvg-logo="http://epg.it999.ru/img2/6626.png" tvg-rec="0",Now 70s HD UK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19195/index.m3u8
+#EXTINF:0 group-title="Музыка" tvg-id="6625" tvg-logo="http://epg.it999.ru/img2/6625.png" tvg-rec="0",Now 70s UK
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19194/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="6624" tvg-logo="http://epg.it999.ru/img2/6624.png" tvg-rec="0",Kiss TV UK
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19193/index.m3u8
-#EXTINF:0 group-title="Музыка" tvg-id="6623" tvg-logo="http://epg.it999.ru/img2/6623.png" tvg-rec="0",MTV Music UK HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19192/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="6622" tvg-logo="http://epg.it999.ru/img2/6622.png" tvg-rec="0",Box Hits HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19175/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="6615" tvg-logo="http://epg.it999.ru/img2/6615.png" tvg-rec="0",Stars TV HD PL
@@ -3522,26 +3536,12 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19173/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19174/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="6590" tvg-logo="http://epg.it999.ru/img2/6590.png" tvg-rec="0",MuzzOne KZ
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19164/index.m3u8
-#EXTINF:0 group-title="Музыка" tvg-id="6629" tvg-logo="http://epg.it999.ru/img2/6629.png" tvg-rec="0",MTV Base UK
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19198/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="6630" tvg-logo="http://epg.it999.ru/img2/6630.png" tvg-rec="0",NRJ HITS HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19199/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="6707" tvg-logo="http://epg.it999.ru/img2/6707.png" tvg-rec="0",BOX Music 4K
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19282/index.m3u8
-#EXTINF:0 group-title="Музыка" tvg-id="680" tvg-logo="http://epg.it999.ru/img2/680.png" tvg-rec="0",ТНТ Music HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19223/index.m3u8
-#EXTINF:0 group-title="Музыка" tvg-id="2022" tvg-logo="http://epg.it999.ru/img2/2022.png" tvg-rec="0",Bridge Deluxe HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19224/index.m3u8
-#EXTINF:0 group-title="Музыка" tvg-id="6188" tvg-logo="http://epg.it999.ru/img2/6188.png" tvg-rec="0",Bridge Fresh HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19225/index.m3u8
-#EXTINF:0 group-title="Музыка" tvg-id="591" tvg-logo="http://epg.it999.ru/img2/591.png" tvg-rec="0",Bridge Русский Хит HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19226/index.m3u8
-#EXTINF:0 group-title="Музыка" tvg-id="2024" tvg-logo="http://epg.it999.ru/img2/2024.png" tvg-rec="0",Bridge TV Hits HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19227/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="6637" tvg-logo="http://epg.it999.ru/img2/6637.png" tvg-rec="0",Mafi2a Music HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19235/index.m3u8
-#EXTINF:0 group-title="Музыка" tvg-id="6640" tvg-logo="http://epg.it999.ru/img2/6640.png" tvg-rec="0",Music Box Russia HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19255/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="6641" tvg-logo="http://epg.it999.ru/img2/6641.png" tvg-rec="0",M6 Music HD 1080
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19260/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-id="6599" tvg-logo="http://epg.it999.ru/img2/6599.png" tvg-rec="0",PROKOP TV ROCK HD
@@ -3552,12 +3552,12 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19319/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19262/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="743" tvg-logo="http://epg.it999.ru/img2/743.png" tvg-rec="3",РБК HD 1080
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2404/index.m3u8
-#EXTINF:0 group-title="Новостные" tvg-id="743" tvg-logo="http://epg.it999.ru/img2/743.png" tvg-rec="0",РБК 50
+#EXTINF:0 group-title="Новостные" tvg-id="743" tvg-logo="http://epg.it999.ru/img2/743.png" tvg-rec="3",РБК-ТВ ORIG
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9213/index.m3u8
+#EXTINF:0 group-title="Новостные" tvg-id="743" tvg-logo="http://epg.it999.ru/img2/743.png" tvg-rec="0",РБК-ТВ 50
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10029/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="743" tvg-logo="http://epg.it999.ru/img2/743.png" tvg-rec="7",РБК-ТВ
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/106/index.m3u8
-#EXTINF:0 group-title="Новостные" tvg-id="743" tvg-logo="http://epg.it999.ru/img2/743.png" tvg-rec="3",РБК-ТВ ORIG
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9213/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="743" tvg-logo="http://epg.it999.ru/img2/743.png" tvg-rec="0",RBC TV HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16075/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="743" tvg-logo="http://epg.it999.ru/img2/743.png" tvg-rec="0",RBK Ekaterinburg
@@ -3572,10 +3572,10 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18039/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9216/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="2271" tvg-logo="http://epg.it999.ru/img2/2271.png" tvg-rec="7",Известия
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2008/index.m3u8
-#EXTINF:0 group-title="Новостные" tvg-id="2078" tvg-logo="http://epg.it999.ru/img2/2078.png" tvg-rec="3",Мир 24 HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2107/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="2078" tvg-logo="http://epg.it999.ru/img2/2078.png" tvg-rec="3",Мир 24 HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9214/index.m3u8
+#EXTINF:0 group-title="Новостные" tvg-id="2078" tvg-logo="http://epg.it999.ru/img2/2078.png" tvg-rec="3",Мир 24 HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2107/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="2078" tvg-logo="http://epg.it999.ru/img2/2078.png" tvg-rec="3",Мир 24 ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9219/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="2078" tvg-logo="http://epg.it999.ru/img2/2078.png" tvg-rec="7",Мир 24
@@ -3584,34 +3584,34 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/712/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9218/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="334" tvg-logo="http://epg.it999.ru/img2/334.png" tvg-rec="7",Москва 24
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/523/index.m3u8
-#EXTINF:0 group-title="Новостные" tvg-id="4458" tvg-logo="http://epg.it999.ru/img2/4458.png" tvg-rec="0",360 НОВОСТИ HD
+#EXTINF:0 group-title="Новостные" tvg-id="4458" tvg-logo="http://epg.it999.ru/img2/4458.png" tvg-rec="0",360° Новости HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18038/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="2265" tvg-logo="http://epg.it999.ru/img2/2265.png" tvg-rec="0",360° HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7254/index.m3u8
-#EXTINF:0 group-title="Новостные" tvg-id="2266" tvg-logo="http://epg.it999.ru/img2/2266.png" tvg-rec="7",Euronews Россия
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/828/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="2266" tvg-logo="http://epg.it999.ru/img2/2266.png" tvg-rec="3",Euronews Россия ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9215/index.m3u8
-#EXTINF:0 group-title="Новостные" tvg-id="2399" tvg-logo="http://epg.it999.ru/img2/2399.png" tvg-rec="3",Дождь HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6308/index.m3u8
+#EXTINF:0 group-title="Новостные" tvg-id="2266" tvg-logo="http://epg.it999.ru/img2/2266.png" tvg-rec="7",Euronews Россия
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/828/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="2399" tvg-logo="http://epg.it999.ru/img2/2399.png" tvg-rec="3",Дождь HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9072/index.m3u8
-#EXTINF:0 group-title="Новостные" tvg-id="2399" tvg-logo="http://epg.it999.ru/img2/2399.png" tvg-rec="7",Дождь
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2030/index.m3u8
+#EXTINF:0 group-title="Новостные" tvg-id="2399" tvg-logo="http://epg.it999.ru/img2/2399.png" tvg-rec="3",Дождь HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6308/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="2399" tvg-logo="http://epg.it999.ru/img2/2399.png" tvg-rec="3",Дождь ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9122/index.m3u8
+#EXTINF:0 group-title="Новостные" tvg-id="2399" tvg-logo="http://epg.it999.ru/img2/2399.png" tvg-rec="7",Дождь
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2030/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="6026" tvg-logo="http://epg.it999.ru/img2/6026.png" tvg-rec="0",Независимые ТВ
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16017/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="2168" tvg-logo="http://epg.it999.ru/img2/2168.png" tvg-rec="0",Астрахань 24 HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16149/index.m3u8
-#EXTINF:0 group-title="Новостные" tvg-id="2268" tvg-logo="http://epg.it999.ru/img2/2268.png" tvg-rec="7",CGTN русский
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/831/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="2268" tvg-logo="http://epg.it999.ru/img2/2268.png" tvg-rec="3",CGTN Русский ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9223/index.m3u8
-#EXTINF:0 group-title="Новостные" tvg-id="2267" tvg-logo="http://epg.it999.ru/img2/2267.png" tvg-rec="7",CGTN
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/830/index.m3u8
+#EXTINF:0 group-title="Новостные" tvg-id="2268" tvg-logo="http://epg.it999.ru/img2/2268.png" tvg-rec="7",CGTN Русский
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/831/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="2267" tvg-logo="http://epg.it999.ru/img2/2267.png" tvg-rec="3",CGTN ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9217/index.m3u8
+#EXTINF:0 group-title="Новостные" tvg-id="2267" tvg-logo="http://epg.it999.ru/img2/2267.png" tvg-rec="7",CGTN
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/830/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="2295" tvg-logo="http://epg.it999.ru/img2/2295.png" tvg-rec="3",RT Doc ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9220/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="921" tvg-logo="http://epg.it999.ru/img2/921.png" tvg-rec="7",NHK World TV
@@ -3622,26 +3622,26 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9221/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16041/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="2264" tvg-logo="http://epg.it999.ru/img2/2264.png" tvg-rec="0",Инфоканал
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/407/index.m3u8
-#EXTINF:0 group-title="Новостные" tvg-id="6683" tvg-logo="http://epg.it999.ru/img2/6683.png" tvg-rec="0",FOX NEWS CHANNEL HD 1080
+#EXTINF:0 group-title="Новостные" tvg-id="6683" tvg-logo="http://epg.it999.ru/img2/6683.png" tvg-rec="0",FOX NEWS HD 1080
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19147/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="690" tvg-logo="http://epg.it999.ru/img2/690.png" tvg-rec="7",Санкт-Петербург
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/715/index.m3u8
-#EXTINF:0 group-title="Региональные" tvg-id="2308" tvg-logo="http://epg.it999.ru/img2/2308.png" tvg-rec="7",Москва Доверие
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/869/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2308" tvg-logo="http://epg.it999.ru/img2/2308.png" tvg-rec="3",Москва-доверие ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9342/index.m3u8
+#EXTINF:0 group-title="Региональные" tvg-id="2308" tvg-logo="http://epg.it999.ru/img2/2308.png" tvg-rec="7",Москва Доверие
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/869/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2459" tvg-logo="http://epg.it999.ru/img2/2459.png" tvg-rec="3",НТК Калмыкия
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2066/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2300" tvg-logo="http://epg.it999.ru/img2/2300.png" tvg-rec="3",Брянская Губерния
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/857/index.m3u8
-#EXTINF:0 group-title="Региональные" tvg-id="2479" tvg-logo="http://epg.it999.ru/img2/2479.png" tvg-rec="3",Эхо ТВ
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2151/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2479" tvg-logo="http://epg.it999.ru/img2/2479.png" tvg-rec="3",Эхо ТВ ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9339/index.m3u8
-#EXTINF:0 group-title="Региональные" tvg-id="2468" tvg-logo="http://epg.it999.ru/img2/2468.png" tvg-rec="3",Волга
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2113/index.m3u8
+#EXTINF:0 group-title="Региональные" tvg-id="2479" tvg-logo="http://epg.it999.ru/img2/2479.png" tvg-rec="3",Эхо ТВ
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2151/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2468" tvg-logo="http://epg.it999.ru/img2/2468.png" tvg-rec="3",Волга ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9340/index.m3u8
+#EXTINF:0 group-title="Региональные" tvg-id="2468" tvg-logo="http://epg.it999.ru/img2/2468.png" tvg-rec="3",Волга
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2113/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2828" tvg-logo="http://epg.it999.ru/img2/2828.png" tvg-rec="3",Липецк Time
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2435/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2454" tvg-logo="http://epg.it999.ru/img2/2454.png" tvg-rec="7",Юрган
@@ -3662,39 +3662,39 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2119/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/1059/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2157" tvg-logo="http://epg.it999.ru/img2/2157.png" tvg-rec="3",Архыз 24
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/1049/index.m3u8
-#EXTINF:0 group-title="Региональные" tvg-id="2474" tvg-logo="http://epg.it999.ru/img2/2474.png" tvg-rec="3",КРЫМ 24
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2143/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2474" tvg-logo="http://epg.it999.ru/img2/2474.png" tvg-rec="3",КРЫМ 24 ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9338/index.m3u8
+#EXTINF:0 group-title="Региональные" tvg-id="2474" tvg-logo="http://epg.it999.ru/img2/2474.png" tvg-rec="3",КРЫМ 24
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2143/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2291" tvg-logo="http://epg.it999.ru/img2/2291.png" tvg-rec="7",Башкирское спутниковое телевидение
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/832/index.m3u8
-#EXTINF:0 group-title="Региональные" tvg-id="2464" tvg-logo="http://epg.it999.ru/img2/2464.png" tvg-rec="3",БСТ HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2115/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2464" tvg-logo="http://epg.it999.ru/img2/2464.png" tvg-rec="3",БСТ HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9341/index.m3u8
+#EXTINF:0 group-title="Региональные" tvg-id="2464" tvg-logo="http://epg.it999.ru/img2/2464.png" tvg-rec="3",БСТ HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2115/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2464" tvg-logo="http://epg.it999.ru/img2/2464.png" tvg-rec="3",БСТ ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9343/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2464" tvg-logo="http://epg.it999.ru/img2/2464.png" tvg-rec="3",БСТ
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2108/index.m3u8
-#EXTINF:0 group-title="Региональные" tvg-id="2478" tvg-logo="http://epg.it999.ru/img2/2478.png" tvg-rec="3",Хузур ТВ
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2150/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2478" tvg-logo="http://epg.it999.ru/img2/2478.png" tvg-rec="3",Хузур ТВ ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9121/index.m3u8
-#EXTINF:0 group-title="Региональные" tvg-id="2360" tvg-logo="http://epg.it999.ru/img2/2360.png" tvg-rec="3",ТБН
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/974/index.m3u8
+#EXTINF:0 group-title="Региональные" tvg-id="2478" tvg-logo="http://epg.it999.ru/img2/2478.png" tvg-rec="3",Хузур ТВ
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2150/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2360" tvg-logo="http://epg.it999.ru/img2/2360.png" tvg-rec="3",ТБН ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9123/index.m3u8
+#EXTINF:0 group-title="Региональные" tvg-id="2360" tvg-logo="http://epg.it999.ru/img2/2360.png" tvg-rec="3",ТБН
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/974/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="4628" tvg-logo="http://epg.it999.ru/img2/4628.png" tvg-rec="0",Новый век Тамбов
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10037/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="4625" tvg-logo="http://epg.it999.ru/img2/4625.png" tvg-rec="0",НСК49
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10034/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="4624" tvg-logo="http://epg.it999.ru/img2/4624.png" tvg-rec="0",ОТС Full HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10030/index.m3u8
-#EXTINF:0 group-title="Региональные" tvg-id="2440" tvg-logo="http://epg.it999.ru/img2/2440.png" tvg-rec="3",Тамыр
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2109/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2440" tvg-logo="http://epg.it999.ru/img2/2440.png" tvg-rec="3",Тамыр ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9198/index.m3u8
-#EXTINF:0 group-title="Региональные" tvg-id="2439" tvg-logo="http://epg.it999.ru/img2/2439.png" tvg-rec="0",UTv HD 1080 ORIG
+#EXTINF:0 group-title="Региональные" tvg-id="2440" tvg-logo="http://epg.it999.ru/img2/2440.png" tvg-rec="3",Тамыр
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2109/index.m3u8
+#EXTINF:0 group-title="Региональные" tvg-id="2439" tvg-logo="http://epg.it999.ru/img2/2439.png" tvg-rec="0",UTV HD 1080 ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/14167/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2466" tvg-logo="http://epg.it999.ru/img2/2466.png" tvg-rec="3",Связист ТВ ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9291/index.m3u8
@@ -4148,10 +4148,10 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9112/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2016/index.m3u8
 #EXTINF:0 group-title="Религиозные" tvg-id="2135" tvg-logo="http://epg.it999.ru/img2/2135.png" tvg-rec="3",Kabbala TV
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/1053/index.m3u8
-#EXTINF:0 group-title="Религиозные" tvg-id="1732" tvg-logo="http://epg.it999.ru/img2/1732.png" tvg-rec="3",Надежда
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2153/index.m3u8
 #EXTINF:0 group-title="Религиозные" tvg-id="1732" tvg-logo="http://epg.it999.ru/img2/1732.png" tvg-rec="3",Надежда ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9273/index.m3u8
+#EXTINF:0 group-title="Религиозные" tvg-id="1732" tvg-logo="http://epg.it999.ru/img2/1732.png" tvg-rec="3",Надежда
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2153/index.m3u8
 # #EXTINF:0 group-title="Религиозные" tvg-id="2413" tvg-logo="http://epg.it999.ru/img2/2413.png" tvg-rec="3",МузСоюз ORIG  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9171/index.m3u8  
 # #EXTINF:0 group-title="Религиозные" tvg-id="2413" tvg-logo="http://epg.it999.ru/img2/2413.png" tvg-rec="3",МузСоюз  
@@ -6024,7 +6024,7 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19239/index.m3u8
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2307/index.m3u8  
 # #EXTINF:0 group-title="Турция | Türk" tvg-id="3979" tvg-logo="http://epg.it999.ru/img2/3979.png" tvg-rec="3",Haberturk HD  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2308/index.m3u8  
-# #EXTINF:0 group-title="Турция | Türk" tvg-id="3954" tvg-logo="http://epg.it999.ru/img2/3954.png" tvg-rec="3",Fox Turkiye HD  
+# #EXTINF:0 group-title="Турция | Türk" tvg-id="3954" tvg-logo="http://epg.it999.ru/img2/3954.png" tvg-rec="3",FOX Turkiye HD  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2309/index.m3u8  
 # #EXTINF:0 group-title="Турция | Türk" tvg-id="2668" tvg-logo="http://epg.it999.ru/img2/2668.png" tvg-rec="3",Beyaz TV HD  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2310/index.m3u8  
@@ -6150,7 +6150,7 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19239/index.m3u8
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6799/index.m3u8  
 # #EXTINF:0 group-title="Турция | Türk" tvg-id="3860" tvg-logo="http://epg.it999.ru/img2/3860.png" tvg-rec="3",DiziSmart Premium TR  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6802/index.m3u8  
-# #EXTINF:0 group-title="Турция | Türk" tvg-id="3861" tvg-logo="http://epg.it999.ru/img2/3861.png" tvg-rec="3",Fox Crime TR  
+# #EXTINF:0 group-title="Турция | Türk" tvg-id="3861" tvg-logo="http://epg.it999.ru/img2/3861.png" tvg-rec="3",FOX Crime TR  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6803/index.m3u8  
 # #EXTINF:0 group-title="Турция | Türk" tvg-id="3862" tvg-logo="http://epg.it999.ru/img2/3862.png" tvg-rec="3",beIN Gurme HD TR  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6804/index.m3u8  
@@ -6316,11 +6316,11 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19239/index.m3u8
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6898/index.m3u8  
 # #EXTINF:0 group-title="Турция | Türk" tvg-id="2614" tvg-logo="http://epg.it999.ru/img2/2614.png" tvg-rec="3",TV 8.5 HD TR  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6899/index.m3u8  
-# #EXTINF:0 group-title="Турция | Türk" tvg-id="3954" tvg-logo="http://epg.it999.ru/img2/3954.png" tvg-rec="3",Fox TV HD 1080 TR  
+# #EXTINF:0 group-title="Турция | Türk" tvg-id="3954" tvg-logo="http://epg.it999.ru/img2/3954.png" tvg-rec="3",FOX TV HD 1080 TR  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6900/index.m3u8  
-# #EXTINF:0 group-title="Турция | Türk" tvg-id="3954" tvg-logo="http://epg.it999.ru/img2/3954.png" tvg-rec="3",Fox TV HD TR  
+# #EXTINF:0 group-title="Турция | Türk" tvg-id="3954" tvg-logo="http://epg.it999.ru/img2/3954.png" tvg-rec="3",FOX TV HD TR  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6901/index.m3u8  
-# #EXTINF:0 group-title="Турция | Türk" tvg-id="3954" tvg-logo="http://epg.it999.ru/img2/3954.png" tvg-rec="3",Fox TV TR  
+# #EXTINF:0 group-title="Турция | Türk" tvg-id="3954" tvg-logo="http://epg.it999.ru/img2/3954.png" tvg-rec="3",FOX TV TR  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6902/index.m3u8  
 # #EXTINF:0 group-title="Турция | Türk" tvg-id="3956" tvg-logo="http://epg.it999.ru/img2/3956.png" tvg-rec="3",Kanal 7 HD 1080 TR  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6903/index.m3u8  
@@ -6520,7 +6520,7 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19239/index.m3u8
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6135/index.m3u8  
 # #EXTINF:0 group-title="Европа | Europe" tvg-id="3083" tvg-logo="http://epg.it999.ru/img2/3083.png" tvg-rec="0",beIN Movies HD4 FAMILY  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6136/index.m3u8  
-# #EXTINF:0 group-title="Европа | Europe" tvg-id="3086" tvg-logo="http://epg.it999.ru/img2/3086.png" tvg-rec="0",beIN Fox Movies HD  
+# #EXTINF:0 group-title="Европа | Europe" tvg-id="3086" tvg-logo="http://epg.it999.ru/img2/3086.png" tvg-rec="0",beIN FOX Movies HD  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6145/index.m3u8  
 # #EXTINF:0 group-title="Европа | Europe" tvg-id="3086" tvg-logo="http://epg.it999.ru/img2/3086.png" tvg-rec="0",beIN FX MOVIES HD  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6144/index.m3u8  
@@ -6690,7 +6690,7 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19239/index.m3u8
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19125/index.m3u8  
 # #EXTINF:0 group-title="Италия | Italia" tvg-id="6554" tvg-logo="http://epg.it999.ru/img2/6554.png" tvg-rec="0",Sky Primafila Premiere 09 4K  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19126/index.m3u8  
-# #EXTINF:0 group-title="Италия | Italia" tvg-id="6479" tvg-logo="http://epg.it999.ru/img2/6479.png" tvg-rec="0",Fox HD IT  
+# #EXTINF:0 group-title="Италия | Italia" tvg-id="6479" tvg-logo="http://epg.it999.ru/img2/6479.png" tvg-rec="0",FOX HD IT  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19103/index.m3u8  
 # #EXTINF:0 group-title="Италия | Italia" tvg-id="6542" tvg-logo="http://epg.it999.ru/img2/6542.png" tvg-rec="0",Udinese TV  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19114/index.m3u8  
@@ -6940,7 +6940,7 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19239/index.m3u8
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/1074/index.m3u8  
 # #EXTINF:0 group-title="США | USA" tvg-id="2327" tvg-logo="http://epg.it999.ru/img2/2327.png" tvg-rec="3",ABC HD  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/1087/index.m3u8  
-# #EXTINF:0 group-title="США | USA" tvg-id="2328" tvg-logo="http://epg.it999.ru/img2/2328.png" tvg-rec="3",Fox 5 WNYW  
+# #EXTINF:0 group-title="США | USA" tvg-id="2328" tvg-logo="http://epg.it999.ru/img2/2328.png" tvg-rec="3",FOX 5 WNYW  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/1086/index.m3u8  
 # #EXTINF:0 group-title="США | USA" tvg-id="2329" tvg-logo="http://epg.it999.ru/img2/2329.png" tvg-rec="3",My9NJ  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/1088/index.m3u8  
@@ -7226,11 +7226,11 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19239/index.m3u8
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6115/index.m3u8  
 # #EXTINF:0 group-title="Австралия | Australia" tvg-id="2980" tvg-logo="http://epg.it999.ru/img2/2980.png" tvg-rec="0",FOX News Extra AU  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6116/index.m3u8  
-# #EXTINF:0 group-title="Австралия | Australia" tvg-id="3064" tvg-logo="http://epg.it999.ru/img2/3064.png" tvg-rec="0",Fox Sports News AU  
+# #EXTINF:0 group-title="Австралия | Australia" tvg-id="3064" tvg-logo="http://epg.it999.ru/img2/3064.png" tvg-rec="0",FOX Sports News AU  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6119/index.m3u8  
 # #EXTINF:0 group-title="Австралия | Australia" tvg-id="2976" tvg-logo="http://epg.it999.ru/img2/2976.png" tvg-rec="0",ABC News AU  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6120/index.m3u8  
-# #EXTINF:0 group-title="Австралия | Australia" tvg-id="3064" tvg-logo="http://epg.it999.ru/img2/3064.png" tvg-rec="0",Fox Sports News AU  
+# #EXTINF:0 group-title="Австралия | Australia" tvg-id="3064" tvg-logo="http://epg.it999.ru/img2/3064.png" tvg-rec="0",FOX Sports News AU  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6121/index.m3u8  
 # #EXTINF:0 group-title="Австралия | Australia" tvg-id="4511" tvg-logo="http://epg.it999.ru/img2/4511.png" tvg-rec="0",9 Rush Sydney AU  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7321/index.m3u8  
