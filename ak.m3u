@@ -276,16 +276,16 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7249/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9126/index.m3u8
 #EXTINF:0 group-title="Кино" tvg-id="644" tvg-logo="http://epg.it999.ru/img2/644.png" tvg-rec="7",Киномикс
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/509/index.m3u8
-#EXTINF:0 group-title="Кино" tvg-id="1584" tvg-logo="http://epg.it999.ru/img2/1584.png" tvg-rec="0",Мужское кино HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10045/index.m3u8
-#EXTINF:0 group-title="Кино" tvg-id="1584" tvg-logo="http://epg.it999.ru/img2/1584.png" tvg-rec="3",Мужское кино ORIG
+#EXTINF:0 group-title="Кино" tvg-id="1584" tvg-logo="http://epg.it999.ru/img2/1584.png" tvg-rec="3",Мужское кино HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9138/index.m3u8
+#EXTINF:0 group-title="Кино" tvg-id="1584" tvg-logo="http://epg.it999.ru/img2/1584.png" tvg-rec="0",Мужское кино HD 1080
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10045/index.m3u8
 #EXTINF:0 group-title="Кино" tvg-id="1584" tvg-logo="http://epg.it999.ru/img2/1584.png" tvg-rec="7",Мужское кино
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/164/index.m3u8
-#EXTINF:0 group-title="Кино" tvg-id="987" tvg-logo="http://epg.it999.ru/img2/987.png" tvg-rec="0",Киносемья HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7244/index.m3u8
-#EXTINF:0 group-title="Кино" tvg-id="987" tvg-logo="http://epg.it999.ru/img2/987.png" tvg-rec="3",Киносемья ORIG
+#EXTINF:0 group-title="Кино" tvg-id="987" tvg-logo="http://epg.it999.ru/img2/987.png" tvg-rec="3",Киносемья HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9228/index.m3u8
+#EXTINF:0 group-title="Кино" tvg-id="987" tvg-logo="http://epg.it999.ru/img2/987.png" tvg-rec="0",Киносемья HD 1080
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7244/index.m3u8
 #EXTINF:0 group-title="Кино" tvg-id="987" tvg-logo="http://epg.it999.ru/img2/987.png" tvg-rec="7",Киносемья
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/125/index.m3u8
 #EXTINF:0 group-title="Кино" tvg-id="821" tvg-logo="http://epg.it999.ru/img2/821.png" tvg-rec="0",Кинокомедия HD
