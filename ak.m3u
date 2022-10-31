@@ -42,6 +42,8 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/504/index.m3u8
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6038/index.m3u8  
 # #EXTINF:0 group-title="Общие" tvg-id="3003" tvg-logo="http://epg.it999.ru/img2/3003.png" tvg-rec="0",Россия 1 +8  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6051/index.m3u8  
+#EXTINF:0 group-title="Общие" tvg-id="2547" tvg-logo="http://epg.it999.ru/img2/2547.png" tvg-rec="0",Россия РТР
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18042/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="162" tvg-logo="http://epg.it999.ru/img2/2001.png" tvg-rec="3",НТВ HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9028/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="162" tvg-logo="http://epg.it999.ru/img2/2001.png" tvg-rec="7",НТВ HD
@@ -258,8 +260,6 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16022/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16023/index.m3u8
 #EXTINF:0 group-title="Общие" tvg-id="6031" tvg-logo="http://epg.it999.ru/img2/6031.png" tvg-rec="0",Министерство идей HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16025/index.m3u8
-#EXTINF:0 group-title="Общие" tvg-id="2547" tvg-logo="http://epg.it999.ru/img2/2547.png" tvg-rec="0",Россия РТР
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18042/index.m3u8
 #EXTINF:0 group-title="Кино" tvg-id="566" tvg-logo="http://epg.it999.ru/img2/566.png" tvg-rec="3",Кинопремьера HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9020/index.m3u8
 #EXTINF:0 group-title="Кино" tvg-id="566" tvg-logo="http://epg.it999.ru/img2/566.png" tvg-rec="7",Кинопремьера HD
