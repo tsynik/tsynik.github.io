@@ -2780,16 +2780,16 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16005/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16010/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-id="6023" tvg-logo="http://epg.it999.ru/img2/6023.png" tvg-rec="0",Релакс TV
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16011/index.m3u8
+#EXTINF:0 group-title="Развлекательные" tvg-id="6677" tvg-logo="http://epg.it999.ru/img2/6677.png" tvg-rec="0",Insight TV HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19253/index.m3u8
+#EXTINF:0 group-title="Развлекательные" tvg-id="6181" tvg-logo="http://epg.it999.ru/img2/6181.png" tvg-rec="0",LIBERTY Шоу HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/17030/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-id="6129" tvg-logo="http://epg.it999.ru/img2/6129.png" tvg-rec="0",VF Юмор 18+
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16137/index.m3u8
-#EXTINF:0 group-title="Развлекательные" tvg-id="6181" tvg-logo="http://epg.it999.ru/img2/6181.png" tvg-rec="0",LIBERTYSHOU HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/17030/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-id="6284" tvg-logo="http://epg.it999.ru/img2/6284.png" tvg-rec="0",VF Comedy Woman
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18101/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-id="6226" tvg-logo="http://epg.it999.ru/img2/6226.png" tvg-rec="0",VF Городок
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18097/index.m3u8
-#EXTINF:0 group-title="Развлекательные" tvg-id="6677" tvg-logo="http://epg.it999.ru/img2/6677.png" tvg-rec="0",Insight TV HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19253/index.m3u8
 #EXTINF:0 group-title="Детские" tvg-id="1716" tvg-logo="http://epg.it999.ru/img2/1716.png" tvg-rec="7",Мульт HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/921/index.m3u8
 #EXTINF:0 group-title="Детские" tvg-id="1332" tvg-logo="http://epg.it999.ru/img2/1332.png" tvg-rec="3",Мульт ORIG
@@ -2812,16 +2812,16 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2001/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9186/index.m3u8
 #EXTINF:0 group-title="Детские" tvg-id="740" tvg-logo="http://epg.it999.ru/img2/740.png" tvg-rec="7",Карусель
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/156/index.m3u8
-#EXTINF:0 group-title="Детские" tvg-id="2033" tvg-logo="http://epg.it999.ru/img2/2033.png" tvg-rec="3",Карусель +3
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/740/index.m3u8
-#EXTINF:0 group-title="Детские" tvg-id="740" tvg-logo="http://epg.it999.ru/img2/740.png" tvg-rec="0",Карусель +0 (Элиста)
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15453/index.m3u8
-#EXTINF:0 group-title="Детские" tvg-rec="0",Карусель +3 (Омск)
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15436/index.m3u8
-#EXTINF:0 group-title="Детские" tvg-id="1107" tvg-logo="http://epg.it999.ru/img2/1107.png" tvg-rec="0",Карусель +7
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15442/index.m3u8
-#EXTINF:0 group-title="Детские" tvg-id="1107" tvg-logo="http://epg.it999.ru/img2/1107.png" tvg-rec="0",Карусель +7 (Владивосток)
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15340/index.m3u8
+# #EXTINF:0 group-title="Детские" tvg-id="2033" tvg-logo="http://epg.it999.ru/img2/2033.png" tvg-rec="3",Карусель +3  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/740/index.m3u8  
+# #EXTINF:0 group-title="Детские" tvg-id="740" tvg-logo="http://epg.it999.ru/img2/740.png" tvg-rec="0",Карусель +0 (Элиста)  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15453/index.m3u8  
+# #EXTINF:0 group-title="Детские" tvg-rec="0",Карусель +3 (Омск)  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15436/index.m3u8  
+# #EXTINF:0 group-title="Детские" tvg-id="1107" tvg-logo="http://epg.it999.ru/img2/1107.png" tvg-rec="0",Карусель +7  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15442/index.m3u8  
+# #EXTINF:0 group-title="Детские" tvg-id="1107" tvg-logo="http://epg.it999.ru/img2/1107.png" tvg-rec="0",Карусель +7 (Владивосток)  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15340/index.m3u8  
 #EXTINF:0 group-title="Детские" tvg-id="923" tvg-logo="http://epg.it999.ru/img2/923.png" tvg-rec="3",Детский мир ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9184/index.m3u8
 #EXTINF:0 group-title="Детские" tvg-id="923" tvg-logo="http://epg.it999.ru/img2/923.png" tvg-rec="7",Детский мир
@@ -2994,21 +2994,21 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/14151/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/14150/index.m3u8
 #EXTINF:0 group-title="Детские" tvg-id="5459" tvg-logo="http://epg.it999.ru/img2/5459.png" tvg-rec="0",Bunny HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/14239/index.m3u8
-#EXTINF:0 group-title="Детские" tvg-id="5548" tvg-logo="http://epg.it999.ru/img2/5548.png" tvg-rec="0",LIBERTY piksar
+#EXTINF:0 group-title="Детские" tvg-id="5548" tvg-logo="http://epg.it999.ru/img2/5548.png" tvg-rec="0",LIBERTY Pixar
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15092/index.m3u8
-#EXTINF:0 group-title="Детские" tvg-id="5549" tvg-logo="http://epg.it999.ru/img2/5549.png" tvg-rec="0",LIBERTY DISNEI
+#EXTINF:0 group-title="Детские" tvg-id="5549" tvg-logo="http://epg.it999.ru/img2/5549.png" tvg-rec="0",LIBERTY Disney
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15093/index.m3u8
-#EXTINF:0 group-title="Детские" tvg-id="5550" tvg-logo="http://epg.it999.ru/img2/5550.png" tvg-rec="0",LIBERTY myltiki
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15094/index.m3u8
-#EXTINF:0 group-title="Детские" tvg-id="5590" tvg-logo="http://epg.it999.ru/img2/5590.png" tvg-rec="0",LIBERRTY THE SIMSONS
+# #EXTINF:0 group-title="Детские" tvg-id="5550" tvg-logo="http://epg.it999.ru/img2/5550.png" tvg-rec="0",LIBERTY myltiki  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15094/index.m3u8  
+#EXTINF:0 group-title="Детские" tvg-id="5590" tvg-logo="http://epg.it999.ru/img2/5590.png" tvg-rec="0",LIBERTY Симпсоны
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/15111/index.m3u8
-#EXTINF:0 group-title="Детские" tvg-id="6178" tvg-logo="http://epg.it999.ru/img2/6178.png" tvg-rec="0",LIBERTY BEBIMULT HD
+#EXTINF:0 group-title="Детские" tvg-id="6178" tvg-logo="http://epg.it999.ru/img2/6178.png" tvg-rec="0",LIBERTY Бебимульт HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/17027/index.m3u8
-#EXTINF:0 group-title="Детские" tvg-id="6232" tvg-logo="http://epg.it999.ru/img2/6232.png" tvg-rec="0",LIBERTY MULT 4K
+#EXTINF:0 group-title="Детские" tvg-id="6232" tvg-logo="http://epg.it999.ru/img2/6232.png" tvg-rec="0",LIBERTY Мульт 4K
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18051/index.m3u8
-#EXTINF:0 group-title="Детские" tvg-id="6229" tvg-logo="http://epg.it999.ru/img2/6229.png" tvg-rec="0",LIBERTY MULTUKR 4K
+#EXTINF:0 group-title="Детские" tvg-id="6229" tvg-logo="http://epg.it999.ru/img2/6229.png" tvg-rec="0",LIBERTY Мульт UKR 4K
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18044/index.m3u8
-#EXTINF:0 group-title="Детские" tvg-id="6206" tvg-logo="http://epg.it999.ru/img2/6206.png" tvg-rec="0",LIBERTY MULT ENG
+#EXTINF:0 group-title="Детские" tvg-id="6206" tvg-logo="http://epg.it999.ru/img2/6206.png" tvg-rec="0",LIBERTY Мульт ENG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/17061/index.m3u8
 #EXTINF:0 group-title="Детские" tvg-id="5387" tvg-logo="http://epg.it999.ru/img2/5387.png" tvg-rec="0",YOSSO TV Союзмульт
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/14178/index.m3u8
