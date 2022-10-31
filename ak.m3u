@@ -1642,12 +1642,12 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2413/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/212/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2051" tvg-logo="http://epg.it999.ru/img2/2051.png" tvg-rec="7",Матч!
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/535/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2051" tvg-logo="http://epg.it999.ru/img2/2051.png" tvg-rec="3",Матч! +2
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6012/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2051" tvg-logo="http://epg.it999.ru/img2/2051.png" tvg-rec="3",Матч! +4
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6023/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2051" tvg-logo="http://epg.it999.ru/img2/2051.png" tvg-rec="3",Матч! +8
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6052/index.m3u8
+# #EXTINF:0 group-title="Спорт" tvg-id="2051" tvg-logo="http://epg.it999.ru/img2/2051.png" tvg-rec="3",Матч! +2  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6012/index.m3u8  
+# #EXTINF:0 group-title="Спорт" tvg-id="2051" tvg-logo="http://epg.it999.ru/img2/2051.png" tvg-rec="3",Матч! +4  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6023/index.m3u8  
+# #EXTINF:0 group-title="Спорт" tvg-id="2051" tvg-logo="http://epg.it999.ru/img2/2051.png" tvg-rec="3",Матч! +8  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6052/index.m3u8  
 #EXTINF:0 group-title="Спорт" tvg-id="2050" tvg-logo="http://epg.it999.ru/img2/2050.png" tvg-rec="0",Матч! Игра HD 50Hz
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10014/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2050" tvg-logo="http://epg.it999.ru/img2/2050.png" tvg-rec="3",Матч! Игра HD 1080
@@ -1700,16 +1700,22 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2408/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/206/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2005" tvg-logo="http://epg.it999.ru/img2/2005.png" tvg-rec="7",Матч! Футбол 3
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/522/index.m3u8
+#EXTINF:0 group-title="Спорт" tvg-id="2042" tvg-logo="http://epg.it999.ru/img2/2042.png" tvg-rec="0",Матч! Страна HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19219/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2042" tvg-logo="http://epg.it999.ru/img2/2042.png" tvg-rec="3",Матч! Страна ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9157/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2042" tvg-logo="http://epg.it999.ru/img2/2042.png" tvg-rec="7",Матч! Страна
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/107/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2043" tvg-logo="http://epg.it999.ru/img2/2043.png" tvg-rec="7",Матч! Планета
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/123/index.m3u8
+#EXTINF:0 group-title="Спорт" tvg-id="2054" tvg-logo="http://epg.it999.ru/img2/2054.png" tvg-rec="0",Матч! Боец HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19221/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2054" tvg-logo="http://epg.it999.ru/img2/2054.png" tvg-rec="3",Матч! Боец ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9159/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2054" tvg-logo="http://epg.it999.ru/img2/2054.png" tvg-rec="7",Матч! Боец
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/150/index.m3u8
+#EXTINF:0 group-title="Спорт" tvg-id="2285" tvg-logo="http://epg.it999.ru/img2/2285.png" tvg-rec="0",Бокс ТВ ПЛЮС HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19245/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2285" tvg-logo="http://epg.it999.ru/img2/2285.png" tvg-rec="3",Бокс ТВ ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9162/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2285" tvg-logo="http://epg.it999.ru/img2/2285.png" tvg-rec="7",Бокс ТВ
@@ -1754,8 +1760,8 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9094/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5068/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2370" tvg-logo="http://epg.it999.ru/img2/2370.png" tvg-rec="3",Setanta Sports Ukraine HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/272/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="4630" tvg-logo="http://epg.it999.ru/img2/4630.png" tvg-rec="0",Сетанта Спорт + HD UA
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10040/index.m3u8
+# #EXTINF:0 group-title="Спорт" tvg-id="4630" tvg-logo="http://epg.it999.ru/img2/4630.png" tvg-rec="0",Сетанта Спорт + HD UA  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10040/index.m3u8  
 #EXTINF:0 group-title="Спорт" tvg-id="2055" tvg-logo="http://epg.it999.ru/img2/2055.png" tvg-rec="3",Viasat Sport HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5065/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2055" tvg-logo="http://epg.it999.ru/img2/2055.png" tvg-rec="7",Viasat Sport HD
@@ -1790,16 +1796,16 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/144/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5077/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2243" tvg-logo="http://epg.it999.ru/img2/2243.png" tvg-rec="3",Xsport HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/996/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="6315" tvg-logo="http://epg.it999.ru/img2/6315.png" tvg-rec="0",Канал NHL HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18034/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="1038" tvg-logo="http://epg.it999.ru/img2/1038.png" tvg-rec="0",КХЛ HD 50Hz
+# #EXTINF:0 group-title="Спорт" tvg-id="6315" tvg-logo="http://epg.it999.ru/img2/6315.png" tvg-rec="0",Канал NHL HD  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18034/index.m3u8  
+#EXTINF:0 group-title="Спорт" tvg-id="1038" tvg-logo="http://epg.it999.ru/img2/1038.png" tvg-rec="0",KHL HD 50Hz
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10028/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="1038" tvg-logo="http://epg.it999.ru/img2/1038.png" tvg-rec="3",КХЛ HD 1080
+#EXTINF:0 group-title="Спорт" tvg-id="1038" tvg-logo="http://epg.it999.ru/img2/1038.png" tvg-rec="3",KHL HD 1080
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2403/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="1038" tvg-logo="http://epg.it999.ru/img2/1038.png" tvg-rec="7",КХЛ HD
+#EXTINF:0 group-title="Спорт" tvg-id="1038" tvg-logo="http://epg.it999.ru/img2/1038.png" tvg-rec="7",KHL HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/215/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2048" tvg-logo="http://epg.it999.ru/img2/2048.png" tvg-rec="0",KHL HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18035/index.m3u8
+# #EXTINF:0 group-title="Спорт" tvg-id="2048" tvg-logo="http://epg.it999.ru/img2/2048.png" tvg-rec="0",KHL HD  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/18035/index.m3u8  
 #EXTINF:0 group-title="Спорт" tvg-id="2048" tvg-logo="http://epg.it999.ru/img2/2048.png" tvg-rec="3",KHL ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9250/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2048" tvg-logo="http://epg.it999.ru/img2/2048.png" tvg-rec="7",KHL
@@ -1818,6 +1824,8 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/519/index.m3u8
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5083/index.m3u8  
 # #EXTINF:0 group-title="Спорт" tvg-id="4619" tvg-logo="http://epg.it999.ru/img2/4619.png" tvg-rec="0",Шахтар HD  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10012/index.m3u8  
+#EXTINF:0 group-title="Спорт" tvg-id="2782" tvg-logo="http://epg.it999.ru/img2/2782.png" tvg-rec="0",Футбол HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19244/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2782" tvg-logo="http://epg.it999.ru/img2/2782.png" tvg-rec="3",Футбол ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9251/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2782" tvg-logo="http://epg.it999.ru/img2/2782.png" tvg-rec="3",Футбол
@@ -1860,6 +1868,8 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10058/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10057/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="4605" tvg-logo="http://epg.it999.ru/img2/4605.png" tvg-rec="0",Хоккейный HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10039/index.m3u8
+#EXTINF:0 group-title="Спорт" tvg-id="113" tvg-logo="http://epg.it999.ru/img2/113.png" tvg-rec="0",ЖИВИ! HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19252/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="113" tvg-logo="http://epg.it999.ru/img2/113.png" tvg-rec="3",ЖИВИ! ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9164/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="113" tvg-logo="http://epg.it999.ru/img2/113.png" tvg-rec="7",ЖИВИ!
@@ -2124,18 +2134,8 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19202/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19204/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="6691" tvg-logo="http://epg.it999.ru/img2/6691.png" tvg-rec="0",MMA-TV.com HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19243/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2042" tvg-logo="http://epg.it999.ru/img2/2042.png" tvg-rec="0",Матч! Страна HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19219/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2054" tvg-logo="http://epg.it999.ru/img2/2054.png" tvg-rec="0",Матч! Боец HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19221/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2782" tvg-logo="http://epg.it999.ru/img2/2782.png" tvg-rec="0",Футбол HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19244/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="2285" tvg-logo="http://epg.it999.ru/img2/2285.png" tvg-rec="0",БОКС ТВ ПЛЮС HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19245/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-id="2480" tvg-logo="http://epg.it999.ru/img2/2480.png" tvg-rec="0",Удар HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19246/index.m3u8
-#EXTINF:0 group-title="Спорт" tvg-id="113" tvg-logo="http://epg.it999.ru/img2/113.png" tvg-rec="0",ЖИВИ! HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/19252/index.m3u8
 #EXTINF:0 group-title="Познавательные" tvg-id="325" tvg-logo="http://epg.it999.ru/img2/325.png" tvg-rec="3",Discovery Channel HD ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9011/index.m3u8
 #EXTINF:0 group-title="Познавательные" tvg-id="325" tvg-logo="http://epg.it999.ru/img2/325.png" tvg-rec="7",Discovery Channel HD
