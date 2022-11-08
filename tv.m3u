@@ -84,39 +84,28 @@ https://bl.uma.media/live/126866/HLS/6866944_4,3,2,1/1613528396/a906596714d5111d
 # http://85.112.114.11:8088/udp/238.2.50.8:1234
 #EXTINF:-1 group-title="HD" catchup-enable="0",НТВ HD
 http://185.23.80.26:8080/NTV_HD/index.m3u8
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/213/index.m3u8 # Full HD
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9028/index.m3u8 # HD Orig
 #EXTINF:-1 group-title="HD" catchup-enable="0",Первый канал HD
 http://185.23.80.26:8080/Pervyj_HD/index.m3u8
 # http://cdn2.1internet.tv/dash-live12/streams/1tv/1tvdash.mpd?e=1662201467?live=potplayer
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2402/index.m3u8 # Full HD
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7253/index.m3u8 # HD Orig
 #EXTINF:-1 group-title="HD" catchup-enable="0",Пятница HD
 https://okkotv-live.cdnvideo.ru/channel/Pyatnizza_OTT_HD.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",РЕН ТВ HD
 https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Россия 1 HD
 https://okkotv-live.cdnvideo.ru/channel/Russia1HD.m3u8
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2409/index.m3u8 # Full HD
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7252/index.m3u8 # HD Orig
 #EXTINF:-1 group-title="HD" catchup-enable="0",Страна FM HD
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",СТС HD
 https://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT.m3u8
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/6303/index.m3u8 # Full HD
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9000/index.m3u8 # HD Orig
 #EXTINF:-1 group-title="HD" catchup-enable="0",СТС Kids HD
 https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Суббота! HD
 http://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",ТВ-3 HD
 https://okkotv-live.cdnvideo.ru/channel/TV3_OTT_HD.m3u8
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/5033/index.m3u8 # Full HD
 # https://bl.uma.media/live/407373/HLS/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613013859/5fdc4b8080160a4e56933b0402133da4/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",ТНТ HD
 https://okkotv-live.cdnvideo.ru/channel/TNT_OTT_HD.m3u8
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2417/index.m3u8 # Full HD
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7251/index.m3u8 # HD Orig
 #EXTINF:-1 tvg-id="tnt4" group-title="HD" catchup-enable="0",ТНТ4 HD
 https://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d161f37174905bc712e81b60d3411fc1/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",START Air HD
@@ -1033,24 +1022,16 @@ http://okkotv-live.cdnvideo.ru/channel/VIP_Serial_HD.m3u8
 # #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" group-title="Кино и сериалы" catchup-enable="0",Индийское кино  
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киномикс  
 # #EXTINF:-1 tvg-id="kinomiks" group-title="Кино и сериалы" catchup-enable="0",Киномикс HD
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7249/index.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Кинопремьера HD
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/224/index.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киносемья  
 # #EXTINF:-1 tvg-id="kinosemiya" group-title="Кино и сериалы" catchup-enable="0",Киносемья HD
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7244/index.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Кинокомедия  
 # #EXTINF:-1 tvg-id="kinokomedia" group-title="Кино и сериалы" catchup-enable="0",Кинокомедия HD
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7248/index.m3u8 
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киносвидание  
 # #EXTINF:-1 tvg-id="kinosvidanie" group-title="Кино и сериалы" catchup-enable="0",Киносвидание HD
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7245/index.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киносерия
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9132/index.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киноужас HD
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2056/index.m3u8
 # #EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы" catchup-enable="0",Кинохит HD
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/7250/index.m3u8
 # #EXTINF:-1 tvg-id="komedijnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Комедийное HD  
 # #EXTINF:-1 tvg-id="la-minor" group-title="Музыкальные" catchup-enable="0",Ля-минор  
 #EXTINF:-1 tvg-id="match-tv" tvg-name="Матч! ТВ" group-title="Спортивные" catchup-enable="0",Матч! HD
@@ -1081,7 +1062,6 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 # #EXTINF:-1 tvg-id="motorsportv-tv" group-title="Спортивные" catchup-enable="0",Моторспорт ТВ  
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино  
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино HD
-# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/10045/index.m3u8
 # #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Музыка Первого  
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Мульт
 http://bsttv.bonus-tv.ru/cdn/mult/playlist.m3u8
