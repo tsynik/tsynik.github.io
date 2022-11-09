@@ -262,7 +262,7 @@
 			return new use(object);
 		};
 
-		Lampa.Template.add('new_interface_style', "<style>\n.new-interface .card--small.card--wide {\n	width: 18.3em;\n}\n.new-interface-info {\n	position: relative;\n	padding: 1.5em;\n	height: 24em;\n}\n.new-interface-info__body {\n	width: 80%;\n	padding-top: 1.25em;\n}\n.new-interface-info__head{\n	color: rgba(255, 255, 255, 0.6);\n	margin-bottom: 0.5em;\n	font-size: 1.5em;\n	min-height: 1em;\n}\n.new-interface-info__head span {\n	color: #fff;\n}\n.new-interface-info__title {\n	font-size: 3.5em;\n	font-weight: 400;\n	margin-bottom: 0.2em;\n	overflow: hidden;\n	-o-text-overflow: \".\";\n	text-overflow: \".\";\n	display: -webkit-box;\n	-webkit-line-clamp: 2;\n	line-clamp: 2; \n	-webkit-box-orient: vertical;\n	margin-left: -0.05em;\n	line-height: 1.26;\n}\n.new-interface-info__details {\n	margin-bottom: 1.6em;\n	display: -webkit-box;\n	display: -webkit-flex;\n	display: -moz-box;\n	display: -ms-flexbox;\n	display: flex;\n	-webkit-box-align: center;\n	-webkit-align-items: center;\n	-moz-box-align: center;\n	-ms-flex-align: center;\n	align-items: center;\n	-webkit-flex-wrap: wrap;\n	-ms-flex-wrap: wrap;\n	flex-wrap: wrap;\n	min-height: 1.9em;\n	font-size: 1.1em;\n}\n.new-interface-info__split {\n	margin: 0 1em;\n	font-size: 0.5em\n}\n.new-interface-info__description {\n	font-size: 1.2em;\n	font-weight: 300;\n	line-height: 1.5;\n	overflow: hidden;\n	-o-text-overflow: \".\";\n	text-overflow: \".\";\n	display: -webkit-box;\n	-webkit-line-clamp: 4;\n	line-clamp: 4; \n	-webkit-box-orient: vertical;\n	width: 70%;\n}\n.new-interface .full-start__background {\n	height: 108%;\n	top: -6em;\n}\n.new-interface .full-start__rate{\n	margin-right: 0;\n	margin-left: -0.25em;\n}\n.new-interface .full-start__rate > div:first-child {\n	padding: 0 1em;\n	background: rgba(255, 255, 255, 0.1);\n}\nbody.light--version .new-interface .full-start__rate > div:first-child {\n	font-size: 1em;\n	padding: 0;\n	margin-top: -0.1em;\n	margin-right: 0.2em;\n}\nbody.light--version .new-interface .full-start__rate > div:last-child {\n	font-size: 0.8em;\n	padding: 0;\n	opacity: 0.7;\n}\n.new-interface .card__promo {\n	display: none;\n}\n.new-interface .card.card--wide + .card-more .card-more__box {\n	padding-bottom: 95%;\n}\nbody.light--version .new-interface .card.card--wide + .card-more .card-more__box {\n	border-radius: .1em;\n}\n.new-interface .card.card--wide .card-watched {\n		display: none !important;\n}\nbody.light--version .new-interface-info__body {\n	width: 69%;\n	padding-top: 1.5em;\n}\nbody.light--version .new-interface-info {\n	height: 25.3em;\n}\nbody {\n	background: #000;\n}\n.menu__item {\n	color: #eee;\n}\n.menu__item:after {\n	display: block;\n	position: absolute;\n	display: none;\n	top: 3em;\n	left: 0.44em;\n	width: 1.6em;\n	height: 4px;\n	background-color: #e50914;\n	margin-left: 1.6em;\n}\n.menu__item.focus {\n	background: none;\n}\n.menu__item.focus:after {\n	display: block;\n}\n.menu__ico {\n	margin-left: 0.44em;\n	margin-right: 1.5em;\n	width: 1.75em;\n	height: 1.75em;\n}\n.menu__split {\n	margin: 1em 1.7em;\n}\n.menu__text{\n	opacity: 0.5;\n}\n.menu__item.focus .menu__text {\n	opacity: 1.0;\n}\n.settings__content, .selectbox__content {\n	background: #1a1a1a;\n}\n.settings-folder__name {\n	line-height: 1.4;\n}\n.modal__content{\n	background-color: #1a1a1a;\n}\n.full-start-new__title {\n	font-size: 3.6em;\n	font-weight: 400;\n	-webkit-line-clamp: 2;\n	line-clamp: 2;\n	line-height: 1.26;\n}\n.activity__loader {\n	fill: #e50914;\n	filter: invert(80%) sepia(80%) saturate(5000%) hue-rotate(350deg) brightness(100%) contrast(100%);\n}\n</style>");
+		Lampa.Template.add('new_interface_style', "<style>\n.new-interface .card--small.card--wide {\n	width: 18.3em;\n}\n.new-interface-info {\n	position: relative;\n	padding: 1.5em;\n	height: 24em;\n}\n.new-interface-info__body {\n	width: 80%;\n	padding-top: 1.25em;\n}\n.new-interface-info__head {\n	color: rgba(255, 255, 255, 0.6);\n	margin-bottom: 0.5em;\n	font-size: 1.5em;\n	min-height: 1em;\n}\n.new-interface-info__head span {\n	color: #fff;\n}\n.new-interface-info__title {\n	font-size: 3.5em;\n	font-weight: 400;\n	margin-bottom: 0.2em;\n	overflow: hidden;\n	-o-text-overflow: \".\";\n	text-overflow: \".\";\n	display: -webkit-box;\n	-webkit-line-clamp: 2;\n	line-clamp: 2; \n	-webkit-box-orient: vertical;\n	margin-left: -0.05em;\n	line-height: 1.26;\n}\n.new-interface-info__details {\n	margin-bottom: 1.6em;\n	display: -webkit-box;\n	display: -webkit-flex;\n	display: -moz-box;\n	display: -ms-flexbox;\n	display: flex;\n	-webkit-box-align: center;\n	-webkit-align-items: center;\n	-moz-box-align: center;\n	-ms-flex-align: center;\n	align-items: center;\n	-webkit-flex-wrap: wrap;\n	-ms-flex-wrap: wrap;\n	flex-wrap: wrap;\n	min-height: 2.5em;\n	font-size: 1.1em;\n}\n.new-interface-info__split {\n	margin: 0 1em;\n	font-size: 0.5em\n}\n.new-interface-info__description {\n	font-size: 1.2em;\n	font-weight: 300;\n	line-height: 1.5;\n	overflow: hidden;\n	-o-text-overflow: \".\";\n	text-overflow: \".\";\n	display: -webkit-box;\n	-webkit-line-clamp: 4;\n	line-clamp: 4; \n	-webkit-box-orient: vertical;\n	width: 70%;\n}\n.new-interface .full-start__background {\n	height: 108%;\n	top: -6em;\n}\n.new-interface .full-start__rate {\n	margin-right: 0;\n	margin-left: -0.25em;\n}\n.new-interface .full-start__rate > div:first-child {\n	padding: 0 1em;\n	background: rgba(255, 255, 255, 0.1);\n}\nbody.light--version .new-interface .full-start__rate > div:first-child {\n	font-size: 1em;\n	padding: 0;\n	margin-top: -0.1em;\n	margin-right: 0.2em;\n}\nbody.light--version .new-interface .full-start__rate > div:last-child {\n	font-size: 0.8em;\n	padding: 0;\n	opacity: 0.7;\n}\n.new-interface .card__promo {\n	display: none;\n}\n.new-interface .card.card--wide + .card-more .card-more__box {\n	padding-bottom: 95%;\n}\n.new-interface .card.card--wide .card-watched {\n	display: none !important;\n}\nbody.light--version .new-interface-info__body {\n	width: 69%;\n	padding-top: 1.5em;\n}\nbody.light--version .new-interface-info {\n	height: 25.3em;\n}\nbody.light--version .new-interface .card.card--wide + .card-more .card-more__box {\n	-webkit-border-radius:.1em;\n	-moz-border-radius:.1em;\n	border-radius:.1em;\n}\nbody.light--version .card-more.focus .card-more__box::after {\n	-webkit-border-radius: .4em;\n	-moz-border-radius: .4em;\n	border-radius: .4em;\n}\nbody {\n	background: #000;\n}\n.menu__item {\n	color: #eee;\n}\n.menu__item:after {\n	display: block;\n	position: absolute;\n	display: none;\n	top: 3em;\n	left: 0.44em;\n	width: 1.6em;\n	height: 4px;\n	background-color: #e50914;\n	margin-left: 1.6em;\n}\n.menu__item.focus {\n	background: none;\n}\n.menu__item.focus:after {\n	display: block;\n}\n.menu__ico {\n	margin-left: 0.44em;\n	margin-right: 1.5em;\n	width: 1.75em;\n	height: 1.75em;\n}\n.menu__split {\n	margin: 1em 1.7em;\n}\n.menu__text{\n	opacity: 0.5;\n}\n.menu__item.focus .menu__text {\n	opacity: 1.0;\n}\n.settings__content, .selectbox__content {\n	background: #1a1a1a;\n}\n.settings-folder__name {\n	line-height: 1.4;\n}\n.modal__content{\n	background-color: #1a1a1a;\n}\n.full-start-new__title {\n	font-size: 3.6em;\n	font-weight: 400;\n	-webkit-line-clamp: 2;\n	line-clamp: 2;\n	line-height: 1.26;\n}\n.activity__loader {\n	fill: #e50914;\n	filter: invert(80%) sepia(80%) saturate(5000%) hue-rotate(350deg) brightness(100%) contrast(100%);\n}\n</style>");
 		$('body').append(Lampa.Template.get('new_interface_style', {}, true));
 	}
 
@@ -329,7 +329,7 @@
 	width: 80%;
 	padding-top: 1.25em;
 }
-.new-interface-info__head{
+.new-interface-info__head {
 	color: rgba(255, 255, 255, 0.6);
 	margin-bottom: 0.5em;
 	font-size: 1.5em;
@@ -367,7 +367,7 @@
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	min-height: 1.9em;
+	min-height: 2.5em;
 	font-size: 1.1em;
 }
 .new-interface-info__split {
@@ -391,7 +391,7 @@
 	height: 108%;
 	top: -6em;
 }
-.new-interface .full-start__rate{
+.new-interface .full-start__rate {
 	margin-right: 0;
 	margin-left: -0.25em;
 }
@@ -415,10 +415,9 @@ body.light--version .new-interface .full-start__rate > div:last-child {
 }
 .new-interface .card.card--wide + .card-more .card-more__box {
 	padding-bottom: 95%;
-	border-radius: 1em;
 }
 .new-interface .card.card--wide .card-watched {
-		display: none !important;
+	display: none !important;
 }
 body.light--version .new-interface-info__body {
 	width: 69%;
@@ -426,6 +425,16 @@ body.light--version .new-interface-info__body {
 }
 body.light--version .new-interface-info {
 	height: 25.3em;
+}
+body.light--version .new-interface .card.card--wide + .card-more .card-more__box {
+	-webkit-border-radius:.1em;
+	-moz-border-radius:.1em;
+	border-radius:.1em;
+}
+body.light--version .card-more.focus .card-more__box::after {
+	-webkit-border-radius: .4em;
+	-moz-border-radius: .4em;
+	border-radius: .4em;
 }
 body {
 	background: #000;
@@ -486,5 +495,4 @@ body {
 	filter: invert(80%) sepia(80%) saturate(5000%) hue-rotate(350deg) brightness(100%) contrast(100%);
 }
 </style>
-
 */
