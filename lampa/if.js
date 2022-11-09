@@ -33,7 +33,7 @@
 				return Lampa.Utils.capitalizeFirstLetter(item.name);
 			}).join(' | '));
 			if (data.runtime) details.push(Lampa.Utils.secondsToTime(data.runtime * 60, true));
-			if (pg) details.push('<span class="full-start__pg" style="font-size: 0.8em;">' + pg + '</span>');
+			if (pg) details.push('<span class="full-start__pg" style="font-size: 0.9em;">' + pg + '</span>'); // 0.8em
 			html.find('.new-interface-info__head').empty().append(head.join(' \u{00B7} ')); // ', '
 			html.find('.new-interface-info__details').html(details.join('<span class="new-interface-info__split">&#9679;</span>'));
 		};
@@ -88,8 +88,20 @@
 		this.create = function () {};
 
 		this.empty = function () {
+        var button;
+
+        if (object.source == 'tmdb') {
+          button = $('<div class="empty__footer"><div class="simple-button selector">' + Lampa.Lang.translate('change_source_on_cub') + '</div></div>');
+          button.find('.selector').on('hover:enter', function () {
+            Lampa.Storage.set('source', 'cub');
+            Lampa.Activity.replace({
+              source: 'cub'
+            });
+          });
+        }
+
 			var empty = new Lampa.Empty();
-			html.append(empty.render());
+        html.append(empty.render(button));
 			this.start = empty.start;
 			this.activity.loader(false);
 			this.activity.toggle();
@@ -229,7 +241,7 @@
 			network.clear();
 			Lampa.Arrays.destroy(items);
 			scroll.destroy();
-			info.destroy();
+        if (info) info.destroy();
 			html.remove();
 			items = null;
 			network = null;
@@ -250,7 +262,7 @@
 			return new use(object);
 		};
 
-		Lampa.Template.add('new_interface_style', "<style>\n.new-interface .card--small.card--wide{\n	width: 18.3em;\n}\n.new-interface-info{\n	position: relative;\n	padding: 1.5em;\n	height: 24em;\n}\n.new-interface-info__body{\n	width: 51%;\n	padding-top: 1.25em;\n}\n.new-interface-info__head{\n	color: rgba(255, 255, 255, 0.6);\n	margin-bottom: 0.5em;\n	font-size: 1.5em;\n}\n.new-interface-info__head span{\n	color: #fff;\n}\n.new-interface-info__title{\n	font-size: 3.5em;\n	font-weight: 300;\n	line-height: 1.26em;\n	margin-bottom: 0.2em;\n	overflow: hidden;\n	text-overflow: \".\";\n	display: -webkit-box;\n	-webkit-line-clamp: 2;\n	line-clamp: 2; \n	-webkit-box-orient: vertical;\n	margin-left: -0.05em;\n}\n.new-interface-info__details{\n	color: rgba(255, 255, 255, 0.6);\n	margin-bottom: 2em;\n	display: flex;\n	align-items: center;\n	flex-wrap: wrap;\n	min-height: 1.9em;\n}\n.new-interface-info__split{\n	margin: 0 1em;\n	font-size: 0.5em\n}\n.new-interface-info__description{\n	font-size: 1.2em;\n	font-weight: 300;\n	line-height: 1.5;\n	overflow: hidden;\n	text-overflow: \".\";\n	display: -webkit-box;\n	-webkit-line-clamp: 4;\n	line-clamp: 4; \n	-webkit-box-orient: vertical;\n}\n.new-interface .card.card--wide + .card-more .card-more__box {\n padding-bottom: 95%;\n border-radius: 1em;\n}\n.new-interface .full-start__background{\n	height: 108%;\n	top: -6em;\n}\n.new-interface .full-start__rate{\n	margin-right: 0;\n	margin-left: -0.25em;\n}\n.new-interface .full-start__rate > div:first-child{\n	padding: 0 1em;\n	background: rgba(255, 255, 255, 0.1);\n}\nbody.light--version .new-interface .full-start__rate > div:first-child{\n	font-size: 1em;\n	padding: 0;\n	margin-top: -0.1em;\n	margin-right: 0.2em;\n}\nbody.light--version .new-interface .full-start__rate > div:last-child{\n	font-size: 0.8em;\n	padding: 0;\n	opacity: 0.7;\n}\nbody.light--version .new-interface-info__body{\n	width: 69%;\n	padding-top: 1.5em;\n}\nbody.light--version .new-interface-info{\n	height: 25.3em;\n}\nbody {\n	background: #000;\n}\n.menu__item{\n	color: #eee;\n}\n.menu__item:after{\n	display: block;\n	position: absolute;\n	display: none;\n	top: 3em;\n	left: 0.44em;\n	width: 1.6em;\n	height: 4px;\n	background-color: #e50914;\n	margin-left: 1.6em;\n}\n.menu__item.focus {\n	background: none;\n}\n.menu__item.focus:after {\n	display: block;\n}\n.menu__ico{\n	margin-left: 0.44em;\n	margin-right: 1.5em;\n	width: 1.75em;\n	height: 1.75em;\n}\n.menu__split {\n	margin: 1em 1.7em;\n}\n.menu__text{\n	opacity: 0.5;\n}\n.menu__item.focus .menu__text{\n	opacity: 1.0;\n}\n.settings__content, .selectbox__content{\n	background: #1a1a1a;\n}\n.settings-folder__name{\n	line-height: 1.4;\n}\n.modal__content{\n	background-color: #1a1a1a;\n}\n.activity__loader {\n	fill: #e50914;\n	filter: invert(80%) sepia(80%) saturate(5000%) hue-rotate(350deg) brightness(100%) contrast(100%);\n}\n</style>\n");
+		Lampa.Template.add('new_interface_style', "<style>\n.new-interface .card--small.card--wide {\n	width: 18.3em;\n}\n.new-interface-info {\n	position: relative;\n	padding: 1.5em;\n	height: 24em;\n}\n.new-interface-info__body {\n	width: 80%;\n	padding-top: 1.25em;\n}\n.new-interface-info__head{\n	color: rgba(255, 255, 255, 0.6);\n	margin-bottom: 0.5em;\n	font-size: 1.5em;\n	min-height: 1em;\n}\n.new-interface-info__head span {\n	color: #fff;\n}\n.new-interface-info__title {\n	font-size: 3.5em;\n	font-weight: 300;\n	margin-bottom: 0.2em;\n	overflow: hidden;\n	-o-text-overflow: \".\";\n	text-overflow: \".\";\n	display: -webkit-box;\n	-webkit-line-clamp: 2;\n	line-clamp: 2; \n	-webkit-box-orient: vertical;\n	margin-left: -0.05em;\n	line-height: 1.26em;\n}\n.new-interface-info__details {\n	margin-bottom: 1.6em;\n	display: -webkit-box;\n	display: -webkit-flex;\n	display: -moz-box;\n	display: -ms-flexbox;\n	display: flex;\n	-webkit-box-align: center;\n	-webkit-align-items: center;\n	-moz-box-align: center;\n	-ms-flex-align: center;\n	align-items: center;\n	-webkit-flex-wrap: wrap;\n	-ms-flex-wrap: wrap;\n	flex-wrap: wrap;\n	min-height: 1.9em;\n	font-size: 1.1em;\n}\n.new-interface-info__split {\n	margin: 0 1em;\n	font-size: 0.5em\n}\n.new-interface-info__description {\n	font-size: 1.2em;\n	font-weight: 300;\n	line-height: 1.5;\n	overflow: hidden;\n	-o-text-overflow: \".\";\n	text-overflow: \".\";\n	display: -webkit-box;\n	-webkit-line-clamp: 4;\n	line-clamp: 4; \n	-webkit-box-orient: vertical;\n	width: 70%;\n}\n.new-interface .full-start__background {\n	height: 108%;\n	top: -6em;\n}\n.new-interface .full-start__rate{\n	margin-right: 0;\n	margin-left: -0.25em;\n}\n.new-interface .full-start__rate > div:first-child {\n	padding: 0 1em;\n	background: rgba(255, 255, 255, 0.1);\n}\nbody.light--version .new-interface .full-start__rate > div:first-child {\n	font-size: 1em;\n	padding: 0;\n	margin-top: -0.1em;\n	margin-right: 0.2em;\n}\nbody.light--version .new-interface .full-start__rate > div:last-child {\n	font-size: 0.8em;\n	padding: 0;\n	opacity: 0.7;\n}\n.new-interface .card__promo {\n	display: none;\n}\n.new-interface .card.card--wide + .card-more .card-more__box {\n	padding-bottom: 95%;\n	border-radius: 1em;\n}\n.new-interface .card.card--wide .card-watched {\n		display: none !important;\n}\nbody.light--version .new-interface-info__body {\n	width: 69%;\n	padding-top: 1.5em;\n}\nbody.light--version .new-interface-info {\n	height: 25.3em;\n}\nbody {\n	background: #000;\n}\n.menu__item {\n	color: #eee;\n}\n.menu__item:after {\n	display: block;\n	position: absolute;\n	display: none;\n	top: 3em;\n	left: 0.44em;\n	width: 1.6em;\n	height: 4px;\n	background-color: #e50914;\n	margin-left: 1.6em;\n}\n.menu__item.focus {\n	background: none;\n}\n.menu__item.focus:after {\n	display: block;\n}\n.menu__ico {\n	margin-left: 0.44em;\n	margin-right: 1.5em;\n	width: 1.75em;\n	height: 1.75em;\n}\n.menu__split {\n	margin: 1em 1.7em;\n}\n.menu__text{\n	opacity: 0.5;\n}\n.menu__item.focus .menu__text {\n	opacity: 1.0;\n}\n.settings__content, .selectbox__content {\n	background: #1a1a1a;\n}\n.settings-folder__name {\n	line-height: 1.4;\n}\n.modal__content{\n	background-color: #1a1a1a;\n}\n.full-start-new__title {\n	font-size: 3.5em;\n	font-weight: 300;\n}\n.activity__loader {\n	fill: #e50914;\n	filter: invert(80%) sepia(80%) saturate(5000%) hue-rotate(350deg) brightness(100%) contrast(100%);\n}\n</style>\n");
 		$('body').append(Lampa.Template.get('new_interface_style', {}, true));
 	}
 
@@ -303,3 +315,172 @@
 	if (!window.plugin_exit_m_ready) createExitMenu();
 
 })();
+/* css
+<style>
+.new-interface .card--small.card--wide {
+	width: 18.3em;
+}
+.new-interface-info {
+	position: relative;
+	padding: 1.5em;
+	height: 24em;
+}
+.new-interface-info__body {
+	width: 80%;
+	padding-top: 1.25em;
+}
+.new-interface-info__head{
+	color: rgba(255, 255, 255, 0.6);
+	margin-bottom: 0.5em;
+	font-size: 1.5em;
+	min-height: 1em;
+}
+.new-interface-info__head span {
+	color: #fff;
+}
+.new-interface-info__title {
+	font-size: 3.5em;
+	font-weight: 300;
+	margin-bottom: 0.2em;
+	overflow: hidden;
+	-o-text-overflow: \".\";
+	text-overflow: \".\";
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2; 
+	-webkit-box-orient: vertical;
+	margin-left: -0.05em;
+	line-height: 1.26em;
+}
+.new-interface-info__details {
+	margin-bottom: 1.6em;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	min-height: 1.9em;
+	font-size: 1.1em;
+}
+.new-interface-info__split {
+	margin: 0 1em;
+	font-size: 0.5em
+}
+.new-interface-info__description {
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.5;
+	overflow: hidden;
+	-o-text-overflow: \".\";
+	text-overflow: \".\";
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	line-clamp: 4; 
+	-webkit-box-orient: vertical;
+	width: 70%;
+}
+.new-interface .full-start__background {
+	height: 108%;
+	top: -6em;
+}
+.new-interface .full-start__rate{
+	margin-right: 0;
+	margin-left: -0.25em;
+}
+.new-interface .full-start__rate > div:first-child {
+	padding: 0 1em;
+	background: rgba(255, 255, 255, 0.1);
+}
+body.light--version .new-interface .full-start__rate > div:first-child {
+	font-size: 1em;
+	padding: 0;
+	margin-top: -0.1em;
+	margin-right: 0.2em;
+}
+body.light--version .new-interface .full-start__rate > div:last-child {
+	font-size: 0.8em;
+	padding: 0;
+	opacity: 0.7;
+}
+.new-interface .card__promo {
+	display: none;
+}
+.new-interface .card.card--wide + .card-more .card-more__box {
+	padding-bottom: 95%;
+	border-radius: 1em;
+}
+.new-interface .card.card--wide .card-watched {
+		display: none !important;
+}
+body.light--version .new-interface-info__body {
+	width: 69%;
+	padding-top: 1.5em;
+}
+body.light--version .new-interface-info {
+	height: 25.3em;
+}
+body {
+	background: #000;
+}
+.menu__item {
+	color: #eee;
+}
+.menu__item:after {
+	display: block;
+	position: absolute;
+	display: none;
+	top: 3em;
+	left: 0.44em;
+	width: 1.6em;
+	height: 4px;
+	background-color: #e50914;
+	margin-left: 1.6em;
+}
+.menu__item.focus {
+	background: none;
+}
+.menu__item.focus:after {
+	display: block;
+}
+.menu__ico {
+	margin-left: 0.44em;
+	margin-right: 1.5em;
+	width: 1.75em;
+	height: 1.75em;
+}
+.menu__split {
+	margin: 1em 1.7em;
+}
+.menu__text{
+	opacity: 0.5;
+}
+.menu__item.focus .menu__text {
+	opacity: 1.0;
+}
+.settings__content, .selectbox__content {
+	background: #1a1a1a;
+}
+.settings-folder__name {
+	line-height: 1.4;
+}
+.modal__content{
+	background-color: #1a1a1a;
+}
+.full-start-new__title {
+	font-size: 3.5em;
+	font-weight: 300;
+}
+.activity__loader {
+	fill: #e50914;
+	filter: invert(80%) sepia(80%) saturate(5000%) hue-rotate(350deg) brightness(100%) contrast(100%);
+}
+</style>
+*/
