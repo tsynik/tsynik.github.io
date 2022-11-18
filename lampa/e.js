@@ -33,7 +33,7 @@
 				if(Lampa.Platform.is('android')) Lampa.Android.exit();
 				if(Lampa.Platform.is('orsay')) Lampa.Orsay.exit();
 			});
-			$('.menu .menu__list').eq(2).append(menu_items);
+			$('.menu .menu__list').eq(1).append(menu_items);
 	}
 	
 	function createExitMenu() {
