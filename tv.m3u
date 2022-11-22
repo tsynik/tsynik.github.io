@@ -110,9 +110,9 @@ https://okkotv-live.cdnvideo.ru/channel/TV3_OTT_HD.m3u8
 https://okkotv-live.cdnvideo.ru/channel/TNT_OTT_HD.m3u8
 #EXTINF:-1 tvg-id="tnt4" group-title="HD" catchup-enable="0",ТНТ4 HD
 https://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d161f37174905bc712e81b60d3411fc1/playlist.m3u8
-#EXTINF:-1 group-title="HD" catchup-enable="0",START Air HD
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",START Air HD
 https://okkotv-live.cdnvideo.ru/channel/START_Air_HD.m3u8
-#EXTINF:-1 group-title="HD" catchup-enable="0",START World HD
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",START World HD
 https://okkotv-live.cdnvideo.ru/channel/START_World_HD.m3u8
 #
 # 4K
@@ -1105,7 +1105,7 @@ https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 # http://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
 #EXTINF:-1 tvg-id="russian-musicbox" group-title="Музыкальные" catchup-enable="0",Russian Music Box HD
 http://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
-#EXTINF:-1 tvg-id="start" tvg-name="Старт" group-title="Спортивные" catchup-enable="0",СТАРТ
+#EXTINF:-1 tvg-id="start" tvg-name="Старт" group-title="Спортивные" catchup-enable="0",СТАРТ HD
 http://strm.yandex.ru/kal/start/start0.m3u8
 #
 # Adults http://lampatv.fun/json/erotic.json
