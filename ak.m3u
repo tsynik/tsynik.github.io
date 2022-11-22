@@ -3600,8 +3600,8 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/828/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9122/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="2399" tvg-logo="http://epg.it999.ru/img2/2399.png" tvg-rec="7",Дождь
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2030/index.m3u8
-#EXTINF:0 group-title="Новостные" tvg-id="6026" tvg-logo="http://epg.it999.ru/img2/6026.png" tvg-rec="0",Независимые ТВ
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16017/index.m3u8
+# #EXTINF:0 group-title="Новостные" tvg-id="6026" tvg-logo="http://epg.it999.ru/img2/6026.png" tvg-rec="0",Независимые ТВ  
+# http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16017/index.m3u8  
 #EXTINF:0 group-title="Новостные" tvg-id="2168" tvg-logo="http://epg.it999.ru/img2/2168.png" tvg-rec="0",Астрахань 24 HD
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16149/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="2268" tvg-logo="http://epg.it999.ru/img2/2268.png" tvg-rec="3",CGTN Русский ORIG
