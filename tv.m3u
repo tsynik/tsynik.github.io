@@ -83,10 +83,9 @@ https://bl.uma.media/live/126866/HLS/6866944_4,3,2,1/1613528396/a906596714d5111d
 # http://109.200.130.124:7005/play/a00d
 # http://85.112.114.11:8088/udp/238.2.50.8:1234
 #EXTINF:-1 group-title="HD" catchup-enable="0",НТВ HD
-http://185.23.80.26:8080/NTV_HD/index.m3u8
+http://89.22.238.137:8083/channel/288e934b/index.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Первый канал HD
-http://185.23.80.26:8080/Pervyj_HD/index.m3u8
-# http://cdn2.1internet.tv/dash-live12/streams/1tv/1tvdash.mpd?e=1662201467?live=potplayer
+http://cdn2.1internet.tv/dash-live12/streams/1tv/1tvdash.mpd?e=1662201467?live=potplayer
 #EXTINF:-1 group-title="HD" catchup-enable="0",Пятница HD
 https://okkotv-live.cdnvideo.ru/channel/Pyatnizza_OTT_HD.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",РЕН ТВ HD
@@ -928,7 +927,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw6000000/variant.m3u8
 #
 # IPTV-ORG https://github.com/iptv-org/iptv | https://iptv-org.github.io/iptv/countries/ru.m3u
 # smartoteka https://iptvlist.ru/playlists2/smartoteka
-# lampa http://cdn.kulik.uz/tv/channels.json
+# lampa http://cdn.kulik.uz/tv/channels.json | http://94.103.95.253/tv2.json
 #
 # #EXTINF:-1 tvg-id="1hd" tvg-name="1HD Music Television" group-title="Музыкальные" catchup-enable="0",1HD Music Television
 # http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/tracks-v1a1/index.m3u8
@@ -942,8 +941,7 @@ https://okkotv-live.cdnvideo.ru/channel/A1_HD.m3u8
 https://okkotv-live.cdnvideo.ru/channel/A2_HD.m3u8
 #EXTINF:-1 tvg-id="amedia-hit" group-title="Кино и сериалы",Amedia Hit HD
 https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD.m3u8
-#EXTINF:-1 group-title="Детские" catchup-enable="0",Ani
-http://bsttv.bonus-tv.ru/cdn/ani/playlist_sdhigher.m3u8
+# #EXTINF:-1 group-title="Детские" catchup-enable="0",Ani  
 # #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Animal Planet HD
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood HD
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Bridge TV Русский хит
@@ -960,11 +958,11 @@ https://strm.yandex.ru/kal/bridgetvclassic/bridgetvclassic0.m3u8
 https://strm.yandex.ru/kal/bridgetvhits/bridgetvhits0.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" tvg-logo="https://smotret.tv/images/cinema-classic-tv.jpg" catchup-enable="0",Cinema Classic TV
 http://api.alpaca.t62a.com/hls/9114/stream0.m3u8
-#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel
+#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel HD
 # http://livetv.mylifeisgood.ml/mfolive.m3u8?media=discovery
-http://nopic.kulik.uz/channel/407560e0/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Eurosport 1
-http://nopic.kulik.uz/channel/12ce3677/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0
+http://89.22.238.137:8083/channel/n276e41a0/index.m3u8
+# #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Eurosport 1  
+# http://nopic.kulik.uz/channel/12ce3677/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0  
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Eurosport 2
 # http://nopic.kulik.uz/channel/12ceaad6/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0
 #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы" catchup-enable="0",FOX HD
@@ -980,8 +978,8 @@ https://okkotv-live.cdnvideo.ru/channel/Fox_HD.m3u8
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="http://lampatv.fun/pics/MMA Junkie.png" group-title="Спортивные" catchup-enable="0",MMA Junkie
 https://a.jsrdn.com/broadcast/80f6ba72c8/+0000/high/c.m3u8
 # #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
-#EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные" catchup-enable="0",Nat Geo Wild Russia HD
-https://okkotv-live.cdnvideo.ru/channel/NGC_Wild_HD.m3u8
+# #EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные" catchup-enable="0",Nat Geo Wild Russia HD  
+# https://okkotv-live.cdnvideo.ru/channel/NGC_Wild_HD.m3u8  
 # http://84.17.61.200:8085/udp/238.2.16.162:1234
 #EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные" catchup-enable="0",National Geographic HD
 https://okkotv-live.cdnvideo.ru/channel/NGC_HD.m3u8
@@ -1036,23 +1034,22 @@ http://okkotv-live.cdnvideo.ru/channel/VIP_Serial_HD.m3u8
 # #EXTINF:-1 tvg-id="la-minor" group-title="Музыкальные" catchup-enable="0",Ля-минор  
 #EXTINF:-1 tvg-id="match-tv" tvg-name="Матч! ТВ" group-title="Спортивные" catchup-enable="0",Матч! HD
 https://bl.uma.media/live/407384/HLS/6307840_7/2/1/playlist.m3u8
-# #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Арена
-http://nopic.kulik.uz/channel/n49ff3f4d/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Боец
-http://nopic.kulik.uz/channel/n4cd0a431/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0
+# #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Арена  
+# http://nopic.kulik.uz/channel/n49ff3f4d/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0  
+# #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Боец  
+# http://nopic.kulik.uz/channel/n4cd0a431/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0  
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Игра
 http://193.233.9.49/streams/media/Match_Igra/index.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Премьер
 http://193.233.9.49/streams/media/Match_Premer/index.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна
 http://bl.uma.media/live/291661/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
-# http://nopic.kulik.uz/channel/5a6f5886/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0
 #EXTINF:-1 group-title="Спортивные" tvg-id="match-football1" catchup-enable="0",Матч! Футбол 1
-http://nopic.kulik.uz/channel/1fd6517d/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0
+http://89.22.238.137:8083/channel/4770ef4d/index.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="match-football2" catchup-enable="0",Матч! Футбол 2
-http://nopic.kulik.uz/channel/65bdca8e/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0
+http://89.22.238.137:8083/channel/2e34a91f/index.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="match-football3" catchup-enable="0",Матч! Футбол 3
-http://nopic.kulik.uz/channel/n1d385af4/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0
+http://89.22.238.137:8083/channel/2e34a920/index.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Мир 24
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Мир HD
@@ -1064,7 +1061,7 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино HD
 # #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Музыка Первого  
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Мульт
-http://bsttv.bonus-tv.ru/cdn/mult/playlist.m3u8
+http://89.22.238.137:8083/channel/n1b8c1bd4/index.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Мультиландия HD
 https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Наше новое кино  
@@ -1105,7 +1102,7 @@ http://strm.yandex.ru/kal/rtg/rtg0.m3u8
 #EXTINF:-1 tvg-id="russia-today" group-title="HD" catchup-enable="0",Russia Today HD
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 # http://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
-#EXTINF:-1 tvg-id="russian-musicbox" group-title="Музыкальные" catchup-enable="0",Russian Music Box
+#EXTINF:-1 tvg-id="russian-musicbox" group-title="Музыкальные" catchup-enable="0",Russian Music Box HD
 http://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
 #EXTINF:-1 tvg-id="start" tvg-name="Старт" group-title="Спортивные" catchup-enable="0",СТАРТ
 http://strm.yandex.ru/kal/start/start0.m3u8
