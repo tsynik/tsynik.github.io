@@ -3602,8 +3602,6 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9122/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2030/index.m3u8
 # #EXTINF:0 group-title="Новостные" tvg-id="6026" tvg-logo="http://epg.it999.ru/img2/6026.png" tvg-rec="0",Независимые ТВ  
 # http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16017/index.m3u8  
-#EXTINF:0 group-title="Новостные" tvg-id="2168" tvg-logo="http://epg.it999.ru/img2/2168.png" tvg-rec="0",Астрахань 24 HD
-http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16149/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="2268" tvg-logo="http://epg.it999.ru/img2/2268.png" tvg-rec="3",CGTN Русский ORIG
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/9223/index.m3u8
 #EXTINF:0 group-title="Новостные" tvg-id="2268" tvg-logo="http://epg.it999.ru/img2/2268.png" tvg-rec="7",CGTN Русский
@@ -3658,6 +3656,8 @@ http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2140/index.m3u8
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2139/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2470" tvg-logo="http://epg.it999.ru/img2/2470.png" tvg-rec="3",Ратник
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/2119/index.m3u8
+#EXTINF:0 group-title="Региональные" tvg-id="2168" tvg-logo="http://epg.it999.ru/img2/2168.png" tvg-rec="0",Астрахань 24 HD
+http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/16149/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2168" tvg-logo="http://epg.it999.ru/img2/2168.png" tvg-rec="3",Астрахань 24
 http://he11o.akadatel.com/iptv/425EWL2BTT2UN4/1059/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-id="2157" tvg-logo="http://epg.it999.ru/img2/2157.png" tvg-rec="3",Архыз 24
