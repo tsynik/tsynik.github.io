@@ -986,6 +986,8 @@ https://a.jsrdn.com/broadcast/80f6ba72c8/+0000/high/c.m3u8
 # http://84.17.61.200:8085/udp/238.2.16.162:1234
 #EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные" catchup-enable="0",National Geographic HD
 https://okkotv-live.cdnvideo.ru/channel/NGC_HD.m3u8
+#EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr
+http://88.218.171.239:8083/channel/44e7e5a9/index.m3u8
 #EXTINF:-1 tvg-id="rtd-hd" tvg-logo="https://epg.iptvx.one/icn/rtd-hd.png" group-title="HD" catchup-enable="0",RTД HD
 https://hls.rt.com/hls/rtdru.m3u8
 # #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Russian Music Box
