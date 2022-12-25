@@ -950,6 +950,8 @@ https://strm.yandex.ru/kal/bridgetvclassic/bridgetvclassic0.m3u8
 # http://livetv.mylifeisgood.ml/mfolive.m3u8?media=bridgedeluxetv
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Bridge TV Hits
 https://strm.yandex.ru/kal/bridgetvhits/bridgetvhits0.m3u8
+#EXTINF:0 tvg-id="cinema-ru" group-title="Кино и сериалы" catchup-enable="0",Cinema
+http://flu.ttk.mx:9090/Cinema/index.m3u8?token=orh6o
 #EXTINF:-1 group-title="Кино и сериалы" tvg-logo="https://mirror.netcologne.de/xbmc/addons/leia/plugin.video.classiccinema/icon.png" catchup-enable="0",Cinema Classic TV
 http://api.alpaca.t62a.com/hls/9114/stream0.m3u8
 # #EXTINF:-1 tvg-id="da-vinci" group-title="Детские" catchup-enable="0",Da Vinci  
@@ -1020,8 +1022,10 @@ http://okkotv-live.cdnvideo.ru/channel/VIP_Premiere_HD.m3u8
 #EXTINF:-1 tvg-id="vip-serial" group-title="Кино и сериалы" catchup-enable="0",VIP Serial HD
 http://okkotv-live.cdnvideo.ru/channel/VIP_Serial_HD.m3u8
 # https://bl.uma.media/live/485540/HLS/4614144_3/2/1/playlist.m3u8
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Дом кино  
-# https://sc.id-tv.kz:443/DomKino_36_37.m3u8  
+#EXTINF:-1 tvg-id="domkino" group-title="Кино и сериалы" catchup-enable="0",Дом кино  
+http://flu.ttk.mx:9090/Dom_kino/index.m3u8?token=orh6o
+#EXTINF:0 tvg-id="evrokino" group-title="Кино и сериалы" catchup-enable="0",Еврокино
+http://flu.ttk.mx:9090/Evrokino/index.m3u8?token=orh6o
 # #EXTINF:-1 tvg-id="indiyskoe-kino" tvg-name="Индийское кино" group-title="Кино и сериалы" catchup-enable="0",Индийское кино  
 # https://sc.id-tv.kz:443/Indiiskoe_kino_34_35.m3u8  
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киномикс  
@@ -1041,7 +1045,9 @@ http://flu.ttk.mx:9090/Kinosvidanie/index.m3u8?token=orh6o
 # #EXTINF:-1 tvg-id="kinosvidanie" group-title="Кино и сериалы" catchup-enable="0",Киносвидание HD  
 # https://sc.id-tv.kz/Kinosvidanie_hd_34_35.m3u8  
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киносерия
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киноужас HD
+#EXTINF:-1 tvg-id="kinouzhas" group-title="Кино и сериалы" catchup-enable="0",Киноужас
+http://ott-cdn.ucom.am/s87/index.m3u8
+# #EXTINF:-1 tvg-id="kinouzhas" group-title="Кино и сериалы" catchup-enable="0",Киноужас HD
 #EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы" catchup-enable="0",Кинохит
 http://flu.ttk.mx:9090/kinohit/index.m3u8?token=orh6o
 # #EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы" catchup-enable="0",Кинохит HD
@@ -1078,7 +1084,8 @@ https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Наше новое кино  
 # #EXTINF:-1 group-title="Информационные" catchup-enable="0",Новороссия
 # http://ott.inmart.tv:8081/19/index.m3u8
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",НСТ  
+#EXTINF:-1 tvg-id="nst" group-title="Кино и сериалы" catchup-enable="0",НСТ  
+https://m3ut.net/p/982815674/1/45
 # #EXTINF:-1 tvg-id="o_" tvg-name="О!" group-title="Детские" catchup-enable="0",О!
 # #EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5365.png" catchup-enable="0",1 музыкальный BY  
 # http://rtmp.one.by:1200  
