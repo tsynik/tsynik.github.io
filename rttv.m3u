@@ -945,8 +945,12 @@ https://livetv.mylifeisgood.ml/channels/discovery.m3u8
 # http://88.218.171.239:8083/channel/n276e41a0/index.m3u8
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Eurosport 1  
 # http://nopic.kulik.uz/channel/12ce3677/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0  
+#EXTINF:-1 tvg-id="eurosport1" tvg-logo="http://epg.it999.ru/img2/2052.png" group-title="Спортивные" catchup-enable="0",Eurosport 1 HD
+https://livetv.mylifeisgood.ml/channels/eurosport1ru
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Eurosport 2
 # http://nopic.kulik.uz/channel/12ceaad6/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0
+#EXTINF:-1 tvg-id="eurosport2" tvg-logo="http://epg.it999.ru/img2/4313.png" group-title="Спортивные" catchup-enable="0",Eurosport 2 HD
+https://livetv.mylifeisgood.ml/channels/eurosport2
 #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы" catchup-enable="0",FOX HD
 https://okkotv-live.cdnvideo.ru/channel/Fox_HD.m3u8
 # https://sc.id-tv.kz:443/FOX_HD_34_35.m3u8
@@ -970,7 +974,10 @@ https://okkotv-live.cdnvideo.ru/channel/NGC_HD.m3u8
 # https://sc.id-tv.kz:443/NickJr_36_37.m3u8  
 #EXTINF:-1 tvg-id="rtd-hd" tvg-logo="https://epg.iptvx.one/icn/rtd-hd.png" group-title="HD" catchup-enable="0",RTД HD
 https://hls.rt.com/hls/rtdru.m3u8
-# #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Russian Music Box
+#EXTINF:0 tvg-id="setanta-sports" tvg-logo="http://epg.it999.ru/img2/2812.png" group-title="Спортивные" catchup-enable="0",Setanta Sports 1 HD
+https://livetv.mylifeisgood.ml/channels/setantahd
+#EXTINF:0 tvg-id="setanta-sports-plus" tvg-logo="http://epg.it999.ru/img2/2813.png" group-title="Спортивные" catchup-enable="0",Setanta Sports 2 HD
+https://livetv.mylifeisgood.ml/channels/setantaplus
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Sony Sci-Fi
 http://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
 # #EXTINF:-1 group-title="Детские" catchup-enable="0",TiJi  
