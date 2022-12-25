@@ -448,10 +448,10 @@ http://rt-ct-tula-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_TULA_PERV_TUL/variant.
 #EXTINF:-1 group-title="Региональные" catchup-enable="1",Первый Ярославский HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_YARL_NTM/variant.m3u8
-#EXTINF:-1 tvg-id="pervy-gorodskoy-kirov" group-title="Региональные" catchup-enable="1",Первый городской Киров
+#EXTINF:-1 tvg-id="pervy-gorodskoy-kirov" group-title="Региональные" catchup-enable="1",Первый городской (Киров)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R03_PERVYGORODSKOY/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Первый городской Омск
+#EXTINF:-1 tvg-id="pervy-gorodskoy-omsk" group-title="Региональные" catchup-enable="1",Первый городской (Омск)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_1GORODSKOY/variant.m3u8
 #EXTINF:-1 channelId="1" tvg-id="pervy" group-title="Региональные" catchup-enable="1",Первый канал (Магадан)
@@ -469,10 +469,10 @@ http://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_5TV/variant.m3u8
 #EXTINF:-1 tvg-id="rgvk-dagestan" group-title="Региональные" catchup-enable="1",РГВК Дагестан
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sth-mahachk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_MAHACHK_DAGESTAN/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",РИМ
+#EXTINF:-1 group-title="Региональные" catchup-enable="1",РИМ HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_RIM_URAL_KURAL/variant.m3u8
-#EXTINF:-1 tvg-id="rts-abakan" group-title="Региональные" catchup-enable="1",РТС - Абакан
+#EXTINF:-1 tvg-id="rts-abakan" group-title="Региональные" catchup-enable="1",РТС (Абакан)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_ABAKAN_RTS/variant.m3u8
 #EXTINF:-1 tvg-id="region29" group-title="Региональные" catchup-enable="1",Регион 29
