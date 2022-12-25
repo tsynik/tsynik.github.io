@@ -133,6 +133,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA/variant.m3u8
 #
 # OTHERS
 #
+#EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Эфирные" catchup-enable="0",Москва 24
+https://radio-live-mg.rtr-vesti.ru/hls/moscow_24/playlist.m3u8
 #EXTINF:-1 channelId="25" tvg-id="doverie" group-title="Эфирные" catchup-enable="1",Москва. Доверие
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_DOVERIE/variant.m3u8
