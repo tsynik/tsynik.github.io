@@ -74,30 +74,31 @@ https://okkotv-live.cdnvideo.ru/channel/Dom_HD_OTT.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Известия HD
 https://okkotv-live.cdnvideo.ru/channel/Izvestiya_HD_2.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Конный мир HD
-https://bl.uma.media/live/400930/HLS/4614144_3/1/1/playlist.m3u8
+https://bl.uma.media/live/400930/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! HD
 https://okkotv-live.cdnvideo.ru/channel/Match_OTT_HD.m3u8
 # https://bl.uma.media/live/407384/HLS/6307840_7/2/1/playlist.m3u8
 #EXTINF:-1 tvg-id="match-priemer" group-title="Спортивные" catchup-enable="0",Матч! Премьер HD
 https://bl.uma.media/live/126866/HLS/6866944_4/1/1/playlist.m3u8
-# https://bl.uma.media/live/126866/HLS/6866944_4,3,2,1/1613528396/a906596714d5111da51743ee194afc5f/playlist.m3u8
 # http://85.11.144.9:4222/MatchPremier?token=test
 # http://109.200.130.124:7005/play/a00d
 # http://85.112.114.11:8088/udp/238.2.50.8:1234
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна HD
-http://bl.uma.media/live/291661/HLS/4614144_3/1/1/playlist.m3u8
-# http://bl.uma.media/live/291661/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
+http://bl.uma.media/live/291661/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",НТВ HD
 https://ntv-hls-orig.cdnvideo.ru/ntv0_hd/tracks-v1a1/mono.m3u8
 # http://88.218.171.239:8083/channel/288e934b/index.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Первый канал HD
-http://cdn2.1internet.tv/dash-live12/streams/1tv/1tvdash.mpd?e=1662201467?live=potplayer
+http://cdn10.1internet.tv/dash-live12/streams/1tv/1tvdash.mpd
+# http://cdn2.1internet.tv/dash-live12/streams/1tv/1tvdash.mpd
 #EXTINF:-1 group-title="HD" catchup-enable="0",Пятница HD
 https://okkotv-live.cdnvideo.ru/channel/Pyatnizza_OTT_HD.m3u8
+# https://bl.uma.media/live/410336/HLS/6307840_6/1/1/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",РЕН ТВ HD
 https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Россия 1 HD
 https://okkotv-live.cdnvideo.ru/channel/Russia1HD.m3u8
+# http://cdnmg.secure.live.rtr-vesti.ru/hls2/russia_hd/playlist_6.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Страна FM HD
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",СТС HD
@@ -105,14 +106,14 @@ https://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",СТС Kids HD
 https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Суббота! HD
-http://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
+http://bl.uma.media/live/317845/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",ТВ-3 HD
 https://okkotv-live.cdnvideo.ru/channel/TV3_OTT_HD.m3u8
-# https://bl.uma.media/live/407373/HLS/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613013859/5fdc4b8080160a4e56933b0402133da4/playlist.m3u8
+# https://bl.uma.media/live/410336/HLS/6307840_6/1/1/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",ТНТ HD
 https://okkotv-live.cdnvideo.ru/channel/TNT_OTT_HD.m3u8
 #EXTINF:-1 tvg-id="tnt4" group-title="HD" catchup-enable="0",ТНТ4 HD
-https://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d161f37174905bc712e81b60d3411fc1/playlist.m3u8
+https://bl.uma.media/live/317849/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",START Air HD
 https://okkotv-live.cdnvideo.ru/channel/START_Air_HD.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",START World HD
@@ -307,9 +308,6 @@ http://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R02_EVRAZIY/variant.m3u8
 #EXTINF:-1 tvg-id="enisey-region" group-title="Региональные" catchup-enable="0",Енисей регион HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KRSK_ENISEY/variant.m3u8
-# #EXTINF:-1 group-title="Региональные" catchup-enable="0",Заб.TV 24  
-# #EXTVLCOPT:http-user-agent=Mozilla 5.0  
-# http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_CHITA_ZABTV/variant.m3u8  
 #EXTINF:-1 tvg-id="ivanovo-ot" group-title="Региональные" catchup-enable="0",Ивановское общественное телевидение
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_IVAN_IOT/variant.m3u8
@@ -571,9 +569,6 @@ http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_UL_STB/variant.m3u8
 #EXTINF:-1 tvg-id="surgut-24" group-title="Региональные" catchup-enable="0",Сургут 24
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SURGUT24/variant.m3u8
-# #EXTINF:-1 group-title="Региональные" catchup-enable="0",43 Регион  
-# #EXTVLCOPT:http-user-agent=Mozilla 5.0  
-# http://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R01_TV43REGION/variant.m3u8  
 #EXTINF:-1 group-title="Региональные" catchup-enable="0",ТВ Центр (Мурманск)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NW_MURM_TVC/variant.m3u8
@@ -586,15 +581,9 @@ http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_TVIN_MAGN/variant.m3u8
 #EXTINF:-1 tvg-id="tv21plus" group-title="Региональные" catchup-enable="0",ТВ21+ (Мурманск)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R01_TV21PLUS/variant.m3u8
-# #EXTINF:-1 shift="4" tvg-id="sts-mir" group-title="Региональные" catchup-enable="0",Телестанция Мир  
-# #EXTVLCOPT:http-user-agent=Mozilla 5.0  
-# http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_TSM/variant.m3u8  
 #EXTINF:-1 tvg-id="tk-variant" group-title="Региональные" catchup-enable="0",ТК Вариант
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_VARIANT_V/variant.m3u8
-# #EXTINF:-1 group-title="Региональные" catchup-enable="0",ТК Центр HD (Красноярск)  
-# #EXTVLCOPT:http-user-agent=Mozilla 5.0  
-# http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KRSK_CENTRKRSN/variant.m3u8  
 #EXTINF:-1 group-title="Региональные" catchup-enable="0",ТКР Рязань
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ct-ryaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_RYAZ_TKP/variant.m3u8
@@ -929,12 +918,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
 #
-# RT-TV 1080
-#
-#EXTINF:-1 channelId="993" tvg-id="nasha-sibir-4k" group-title="Познавательные" catchup-enable="0",Наша Сибирь 4K (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw6000000/variant.m3u8
-#
 # IPTV-ORG https://github.com/iptv-org/iptv | https://iptv-org.github.io/iptv/countries/ru.m3u
 # smartoteka https://iptvlist.ru/playlists2/smartoteka | https://iptvlist.ru/iptv2/iptv-russia-refresh-2/ | https://iptvlist.ru/ru.m3u
 # lampa http://cdn.kulik.uz/tv/channels.json | http://94.103.95.253/tv2.json
@@ -1008,13 +991,14 @@ http://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
 https://sc.id-tv.kz:443/TiJi_34_35.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 HD
 https://okkotv-live.cdnvideo.ru/channel/TV1000_HD.m3u8
+# https://bl.uma.media/live/485542/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 Action HD
 https://okkotv-live.cdnvideo.ru/channel/TV1000_Action_HD.m3u8
+# https://bl.uma.media/live/485541/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 Русское кино HD
 https://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
+# https://bl.uma.media/live/485543/HLS/4614144_3/2/1/playlist.m3u8
 # #EXTINF:-1 tvg-id="russian-extreme-uhd" group-title="Спортивные" catchup-enable="0",Ultra HD REX  
-# #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",V2Beat HD
-# http://de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viasat Nature HD
 http://okkotv-live.cdnvideo.ru/channel/Viasat_Nature_ad_HD.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Viasat Sport HD
@@ -1093,9 +1077,13 @@ https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
 # #EXTINF:-1 tvg-id="o_" tvg-name="О!" group-title="Детские" catchup-enable="0",О!
 # #EXTINF:-1 group-title="Информационные" catchup-enable="0",Оплот 2
 # http://ott.inmart.tv:8081/17/index.m3u8
-#EXTINF:-1 group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5365.png" catchup-enable="0",Первый музыкальный HD
+#EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5365.png" catchup-enable="0",1 музыкальный BY
+http://rtmp.one.by:1200
+#EXTINF:-1 tvg-id="no_epg_music" group-title="HD" tvg-logo="http://epg.it999.ru/img2/5365.png" catchup-enable="0",1 музыкальный BY HD
 http://rtmp.one.by:1300
-#EXTINF:-1 group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5364.png" catchup-enable="0",Первый музыкальный HD
+#EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5364.png" catchup-enable="0",1 музыкальный RU
+http://rtmp.one.by:2200
+#EXTINF:-1 tvg-id="no_epg_music" group-title="HD" tvg-logo="http://epg.it999.ru/img2/5364.png" catchup-enable="0",1 музыкальный RU HD
 http://rtmp.one.by:2300
 # #EXTINF:-1 group-title="Детские" catchup-enable="0",Радость моя  
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Родное кино  
