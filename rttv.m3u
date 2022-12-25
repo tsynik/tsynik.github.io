@@ -930,8 +930,8 @@ https://strm.yandex.ru/kal/bridgetvclassic/bridgetvclassic0.m3u8
 https://strm.yandex.ru/kal/bridgetvhits/bridgetvhits0.m3u8
 #EXTINF:0 tvg-id="cinema-ru" group-title="Кино и сериалы" catchup-enable="0",Cinema
 http://flu.ttk.mx:9090/Cinema/index.m3u8?token=orh6o
-#EXTINF:-1 group-title="Кино и сериалы" tvg-logo="https://mirror.netcologne.de/xbmc/addons/leia/plugin.video.classiccinema/icon.png" catchup-enable="0",Cinema Classic TV
-http://api.alpaca.t62a.com/hls/9114/stream0.m3u8
+# #EXTINF:-1 group-title="Кино и сериалы" tvg-logo="https://mirror.netcologne.de/xbmc/addons/leia/plugin.video.classiccinema/icon.png" catchup-enable="0",Cinema Classic TV  
+# http://api.alpaca.t62a.com/hls/9114/stream0.m3u8  
 # #EXTINF:-1 tvg-id="da-vinci" group-title="Детские" catchup-enable="0",Da Vinci  
 # https://sc.id-tv.kz/DaVinci_34_35.m3u8  
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel HD
@@ -1064,9 +1064,9 @@ https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
 # http://ott.inmart.tv:8081/19/index.m3u8
 # #EXTINF:-1 tvg-id="nst" group-title="Кино и сериалы" catchup-enable="0",НСТ    
 # #EXTINF:-1 tvg-id="o_" tvg-name="О!" group-title="Детские" catchup-enable="0",О!
-#EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5365.png" catchup-enable="0",Первый музыкальный BY
+#EXTINF:-1 tvg-id="onemuz" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5365.png" catchup-enable="0",Первый музыкальный BY
 http://rtmp.one.by:1300
-#EXTINF:-1 tvg-id="onemuz" group-title="Музыкальные" catchup-enable="0",Первый музыкальный RU
+#EXTINF:-1 tvg-id="onemuz" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5364.png" catchup-enable="0",Первый музыкальный RU
 http://rtmp.one.by:2300
 # #EXTINF:-1 group-title="Детские" catchup-enable="0",Радость моя  
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Родное кино  
@@ -1075,7 +1075,7 @@ http://rtmp.one.by:2300
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский иллюзион
 http://86.57.178.105:10823
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский роман  
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Сапфир
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Сапфир HD
 https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD.m3u8
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Театр
 http://flu.ttk.mx:9090/Teatr/index.m3u8?token=orh6o
