@@ -909,7 +909,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
 #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="Эфирные" catchup-enable="0",360° HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/1080.m3u8
 #EXTINF:-1 channelId="52" tvg-id="360-news" tvg-name="360° Новости" group-title="Эфирные" catchup-enable="0",360° Новости HD
-https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
+https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
 #EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы",A1 HD
 https://okkotv-live.cdnvideo.ru/channel/A1_HD.m3u8
 #EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы",A2 HD
@@ -1094,7 +1094,7 @@ http://origin5.mediacdn.ru/live/tntmusic/index.m3u8
 #
 # Yandex
 #
-# #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" group-title="Эфирные" catchup-enable="0",360° Подмосковье
+# #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" group-title="Эфирные" catchup-enable="0",360° Подмосковье HD
 # http://strm.yandex.ru/kal/360tv/360tv0.m3u8
 # #EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
 # http://strm.yandex.ru/kal/europaplus/europaplus0.m3u8
