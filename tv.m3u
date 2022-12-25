@@ -560,9 +560,6 @@ http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_UL_STB/variant.m3u8
 #EXTINF:-1 tvg-id="surgut-24" group-title="Региональные" catchup-enable="1",Сургут 24
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SURGUT24/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТВ Центр (Мурманск)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NW_MURM_TVC/variant.m3u8
 #EXTINF:-1 group-title="Региональные" catchup-enable="1",ТВ-7 (Абакан)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8
@@ -827,82 +824,85 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_4/variant.m3u8
 #EXTINF:-1 shift="+7" tvg-id="kultura-pl7" channelId="5" group-title="Региональные" catchup-enable="1",Россия К (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_7/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",СТС (+2)
+#EXTINF:-1 shift="+2" tvg-id="sts-pl2" group-title="Региональные" catchup-enable="1",СТС (+2)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_2/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",СТС (+4)
+#EXTINF:-1 shift="+4" tvg-id="sts-pl4" group-title="Региональные" catchup-enable="1",СТС (+4)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_4/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",СТС (+7)
+#EXTINF:-1 shift="+7" tvg-id="sts-pl7" group-title="Региональные" catchup-enable="1",СТС (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STS_7/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",СТС Love (+2)
+#EXTINF:-1 shift="+2" tvg-id="sts-love-pl2" group-title="Региональные" catchup-enable="1",СТС Love (+2)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_2/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",СТС Love (+7)
+#EXTINF:-1 shift="+7" tvg-id="sts-love-pl7" group-title="Региональные" catchup-enable="1",СТС Love (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE_7/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Супер (+2)
+#EXTINF:-1 shift="+2" tvg-id="super-pl2" group-title="Региональные" catchup-enable="1",Супер (+2)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_2/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Супер (+4)
+#EXTINF:-1 shift="+4" tvg-id="super-pl4" group-title="Региональные" catchup-enable="1",Супер (+4)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_4/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Супер (+7)
+#EXTINF:-1 shift="+7" tvg-id="super-pl7" group-title="Региональные" catchup-enable="1",Супер (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_7/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТВ Центр (+2)
+#EXTINF:-1 tvg-id="tvcentr" group-title="Региональные" catchup-enable="1",ТВ Центр (Мурманск)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NW_MURM_TVC/variant.m3u8
+#EXTINF:-1 shift="+2" tvg-id="tvcentr-pl2" group-title="Региональные" catchup-enable="1",ТВ Центр (+2)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_2/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТВ Центр (+4)
+#EXTINF:-1 shift="+4" tvg-id="tvcentr-pl4" group-title="Региональные" catchup-enable="1",ТВ Центр (+4)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_4/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТВ Центр (+7)
+#EXTINF:-1 shift="+7" tvg-id="tvcentr-pl7" group-title="Региональные" catchup-enable="1",ТВ Центр (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТВ-3 (+2)
+#EXTINF:-1 shift="+2" tvg-id="tv3-ru-pl2" group-title="Региональные" catchup-enable="1",ТВ-3 (+2)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_2/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТВ-3 (+4)
+#EXTINF:-1 shift="+4" tvg-id="tv3-ru-pl4" group-title="Региональные" catchup-enable="1",ТВ-3 (+4)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_4/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТВ-3 (+7)
+#EXTINF:-1 shift="+7" tvg-id="tv3-ru-pl7" group-title="Региональные" catchup-enable="1",ТВ-3 (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_7/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТНТ (+2)
+#EXTINF:-1 shift="+2" tvg-id="tnt-pl2" group-title="Региональные" catchup-enable="1",ТНТ (+2)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_2/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТНТ (+4)
+#EXTINF:-1 shift="+4" tvg-id="tnt-pl4" group-title="Региональные" catchup-enable="1",ТНТ (+4)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_4/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТНТ (+7)
+#EXTINF:-1 shift="+7" tvg-id="tnt-pl7" group-title="Региональные" catchup-enable="1",ТНТ (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT_7/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТНТ4 (+2)
+#EXTINF:-1 shift="+2" tvg-id="tnt4-pl2" group-title="Региональные" catchup-enable="1",ТНТ4 (+2)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_2/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТНТ4 (+4)
+#EXTINF:-1 shift="+4" tvg-id="tnt4-pl4" group-title="Региональные" catchup-enable="1",ТНТ4 (+4)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_4/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТНТ4 (+7)
+#EXTINF:-1 shift="+7" tvg-id="tnt4-pl7" group-title="Региональные" catchup-enable="1",ТНТ4 (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4_7/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Че (+2)
+#EXTINF:-1 shift="+2" tvg-id="che-pl2" group-title="Региональные" catchup-enable="1",Че (+2)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_PERETZ/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Че (+4)
+#EXTINF:-1 shift="+4" tvg-id="che-pl4" group-title="Региональные" catchup-enable="1",Че (+4)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_4/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Че (+7)
+#EXTINF:-1 shift="+7" tvg-id="che-pl7" group-title="Региональные" catchup-enable="1",Че (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ_7/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Ю (+2)
+#EXTINF:-1 shift="+2" tvg-id="yu-pl2" group-title="Региональные" catchup-enable="1",Ю (+2)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_2/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Ю (+4)
+#EXTINF:-1 shift="+4" tvg-id="yu-pl4" group-title="Региональные" catchup-enable="1",Ю (+4)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_4/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Ю (+7)
+#EXTINF:-1 shift="+7" tvg-id="yu-pl7" group-title="Региональные" catchup-enable="1",Ю (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
 #
