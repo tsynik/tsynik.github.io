@@ -1084,16 +1084,15 @@ https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Наше новое кино  
 # #EXTINF:-1 group-title="Информационные" catchup-enable="0",Новороссия
 # http://ott.inmart.tv:8081/19/index.m3u8
-#EXTINF:-1 tvg-id="nst" group-title="Кино и сериалы" catchup-enable="0",НСТ  
-https://m3ut.net/p/982815674/1/45
+# #EXTINF:-1 tvg-id="nst" group-title="Кино и сериалы" catchup-enable="0",НСТ    
 # #EXTINF:-1 tvg-id="o_" tvg-name="О!" group-title="Детские" catchup-enable="0",О!
 # #EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5365.png" catchup-enable="0",1 музыкальный BY  
 # http://rtmp.one.by:1200  
-#EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5365.png" catchup-enable="0",1 музыкальный BY HD
+#EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5365.png" catchup-enable="0",1 музыкальный BY
 http://rtmp.one.by:1300
 # #EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5364.png" catchup-enable="0",1 музыкальный RU  
 # http://rtmp.one.by:2200  
-#EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5364.png" catchup-enable="0",1 музыкальный RU HD
+#EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5364.png" catchup-enable="0",1 музыкальный RU
 http://rtmp.one.by:2300
 # #EXTINF:-1 group-title="Детские" catchup-enable="0",Радость моя  
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Родное кино  
