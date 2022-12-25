@@ -121,15 +121,15 @@ https://okkotv-live.cdnvideo.ru/channel/START_World_HD.m3u8
 #
 # 4K
 #
-# #EXTINF:-1 channelId="259" tvg-id="nasha-sibir-4k" group-title="4K Ultra HD" catchup-enable="1",Наша Сибирь 4K  
-# #EXTVLCOPT:http-user-agent=Mozilla 5.0  
-# http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw20000000/variant.m3u8  
-#EXTINF:-1 tvg-id="ultra-hd-cinema" tvg-logo="http://epg.it999.ru/img2/2743.png" group-title="4K Ultra HD" catchup-enable="1",Ultra HD Cinema 4K
+#EXTINF:-1 channelId="259" tvg-id="nasha-sibir-4k" group-title="UHD" catchup-enable="1",Наша Сибирь 4K
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
+#EXTINF:-1 tvg-id="russian-extreme-uhd" tvg-logo="http://epg.it999.ru/img2/2803.png" group-title="UHD" catchup-enable="1",Russian Extreme UHD
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA/variant.m3u8
+#EXTINF:-1 tvg-id="ultra-hd-cinema" tvg-logo="http://epg.it999.ru/img2/2743.png" group-title="UHD" catchup-enable="1",Ultra HD Cinema
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA/variant.m3u8
-#EXTINF:-1 tvg-id="russian-extreme-uhd" tvg-logo="http://epg.it999.ru/img2/2803.png" group-title="4K Ultra HD" catchup-enable="1",Russian Extreme UHD
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA/variant.m3u8
 #
 # OTHERS
 #
