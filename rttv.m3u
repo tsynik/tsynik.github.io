@@ -78,15 +78,18 @@ https://bl.uma.media/live/400930/HLS/4614144_3/1/1/playlist.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! HD
 https://okkotv-live.cdnvideo.ru/channel/Match_OTT_HD.m3u8
 # https://bl.uma.media/live/407384/HLS/6307840_7/2/1/playlist.m3u8
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Премьер HD
-https://bl.uma.media/live/126866/HLS/6866944_4,3,2,1/1613528396/a906596714d5111da51743ee194afc5f/playlist.m3u8
+#EXTINF:-1 tvg-id="match-priemer" group-title="Спортивные" catchup-enable="0",Матч! Премьер HD
+https://bl.uma.media/live/126866/HLS/6866944_4/1/1/playlist.m3u8
+# https://bl.uma.media/live/126866/HLS/6866944_4,3,2,1/1613528396/a906596714d5111da51743ee194afc5f/playlist.m3u8
 # http://85.11.144.9:4222/MatchPremier?token=test
 # http://109.200.130.124:7005/play/a00d
 # http://85.112.114.11:8088/udp/238.2.50.8:1234
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна HD
-http://bl.uma.media/live/291661/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
+http://bl.uma.media/live/291661/HLS/4614144_3/1/1/playlist.m3u8
+# http://bl.uma.media/live/291661/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",НТВ HD
-http://88.218.171.239:8083/channel/288e934b/index.m3u8
+https://ntv-hls-orig.cdnvideo.ru/ntv0_hd/tracks-v1a1/mono.m3u8
+# http://88.218.171.239:8083/channel/288e934b/index.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Первый канал HD
 http://cdn2.1internet.tv/dash-live12/streams/1tv/1tvdash.mpd?e=1662201467?live=potplayer
 #EXTINF:-1 group-title="HD" catchup-enable="0",Пятница HD
@@ -117,79 +120,77 @@ https://okkotv-live.cdnvideo.ru/channel/START_World_HD.m3u8
 #
 # 4K
 #
-#EXTINF:-1 channelId="259" tvg-id="nasha-sibir-4k" group-title="4K Ultra HD" catchup-enable="1",Наша Сибирь 4K
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw20000000/variant.m3u8
+# #EXTINF:-1 channelId="259" tvg-id="nasha-sibir-4k" group-title="4K Ultra HD" catchup-enable="1",Наша Сибирь 4K  
+# #EXTVLCOPT:http-user-agent=Mozilla 5.0  
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/bw20000000/variant.m3u8  
 #EXTINF:-1 tvg-id="ultra-hd-cinema" tvg-logo="http://epg.it999.ru/img2/2743.png" group-title="4K Ultra HD" catchup-enable="1",Ultra HD Cinema 4K
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA/variant.m3u8
 #EXTINF:-1 tvg-id="russian-extreme-uhd" tvg-logo="http://epg.it999.ru/img2/2803.png" group-title="4K Ultra HD" catchup-enable="1",Russian Extreme UHD
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA/variant.m3u8
 #
 # OTHERS
 #
-#EXTINF:-1 channelId="25" tvg-id="doverie" group-title="Развлекательные" catchup-enable="0",Москва. Доверие
+#EXTINF:-1 channelId="25" tvg-id="doverie" group-title="Развлекательные" catchup-enable="1",Москва. Доверие
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_DOVERIE/variant.m3u8
-#EXTINF:-1 channelId="27" group-title="Развлекательные" catchup-enable="0",Че
+#EXTINF:-1 channelId="27" group-title="Развлекательные" catchup-enable="1",Че
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
-#EXTINF:-1 channelId="34" group-title="Развлекательные" catchup-enable="0",Ю
+#EXTINF:-1 channelId="34" group-title="Развлекательные" catchup-enable="1",Ю
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U/variant.m3u8
-#EXTINF:-1 channelId="103" group-title="Развлекательные" catchup-enable="0",СТС Love
+#EXTINF:-1 channelId="103" group-title="Развлекательные" catchup-enable="1",СТС Love
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
-#EXTINF:-1 channelId="406" group-title="Развлекательные" catchup-enable="0",2x2
+#EXTINF:-1 channelId="406" group-title="Развлекательные" catchup-enable="1",2x2
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8
-#EXTINF:-1 channelId="408" group-title="Развлекательные" catchup-enable="0",ТНТ4
+#EXTINF:-1 channelId="408" group-title="Развлекательные" catchup-enable="1",ТНТ4
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
-#EXTINF:-1 channelId="54" group-title="Развлекательные" catchup-enable="0",Суббота!
+#EXTINF:-1 channelId="54" group-title="Развлекательные" catchup-enable="1",Суббота!
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8
-#EXTINF:-1 group-title="HD" catchup-enable="0",ТЕО-ТВ HD
+#EXTINF:-1 group-title="HD" catchup-enable="1",ТЕО-ТВ HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TEOTV/variant.m3u8
-#EXTINF:-1 channelId="302" tvg-id="disney" group-title="Детские" catchup-enable="0",Disney
+#EXTINF:-1 channelId="302" tvg-id="disney" group-title="Детские" catchup-enable="1",Disney
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
-#EXTINF:-1 tvg-id="matur-tv" group-title="Музыкальные" catchup-enable="0",Матур ТВ
+#EXTINF:-1 tvg-id="matur-tv" group-title="Музыкальные" catchup-enable="1",Матур ТВ
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
-#EXTINF:-1 tvg-id="12-omsk" group-title="Региональные" catchup-enable="0",12 канал HD (Омск)
+#EXTINF:-1 tvg-id="12-omsk" group-title="Региональные" catchup-enable="1",12 канал HD (Омск)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_12CHANNEL/variant.m3u8
-#EXTINF:-1 tvg-id="31-kanal-chelyabinsk" group-title="Региональные" catchup-enable="0",31 канал Челябинск
+#EXTINF:-1 tvg-id="31-kanal-chelyabinsk" group-title="Региональные" catchup-enable="1",31 канал Челябинск
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_31TVK_CHEL/variant.m3u8
-#EXTINF:-1 tvg-id="49kanal" group-title="Региональные" catchup-enable="0",49 канал Новосибирск
+#EXTINF:-1 tvg-id="49kanal" group-title="Региональные" catchup-enable="1",49 канал Новосибирск
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_49CHANNEL/variant.m3u8
-#EXTINF:-1 tvg-id="6tv" group-title="Региональные" catchup-enable="0",6 ТВ
+#EXTINF:-1 tvg-id="6tv" group-title="Региональные" catchup-enable="1",6 ТВ
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_6TV/variant.m3u8
-#EXTINF:-1 tvg-id="7kanal-krasnoyarsk" group-title="Региональные" catchup-enable="0",7 Канал (Красноярск)
+#EXTINF:-1 tvg-id="7kanal-krasnoyarsk" group-title="Региональные" catchup-enable="1",7 Канал (Красноярск)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R13_OTT_SIB_KRSK_RENTV/variant.m3u8
-#EXTINF:-1 tvg-id="8vladik" group-title="Региональные" catchup-enable="0",8 канал Владивосток
+#EXTINF:-1 tvg-id="8vladik" group-title="Региональные" catchup-enable="1",8 канал Владивосток
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s91030.cdn.ngenix.net/hls/CH_R01_OTT_DV_VLD_OTT8KANAL/variant.m3u8
-#EXTINF:-1 tvg-id="8kanal-krasnoyarsk" group-title="Региональные" catchup-enable="0",8 канал Красноярский край
+#EXTINF:-1 tvg-id="8kanal-krasnoyarsk" group-title="Региональные" catchup-enable="1",8 канал Красноярский край
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_SIB_KRSK_8CHANNEL/variant.m3u8
-#EXTINF:-1 tvg-id="8kanal-novosibirsk" group-title="Региональные" catchup-enable="0",8 канал Новосибирск
+#EXTINF:-1 tvg-id="8kanal-novosibirsk" group-title="Региональные" catchup-enable="1",8 канал Новосибирск
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_8CHANNEL/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="0",MTVmix
+#EXTINF:-1 group-title="Региональные" catchup-enable="1",MTVmix
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s45177.cdn.ngenix.net/hls/CH_R02_MTVMIX/variant.m3u8
-#EXTINF:-1 tvg-id="tmtv" group-title="Региональные" catchup-enable="0",TMTV
+#EXTINF:-1 tvg-id="tmtv" group-title="Региональные" catchup-enable="1",TMTV
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_KZN_TMTV/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="0",TV Губерния
+#EXTINF:-1 group-title="Региональные" catchup-enable="1",TV Губерния
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_VRZH_TVGUBERNIYA/variant.m3u8
 #EXTINF:-1 tvg-id="ugra-travel" group-title="Региональные" catchup-enable="0",UGRA Travel
@@ -971,7 +972,8 @@ http://api.alpaca.t62a.com/hls/9114/stream0.m3u8
 #EXTINF:-1 tvg-id="da-vinci" group-title="Детские" catchup-enable="0",Da Vinci
 https://sc.id-tv.kz/DaVinci_34_35.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel HD
-http://88.218.171.239:8083/channel/n276e41a0/index.m3u8
+https://livetv.mylifeisgood.ml/channels/discovery.m3u8
+# http://88.218.171.239:8083/channel/n276e41a0/index.m3u8
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Eurosport 1  
 # http://nopic.kulik.uz/channel/12ce3677/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0  
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Eurosport 2
@@ -1080,8 +1082,8 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино  
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино HD
 # #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Музыка Первого  
-#EXTINF:-1 tvg-id="mult" group-title="Детские" catchup-enable="0",Мульт HD
-http://88.218.171.239:8083/channel/n1b8c1bd4/index.m3u8
+# #EXTINF:-1 tvg-id="mult" group-title="Детские" catchup-enable="0",Мульт HD  
+# http://88.218.171.239:8083/channel/n1b8c1bd4/index.m3u8  
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Мультиландия HD
 https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Наше новое кино  
@@ -1127,21 +1129,6 @@ https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 http://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
 #EXTINF:-1 tvg-id="start" tvg-name="Старт" group-title="Спортивные" catchup-enable="0",СТАРТ HD
 http://strm.yandex.ru/kal/start/start0.m3u8
-#
-# Adults http://lampatv.fun/json/erotic.json
-#
-# #EXTINF:-1 group-title="Взрослые" tvg-logo="http://lampatv.fun/pics/adultiptv" catchup-enable="0",AdultIPTV.net  
-# http://cdn.adultiptv.net/threesome.m3u8  
-# #EXTINF:-1 group-title="Взрослые" tvg-logo="https://www.ast.tv/img/ast-tv_logo-beta.png" catchup-enable="0",AST TV  
-# https://ast.tv/stream/2/master.m3u8  
-# #EXTINF:-1 group-title="Взрослые" tvg-logo="http://epg.it999.ru/img2/2193.png" catchup-enable="0",Erox  
-# http://94.229.250.73:8008/play/a002  
-# #EXTINF:-1 group-title="Взрослые" tvg-logo="http://lampatv.fun/pics/pinko" catchup-enable="0",PinkoClub  
-# http://93.152.174.144:4000/play/pinkotv/tracks-v1a1/index.m3u8  
-# #EXTINF:-1 group-title="Взрослые" tvg-logo="http://epg.it999.ru/img2/2779.png" catchup-enable="0",Penthouse Quickies HD  
-# http://80.24.75.92:5555/udp/239.111.4.2:1234  
-# #EXTINF:-1 tvg-id="russkaya-noch" group-title="Взрослые" catchup-enable="0",Русская ночь  
-# http://46.174.83.66/Russkaya_Noch/video.m3u8  
 #
 # http://9ak.ru/v/rel/
 #
