@@ -755,7 +755,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_8/variant.m3u8
 #EXTINF:-1 shift="+9" tvg-id="pervy-pl9" channelId="1" group-title="Региональные" catchup-enable="1",Первый канал (+9)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_1TV/variant.m3u8
-#EXTINF:-1 channelId="1" tvg-id="pervy" group-title="Региональные" catchup-enable="1",Первый канал (Магадан)
+#EXTINF:-1 shift="+8" channelId="1" tvg-id="pervy" tvg-shift="-8" group-title="Региональные" catchup-enable="1",Первый канал (Магадан)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_1TV/variant.m3u8
 #EXTINF:-1 shift="+2" tvg-id="piatnica-pl2" group-title="Региональные" catchup-enable="1",Пятница (+2)
