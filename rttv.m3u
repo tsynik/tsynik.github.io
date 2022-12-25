@@ -170,7 +170,7 @@ http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TEOTV/variant.m3u8
 #EXTINF:-1 channelId="302" tvg-id="disney" group-title="Детские" catchup-enable="1",Disney
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
-#EXTINF:-1 tvg-id="matur-tv" group-title="Музыкальные" catchup-enable="1",Матур ТВ
+#EXTINF:-1 tvg-id="matur-tv" group-title="Музыкальные" catchup-enable="1",Матур ТВ HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
 #EXTINF:-1 tvg-id="12-omsk" group-title="Региональные" catchup-enable="1",12 канал HD (Омск)
@@ -218,10 +218,10 @@ http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ATVMEDIA/variant.m3u8
 #EXTINF:-1 tvg-id="aktis" group-title="Региональные" catchup-enable="1",Актис HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-irk-htlive-lb.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_AKTIS/variant.m3u8
+# #EXTINF:-1 tvg-id="arig-us-24" group-title="Региональные" catchup-enable="1",Ариг Ус 24 HD  
+# #EXTVLCOPT:http-user-agent=Mozilla 5.0  
+# http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ARIGUS/variant.m3u8  
 #EXTINF:-1 tvg-id="arig-us-24" group-title="Региональные" catchup-enable="1",Ариг Ус 24 HD
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ARIGUS/variant.m3u8
-#EXTINF:-1 tvg-id="arig-us-24" group-title="Региональные" catchup-enable="1",Ариг Ус 24
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_UUDE_ARIGUS/variant.m3u8
 #EXTINF:-1 tvg-id="arktik-tv" group-title="Региональные" catchup-enable="1",Арктик-TV HD
@@ -266,7 +266,7 @@ http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VETTA24_PERM/variant.m3
 #EXTINF:-1 tvg-id="volga" group-title="Региональные" catchup-enable="1",Волга
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_NN_VOLGA/variant.m3u8
-#EXTINF:-1 tvg-id="vremia-n" group-title="Региональные" catchup-enable="1",Волга 24
+#EXTINF:-1 tvg-id="vremia-n" group-title="Региональные" catchup-enable="1",Волга 24 HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R04_VREMYAN/variant.m3u8
 #EXTINF:-1 tvg-id="volgograd-1" group-title="Региональные" catchup-enable="1",Волгоград 1 HD
@@ -656,7 +656,7 @@ http://s34351.cdn.ngenix.net/hls/CH_R14_OTT_DV_YKT_YKT/variant.m3u8
 #EXTINF:-1 tvg-id="yamal-region" group-title="Региональные" catchup-enable="1",Ямал-Регион
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_YAMREG_URAL_YNF/variant.m3u8
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/8/80/%D0%95_%28%D0%91%D0%B5%D0%BB%D1%8B%D0%B9%29.png/revision/latest/scale-to-width-down/1000?cb=20201025123221&path-prefix=ru" group-title="Музыкальные" catchup-enable="1",#ё
+#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/8/80/%D0%95_%28%D0%91%D0%B5%D0%BB%D1%8B%D0%B9%29.png/revision/latest/scale-to-width-down/1000?cb=20201025123221&path-prefix=ru" group-title="Музыкальные" catchup-enable="1",#ё HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_M1/variant.m3u8
 #EXTINF:-1 shift="+2" tvg-id="2na2-pl2" group-title="Региональные" catchup-enable="1",2x2 (+2)
@@ -963,7 +963,7 @@ https://okkotv-live.cdnvideo.ru/channel/Fox_HD.m3u8
 # http://188.40.68.167/russia/jimjam/playlist.m3u8
 # #EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL  
 # #EXTINF:-1 group-title="Спортивные" tvg-id="kxl-prime" catchup-enable="0",KHL Prime HD  
-#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="http://lampatv.fun/pics/MMA Junkie.png" group-title="Спортивные" catchup-enable="0",MMA Junkie
+#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="http://lampatv.fun/pics/MMA Junkie.png" group-title="Спортивные" catchup-enable="0",MMA Junkie HD
 https://a.jsrdn.com/broadcast/80f6ba72c8/+0000/high/c.m3u8
 # #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
 # #EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные" catchup-enable="0",Nat Geo Wild Russia HD  
