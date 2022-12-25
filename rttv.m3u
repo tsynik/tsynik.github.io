@@ -461,9 +461,6 @@ http://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R03_PERVYGORODSKOY/variant.m3u8
 #EXTINF:-1 tvg-id="pervy-gorodskoy-omsk" group-title="Региональные" catchup-enable="1",Первый городской (Омск)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_1GORODSKOY/variant.m3u8
-#EXTINF:-1 channelId="1" tvg-id="pervy" group-title="Региональные" catchup-enable="1",Первый канал (Магадан)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_1TV/variant.m3u8
 #EXTINF:-1 tvg-id="prima" group-title="Региональные" catchup-enable="1",Прима
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3u8
@@ -758,6 +755,9 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_8/variant.m3u8
 #EXTINF:-1 shift="+9" tvg-id="pervy-pl9" channelId="1" group-title="Региональные" catchup-enable="1",Первый канал (+9)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_1TV/variant.m3u8
+#EXTINF:-1 channelId="1" tvg-id="pervy" group-title="Региональные" catchup-enable="1",Первый канал (Магадан)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_1TV/variant.m3u8
 #EXTINF:-1 shift="+2" tvg-id="piatnica-pl2" group-title="Региональные" catchup-enable="1",Пятница (+2)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_FRIDAY_2/variant.m3u8
