@@ -242,7 +242,7 @@ http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KRSK_AFONTOVO/varian
 #EXTINF:-1 tvg-id="bst" group-title="Региональные" catchup-enable="1",БСТ
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_BST/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Барс
+#EXTINF:-1 tvg-id="bars" group-title="Региональные" catchup-enable="1",Барс (Иваново)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_IVAN_BARS/variant.m3u8
 #EXTINF:-1 tvg-id="bashkortostan24" group-title="Региональные" catchup-enable="1",Башкортостан 24 HD
