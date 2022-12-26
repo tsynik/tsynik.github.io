@@ -482,37 +482,34 @@ http://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_ABAKAN_RTS/variant
 #EXTINF:-1 tvg-id="region29" group-title="Региональные" catchup-enable="1",Регион 29
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-nw-arkh-htlive.cdn.ngenix.net/hls/CH_R02_PRAVDASEVERA/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Рен ТВ (Екатеринбург)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_RENTV_EKT/variant.m3u8
 #EXTINF:-1 group-title="Региональные" catchup-enable="1",Репортер 73
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_REP73/variant.m3u8
 #EXTINF:-1 tvg-id="rifey-tv" group-title="Региональные" catchup-enable="1",Рифей-ТВ
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R02_OTT_RENTV_REFEY_PERM/variant.m3u8
-#EXTINF:-1 tvg-id="rossia1" channelId="2" group-title="Региональные" catchup-enable="1",Россия 1 (Екатеринбург)
+#EXTINF:-1 tvg-id="rossia1" tvg-shift="-2" channelId="2" group-title="Региональные" catchup-enable="1",Россия 1 (Екатеринбург)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_ROSSIA1_EKT/variant.m3u8
-#EXTINF:-1 tvg-id="rossia1" channelId="2" group-title="Региональные" catchup-enable="1",Россия 1 (Оренбург)
+#EXTINF:-1 tvg-id="rossia1" tvg-shift="-2" channelId="2" group-title="Региональные" catchup-enable="1",Россия 1 (Оренбург)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA1/variant.m3u8
-#EXTINF:-1 tvg-id="rossia1" channelId="2" group-title="Региональные" catchup-enable="1",Россия 1 (Сыктывкар)
+#EXTINF:-1 tvg-id="rossia1" tvg-shift="0" channelId="2" group-title="Региональные" catchup-enable="1",Россия 1 (Сыктывкар)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA1_SKTV/variant.m3u8
-#EXTINF:-1 tvg-id="rossia1" channelId="2" group-title="Региональные" catchup-enable="1",Россия 1 (Хабаровск)
+#EXTINF:-1 tvg-id="rossia1" tvg-shift="-7" channelId="2" group-title="Региональные" catchup-enable="1",Россия 1 (Хабаровск)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_ROSSIA1/variant.m3u8
-#EXTINF:-1 tvg-id="rossia-24" channelId="7" group-title="Региональные" catchup-enable="1",Россия 24 (Екатеринбург)
+#EXTINF:-1 tvg-id="rossia-24" tvg-shift="-2" channelId="7" group-title="Региональные" catchup-enable="1",Россия 24 (Екатеринбург)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_ROSSIA24_EKT/variant.m3u8
-#EXTINF:-1 tvg-id="rossia-24" channelId="7" group-title="Региональные" catchup-enable="1",Россия 24 (Магадан)
+#EXTINF:-1 tvg-id="rossia-24" tvg-shift="-8" channelId="7" group-title="Региональные" catchup-enable="1",Россия 24 (Магадан)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_ROSSIA24/variant.m3u8
-#EXTINF:-1 tvg-id="rossia-24" channelId="7" group-title="Региональные" catchup-enable="1",Россия 24 (Омск)
+#EXTINF:-1 tvg-id="rossia-24" tvg-shift="-3" channelId="7" group-title="Региональные" catchup-enable="1",Россия 24 (Омск)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_ROSSIA24_OMSKOBL/variant.m3u8
-#EXTINF:-1 tvg-id="rossia-24" channelId="7" group-title="Региональные" catchup-enable="1",Россия 24 (Хабаровск)
+#EXTINF:-1 tvg-id="rossia-24" tvg-shift="-7" channelId="7" group-title="Региональные" catchup-enable="1",Россия 24 (Хабаровск)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_ROSSIA24/variant.m3u8
 #EXTINF:-1 tvg-id="rostov-papa" group-title="Региональные" catchup-enable="1",Ростов-папа HD
@@ -617,9 +614,6 @@ http://rt-sth-elista-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_ELISTA_HAMDAN/vari
 #EXTINF:-1 tvg-id="chavash-en" group-title="Региональные" catchup-enable="1",Чаваш ЕН HD (Чувашия)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_NATIONALTV/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Че (Омск)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_SIB_OMSK_PERETZ/variant.m3u8
 #EXTINF:-1 group-title="Региональные" catchup-enable="1",Шаян ТВ
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s45177.cdn.ngenix.net/hls/CH_R03_SHAYNTV/variant.m3u8
@@ -755,7 +749,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_8/variant.m3u8
 #EXTINF:-1 tvg-id="pervy-pl9" channelId="1" group-title="Региональные" catchup-enable="1",Первый канал (+9)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_1TV/variant.m3u8
-#EXTINF:-1 tvg-id="pervy" channelId="1" group-title="Региональные" catchup-enable="1",Первый канал (Магадан)
+#EXTINF:-1 tvg-id="pervy-pl8" channelId="1" group-title="Региональные" catchup-enable="1",Первый канал (Магадан)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_1TV/variant.m3u8
 #EXTINF:-1 tvg-id="piatnica-pl2" group-title="Региональные" catchup-enable="1",Пятница (+2)
@@ -785,6 +779,9 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_4/variant.m3u8
 #EXTINF:-1 tvg-id="rentv-pl7" group-title="Региональные" catchup-enable="1",Рен ТВ (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_7/variant.m3u8
+#EXTINF:-1 tvg-id="rentv" tvg-shift="-2" group-title="Региональные" catchup-enable="1",Рен ТВ (Екатеринбург)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R02_OTT_RENTV_EKT/variant.m3u8
 #EXTINF:-1 tvg-id="rossia1" channelId="2" tvg-shift="0" group-title="Региональные" catchup-enable="1",Россия 1 (Калининград)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NW_KLGR_ROSSIA1/variant.m3u8
@@ -896,6 +893,9 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_CHE_4/variant.m3u8
 #EXTINF:-1 tvg-id="che-pl7" group-title="Региональные" catchup-enable="1",Че (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ_7/variant.m3u8
+#EXTINF:-1 group-title="Региональные" catchup-enable="1",Че (Омск)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R02_OTT_SIB_OMSK_PERETZ/variant.m3u8
 #EXTINF:-1 tvg-id="yu-pl2" group-title="Региональные" catchup-enable="1",Ю (+2)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_U_2/variant.m3u8
