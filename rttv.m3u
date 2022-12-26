@@ -182,7 +182,7 @@ http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_31TVK_CHEL/variant.m3u8
 #EXTINF:-1 tvg-id="49kanal" group-title="Региональные" catchup-enable="1",49 канал HD (Новосибирск)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_49CHANNEL/variant.m3u8
-#EXTINF:-1 tvg-id="6tv" group-title="Региональные" catchup-enable="1",6 ТВ
+#EXTINF:-1 tvg-id="6tv" group-title="Региональные" catchup-enable="1",6ТВ (Хабаровск)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_6TV/variant.m3u8
 #EXTINF:-1 tvg-id="7kanal-krasnoyarsk" group-title="Региональные" catchup-enable="1",7 Канал HD (Красноярск)
