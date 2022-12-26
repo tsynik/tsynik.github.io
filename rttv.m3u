@@ -536,7 +536,7 @@ http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_UL_STB/variant.m3u8
 #EXTINF:-1 tvg-id="surgut-24" group-title="Региональные" catchup-enable="1",Сургут 24
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SURGUT24/variant.m3u8
-#EXTINF:-1 tvg-id="no_epg" tvg-logo="https://online-red.com/images/tv/7-tv.png" group-title="Региональные" catchup-enable="1",ТВ-7 (Абакан)
+#EXTINF:-1 tvg-id="no_epg" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/d/d4/%D0%A2%D0%927_%D0%90%D0%B1%D0%B0%D0%BA%D0%B0%D0%BD_2021.png/revision/latest/scale-to-width-down/1000?cb=20210630105702&path-prefix=ru" group-title="Региональные" catchup-enable="1",ТВ-7 (Абакан)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8
 #EXTINF:-1 tvg-id="tv-in" group-title="Региональные" catchup-enable="1",ТВ-ИН HD (Магнитогорск)
