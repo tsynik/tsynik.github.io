@@ -11,7 +11,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/variant.m3u8
 #EXTINF:-1 channelId="3" tvg-id="match-tv" group-title="Эфирные" catchup-enable="1",Матч! ТВ
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
-#EXTINF:-1 channelId="4" tvg-id="ntv" tvg-logo="http://epg.it999.ru/img2/5706.png" group-title="Эфирные" catchup-enable="1",НТВ
+#EXTINF:-1 channelId="4" tvg-id="ntv" tvg-logo="http://epg.it999.ru/img2/162.png" group-title="Эфирные" catchup-enable="1",НТВ
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/variant.m3u8
 #EXTINF:-1 channelId="5" tvg-id="5kanal-ru" group-title="Эфирные" catchup-enable="1",Пятый канал
