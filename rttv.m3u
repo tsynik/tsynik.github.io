@@ -290,7 +290,7 @@ http://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_YARL_GTREG/variant.m3u
 #EXTINF:-1 tvg-id="gubernia-33" group-title="Региональные" catchup-enable="1",Губерния 33 HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_VLAD_GUBERNIA33/variant.m3u8
-#EXTINF:-1 tvg-id="gubernia-samara" group-title="Региональные" catchup-enable="1",Губерния Самара
+#EXTINF:-1 tvg-id="gubernia-samara" group-title="Региональные" catchup-enable="1",Губерния (Самара)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_OTT_VLG_SAMARA_GUBERNIA/variant.m3u8
 #EXTINF:-1 tvg-id="gubernia" group-title="Региональные" catchup-enable="1",Губерния (Хабаровск)
@@ -323,7 +323,7 @@ http://rt-sth-nalch-htlive-lb.cdn.ngenix.net/hls/CH_R01_OTT_STH_NALCH_KBR/varian
 #EXTINF:-1 tvg-id="kavkaz24" group-title="Региональные" catchup-enable="1",Кавказ 24
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_STAVR_KAVKAZ24/variant.m3u8
-#EXTINF:-1 tvg-id="no_epg_news" tvg-logo="https://kamchatka1.tv/images/logo-bells-camchatka.svg" group-title="Региональные" catchup-enable="1",Камчатка 1 HD
+#EXTINF:-1 tvg-id="no_epg_news" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/3/32/%D0%9A%D0%B0%D0%BC%D1%87%D0%B0%D1%82%D0%BA%D0%B0_1.png/revision/latest/scale-to-width-down/1000?cb=20201205121026&path-prefix=ru" group-title="Региональные" catchup-enable="1",Камчатка 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_KAMCHATKA/variant.m3u8
 #EXTINF:-1 tvg-id="kaskad24" group-title="Региональные" catchup-enable="1",Каскад-24
@@ -608,7 +608,7 @@ http://s45177.cdn.ngenix.net/hls/CH_R03_SHAYNTV/variant.m3u8
 #EXTINF:-1 group-title="Региональные" catchup-enable="1",Экспресс HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-penza-htlive.cdn.ngenix.net/hls/CH_R01_EXPRESS/variant.m3u8
-#EXTINF:-1 tvg-logo="https://www.efir-kazan.ru/kazan/logo_efir.png" group-title="Региональные" catchup-enable="1",Эфир (Казань)
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/9/93/%D0%AD%D1%84%D0%B8%D1%80_%28%D0%B3._%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C%29_%282010%29.png/revision/latest/scale-to-width-down/1000?cb=20220510200922&path-prefix=ru" group-title="Региональные" catchup-enable="1",Эфир (Казань)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R01_EFIR/variant.m3u8
 #EXTINF:-1 tvg-id="utv-cheboxary" group-title="Региональные" catchup-enable="1",ЮТВ Чебоксары
