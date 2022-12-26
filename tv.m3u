@@ -1112,15 +1112,61 @@ http://strm.yandex.ru/kal/start/start0.m3u8
 #
 # Adults http://lampatv.fun/json/erotic.json
 #
-#EXTINF:-1 group-title="Взрослые" tvg-logo="http://lampatv.fun/pics/adultiptv" catchup-enable="0",AdultIPTV.net
-http://cdn.adultiptv.net/threesome.m3u8
-#EXTINF:-1 group-title="Взрослые" tvg-logo="https://www.ast.tv/img/ast-tv_logo-beta.png" catchup-enable="0",AST TV
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Live Cams" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Live Cams
+http://live.adultiptv.net/livecams.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net MILF" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net MILF
+http://live.adultiptv.net/milf.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Big Dick" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Big Dick
+http://live.adultiptv.net/bigdick.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Big Tits" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Big Tits
+http://live.adultiptv.net/bigtits.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Fetish" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Fetish
+http://live.adultiptv.net/fetish.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Pornstar" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Pornstar
+http://live.adultiptv.net/pornstar.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Big Ass" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Big Ass
+http://live.adultiptv.net/bigass.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Interracial" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Interracial
+http://live.adultiptv.net/interracial.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Latina" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Latina
+http://live.adultiptv.net/latina.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net POV" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net POV
+http://live.adultiptv.net/pov.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Blowjob" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Blowjob
+http://live.adultiptv.net/blowjob.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Teen" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Teen
+http://live.adultiptv.net/teen.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Hardcore" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Hardcore
+http://live.adultiptv.net/hardcore.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Cuckold" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Cuckold
+http://live.adultiptv.net/cuckold.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Threesome" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Threesome
+http://live.adultiptv.net/threesome.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Russian" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Russian
+http://live.adultiptv.net/russian.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Lesbian" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Lesbian
+http://live.adultiptv.net/lesbian.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Rough" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Rough
+http://live.adultiptv.net/rough.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Gangbang" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Gangbang
+http://live.adultiptv.net/gangbang.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Anal" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Anal
+http://live.adultiptv.net/anal.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Compilation" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Compilation
+http://live.adultiptv.net/compilation.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Brunette" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Brunette
+http://live.adultiptv.net/brunette.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Blonde" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Blonde
+http://live.adultiptv.net/blonde.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Gay" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Gay
+http://live.adultiptv.net/gay.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-name="AdultIPTV.net Asian" tvg-logo="https://files.adultiptv.net/adultiptvnet.jpg" group-title="Взрослые" catchup-enable="0",AdultIPTV.net Asian
+http://live.adultiptv.net/asian.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-logo="https://www.ast.tv/img/ast-tv_logo-beta.png" group-title="Взрослые" catchup-enable="0",AST TV T.Girls
+https://ast.tv/stream/1/master.m3u8
+#EXTINF:-1 tvg-id="no_epg_xxx" tvg-logo="https://www.ast.tv/img/ast-tv_logo-beta.png" group-title="Взрослые" catchup-enable="0",AST TV Trans
 https://ast.tv/stream/2/master.m3u8
-#EXTINF:-1 group-title="Взрослые" tvg-logo="http://epg.it999.ru/img2/2193.png" catchup-enable="0",Erox
-http://94.229.250.73:8008/play/a002
-#EXTINF:-1 group-title="Взрослые" tvg-logo="http://lampatv.fun/pics/pinko" catchup-enable="0",PinkoClub
-http://93.152.174.144:4000/play/pinkotv/tracks-v1a1/index.m3u8
-#EXTINF:-1 group-title="Взрослые" tvg-logo="http://epg.it999.ru/img2/2779.png" catchup-enable="0",Penthouse Quickies HD
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2779.png" group-title="Взрослые" catchup-enable="0",Penthouse Quickies HD
 http://80.24.75.92:5555/udp/239.111.4.2:1234
 #EXTINF:-1 tvg-id="russkaya-noch" group-title="Взрослые" catchup-enable="0",Русская ночь
 http://46.174.83.66/Russkaya_Noch/video.m3u8
