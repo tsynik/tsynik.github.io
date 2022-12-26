@@ -278,7 +278,7 @@ http://rt-sth-vgrad-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VGRAD_VOLGOGRAD24/v
 #EXTINF:-1 tvg-id="vostok-24" group-title="Региональные" catchup-enable="1",Восток 24
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s91030.cdn.ngenix.net/hls/CH_R01_OTT_DV_VLD_VOSTOK24_OTT/variant.m3u8
-#EXTINF:-1 tvg-id="no_epg_news" group-title="Региональные" tvg-logo="https://assets.iptv2022.com/static/channel/10467/logo_256_1660800341.png" catchup-enable="1",ВТК «Аргус» HD
+#EXTINF:-1 tvg-id="no_epg_news" group-title="Региональные" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/9/93/%D0%92%D0%A2%D0%9A_41_%D0%90%D1%80%D0%B3%D1%83%D1%81_%28%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9_%D1%86%D0%B2%D0%B5%D1%82%29.png/revision/latest?cb=20200520084623&path-prefix=ru" catchup-enable="1",ВТК 41 «Аргус» HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 https://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_ARGUS/variant.m3u8
 #EXTINF:-1 tvg-id="gis-samara" group-title="Региональные" catchup-enable="1",ГИС Самара
