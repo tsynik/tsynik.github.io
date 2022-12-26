@@ -218,10 +218,10 @@ http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ATVMEDIA/variant.m3u8
 #EXTINF:-1 tvg-id="aktis" group-title="Региональные" catchup-enable="1",Актис HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-irk-htlive-lb.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_AKTIS/variant.m3u8
-# #EXTINF:-1 tvg-id="arig-us-24" group-title="Региональные" catchup-enable="1",Ариг Ус 24 HD  
-# #EXTVLCOPT:http-user-agent=Mozilla 5.0  
-# http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ARIGUS/variant.m3u8  
-#EXTINF:-1 tvg-id="arig-us-24" group-title="Региональные" catchup-enable="1",Ариг Ус 24 HD
+#EXTINF:-1 tvg-id="arig-us-24" group-title="Региональные" catchup-enable="1",Ариг Ус 24 HD  
+#EXTVLCOPT:http-user-agent=Mozilla 5.0  
+http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ARIGUS/variant.m3u8  
+#EXTINF:-1 tvg-id="arig-us-24" group-title="Региональные" catchup-enable="1",Ариг Ус 24 HD (OTT)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_UUDE_ARIGUS/variant.m3u8
 #EXTINF:-1 tvg-id="arktik-tv" group-title="Региональные" catchup-enable="1",Арктик-TV HD
@@ -443,7 +443,13 @@ http://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R01_OTR/variant.m3u8
 #EXTINF:-1 tvg-id="otr" tvg-shift="0" group-title="Региональные" catchup-enable="1",ОТР (Сыктывкар)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R01_OTR_SKTV/variant.m3u8
-#EXTINF:-1 tvg-id="pervy-oblastnoy-orel" group-title="Региональные" catchup-enable="1",Первый областной Орел
+#EXTINF:-1 tvg-id="pervy-gorodskoy-kirov" group-title="Региональные" catchup-enable="1",Первый городской (Киров)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R03_PERVYGORODSKOY/variant.m3u8
+#EXTINF:-1 tvg-id="pervy-gorodskoy-omsk" group-title="Региональные" catchup-enable="1",Первый городской (Омск)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_1GORODSKOY/variant.m3u8
+#EXTINF:-1 tvg-id="pervy-oblastnoy-orel" group-title="Региональные" catchup-enable="1",Первый областной (Орел)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_PERVOBL/variant.m3u8
 #EXTINF:-1 tvg-id="pervy-tulsky" group-title="Региональные" catchup-enable="1",Первый Тульский HD
@@ -452,12 +458,6 @@ http://rt-ct-tula-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_TULA_PERV_TUL/variant.
 #EXTINF:-1 group-title="Региональные" catchup-enable="1",Первый Ярославский HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_YARL_NTM/variant.m3u8
-#EXTINF:-1 tvg-id="pervy-gorodskoy-kirov" group-title="Региональные" catchup-enable="1",Первый городской (Киров)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R03_PERVYGORODSKOY/variant.m3u8
-#EXTINF:-1 tvg-id="pervy-gorodskoy-omsk" group-title="Региональные" catchup-enable="1",Первый городской (Омск)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_1GORODSKOY/variant.m3u8
 #EXTINF:-1 tvg-id="prima" group-title="Региональные" catchup-enable="1",Прима
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3u8
