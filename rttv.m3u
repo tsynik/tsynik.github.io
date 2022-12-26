@@ -437,13 +437,13 @@ http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R04_OTT_OBJECTIVE59/variant.m3u
 #EXTINF:-1 tvg-id="osetia-iryston" group-title="Региональные" catchup-enable="1",Осетия-Ирыстон HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VKAZ_IRISTON/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ОТР (Екатеринбург)
+#EXTINF:-1 tvg-id="otr" tvg-shift="-2" group-title="Региональные" catchup-enable="1",ОТР (Екатеринбург)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_OTR_EKT/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ОТР (Оренбург)
+#EXTINF:-1 tvg-id="ort-planeta-orenburg" group-title="Региональные" catchup-enable="1",ОТР (Оренбург)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R01_OTR/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ОТР (Сыктывкар)
+#EXTINF:-1 tvg-id="otr" tvg-shift="0" group-title="Региональные" catchup-enable="1",ОТР (Сыктывкар)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R01_OTR_SKTV/variant.m3u8
 #EXTINF:-1 tvg-id="pervy-oblastnoy-orel" group-title="Региональные" catchup-enable="1",Первый областной Орел
