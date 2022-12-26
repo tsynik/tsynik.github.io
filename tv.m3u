@@ -917,7 +917,7 @@ https://okkotv-live.cdnvideo.ru/channel/A2_HD.m3u8
 #EXTINF:-1 tvg-id="amedia-hit" group-title="Кино и сериалы",Amedia Hit HD
 https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD.m3u8
 # #EXTINF:-1 group-title="Детские" catchup-enable="0",Ani  
-#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Animal Planet HD
+#EXTINF:-1 tvg-id="animal-planet" group-title="Познавательные" catchup-enable="0",Animal Planet HD
 https://livetv.mylifeisgood.ml/channels/animalplanethd
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood HD
 http://46.19.100.174:4450/play/a00h/index.m3u8
@@ -963,7 +963,7 @@ https://okkotv-live.cdnvideo.ru/channel/Fox_HD.m3u8
 # http://188.40.68.167/russia/jimjam/playlist.m3u8
 # #EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL  
 # #EXTINF:-1 group-title="Спортивные" tvg-id="kxl-prime" catchup-enable="0",KHL Prime HD  
-#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="http://lampatv.fun/pics/MMA Junkie.png" group-title="Спортивные" catchup-enable="0",MMA Junkie HD
+#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://mmajunkie.usatoday.com/wp-content/uploads/sites/91/2017/07/mmaj-header-logo.png" group-title="Спортивные" catchup-enable="0",MMA Junkie HD
 https://a.jsrdn.com/broadcast/80f6ba72c8/+0000/high/c.m3u8
 # #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
 # #EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные" catchup-enable="0",Nat Geo Wild Russia HD  
