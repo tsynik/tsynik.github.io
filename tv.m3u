@@ -209,10 +209,10 @@ http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_TRAVEL/variant.m3u8
 #EXTINF:-1 tvg-id="aist" group-title="Региональные" catchup-enable="1",АИСТ ТВ HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_AIST/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",АТВ
+#EXTINF:-1 tvg-id="no_epg" tvg-logo="http://epg.it999.ru/img2/5767.png" group-title="Региональные" catchup-enable="1",АТВ (Ставрополь)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_ATV/variant.m3u8
-#EXTINF:-1 tvg-id="atv-media" group-title="Региональные" catchup-enable="1",АТВ-Медиа (Ставрополь)
+#EXTINF:-1 tvg-id="atv-media" group-title="Региональные" catchup-enable="1",АТВ-Медиа
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ATVMEDIA/variant.m3u8
 #EXTINF:-1 tvg-id="aktis" group-title="Региональные" catchup-enable="1",Актис HD
@@ -314,7 +314,7 @@ http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KRSK_ENISEY/variant.
 #EXTINF:-1 tvg-id="ivanovo-ot" group-title="Региональные" catchup-enable="1",Ивановское общественное телевидение
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ct-ivan-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_IVAN_IOT/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Информационная служба Югры
+#EXTINF:-1 tvg-id="no_epg_news" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/f/f7/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9_2.png/revision/latest/scale-to-width-down/1000?cb=20210810175350&path-prefix=ru" group-title="Региональные" catchup-enable="1",Информационная служба Югры
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_PERVIYSOVETSKIY/variant.m3u8
 #EXTINF:-1 tvg-id="kabardino-balkaria" group-title="Региональные" catchup-enable="1",Кабардино-Балкария HD
@@ -323,7 +323,7 @@ http://rt-sth-nalch-htlive-lb.cdn.ngenix.net/hls/CH_R01_OTT_STH_NALCH_KBR/varian
 #EXTINF:-1 tvg-id="kavkaz24" group-title="Региональные" catchup-enable="1",Кавказ 24
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_STAVR_KAVKAZ24/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Камчатка 1 HD
+#EXTINF:-1 tvg-id="no_epg_news" tvg-logo="https://kamchatka1.tv/wp-content/uploads/2020/11/cropped-logo.png" group-title="Региональные" catchup-enable="1",Камчатка 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_KAMCHATKA/variant.m3u8
 #EXTINF:-1 tvg-id="kaskad24" group-title="Региональные" catchup-enable="1",Каскад-24
@@ -389,9 +389,6 @@ http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_RENTVIRK/variant.
 #EXTINF:-1 tvg-id="nts-irbit" group-title="Региональные" catchup-enable="1",НТС-Ирбит (Екатеринбург)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_IRBITVEST_EKT/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Национальное телевидение Чувашии HD
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VLG_CHR_NATIONALTV/variant.m3u8
 #EXTINF:-1 tvg-id="nash-dom" group-title="Региональные" catchup-enable="1",Наш дом HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-penza-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_PENZA_NASHDOM/variant.m3u8
@@ -404,7 +401,7 @@ http://rt-ct-kaluga-htlive.cdn.ngenix.net/hls/CH_R01_NIKA/variant.m3u8
 #EXTINF:-1 tvg-id="novgorodskoe-obl-tv" group-title="Региональные" catchup-enable="1",Новгородское областное телевидение
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-nw-novg-htlive.cdn.ngenix.net/hls/CH_R02_NOVGORODTV/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Новое время (Радужный)
+#EXTINF:-1 tvg-id="no_epg_news" tvg-logo="https://iptvz.cf/2-kanal-mogilev.png" group-title="Региональные" catchup-enable="1",Новое время (Радужный)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_RADUZNYI/variant.m3u8
 #EXTINF:-1 group-title="Региональные" catchup-enable="1",Новый век (Тамбов)
@@ -428,7 +425,7 @@ http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R02_OTT_OTV_URAL_CHEL/variant.m
 #EXTINF:-1 tvg-id="ots" group-title="Региональные" catchup-enable="1",ОТС HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_OTS/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Область 45 HD (Курган)
+#EXTINF:-1 tvg-id="no_epg_news" tvg-logo="https://oblast45.ru/static/images/og-logo.png" group-title="Региональные" catchup-enable="1",Область 45 HD (Курган)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_OBLAST45/variant.m3u8
 #EXTINF:-1 tvg-id="objektiv-59" group-title="Региональные" catchup-enable="1",Объектив 59 HD
@@ -506,7 +503,7 @@ http://rt-sth-rd-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_RD_ROSTOVPAPA/variant.
 #EXTINF:-1 tvg-id="russky-sever" group-title="Региональные" catchup-enable="1",Русский Север
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Русь (Кострома)
+#EXTINF:-1 tvg-id="no_epg" tvg-logo="https://assets.iptv2022.com/static/channel/10690/logo_256_1655388777.png" group-title="Региональные" catchup-enable="1",Русь (Кострома)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ct-kostroma-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_KOSTROMA_RUS/variant.m3u8
 #EXTINF:-1 tvg-id="rybinsk40" group-title="Региональные" catchup-enable="1",Рыбинск-40
@@ -539,10 +536,10 @@ http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_UL_STB/variant.m3u8
 #EXTINF:-1 tvg-id="surgut-24" group-title="Региональные" catchup-enable="1",Сургут 24
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SURGUT24/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТВ-7 (Абакан)
+#EXTINF:-1 tvg-id="no_epg" tvg-logo="https://online-red.com/images/tv/7-tv.png" group-title="Региональные" catchup-enable="1",ТВ-7 (Абакан)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТВ-ИН HD (Магнитогорск)
+#EXTINF:-1 tvg-id="tv-in" group-title="Региональные" catchup-enable="1",ТВ-ИН HD (Магнитогорск)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_TVIN_MAGN/variant.m3u8
 #EXTINF:-1 tvg-id="tv21plus" group-title="Региональные" catchup-enable="1",ТВ21+ (Мурманск)
@@ -560,12 +557,9 @@ http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_TNV_PLANETA_URAL/variant
 #EXTINF:-1 tvg-id="tnv" group-title="Региональные" catchup-enable="1",ТНВ-Татарстан
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R01_TNVT/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТНР24 HD (Нижневартовск)
+#EXTINF:-1 tvg-id="no_epg_news" tvg-logo="https://dantser.ru/wp-content/uploads/2020/04/tnr24.jpg" group-title="Региональные" catchup-enable="1",ТНР24 HD (Нижневартовск)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TNR24/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТОЛК (Барнаул)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_BUL_TOLK/variant.m3u8
 #EXTINF:-1 tvg-id="tagil-tv-24" group-title="Региональные" catchup-enable="1",Тагил-ТВ 24
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_TAGILTV_URAL_TAG/variant.m3u8
@@ -578,6 +572,9 @@ http://rt-ct-tver-htlive.cdn.ngenix.net/hls/CH_R01_TVERPROSP/variant.m3u8
 #EXTINF:-1 tvg-id="tivikom" group-title="Региональные" catchup-enable="1",Тивиком HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_UUDE_TIVICOM/variant.m3u8
+#EXTINF:-1 tvg-id="no_epg" tvg-logo="https://assets.iptv2022.com/static/channel/10463/logo_256_1660809624.png" group-title="Региональные" catchup-enable="1",ТОЛК (Барнаул)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_BUL_TOLK/variant.m3u8
 #EXTINF:-1 tvg-id="tolpartv" group-title="Региональные" catchup-enable="1",Толпар-ТВ (Уфа)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s45177.cdn.ngenix.net/hls/CH_R02_TOLPAR/variant.m3u8
@@ -602,6 +599,9 @@ http://rt-sth-elista-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_ELISTA_HAMDAN/vari
 #EXTINF:-1 tvg-id="chavash-en" group-title="Региональные" catchup-enable="1",Чаваш ЕН HD (Чувашия)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_NATIONALTV/variant.m3u8
+#EXTINF:-1 tvg-id="chavash-en" group-title="Региональные" catchup-enable="1",Чаваш ЕН HD (OTT)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VLG_CHR_NATIONALTV/variant.m3u8
 #EXTINF:-1 group-title="Региональные" catchup-enable="1",Шаян ТВ
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s45177.cdn.ngenix.net/hls/CH_R03_SHAYNTV/variant.m3u8
@@ -614,7 +614,7 @@ http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R01_EFIR/variant.m3u8
 #EXTINF:-1 tvg-id="utv-cheboxary" group-title="Региональные" catchup-enable="1",ЮТВ Чебоксары
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VLG_CHR_UTV/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Югорск ТВ
+#EXTINF:-1 tvg-id="no_epg" tvg-logo="https://ugorsk.ru/wp-content/uploads/2022/08/uv-1.jpg" group-title="Региональные" catchup-enable="1",Югорск ТВ
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_YUGORSKTV/variant.m3u8
 #EXTINF:-1 group-title="Региональные" catchup-enable="1",Югра
