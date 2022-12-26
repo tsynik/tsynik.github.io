@@ -608,7 +608,7 @@ http://s45177.cdn.ngenix.net/hls/CH_R03_SHAYNTV/variant.m3u8
 #EXTINF:-1 group-title="Региональные" catchup-enable="1",Экспресс HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-penza-htlive.cdn.ngenix.net/hls/CH_R01_EXPRESS/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Эфир (Казань)
+#EXTINF:-1 tvg-logo="https://www.efir-kazan.ru/kazan/logo_efir.png" group-title="Региональные" catchup-enable="1",Эфир (Казань)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R01_EFIR/variant.m3u8
 #EXTINF:-1 tvg-id="utv-cheboxary" group-title="Региональные" catchup-enable="1",ЮТВ Чебоксары
