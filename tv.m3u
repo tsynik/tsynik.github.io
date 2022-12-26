@@ -392,7 +392,7 @@ http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_IRBITVEST_EKT/variant.m3u8
 #EXTINF:-1 tvg-id="nash-dom" group-title="Региональные" catchup-enable="1",Наш дом HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-penza-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_PENZA_NASHDOM/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",Наши города HD (Когалым)
+#EXTINF:-1 tvg-id="no_epg" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/9/99/1582773936135.png/revision/latest?cb=20200227032605&path-prefix=ru" group-title="Региональные" catchup-enable="1",Наши города HD (Когалым)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NGOR_URAL_SUR/variant.m3u8
 #EXTINF:-1 tvg-id="nika-tv" group-title="Региональные" catchup-enable="1",Ника ТВ
