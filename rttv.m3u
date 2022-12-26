@@ -323,7 +323,7 @@ http://rt-sth-nalch-htlive-lb.cdn.ngenix.net/hls/CH_R01_OTT_STH_NALCH_KBR/varian
 #EXTINF:-1 tvg-id="kavkaz24" group-title="Региональные" catchup-enable="1",Кавказ 24
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_STAVR_KAVKAZ24/variant.m3u8
-#EXTINF:-1 tvg-id="no_epg_news" tvg-logo="https://kamchatka1.tv/wp-content/uploads/2020/11/cropped-logo.png" group-title="Региональные" catchup-enable="1",Камчатка 1 HD
+#EXTINF:-1 tvg-id="no_epg_news" tvg-logo="https://kamchatka1.tv/images/logo-bells-camchatka.svg" group-title="Региональные" catchup-enable="1",Камчатка 1 HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_KAMCHATKA/variant.m3u8
 #EXTINF:-1 tvg-id="kaskad24" group-title="Региональные" catchup-enable="1",Каскад-24
