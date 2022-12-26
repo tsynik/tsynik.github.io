@@ -596,12 +596,12 @@ http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R01_ULPRAVDA/variant.m3u8
 #EXTINF:-1 tvg-id="xamdan-kalm24" group-title="Региональные" catchup-enable="1",Хамдан-Калмыкия 24 (Элиста)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sth-elista-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_ELISTA_HAMDAN/variant.m3u8
-#EXTINF:-1 tvg-id="chavash-en" group-title="Региональные" catchup-enable="1",Чаваш ЕН HD (Чувашия)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_NATIONALTV/variant.m3u8
 #EXTINF:-1 tvg-id="chavash-en" group-title="Региональные" catchup-enable="1",Чаваш ЕН HD (OTT)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VLG_CHR_NATIONALTV/variant.m3u8
+#EXTINF:-1 tvg-id="chavash-en" group-title="Региональные" catchup-enable="1",Чаваш ЕН HD (Чувашия)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_NATIONALTV/variant.m3u8
 #EXTINF:-1 group-title="Региональные" catchup-enable="1",Шаян ТВ
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s45177.cdn.ngenix.net/hls/CH_R03_SHAYNTV/variant.m3u8
