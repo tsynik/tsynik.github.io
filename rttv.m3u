@@ -785,7 +785,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_4/variant.m3u8
 #EXTINF:-1 tvg-id="rentv-pl7" group-title="Региональные" catchup-enable="1",Рен ТВ (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_7/variant.m3u8
-#EXTINF:-1 shift="-1" tvg-id="rossia1" channelId="2" tvg-shift="+1" group-title="Региональные" catchup-enable="1",Россия 1 (Калининград)
+#EXTINF:-1 tvg-id="rossia1" channelId="2" tvg-shift="0" group-title="Региональные" catchup-enable="1",Россия 1 (Калининград)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NW_KLGR_ROSSIA1/variant.m3u8
 #EXTINF:-1 tvg-id="rossia1-pl1" channelId="2" group-title="Региональные" catchup-enable="1",Россия 1 (+1)
