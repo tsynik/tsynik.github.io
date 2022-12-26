@@ -500,9 +500,9 @@ http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_ROSSIA24/variant.m3u8
 #EXTINF:-1 tvg-id="rostov-papa" group-title="Региональные" catchup-enable="1",Ростов-папа HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sth-rd-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_RD_ROSTOVPAPA/variant.m3u8
-#EXTINF:-1 tvg-id="russky-sever" group-title="Региональные" catchup-enable="1",Русский Север
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8
+#EXTINF:-1 tvg-id="russky-sever" group-title="Региональные" catchup-enable="1",Русский Север  
+#EXTVLCOPT:http-user-agent=Mozilla 5.0  
+http://rt-nw-vol-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8  
 #EXTINF:-1 tvg-id="no_epg" tvg-logo="https://assets.iptv2022.com/static/channel/10690/logo_256_1655388777.png" group-title="Региональные" catchup-enable="1",Русь (Кострома)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ct-kostroma-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_KOSTROMA_RUS/variant.m3u8
@@ -542,13 +542,13 @@ http://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8
 #EXTINF:-1 tvg-id="tv-in" group-title="Региональные" catchup-enable="1",ТВ-ИН HD (Магнитогорск)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_TVIN_MAGN/variant.m3u8
-#EXTINF:-1 tvg-id="tv21plus" group-title="Региональные" catchup-enable="1",ТВ21+ (Мурманск)
+#EXTINF:-1 tvg-id="tv21plus" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/8/86/%D0%AD%D1%84%D0%B8%D1%80%D0%BD%D1%8B%D0%B9_%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A2%D0%9221%2B_%28%D0%9C%D1%83%D1%80%D0%BC%D0%B0%D0%BD%D1%81%D0%BA%29_%D1%81_1_%D0%BC%D0%B0%D1%80%D1%82%D0%B0_2022_%D0%B4%D0%BE_%D0%BD%D0%B0%D1%81%D1%82%D0%BE%D1%8F%D1%89%D0%B5%D0%B5_%D0%B2%D1%80%D0%B5%D0%BC%D1%8F%29.png/revision/latest?cb=20220304091321&path-prefix=ru" group-title="Региональные" catchup-enable="1",ТВ21+ (Мурманск)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R01_TV21PLUS/variant.m3u8
 #EXTINF:-1 tvg-id="tk-variant" group-title="Региональные" catchup-enable="1",ТК Вариант
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_VARIANT_V/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТКР Рязань HD
+#EXTINF:-1 tvg-id="trk-ryazan" group-title="Региональные" catchup-enable="1",ТКР HD (Рязань)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ct-ryaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_RYAZ_TKP/variant.m3u8
 #EXTINF:-1 group-title="Региональные" catchup-enable="1",ТНВ-Планета
