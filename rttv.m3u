@@ -695,9 +695,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/variant.m3u8
 #EXTINF:-1 tvg-id="muztv-pl7" channelId="20" group-title="Региональные" catchup-enable="1",Муз ТВ (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/variant.m3u8
-#EXTINF:-1 channelId="4" tvg-id="ntv" group-title="Региональные" catchup-enable="1",НТВ (Мурманск)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R03_OTT_NW_MURM_NTV/variant.m3u8
 #EXTINF:-1 tvg-id="ntv-pl1" channelId="4" group-title="Региональные" catchup-enable="1",НТВ (+1) (Саратов)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_NTV/variant.m3u8
@@ -710,6 +707,9 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_4/variant.m3u8
 #EXTINF:-1 tvg-id="ntv-pl7" channelId="4" group-title="Региональные" catchup-enable="1",НТВ (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_7/variant.m3u8
+#EXTINF:-1 channelId="4" tvg-id="ntv" group-title="Региональные" catchup-enable="1",НТВ (Мурманск)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R03_OTT_NW_MURM_NTV/variant.m3u8
 #EXTINF:-1 tvg-id="pervy-pl1" channelId="1" group-title="Региональные" catchup-enable="1",Первый канал (+1)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_1TV/variant.m3u8
@@ -845,9 +845,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_4/variant.m3u8
 #EXTINF:-1 tvg-id="super-pl7" group-title="Региональные" catchup-enable="1",Супер (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER_7/variant.m3u8
-#EXTINF:-1 tvg-id="tvcentr" group-title="Региональные" catchup-enable="1",ТВ Центр (Мурманск)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NW_MURM_TVC/variant.m3u8
 #EXTINF:-1 tvg-id="tvcentr-pl2" group-title="Региональные" catchup-enable="1",ТВ Центр (+2)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_2/variant.m3u8
@@ -857,6 +854,9 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_4/variant.m3u8
 #EXTINF:-1 tvg-id="tvcentr-pl7" group-title="Региональные" catchup-enable="1",ТВ Центр (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_7/variant.m3u8
+#EXTINF:-1 tvg-id="tvcentr" tvg-shift="0" group-title="Региональные" catchup-enable="1",ТВ Центр (Мурманск)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NW_MURM_TVC/variant.m3u8
 #EXTINF:-1 tvg-id="tv3-ru-pl2" group-title="Региональные" catchup-enable="1",ТВ-3 (+2)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3_2/variant.m3u8
