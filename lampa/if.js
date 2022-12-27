@@ -88,6 +88,7 @@
         network.timeout(5000);
         network.silent(url, function (movie) {
           loaded[url] = movie;
+
           _this.draw(movie);
         });
       }, 300);
@@ -179,6 +180,7 @@
       info = new create(object);
       info.create();
       scroll.minus(info.render());
+      data.slice(0, viewall ? data.length : 2).forEach(this.append.bind(this));
       html.append(info.render());
       html.append(scroll.render());
 
