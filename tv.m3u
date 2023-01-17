@@ -485,18 +485,6 @@ http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R03_REP73/variant.m3u8
 #EXTINF:-1 tvg-id="rifey-tv" group-title="Региональные" catchup-enable="1",Рифей-ТВ
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R02_OTT_RENTV_REFEY_PERM/variant.m3u8
-#EXTINF:-1 tvg-id="rossia-24" channelId="7" group-title="Региональные" catchup-enable="1",Россия 24 (Екатеринбург)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_ROSSIA24_EKT/variant.m3u8
-#EXTINF:-1 tvg-id="rossia-24" channelId="7" group-title="Региональные" catchup-enable="1",Россия 24 (Магадан)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_ROSSIA24/variant.m3u8
-#EXTINF:-1 tvg-id="rossia-24" channelId="7" group-title="Региональные" catchup-enable="1",Россия 24 (Омск)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_ROSSIA24_OMSKOBL/variant.m3u8
-#EXTINF:-1 tvg-id="rossia-24" channelId="7" group-title="Региональные" catchup-enable="1",Россия 24 (Хабаровск)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_ROSSIA24/variant.m3u8
 #EXTINF:-1 tvg-id="rostov-papa" group-title="Региональные" catchup-enable="1",Ростов-папа HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sth-rd-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_RD_ROSTOVPAPA/variant.m3u8
@@ -818,6 +806,18 @@ http://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA1_SKTV/variant.m3u8
 #EXTINF:-1 tvg-id="rossia1" tvg-shift="-7" channelId="2" group-title="Плюсовые" catchup-enable="1",Россия 1 (Хабаровск)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_ROSSIA1/variant.m3u8
+#EXTINF:-1 tvg-id="rossia-24" channelId="7" group-title="Плюсовые" catchup-enable="1",Россия 24 (Екатеринбург)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_ROSSIA24_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="rossia-24" channelId="7" group-title="Плюсовые" catchup-enable="1",Россия 24 (Магадан)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://s20441.cdn.ngenix.net/hls/CH_R49_OTT_DV_MGDN_ROSSIA24/variant.m3u8
+#EXTINF:-1 tvg-id="rossia-24" channelId="7" group-title="Плюсовые" catchup-enable="1",Россия 24 (Омск)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_ROSSIA24_OMSKOBL/variant.m3u8
+#EXTINF:-1 tvg-id="rossia-24" channelId="7" group-title="Плюсовые" catchup-enable="1",Россия 24 (Хабаровск)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_ROSSIA24/variant.m3u8
 #EXTINF:-1 tvg-id="kultura-pl2" channelId="5" group-title="Плюсовые" catchup-enable="1",Россия К (+2)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK_2/variant.m3u8
