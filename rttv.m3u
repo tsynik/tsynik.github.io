@@ -1102,6 +1102,8 @@ http://flu.ttk.mx:9090/Futbol/index.m3u8?token=orh6o
 http://origin5.mediacdn.ru/live/tntmusic/index.m3u8
 # http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
 # #EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс Плюс Кино
+#EXTINF:-1 tvg-id="start" tvg-name="ЧГТРК Грозный" group-title="Региональные" catchup-enable="0",ЧГТРК Грозный
+https://e10-ll.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/1.m3u8
 #
 # Yandex
 #
@@ -1120,8 +1122,6 @@ https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 http://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
 #EXTINF:-1 tvg-id="start" tvg-name="Старт" group-title="Спортивные" catchup-enable="0",СТАРТ HD
 http://strm.yandex.ru/kal/start/start0.m3u8
-#EXTINF:-1 tvg-id="start" tvg-name="ЧГТРК Грозный" group-title="Региональные" catchup-enable="0",ЧГТРК Грозный
-https://e10-ll.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/1.m3u8
 #
 # http://9ak.ru/v/rel/
 #
