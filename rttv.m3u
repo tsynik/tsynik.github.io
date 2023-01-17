@@ -1,7 +1,4 @@
 #EXTM3U m3uautoload=1 url-tvg="https://iptvx.one/EPG" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}"
-#EXTINF:-1 tvg-id="grozny" tvg-name="Грозный" group-title="Региональные" catchup-enable="0",ЧГТРК Грозный
-https://e10-ll.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/1.m3u8
-
 #
 # 1-20
 #
@@ -289,6 +286,8 @@ http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R02_OTT_VLG_SAMARA_SAMARAGIS/v
 #EXTINF:-1 tvg-id="gorodskoy-yaroslavl" group-title="Региональные" catchup-enable="1",Городской телеканал Ярославль
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ct-yarl-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_YARL_GTREG/variant.m3u8
+#EXTINF:-1 tvg-id="grozny" tvg-name="Грозный" group-title="Региональные" catchup-enable="0",Грозный HD
+https://e10-ll.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/1.m3u8
 #EXTINF:-1 tvg-id="gubernia-33" group-title="Региональные" catchup-enable="1",Губерния 33 HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_VLAD_GUBERNIA33/variant.m3u8
@@ -1105,8 +1104,7 @@ http://flu.ttk.mx:9090/Futbol/index.m3u8?token=orh6o
 http://origin5.mediacdn.ru/live/tntmusic/index.m3u8
 # http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
 # #EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс Плюс Кино
-#EXTINF:-1 tvg-id="grozny" tvg-name="Грозный" group-title="Региональные" catchup-enable="0",ЧГТРК Грозный HD
-https://e10-ll.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/1.m3u8#
+#
 # Yandex
 #
 # #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" group-title="Эфирные" catchup-enable="0",360° Подмосковье HD
