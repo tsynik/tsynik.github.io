@@ -470,9 +470,9 @@ http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_PRODVIZHENIE/variant.m3u8
 http://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_5TV/variant.m3u8
 #EXTINF:-1 tvg-id="rgvk-dagestan" group-title="Региональные" catchup-enable="1",РГВК Дагестан
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://rt-sth-mahachk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_MAHACHK_DAGESTAN/variant.m3u8
 #EXTINF:-1 tvg-id="rgvk-dagestan" group-title="Региональные" catchup-enable="0",РГВК Дагестан HD
 https://dagestan.mediacdn.ru/cdn/dagestan/playlist.m3u8
-http://rt-sth-mahachk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_MAHACHK_DAGESTAN/variant.m3u8
 #EXTINF:-1 group-title="Региональные" catchup-enable="1",РИМ HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_OTT_RIM_URAL_KURAL/variant.m3u8
