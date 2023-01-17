@@ -465,9 +465,6 @@ http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3u
 #EXTINF:-1 tvg-id="prodvizhenie" group-title="Региональные" catchup-enable="1",Продвижение
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_PRODVIZHENIE/variant.m3u8
-#EXTINF:-1 channelId="5" group-title="Региональные" catchup-enable="1",Пятый канал (Санкт-Петербург)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_5TV/variant.m3u8
 #EXTINF:-1 tvg-id="rgvk-dagestan" group-title="Региональные" catchup-enable="1",РГВК Дагестан
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sth-mahachk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_MAHACHK_DAGESTAN/variant.m3u8
@@ -761,6 +758,9 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_4/variant.m3u8
 #EXTINF:-1 tvg-id="5kanal-ru-pl7" group-title="Региональные" catchup-enable="1",Пятый канал (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV_7/variant.m3u8
+#EXTINF:-1 tvg-id="5kanal-ru" group-title="Региональные" catchup-enable="1",Пятый канал (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_5TV/variant.m3u8
 #EXTINF:-1 tvg-id="rentv-pl2" group-title="Региональные" catchup-enable="1",Рен ТВ (+2)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV_2/variant.m3u8
