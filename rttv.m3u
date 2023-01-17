@@ -435,15 +435,6 @@ http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R04_OTT_OBJECTIVE59/variant.m3u
 #EXTINF:-1 tvg-id="osetia-iryston" group-title="Региональные" catchup-enable="1",Осетия-Ирыстон HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VKAZ_IRISTON/variant.m3u8
-#EXTINF:-1 tvg-id="otr" tvg-shift="-2" group-title="Региональные" catchup-enable="1",ОТР (Екатеринбург)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_OTR_EKT/variant.m3u8
-#EXTINF:-1 tvg-id="otr" tvg-shift="-2" group-title="Региональные" catchup-enable="1",ОТР (Оренбург)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R01_OTR/variant.m3u8
-#EXTINF:-1 tvg-id="otr" tvg-shift="0" group-title="Региональные" catchup-enable="1",ОТР (Сыктывкар)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R01_OTR_SKTV/variant.m3u8
 #EXTINF:-1 tvg-id="pervy-gorodskoy-kirov" group-title="Региональные" catchup-enable="1",Первый городской (Киров)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R03_PERVYGORODSKOY/variant.m3u8
@@ -701,6 +692,15 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_7/variant.m3u8
 #EXTINF:-1 channelId="4" tvg-id="ntv" group-title="Плюсовые" catchup-enable="1",НТВ (Мурманск)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R03_OTT_NW_MURM_NTV/variant.m3u8
+#EXTINF:-1 tvg-id="otr" tvg-shift="-2" group-title="Плюсовые" catchup-enable="1",ОТР (Екатеринбург)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_OTR_EKT/variant.m3u8
+#EXTINF:-1 tvg-id="otr" tvg-shift="-2" group-title="Плюсовые" catchup-enable="1",ОТР (Оренбург)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://rt-vlg-orb-htlive.cdn.ngenix.net/hls/CH_R01_OTR/variant.m3u8
+#EXTINF:-1 tvg-id="otr" tvg-shift="0" group-title="Плюсовые" catchup-enable="1",ОТР (Сыктывкар)
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R01_OTR_SKTV/variant.m3u8
 #EXTINF:-1 tvg-id="pervy-pl1" channelId="1" group-title="Плюсовые" catchup-enable="1",Первый канал (+1)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_1TV/variant.m3u8
