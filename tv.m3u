@@ -121,10 +121,6 @@ https://okkotv-live.cdnvideo.ru/channel/TV3_OTT_HD.m3u8
 https://okkotv-live.cdnvideo.ru/channel/TNT_OTT_HD.m3u8
 #EXTINF:-1 tvg-id="tnt4" group-title="HD" catchup-enable="0",ТНТ4 HD
 https://bl.uma.media/live/317849/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",START Air HD
-https://okkotv-live.cdnvideo.ru/channel/START_Air_HD.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",START World HD
-https://okkotv-live.cdnvideo.ru/channel/START_World_HD.m3u8
 #
 # 4K
 #
@@ -993,6 +989,10 @@ https://livetv.mylifeisgood.ml/channels/setantahd
 https://livetv.mylifeisgood.ml/channels/setantaplus
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Sony Sci-Fi
 http://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",START Air HD
+http://okkotv-live.cdnvideo.ru/channel/START_Air_HD.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",START World HD
+http://okkotv-live.cdnvideo.ru/channel/START_World_HD.m3u8
 # #EXTINF:-1 group-title="Детские" catchup-enable="0",TiJi  
 # https://sc.id-tv.kz:443/TiJi_34_35.m3u8  
 #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",TV XXI
