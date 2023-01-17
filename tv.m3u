@@ -79,16 +79,6 @@ https://okkotv-live.cdnvideo.ru/channel/Dom_HD_OTT.m3u8
 https://okkotv-live.cdnvideo.ru/channel/Izvestiya_HD_2.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Конный мир HD
 https://bl.uma.media/live/400930/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! HD
-https://okkotv-live.cdnvideo.ru/channel/Match_OTT_HD.m3u8
-# https://bl.uma.media/live/407384/HLS/6307840_7/2/1/playlist.m3u8
-#EXTINF:-1 tvg-id="match-priemer" group-title="Спортивные" catchup-enable="0",Матч! Премьер HD
-https://bl.uma.media/live/126866/HLS/6866944_4/1/1/playlist.m3u8
-# http://85.11.144.9:4222/MatchPremier?token=test
-# http://109.200.130.124:7005/play/a00d
-# http://85.112.114.11:8088/udp/238.2.50.8:1234
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна HD
-http://bl.uma.media/live/291661/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 tvg-id="mir" group-title="HD" catchup-enable="0",Мир HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 tvg-id="mir-24" group-title="HD" catchup-enable="0",Мир 24 HD
@@ -106,12 +96,8 @@ https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Россия 1 HD
 https://okkotv-live.cdnvideo.ru/channel/Russia1HD.m3u8
 # http://cdnmg.secure.live.rtr-vesti.ru/hls2/russia_hd/playlist_6.m3u8
-#EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Страна FM HD
-http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",СТС HD
 https://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT.m3u8
-#EXTINF:-1 group-title="Детские" catchup-enable="0",СТС Kids HD
-https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",Суббота! HD
 http://bl.uma.media/live/317845/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="HD" catchup-enable="0",ТВ-3 HD
@@ -1061,6 +1047,11 @@ http://flu.ttk.mx:9090/kinohit/index.m3u8?token=orh6o
 # #EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы" catchup-enable="0",Кинохит HD
 # #EXTINF:-1 tvg-id="komedijnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Комедийное HD  
 # #EXTINF:-1 tvg-id="la-minor" group-title="Музыкальные" catchup-enable="0",Ля-минор  
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! HD
+https://okkotv-live.cdnvideo.ru/channel/Match_OTT_HD.m3u8
+# https://bl.uma.media/live/407384/HLS/6307840_7/2/1/playlist.m3u8
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна HD
+http://bl.uma.media/live/291661/HLS/4614144_3/2/1/playlist.m3u8
 # #EXTINF:-1 tvg-id="match-tv" tvg-name="Матч! ТВ" group-title="Спортивные" catchup-enable="0",Матч! HD  
 # https://bl.uma.media/live/407384/HLS/6307840_7/2/1/playlist.m3u8  
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Арена  
@@ -1069,6 +1060,11 @@ http://flu.ttk.mx:9090/kinohit/index.m3u8?token=orh6o
 # http://nopic.kulik.uz/channel/n4cd0a431/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0  
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Игра  
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Премьер  
+#EXTINF:-1 tvg-id="match-priemer" group-title="Спортивные" catchup-enable="0",Матч! Премьер HD
+https://bl.uma.media/live/126866/HLS/6866944_4/1/1/playlist.m3u8
+# http://85.11.144.9:4222/MatchPremier?token=test
+# http://109.200.130.124:7005/play/a00d
+# http://85.112.114.11:8088/udp/238.2.50.8:1234
 # #EXTINF:-1 group-title="Спортивные" tvg-id="match-football1" catchup-enable="0",Матч! Футбол 1  
 # #EXTINF:-1 group-title="Спортивные" tvg-id="match-football2" catchup-enable="0",Матч! Футбол 2  
 # #EXTINF:-1 group-title="Спортивные" tvg-id="match-football3" catchup-enable="0",Матч! Футбол 3  
@@ -1105,6 +1101,10 @@ http://86.57.178.105:10823
 http://vid.extremtv.ru/hls_get/cameraFeed.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Сапфир HD
 https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD.m3u8
+#EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Страна FM HD
+http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
+#EXTINF:-1 group-title="Детские" catchup-enable="0",СТС Kids HD
+https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Театр
 http://flu.ttk.mx:9090/Teatr/index.m3u8?token=orh6o
 #EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="0",Телеканал Футбол
