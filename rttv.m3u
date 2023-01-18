@@ -70,6 +70,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 #
 #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="HD и UHD" catchup-enable="0",360° HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
+# http://strm.yandex.ru/kal/360tv/360tv0.m3u8
 #EXTINF:-1 channelId="52" tvg-id="360-news" tvg-name="360° Новости" group-title="HD и UHD" catchup-enable="0",360° Новости HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 #EXTINF:-1 tvg-id="rtd-hd" tvg-logo="https://picon.ml/rtd-hd.png" group-title="HD и UHD" catchup-enable="0",RTД HD
@@ -151,9 +152,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8
 #EXTINF:-1 channelId="302" tvg-id="disney" group-title="Детские" catchup-enable="1",Disney
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
-#EXTINF:-1 tvg-id="matur-tv" group-title="Музыкальные" catchup-enable="1",Матур ТВ HD
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
 #EXTINF:-1 tvg-id="12-omsk" group-title="Региональные" catchup-enable="1",12 канал HD (Омск)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_12CHANNEL/variant.m3u8
@@ -1049,17 +1047,14 @@ http://flu.ttk.mx:9090/kinohit/index.m3u8?token=orh6o
 # #EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы" catchup-enable="0",Кинохит HD
 # #EXTINF:-1 tvg-id="komedijnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Комедийное HD
 # #EXTINF:-1 tvg-id="la-minor" group-title="Музыкальные" catchup-enable="0",Ля-минор
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! HD
+#EXTINF:-1 tvg-id="matur-tv" group-title="Музыкальные" catchup-enable="1",Матур ТВ HD
+#EXTVLCOPT:http-user-agent=Mozilla 5.0
+http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
+#EXTINF:-1 tvg-id="match-tv" group-title="Спортивные" catchup-enable="0",Матч! HD
 https://okkotv-live.cdnvideo.ru/channel/Match_OTT_HD.m3u8
 # https://bl.uma.media/live/407384/HLS/6307840_7/2/1/playlist.m3u8
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна HD
-http://bl.uma.media/live/291661/HLS/4614144_3/2/1/playlist.m3u8
-# #EXTINF:-1 tvg-id="match-tv" tvg-name="Матч! ТВ" group-title="Спортивные" catchup-enable="0",Матч! HD
-# https://bl.uma.media/live/407384/HLS/6307840_7/2/1/playlist.m3u8
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Арена
-# http://nopic.kulik.uz/channel/n49ff3f4d/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Боец
-# http://nopic.kulik.uz/channel/n4cd0a431/index.m3u8?q=999e7cd502c92453b27b6054d4a7ccc0
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Игра
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Премьер
 #EXTINF:-1 tvg-id="match-priemer" group-title="Спортивные" catchup-enable="0",Матч! Премьер HD
@@ -1067,6 +1062,8 @@ https://bl.uma.media/live/126866/HLS/6866944_4/1/1/playlist.m3u8
 # http://85.11.144.9:4222/MatchPremier?token=test
 # http://109.200.130.124:7005/play/a00d
 # http://85.112.114.11:8088/udp/238.2.50.8:1234
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна HD
+http://bl.uma.media/live/291661/HLS/4614144_3/2/1/playlist.m3u8
 # #EXTINF:-1 group-title="Спортивные" tvg-id="match-football1" catchup-enable="0",Матч! Футбол 1
 # #EXTINF:-1 group-title="Спортивные" tvg-id="match-football2" catchup-enable="0",Матч! Футбол 2
 # #EXTINF:-1 group-title="Спортивные" tvg-id="match-football3" catchup-enable="0",Матч! Футбол 3
@@ -1116,15 +1113,6 @@ http://flu.ttk.mx:9090/Futbol/index.m3u8?token=orh6o
 http://origin5.mediacdn.ru/live/tntmusic/index.m3u8
 # http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
 # #EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс Плюс Кино
-#
-# Yandex
-#
-# #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" group-title="Эфирные" catchup-enable="0",360° Подмосковье HD
-# http://strm.yandex.ru/kal/360tv/360tv0.m3u8
-# #EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
-# http://strm.yandex.ru/kal/europaplus/europaplus0.m3u8
-# #EXTINF:-1 tvg-id="russia-today" group-title="HD и UHD" catchup-enable="0",Russia Today HD
-# http://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
 #
 # http://9ak.ru/v/rel/
 #
