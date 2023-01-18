@@ -67,20 +67,19 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 #
 # https://iptv-org.github.io/iptv/countries/ru.m3u
 # https://okko.tv/collection/tvchannels (GEO block)
-# http://lampatv.fun/freetv.js
 #
 #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="HD+UHD" catchup-enable="0",360° HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 #EXTINF:-1 channelId="52" tvg-id="360-news" tvg-name="360° Новости" group-title="HD+UHD" catchup-enable="0",360° Новости HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
-#EXTINF:-1 tvg-id="rtd-hd" group-title="HD+UHD" catchup-enable="0",RTД HD
+#EXTINF:-1 tvg-id="rtd-hd" tvg-logo="https://picon.ml/rtd-hd.png" group-title="HD+UHD" catchup-enable="0",RTД HD
 https://hls.rt.com/hls/rtdru.m3u8
 #EXTINF:-1 tvg-id="russia-today" group-title="HD+UHD" catchup-enable="0",Russia Today HD
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
-#EXTINF:-1 channelId="626" tvg-id="russian-extreme-uhd" group-title="UHD" catchup-enable="1",Russian Extreme Ultra
+#EXTINF:-1 channelId="626" tvg-id="russian-extreme-uhd" group-title="HD+UHD" catchup-enable="1",Russian Extreme Ultra
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA/variant.m3u8
-#EXTINF:-1 channelId="160" tvg-id="ultra-hd-cinema" group-title="UHD" catchup-enable="1",Ultra HD Cinema
+#EXTINF:-1 channelId="160" tvg-id="ultra-hd-cinema" group-title="HD+UHD" catchup-enable="1",Ultra HD Cinema
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA/variant.m3u8
 #EXTINF:-1 group-title="HD+UHD" catchup-enable="0",Домашний HD
@@ -93,7 +92,7 @@ https://bl.uma.media/live/400930/HLS/4614144_3/2/1/playlist.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 tvg-id="mir-24" group-title="HD+UHD" catchup-enable="0",Мир 24 HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
-#EXTINF:-1 channelId="259" tvg-id="nasha-sibir-4k" group-title="UHD" catchup-enable="1",Наша Сибирь 4K
+#EXTINF:-1 channelId="259" tvg-id="nasha-sibir-4k" group-title="HD+UHD" catchup-enable="1",Наша Сибирь 4K
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
 #EXTINF:-1 group-title="HD+UHD" catchup-enable="0",НТВ HD
