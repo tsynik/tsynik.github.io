@@ -68,59 +68,59 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 # https://iptv-org.github.io/iptv/countries/ru.m3u
 # https://okko.tv/collection/tvchannels (GEO block)
 #
-#EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="HD+UHD" catchup-enable="0",360° HD
+#EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="HD и UHD" catchup-enable="0",360° HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
-#EXTINF:-1 channelId="52" tvg-id="360-news" tvg-name="360° Новости" group-title="HD+UHD" catchup-enable="0",360° Новости HD
+#EXTINF:-1 channelId="52" tvg-id="360-news" tvg-name="360° Новости" group-title="HD и UHD" catchup-enable="0",360° Новости HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
-#EXTINF:-1 tvg-id="rtd-hd" tvg-logo="https://picon.ml/rtd-hd.png" group-title="HD+UHD" catchup-enable="0",RTД HD
+#EXTINF:-1 tvg-id="rtd-hd" tvg-logo="https://picon.ml/rtd-hd.png" group-title="HD и UHD" catchup-enable="0",RTД HD
 https://hls.rt.com/hls/rtdru.m3u8
-#EXTINF:-1 tvg-id="russia-today" group-title="HD+UHD" catchup-enable="0",Russia Today HD
+#EXTINF:-1 tvg-id="russia-today" group-title="HD и UHD" catchup-enable="0",Russia Today HD
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
-#EXTINF:-1 channelId="626" tvg-id="russian-extreme-uhd" group-title="HD+UHD" catchup-enable="1",Russian Extreme Ultra
+#EXTINF:-1 channelId="626" tvg-id="russian-extreme-uhd" group-title="HD и UHD" catchup-enable="1",Russian Extreme Ultra
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA/variant.m3u8
-#EXTINF:-1 channelId="160" tvg-id="ultra-hd-cinema" group-title="HD+UHD" catchup-enable="1",Ultra HD Cinema
+#EXTINF:-1 channelId="160" tvg-id="ultra-hd-cinema" group-title="HD и UHD" catchup-enable="1",Ultra HD Cinema
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA/variant.m3u8
-#EXTINF:-1 group-title="HD+UHD" catchup-enable="0",Домашний HD
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Домашний HD
 https://okkotv-live.cdnvideo.ru/channel/Dom_HD_OTT.m3u8
-#EXTINF:-1 group-title="HD+UHD" catchup-enable="0",Известия HD
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Известия HD
 https://okkotv-live.cdnvideo.ru/channel/Izvestiya_HD_2.m3u8
-#EXTINF:-1 group-title="HD+UHD" catchup-enable="0",Конный мир HD
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Конный мир HD
 https://bl.uma.media/live/400930/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 tvg-id="mir" group-title="HD+UHD" catchup-enable="0",Мир HD
+#EXTINF:-1 tvg-id="mir" group-title="HD и UHD" catchup-enable="0",Мир HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1 tvg-id="mir-24" group-title="HD+UHD" catchup-enable="0",Мир 24 HD
+#EXTINF:-1 tvg-id="mir-24" group-title="HD и UHD" catchup-enable="0",Мир 24 HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
-#EXTINF:-1 channelId="259" tvg-id="nasha-sibir-4k" group-title="HD+UHD" catchup-enable="1",Наша Сибирь 4K
+#EXTINF:-1 channelId="259" tvg-id="nasha-sibir-4k" group-title="HD и UHD" catchup-enable="1",Наша Сибирь 4K
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
-#EXTINF:-1 group-title="HD+UHD" catchup-enable="0",НТВ HD
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",НТВ HD
 https://ntv-hls-orig.cdnvideo.ru/ntv0_hd/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="HD+UHD" catchup-enable="0",Первый канал HD
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Первый канал HD
 http://cdn10.1internet.tv/dash-live12/streams/1tv/1tvdash.mpd
 # http://cdn2.1internet.tv/dash-live12/streams/1tv/1tvdash.mpd
-#EXTINF:-1 group-title="HD+UHD" catchup-enable="0",Пятница HD
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Пятница HD
 https://okkotv-live.cdnvideo.ru/channel/Pyatnizza_OTT_HD.m3u8
 # https://bl.uma.media/live/410336/HLS/6307840_6/1/1/playlist.m3u8
-#EXTINF:-1 group-title="HD+UHD" catchup-enable="0",РЕН ТВ HD
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",РЕН ТВ HD
 https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8
-#EXTINF:-1 group-title="HD+UHD" catchup-enable="0",Россия 1 HD
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Россия 1 HD
 https://okkotv-live.cdnvideo.ru/channel/Russia1HD.m3u8
 # http://cdnmg.secure.live.rtr-vesti.ru/hls2/russia_hd/playlist_6.m3u8
-#EXTINF:-1 group-title="HD+UHD" catchup-enable="0",СТС HD
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",СТС HD
 https://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT.m3u8
-#EXTINF:-1 group-title="HD+UHD" catchup-enable="0",Суббота! HD
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Суббота! HD
 http://bl.uma.media/live/317845/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="HD+UHD" catchup-enable="0",ТВ-3 HD
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",ТВ-3 HD
 https://okkotv-live.cdnvideo.ru/channel/TV3_OTT_HD.m3u8
 # https://bl.uma.media/live/410336/HLS/6307840_6/1/1/playlist.m3u8
-#EXTINF:-1 group-title="HD+UHD" catchup-enable="1",ТЕО-ТВ HD
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="1",ТЕО-ТВ HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TEOTV/variant.m3u8
-#EXTINF:-1 group-title="HD+UHD" catchup-enable="0",ТНТ HD
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",ТНТ HD
 https://okkotv-live.cdnvideo.ru/channel/TNT_OTT_HD.m3u8
-#EXTINF:-1 tvg-id="tnt4" group-title="HD+UHD" catchup-enable="0",ТНТ4 HD
+#EXTINF:-1 tvg-id="tnt4" group-title="HD и UHD" catchup-enable="0",ТНТ4 HD
 https://bl.uma.media/live/317849/HLS/4614144_3/2/1/playlist.m3u8
 #
 # OTHERS
@@ -981,8 +981,8 @@ http://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
 http://okkotv-live.cdnvideo.ru/channel/START_Air_HD.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",START World HD
 http://okkotv-live.cdnvideo.ru/channel/START_World_HD.m3u8
-#EXTINF:-1 group-title="Детские" catchup-enable="0",TiJi
-https://sc.id-tv.kz/TiJi_34_35.m3u8
+# #EXTINF:-1 group-title="Детские" catchup-enable="0",TiJi
+# https://sc.id-tv.kz/TiJi_34_35.m3u8
 #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",TV XXI
 http://flu.ttk.mx:9090/TV21/index.m3u8?token=orh6o
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 HD
@@ -1070,7 +1070,7 @@ https://bl.uma.media/live/126866/HLS/6866944_4/1/1/playlist.m3u8
 # #EXTINF:-1 group-title="Спортивные" tvg-id="match-football1" catchup-enable="0",Матч! Футбол 1
 # #EXTINF:-1 group-title="Спортивные" tvg-id="match-football2" catchup-enable="0",Матч! Футбол 2
 # #EXTINF:-1 group-title="Спортивные" tvg-id="match-football3" catchup-enable="0",Матч! Футбол 3
-# #EXTINF:-1 group-title="HD+UHD" tvg-logo="https://epg.iptvx.one/icn/mir-premium.png" catchup-enable="0",Мир Премиум
+# #EXTINF:-1 group-title="HD и UHD" tvg-logo="https://epg.iptvx.one/icn/mir-premium.png" catchup-enable="0",Мир Премиум
 # http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 # #EXTINF:-1 tvg-id="motorsportv-tv" group-title="Спортивные" catchup-enable="0",Моторспорт ТВ
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино
@@ -1082,7 +1082,7 @@ https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Наше новое кино
 # #EXTINF:-1 group-title="Информационные" catchup-enable="0",Новороссия
 # http://ott.inmart.tv:8081/19/index.m3u8
-# #EXTINF:-1 tvg-id="nst" group-title="Кино и сериалы" catchup-enable="0",НСТ  
+# #EXTINF:-1 tvg-id="nst" group-title="Кино и сериалы" catchup-enable="0",НСТ
 #EXTINF:-1 tvg-id="ntv-xit" group-title="Кино и сериалы" catchup-enable="0",НТВ Хит
 https://ntv-hls-orig.cdnvideo.ru/th_hit/index.m3u8
 #EXTINF:-1 tvg-id="ntv-serial" group-title="Кино и сериалы" catchup-enable="0",НТВ Сериал
@@ -1123,7 +1123,7 @@ http://origin5.mediacdn.ru/live/tntmusic/index.m3u8
 # http://strm.yandex.ru/kal/360tv/360tv0.m3u8
 # #EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
 # http://strm.yandex.ru/kal/europaplus/europaplus0.m3u8
-# #EXTINF:-1 tvg-id="russia-today" group-title="HD+UHD" catchup-enable="0",Russia Today HD
+# #EXTINF:-1 tvg-id="russia-today" group-title="HD и UHD" catchup-enable="0",Russia Today HD
 # http://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
 #
 # http://9ak.ru/v/rel/
