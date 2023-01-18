@@ -1030,6 +1030,8 @@ http://flu.ttk.mx:9090/Evrokino/index.m3u8?token=orh6o
 http://flu.ttk.mx:9090/kinopokaz/index.m3u8?token=orh6o
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Кинопремьера HD
 http://flu.ttk.mx:9090/Kinopremiera/index.m3u8?token=orh6o
+#EXTINF:-1 tvg-id="kinosvidanie" group-title="Кино и сериалы" catchup-enable="0",Киносвидание
+http://flu.ttk.mx:9090/Kinosvidanie/index.m3u8?token=orh6o
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киносемья
 http://flu.ttk.mx:9090/Kinosemia/index.m3u8?token=orh6o
 # #EXTINF:-1 tvg-id="kinosemiya" group-title="Кино и сериалы" catchup-enable="0",Киносемья HD
