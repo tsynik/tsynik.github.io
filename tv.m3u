@@ -590,9 +590,9 @@ http://s34351.cdn.ngenix.net/hls/CH_R14_OTT_DV_YKT_YKT/variant.m3u8
 #EXTINF:-1 tvg-id="yamal-region" group-title="Региональные" catchup-enable="1",Ямал-Регион
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_YAMREG_URAL_YNF/variant.m3u8
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/8/80/%D0%95_%28%D0%91%D0%B5%D0%BB%D1%8B%D0%B9%29.png/revision/latest/scale-to-width-down/1000?cb=20201025123221&path-prefix=ru" group-title="Музыкальные" catchup-enable="1",#ё HD
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_M1/variant.m3u8
+# #EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/8/80/%D0%95_%28%D0%91%D0%B5%D0%BB%D1%8B%D0%B9%29.png/revision/latest/scale-to-width-down/1000?cb=20201025123221&path-prefix=ru" group-title="Музыкальные" catchup-enable="1",#ё HD
+# #EXTVLCOPT:http-user-agent=Mozilla 5.0
+# http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_M1/variant.m3u8
 #
 # +
 #
@@ -897,8 +897,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
 # IPTV-ORG https://github.com/iptv-org/iptv | https://iptv-org.github.io/iptv/countries/ru.m3u
 # smartoteka https://iptvlist.ru/playlists2/smartoteka | https://iptvlist.ru/iptv2/iptv-russia-refresh-2/ | https://iptvlist.ru/ru.m3u
 #
-#EXTINF:-1 tvg-id="1hd" tvg-id="1hd" group-title="Музыкальные" catchup-enable="0",1HD Music
-https://sc.id-tv.kz/1hd.m3u8
+# #EXTINF:-1 tvg-id="1hd" tvg-id="1hd" group-title="Музыкальные" catchup-enable="0",1HD Music
+# https://sc.id-tv.kz/1hd.m3u8
 #EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы",A1 HD
 https://okkotv-live.cdnvideo.ru/channel/A1_HD.m3u8
 #EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы",A2 HD
