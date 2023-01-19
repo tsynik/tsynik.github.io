@@ -961,8 +961,7 @@ https://a.jsrdn.com/broadcast/80f6ba72c8/+0000/high/c.m3u8
 http://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
 #EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные" catchup-enable="0",Nat Geo Wild Russia HD
 https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
-#EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные" catchup-enable="0",National Geographic HD
-https://okkotv-live.cdnvideo.ru/channel/NGC_HD.m3u8
+# #EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные" catchup-enable="0",National Geographic HD
 #EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr
 https://sc.id-tv.kz/NickJr_36_37.m3u8
 #EXTINF:-1 tvg-id="rtg-hd" group-title="Познавательные" catchup-enable="0",RTG HD
@@ -981,8 +980,10 @@ http://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
 http://okkotv-live.cdnvideo.ru/channel/START_Air_HD.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",START World HD
 http://okkotv-live.cdnvideo.ru/channel/START_World_HD.m3u8
-# #EXTINF:-1 group-title="Детские" catchup-enable="0",TiJi
-# https://sc.id-tv.kz/TiJi_34_35.m3u8
+#EXTINF:-1 tvg-id="terra-ru" group-title="Познавательные" catchup-enable="0",Terra HD
+https://okkotv-live.cdnvideo.ru/channel/NGC_HD.m3u8
+#EXTINF:-1 group-title="Детские" catchup-enable="0",TiJi
+https://sc.id-tv.kz/TiJi_34_35.m3u8
 #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",TV XXI
 http://flu.ttk.mx:9090/TV21/index.m3u8?token=orh6o
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 HD
