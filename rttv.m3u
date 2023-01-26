@@ -908,8 +908,8 @@ https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD.m3u8
 # #EXTINF:-1 group-title="Детские" catchup-enable="0",Ani
 #EXTINF:-1 tvg-id="animal-planet" group-title="Познавательные" catchup-enable="0",Animal Planet HD
 https://livetv.mylifeisgood.ml/channels/animalplanethd
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood HD
-# https://sc.id-tv.kz/bollywood_hd
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood HD
+https://sc.id-tv.kz/bollywood_hd
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Bridge TV Русский хит
 https://strm.yandex.ru/kal/bridgetv_russkiyhit/bridgetv_russkiyhit0.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Bridge TV Фрэш
@@ -959,7 +959,7 @@ https://livetv.mylifeisgood.ml/channels/discoveryxtra.m3u8
 https://a.jsrdn.com/broadcast/80f6ba72c8/+0000/high/c.m3u8
 #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
 http://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
-#EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные" catchup-enable="0",Nat Geo Wild Russia HD
+#EXTINF:-1 tvg-id="nat-geo-wild-cis" group-title="Познавательные" catchup-enable="0",Nat Geo Wild Russia HD
 https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
 # #EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные" catchup-enable="0",National Geographic HD
 #EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr
