@@ -426,7 +426,7 @@ http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_1GORODSKOY/vari
 #EXTINF:-1 tvg-id="pervy-oblastnoy-orel" group-title="Региональные" catchup-enable="1",Первый областной (Орел)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_PERVOBL/variant.m3u8
-#EXTINF:-1 tvg-id="pervy-tulsky" group-title="Региональные" catchup-enable="1",Первый Тульский HD
+#EXTINF:-1 tvg-id="pervy-tulsky" group-title="Региональные" catchup-enable="1",Первый Тульский
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-ct-tula-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_TULA_PERV_TUL/variant.m3u8
 #EXTINF:-1 group-title="Региональные" catchup-enable="1",Первый Ярославский HD
