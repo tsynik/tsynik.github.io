@@ -118,8 +118,6 @@ http://bl.uma.media/live/317845/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",ТВ-3 HD
 https://okkotv-live.cdnvideo.ru/channel/TV3_OTT_HD.m3u8
 # https://bl.uma.media/live/410336/HLS/6307840_6/1/1/playlist.m3u8
-#EXTINF:-1 tvg-id="tvcentr" group-title="HD и UHD" catchup-enable="0",ТВ Центр HD
-http://hls.peers.tv/streaming/tvc_hd/126/copy/playlist.m3u8?token=d680c0c502834299a358e0c1783e9f94&client=97
 # #EXTINF:-1 group-title="HD и UHD" catchup-enable="1",ТЕО-ТВ HD  
 # #EXTVLCOPT:http-user-agent=Mozilla 5.0  
 # http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TEOTV/variant.m3u8  
@@ -1043,8 +1041,6 @@ http://flu.ttk.mx:9090/Kinosemia/index.m3u8?token=orh6o
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Кинокомедия
 #EXTINF:-1 tvg-id="kinokomedia" group-title="Кино и сериалы" catchup-enable="0",Кинокомедия HD
 https://sc.id-tv.kz/Kinokomediya_hd_34_35.m3u8
-#EXTINF:0 tvg-id="kinopokaz" group-title="Кино и сериалы" catchup-enable="0",Кинопоказ
-http://flu.ttk.mx:9090/kinopokaz/index.m3u8?token=orh6o
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киносерия
 #EXTINF:-1 tvg-id="kinouzhas" group-title="Кино и сериалы" catchup-enable="0",Киноужас
 http://ott-cdn.ucom.am/s87/index.m3u8
