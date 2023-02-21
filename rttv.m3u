@@ -118,9 +118,11 @@ http://bl.uma.media/live/317845/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",ТВ-3 HD
 https://okkotv-live.cdnvideo.ru/channel/TV3_OTT_HD.m3u8
 # https://bl.uma.media/live/410336/HLS/6307840_6/1/1/playlist.m3u8
-#EXTINF:-1 group-title="HD и UHD" catchup-enable="1",ТЕО-ТВ HD
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TEOTV/variant.m3u8
+#EXTINF:-1 tvg-id="tvcentr" group-title="HD и UHD" catchup-enable="0",ТВ Центр HD
+http://hls.peers.tv/streaming/tvc_hd/126/copy/playlist.m3u8?token=d680c0c502834299a358e0c1783e9f94&client=97
+# #EXTINF:-1 group-title="HD и UHD" catchup-enable="1",ТЕО-ТВ HD  
+# #EXTVLCOPT:http-user-agent=Mozilla 5.0  
+# http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TEOTV/variant.m3u8  
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",ТНТ HD
 https://okkotv-live.cdnvideo.ru/channel/TNT_OTT_HD.m3u8
 #EXTINF:-1 tvg-id="tnt4" group-title="HD и UHD" catchup-enable="0",ТНТ4 HD
@@ -130,9 +132,9 @@ https://bl.uma.media/live/317849/HLS/4614144_3/2/1/playlist.m3u8
 #
 #EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Эфирные" catchup-enable="0",Москва 24
 https://radio-live-mg.rtr-vesti.ru/hls/moscow_24/playlist.m3u8
-#EXTINF:-1 channelId="25" tvg-id="doverie" group-title="Эфирные" catchup-enable="1",Москва. Доверие
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_DOVERIE/variant.m3u8
+# #EXTINF:-1 channelId="25" tvg-id="doverie" group-title="Эфирные" catchup-enable="1",Москва. Доверие  
+# #EXTVLCOPT:http-user-agent=Mozilla 5.0  
+# http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_DOVERIE/variant.m3u8  
 #EXTINF:-1 channelId="27" group-title="Развлекательные" catchup-enable="1",Че
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
@@ -928,8 +930,8 @@ http://flu.ttk.mx:9090/Cinema/index.m3u8?token=orh6o
 # http://api.alpaca.t62a.com/hls/9114/stream0.m3u8
 #EXTINF:-1 tvg-id="da-vinci" group-title="Детские" catchup-enable="0",Da Vinci
 https://sc.id-tv.kz/DaVinci_34_35.m3u8
-#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel HD
-https://livetv.mylifeisgood.ml/channels/discovery.m3u8
+# #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel HD  
+# https://livetv.mylifeisgood.ml/channels/discovery.m3u8  
 #EXTINF:-1 tvg-id="discovery-science" group-title="Познавательные" catchup-enable="0",Discovery Science HD
 https://livetv.mylifeisgood.ml/channels/discoveryscience.m3u8
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Eurosport 1
@@ -1041,6 +1043,8 @@ http://flu.ttk.mx:9090/Kinosemia/index.m3u8?token=orh6o
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Кинокомедия
 #EXTINF:-1 tvg-id="kinokomedia" group-title="Кино и сериалы" catchup-enable="0",Кинокомедия HD
 https://sc.id-tv.kz/Kinokomediya_hd_34_35.m3u8
+#EXTINF:0 tvg-id="kinopokaz" group-title="Кино и сериалы" catchup-enable="0",Кинопоказ
+http://flu.ttk.mx:9090/kinopokaz/index.m3u8?token=orh6o
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киносерия
 #EXTINF:-1 tvg-id="kinouzhas" group-title="Кино и сериалы" catchup-enable="0",Киноужас
 http://ott-cdn.ucom.am/s87/index.m3u8
@@ -1087,19 +1091,23 @@ https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
 https://ntv-hls-orig.cdnvideo.ru/th_hit/index.m3u8
 #EXTINF:-1 tvg-id="ntv-serial" group-title="Кино и сериалы" catchup-enable="0",НТВ Сериал
 https://ntv-hls-orig.cdnvideo.ru/th_serial/index.m3u8
+#EXTINF:-1 tvg-id="ntv-style" group-title="Эфирные" catchup-enable="0",НТВ Стиль
+https://ntv-hls-orig.cdnvideo.ru/th_style/index.m3u8
 # #EXTINF:-1 tvg-id="o_" tvg-name="О!" group-title="Детские" catchup-enable="0",О!
 #EXTINF:-1 tvg-id="onemuz" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5365.png" catchup-enable="0",Первый музыкальный BY
 http://rtmp.one.by:1300
 #EXTINF:-1 tvg-id="onemuz" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5364.png" catchup-enable="0",Первый музыкальный RU
 http://rtmp.one.by:2300
 # #EXTINF:-1 group-title="Детские" catchup-enable="0",Радость моя
+#EXTINF:-1 tvg-id="rbk" group-title="Эфирные" catchup-enable="0",РБК ТВ
+http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Родное кино
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский бестселлер
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский детектив
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский иллюзион
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский роман
-#EXTINF:-1 tvg-id="russky-ekstrim" group-title="Спортивные" catchup-enable="0",Русский экстрим
-http://vid.extremtv.ru/hls_get/cameraFeed.m3u8
+# #EXTINF:-1 tvg-id="russky-ekstrim" group-title="Спортивные" catchup-enable="0",Русский экстрим  
+# http://vid.extremtv.ru/hls_get/cameraFeed.m3u8  
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Сапфир HD
 https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD.m3u8
 #EXTINF:-1 tvg-id="start" tvg-name="Старт" group-title="Спортивные" catchup-enable="0",СТАРТ HD
