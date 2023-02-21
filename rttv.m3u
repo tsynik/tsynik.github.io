@@ -196,9 +196,9 @@ http://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_ATV/variant.m3u8
 #EXTINF:-1 tvg-id="atv-media" group-title="Региональные" catchup-enable="1",АТВ-Медиа
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ATVMEDIA/variant.m3u8
-#EXTINF:-1 tvg-id="aktis" group-title="Региональные" catchup-enable="1",Актис HD
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-sib-irk-htlive-lb.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_AKTIS/variant.m3u8
+# #EXTINF:-1 tvg-id="aktis" group-title="Региональные" catchup-enable="1",Актис HD  
+# #EXTVLCOPT:http-user-agent=Mozilla 5.0  
+# http://rt-sib-irk-htlive-lb.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_AKTIS/variant.m3u8  
 #EXTINF:-1 tvg-id="arig-us-24" group-title="Региональные" catchup-enable="1",Ариг Ус 24 HD
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ARIGUS/variant.m3u8
