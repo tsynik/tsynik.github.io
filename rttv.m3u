@@ -908,8 +908,8 @@ https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD.m3u8
 # #EXTINF:-1 group-title="Детские" catchup-enable="0",Ani
 #EXTINF:-1 tvg-id="animal-planet" group-title="Познавательные" catchup-enable="0",Animal Planet HD
 https://livetv.mylifeisgood.ml/channels/animalplanethd
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood HD
-https://sc.id-tv.kz/bollywood_hd
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood HD  
+# https://sc.id-tv.kz/bollywood_hd  
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Bridge TV Русский хит
 https://strm.yandex.ru/kal/bridgetv_russkiyhit/bridgetv_russkiyhit0.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Bridge TV Фрэш
@@ -943,8 +943,8 @@ https://livetv.mylifeisgood.ml/channels/eurosport2
 #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы" catchup-enable="0",FOX HD
 https://okkotv-live.cdnvideo.ru/channel/Fox_HD.m3u8
 # https://sc.id-tv.kz/FOX_HD_34_35.m3u8
-#EXTINF:-1 group-title="Детские" catchup-enable="0",Gulli Girl
-https://sc.id-tv.kz:443/Gulli_34_35.m3u8
+# #EXTINF:-1 group-title="Детские" catchup-enable="0",Gulli Girl  
+# https://sc.id-tv.kz:443/Gulli_34_35.m3u8  
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Hollywood
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Hollywood HD
 #EXTINF:-1 tvg-id="insight-tv-hd" group-title="Спортивные" catchup-enable="0",Insight TV HD
@@ -959,11 +959,11 @@ https://livetv.mylifeisgood.ml/channels/discoveryxtra.m3u8
 https://a.jsrdn.com/broadcast/80f6ba72c8/+0000/high/c.m3u8
 #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
 http://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
-#EXTINF:-1 tvg-id="nat-geo-wild-cis" group-title="Познавательные" catchup-enable="0",Nat Geo Wild Russia HD
-https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
+# #EXTINF:-1 tvg-id="nat-geo-wild-cis" group-title="Познавательные" catchup-enable="0",Nat Geo Wild Russia HD  
+# https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8  
 # #EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные" catchup-enable="0",National Geographic HD
-#EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr
-https://sc.id-tv.kz/NickJr_36_37.m3u8
+# #EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr  
+# https://sc.id-tv.kz/NickJr_36_37.m3u8  
 #EXTINF:-1 tvg-id="rtg-hd" group-title="Познавательные" catchup-enable="0",RTG HD
 http://strm.yandex.ru/kal/rtg/rtg0.m3u8
 #EXTINF:-1  tvg-id="ru-tv" group-title="Музыкальные" catchup-enable="0",RU.TV HD
@@ -982,8 +982,8 @@ http://okkotv-live.cdnvideo.ru/channel/START_Air_HD.m3u8
 http://okkotv-live.cdnvideo.ru/channel/START_World_HD.m3u8
 #EXTINF:-1 tvg-id="terra-ru" group-title="Познавательные" catchup-enable="0",Terra HD
 https://okkotv-live.cdnvideo.ru/channel/NGC_HD.m3u8
-#EXTINF:-1 group-title="Детские" catchup-enable="0",TiJi
-https://sc.id-tv.kz/TiJi_34_35.m3u8
+# #EXTINF:-1 group-title="Детские" catchup-enable="0",TiJi  
+# https://sc.id-tv.kz/TiJi_34_35.m3u8  
 #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",TV XXI
 http://flu.ttk.mx:9090/TV21/index.m3u8?token=orh6o
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",TV1000 HD
@@ -1033,14 +1033,14 @@ http://flu.ttk.mx:9090/kinopokaz/index.m3u8?token=orh6o
 http://flu.ttk.mx:9090/Kinopremiera/index.m3u8?token=orh6o
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киносвидание
 http://flu.ttk.mx:9090/Kinosvidanie/index.m3u8?token=orh6o
-#EXTINF:-1 tvg-id="kinosvidanie" group-title="Кино и сериалы" catchup-enable="0",Киносвидание HD
-https://sc.id-tv.kz/Kinosvidanie_hd_34_35.m3u8
+# #EXTINF:-1 tvg-id="kinosvidanie" group-title="Кино и сериалы" catchup-enable="0",Киносвидание HD  
+# https://sc.id-tv.kz/Kinosvidanie_hd_34_35.m3u8  
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киносемья
 http://flu.ttk.mx:9090/Kinosemia/index.m3u8?token=orh6o
 # #EXTINF:-1 tvg-id="kinosemiya" group-title="Кино и сериалы" catchup-enable="0",Киносемья HD
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Кинокомедия
-#EXTINF:-1 tvg-id="kinokomedia" group-title="Кино и сериалы" catchup-enable="0",Кинокомедия HD
-https://sc.id-tv.kz/Kinokomediya_hd_34_35.m3u8
+# #EXTINF:-1 tvg-id="kinokomedia" group-title="Кино и сериалы" catchup-enable="0",Кинокомедия HD  
+# https://sc.id-tv.kz/Kinokomediya_hd_34_35.m3u8  
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киносерия
 #EXTINF:-1 tvg-id="kinouzhas" group-title="Кино и сериалы" catchup-enable="0",Киноужас
 http://ott-cdn.ucom.am/s87/index.m3u8
