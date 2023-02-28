@@ -1100,9 +1100,12 @@ http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Match_OTT_HD.m3u8
 # https://bl.uma.media/live/407384/HLS/6307840_7/2/1/playlist.m3u8
-# #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Арена
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Арена HD
+http://bl.uma.media/live/126868/HLS/6866944_4/2/1/playlist.m3u8
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Боец
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Игра
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Планета
+http://bl.uma.media/live/126869/HLS/6866944_3/2/1/playlist.m3u8
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Премьер
 #EXTINF:-1 tvg-id="match-priemer" group-title="Спортивные" catchup-enable="0",Матч! Премьер HD
 https://bl.uma.media/live/126866/HLS/6866944_4/1/1/playlist.m3u8
@@ -1111,7 +1114,8 @@ https://bl.uma.media/live/126866/HLS/6866944_4/1/1/playlist.m3u8
 # http://85.112.114.11:8088/udp/238.2.50.8:1234
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна HD
 http://bl.uma.media/live/291661/HLS/4614144_3/2/1/playlist.m3u8
-# #EXTINF:-1 group-title="Спортивные" tvg-id="match-football1" catchup-enable="0",Матч! Футбол 1
+#EXTINF:-1 group-title="Спортивные" tvg-id="match-football1" catchup-enable="0",Матч! Футбол 1
+http://bl.uma.media/live/126863/HLS/6866944_4/2/1/playlist.m3u8
 # #EXTINF:-1 group-title="Спортивные" tvg-id="match-football2" catchup-enable="0",Матч! Футбол 2
 # #EXTINF:-1 group-title="Спортивные" tvg-id="match-football3" catchup-enable="0",Матч! Футбол 3
 # #EXTINF:-1 group-title="HD и UHD" tvg-logo="https://epg.iptvx.one/icn/mir-premium.png" catchup-enable="0",Мир Премиум
