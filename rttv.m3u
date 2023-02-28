@@ -971,10 +971,9 @@ https://livetv.mylifeisgood.ml/channels/discoveryxtra.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/KHL_HD_2/playlist.m3u8
-#EXTINF:-1 group-title="Спортивные" tvg-id="kxl-prime" catchup-enable="0",KHL Prime
+#EXTINF:-1 group-title="Спортивные" tvg-id="kxl-prime" catchup-enable="0",KHL Prime HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/KHL_PRIME_HD.m3u8
-# #EXTINF:-1 group-title="Спортивные" tvg-id="kxl-prime" catchup-enable="0",KHL Prime HD
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://mmajunkie.usatoday.com/wp-content/uploads/sites/91/2017/07/mmaj-header-logo.png" group-title="Спортивные" catchup-enable="0",MMA Junkie HD
 https://a.jsrdn.com/broadcast/80f6ba72c8/+0000/high/c.m3u8
 #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
@@ -997,10 +996,10 @@ http://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
 https://livetv.mylifeisgood.ml/channels/setantahd
 #EXTINF:-1 tvg-id="setanta-sports-plus" tvg-logo="http://epg.it999.ru/img2/2813.png" group-title="Спортивные" catchup-enable="0",Setanta Sports 2 HD
 https://livetv.mylifeisgood.ml/channels/setantaplus
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Cinema
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Cinema HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Star_Cinema_HD.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Family
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Family HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Star_Family_HD.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",START Air HD
@@ -1152,11 +1151,11 @@ http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Сапфир HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD.m3u8
-#EXTINF:-1 tvg-id="start" group-title="Спортивные" catchup-enable="0",СТАРТ
+#EXTINF:-1 tvg-id="start" group-title="Спортивные" catchup-enable="0",СТАРТ HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Start/playlist.m3u8
-#EXTINF:-1 tvg-id="start" tvg-name="Старт" group-title="Спортивные" catchup-enable="0",СТАРТ HD
-http://strm.yandex.ru/kal/start/start0.m3u8
+# #EXTINF:-1 tvg-id="start" tvg-name="Старт" group-title="Спортивные" catchup-enable="0",СТАРТ HD  
+# http://strm.yandex.ru/kal/start/start0.m3u8  
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",СТАРТ ТРИУМФ HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Start_Triumph_HD.m3u8
