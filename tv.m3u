@@ -151,7 +151,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/variant.m3u8
 #EXTINF:-1 channelId="54" group-title="Развлекательные" catchup-enable="1",Суббота!
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8
-#EXTINF:-1 channelId="302" tvg-id="disney" group-title="Детские" catchup-enable="1",Disney
+#EXTINF:-1 channelId="302" tvg-id="solnce" group-title="Детские" catchup-enable="1",Солнце
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
 #EXTINF:-1 tvg-id="12-omsk" group-title="Региональные" catchup-enable="1",12 канал HD (Омск)
@@ -605,13 +605,13 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_4/variant.m3u8
 #EXTINF:-1 tvg-id="2na2-pl7" group-title="Плюсовые" catchup-enable="1",2x2 (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2_7/variant.m3u8
-#EXTINF:-1 tvg-id="disney-pl2" channelId="302" group-title="Плюсовые" catchup-enable="1",Disney (+2)
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R02_DISNEYCHANNEL/variant.m3u8
-#EXTINF:-1 tvg-id="disney-pl4" channelId="302" group-title="Плюсовые" catchup-enable="1",Disney (+4)
+#EXTINF:-1 tvg-id="solnce-pl2" channelId="302" group-title="Плюсовые" catchup-enable="1",Солнце (+2)  
+#EXTVLCOPT:http-user-agent=Mozilla 5.0  
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_2/variant.m3u8  
+#EXTINF:-1 tvg-id="solnce-pl4" channelId="302" group-title="Плюсовые" catchup-enable="1",Солнце (+4)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_4/variant.m3u8
-#EXTINF:-1 tvg-id="disney-pl7" channelId="302" group-title="Плюсовые" catchup-enable="1",Disney (+7)
+#EXTINF:-1 tvg-id="solnce-pl7" channelId="302" group-title="Плюсовые" catchup-enable="1",Солнце (+7)
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY_7/variant.m3u8
 #EXTINF:-1 tvg-id="domashny-pl2" group-title="Плюсовые" catchup-enable="1",Домашний (+2)
@@ -940,8 +940,8 @@ https://strm.yandex.ru/kal/bridgetvhits/bridgetvhits0.m3u8
 http://flu.ttk.mx:9090/Cinema/index.m3u8?token=orh6o
 # #EXTINF:-1 group-title="Кино и сериалы" tvg-logo="https://mirror.netcologne.de/xbmc/addons/leia/plugin.video.classiccinema/icon.png" catchup-enable="0",Cinema Classic TV
 # http://api.alpaca.t62a.com/hls/9114/stream0.m3u8
-#EXTINF:-1 tvg-id="da-vinci" group-title="Детские" catchup-enable="0",Da Vinci
-https://sc.id-tv.kz/DaVinci_34_35.m3u8
+# #EXTINF:-1 tvg-id="da-vinci" group-title="Детские" catchup-enable="0",Da Vinci  
+# https://sc.id-tv.kz/DaVinci_34_35.m3u8  
 # #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel HD  
 # https://livetv.mylifeisgood.ml/channels/discovery.m3u8  
 #EXTINF:-1 tvg-id="discovery-science" group-title="Познавательные" catchup-enable="0",Discovery Science HD
