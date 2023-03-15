@@ -936,8 +936,8 @@ https://strm.yandex.ru/kal/bridgetvclassic/bridgetvclassic0.m3u8
 # http://livetv.mylifeisgood.ml/mfolive.m3u8?media=bridgedeluxetv
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Bridge TV Hits
 https://strm.yandex.ru/kal/bridgetvhits/bridgetvhits0.m3u8
-#EXTINF:-1 tvg-id="cinema-ru" group-title="Кино и сериалы" catchup-enable="0",Cinema
-http://flu.ttk.mx:9090/Cinema/index.m3u8?token=orh6o
+# #EXTINF:-1 tvg-id="cinema-ru" group-title="Кино и сериалы" catchup-enable="0",Cinema  
+# http://flu.ttk.mx:9090/Cinema/index.m3u8?token=orh6o  
 # #EXTINF:-1 group-title="Кино и сериалы" tvg-logo="https://mirror.netcologne.de/xbmc/addons/leia/plugin.video.classiccinema/icon.png" catchup-enable="0",Cinema Classic TV
 # http://api.alpaca.t62a.com/hls/9114/stream0.m3u8
 # #EXTINF:-1 tvg-id="da-vinci" group-title="Детские" catchup-enable="0",Da Vinci  
