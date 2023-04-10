@@ -941,7 +941,7 @@ https://strm.yandex.ru/kal/bridgetvhits/bridgetvhits0.m3u8
 # #EXTINF:-1 tvg-id="cinema-ru" group-title="Кино и сериалы" catchup-enable="0",Cinema
 # #EXTINF:-1 tvg-id="da-vinci" group-title="Детские" catchup-enable="0",Da Vinci
 # #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel
-# #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel HD
+#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel HD
 http://176.222.190.76/btv/SWM/discovery_hd/discovery_hd.m3u8
 # #EXTINF:-1 tvg-id="discovery-science" group-title="Познавательные" catchup-enable="0",Discovery Science
 # #EXTINF:-1 tvg-id="discovery-science" group-title="Познавательные" catchup-enable="0",Discovery Science HD
@@ -1091,9 +1091,9 @@ http://streamer1.ruslanatv.ru/russia/kinosemya_sd_new_2023/playlist.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киносерия
 # #EXTINF:-1 tvg-id="kinouzhas" group-title="Кино и сериалы" catchup-enable="0",Киноужас
 #EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы" catchup-enable="0",Кинохит
+http://flu.ttk.mx:9090/kinohit/index.m3u8?token=orh6o
+#EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы" catchup-enable="0",Кинохит HD
 http://45.159.74.13:80/Kinokhit/tracks-v1a1/mono.m3u8
-# http://flu.ttk.mx:9090/kinohit/index.m3u8?token=orh6o
-# #EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы" catchup-enable="0",Кинохит HD
 # #EXTINF:-1 tvg-id="komedijnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Комедийное HD
 #EXTINF:-1 tvg-id="la-minor" group-title="Музыкальные" catchup-enable="0",Ля-минор
 http://146.158.0.56:80/Lya-Minor/index.m3u8
@@ -1136,8 +1136,7 @@ http://185.23.80.28:8080/MuzikaPervogo/index.m3u8
 # #EXTINF:-1 tvg-id="mult" group-title="Детские" catchup-enable="0",Мульт HD
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Мультиландия HD
 https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Наше новое кино
-http://212.73.75.200:8000/play/Auto24
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Наше новое кино
 # #EXTINF:-1 tvg-id="nst" group-title="Кино и сериалы" catchup-enable="0",НСТ
 #EXTINF:-1 tvg-id="ntv-xit" group-title="Кино и сериалы" catchup-enable="0",НТВ Хит
 https://ntv-hls-orig.cdnvideo.ru/th_hit/index.m3u8
@@ -1153,10 +1152,8 @@ http://rtmp.one.by:2300
 # #EXTINF:-1 group-title="Детские" catchup-enable="0",Радость моя
 #EXTINF:-1 tvg-id="rbk" group-title="Эфирные" catchup-enable="0",РБК ТВ
 http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Родное кино
-http://109.200.135.130:8001/nashe-kino/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский бестселлер
-http://91.234.255.18:8000/play/a026/index.m3u8
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Родное кино
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский бестселлер
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский детектив
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский иллюзион
 http://176.222.190.76/btv/SWM/Russky-Illuzion_SWM/Russky-Illuzion_SWM.m3u8
