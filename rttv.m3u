@@ -972,7 +972,7 @@ http://176.222.190.76/btv/SWM/NatGeo_Wild/NatGeo_Wild.m3u8
 # #EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Nickelodeon
 http://212.0.213.132:8084/Nickelodeon/index.m3u8
-#EXTINF:-1 tvg-id="qsport-kz" group-title="Спортивные" catchup-enable="0",Q Sport HD
+#EXTINF:-1 tvg-id="qsport-kz" group-title="Спортивные" catchup-enable="0",Q Sport
 http://176.222.190.76/btv/SWM/Qsport_international/Qsport_international.m3u8
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://logodix.com/logo/1348508.png" group-title="Спортивные" catchup-enable="0",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
