@@ -83,8 +83,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA/variant.m3u8
 https://okkotv-live.cdnvideo.ru/channel/Dom_HD_OTT.m3u8
 #EXTINF:-1 tvg-id="zvezda" group-title="HD и UHD" catchup-enable="0",Звезда HD
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
-#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Конный мир HD
-https://bl.uma.media/live/400930/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 tvg-id="mir" group-title="HD и UHD" catchup-enable="0",Мир HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 channelId="259" tvg-id="nasha-sibir-4k" group-title="HD и UHD" catchup-enable="1",Наша Сибирь 4K
@@ -1092,6 +1090,8 @@ http://flu.ttk.mx:9090/kinohit/index.m3u8?token=orh6o
 #EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы" catchup-enable="0",Кинохит HD
 http://45.159.74.13:80/Kinokhit/tracks-v1a1/mono.m3u8
 # #EXTINF:-1 tvg-id="komedijnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Комедийное HD
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Конный мир HD
+https://bl.uma.media/live/400930/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 tvg-id="la-minor" group-title="Музыкальные" catchup-enable="0",Ля-минор
 http://146.158.0.56:80/Lya-Minor/index.m3u8
 #EXTINF:-1 tvg-id="matur-tv" group-title="Музыкальные" catchup-enable="1",Матур ТВ HD
@@ -1163,11 +1163,11 @@ http://185.23.80.28:8080/RusskijRoman/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Сапфир HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD.m3u8
-#EXTINF:-1 tvg-id="start" group-title="Спортивные" catchup-enable="0",СТАРТ HD
+#EXTINF:-1 tvg-id="start" group-title="Спортивные" catchup-enable="0",Старт HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Start/playlist.m3u8
 # http://strm.yandex.ru/kal/start/start0.m3u8
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",СТАРТ ТРИУМФ HD
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Старт Триумф HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Start_Triumph_HD.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Страна FM HD
