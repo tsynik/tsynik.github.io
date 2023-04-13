@@ -118,8 +118,8 @@ https://bl.uma.media/live/317849/HLS/4614144_3/2/1/playlist.m3u8
 #
 # OTHERS
 #
-#EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Эфирные" catchup-enable="0",Москва 24
-https://radio-live-mg.rtr-vesti.ru/hls/moscow_24/playlist.m3u8
+# #EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Новости" catchup-enable="0",Москва 24  
+# https://radio-live-mg.rtr-vesti.ru/hls/moscow_24/playlist.m3u8  
 # #EXTINF:-1 channelId="25" tvg-id="doverie" group-title="Эфирные" catchup-enable="1",Москва. Доверие
 # #EXTVLCOPT:http-user-agent=Mozilla 5.0
 # http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_DOVERIE/variant.m3u8
@@ -972,6 +972,8 @@ http://176.222.190.76/btv/SWM/NatGeo_Wild/NatGeo_Wild.m3u8
 # #EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Nickelodeon
 http://212.0.213.132:8084/Nickelodeon/index.m3u8
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Q Sport HD
+http://176.222.190.76/btv/SWM/Qsport_international/Qsport_international.m3u8
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://logodix.com/logo/1348508.png" group-title="Спортивные" catchup-enable="0",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 #EXTINF:-1 tvg-id="rtg-hd" group-title="Познавательные" catchup-enable="0",RTG HD
@@ -982,10 +984,12 @@ https://hls-03-video.webcaramba.com/rutv/live_720/index.m3u8
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="russian-musicbox" group-title="Музыкальные" catchup-enable="0",Russian Music Box HD
 http://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
-# #EXTINF:-1 tvg-id="setanta-sports" tvg-logo="http://epg.it999.ru/img2/2812.png" group-title="Спортивные" catchup-enable="0",Setanta Sports 1 HD
-# https://livetv.mylifeisgood.ml/channels/setantahd
-# #EXTINF:-1 tvg-id="setanta-sports-plus" tvg-logo="http://epg.it999.ru/img2/2813.png" group-title="Спортивные" catchup-enable="0",Setanta Sports 2 HD
-# https://livetv.mylifeisgood.ml/channels/setantaplus
+#EXTINF:-1 tvg-id="setanta-sports" tvg-logo="http://epg.it999.ru/img2/2812.png" group-title="Спортивные" catchup-enable="0",Setanta Sports 1 HD
+http://clientportal.link:80/BlIm21564/agf7Fp264/23829
+#EXTINF:-1 tvg-id="setanta-sports-plus" tvg-logo="http://epg.it999.ru/img2/2813.png" group-title="Спортивные" catchup-enable="0",Setanta Sports 2 HD
+http://clientportal.link:80/BlIm21564/agf7Fp264/23829
+#EXTINF:-1 tvg-id="setanta-kz" group-title="Спортивные" catchup-enable="0",Setanta Sports Qazaqstan HD
+http://176.222.190.76/btv/SWM/SetantaKZ_HD/SetantaKZ_HD.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Cinema HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Star_Cinema_HD.m3u8
