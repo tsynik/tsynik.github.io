@@ -230,6 +230,7 @@
       var item = new Lampa.InteractionLine(element, {
         url: element.url,
         card_small: true,
+        cardClass: element.cardClass,
         genres: object.genres,
         object: object,
         card_wide: true,
@@ -251,6 +252,12 @@
 
         _this3.background(elem);
       };
+
+        item.onHover = function (elem) {
+          info.update(elem);
+
+          _this3.background(elem);
+        };
 
       item.onFocusMore = info.empty.bind(info);
       scroll.append(item.render());
