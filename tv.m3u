@@ -986,9 +986,9 @@ https://hls-03-video.webcaramba.com/rutv/live_720/index.m3u8
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="russian-musicbox" group-title="Музыкальные" catchup-enable="0",Russian Music Box HD
 http://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
-#EXTINF:-1 tvg-id="setanta-sports" tvg-logo="http://epg.it999.ru/img2/2812.png" group-title="Спортивные" catchup-enable="0",Setanta Sports 1 HD
+#EXTINF:-1 tvg-id="setanta-sports" group-title="Спортивные" catchup-enable="0",Setanta Sports 1 HD
 http://176.222.190.76/btv/SWM/SetantaSport_HD/SetantaSport_HD.m3u8
-#EXTINF:-1 tvg-id="setanta-sports-plus" tvg-logo="http://epg.it999.ru/img2/2813.png" group-title="Спортивные" catchup-enable="0",Setanta Sports 2 HD
+#EXTINF:-1 tvg-id="setanta-sports-plus" group-title="Спортивные" catchup-enable="0",Setanta Sports 2 HD
 http://176.222.190.76/btv/SWM/SetantaSportPlus_HD/SetantaSportPlus_HD.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Cinema HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
