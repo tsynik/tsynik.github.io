@@ -80,6 +80,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA/variant.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla 5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA/variant.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Домашний HD
+#EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Dom_HD_OTT.m3u8
 #EXTINF:-1 tvg-id="zvezda" group-title="HD и UHD" catchup-enable="0",Звезда HD
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
@@ -94,24 +95,30 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
 http://cdn10.1internet.tv/dash-live12/streams/1tv/1tvdash.mpd
 # http://cdn2.1internet.tv/dash-live12/streams/1tv/1tvdash.mpd
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Пятница HD
+#EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Pyatnizza_OTT_HD.m3u8
 # https://bl.uma.media/live/410336/HLS/6307840_6/1/1/playlist.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",РЕН ТВ HD
+#EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Россия 1 HD
+#EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Russia1HD.m3u8
 # http://cdnmg.secure.live.rtr-vesti.ru/hls2/russia_hd/playlist_6.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",СТС HD
+#EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Суббота! HD
 http://bl.uma.media/live/317845/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",ТВ-3 HD
+#EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/TV3_OTT_HD.m3u8
 # https://bl.uma.media/live/410336/HLS/6307840_6/1/1/playlist.m3u8
 # #EXTINF:-1 group-title="HD и UHD" catchup-enable="1",ТЕО-ТВ HD
 # #EXTVLCOPT:http-user-agent=Mozilla 5.0
 # http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TEOTV/variant.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",ТНТ HD
+#EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/TNT_OTT_HD.m3u8
 #EXTINF:-1 tvg-id="tnt4" group-title="HD и UHD" catchup-enable="0",ТНТ4 HD
 https://bl.uma.media/live/317849/HLS/4614144_3/2/1/playlist.m3u8
@@ -1011,7 +1018,6 @@ http://185.23.80.28:8080/TiJi/index.m3u8
 http://176.222.190.76/btv/SWM/tlc_hd/tlc_hd.m3u8
 #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",TV XXI
 http://176.222.190.76/btv/SWM/tv21/tv21.m3u8
-# http://flu.ttk.mx:9090/TV21/index.m3u8?token=orh6o
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viju Explore HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Viasat_Explore_HD.m3u8
@@ -1056,12 +1062,10 @@ https://okkotv-live.cdnvideo.ru/channel/VIP_Serial_HD.m3u8
 https://livetv.mylifeisgood.ml/channels/glazamiturista.m3u8
 #EXTINF:-1 tvg-id="domkino" group-title="Кино и сериалы" catchup-enable="0",Дом Кино
 http://176.222.190.76/btv/SWM/Dom_Kino/Dom_Kino.m3u8
-# http://flu.ttk.mx:9090/Dom_kino/index.m3u8?token=orh6o
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Дом Кино Премиум HD
 http://176.222.190.76/btv/SWM/Dom_kino_Prem/Dom_kino_Prem.m3u8
 #EXTINF:-1 tvg-id="evrokino" group-title="Кино и сериалы" catchup-enable="0",Еврокино
 http://176.222.190.76/btv/SWM/Eurokino/Eurokino.m3u8
-# http://flu.ttk.mx:9090/Evrokino/index.m3u8?token=orh6o
 #EXTINF:-1 group-title="Новости" catchup-enable="0",Известия HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Izvestiya_HD_2.m3u8
@@ -1072,19 +1076,15 @@ https://okkotv-live.cdnvideo.ru/channel/Fox_HD.m3u8
 # http://176.222.190.76/btv/SWM/kineko_hd/kineko_hd.m3u8
 # #EXTINF:-1 tvg-id="kinomiks" group-title="Кино и сериалы" catchup-enable="0",Киномикс HD
 #EXTINF:-1 tvg-id="kinopokaz" group-title="Кино и сериалы" tvg-logo="http://epg.it999.ru/img2/2834.png" catchup-enable="0",Кинопоказ
-http://flu.ttk.mx:9090/kinopokaz/index.m3u8?token=orh6o
-# http://185.23.80.28:8080/Kinopokaz/index.m3u8
+http://185.23.80.28:8080/Kinopokaz/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Кинопремьера HD
-http://flu.ttk.mx:9090/Kinopremiera/index.m3u8?token=orh6o
-# http://streamer1.ruslanatv.ru/russia/kinopremyera_hd_2023/playlist.m3u8
+http://streamer1.ruslanatv.ru/russia/kinopremyera_hd_2023/playlist.m3u8
 # http://45.159.74.13:80/Kinopremera/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киносвидание
 http://streamer1.ruslanatv.ru/russia/kinosvidanie_sd_new_2023/playlist.m3u8
-# http://flu.ttk.mx:9090/Kinosvidanie/index.m3u8?token=orh6o
 # #EXTINF:-1 tvg-id="kinosvidanie" group-title="Кино и сериалы" catchup-enable="0",Киносвидание HD
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Киносемья
 http://streamer1.ruslanatv.ru/russia/kinosemya_sd_new_2023/playlist.m3u8
-# http://flu.ttk.mx:9090/Kinosemia/index.m3u8?token=orh6o
 # #EXTINF:-1 tvg-id="kinosemiya" group-title="Кино и сериалы" catchup-enable="0",Киносемья HD
 # #EXTINF:-1 tvg-id="kinokomedia" group-title="Кино и сериалы" catchup-enable="0",Кинокомедия
 # #EXTINF:-1 tvg-id="kinokomedia" group-title="Кино и сериалы" catchup-enable="0",Кинокомедия HD
@@ -1182,9 +1182,8 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Театр
 http://flu.ttk.mx:9090/Teatr/index.m3u8?token=orh6o
-# #EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="0",Телеканал Футбол
-# http://flu.ttk.mx:9090/Futbol/index.m3u8?token=orh6o
-# http://185.23.80.28:8080/Football/index.m3u8
+#EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="0",Телеканал Футбол
+http://185.23.80.28:8080/Football/index.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",ТНТ Music HD
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
 #EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс+ Кино HD
