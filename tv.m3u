@@ -915,8 +915,8 @@ https://okkotv-live.cdnvideo.ru/channel/A1_HD.m3u8
 https://okkotv-live.cdnvideo.ru/channel/A2_HD.m3u8
 #EXTINF:-1 tvg-id="amedia-hit" group-title="Кино и сериалы",Amedia Hit HD
 https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD.m3u8
-#EXTINF:-1 group-title="Детские" catchup-enable="0",Ani
-http://185.23.80.28:8080/Ani/index.m3u8
+# #EXTINF:-1 group-title="Детские" catchup-enable="0",Ani  
+# http://185.23.80.28:8080/Ani/index.m3u8  
 #EXTINF:-1 tvg-id="animal-planet" group-title="Познавательные" catchup-enable="0",Animal Planet HD
 http://176.222.190.76/btv/SWM/animal_hd/animal_hd.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood HD
@@ -1012,8 +1012,8 @@ https://okkotv-live.cdnvideo.ru/channel/START_World_HD.m3u8
 #EXTINF:-1 tvg-id="terra-ru" group-title="Познавательные" catchup-enable="0",Terra HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/NGC_HD.m3u8
-#EXTINF:-1 group-title="Детские" catchup-enable="0",TiJi
-http://185.23.80.28:8080/TiJi/index.m3u8
+# #EXTINF:-1 group-title="Детские" catchup-enable="0",TiJi  
+# http://185.23.80.28:8080/TiJi/index.m3u8  
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",TLC HD
 http://176.222.190.76/btv/SWM/tlc_hd/tlc_hd.m3u8
 #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",TV XXI
@@ -1075,8 +1075,8 @@ https://okkotv-live.cdnvideo.ru/channel/Izvestiya_HD_2.m3u8
 https://okkotv-live.cdnvideo.ru/channel/Fox_HD.m3u8
 # http://176.222.190.76/btv/SWM/kineko_hd/kineko_hd.m3u8
 # #EXTINF:-1 tvg-id="kinomiks" group-title="Кино и сериалы" catchup-enable="0",Киномикс HD
-#EXTINF:-1 tvg-id="kinopokaz" group-title="Кино и сериалы" tvg-logo="http://epg.it999.ru/img2/2834.png" catchup-enable="0",Кинопоказ
-http://185.23.80.28:8080/Kinopokaz/index.m3u8
+# #EXTINF:-1 tvg-id="kinopokaz" group-title="Кино и сериалы" tvg-logo="http://epg.it999.ru/img2/2834.png" catchup-enable="0",Кинопоказ  
+# http://185.23.80.28:8080/Kinopokaz/index.m3u8  
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Кинопремьера HD
 http://streamer1.ruslanatv.ru/russia/kinopremyera_hd_2023/playlist.m3u8
 # http://45.159.74.13:80/Kinopremera/tracks-v1a1/mono.m3u8
@@ -1131,12 +1131,12 @@ http://bl.uma.media/live/126865/HLS/6866944_4/2/1/playlist.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 # #EXTINF:-1 group-title="HD и UHD" tvg-logo="https://epg.iptvx.one/icn/mir-premium.png" catchup-enable="0",Мир Премиум
 # http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
-#EXTINF:-1 tvg-id="motorsportv-tv" group-title="Спортивные" catchup-enable="0",Моторспорт ТВ
-http://185.23.80.28:8080/Motorsport_HD/index.m3u8
+# #EXTINF:-1 tvg-id="motorsportv-tv" group-title="Спортивные" catchup-enable="0",Моторспорт ТВ  
+# http://185.23.80.28:8080/Motorsport_HD/index.m3u8  
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино HD
-#EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Музыка Первого
-http://185.23.80.28:8080/MuzikaPervogo/index.m3u8
+# #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Музыка Первого  
+# http://185.23.80.28:8080/MuzikaPervogo/index.m3u8  
 # #EXTINF:-1 tvg-id="mult" group-title="Детские" catchup-enable="0",Мульт HD
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Мультиландия HD
 https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
@@ -1161,8 +1161,8 @@ http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский детектив
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский иллюзион
 http://176.222.190.76/btv/SWM/Russky-Illuzion_SWM/Russky-Illuzion_SWM.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский роман
-http://185.23.80.28:8080/RusskijRoman/index.m3u8
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский роман  
+# http://185.23.80.28:8080/RusskijRoman/index.m3u8  
 # #EXTINF:-1 tvg-id="russky-ekstrim" group-title="Спортивные" catchup-enable="0",Русский экстрим
 # http://vid.extremtv.ru/hls_get/cameraFeed.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Сапфир HD
@@ -1181,8 +1181,8 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
 # #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Театр
 # http://flu.ttk.mx:9090/Teatr/index.m3u8?token=orh6o
-#EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="0",Телеканал Футбол
-http://185.23.80.28:8080/Football/index.m3u8
+# #EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="0",Телеканал Футбол  
+# http://185.23.80.28:8080/Football/index.m3u8  
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",ТНТ Music HD
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
 #EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс+ Кино HD
