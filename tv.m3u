@@ -91,7 +91,7 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
 # #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",НТВ HD
 # https://ntv-hls-orig.cdnvideo.ru/ntv0_hd/tracks-v1a1/mono.m3u8
-#EXTINF:-1 catchup-enable="1" catchup="flussonic" catchup-days="1",НТВ HD
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="1" catchup="flussonic" catchup-days="1",НТВ HD
 http://185.23.80.25:8080/NTV_HD/index.m3u8?id=MTg1LjIzLjgwLjI4LDE4NS4yMy44MC4yNywxODUuMjMuODAuMjU=
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Первый канал HD
 http://cdn10.1internet.tv/dash-live12/streams/1tv/1tvdash.mpd
