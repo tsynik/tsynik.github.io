@@ -938,19 +938,19 @@ http://176.222.190.76/btv/SWM/discovery_hd/discovery_hd.m3u8
 # #EXTINF:-1 tvg-id="discovery-science" group-title="Познавательные" catchup-enable="0",Discovery Science HD
 # https://livetv.mylifeisgood.ml/channels/discoveryscience.m3u8
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Eurosport 1
-#EXTINF:-1 tvg-id="eurosport1" tvg-logo="http://epg.it999.ru/img2/2052.png" group-title="Спортивные" catchup-enable="0",Eurosport 1 HD
-http://176.222.190.76/btv/SWM/Eurosport/Eurosport.m3u8
+# #EXTINF:-1 tvg-id="eurosport1" tvg-logo="http://epg.it999.ru/img2/2052.png" group-title="Спортивные" catchup-enable="0",Eurosport 1 HD  
+# http://176.222.190.76/btv/SWM/Eurosport/Eurosport.m3u8  
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Eurosport 2
-#EXTINF:-1 tvg-id="eurosport2" tvg-logo="http://epg.it999.ru/img2/4313.png" group-title="Спортивные" catchup-enable="0",Eurosport 2 HD
-http://176.222.190.76/btv/SWM/Eurosport2/Eurosport2.m3u8
+# #EXTINF:-1 tvg-id="eurosport2" tvg-logo="http://epg.it999.ru/img2/4313.png" group-title="Спортивные" catchup-enable="0",Eurosport 2 HD  
+# http://176.222.190.76/btv/SWM/Eurosport2/Eurosport2.m3u8  
 #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы" catchup-enable="0",FOX HD
 https://okkotv-live.cdnvideo.ru/channel/Fox_HD.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Gulli Girl
 http://176.222.190.76/btv/SWM/Guilli/Guilli.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Hollywood
 http://176.222.190.76/btv/SWM/Hollywood/Hollywood.m3u8
-#EXTINF:-1 tvg-id="insight-tv-hd" group-title="Спортивные" catchup-enable="0",Insight TV HD
-https://insighttv-vizio.amagi.tv/playlist.m3u8
+# #EXTINF:-1 tvg-id="insight-tv-hd" group-title="Спортивные" catchup-enable="0",Insight TV HD  
+# https://insighttv-vizio.amagi.tv/playlist.m3u8  
 # #EXTINF:-1 tvg-id="id-xtra-ru" tvg-logo="http://iptvz.cf/id-xtra-ru.png" group-title="Познавательные" catchup-enable="0",Investigation Discovery HD
 # https://livetv.mylifeisgood.ml/channels/discoveryxtra.m3u8
 # #EXTINF:-1 tvg-id="jimjam" group-title="Детские" catchup-enable="0",JimJam
