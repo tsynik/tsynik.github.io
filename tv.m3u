@@ -125,11 +125,6 @@ https://bl.uma.media/live/317849/HLS/4614144_3/2/1/playlist.m3u8
 #
 # OTHERS
 #
-# #EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Новости" catchup-enable="0",Москва 24
-# https://radio-live-mg.rtr-vesti.ru/hls/moscow_24/playlist.m3u8
-# #EXTINF:-1 channelId="25" tvg-id="doverie" group-title="Эфирные" catchup-enable="1",Москва. Доверие
-# #EXTVLCOPT:http-user-agent=Mozilla/5.0
-# http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_OTT_DOVERIE/variant.m3u8
 #EXTINF:-1 channelId="27" group-title="Развлекательные" catchup-enable="1",Че
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/variant.m3u8
@@ -1131,6 +1126,8 @@ http://bl.uma.media/live/126864/HLS/6866944_4/2/1/playlist.m3u8
 http://bl.uma.media/live/126865/HLS/6866944_4/2/1/playlist.m3u8
 #EXTINF:-1 tvg-id="mir-24" group-title="Новости" catchup-enable="0",Мир 24 HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+#EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Новости" catchup-enable="1" catchup="flussonic" catchup-days="1",Москва 24
+http://185.23.80.25:8080/Moskva24/index.m3u8?id=MTg1LjIzLjgwLjI4LDE4NS4yMy44MC4yNywxODUuMjMuODAuMjU=
 #EXTINF:-1 tvg-id="motorsportv-tv" group-title="Спортивные" catchup-enable="1" catchup="flussonic" catchup-days="1",Моторспорт ТВ
 http://185.23.80.25:8080/Motorsport_HD/index.m3u8?id=MTg1LjIzLjgwLjI4LDE4NS4yMy44MC4yNywxODUuMjMuODAuMjU=
 #EXTINF:-1 tvg-id="moya-planeta" group-title="Познавательные" catchup="flussonic" catchup-days="1",Моя Планета HD
@@ -1149,7 +1146,7 @@ http://185.23.80.25:8080/NST/index.m3u8?id=MTg1LjIzLjgwLjI4LDE4NS4yMy44MC4yNywxO
 http://185.23.80.28:8080/NTVXit/index.m3u8?id=MTg1LjIzLjgwLjI4LDE4NS4yMy44MC4yNywxODUuMjMuODAuMjYsMTg1LjIzLjgwLjI1
 #EXTINF:-1 tvg-id="ntv-serial" group-title="Кино и сериалы" catchup-enable="1" catchup="flussonic" catchup-days="1",НТВ Сериал
 http://185.23.80.25:8080/NTVSerial/index.m3u8?id=MTg1LjIzLjgwLjI4LDE4NS4yMy44MC4yNywxODUuMjMuODAuMjU=
-#EXTINF:-1 tvg-id="ntv-style" group-title="Познавательные" catchup-enable="1" catchup="flussonic" catchup-days="1",НТВ Стиль
+#EXTINF:-1 tvg-id="ntv-style" group-title="Развлекательные" catchup-enable="1" catchup="flussonic" catchup-days="1",НТВ Стиль
 http://185.23.80.25:8080/NTVStil/index.m3u8?id=MTg1LjIzLjgwLjI4LDE4NS4yMy44MC4yNywxODUuMjMuODAuMjU=
 #EXTINF:-1 tvg-id="o_" tvg-name="О!" group-title="Детские" catchup-enable="1" catchup="flussonic" catchup-days="1",О!
 http://185.23.80.25:8080/O/index.m3u8?id=MTg1LjIzLjgwLjI4LDE4NS4yMy44MC4yNywxODUuMjMuODAuMjU=
