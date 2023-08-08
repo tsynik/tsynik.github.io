@@ -979,8 +979,6 @@ https://okkotv-live.cdnvideo.ru/channel/KHL_HD_2/playlist.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="kxl-prime" catchup-enable="0",KHL Prime HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/KHL_PRIME_HD.m3u8
-#EXTINF:-1 group-title="Телемагазины" catchup-enable="0",Leomax 24
-http://tvshops.bonus-tv.ru:80/cdn/shop24/tracks-v1a1/index.m3u8
 # #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Luxury HD
 # http://185.23.80.25:8080/LUXURY_HD/index.m3u8?id=MTg1LjIzLjgwLjI4LDE4NS4yMy44MC4yNywxODUuMjMuODAuMjU=
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://mmajunkie.usatoday.com/wp-content/uploads/sites/91/2017/07/mmaj-header-logo.png" group-title="Спортивные" catchup-enable="0",MMA Junkie HD
@@ -1018,7 +1016,7 @@ http://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
 https://kinescope.io/203407881/master.m3u8
 #EXTINF:-1 tvg-id="setanta-sports-plus" group-title="Спортивные" catchup-enable="0",Setanta Sports 2 HD
 https://tv.movielab.pro/943/video.m3u8
-#EXTINF:-1 group-title="Телемагазины" catchup-enable="0",Shopping Live
+#EXTINF:-1 tvg-id="no_epg" group-title="Телемагазины" catchup-enable="0",Shopping Live
 http://shoppinglive.mediacdn.ru/cdn/shopping/playlist_sdhigh.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Cinema HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
@@ -1324,7 +1322,7 @@ http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
 #EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс+ Кино HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Phoenix_HD.m3u8
-#EXTINF:-1 group-title="Телемагазины" catchup-enable="0",Ювелирочка
+#EXTINF:-1 tvg-id="no_epg" group-title="Телемагазины" catchup-enable="0",Ювелирочка
 http://okko-media.cdnvideo.ru/live/okko/uvelir/hls/playlist_sdhigh.m3u8
 #
 # http://9ak.ru/v/rel/
