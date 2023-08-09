@@ -192,9 +192,6 @@ http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_ARIGUS/variant.m3u8
 #EXTINF:-1 tvg-id="arig-us-24" group-title="Региональные" catchup-enable="1",Ариг Ус 24 HD (OTT)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_UUDE_ARIGUS/variant.m3u8
-#EXTINF:-1 tvg-id="arktik-tv" group-title="Региональные" catchup-enable="1",Арктик-TV HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R03_ARCTIC/variant.m3u8
 #EXTINF:-1 tvg-id="vremia-arktiki" group-title="Региональные" catchup-enable="1",Арктика 24 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_ARKTIKA24_URAL_YNF/variant.m3u8
@@ -475,18 +472,12 @@ http://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8
 #EXTINF:-1 tvg-id="tv-in" group-title="Региональные" catchup-enable="1",ТВ-ИН HD (Магнитогорск)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_TVIN_MAGN/variant.m3u8
-#EXTINF:-1 tvg-id="tv21plus" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/8/86/%D0%AD%D1%84%D0%B8%D1%80%D0%BD%D1%8B%D0%B9_%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A2%D0%9221%2B_%28%D0%9C%D1%83%D1%80%D0%BC%D0%B0%D0%BD%D1%81%D0%BA%29_%D1%81_1_%D0%BC%D0%B0%D1%80%D1%82%D0%B0_2022_%D0%B4%D0%BE_%D0%BD%D0%B0%D1%81%D1%82%D0%BE%D1%8F%D1%89%D0%B5%D0%B5_%D0%B2%D1%80%D0%B5%D0%BC%D1%8F%29.png/revision/latest?cb=20220304091321&path-prefix=ru" group-title="Региональные" catchup-enable="1",ТВ21+ (Мурманск)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R01_TV21PLUS/variant.m3u8
 #EXTINF:-1 tvg-id="tk-variant" group-title="Региональные" catchup-enable="1",ТК Вариант
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://rt-ct-vlad-htlive.cdn.ngenix.net/hls/CH_R01_VARIANT_V/variant.m3u8
 #EXTINF:-1 tvg-id="trk-ryazan" group-title="Региональные" catchup-enable="1",ТКР HD (Рязань)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://rt-ct-ryaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_RYAZ_TKP/variant.m3u8
-#EXTINF:-1 group-title="Региональные" catchup-enable="1",ТНВ-Планета
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_TNV_PLANETA_URAL/variant.m3u8
 #EXTINF:-1 tvg-id="tnv" group-title="Региональные" catchup-enable="1",ТНВ-Татарстан
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R01_TNVT/variant.m3u8
@@ -541,9 +532,6 @@ http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R01_EFIR/variant.m3u8
 #EXTINF:-1 tvg-id="utv-cheboxary" group-title="Региональные" catchup-enable="1",ЮТВ Чебоксары
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_OTT_VLG_CHR_UTV/variant.m3u8
-#EXTINF:-1 tvg-id="no_epg" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/5/59/2020-01-23_08-52-45.png/revision/latest?cb=20200123153812&path-prefix=ru" group-title="Региональные" catchup-enable="1",Югорск ТВ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_YUGORSKTV/variant.m3u8
 #EXTINF:-1 group-title="Региональные" catchup-enable="1",Югра
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_URAL_SUR/variant.m3u8
@@ -960,9 +948,9 @@ http://45.144.31.195:8005/playlist.m3u8
 http://45.144.31.195:8002/playlist.m3u8
 #EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr
 http://91.233.215.250:7272/Jke5tdvCxp2Yhs6
-#EXTINF:-1 group-title="Детские" catchup-enable="0",Nickelodeon
+#EXTINF:-1 tvg-id="nickelodeon-ru" group-title="Детские" catchup-enable="0",Nickelodeon
 http://europe3.livetv.az/russia/nickelodeon_2023/playlist.m3u8
-#EXTINF:-1 group-title="Детские" catchup-enable="0",Nickelodeon HD
+#EXTINF:-1 tvg-id="nickelodeon-ru" group-title="Детские" catchup-enable="0",Nickelodeon HD
 http://45.144.31.195:8026/playlist.m3u8
 #EXTINF:-1 tvg-id="qsport-kz" group-title="Спортивные" catchup-enable="0",Q Sport HD
 http://89.254.128.5:22280/qsport/index.m3u8 
