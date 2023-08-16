@@ -855,9 +855,13 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",.black
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Sony_Turbo.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="1" catchup="flussonic" catchup-days="1",.Black HD
+http://31.134.132.249:8080/black_hd/index.m3u8?id=ODkuMTA0LjExNC4yLDg5LjEwNC4xMTQuNiw4OS4xMDQuMTE0LjE4LDg5LjEwNC4xMTQuMzIsMzEuMTM0LjEzMi4yNDMsMzEuMTM0LjEzMi4yNDksMzEuMTM0LjEzMi4yNTA=
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",.red
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Sony_ET.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="1" catchup="flussonic" catchup-days="1",.RED HD
+http://31.134.132.249:8080/red_hd/index.m3u8?id=ODkuMTA0LjExNC4yLDg5LjEwNC4xMTQuMTgsODkuMTA0LjExNC4zMiwzMS4xMzQuMTMyLjI0MywzMS4xMzQuMTMyLjI0OSwzMS4xMzQuMTMyLjI1MA==
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",.Sci-Fi
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
@@ -904,8 +908,8 @@ https://cdn-cache01.voka.tv:443/live/5115.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel HD
 http://45.159.74.14:80/DiscoveryChannel/tracks-v1a2/mono.m3u8
 #EXTINF:-1 tvg-id="discovery-science" group-title="Познавательные" catchup-enable="0",Discovery Science HD
-http://194.114.144.244:8002/play/a0vg
-#http://81.177.136.209:8004/playlist.m3u8
+http://81.177.136.209:8004/playlist.m3u8
+# http://194.114.144.244:8002/play/a0vg
 #EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV HD
 http://hls-europaplus.cdnvideo.ru/europaplus/smil:eurptv3.smil/playlist.m3u8
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Eurosport 1
@@ -922,8 +926,8 @@ http://live-3.otcnet.ru/Gulli_OT/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Hollywood HD
 http://stream01.vnet.am/ParamountChannel/mono.m3u8
 #EXTINF:-1 tvg-id="id-xtra-eu" group-title="Познавательные" catchup-enable="0",Investigation Discovery HD
-http://194.114.144.244:8001/play/id
-# http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
+http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
+# http://194.114.144.244:8001/play/id
 #EXTINF:-1 tvg-id="jimjam" group-title="Детские" catchup-enable="0",JimJam
 http://streamer1.ruslanatv.ru/russia/jimjam_2023/playlist.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL HD
@@ -1036,8 +1040,9 @@ https://okkotv-live.cdnvideo.ru/channel/VIP_Serial_HD.m3u8
 # https://bl.uma.media/live/485540/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 tvg-id="blokbaster-hd" group-title="Кино и сериалы" catchup-enable="0",Блокбастер HD
 http://195.161.68.11:8003/playlist.m3u8
-# #EXTINF:-1 tvg-id="blokbaster-hd" group-title="Кино и сериалы" catchup-enable="1" catchup="flussonic" catchup-days="1",Блокбастер HD (А)
+#EXTINF:-1 tvg-id="blokbaster-hd" group-title="Кино и сериалы" catchup-enable="1" catchup="flussonic" catchup-days="1",Блокбастер HD (А)
 # http://185.23.80.25:8080/Blockbaster/index.m3u8?id=MTg1LjIzLjgwLjI4LDE4NS4yMy44MC4yNywxODUuMjMuODAuMjU=
+http://31.134.132.249:8080/blokbaster_hd/index.m3u8?id=ODkuMTA0LjExNC4yLDg5LjEwNC4xMTQuMTgsODkuMTA0LjExNC4yOSw4OS4xMDQuMTE0LjMyLDMxLjEzNC4xMzIuMjQzLDMxLjEzNC4xMzIuMjQ5LDMxLjEzNC4xMzIuMjUy
 # #EXTINF:-1 tvg-id="v-mire-zhivotnyx-hd" group-title="Познавательные" catchup-enable="1" catchup="flussonic" catchup-days="1",В мире животных HD (А)
 # http://185.23.80.25:8080/Blockbaster/index.m3u8?id=MTg1LjIzLjgwLjI4LDE4NS4yMy44MC4yNywxODUuMjMuODAuMjU=
 # #EXTINF:-1 tvg-id="glazami-turista" group-title="Познавательные" catchup-enable="0",Глазами туриста
