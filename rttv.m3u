@@ -855,13 +855,9 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",.black
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Sony_Turbo.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="1" catchup="flussonic" catchup-days="1",.Black HD
-http://31.134.132.249:8080/black_hd/index.m3u8?id=ODkuMTA0LjExNC4yLDg5LjEwNC4xMTQuNiw4OS4xMDQuMTE0LjE4LDg5LjEwNC4xMTQuMzIsMzEuMTM0LjEzMi4yNDMsMzEuMTM0LjEzMi4yNDksMzEuMTM0LjEzMi4yNTA=
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",.red
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Sony_ET.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="1" catchup="flussonic" catchup-days="1",.RED HD
-http://31.134.132.249:8080/red_hd/index.m3u8?id=ODkuMTA0LjExNC4yLDg5LjEwNC4xMTQuMTgsODkuMTA0LjExNC4zMiwzMS4xMzQuMTMyLjI0MywzMS4xMzQuMTMyLjI0OSwzMS4xMzQuMTMyLjI1MA==
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",.Sci-Fi
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
@@ -877,8 +873,6 @@ https://okkotv-live.cdnvideo.ru/channel/A2_HD.m3u8
 https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Ani
 http://streamer1.ruslanatv.ru/russia/ani_sd_2023/playlist.m3u8
-#EXTINF:-1 tvg-id="ani" group-title="Детские" catchup-enable="1" catchup="flussonic" catchup-days="1",Ani (А)
-http://31.134.132.249:8080/ani/index.m3u8?id=ODkuMTA0LjExNC4yLDg5LjEwNC4xMTQuNiw4OS4xMDQuMTE0LjE4LDg5LjEwNC4xMTQuMzIsMzEuMTM0LjEzMi4yNDMsMzEuMTM0LjEzMi4yNDksMzEuMTM0LjEzMi4yNTA=
 #EXTINF:-1 tvg-id="animal-planet" group-title="Познавательные" catchup-enable="0",Animal Planet HD
 http://europe3.livetv.az/russia/animal_planet_sd_new_2023/playlist.m3u8
 # http://45.159.74.14:80/AnimalPlanet/tracks-v1a2/mono.m3u8
@@ -936,8 +930,6 @@ https://okkotv-live.cdnvideo.ru/channel/KHL_HD_2/playlist.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="kxl-prime" catchup-enable="0",KHL Prime HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/KHL_PRIME_HD.m3u8
-#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Luxury HD
-http://31.134.132.249:8080/luxury/index.m3u8?id=ODkuMTA0LjExNC4yLDg5LjEwNC4xMTQuMTAsODkuMTA0LjExNC4xOCw4OS4xMDQuMTE0LjMyLDMxLjEzNC4xMzIuMjQzLDMxLjEzNC4xMzIuMjQ1LDMxLjEzNC4xMzIuMjQ5
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://mmajunkie.usatoday.com/wp-content/uploads/sites/91/2017/07/mmaj-header-logo.png" group-title="Спортивные" catchup-enable="0",MMA Junkie HD
 https://a.jsrdn.com/broadcast/80f6ba72c8/+0000/high/c.m3u8
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://www.lyngsat.com/logo/tv/mm/motorracing-tv.png" group-title="Спортивные" catchup-enable="0",MotoRRacing TV
@@ -1041,7 +1033,6 @@ https://okkotv-live.cdnvideo.ru/channel/VIP_Serial_HD.m3u8
 # https://bl.uma.media/live/485540/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 tvg-id="blokbaster-hd" group-title="Кино и сериалы" catchup-enable="0",Блокбастер HD
 http://195.161.68.11:8003/playlist.m3u8
-# http://31.134.132.249:8080/blokbaster_hd/index.m3u8?id=ODkuMTA0LjExNC4yLDg5LjEwNC4xMTQuMTgsODkuMTA0LjExNC4yOSw4OS4xMDQuMTE0LjMyLDMxLjEzNC4xMzIuMjQzLDMxLjEzNC4xMzIuMjQ5LDMxLjEzNC4xMzIuMjUy
 # #EXTINF:-1 tvg-id="v-mire-zhivotnyx-hd" group-title="Познавательные" catchup-enable="0",В мире животных HD
 # #EXTINF:-1 tvg-id="glazami-turista" group-title="Познавательные" catchup-enable="0",Глазами туриста
 # #EXTINF:-1 tvg-id="dikaya-oxota-hd" group-title="Познавательные" catchup-enable="0",Дикая Охота HD
@@ -1145,9 +1136,7 @@ http://109.200.135.130:8080/motorsport/index.m3u8
 # http://185.23.80.25:8080/Motorsport_HD/index.m3u8?id=MTg1LjIzLjgwLjI4LDE4NS4yMy44MC4yNywxODUuMjMuODAuMjU=
 #EXTINF:-1 tvg-id="moya-planeta" group-title="Познавательные" catchup-enable="0",Моя Планета
 http://streamer1.ruslanatv.ru/russia/moya_planeta_2023/playlist.m3u8
-#EXTINF:-1 tvg-id="moya-planeta" group-title="Познавательные" catchup-enable="0",Моя Планета HD
-http://31.134.132.245:8080/planeta_hd/index.m3u8
-# #EXTINF:-1 tvg-id="moya-planeta" group-title="Познавательные" catchup-enable="1" catchup="flussonic" catchup-days="1",Моя Планета HD (А)
+# #EXTINF:-1 tvg-id="moya-planeta" group-title="Познавательные" catchup-enable="0",Моя Планета HD
 # http://185.23.80.25:8080/MoyaPlaneta/index.m3u8?id=MTg1LjIzLjgwLjI4LDE4NS4yMy44MC4yNywxODUuMjMuODAuMjU=
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино HD
 http://109.200.135.130:8080/muzhskoe-kino_hd/index.m3u8
@@ -1220,17 +1209,12 @@ http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
 http://109.200.135.130:8080/nashe-kino/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский бестселлер
 http://streamer1.ruslanatv.ru/russia/russkij_bestseller_2023/playlist.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский детектив
-http://31.134.132.245:8080/rus-detective/index.m3u8
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="1" catchup="flussonic" catchup-days="1",Русский детектив (А)
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский детектив
 # http://185.23.80.25:8080/RusskijDetektiv/index.m3u8?id=MTg1LjIzLjgwLjI4LDE4NS4yMy44MC4yNywxODUuMjMuODAuMjU=
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский иллюзион
 https://tbs01-edge11.itdc.ge/rusilluzion/tracks-v1a1/mono.m3u8
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="1" catchup="flussonic" catchup-days="1",Русский иллюзион (А)
 # http://185.23.80.25:8080/RusIlluzion/index.m3u8?id=MTg1LjIzLjgwLjI4LDE4NS4yMy44MC4yNywxODUuMjMuODAuMjU=
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский роман
-http://31.134.132.245:8080/russki_roman_hd/index.m3u8
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="1" catchup="flussonic" catchup-days="1",Русский роман (А)
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский роман
 # http://185.23.80.25:8080/RusskijRoman/index.m3u8?id=MTg1LjIzLjgwLjI4LDE4NS4yMy44MC4yNywxODUuMjMuODAuMjU=
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский роман HD
 http://46.151.151.245:10002/play/a0b3
@@ -1254,8 +1238,7 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Театр
-http://31.134.132.245:8080/strk_hd/index.m3u8
-# http://146.158.0.56:80/Teatr/index.m3u8 
+http://146.158.0.56:80/Teatr/index.m3u8
 #EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="0",Телеканал Футбол
 http://streamer1.ruslanatv.ru/russia/futbol_sd_2023/playlist.m3u8
 # #EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="1" catchup="flussonic" catchup-days="1",Телеканал Футбол (А)
