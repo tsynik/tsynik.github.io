@@ -32,6 +32,7 @@
 				if(Lampa.Platform.is('webos')) window.close();
 				if(Lampa.Platform.is('android')) Lampa.Android.exit();
 				if(Lampa.Platform.is('orsay')) Lampa.Orsay.exit();
+				if(Lampa.Platform.is('nw')) nw.Window.get().close();
 			});
 			$('.menu .menu__list').eq(1).append(menu_items);
 	}
