@@ -116,7 +116,23 @@
                 if (e.type == "ready") add();
             });
         }
-		console.log('App', 'IP:', getLocalIP());
+        console.log("App", "IP:", getLocalIP());
+        const getIP = async () => {
+            const { RTCPeerConnection } = window;
+            const pc = new RTCPeerConnection({ iceServers: [] });
+            pc.createDataChannel("");
+            pc.createOffer().then(pc.setLocalDescription.bind(pc));
+            pc.onicecandidate = (ice) => {
+                if (!ice || !ice.candidate || !ice.candidate.candidate) return;
+                const ipRegex = /([0-9]{1,3}(\.[0-9]{1,3}){3})/;
+                const ipMatch = ice.candidate.candidate.match(ipRegex);
+                const ip = ipMatch && ipMatch[1];
+                //console.log(ip);
+				console.log("App", "IP:", ip);
+                pc.onicecandidate = () => {};
+            };
+        };
+        getIP();
     }
     if (!window.plugin_exit_m_ready) createExitMenu();
 })();
