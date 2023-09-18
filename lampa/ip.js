@@ -109,7 +109,7 @@
                 "</div></li>"
         );
         menu_items.on("hover:enter", function () {
-            Lampa.Activity.out();
+            //Lampa.Activity.out();
             getIPs(function (ip) {
                 alert(ip);
             });
