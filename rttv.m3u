@@ -952,7 +952,7 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 http://strm.yandex.ru/kal/rtg/rtg0.m3u8
 #EXTINF:-1 tvg-id="ru-tv" group-title="Музыкальные" catchup-enable="0",RU.TV HD
 https://hls-03-video.webcaramba.com/rutv/live_720/index.m3u8
-#EXTINF:-1 tvg-id="russia-today" tvg-logo="https://en.wikipedia.org/wiki/RT_%28TV_network%29#/media/File:Russia-today-logo.svg" group-title="Новости" catchup-enable="0",Russia Today HD
+#EXTINF:-1 tvg-id="russia-today" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/300px-Russia-today-logo.svg.png" group-title="Новости" catchup-enable="0",Russia Today HD
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="russian-musicbox" group-title="Музыкальные" catchup-enable="0",Russian Music Box HD
 http://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
