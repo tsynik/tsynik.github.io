@@ -980,8 +980,8 @@ https://okkotv-live.cdnvideo.ru/channel/START_World_HD.m3u8
 #EXTINF:-1 tvg-id="terra-ru" group-title="Познавательные" catchup-enable="0",Terra HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/NGC_HD.m3u8
-#EXTINF:-1 group-title="Детские" catchup-enable="0",TiJi
-http://europe3.livetv.az/russia/tiji_2023/playlist.m3u8
+# #EXTINF:-1 group-title="Детские" catchup-enable="0",TiJi
+# http://europe3.livetv.az/russia/tiji_2023/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",TLC HD
 https://ucdn.beetv.kz/btv/live/hls/000001498.m3u8
 #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",TV XXI
@@ -1036,8 +1036,7 @@ https://ucdn.beetv.kz/btv/live/hls/000001414.m3u8
 http://81.177.136.209:8007/playlist.m3u8
 #EXTINF:-1 tvg-id="dikaya-rybalka-hd" group-title="Хобби и увлечения" catchup-enable="0",Дикая Рыбалка HD
 http://moobl.ru/iptv/Dikaya_rybalka_hd.m3u8
-#EXTINF:-1 tvg-id="domkino" group-title="Кино и сериалы" catchup-enable="0",Дом Кино
-https://s12.federal.tv:8082/feda/domkino.stream/playlist.m3u8
+# #EXTINF:-1 tvg-id="domkino" group-title="Кино и сериалы" catchup-enable="0",Дом Кино
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Дом Кино Премиум HD
 http://46.151.151.245:10007/play/a009
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Дорама HD
@@ -1079,8 +1078,7 @@ http://45.159.74.13:80/Kinopremera/tracks-v1a1/mono.m3u8
 https://moobl.ru/iptv/Kinosvidanie_hd.m3u8
 #EXTINF:-1 tvg-id="kinosemiya" group-title="Кино и сериалы" catchup-enable="0",Киносемья HD
 https://moobl.ru/iptv/Kinosemya_hd.m3u8
-#EXTINF:-1 tvg-id="kinokomedia" group-title="Кино и сериалы" catchup-enable="0",Кинокомедия
-https://s12.federal.tv:8082/feda/komediya.stream/playlist.m3u8
+# #EXTINF:-1 tvg-id="kinokomedia" group-title="Кино и сериалы" catchup-enable="0",Кинокомедия
 # #EXTINF:-1 tvg-id="kinokomedia" group-title="Кино и сериалы" catchup-enable="0",Кинокомедия HD
 # #EXTINF:-1 tvg-id="kinoseria" group-title="Кино и сериалы" catchup-enable="0",Киносерия HD
 #EXTINF:-1 tvg-id="kinouzhas" group-title="Кино и сериалы" catchup-enable="0",Киноужас
@@ -1124,8 +1122,7 @@ http://bl.uma.media/live/126864/HLS/6866944_4/2/1/playlist.m3u8
 http://bl.uma.media/live/126865/HLS/6866944_4/2/1/playlist.m3u8
 #EXTINF:-1 tvg-id="mir-24" group-title="Новости" catchup-enable="0",Мир 24 HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
-#EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Новости" catchup-enable="0",Москва 24
-https://s12.federal.tv:8082/feda/m24tv.stream/playlist.m3u8
+# #EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Новости" catchup-enable="0",Москва 24
 # #EXTINF:-1 tvg-id="motorsportv-tv" group-title="Спортивные" catchup-enable="0",Моторспорт ТВ
 # http://146.158.0.56:80/Motosport/index.m3u8
 #EXTINF:-1 tvg-id="moya-planeta" group-title="Познавательные" catchup-enable="0",Моя Планета HD
@@ -1133,8 +1130,7 @@ https://ucdn.beetv.kz/btv/live/hls/000001049.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино HD
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Мужской
 http://81.177.136.209:8006/playlist.m3u8
-#EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Музыка Первого
-https://s12.federal.tv:8082/feda/muzika.stream/playlist.m3u8
+# #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Музыка Первого
 #EXTINF:-1 tvg-id="mult" group-title="Детские" catchup-enable="0",Мульт HD
 http://moobl.ru/iptv/Mult_hd.m3u8
 # #EXTINF:-1 tvg-id="multimuzyka" group-title="Детские" catchup-enable="0",Мульт и музыка
@@ -1177,8 +1173,7 @@ http://moobl.ru/iptv/Pro_lyubov_hd.m3u8
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Продвижение
 http://prodvizhenie.bonus-tv.ru/cdn/prodvizhenie/tracks-v1a1/index.m3u8
 # http://origin5.mediacdn.ru/live/prodvizhenie_new/index.m3u8
-#EXTINF:-1 group-title="Детские" catchup-enable="0",Радость моя
-https://s12.federal.tv:8082/feda/radosttv.stream/playlist.m3u8
+# #EXTINF:-1 group-title="Детские" catchup-enable="0",Радость моя
 #EXTINF:-1 tvg-id="rbk" group-title="Новости" catchup-enable="0",РБК ТВ
 http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
 # http://92.50.128.180/utv/1358/index.m3u8
