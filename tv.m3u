@@ -893,6 +893,8 @@ https://strm.yandex.ru/kal/bridgetvdeluxe/bridgetvdeluxe0.m3u8
 https://strm.yandex.ru/kal/bridgetvhits/bridgetvhits0.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Cartoon Network
 https://ucdn.beetv.kz/btv/live/hls/000000015.m3u8
+#EXTINF:-1 group-title="Детские" catchup-enable="0",Cartoonito
+https://ucdn.beetv.kz/btv/live/hls/000000160.m3u8
 #EXTINF:-1 tvg-id="cinema-ru" group-title="Кино и сериалы" catchup-enable="0",Cinema
 http://176.74.80.162:8099/Cinema/index.m3u8
 #EXTINF:-1 tvg-id="da-vinci" group-title="Познавательные" catchup-enable="0",Da Vinci
@@ -928,8 +930,8 @@ https://okkotv-live.cdnvideo.ru/channel/KHL_HD_2/playlist.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="kxl-prime" catchup-enable="0",KHL Prime HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/KHL_PRIME_HD.m3u8
-#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://www.lyngsat.com/logo/tv/mm/motorracing-tv.png" group-title="Спортивные" catchup-enable="0",MotoRRacing TV
-https://dai.google.com/linear/hls/event/qI1pC-R_Sma0bVLVjaEOtw/master.m3u8
+# #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://www.lyngsat.com/logo/tv/mm/motorracing-tv.png" group-title="Спортивные" catchup-enable="0",MotoRRacing TV
+# https://dai.google.com/linear/hls/event/qI1pC-R_Sma0bVLVjaEOtw/master.m3u8
 #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
 http://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
 # #EXTINF:-1 group-title="Познавательные" catchup-enable="0",NANO HD
@@ -937,10 +939,10 @@ http://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
 http://45.144.31.195:8005/playlist.m3u8 
 #EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные" catchup-enable="0",National Geographic HD
 http://45.144.31.195:8002/playlist.m3u8
-#EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr
-http://91.233.215.250:7272/Jke5tdvCxp2Yhs6
+#EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr.
+https://ucdn.beetv.kz/btv/live/hls/000000449.m3u8
 #EXTINF:-1 tvg-id="nickelodeon-ru" group-title="Детские" catchup-enable="0",Nickelodeon
-http://europe3.livetv.az/russia/nickelodeon_2023/playlist.m3u8
+https://ucdn.beetv.kz/btv/live/hls/000000499.m3u8
 #EXTINF:-1 tvg-id="nickelodeon-ru" group-title="Детские" catchup-enable="0",Nickelodeon HD
 http://45.144.31.195:8026/playlist.m3u8
 #EXTINF:-1 tvg-id="qsport-kz" group-title="Спортивные" catchup-enable="0",Q Sport HD
@@ -1127,8 +1129,7 @@ https://s12.federal.tv:8082/feda/m24tv.stream/playlist.m3u8
 # #EXTINF:-1 tvg-id="motorsportv-tv" group-title="Спортивные" catchup-enable="0",Моторспорт ТВ
 # http://146.158.0.56:80/Motosport/index.m3u8
 #EXTINF:-1 tvg-id="moya-planeta" group-title="Познавательные" catchup-enable="0",Моя Планета HD
-http://moobl.ru/iptv/Moya_planeta_hd.m3u8
-# https://ucdn.beetv.kz/btv/live/hls/000001049.m3u8
+https://ucdn.beetv.kz/btv/live/hls/000001049.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино HD
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Мужской
 http://81.177.136.209:8006/playlist.m3u8
@@ -1171,7 +1172,7 @@ http://rtmp.one.by:2300
 #EXTINF:-1 tvg-id="prikluchenia-hd" group-title="Познавательные" catchup-enable="0",Приключения HD
 https://ucdn.beetv.kz/btv/live/hls/000000277.m3u8
 # http://193.33.240.8:8080/teletravel_hd/index.m3u8
-#EXTINF:-1 tvg-id="pro-lyubov" group-title="Кино и сериалы" catchup-enable="0",Про Любовь HD
+#EXTINF:-1 tvg-id="pro-lyubov" group-title="Кино и сериалы" catchup-enable="0",Про Любовь
 http://moobl.ru/iptv/Pro_lyubov_hd.m3u8 
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Продвижение
 http://prodvizhenie.bonus-tv.ru/cdn/prodvizhenie/tracks-v1a1/index.m3u8
@@ -1183,8 +1184,8 @@ http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
 # http://92.50.128.180/utv/1358/index.m3u8
 # #EXTINF:-1 tvg-id="retro-tv" group-title="Кино и сериалы" catchup-enable="0",Ретро 
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Родное кино
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Романтичное HD
-http://moobl.ru/iptv/Romantichnoe_hd.m3u8
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Романтичное HD
+# http://moobl.ru/iptv/Romantichnoe_hd.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский бестселлер
 http://94.230.240.12:80/rusbestseller/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский детектив
