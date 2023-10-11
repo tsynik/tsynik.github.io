@@ -895,8 +895,7 @@ https://strm.yandex.ru/kal/bridgetvhits/bridgetvhits0.m3u8
 https://ucdn.beetv.kz/btv/live/hls/000000015.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Cartoonito
 https://ucdn.beetv.kz/btv/live/hls/000000160.m3u8
-#EXTINF:-1 tvg-id="cinema-ru" group-title="Кино и сериалы" catchup-enable="0",Cinema
-http://176.74.80.162:8099/Cinema/index.m3u8
+# #EXTINF:-1 tvg-id="cinema-ru" group-title="Кино и сериалы" catchup-enable="0",Cinema
 #EXTINF:-1 tvg-id="da-vinci" group-title="Познавательные" catchup-enable="0",Da Vinci
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Da_Vinci.m3u8
@@ -984,8 +983,7 @@ https://okkotv-live.cdnvideo.ru/channel/NGC_HD.m3u8
 # http://europe3.livetv.az/russia/tiji_2023/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",TLC HD
 https://ucdn.beetv.kz/btv/live/hls/000001498.m3u8
-#EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",TV XXI
-https://cdn-cache01.voka.tv:443/live/2018.m3u8
+# #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",TV XXI
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viju Explore HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Viasat_Explore_HD.m3u8
@@ -1042,8 +1040,7 @@ http://46.151.151.245:10007/play/a009
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Дорама HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 http://okkotv-live.cdnvideo.ru/channel/Dorama_HD/1080p.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Душевное HD
-http://moobl.ru/iptv/Dushevnoe_hd.m3u8
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Душевное HD
 # #EXTINF:-1 tvg-id="evrokino" group-title="Кино и сериалы" catchup-enable="0",Еврокино
 # #EXTINF:-1 tvg-id="eda" group-title="Хобби и увлечения" catchup-enable="0",Еда
 #EXTINF:-1 tvg-id="eda-hd-int" group-title="Хобби и увлечения" catchup-enable="0",Еда Премиум Международный HD
@@ -1074,8 +1071,7 @@ https://okkotv-live.cdnvideo.ru/channel/Fox_HD.m3u8
 http://moobl.ru/iptv/Kinopokaz.m3u8
 #EXTINF:-1 tvg-id="kinopremiera-hd" group-title="Кино и сериалы" catchup-enable="0",Кинопремьера HD
 http://45.159.74.13:80/Kinopremera/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="kinosvidanie" group-title="Кино и сериалы" catchup-enable="0",Киносвидание HD
-https://moobl.ru/iptv/Kinosvidanie_hd.m3u8
+# #EXTINF:-1 tvg-id="kinosvidanie" group-title="Кино и сериалы" catchup-enable="0",Киносвидание HD
 #EXTINF:-1 tvg-id="kinosemiya" group-title="Кино и сериалы" catchup-enable="0",Киносемья HD
 https://moobl.ru/iptv/Kinosemya_hd.m3u8
 # #EXTINF:-1 tvg-id="kinokomedia" group-title="Кино и сериалы" catchup-enable="0",Кинокомедия
@@ -1131,8 +1127,7 @@ https://ucdn.beetv.kz/btv/live/hls/000001049.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Мужской
 http://81.177.136.209:8006/playlist.m3u8
 # #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Музыка Первого
-#EXTINF:-1 tvg-id="mult" group-title="Детские" catchup-enable="0",Мульт HD
-http://moobl.ru/iptv/Mult_hd.m3u8
+# #EXTINF:-1 tvg-id="mult" group-title="Детские" catchup-enable="0",Мульт HD
 # #EXTINF:-1 tvg-id="multimuzyka" group-title="Детские" catchup-enable="0",Мульт и музыка
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Мультиландия HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
@@ -1141,8 +1136,7 @@ https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD.m3u8
 http://stream01.vnet.am/Nauka/mono.m3u8
 #EXTINF:-1 tvg-id="nash-kinopokaz-hd" group-title="Кино и сериалы" catchup-enable="0",Наш Кинопоказ
 http://dmi3y-tv.ru/hls/CH_NASH_KIHOPOKA3.m3u8
-#EXTINF:-1 tvg-id="nashehd" group-title="Кино и сериалы" catchup-enable="0",Наше крутое HD
-http://moobl.ru/iptv/Nashe_krutoye_hd.m3u8
+# #EXTINF:-1 tvg-id="nashehd" group-title="Кино и сериалы" catchup-enable="0",Наше крутое HD
 #EXTINF:-1 tvg-id="nashe-muzhskoe-hd" group-title="Кино и сериалы" catchup-enable="0",Наше мужское
 http://%64%6D%693%79-%74%76.ru/hls/CH_NASHEMUZHSKOE.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Наше новое кино
