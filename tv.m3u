@@ -1204,8 +1204,6 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Театр
 http://146.158.0.56:80/Teatr/index.m3u8
-#EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Театр HD
-http://31.211.77.158:8000/play/a178/index.m3u8
 #EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="0",Телеканал Футбол HD
 http://moobl.ru/iptv/Futbol_hd.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",ТНТ Music HD
