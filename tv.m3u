@@ -69,7 +69,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 # https://okko.tv/collection/tvchannels (GEO block)
 #
 #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="HD и UHD" catchup-enable="0",360° HD
-https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
+https://okkotv-live.cdnvideo.ru/dash/360hd/playlist.mpd
+# https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 # http://strm.yandex.ru/kal/360tv/360tv0.m3u8
 #EXTINF:-1 tvg-id="rtd-hd" group-title="HD и UHD" catchup-enable="0",RTД HD
 https://hls.rt.com/hls/rtdru.m3u8
@@ -848,7 +849,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
 # LoganetX https://github.com/blackbirdstudiorus/LoganetXIPTV/blob/main/LoganetXAll.m3u
 #
 #EXTINF:-1 channelId="52" tvg-id="360-news" tvg-name="360° Новости" group-title="Новости" catchup-enable="0",360° Новости HD
-https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
+https://okkotv-live.cdnvideo.ru/channel/360_Novosti_HD/1080p.m3u8
+# https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",.black
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Sony_Turbo.m3u8
@@ -906,12 +908,16 @@ https://ucdn.beetv.kz/btv/live/hls/000001496.m3u8
 http://81.177.136.209:8004/playlist.m3u8
 # http://194.114.144.244:8002/play/a0vg
 # http://edge02.odtv.az/o3/discoveryscience/playlist.m3u8
+#EXTINF:-1 group-title="Детские" catchup-enable="0",Duck TV
+https://okkotv-live.cdnvideo.ru/channel/DuckTV/1080p.m3u8
 #EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
 http://%64%6D%693%79-%74%76.ru/hls/CH_EUROPAPLUSTV.m3u8
 #EXTINF:-1 tvg-id="eurosport1" group-title="Спортивные" catchup-enable="0",Eurosport 1 HD
 https://ucdn.beetv.kz/btv/live/hls/000002478.m3u8
 #EXTINF:-1 tvg-id="eurosport2" group-title="Спортивные" catchup-enable="0",Eurosport 2 HD
 https://ucdn.beetv.kz/btv/live/hls/000002479.m3u8
+#EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Fashion TV HD
+https://okkotv-live.cdnvideo.ru/channel/Fashion_TV_HD/1080p.m3u8
 #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы" catchup-enable="0",FOX HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Fox_HD.m3u8
@@ -949,9 +955,11 @@ http://89.254.128.5:22280/qsport/index.m3u8
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://logodix.com/logo/1348508.png" group-title="Спортивные" catchup-enable="0",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 #EXTINF:-1 tvg-id="rtg-hd" group-title="Познавательные" catchup-enable="0",RTG HD
-http://strm.yandex.ru/kal/rtg/rtg0.m3u8
+https://okkotv-live.cdnvideo.ru/channel/RTG_HD/1080p.m3u8
+# http://strm.yandex.ru/kal/rtg/rtg0.m3u8
 #EXTINF:-1 tvg-id="ru-tv" group-title="Музыкальные" catchup-enable="0",RU.TV HD
-https://hls-03-video.webcaramba.com/rutv/live_720/index.m3u8
+https://okkotv-live.cdnvideo.ru/channel/RUTV_HD/1080p.m3u8
+# https://hls-03-video.webcaramba.com/rutv/live_720/index.m3u8
 #EXTINF:-1 tvg-id="russia-today" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/300px-Russia-today-logo.svg.png" group-title="Новости" catchup-enable="0",Russia Today HD
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="russian-musicbox" group-title="Музыкальные" catchup-enable="0",Russian Music Box HD
@@ -994,6 +1002,8 @@ https://okkotv-live.cdnvideo.ru/channel/Viasat_History_ad_HD.m3u8
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/Viasat_Nature_ad_HD.m3u8
 # https://bl.uma.media/live/485548/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viju Planet HD
+http://okkotv-live.cdnvideo.ru/channel/Viasat_Nature_History_HD/1080p.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 HD
 #EXTVLCOPT:http-user-agent=Okko Android client/8.29.0 (Linux;Android 10) ExoPlayerLib/2.17
 https://okkotv-live.cdnvideo.ru/channel/TV1000_HD.m3u8
@@ -1046,6 +1056,8 @@ http://okkotv-live.cdnvideo.ru/channel/Dorama_HD/1080p.m3u8
 #EXTINF:-1 tvg-id="eda-hd-int" group-title="Хобби и увлечения" catchup-enable="0",Еда Премиум Международный HD
 https://ucdn.beetv.kz/btv/live/hls/000000588.m3u8
 # http://moobl.ru/iptv/Eda_hd_int.m3u8
+#EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Жара
+http://okkotv-live.cdnvideo.ru/channel/Zhara_HD/1080p.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Загородный
 http://45.144.31.195:8024/playlist.m3u8
 #EXTINF:-1 group-title="Новости" catchup-enable="0",Известия HD
