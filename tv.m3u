@@ -87,7 +87,8 @@ https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 channelId="259" tvg-id="nasha-sibir-4k" group-title="HD и UHD" catchup-enable="1",Наша Сибирь 4K
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/video_3840x2160_avc1/variant.m3u8
+# http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
 #EXTINF:-1 tvg-id="ntv" group-title="HD и UHD" catchup-enable="0",НТВ HD
 http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8
 # https://cdn.ntv.ru/ntv-msk_hd/tracks-v1a1/playlist.m3u8
@@ -889,6 +890,7 @@ https://tbs01-edge17.itdc.ge/davinci/tracks-v1a1/mono.m3u8
 https://ucdn.beetv.kz/btv/live/hls/000001496.m3u8
 # http://45.159.74.14:80/DiscoveryChannel/tracks-v1a2/mono.m3u8
 #EXTINF:-1 tvg-id="discovery-science" group-title="Познавательные" catchup-enable="0",Discovery Science HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://81.177.136.209:8004/playlist.m3u8
 # #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
 # http://edge02.odtv.az/o3/discoveryscience/playlist.m3u8
@@ -1042,10 +1044,9 @@ http://185.37.150.40:8092/Ginger_HD/tracks-v1a1v1/playlist.m3u8
 http://iptv.mega.net.ru:8888/FOX/index.m3u8
 #EXTINF:-1 tvg-id="kinopokaz" group-title="Кино и сериалы" catchup-enable="0",Кинопоказ
 http://95.217.196.109:8081/russia/kinopokaz/chunks.m3u8
-#EXTINF:-1 tvg-id="kinopremiera-hd" group-title="Кино и сериалы" catchup-enable="0",Кинопремьера
-http://95.217.196.109:8081/russia/kinopremyera/chunks.m3u8
 #EXTINF:-1 tvg-id="kinopremiera-hd" group-title="Кино и сериалы" catchup-enable="0",Кинопремьера HD
-http://45.159.74.13:80/Kinopremera/tracks-v1a1/mono.m3u8
+http://95.217.196.109:8081/russia/kinopremyera/chunks.m3u8
+# http://45.159.74.13:80/Kinopremera/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="kinosvidanie" group-title="Кино и сериалы" catchup-enable="0",Киносвидание
 http://95.217.196.109:8081/russia/kinosvidanie/chunks.m3u8
 # http://iptv.mega.net.ru:8888/Kinosvidanie/index.m3u8
@@ -1118,7 +1119,7 @@ http://stream01.vnet.am/Nauka/mono.m3u8
 http://iptv.mega.net.ru:8888/nash_kinopokaz_hd/index.m3u8
 #EXTINF:-1 tvg-id="nashehd" group-title="Кино и сериалы" catchup-enable="0",Наше крутое HD
 http://iptv.mega.net.ru:8888/nashe_hd/index.m3u8
-#EXTINF:-1 tvg-id="nashe-muzhskoe-hd" group-title="Кино и сериалы" catchup-enable="0",Наше мужское
+#EXTINF:-1 tvg-id="nashe-muzhskoe-hd" group-title="Кино и сериалы" catchup-enable="0",Наше мужское HD
 http://95.217.196.109:8081/russia/nashemujskoe/chunks.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Наше новое кино
 http://europe3.livetv.az/russia/nashe_novoe_kino/playlist.m3u8
@@ -1190,7 +1191,7 @@ http://146.158.0.56:80/Teatr/index.m3u8
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Усадьба
 http://94.230.240.17:8080/usadba/index.m3u8
-#EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс+ Кино HD
+#EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс+ Кино
 https://livetv.mylifeisgood.net.ru/channels/fenixkino.m3u8
 # #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Ювелирочка
 #
