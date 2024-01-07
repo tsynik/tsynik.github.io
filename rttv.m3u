@@ -900,10 +900,10 @@ https://livetv.mylifeisgood.net.ru/channels/europaplustv24.m3u8
 # #EXTINF:-1 tvg-id="eurosport2" group-title="Спортивные" catchup-enable="0",Eurosport 2 HD
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Fashion TV UHD
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы" catchup-enable="0",FOX HD
-http://185.37.150.40:8092/Fox_HD/tracks-v1a1v1/playlist.m3u8
-#EXTINF:-1 tvg-id="foxlife" group-title="Кино и сериалы" catchup-enable="0",FOX Life HD
-http://185.37.150.40:8092/Fox_Life_HD/tracks-v1a1v1/playlist.m3u8
+# #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы" catchup-enable="0",FOX HD
+# http://185.37.150.40:8092/Fox_HD/tracks-v1a1v1/playlist.m3u8
+# #EXTINF:-1 tvg-id="foxlife" group-title="Кино и сериалы" catchup-enable="0",FOX Life HD
+# http://185.37.150.40:8092/Fox_Life_HD/tracks-v1a1v1/playlist.m3u8
 # #EXTINF:-1 group-title="Детские" catchup-enable="0",Gulli Girl
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Hollywood HD
 http://stream01.vnet.am/ParamountChannel/mono.m3u8
@@ -1016,8 +1016,8 @@ http://109.239.208.82:80/history/index.m3u8
 # https://tbs01-edge11.itdc.ge/indiyskoekino/tracks-v1a1/mono.m3u8
 # #EXTINF:-1 tvg-id="illuzion-plus" group-title="Кино и сериалы" catchup-enable="0",Иллюзион +
 # https://tbs01-edge11.itdc.ge/illuzionplus/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Детские",Капитан Фантастика HD
-http://185.37.150.40:8092/Ginger_HD/tracks-v1a1v1/playlist.m3u8
+# #EXTINF:-1 group-title="Детские",Капитан Фантастика HD
+# http://185.37.150.40:8092/Ginger_HD/tracks-v1a1v1/playlist.m3u8
 # #EXTINF:-1 tvg-id="kamedi" group-title="Кино и сериалы" catchup-enable="0",Камеди
 # #EXTINF:-1 tvg-id="kinosat" group-title="Кино и сериалы" catchup-enable="0",КиноСат
 #EXTINF:-1 tvg-id="kineko" group-title="Кино и сериалы" catchup-enable="0",Кинеко HD
