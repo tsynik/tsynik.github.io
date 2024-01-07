@@ -959,11 +959,11 @@ http://109.248.236.21:4433/udp/238.1.1.158:1234
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viju Explore
 https://st1-allplay-uz.b-cdn.net/1/iptv-260/index.m3u8?token=test
 # https://livetv.mylifeisgood.net.ru/channels/viasat_explore.m3u8
-#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viju History HD
+#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viju History
 http://135.181.115.81/russia/viasat_history/playlist.m3u8
 # https://st1-allplay-uz.b-cdn.net/3/iptv-18/index.m3u8?token=test
 # https://livetv.mylifeisgood.net.ru/channels/viasat_history.m3u8
-#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viju Nature HD
+#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viju Nature
 http://135.181.115.81/russia/viasat_nature/playlist.m3u8
 # https://st1-allplay-uz.b-cdn.net/1/iptv-264/index.m3u8?token=test
 # https://livetv.mylifeisgood.net.ru/channels/viasat_nature.m3u8
@@ -976,14 +976,15 @@ http://135.181.115.81/russia/viasat_nature/playlist.m3u8
 http://tv.streams.baikal-telecom.net/TV1000RuKino/index.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/tv1000ruskino.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Viju+ Sport
-#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
-http://edge02.odtv.az/o7/viasatsport/playlist.m3u8
-# #EXTINF:-1 tvg-id="vip-comedy" group-title="Кино и сериалы" catchup-enable="0",Viju+ Comedy HD
+http://135.181.115.81/russia/viasat_sport/playlist.m3u8
+# #EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+# http://edge02.odtv.az/o7/viasatsport/playlist.m3u8
+#EXTINF:-1 tvg-id="vip-comedy" group-title="Кино и сериалы" catchup-enable="0",Viju+ Comedy
 http://135.181.115.81/russia/vip_comedy/playlist.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/vip_comedy.m3u8
 # #EXTINF:-1 tvg-id="vip-megahit" group-title="Кино и сериалы" catchup-enable="0",Viju+ Megahit HD
 # https://livetv.mylifeisgood.net.ru/channels/vip_megahit.m3u8
-# #EXTINF:-1 tvg-id="vip-premiere" group-title="Кино и сериалы" catchup-enable="0",Viju+ Premiere HD
+#EXTINF:-1 tvg-id="vip-premiere" group-title="Кино и сериалы" catchup-enable="0",Viju+ Premiere
 http://135.181.115.81/russia/vip_premiere/playlist.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/vip_premiere.m3u8
 # #EXTINF:-1 tvg-id="vip-serial" group-title="Кино и сериалы" catchup-enable="0",Viju+ Serial HD
