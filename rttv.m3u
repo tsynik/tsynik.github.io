@@ -863,8 +863,8 @@ http://178.212.71.253:8002/play/a00b/index.m3u8
 # # http://moobl.ru/hls/Amedia_1.m3u8
 # #EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы" catchup-enable="0",A2
 # http://moobl.ru/hls/Amedia_2.m3u8
-#EXTINF:-1 tvg-id="amedia-hit" group-title="Кино и сериалы" catchup-enable="0",Amedia Hit HD
-http://109.248.236.21:4433/udp/238.1.1.96:1234
+# #EXTINF:-1 tvg-id="amedia-hit" group-title="Кино и сериалы" catchup-enable="0",Amedia Hit HD
+# http://109.248.236.21:4433/udp/238.1.1.96:1234
 #EXTINF:-1 tvg-id="amedia-premium" group-title="Кино и сериалы" catchup-enable="0",Amedia Premium HD
 http://stream01.vnet.am/AmediaPremium/mono.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Ani
