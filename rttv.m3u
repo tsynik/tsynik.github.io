@@ -70,6 +70,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="HD и UHD" catchup-enable="0",360° HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 # http://strm.yandex.ru/kal/360tv/360tv0.m3u8
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Fashion TV UHD
+https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="rtd-hd" group-title="HD и UHD" catchup-enable="0",RTД HD
 https://hls.rt.com/hls/rtdru.m3u8
 # #EXTINF:-1 channelId="626" tvg-id="russian-extreme-uhd" group-title="HD и UHD" catchup-enable="1",Russian Extreme Ultra
@@ -83,6 +85,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA/video_3840x2160_avc1/va
 https://livetv.mylifeisgood.net.ru/channels/domashnii
 #EXTINF:-1 tvg-id="zvezda" group-title="HD и UHD" catchup-enable="0",Звезда HD
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Кухня ТВ HD
+http://moobl.ru/hls/Kuhnya_hd.m3u8
 #EXTINF:-1 tvg-id="mir" group-title="HD и UHD" catchup-enable="0",Мир HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 channelId="259" tvg-id="nasha-sibir-4k" group-title="HD и UHD" catchup-enable="1",Наша Сибирь 4K
@@ -114,6 +118,8 @@ https://bl.uma.media/live/317846/HLS/4614144_3/2/1/playlist.m3u8
 https://bl.uma.media/live/317850/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 tvg-id="tnt4" group-title="HD и UHD" catchup-enable="0",ТНТ4 HD
 https://bl.uma.media/live/317849/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Ювелирочка HD
+http://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
 #
 # OTHERS
 #
@@ -898,8 +904,6 @@ http://edge02.odtv.az/o3/discoveryscience/playlist.m3u8
 https://livetv.mylifeisgood.net.ru/channels/europaplustv24.m3u8
 # #EXTINF:-1 tvg-id="eurosport1" group-title="Спортивные" catchup-enable="0",Eurosport 1 HD
 # #EXTINF:-1 tvg-id="eurosport2" group-title="Спортивные" catchup-enable="0",Eurosport 2 HD
-#EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Fashion TV UHD
-https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
 # #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы" catchup-enable="0",FOX HD
 # http://185.37.150.40:8092/Fox_HD/tracks-v1a1v1/playlist.m3u8
 # #EXTINF:-1 tvg-id="foxlife" group-title="Кино и сериалы" catchup-enable="0",FOX Life HD
@@ -940,8 +944,8 @@ https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 http://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
 # #EXTINF:-1 tvg-id="setanta-sports" group-title="Спортивные" catchup-enable="0",Setanta Sports 1 HD
 # #EXTINF:-1 tvg-id="setanta-sports-plus" group-title="Спортивные" catchup-enable="0",Setanta Sports 2 HD
-#EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Shopping Live
-http://shoppinglive.mediacdn.ru/cdn/shopping/playlist_sdhigh.m3u8
+# #EXTINF:-1 group-title="Телемагазины" catchup-enable="0",Shopping Live
+# http://shoppinglive.mediacdn.ru/cdn/shopping/playlist_sdhigh.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Cinema HD
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Family HD
 http://89.254.128.5:22280/star_family_hd/video.m3u8
@@ -1031,8 +1035,7 @@ http://91.142.158.107:8092/play/28/index.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Конный мир HD
 https://bl.uma.media/live/400930/HLS/4614144_3/2/1/playlist.m3u8
 # http://moobl.ru/hls/Konny_mir.m3u8
-#EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Кухня ТВ HD
-http://moobl.ru/hls/Kuhnya_hd.m3u8
+# #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Кухня ТВ
 # http://moobl.ru/hls/Kuhnya.m3u8
 # http://146.158.0.56/KuhnyaTV/mono.m3u8
 #EXTINF:-1 tvg-id="la-minor" group-title="Музыкальные" catchup-enable="0",Ля-минор
@@ -1173,6 +1176,4 @@ http://82.209.197.187:8080/udp/239.0.100.101:1234
 # https://livetv.mylifeisgood.net.ru/channels/fenixkino.m3u8
 #EXTINF:-1 tvg-id="shanson-tv" group-title="Музыкальные" catchup-enable="0",Шансон-ТВ
 http://moobl.ru/hls/Shanson_tv.m3u8
-#EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Ювелирочка HD
-http://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
 ###############################################################################
