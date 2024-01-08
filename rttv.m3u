@@ -1171,7 +1171,7 @@ http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
 #EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс+ Кино
 http://82.209.197.187:8080/udp/239.0.100.101:1234
 # https://livetv.mylifeisgood.net.ru/channels/fenixkino.m3u8
-#EXTINF:-1 tvg-id="shanson-tv" group-title="Music" catchup-enable="0",Шансон-ТВ
+#EXTINF:-1 tvg-id="shanson-tv" group-title="Музыкальные" catchup-enable="0",Шансон-ТВ
 http://moobl.ru/hls/Shanson_tv.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Ювелирочка HD
 http://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
