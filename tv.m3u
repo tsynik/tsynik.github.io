@@ -987,13 +987,12 @@ https://livetv.mylifeisgood.net.ru/channels/glazamiturista.m3u8
 http://185.32.44.154/domkino/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Дом Кино Премиум HD
 http://hls.k-telecom.org:8081/kt/162/playlist.m3u8
-# http://46.151.151.245:10007/play/a009
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Дорама HD
 http://94.232.104.237:8000/play/075/index.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Душевное HD
 #EXTINF:-1 tvg-id="evrokino" group-title="Кино и сериалы" catchup-enable="0",Еврокино
 http://185.32.44.154/eurokino/index.m3u8
-#EXTINF:-1 tvg-id="eda" group-title="Развлекательные" catchup-enable="0",Еда
+#EXTINF:-1 tvg-id="eda" group-title="Хобби и увлечения" catchup-enable="0",Еда
 http://hls.k-telecom.org:8081/kt/12/playlist.m3u8
 # #EXTINF:-1 tvg-id="eda-hd-int" group-title="Хобби и увлечения" catchup-enable="0",Еда Премиум Международный HD
 # #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Жара
@@ -1071,16 +1070,17 @@ http://109.248.236.21:4433/udp/238.1.1.100:1234
 # #EXTINF:-1 tvg-id="motorsportv-tv" group-title="Спортивные" catchup-enable="0",Моторспорт ТВ
 # http://146.158.0.56:80/Motosport/index.m3u8
 #EXTINF:-1 tvg-id="moya-planeta" group-title="Познавательные" catchup-enable="0",Моя Планета HD
-http://46.151.151.245:10002/play/a0b5
+http://hls.k-telecom.org:8081/kt/150/playlist.m3u8
+# http://46.151.151.245:10002/play/a0b5
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино HD
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Мужской
 http://5.153.190.251:8000/play/a0av
 # http://195.26.83.96:7007/play/11/index.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Музыка Первого
-http://46.151.151.245:10007/play/a007
+http://hls.k-telecom.org:8081/kt/106/playlist.m3u8
+# http://46.151.151.245:10007/play/a007
 #EXTINF:-1 tvg-id="mult" group-title="Детские" catchup-enable="0",Мульт HD
 http://stream01.vnet.am/Mult/mono.m3u8
-# http://46.151.151.245:10002/play/a0b4
 #EXTINF:-1 tvg-id="multimuzyka" group-title="Детские" catchup-enable="0",Мульт и музыка
 http://91.142.158.107:8092/play/24/index.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Мультиландия HD
@@ -1100,14 +1100,14 @@ https://strm.yandex.ru/kal/ntv_serial_new/ntv_serial_new0.m3u8
 #EXTINF:-1 tvg-id="ntv-xit" group-title="Кино и сериалы" catchup-enable="0",НТВ Хит HD
 https://strm.yandex.ru/kal/ntv_hit/ntv_hit0.m3u8
 #EXTINF:-1 tvg-id="o_" tvg-name="О!" group-title="Детские" catchup-enable="0",О!
-http://46.151.151.245:10007/play/a006
+http://otv.wotom.net:4433/udp/238.1.1.178:1234
 # #EXTINF:-1 tvg-id="oxotnik-i-rybolov-hd" group-title="Хобби и увлечения" catchup-enable="0",Охотник и рыболов HD
 #EXTINF:-1 tvg-id="onemuz" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5365.png" catchup-enable="0",Первый музыкальный BY
 http://rtmp.one.by:1300
 #EXTINF:-1 tvg-id="onemuz" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5364.png" catchup-enable="0",Первый музыкальный RU
 http://rtmp.one.by:2300
-#EXTINF:-1 tvg-id="poexali" group-title="Познавательные" catchup-enable="0",Поехали!
-http://46.151.151.245:10007/play/a004
+# #EXTINF:-1 tvg-id="poexali" group-title="Познавательные" catchup-enable="0",Поехали!
+# http://46.151.151.245:10007/play/a004
 # #EXTINF:-1 tvg-id="prikluchenia-hd" group-title="Познавательные" catchup-enable="0",Приключения HD
 # #EXTINF:-1 tvg-id="pro-lyubov" group-title="Кино и сериалы" catchup-enable="0",Про Любовь
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Продвижение
@@ -1128,9 +1128,9 @@ http://91.142.158.107:8092/play/26/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский детектив
 http://91.142.158.107:8092/play/27/index.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский иллюзион
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский роман HD
-http://46.151.151.245:10002/play/a0b3
-# http://91.142.158.107:8092/play/25/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский роман
+http://91.142.158.107:8092/play/25/index.m3u8
+# http://46.151.151.245:10002/play/a0b3
 # #EXTINF:-1 tvg-id="ryzhy" group-title="Детские" catchup-enable="0",Рыжий
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Сапфир HD
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Смайлик ТВ HD
@@ -1151,8 +1151,8 @@ http://185.32.44.154/tv21/index.m3u8
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Театр
 http://146.158.0.56:80/Teatr/index.m3u8
 # #EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="0",Телеканал Футбол
-#EXTINF:-1 tvg-id="telekafe" group-title="Кино и сериалы" catchup-enable="0",Телекафе
-http://46.151.151.245:10007/play/a003
+# #EXTINF:-1 tvg-id="telekafe" group-title="Кино и сериалы" catchup-enable="0",Телекафе
+# http://46.151.151.245:10007/play/a003
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",ТНТ Music HD
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Усадьба HD
