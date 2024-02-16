@@ -950,37 +950,35 @@ http://hls.k-telecom.org:8081/kt/211/playlist.m3u8
 http://hls.k-telecom.org:8081/kt/145/playlist.m3u8
 # http://5.153.190.251:8000/play/a012
 #EXTINF:-1 group-title="Детские" catchup-enable="0",TiJi
-http://141.95.55.143/CH349/index.m3u8
+http://185.32.44.154/tiji/index.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",TLC
-http://141.95.55.143/CH41/index.m3u8
+http://91.207.115.228:5000/c151
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viju Explore
-http://141.95.55.143/CH135/index.m3u8
-#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viju History HD
-http://141.95.55.143/CH3871/index.m3u8
-# #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viju Nature HD
+http://185.32.44.154/viasatexplorer/index.m3u8
+#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viju History
+http://185.32.44.154/viasathistory/index.m3u8
+#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viju Nature
+http://91.205.199.3/viasatnature/index.m3u8
 #EXTINF:-1 tvg-id="viasat-nature-history-hd" group-title="Познавательные" catchup-enable="0",Viju+ Planet HD
 http://185.32.44.154/ViasatNatureHD/index.m3u8
 # http://31.131.136.4:8001/play/e006
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 HD
-http://141.95.55.143/CH3869/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Action HD
-http://141.95.55.143/CH3867/index.m3u8
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Русское HD
-http://141.95.55.143/CH713/index.m3u8
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Viju+ Sport HD
-http://141.95.55.143/CH3815/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Viju TV1000
+http://185.32.44.154/tv1000/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Action
+http://185.32.44.154/tv1000action/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Русское
+http://185.32.44.154/tv1000ruskoekino/index.m3u8
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Viju+ Sport
+http://185.32.44.154/viasatsport/index.m3u8
 #EXTINF:-1 tvg-id="vip-comedy" group-title="Кино и сериалы" catchup-enable="0",Viju+ Comedy HD
-http://141.95.55.143/CH311/index.m3u8
-# http://185.32.44.154/VIPComedyHD/index.m3u8
+http://185.32.44.154/VIPComedyHD/index.m3u8
 #EXTINF:-1 tvg-id="vip-megahit" group-title="Кино и сериалы" catchup-enable="0",Viju+ Megahit HD
-http://141.95.55.143/CH313/index.m3u8
-# http://185.32.44.154/VIPMegahitHD/index.m3u8
+http://185.32.44.154/VIPMegahitHD/index.m3u8
 #EXTINF:-1 tvg-id="vip-premiere" group-title="Кино и сериалы" catchup-enable="0",Viju+ Premiere HD
-http://141.95.55.143/CH315/index.m3u8
-# http://185.32.44.154/VIPPremiereHD/index.m3u8
-# #EXTINF:-1 tvg-id="vip-serial" group-title="Кино и сериалы" catchup-enable="0",Viju+ Serial HD
-http://91.205.199.3/vipserialhd/index.m3u8
-# http://185.32.44.154/ViasatSportHD/index.m3u8
+http://185.32.44.154/VIPPremiereHD/index.m3u8
+#EXTINF:-1 tvg-id="vip-serial" group-title="Кино и сериалы" catchup-enable="0",Viju+ Serial HD
+http://185.32.44.154/ViasatSportHD/index.m3u8
+# http://91.205.199.3/vipserialhd/index.m3u8
 #EXTINF:-1 tvg-id="blokbaster-hd" group-title="Кино и сериалы" catchup-enable="0",Блокбастер
 http://5.153.190.251:8000/play/a05z
 # #EXTINF:-1 tvg-id="v-mire-zhivotnyx-hd" group-title="Познавательные" catchup-enable="0",В мире животных HD
@@ -989,19 +987,17 @@ https://livetv.mylifeisgood.net.ru/channels/glazamiturista.m3u8
 # #EXTINF:-1 tvg-id="dikaya-oxota-hd" group-title="Хобби и увлечения" catchup-enable="0",Дикая Охота HD
 # #EXTINF:-1 tvg-id="dikaya-rybalka-hd" group-title="Хобби и увлечения" catchup-enable="0",Дикая Рыбалка HD
 #EXTINF:-1 tvg-id="domkino" group-title="Кино и сериалы" catchup-enable="0",Дом Кино
-http://141.95.55.143/CH73/index.m3u8
+http://185.32.44.154/domkino/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Дом Кино Премиум HD
-http://141.95.55.143/CH1009/index.m3u8
+http://hls.k-telecom.org:8081/kt/162/playlist.m3u8
 # http://46.151.151.245:10007/play/a009
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Дорама HD
 http://94.232.104.237:8000/play/075/index.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Душевное HD
 #EXTINF:-1 tvg-id="evrokino" group-title="Кино и сериалы" catchup-enable="0",Еврокино
-http://141.95.55.143/CH163/index.m3u8
-# #EXTINF:-1 tvg-id="eda" group-title="HD и UHD" catchup-enable="0",Еда HD
-http://141.95.55.143/CH235/index.m3u8
-# http://141.95.55.143/CH381/index.m3u8
-# http://hls.k-telecom.org:8081/kt/12/playlist.m3u8
+http://185.32.44.154/eurokino/index.m3u8
+#EXTINF:-1 tvg-id="eda" group-title="Развлекательные" catchup-enable="0",Еда
+http://hls.k-telecom.org:8081/kt/12/playlist.m3u8
 # #EXTINF:-1 tvg-id="eda-hd-int" group-title="Хобби и увлечения" catchup-enable="0",Еда Премиум Международный HD
 # #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Жара
 # #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Загородный
@@ -1012,27 +1008,26 @@ https://livetv.mylifeisgood.net.ru/channels/iz.m3u8
 #EXTINF:-1 tvg-id="istoria" group-title="Познавательные" catchup-enable="0",История
 http://109.239.208.82:80/history/index.m3u8
 #EXTINF:-1 tvg-id="illuzion-plus" group-title="Кино и сериалы" catchup-enable="0",Иллюзион +
-http://141.95.55.143/CH323/index.m3u8
+http://185.37.150.40:8092/Illyuzion/playlist.m3u8
+# http://185.32.44.154/illuzion/index.m3u8
 #EXTINF:-1 tvg-id="indiyskoe-kino" group-title="Кино и сериалы" catchup-enable="0",Индийское кино
-http://141.95.55.143/CH107/index.m3u8
+http://hls.k-telecom.org:8081/kt/168/playlist.m3u8
 # #EXTINF:-1 tvg-id="ginger-hd" group-title="Детские" catchup-enable="0",Капитан Фантастика HD
 # #EXTINF:-1 tvg-id="kamedi" group-title="Кино и сериалы" catchup-enable="0",Камеди
 # #EXTINF:-1 tvg-id="kinosat" group-title="Кино и сериалы" catchup-enable="0",КиноСат
 # #EXTINF:-1 tvg-id="kineko" group-title="Кино и сериалы" catchup-enable="0",Кинеко HD
 # #EXTINF:-1 tvg-id="kinopokaz" group-title="Кино и сериалы" catchup-enable="0",Кинопоказ
 #EXTINF:-1 tvg-id="kinopremiera-hd" group-title="Кино и сериалы" catchup-enable="0",Кинопремьера HD
-http://141.95.55.143/CH299/index.m3u8
-# http://45.159.74.13:80/Kinopremera/tracks-v1a1/mono.m3u8
+http://45.159.74.13:80/Kinopremera/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="kinosvidanie" group-title="Кино и сериалы" catchup-enable="0",Киносвидание
-http://141.95.55.143/CH21/index.m3u8
+http://185.32.44.154/kinosvidanie/index.m3u8
 #EXTINF:-1 tvg-id="kinosemiya" group-title="Кино и сериалы" catchup-enable="0",Киносемья
-http://141.95.55.143/CH25/index.m3u8
+http://185.32.44.154/kinosemya/index.m3u8
 #EXTINF:-1 tvg-id="kinokomedia" group-title="Кино и сериалы" catchup-enable="0",Кинокомедия HD
-http://141.95.55.143/CH4435/index.m3u8
+http://185.37.150.40:8092/Komediya/playlist.m3u8
 #EXTINF:-1 tvg-id="kinomiks" group-title="Кино и сериалы" catchup-enable="0",Киномикс HD
 http://185.32.44.154/KinomiksHD/index.m3u8
 # http://185.37.150.40:8092/kino_plus/playlist.m3u8
-# http://141.95.55.143/CH279/index.m3u8
 # http://45.11.139.43:8081/stream/kinomiks/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="kinoseria" group-title="Кино и сериалы" catchup-enable="0",Киносерия
 http://185.32.44.154/kinoseria/index.m3u8
@@ -1154,9 +1149,8 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 # #EXTINF:-1 group-title="Детские" catchup-enable="0",СТС Kids HD
 # https://livetv.mylifeisgood.net.ru/channels/ctckids.m3u8
 #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",ТВ 21
-http://141.95.55.143/CH145/index.m3u8
+http://185.32.44.154/tv21/index.m3u8
 # http://hls.k-telecom.org:8081/kt/99/playlist.m3u8
-# http://185.32.44.154/tv21/index.m3u8
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Театр
 http://146.158.0.56:80/Teatr/index.m3u8
 # #EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="0",Телеканал Футбол
@@ -1166,7 +1160,6 @@ http://46.151.151.245:10007/play/a003
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Усадьба HD
 http://212.22.76.51:83/Usadba/tracks-v1a1/mono.m3u8
-# http://141.95.55.143/CH137/index.m3u8
 #EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс+ Кино
 http://5.153.190.251:8000/play/a06f
 # #EXTINF:-1 tvg-id="shanson-tv" group-title="Музыкальные" catchup-enable="0",Шансон-ТВ
