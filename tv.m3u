@@ -391,9 +391,6 @@ http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_NSK_OTS/variant.m3u8
 #EXTINF:-1 tvg-id="no_epg_news" tvg-logo="https://static.wikia.nocookie.net/tvpedia/images/a/a2/%D0%9E%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C_45_%28%D0%9A%D1%83%D1%80%D0%B3%D0%B0%D0%BD%29.png/revision/latest?cb=20210313141530&path-prefix=ru" group-title="Региональные" catchup-enable="1",Область 45 HD (Курган)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://rt-ural-krg-htlive.cdn.ngenix.net/hls/CH_R04_OTT_OBLAST45/variant.m3u8
-# #EXTINF:-1 tvg-id="objektiv-59" group-title="Региональные" catchup-enable="1",Объектив 59 HD
-# #EXTVLCOPT:http-user-agent=Mozilla/5.0
-# http://rt-ural-perm-htlive.cdn.ngenix.net/hls/CH_R04_OTT_OBJECTIVE59/variant.m3u8
 #EXTINF:-1 tvg-id="osetia-iryston" group-title="Региональные" catchup-enable="1",Осетия-Ирыстон HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://rt-sth-vkaz-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_VKAZ_IRISTON/variant.m3u8
@@ -418,8 +415,6 @@ http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3u
 #EXTINF:-1 tvg-id="prodvizhenie" group-title="Региональные" catchup-enable="1",Продвижение HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_PRODVIZHENIE/variant.m3u8
-# #EXTINF:-1 tvg-id="rgvk-dagestan" group-title="Региональные" catchup-enable="0",РГВК Дагестан HD
-# https://dagestan.mediacdn.ru/cdn/dagestan/playlist.m3u8
 #EXTINF:-1 tvg-id="rgvk-dagestan" group-title="Региональные" catchup-enable="1",РГВК Дагестан HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://rt-sth-mahachk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_MAHACHK_DAGESTAN/variant.m3u8
@@ -847,6 +842,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
 # IPTV-ORG https://github.com/iptv-org/iptv | https://iptv-org.github.io/iptv/countries/ru.m3u
 # smartoteka https://iptvlist.ru/playlists2/smartoteka | https://iptvlist.ru/iptv2/iptv-russia-refresh-2/ | https://iptvlist.ru/ru.m3u
 # LoganetX https://github.com/blackbirdstudiorus/LoganetXIPTV/blob/main/LoganetXAll.m3u
+# https://t.me/freeneo_net https://github.com/Dimonovich/TV http://50na50.net/IPTV-list.m3u
 #
 #EXTINF:-1 channelId="52" tvg-id="360-news" tvg-name="360° Новости" group-title="Новости" catchup-enable="0",360° Новости HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
@@ -906,10 +902,11 @@ http://stream01.vnet.am/ParamountChannel/mono.m3u8
 #EXTINF:-1 tvg-id="id-xtra-eu" group-title="Познавательные" catchup-enable="0",Investigation Discovery HD
 http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
 # #EXTINF:-1 tvg-id="jimjam" group-title="Детские" catchup-enable="0",JimJam
-#EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL HD
-http://bl.uma.media/live/148307/HLS/148307_3/2/1/playlist.m3u8
+# #EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL HD
+# http://bl.uma.media/live/148307/HLS/148307_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="kxl-prime" catchup-enable="0",KHL Prime HD
-http://bl.uma.media/live/171748/HLS/171748_4/2/1/playlist.m3u8
+http://185.37.150.46:8092/KHL_HD/index.m3u8
+# http://bl.uma.media/live/171748/HLS/171748_4/2/1/playlist.m3u8
 # #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://www.lyngsat.com/logo/tv/mm/motorracing-tv.png" group-title="Спортивные" catchup-enable="0",MotoRRacing TV
 # https://dai.google.com/linear/hls/event/qI1pC-R_Sma0bVLVjaEOtw/master.m3u8
 #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
