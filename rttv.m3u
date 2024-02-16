@@ -1033,7 +1033,8 @@ http://91.142.158.107:8092/play/28/index.m3u8
 # #EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы" catchup-enable="0",Кинохит
 # #EXTINF:-1 tvg-id="komedijnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Комедийное HD
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Конный мир HD
-https://bl.uma.media/live/400930/HLS/4614144_3/2/1/playlist.m3u8
+http://5.153.190.251:8000/play/a02w
+# https://bl.uma.media/live/400930/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 tvg-id="liova" group-title="Детские" catchup-enable="0",Лёва HD
 https://strm.yandex.ru/kal/leva/leva0.m3u8
 #EXTINF:-1 tvg-id="la-minor" group-title="Музыкальные" catchup-enable="0",Ля-минор
@@ -1044,23 +1045,39 @@ http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
 #EXTINF:-1 tvg-id="match-tv" group-title="Спортивные" catchup-enable="0",Матч! HD
 https://livetv.mylifeisgood.net.ru/channels/matchhd_nocensored.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Арена HD
-http://bl.uma.media/live/126868/HLS/6866944_4/2/1/playlist.m3u8
+http://5.153.190.251:8000/play/a037
+# http://bl.uma.media/live/126868/HLS/6866944_4/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Боец HD
-http://bl.uma.media/live/132838/HLS/132838_4/2/1/playlist.m3u8
+http://5.153.190.251:8000/play/a039
+# http://bl.uma.media/live/132838/HLS/132838_4/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Игра HD
-http://bl.uma.media/live/154036/HLS/154036_4/2/1/playlist.m3u8
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Планета HD
-http://bl.uma.media/live/126869/HLS/6866944_3/2/1/playlist.m3u8
+http://5.153.190.251:8000/play/a03a
+# http://bl.uma.media/live/154036/HLS/154036_4/2/1/playlist.m3u8
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Планета
+http://5.153.190.251:8000/play/a077
+# http://bl.uma.media/live/126869/HLS/6866944_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Премьер HD
-http://bl.uma.media/live/126866/HLS/6866944_4/1/1/playlist.m3u8
-# http://109.200.130.124:7005/play/a00d
+http://hls.k-telecom.org:8081/kt/210/playlist.m3u8
+# http://5.153.190.251:8000/play/a033
+# http://185.32.44.154/HDLife/index.m3u8
+# http://bl.uma.media/live/126866/HLS/6866944_4/1/1/playlist.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна HD
-http://bl.uma.media/live/291661/HLS/4614144_3/2/1/playlist.m3u8
+http://5.153.190.251:8000/play/a03d
+# http://bl.uma.media/live/291661/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="match-football1" catchup-enable="0",Матч! Футбол 1 HD
-http://194.143.148.28:8080/MatchFutbol1/mpegts
-# #EXTINF:-1 group-title="Спортивные" tvg-id="match-football2" catchup-enable="0",Матч! Футбол 2 HD
+http://5.153.190.251:8000/play/a03f
+# http://194.143.148.28:8080/MatchFutbol1/mpegts
+# http://91.207.115.228:5000/c114
+# http://185.32.44.154/futbol1/index.m3u8
+#EXTINF:-1 group-title="Спортивные" tvg-id="match-football2" catchup-enable="0",Матч! Футбол 2 HD
+http://5.153.190.251:8000/play/a03h
+# http://91.207.115.228:5000/c115
+# http://185.32.44.154/futbol2/index.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="match-football3" catchup-enable="0",Матч! Футбол 3 HD
-http://bl.uma.media/live/126865/HLS/6866944_4/2/1/playlist.m3u8
+http://5.153.190.251:8000/play/a03j
+# http://bl.uma.media/live/126865/HLS/6866944_4/2/1/playlist.m3u8
+# http://91.207.115.228:5000/c116
+# http://185.32.44.154/futbol3/index.m3u8
 #EXTINF:-1 tvg-id="mir-24" group-title="Новости" catchup-enable="0",Мир 24 HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 # #EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Новости" catchup-enable="0",Москва 24
@@ -1131,8 +1148,10 @@ http://91.142.158.107:8092/play/27/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский роман
 http://91.142.158.107:8092/play/25/index.m3u8
 # http://46.151.151.245:10002/play/a0b3
-# #EXTINF:-1 tvg-id="ryzhy" group-title="Детские" catchup-enable="0",Рыжий
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Сапфир HD
+#EXTINF:-1 tvg-id="ryzhy" group-title="Детские" catchup-enable="0",Рыжий
+http://hls.k-telecom.org:8081/kt/231/playlist.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Сапфир HD
+http://hls.k-telecom.org:8081/kt/146/playlist.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Смайлик ТВ HD
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
 # #EXTINF:-1 tvg-id="solovjinypomiot" group-title="Новости" catchup-enable="0",Соловьев LIVE HD
