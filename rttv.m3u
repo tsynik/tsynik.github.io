@@ -74,8 +74,9 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="rtd-hd" group-title="HD и UHD" catchup-enable="0",RTД HD
 https://hls.rt.com/hls/rtdru.m3u8
-# #EXTINF:-1 channelId="626" tvg-id="russian-extreme-uhd" group-title="HD и UHD" catchup-enable="1",Russian Extreme Ultra
-# #EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTINF:-1 channelId="626" tvg-id="russian-extreme-uhd" group-title="HD и UHD" catchup-enable="1",Russian Extreme Ultra
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA/video_3840x2160_avc1/variant.m3u8
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA/variant.m3u8
 #EXTINF:-1 channelId="160" tvg-id="ultra-hd-cinema" group-title="HD и UHD" catchup-enable="1",Ultra HD Cinema
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -102,7 +103,7 @@ https://strm.yandex.ru/kal/ntv_stil/ntv_stil0.m3u8
 https://edge4.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 # https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Пятница HD
-https://bl.uma.media/live/317843/HLS/4614144_3/2/1/playlist.m3u8
+https://livetv.mylifeisgood.net.ru/channels/friday.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",РЕН ТВ HD
 https://livetv.mylifeisgood.net.ru/channels/rentv.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Россия 1 HD
@@ -110,13 +111,13 @@ https://livetv.mylifeisgood.net.ru/channels/russia1.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",СТС HD
 https://livetv.mylifeisgood.net.ru/channels/sts.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Суббота! HD
-https://bl.uma.media/live/317845/HLS/317845_3/1/1/playlist.m3u8
+https://livetv.mylifeisgood.net.ru/channels/subbota.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",ТВ-3 HD
-https://bl.uma.media/live/317846/HLS/4614144_3/2/1/playlist.m3u8
+https://livetv.mylifeisgood.net.ru/channels/tv3.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",ТНТ HD
-https://bl.uma.media/live/317850/HLS/4614144_3/2/1/playlist.m3u8
+https://livetv.mylifeisgood.net.ru/channels/tnthd.m3u8
 #EXTINF:-1 tvg-id="tnt4" group-title="HD и UHD" catchup-enable="0",ТНТ4 HD
-https://bl.uma.media/live/317849/HLS/4614144_3/2/1/playlist.m3u8
+https://livetv.mylifeisgood.net.ru/channels/tnt4.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Ювелирочка HD
 http://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
 #
@@ -948,7 +949,7 @@ http://hls.k-telecom.org:8081/kt/145/playlist.m3u8
 # http://5.153.190.251:8000/play/a012
 #EXTINF:-1 group-title="Детские" catchup-enable="0",TiJi
 http://185.32.44.154/tiji/index.m3u8
-#EXTINF:-1 group-title="Познавательные" catchup-enable="0",TLC
+#EXTINF:-1 group-title="Познавательные" catchup-enable="0",TLC HD
 http://91.207.115.228:5000/c151
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Viju Explore
 http://185.32.44.154/viasatexplorer/index.m3u8
@@ -1003,7 +1004,7 @@ https://livetv.mylifeisgood.net.ru/channels/iz.m3u8
 # http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 #EXTINF:-1 tvg-id="istoria" group-title="Познавательные" catchup-enable="0",История
 http://109.239.208.82:80/history/index.m3u8
-#EXTINF:-1 tvg-id="illuzion-plus" group-title="Кино и сериалы" catchup-enable="0",Иллюзион +
+#EXTINF:-1 tvg-id="illuzion-plus" group-title="Кино и сериалы" catchup-enable="0",Иллюзион+ HD
 http://185.37.150.40:8092/Illyuzion/playlist.m3u8
 # http://185.32.44.154/illuzion/index.m3u8
 #EXTINF:-1 tvg-id="indiyskoe-kino" group-title="Кино и сериалы" catchup-enable="0",Индийское кино
@@ -1063,7 +1064,6 @@ http://hls.k-telecom.org:8081/kt/210/playlist.m3u8
 # http://bl.uma.media/live/126866/HLS/6866944_4/1/1/playlist.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна HD
 http://5.153.190.251:8000/play/a03d
-# http://bl.uma.media/live/291661/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="match-football1" catchup-enable="0",Матч! Футбол 1 HD
 http://5.153.190.251:8000/play/a03f
 # http://194.143.148.28:8080/MatchFutbol1/mpegts
