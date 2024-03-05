@@ -903,15 +903,16 @@ https://bkm.beetv.kz/btv/live/hls/000000160.m3u8
 #EXTINF:-1 tvg-id="cinema-ru" group-title="Кино и сериалы" catchup-enable="0",Cinema
 https://bkm.beetv.kz/btv/live/hls/000000239.m3u8
 # http://109.248.236.21:4433/udp/238.1.1.140:1234
-#EXTINF:-1 tvg-id="cnn" group-title="Новости" catchup-enable="0",CNN International Europe
+#EXTINF:-1 tvg-id="cnn" group-title="Новости" catchup-enable="0",CNN International Europe HD
 https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
+# https://bkm.beetv.kz/btv/live/hls/000000707.m3u8
 #EXTINF:-1 tvg-id="da-vinci" group-title="Детские" catchup-enable="0",Da Vinci
 https://bkm.beetv.kz/btv/live/hls/000000333.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel HD
 http://45.159.74.14:80/DiscoveryChannel/tracks-v1a2/mono.m3u8
 # #EXTINF:-1 tvg-id="discovery-science" group-title="Познавательные" catchup-enable="0",Discovery Science
 # #EXTINF:-1 group-title="Детские" catchup-enable="0",Duck TV
-#EXTINF:-1 tvg-id="deutsche-welle-eu" group-title="Новости" catchup-enable="0",DW Europe
+#EXTINF:-1 tvg-id="deutsche-welle-eu" group-title="Новости" catchup-enable="0",DW Europe HD
 https://bkm.beetv.kz/btv/live/hls/000000291.m3u8
 #EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
 https://livetv.mylifeisgood.net.ru/channels/europaplustv24.m3u8
@@ -926,10 +927,10 @@ https://bkm.beetv.kz/btv/live/hls/000004471.m3u8
 # http://91.205.199.3:80/FoxLife/index.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Gulli Girl
 https://bkm.beetv.kz/btv/live/hls/000000284.m3u8
-#EXTINF:-1 group-title="Познавательные" catchup-enable="0",H2
-https://bkm.beetv.kz/btv/live/hls/000002722.m3u8
-#EXTINF:-1 group-title="Познавательные" catchup-enable="0",History HD
+#EXTINF:-1 tvg-id="history-ru"" group-title="Познавательные" catchup-enable="0",History HD
 https://bkm.beetv.kz/btv/live/hls/000001000.m3u8
+#EXTINF:-1 tvg-id="h2" group-title="Познавательные" catchup-enable="0",History2 HD
+https://bkm.beetv.kz/btv/live/hls/000002722.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Hollywood HD
 http://stream01.vnet.am/ParamountChannel/mono.m3u8
 # https://bkm.beetv.kz/btv/live/hls/000000031.m3u8
