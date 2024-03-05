@@ -937,9 +937,12 @@ http://stream01.vnet.am/ParamountChannel/mono.m3u8
 #EXTINF:-1 tvg-id="id-xtra-eu" group-title="Познавательные" catchup-enable="0",Investigation Discovery HD
 http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
 # #EXTINF:-1 tvg-id="jimjam" group-title="Детские" catchup-enable="0",JimJam
-# #EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL
+#EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL
+http://94.232.104.237:8000/play/065/index.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="kxl-prime" catchup-enable="0",KHL Prime HD
-http://185.37.150.46:8092/KHL_HD/index.m3u8
+http://185.37.150.40:8092/KHL_HD/index.m3u8
+# http://185.37.150.46:8092/KHL_HD/index.m3u8
+# http://94.232.104.237:8000/play/227/index.m3u8
 # #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://www.lyngsat.com/logo/tv/mm/motorracing-tv.png" group-title="Спортивные" catchup-enable="0",MotoRRacing TV
 # https://dai.google.com/linear/hls/event/qI1pC-R_Sma0bVLVjaEOtw/master.m3u8
 #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
