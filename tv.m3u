@@ -70,7 +70,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="HD и UHD" catchup-enable="0",360° HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 # http://strm.yandex.ru/kal/360tv/360tv0.m3u8
-#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Fashion TV UHD
+#EXTINF:-1 tvg-id="fashion-tv-eu" group-title="HD и UHD" catchup-enable="0",Fashion TV UHD
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="rtd-hd" group-title="HD и UHD" catchup-enable="0",RTД HD
 https://hls.rt.com/hls/rtdru.m3u8
@@ -948,7 +948,7 @@ http://stream01.vnet.am/ParamountChannel/mono.m3u8
 #EXTINF:-1 tvg-id="id-xtra-eu" group-title="Познавательные" catchup-enable="0",Investigation Discovery HD
 http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
 # #EXTINF:-1 tvg-id="jimjam" group-title="Детские" catchup-enable="0",JimJam
-#EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL
+#EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL HD
 https://mhd116.iptv2022.com/p/2HlVj80hOmp3FVpcX9UdoQ,1711400414/streaming/khltv/324/1/index.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="kxl-prime" catchup-enable="0",KHL Prime HD
 # http://185.37.150.40:8092/KHL_HD/index.m3u8
@@ -1069,7 +1069,8 @@ http://109.239.208.82:80/history/index.m3u8
 https://bkm.beetv.kz/btv/live/hls/000004582.m3u8
 # http://185.37.150.40:8092/Illyuzion/playlist.m3u8
 #EXTINF:-1 tvg-id="indiyskoe-kino" group-title="Кино и сериалы" catchup-enable="0",Индийское кино
-http://109.248.236.21:4433/udp/238.1.1.132:1234
+http://sc.id-tv.kz/Indiiskoe_kino.m3u8
+# http://109.248.236.21:4433/udp/238.1.1.132:1234
 #EXTINF:-1 tvg-id="ginger-hd" group-title="Детские" catchup-enable="0",Капитан Фантастика HD
 https://bkm.beetv.kz/btv/live/hls/000001474.m3u8
 # http://185.37.150.40:8092/Ginger_HD/playlist.m3u8
@@ -1229,9 +1230,8 @@ https://bkm.beetv.kz/btv/live/hls/000008135.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Смайлик ТВ HD
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/smile.m3u8
-# #EXTINF:-1 tvg-id="solovjinypomiot" group-title="Новости" catchup-enable="0",Соловьев LIVE HD
-# #EXTINF:-1 tvg-id="soyuzmultfilm" group-title="Детские" catchup-enable="0",С
-# http://109.248.236.21:4433/udp/238.1.1.98:1234
+#EXTINF:-1 tvg-id="solovjinypomiot" group-title="Новости" catchup-enable="0",Соловьев LIVE HD
+http://92.53.64.197:5050/Solovyov_live/video.m3u8?token=m3VIth-Rou_bM1
 #EXTINF:-1 tvg-id="start" group-title="Спортивные" catchup-enable="0",Старт HD
 http://strm.yandex.ru/kal/start/start0.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/startlive.m3u8
