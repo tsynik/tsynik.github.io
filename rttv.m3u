@@ -1069,7 +1069,8 @@ http://109.239.208.82:80/history/index.m3u8
 https://bkm.beetv.kz/btv/live/hls/000004582.m3u8
 # http://185.37.150.40:8092/Illyuzion/playlist.m3u8
 #EXTINF:-1 tvg-id="indiyskoe-kino" group-title="Кино и сериалы" catchup-enable="0",Индийское кино
-http://sc.id-tv.kz/Indiiskoe_kino.m3u8
+http://91.205.199.7:8000/play/indiskoekino
+# http://sc.id-tv.kz/Indiiskoe_kino.m3u8
 # http://109.248.236.21:4433/udp/238.1.1.132:1234
 #EXTINF:-1 tvg-id="ginger-hd" group-title="Детские" catchup-enable="0",Капитан Фантастика HD
 https://bkm.beetv.kz/btv/live/hls/000001474.m3u8
