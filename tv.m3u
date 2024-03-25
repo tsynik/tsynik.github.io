@@ -854,20 +854,24 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 #EXTINF:-1 tvg-id="sony-turbo" group-title="Кино и сериалы" catchup-enable="0",.BLACK
 https://bkm.beetv.kz/btv/live/hls/000000520.m3u8
 # http://109.248.236.21:4433/udp/238.1.1.139:1234
-#EXTINF:-1 tvg-id="sony-tv" group-title="Кино и сериалы" catchup-enable="0",.RED HD
-http://185.37.150.40:8092/Sony_enter/playlist.m3u8
+#EXTINF:-1 tvg-id="sony-tv" group-title="Кино и сериалы" catchup-enable="0",.RED
+# http://185.37.150.40:8092/Sony_enter/playlist.m3u8
+https://bkm.beetv.kz/btv/live/hls/000000213.m3u8
 # http://109.248.236.21:4433/udp/238.1.1.141:1234
-#EXTINF:-1 tvg-id="sony-scifi" group-title="Кино и сериалы" catchup-enable="0",.Sci-Fi HD
-http://185.37.150.40:8092/Axn_skyfi/playlist.m3u8
+#EXTINF:-1 tvg-id="sony-scifi" group-title="Кино и сериалы" catchup-enable="0",.Sci-Fi
+# http://185.37.150.40:8092/Axn_skyfi/playlist.m3u8
+https://bkm.beetv.kz/btv/live/hls/000000134.m3u8
 # http://109.248.236.21:4433/udp/238.1.1.138:1234
 #EXTINF:-1 tvg-id="1hd" tvg-id="1hd" group-title="Музыкальные" catchup-enable="0",1HD Music Television
 https://bkm.beetv.kz/btv/live/hls/000001020.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/1hdmusic.m3u8
 #EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы" catchup-enable="0",A1 HD
-http://185.37.150.40:8092/Amedia1/playlist.m3u8
+https://bkm.beetv.kz/btv/live/hls/000000710.m3u8
+# http://185.37.150.40:8092/Amedia1/playlist.m3u8
 # http://109.248.236.21:4433/udp/238.1.1.97:1234
 #EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы" catchup-enable="0",A2 HD
-http://185.37.150.40:8092/Amedia2/playlist.m3u8
+https://bkm.beetv.kz/btv/live/hls/000000351.m3u8
+# http://185.37.150.40:8092/Amedia2/playlist.m3u8
 #EXTINF:-1 tvg-id="amedia-hit" group-title="Кино и сериалы" catchup-enable="0",Amedia Hit HD
 https://bkm.beetv.kz/btv/live/hls/000001662.m3u8
 # http://109.248.236.21:4433/udp/238.1.1.96:1234
@@ -881,7 +885,8 @@ http://45.159.74.14:80/AnimalPlanet/tracks-v1a2/mono.m3u8
 # http://mfe01.cliptv.az/dash/Animal_Planet_HD345wer.ism/playlist.mpd
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Big Planet HD
 https://bkm.beetv.kz/btv/live/hls/000008052.m3u8
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood HD
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood HD
+https://bkm.beetv.kz/btv/live/hls/000001419.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Bridge TV Русский хит
 https://strm.yandex.ru/kal/bridgetv_russkiyhit/bridgetv_russkiyhit0.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Bridge TV Rock
@@ -914,17 +919,23 @@ http://45.159.74.14:80/DiscoveryChannel/tracks-v1a2/mono.m3u8
 # #EXTINF:-1 group-title="Детские" catchup-enable="0",Duck TV
 #EXTINF:-1 tvg-id="deutsche-welle-eu" group-title="Новости" catchup-enable="0",DW Europe HD
 https://bkm.beetv.kz/btv/live/hls/000000291.m3u8
+#EXTINF:-1 tvg-id="euronews-en" group-title="Новости" catchup-enable="0",EuroNews
+https://bkm.beetv.kz/btv/live/hls/000000025.m3u8
 #EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
 https://livetv.mylifeisgood.net.ru/channels/europaplustv24.m3u8
 #EXTINF:-1 tvg-id="eurosport1" group-title="Спортивные" catchup-enable="0",Eurosport 1 HD
 https://bkm.beetv.kz/btv/live/hls/000002478.m3u8
 #EXTINF:-1 tvg-id="eurosport2" group-title="Спортивные" catchup-enable="0",Eurosport 2 HD
 https://bkm.beetv.kz/btv/live/hls/000002479.m3u8
+#EXTINF:-1 group-title="Новости" catchup-enable="0",France 24 HD
+https://bkm.beetv.kz/btv/live/hls/000000290.m3u8
 #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы" catchup-enable="0",FX HD
 https://bkm.beetv.kz/btv/live/hls/000004472.m3u8
 #EXTINF:-1 tvg-id="foxlife" group-title="Кино и сериалы" catchup-enable="0",FX Life HD
 https://bkm.beetv.kz/btv/live/hls/000004471.m3u8
 # http://91.205.199.3:80/FoxLife/index.m3u8
+#EXTINF:-1 tvg-id="galaxy-tv" group-title="Познавательные" catchup-enable="0",Galaxy TV
+https://bkm.beetv.kz/btv/live/hls/000000332.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Gulli Girl
 https://bkm.beetv.kz/btv/live/hls/000000284.m3u8
 #EXTINF:-1 tvg-id="history-ru"" group-title="Познавательные" catchup-enable="0",History HD
@@ -938,10 +949,12 @@ http://stream01.vnet.am/ParamountChannel/mono.m3u8
 http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
 # #EXTINF:-1 tvg-id="jimjam" group-title="Детские" catchup-enable="0",JimJam
 #EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL
-http://94.232.104.237:8000/play/065/index.m3u8
+https://mhd116.iptv2022.com/p/2HlVj80hOmp3FVpcX9UdoQ,1711400414/streaming/khltv/324/1/index.m3u8
+# http://94.232.104.237:8000/play/065/index.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="kxl-prime" catchup-enable="0",KHL Prime HD
-http://185.37.150.40:8092/KHL_HD/index.m3u8
-# http://185.37.150.46:8092/KHL_HD/index.m3u8
+# http://185.37.150.40:8092/KHL_HD/index.m3u8
+http://185.37.150.46:8092/KHL_HD/index.m3u8
+# https://mhd116.iptv2022.com/p/lUx_9Y9RWlrRDIyipndXsQ,1711400414/streaming/khlhd/324/1/index.m3u8
 # http://94.232.104.237:8000/play/227/index.m3u8
 # #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://www.lyngsat.com/logo/tv/mm/motorracing-tv.png" group-title="Спортивные" catchup-enable="0",MotoRRacing TV
 # https://dai.google.com/linear/hls/event/qI1pC-R_Sma0bVLVjaEOtw/master.m3u8
@@ -1043,6 +1056,8 @@ http://109.248.236.21:4433/udp/238.1.1.106:1234
 #EXTINF:-1 tvg-id="zhivaya-priroda" group-title="Познавательные" catchup-enable="0",Живая природа HD
 https://bkm.beetv.kz/btv/live/hls/000001187.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/jivyapriroda.m3u8
+#EXTINF:-1 tvg-id="zagorodnaya-zhizn" group-title="Хобби и увлечения" catchup-enable="0",Загородная жизнь HD
+https://bkm.beetv.kz/btv/live/hls/000000289.m3u8
 #EXTINF:-1 tvg-id="zagorodny" group-title="Хобби и увлечения" catchup-enable="0",Загородный
 https://bkm.beetv.kz/btv/live/hls/000000235.m3u8
 #EXTINF:-1 tvg-id="zdorovoe-tv" group-title="Хобби и увлечения" catchup-enable="0",Здоровое ТВ
@@ -1058,7 +1073,8 @@ https://bkm.beetv.kz/btv/live/hls/000004582.m3u8
 #EXTINF:-1 tvg-id="indiyskoe-kino" group-title="Кино и сериалы" catchup-enable="0",Индийское кино
 http://109.248.236.21:4433/udp/238.1.1.132:1234
 #EXTINF:-1 tvg-id="ginger-hd" group-title="Детские" catchup-enable="0",Капитан Фантастика HD
-http://185.37.150.40:8092/Ginger_HD/playlist.m3u8
+https://bkm.beetv.kz/btv/live/hls/000001474.m3u8
+# http://185.37.150.40:8092/Ginger_HD/playlist.m3u8
 # #EXTINF:-1 tvg-id="kamedi" group-title="Кино и сериалы" catchup-enable="0",Камеди
 # #EXTINF:-1 tvg-id="kinosat" group-title="Кино и сериалы" catchup-enable="0",КиноСат
 #EXTINF:-1 tvg-id="kineko" group-title="Кино и сериалы" catchup-enable="0",Кинеко HD
@@ -1067,23 +1083,31 @@ https://bkm.beetv.kz/btv/live/hls/000008136.m3u8
 http://94.232.104.237:8000/play/047/index.m3u8
 #EXTINF:-1 tvg-id="kinopremiera-hd" group-title="Кино и сериалы" catchup-enable="0",Кинопремьера HD
 http://45.159.74.13:80/Kinopremera/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="kinosvidanie" group-title="Кино и сериалы" catchup-enable="0",Киносвидание
-http://91.205.199.3:80/kinosvidanie/index.m3u8
+# http://sc.id-tv.kz/Kinopremiera_hd_34_35.m3u8
+#EXTINF:-1 tvg-id="kinosvidanie" group-title="Кино и сериалы" catchup-enable="0",Киносвидание HD
+http://sc.id-tv.kz/Kinosvidanie_hd_34_35.m3u8
+# http://91.205.199.3:80/kinosvidanie/index.m3u8
 #EXTINF:-1 tvg-id="kinosemiya" group-title="Кино и сериалы" catchup-enable="0",Киносемья HD
 http://91.205.199.3:80/kinosemyahd/index.m3u8
 #EXTINF:-1 tvg-id="kinokomedia" group-title="Кино и сериалы" catchup-enable="0",Кинокомедия HD
-http://185.37.150.40:8092/Komediya/playlist.m3u8
+http://sc.id-tv.kz/Kinokomediya_hd_34_35.m3u8
+# http://185.37.150.40:8092/Komediya/playlist.m3u8
 #EXTINF:-1 tvg-id="kinomiks" group-title="Кино и сериалы" catchup-enable="0",Киномикс HD
-http://185.37.150.40:8092/kino_plus/playlist.m3u8
+http://sc.id-tv.kz/Kinomix_hd_34_35.m3u8
+# http://185.37.150.40:8092/kino_plus/playlist.m3u8
 # http://45.11.139.43:8081/stream/kinomiks/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="kinoseria" group-title="Кино и сериалы" catchup-enable="0",Киносерия
-http://185.37.150.40:8092/Mnogo_tv/playlist.m3u8
+http://91.205.199.7:8000/play/a0t4
+# http://185.37.150.40:8092/Mnogo_tv/playlist.m3u8
 #EXTINF:-1 tvg-id="kino-tv" group-title="Кино и сериалы" catchup-enable="0",КиноТВ
 http://91.142.158.107:8092/play/28/index.m3u8
-# #EXTINF:-1 tvg-id="kinouzhas" group-title="Кино и сериалы" catchup-enable="0",Киноужас
+#EXTINF:-1 tvg-id="kinouzhas" group-title="Кино и сериалы" catchup-enable="0",Киноужас
+http://91.205.199.7:8000/play/a0nn
 #EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы" catchup-enable="0",Кинохит HD
-http://185.37.150.40:8092/kinohit/playlist.m3u8
+http://sc.id-tv.kz/Kinohit_hd_34_35.m3u8
+# http://185.37.150.40:8092/kinohit/playlist.m3u8
 # #EXTINF:-1 tvg-id="komedijnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Комедийное HD
+# https://streamer1.connectto.com/519/mono.m3u8
 #EXTINF:-1 tvg-id="russkaya-komedia" group-title="Кино и сериалы" catchup-enable="0",Комедия
 http://91.142.158.107:8092/play/30/index.m3u8
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Конный мир HD
@@ -1098,30 +1122,38 @@ http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
 https://livetv.mylifeisgood.net.ru/channels/matchhd_nocensored.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Арена
 http://194.143.148.28:8080/MatchArena/mpegts
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Боец HD
-http://185.37.150.40:8092/Boec/playlist.m3u8
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Боец
+http://83.234.207.29:8010/play/a02e/index.m3u8
+# http://185.37.150.40:8092/Boec/playlist.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Игра
 http://94.232.104.237:8000/play/108/index.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Планета
 http://109.248.236.21:4433/udp/238.1.1.39:1234
+# http://sc.id-tv.kz/MatchPlaneta_36_37.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Премьер HD
-http://185.37.150.40:8092/Nash_futbol_HD/playlist.m3u8
+https://mhd116.iptv2022.com/p/0j1aZtwSzsIklT7pm787HQ,1711400414/streaming/nashfootbalhd/324/1/tracks-v4a1/mono.m3u8
+# http://185.37.150.40:8092/Nash_futbol_HD/playlist.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна
 http://94.232.104.237:8000/play/059/index.m3u8
 #EXTINF:-1 group-title="Спортивные" tvg-id="match-football1" catchup-enable="0",Матч! Футбол 1 HD
 http://194.143.148.28:8080/MatchFutbol1/mpegts
+# https://mhd116.iptv2022.com/p/z0igPGCA7LfRVoEXh3yPmA,1711400414/streaming/footbal1hd/324/1/tracks-v4a1/mono.m3u8
 EXTINF:-1 group-title="Спортивные" tvg-id="match-football2" catchup-enable="0",Матч! Футбол 2 HD
+https://mhd116.iptv2022.com/p/Z1vo7KpvyIkYOVEeSnTqKw,1711400414/streaming/footbal2hd/324/1/tracks-v4a1/mono.m3u8
 EXTINF:-1 group-title="Спортивные" tvg-id="match-football3" catchup-enable="0",Матч! Футбол 3 HD
+https://mhd116.iptv2022.com/p/gm5QVvfw3qZ4GUNMg5CoIQ,1711400414/streaming/footbal3hd/324/1/tracks-v4a1/mono.m3u8
 #EXTINF:-1 tvg-id="mir-24" group-title="Новости" catchup-enable="0",Мир 24 HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
-# #EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Новости" catchup-enable="0",Москва 24
+#EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Новости" catchup-enable="0",Москва 24
+https://livetv.mylifeisgood.net.ru/channels/moscow24.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" tvg-id="mosfilm" catchup-enable="0",Мосфильм. Золотая коллекция
 http://109.248.236.21:4433/udp/238.1.1.100:1234
 # #EXTINF:-1 tvg-id="motorsportv-tv" group-title="Спортивные" catchup-enable="0",Моторспорт ТВ
 #EXTINF:-1 tvg-id="moya-planeta" group-title="Познавательные" catchup-enable="0",Моя Планета HD
 https://bkm.beetv.kz/btv/live/hls/000001049.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино HD
-http://185.37.150.40:8092/Muj_kino/playlist.m3u8
+http://sc.id-tv.kz/Mujskoe_kino_hd_34_35.m3u8
+# http://185.37.150.40:8092/Muj_kino/playlist.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Мужской
 http://195.26.83.96:7007/play/11/index.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Музыка Первого
@@ -1177,12 +1209,12 @@ http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
 #EXTINF:-1 tvg-id="retro-tv" group-title="Кино и сериалы" catchup-enable="0",Ретро
 http://109.239.208.82:80/retro/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Родное кино
-http://185.37.150.40:8092/Nashe_kino/playlist.m3u8
+http://sc.id-tv.kz/Rodnoe_kino_34_35.m3u8
+# http://185.37.150.40:8092/Nashe_kino/playlist.m3u8
 # http://109.248.236.21:4433/udp/238.1.1.77:1234
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Романтичное HD
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский бестселлер
 http://91.142.158.107:8092/play/26/index.m3u8
-# http://185.37.150.40:8092/russkiy_b/playlist.m3u8
 # http://176.113.48.221:8986/44
 # http://178.212.236.3:8802/play/421
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский детектив
@@ -1213,7 +1245,7 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",СТС Kids
 https://bkm.beetv.kz/btv/live/hls/000003892.m3u8
 #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",ТВ 21
-http://185.37.150.40:8092/tv21/playlist.m3u8
+https://bkm.beetv.kz/btv/live/hls/000000006.m3u8
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Театр
 http://146.158.0.56:80/Teatr/index.m3u8
 # #EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="0",Телеканал Футбол
