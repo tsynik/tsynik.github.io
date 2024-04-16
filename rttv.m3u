@@ -92,7 +92,7 @@ https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 http://146.158.0.56/KuhnyaTV/mono.m3u8
 #EXTINF:-1 tvg-id="mir" group-title="HD и UHD" catchup-enable="0",Мир HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1 channelId="259" tvg-id="nasha-sibir" group-title="HD и UHD" catchup-enable="1",Наша Сибирь HD
+#EXTINF:-1 channelId="259" tvg-id="nasha-sibir" group-title="HD и UHD" catchup-enable="0",Наша Сибирь HD
 https://strm.yandex.ru/kal/sibir/sibir0.m3u8 
 #EXTINF:-1 channelId="259" tvg-id="nasha-sibir-4k" group-title="HD и UHD" catchup-enable="1",Наша Сибирь 4K
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -920,6 +920,8 @@ https://livetv.mylifeisgood.net.ru/channels/europaplustv24.m3u8
 https://bkm.beetv.kz/btv/live/hls/000002478.m3u8
 #EXTINF:-1 tvg-id="eurosport2" group-title="Спортивные" catchup-enable="0",Eurosport 2 HD
 https://bkm.beetv.kz/btv/live/hls/000002479.m3u8
+#EXTINF:-1 tvg-id="hdfashion-lifestyle" group-title="Хобби и увлечения" catchup-enable="0",Fashion & Lifestyle HD
+https://bkm.beetv.kz/btv/live/hls/000000439.m3u8
 #EXTINF:-1 group-title="Новости" catchup-enable="0",France 24 HD
 https://bkm.beetv.kz/btv/live/hls/000000290.m3u8
 #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы" catchup-enable="0",FX HD
@@ -1144,8 +1146,8 @@ https://bkm.beetv.kz/btv/live/hls/000001049.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино HD
 http://hlstest.eltex-media.ru:8085/menfilm/index.m3u8
 # http://sc.id-tv.kz/Mujskoe_kino_hd_34_35.m3u8
-#EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Мужской
-http://195.26.83.96:7007/play/11/index.m3u8
+#EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Мужской HD
+https://bkm.beetv.kz/btv/live/hls/000000286.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Музыка Первого
 https://bkm.beetv.kz/btv/live/hls/000000204.m3u8
 #EXTINF:-1 tvg-id="mult" group-title="Детские" catchup-enable="0",Мульт HD
