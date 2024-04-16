@@ -858,6 +858,8 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
 #
 #EXTINF:-1 channelId="52" tvg-id="360-news" tvg-name="360° Новости" group-title="Новости" catchup-enable="0",360° Новости HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
+#EXTINF:-1 tvg-id="365-dnej" group-title="Познавательные" catchup-enable="0",365 Дней ТВ
+http://193.201.98.10:5000/c36
 #EXTINF:-1 tvg-id="sony-turbo" group-title="Кино и сериалы" catchup-enable="0",.BLACK
 https://bkm.beetv.kz/btv/live/hls/000000520.m3u8
 #EXTINF:-1 tvg-id="sony-tv" group-title="Кино и сериалы" catchup-enable="0",.RED
@@ -1010,6 +1012,8 @@ https://bkm.beetv.kz/btv/live/hls/000008142.m3u8
 #EXTINF:-1 tvg-id="tiji" group-title="Детские" catchup-enable="0",TiJi
 https://bkm.beetv.kz/btv/live/hls/000000174.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/tiji.m3u8
+#EXTINF:-1 tvg-id="travel-channel" group-title="Познавательные" catchup-enable="0",Travel Channel HD
+http://193.201.98.10:5000/c149
 #EXTINF:-1 tvg-id="viasat-explore" group-title="Познавательные" catchup-enable="0",Viju Explore HD
 https://bkm.beetv.kz/btv/live/hls/000004157.m3u8
 #EXTINF:-1 tvg-id="viasat-history" group-title="Познавательные" catchup-enable="0",Viju History HD
@@ -1061,8 +1065,9 @@ http://193.201.98.10:5000/c98
 https://bkm.beetv.kz/btv/live/hls/000000050.m3u8
 #EXTINF:-1 tvg-id="domkino-premium" group-title="Кино и сериалы" catchup-enable="0",Дом Кино Премиум HD
 https://bkm.beetv.kz/btv/live/hls/000002943.m3u8
-#EXTINF:-1 tvg-id="domashnie-zhivotnye" group-title="Познавательные" catchup-enable="0",Домашние животные
+#EXTINF:-1 tvg-id="domashnie-zhivotnye" group-title="Хобби и увлечения" catchup-enable="0",Домашние животные
 https://bkm.beetv.kz/btv/live/hls/000000146.m3u8
+# http://193.201.98.10:5000/c159
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Дорама HD
 https://bkm.beetv.kz/btv/live/hls/000003392.m3u8
 #EXTINF:-1 tvg-id="drive" group-title="Хобби и увлечения" catchup-enable="0",Драйв
