@@ -938,7 +938,7 @@ https://bkm.beetv.kz/btv/live/hls/000001000.m3u8
 #EXTINF:-1 tvg-id="h2" group-title="Познавательные" catchup-enable="0",History2 HD
 https://bkm.beetv.kz/btv/live/hls/000002722.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Hollywood HD
-http://stream01.vnet.am/ParamountChannel/mono.m3u8
+http://193.201.98.10:5000/c59
 # https://bkm.beetv.kz/btv/live/hls/000000031.m3u8
 #EXTINF:-1 tvg-id="id-xtra-eu" group-title="Познавательные" catchup-enable="0",Investigation Discovery HD
 http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
@@ -1170,6 +1170,7 @@ http://sc.id-tv.kz/Nnk_hd.m3u8
 http://91.142.158.107:8092/play/29/index.m3u8
 #EXTINF:-1 tvg-id="ntv-pravo" group-title="Развлекательные" catchup-enable="0",НТВ Право
 https://strm.yandex.ru/kal/ntv_pravo_new/ntv_pravo_new0.m3u8
+# http://stream01.vnet.am/ParamountChannel/mono.m3u8
 #EXTINF:-1 tvg-id="ntv-serial" group-title="Кино и сериалы" catchup-enable="0",НТВ Сериал HD
 https://strm.yandex.ru/kal/ntv_serial_new/ntv_serial_new0.m3u8
 #EXTINF:-1 tvg-id="ntv-xit" group-title="Кино и сериалы" catchup-enable="0",НТВ Хит HD
