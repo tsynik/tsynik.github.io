@@ -918,10 +918,13 @@ https://bkm.beetv.kz/btv/live/hls/000000291.m3u8
 https://bkm.beetv.kz/btv/live/hls/000000025.m3u8
 #EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
 https://livetv.mylifeisgood.net.ru/channels/europaplustv24.m3u8
+# http://193.201.98.10:5000/c119
 #EXTINF:-1 tvg-id="eurosport1" group-title="Спортивные" catchup-enable="0",Eurosport 1 HD
 https://bkm.beetv.kz/btv/live/hls/000002478.m3u8
+# http://sc.id-tv.kz/Eurosport_1HD_34_35.m3u8
 #EXTINF:-1 tvg-id="eurosport2" group-title="Спортивные" catchup-enable="0",Eurosport 2 HD
 https://bkm.beetv.kz/btv/live/hls/000002479.m3u8
+# http://sc.id-tv.kz/Eurosport_2HD_34_35.m3u8
 #EXTINF:-1 tvg-id="hdfashion-lifestyle" group-title="Хобби и увлечения" catchup-enable="0",Fashion & Lifestyle HD
 https://bkm.beetv.kz/btv/live/hls/000000439.m3u8
 #EXTINF:-1 group-title="Новости" catchup-enable="0",France 24 HD
@@ -952,6 +955,10 @@ http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
 http://193.201.98.10:5000/c108
 #EXTINF:-1 group-title="Спортивные" tvg-id="kxl-prime" catchup-enable="0",KHL Prime HD
 http://185.37.150.46:8092/KHL_HD/index.m3u8
+#EXTINF:-1 tvg-id="mezzo" group-title="Музыкальные" catchup-enable="0",Mezzo
+http://193.201.98.10:5000/c124
+#EXTINF:-1 tvg-id="mezzo-live-hd" group-title="Музыкальные" catchup-enable="0",Mezzo Live HD
+http://193.201.98.10:5000/c125
 # #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://www.lyngsat.com/logo/tv/mm/motorracing-tv.png" group-title="Спортивные" catchup-enable="0",MotoRRacing TV
 # https://dai.google.com/linear/hls/event/qI1pC-R_Sma0bVLVjaEOtw/master.m3u8
 #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
@@ -1128,6 +1135,8 @@ https://strm.yandex.ru/kal/leva/leva0.m3u8
 https://bkm.beetv.kz/btv/live/hls/000000283.m3u8
 #EXTINF:-1 tvg-id="la-minor" group-title="Музыкальные" catchup-enable="0",Ля-минор
 http://146.158.0.56:80/Lya-Minor/index.m3u8
+#EXTINF:-1 tvg-id="mama" group-title="Детские" catchup-enable="0",Мама
+http://193.201.98.10:5000/c70
 #EXTINF:-1 tvg-id="matur-tv" group-title="Музыкальные" catchup-enable="1",Матур ТВ HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
@@ -1242,7 +1251,7 @@ http://91.142.158.107:8092/play/27/index.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский иллюзион
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский роман
 http://91.142.158.107:8092/play/25/index.m3u8
-#EXTINF:-1 tvg-id="oxotnik-i-rybolov" group-title="Хобби и увлечения" catchup-enable="0",Рыболов HD
+#EXTINF:-1 tvg-id="oxotnik-i-rybolov" group-title="Хобби и увлечения" catchup-enable="0",Рыболов
 http://193.201.98.10:5000/c109
 #EXTINF:-1 tvg-id="ryzhy" group-title="Детские" catchup-enable="0",Рыжий
 https://bkm.beetv.kz/btv/live/hls/000001445.m3u8
