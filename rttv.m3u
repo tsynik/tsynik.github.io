@@ -860,33 +860,36 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 #EXTINF:-1 tvg-id="365-dnej" group-title="Познавательные" catchup-enable="0",365 Дней ТВ
 http://193.201.98.10:5000/c36
-# #EXTINF:-1 tvg-id="sony-turbo" group-title="Кино и сериалы" catchup-enable="0",.BLACK
-# https://bkm.beetv.kz/btv/live/hls/000000520.m3u8
-# #EXTINF:-1 tvg-id="sony-tv" group-title="Кино и сериалы" catchup-enable="0",.RED
-# https://bkm.beetv.kz/btv/live/hls/000000213.m3u8
-# #EXTINF:-1 tvg-id="sony-scifi" group-title="Кино и сериалы" catchup-enable="0",.Sci-Fi
-# https://bkm.beetv.kz/btv/live/hls/000000134.m3u8
+#EXTINF:-1 tvg-id="sony-turbo" group-title="Кино и сериалы" catchup-enable="0",.BLACK
+http://193.201.98.10:5000/c79
+#EXTINF:-1 tvg-id="sony-tv" group-title="Кино и сериалы" catchup-enable="0",.RED
+http://193.201.98.10:5000/c78
+#EXTINF:-1 tvg-id="sony-scifi" group-title="Кино и сериалы" catchup-enable="0",.Sci-Fi
+http://193.201.98.10:5000/c77
 #EXTINF:-1 tvg-id="1hd" tvg-id="1hd" group-title="Музыкальные" catchup-enable="0",1HD Music Television
 https://livetv.mylifeisgood.net.ru/channels/1hdmusic.m3u8
+#EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы" catchup-enable="0",A1
+http://193.201.98.10:5000/c55
 # #EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы" catchup-enable="0",A1 HD
 # https://bkm.beetv.kz/btv/live/hls/000000710.m3u8
+#EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы" catchup-enable="0",A2
+http://193.201.98.10:5000/c56
 # #EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы" catchup-enable="0",A2 HD
 # https://bkm.beetv.kz/btv/live/hls/000000351.m3u8
 #EXTINF:-1 tvg-id="amedia-hit" group-title="Кино и сериалы" catchup-enable="0",Amedia Hit HD
 http://stream01.vnet.am/Nauka/mono.m3u8
-# https://bkm.beetv.kz/btv/live/hls/000001662.m3u8
 #EXTINF:-1 tvg-id="amedia-premium" group-title="Кино и сериалы" catchup-enable="0",Amedia Premium HD
-http://stream01.vnet.am/AmediaPremium/mono.m3u8
-# https://bkm.beetv.kz/btv/live/hls/000000709.m3u8
+http://193.201.98.10:5000/c58
+# http://stream01.vnet.am/AmediaPremium/mono.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Ani
 http://31.148.48.15:80/Ani/index.m3u8?token=test
 #EXTINF:-1 tvg-id="animal-planet" group-title="Познавательные" catchup-enable="0",Animal Planet HD
 http://45.159.74.14:80/AnimalPlanet/tracks-v1a2/mono.m3u8
 # http://mfe01.cliptv.az/dash/Animal_Planet_HD345wer.ism/playlist.mpd
-# #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Big Planet HD
-# https://bkm.beetv.kz/btv/live/hls/000008052.m3u8
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood HD
-# https://bkm.beetv.kz/btv/live/hls/000001419.m3u8
+#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Big Planet
+http://193.201.98.10:5000/c94
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood HD
+http://sc.id-tv.kz/bollywood_hd_34_35.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Bridge TV Русский хит
 https://strm.yandex.ru/kal/bridgetv_russkiyhit/bridgetv_russkiyhit0.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Bridge TV Rock
@@ -1023,20 +1026,26 @@ http://sc.id-tv.kz/ViasatNature_34_35.m3u8
 # https://bkm.beetv.kz/btv/live/hls/000006482.m3u8
 #EXTINF:-1 tvg-id="viasat-nature-history-hd" group-title="Познавательные" catchup-enable="0",Viju+ Planet HD
 http://31.131.136.4:8001/play/e006
+#EXTINF:-1 tvg-id="tv1000" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000
+http://193.201.98.10:5000/c48
 # #EXTINF:-1 tvg-id="tv1000" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 HD
 # https://bkm.beetv.kz/btv/live/hls/000003747.m3u8
+#EXTINF:-1 tvg-id="tv1000-action" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Action
+http://193.201.98.10:5000/c49
 # #EXTINF:-1 tvg-id="tv1000-action" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Action HD
 # https://bkm.beetv.kz/btv/live/hls/000003910.m3u8
+#EXTINF:-1 tvg-id="tv1000-russkoe-kino" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Русское
+http://193.201.98.10:5000/c37
 # #EXTINF:-1 tvg-id="tv1000-russkoe-kino" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Русское HD
 # https://bkm.beetv.kz/btv/live/hls/000003748.m3u8
 # #EXTINF:-1 tvg-id="viasat-sport" group-title="Спортивные" catchup-enable="0",Viju+ Sport HD
 # https://bkm.beetv.kz/btv/live/hls/000000135.m3u8
-# #EXTINF:-1 tvg-id="vip-comedy" group-title="Кино и сериалы" catchup-enable="0",Viju+ Comedy HD
-# https://bkm.beetv.kz/btv/live/hls/000000870.m3u8
-# #EXTINF:-1 tvg-id="vip-megahit" group-title="Кино и сериалы" catchup-enable="0",Viju+ Megahit HD
-# https://bkm.beetv.kz/btv/live/hls/000000869.m3u8
-# #EXTINF:-1 tvg-id="vip-premiere" group-title="Кино и сериалы" catchup-enable="0",Viju+ Premiere HD
-# https://bkm.beetv.kz/btv/live/hls/000000868.m3u8
+#EXTINF:-1 tvg-id="vip-comedy" group-title="Кино и сериалы" catchup-enable="0",Viju+ Comedy HD
+http://193.201.98.10:5000/c143
+#EXTINF:-1 tvg-id="vip-megahit" group-title="Кино и сериалы" catchup-enable="0",Viju+ Megahit HD
+http://193.201.98.10:5000/c144
+#EXTINF:-1 tvg-id="vip-premiere" group-title="Кино и сериалы" catchup-enable="0",Viju+ Premiere HD
+http://193.201.98.10:5000/c145
 #EXTINF:-1 tvg-id="vip-serial" group-title="Кино и сериалы" catchup-enable="0",Viju+ Serial HD
 http://91.205.199.3/vipserialhd/index.m3u8
 # https://bkm.beetv.kz/btv/live/hls/000004375.m3u8
@@ -1258,8 +1267,8 @@ http://193.201.98.10:5000/c109
 # https://livetv.mylifeisgood.net.ru/channels/ryjii.m3u8
 # https://bkm.beetv.kz/btv/live/hls/000001445.m3u8
 # http://ott-cdn.ucom.am/s57/04.m3u8
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Сапфир HD
-# https://bkm.beetv.kz/btv/live/hls/000008135.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Сапфир HD
+http://193.201.98.10:5000/c90
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Смайлик ТВ HD
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/smile.m3u8
