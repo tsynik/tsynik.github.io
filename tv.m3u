@@ -80,9 +80,8 @@ https://hls.rt.com/hls/rtdru.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA/video_3840x2160_avc1/variant.m3u8
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA/variant.m3u8
-# #EXTINF:-1 tvg-id="tlc" group-title="HD и UHD" catchup-enable="0",TLC HD
-# https://bkm.beetv.kz/btv/live/hls/000001498.m3u8
-# http://193.201.98.10:5000/c151
+#EXTINF:-1 tvg-id="tlc" group-title="HD и UHD" catchup-enable="0",TLC HD
+http://193.201.98.10:5000/c151
 #EXTINF:-1 channelId="160" tvg-id="ultra-hd-cinema" group-title="HD и UHD" catchup-enable="1",Ultra HD Cinema
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA/video_3840x2160_avc1/variant.m3u8
@@ -869,7 +868,6 @@ http://193.201.98.10:5000/c36
 # https://bkm.beetv.kz/btv/live/hls/000000134.m3u8
 #EXTINF:-1 tvg-id="1hd" tvg-id="1hd" group-title="Музыкальные" catchup-enable="0",1HD Music Television
 https://livetv.mylifeisgood.net.ru/channels/1hdmusic.m3u8
-# https://bkm.beetv.kz/btv/live/hls/000001020.m3u8
 # #EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы" catchup-enable="0",A1 HD
 # https://bkm.beetv.kz/btv/live/hls/000000710.m3u8
 # #EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы" catchup-enable="0",A2 HD
@@ -912,17 +910,15 @@ https://strm.yandex.ru/kal/bridgetvhits/bridgetvhits0.m3u8
 #EXTINF:-1 tvg-id="cnn" group-title="Новости" catchup-enable="0",CNN International Europe HD
 https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
 # https://bkm.beetv.kz/btv/live/hls/000000707.m3u8
-# #EXTINF:-1 tvg-id="da-vinci" group-title="Детские" catchup-enable="0",Da Vinci
-# https://bkm.beetv.kz/btv/live/hls/000000333.m3u8
+#EXTINF:-1 tvg-id="da-vinci" group-title="Детские" catchup-enable="0",Da Vinci
+http://sc.id-tv.kz/DaVinci_34_35.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel HD
 http://45.159.74.14:80/DiscoveryChannel/tracks-v1a2/mono.m3u8
 # http://193.201.98.10:5000/c146
-# #EXTINF:-1 tvg-id="discovery-science" group-title="Познавательные" catchup-enable="0",Discovery Science HD
-# #EXTINF:-1 group-title="Детские" catchup-enable="0",Duck TV
-# #EXTINF:-1 tvg-id="deutsche-welle-eu" group-title="Новости" catchup-enable="0",DW Europe HD
-# https://bkm.beetv.kz/btv/live/hls/000000291.m3u8
-# #EXTINF:-1 tvg-id="euronews-en" group-title="Новости" catchup-enable="0",EuroNews
-# https://bkm.beetv.kz/btv/live/hls/000000025.m3u8
+#EXTINF:-1 tvg-id="deutsche-welle-eu" group-title="Новости" catchup-enable="0",DW Europe
+http://sc.id-tv.kz/DW.m3u8
+#EXTINF:-1 tvg-id="euronews-en" group-title="Новости" catchup-enable="0",EuroNews
+http://sc.id-tv.kz/Euronews_34_35.m3u8
 #EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
 https://livetv.mylifeisgood.net.ru/channels/europaplustv24.m3u8
 # http://193.201.98.10:5000/c119
@@ -1012,12 +1008,17 @@ http://88.135.128.20:7272/MTsnTXg1kReNwSf
 # https://bkm.beetv.kz/btv/live/hls/000000174.m3u8
 #EXTINF:-1 tvg-id="travel-channel" group-title="Познавательные" catchup-enable="0",Travel Channel HD
 http://193.201.98.10:5000/c149
+#EXTINF:-1 tvg-id="viasat-explore" group-title="Познавательные" catchup-enable="0",Viju Explore
+http://sc.id-tv.kz/ViasatExplorer_34_35.m3u8
 # #EXTINF:-1 tvg-id="viasat-explore" group-title="Познавательные" catchup-enable="0",Viju Explore HD
 # https://bkm.beetv.kz/btv/live/hls/000004157.m3u8
+#EXTINF:-1 tvg-id="viasat-history" group-title="Познавательные" catchup-enable="0",Viju History
+http://sc.id-tv.kz/ViasatHistory_34_35.m3u8
 # #EXTINF:-1 tvg-id="viasat-history" group-title="Познавательные" catchup-enable="0",Viju History HD
 # https://bkm.beetv.kz/btv/live/hls/000005528.m3u8
 #EXTINF:-1 tvg-id="viasat-nature" group-title="Познавательные" catchup-enable="0",Viju Nature
-http://91.205.199.3/viasatnature/index.m3u8
+http://sc.id-tv.kz/ViasatNature_34_35.m3u8
+# http://91.205.199.3/viasatnature/index.m3u8
 # #EXTINF:-1 tvg-id="viasat-nature" group-title="Познавательные" catchup-enable="0",Viju Nature HD
 # https://bkm.beetv.kz/btv/live/hls/000006482.m3u8
 #EXTINF:-1 tvg-id="viasat-nature-history-hd" group-title="Познавательные" catchup-enable="0",Viju+ Planet HD
