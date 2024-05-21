@@ -90,8 +90,6 @@ https://livetv.mylifeisgood.net.ru/channels/domashnii
 # #EXTINF:-1 tvg-id="eda-hd-int" group-title="HD и UHD" catchup-enable="0",Еда Премиум HD
 #EXTINF:-1 tvg-id="zvezda" group-title="HD и UHD" catchup-enable="0",Звезда HD
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
-#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Кухня ТВ HD
-http://146.158.0.56/KuhnyaTV/mono.m3u8
 #EXTINF:-1 tvg-id="mir" group-title="HD и UHD" catchup-enable="0",Мир HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 channelId="259" tvg-id="nasha-sibir" group-title="HD и UHD" catchup-enable="0",Наша Сибирь HD
@@ -1129,6 +1127,8 @@ http://91.142.158.107:8092/play/30/index.m3u8
 # http://193.201.98.10:5000/c168
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Конный мир HD
 http://176.113.48.221:8986/145
+#EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Кухня ТВ
+http://146.158.0.56/KuhnyaTV/mono.m3u8
 #EXTINF:-1 tvg-id="liova" group-title="Детские" catchup-enable="0",Лёва HD
 https://strm.yandex.ru/kal/leva/leva0.m3u8
 # #EXTINF:-1 tvg-id="lubimoe-kino" group-title="Кино и сериалы" catchup-enable="0",Любимое кино
