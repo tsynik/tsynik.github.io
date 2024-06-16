@@ -389,7 +389,7 @@
     };
     this.play = function (data) {
       stop();
-      url = random_item(data.stream.urls) // data.mp3file ? data.mp3file : data.aacfile;
+      url = random_item(data.stream.urls.value) // data.mp3file ? data.mp3file : data.aacfile;
       console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
       html.find('.somafm-player__name').text(data.title);
       html.toggleClass('hide', false);
