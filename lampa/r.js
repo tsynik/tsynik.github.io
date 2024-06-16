@@ -399,8 +399,8 @@
       //console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
       html.find('.somafm-player__name').text(data.title);
       html.toggleClass('hide', false);
-      if (window.appready) {
-        let b = document.getElementById('somafm-player');
+      let b = document.getElementById("somafm_player");
+      if (b) {
         b.style.backgroundImage = "url('" + data.image + "')";
         b.style.borderRadius = "0.2em";
       }
