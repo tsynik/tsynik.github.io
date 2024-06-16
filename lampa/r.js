@@ -398,10 +398,9 @@
       })
       //console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
       html.find('.somafm-player__name').text(data.title);
-      let btn = html.find('.somafm-player__button');
-      btn.style.backgroundImage = "url('" + data.image + "')";
-      btn.style.borderRadius = "0.1em";
       html.toggleClass('hide', false);
+      $('.somafm-player__button').style.backgroundImage = "url('" + data.image + "')";
+      $('.somafm-player__button').style.borderRadius = "0.1em";
       play();
     };
   }
