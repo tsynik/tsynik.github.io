@@ -51,15 +51,14 @@
   // parse channels list from api response
   function parseChannels(channels) {
     let output = [];
-    const streamHighestQuality = getHighestQualityStream(channel, PREFERRED_STREAMS);
-    const urls = getStreamUrls(channel);
+
 
     if (Array.isArray(channels)) {
       
       for (let c of channels) {
         if (!Array.isArray(c.playlists)) continue;
-        c.urls = urls;
-        c.stream = streamHighestQuality;
+        c.urls = getStreamUrls(c);
+        c.stream = getHighestQualityStream(c, PREFERRED_STREAMS);
         c.plsfile = 'https://api.somafm.com/' + c.id + '.pls';
         // c.mp3file = 'https://ice1.somafm.com/' + c.id + '-128-mp3';
         // c.aacfile = 'https://ice1.somafm.com/' + c.id + '-128-aac';
