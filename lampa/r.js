@@ -27,6 +27,7 @@
         if (!Array.isArray(c.playlists)) continue;
         c.plsfile = 'https://api.somafm.com/' + c.id + '.pls';
         c.mp3file = 'https://ice1.somafm.com/' + c.id + '-128-mp3';
+        c.aacfile = 'https://ice1.somafm.com/' + c.id + '-128-aac';
         c.songsurl = 'https://somafm.com/songs/' + c.id + '.json';
         c.infourl = 'https://somafm.com/' + c.id + '/';
         c.twitter = c.twitter ? 'https://twitter.com/@' + c.twitter : '';
@@ -91,7 +92,7 @@
     };
     this.build = function (data) {
       scroll.minus();
-      var stations = data.channels.sort(function (a, b) {
+      var stations = parseChannels(data.channels).sort(function (a, b) {
         return a.sort - b.sort;
       });
       this.append(stations);
@@ -233,8 +234,8 @@
     this.play = function (data) {
       stop();
       // url = data.stream_320 ? data.stream_320 : data.stream_128 ? data.stream_128 : data.stream_hls.replace('playlist.m3u8', '96/playlist.m3u8');
-      url = data.playlists[0].url ? data.playlists[0].url : data.playlists[1].url ? data.playlists[1].url : data.playlists[2].url ? data.playlists[2].url : data.playlists[3].url;
-      format = data.playlists[0].format ? data.playlists[0].format : data.playlists[1].format ? data.playlists[1].format : data.playlists[2].format ? data.playlists[2].format : data.playlists[3].format;
+      url = data.mp3file ? data.mp3file : data.aacfile;
+      format = data.
       html.find('.radio-player__name').text(data.title);
       html.toggleClass('hide', false);
       play();
@@ -250,7 +251,7 @@
     window.radio_player = new player();
     Lampa.Listener.follow('app', function (e) {
       if (e.type == 'ready') {
-        var button = $("<li class=\"menu__item selector\" data-action=\"radio\">\n                <div class=\"menu__ico\">\n                    <svg width=\"38\" height=\"31\" viewBox=\"0 0 38 31\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                    <rect x=\"17.613\" width=\"3\" height=\"16.3327\" rx=\"1.5\" transform=\"rotate(63.4707 17.613 0)\" fill=\"white\"/>\n                    <circle cx=\"13\" cy=\"19\" r=\"6\" fill=\"white\"/>\n                    <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M0 11C0 8.79086 1.79083 7 4 7H34C36.2091 7 38 8.79086 38 11V27C38 29.2091 36.2092 31 34 31H4C1.79083 31 0 29.2091 0 27V11ZM21 19C21 23.4183 17.4183 27 13 27C8.58173 27 5 23.4183 5 19C5 14.5817 8.58173 11 13 11C17.4183 11 21 14.5817 21 19ZM30.5 18C31.8807 18 33 16.8807 33 15.5C33 14.1193 31.8807 13 30.5 13C29.1193 13 28 14.1193 28 15.5C28 16.8807 29.1193 18 30.5 18Z\" fill=\"white\"/>\n                    </svg>\n                </div>\n                <div class=\"menu__text\">Radio SomaFM</div>\n            </li>");
+        var button = $("<li class=\"menu__item selector\" data-action=\"radio\">\n                <div class=\"menu__ico\">\n                    <svg width=\"38\" height=\"31\" viewBox=\"0 0 38 31\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                    <rect x=\"17.613\" width=\"3\" height=\"16.3327\" rx=\"1.5\" transform=\"rotate(63.4707 17.613 0)\" fill=\"white\"/>\n                    <circle cx=\"13\" cy=\"19\" r=\"6\" fill=\"white\"/>\n                    <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M0 11C0 8.79086 1.79083 7 4 7H34C36.2091 7 38 8.79086 38 11V27C38 29.2091 36.2092 31 34 31H4C1.79083 31 0 29.2091 0 27V11ZM21 19C21 23.4183 17.4183 27 13 27C8.58173 27 5 23.4183 5 19C5 14.5817 8.58173 11 13 11C17.4183 11 21 14.5817 21 19ZM30.5 18C31.8807 18 33 16.8807 33 15.5C33 14.1193 31.8807 13 30.5 13C29.1193 13 28 14.1193 28 15.5C28 16.8807 29.1193 18 30.5 18Z\" fill=\"white\"/>\n                    </svg>\n                </div>\n                <div class=\"menu__text\">SomaFM</div>\n            </li>");
         button.on('hover:enter', function () {
           Lampa.Activity.push({
             url: '',
