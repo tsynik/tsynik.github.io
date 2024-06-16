@@ -398,6 +398,7 @@
       //console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
       html.find('.somafm-player__name').text(data.title);
       html.toggleClass('hide', false);
+      html.toggleClass('loading', true);
       play();
     };
   }
