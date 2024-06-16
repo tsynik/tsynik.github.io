@@ -235,7 +235,6 @@
       stop();
       // url = data.stream_320 ? data.stream_320 : data.stream_128 ? data.stream_128 : data.stream_hls.replace('playlist.m3u8', '96/playlist.m3u8');
       url = data.mp3file ? data.mp3file : data.aacfile;
-      format = data.
       html.find('.radio-player__name').text(data.title);
       html.toggleClass('hide', false);
       play();
