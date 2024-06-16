@@ -217,7 +217,7 @@
   }
 
   function random_item(items) {
-    return items[Math.floor(Math.random()*items.length)];   
+    return items[Math.floor(Math.random() * items.length)];
   }
 
   function component() {
@@ -389,7 +389,11 @@
     };
     this.play = function (data) {
       stop();
-      url = random_item(data.stream.urls.value) // data.mp3file ? data.mp3file : data.aacfile;
+      //url = data.mp3file ? data.mp3file : data.aacfile;
+      Promise.resolve(data.stream.urls).then(value => {
+        url = random_item(value);
+        console.log('SomaFM', 'URL:', url)
+      })
       console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
       html.find('.somafm-player__name').text(data.title);
       html.toggleClass('hide', false);
