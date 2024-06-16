@@ -362,6 +362,7 @@
       if (playPromise !== undefined) {
         playPromise.then(function () {
           console.log('SomaFM', 'start playing');
+          html.toggleClass('loading', false);
         })["catch"](function (e) {
           console.log('SomaFM', 'play promise error:', e.message);
         });
@@ -398,7 +399,6 @@
       //console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
       html.find('.somafm-player__name').text(data.title);
       html.toggleClass('hide', false);
-      html.toggleClass('loading', true);
       play();
     };
   }
