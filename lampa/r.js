@@ -88,10 +88,12 @@
     if (Array.isArray(channels)) {
 
       for (let c of channels) {
+        const streamHighestQuality = getHighestQualityStream(c, PREFERRED_STREAMS);
+
         if (!Array.isArray(c.playlists)) continue;
 
         c.urls = getStreamUrls(c);
-        c.stream = getHighestQualityStream(c, PREFERRED_STREAMS);
+        c.stream = streamHighestQuality;
         c.plsfile = 'https://api.somafm.com/' + c.id + '.pls';
         // c.mp3file = 'https://ice1.somafm.com/' + c.id + '-128-mp3';
         // c.aacfile = 'https://ice1.somafm.com/' + c.id + '-128-aac';
