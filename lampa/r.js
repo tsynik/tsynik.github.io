@@ -402,6 +402,7 @@
       let b = document.getElementById("somafm_player_button");
       if (b) {
         b.style.backgroundImage = "url('" + data.image + "')";
+        b.style.backgroundSize = "cover";
         b.style.borderRadius = "0.2em";
       }
       play();
