@@ -177,7 +177,7 @@
         try {
           //const data = ini.decode(response.body);            
           const data = parseINIString(response);
-          console.log(data);
+          console.log('SomaFM', "getUrlsFromPlaylist data:", data);
           const result = [];
           for (const key of Object.keys(data.playlist)
             .filter(x => x.match(/^File\d+$/))) {
@@ -185,7 +185,7 @@
           }
           resolve(result);
         } catch (error) {
-          console.log(error);
+          console.log('SomaFM', error);
           reject(error);
         }
       }, () => {
@@ -385,8 +385,8 @@
     };
     this.play = function (data) {
       stop();
-      url = data.stream // data.mp3file ? data.mp3file : data.aacfile;
-      console.log('SomaFM', 'channel:', data.id, 'url:', data.stream);
+      url = data.stream.url // data.mp3file ? data.mp3file : data.aacfile;
+      console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream);
       html.find('.somafm-player__name').text(data.title);
       html.toggleClass('hide', false);
       play();
