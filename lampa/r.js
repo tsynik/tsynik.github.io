@@ -326,7 +326,7 @@
     var hls;
     audio.addEventListener("play", function (event) {
       played = true;
-      html.toggleClass('loading', false);
+      //html.toggleClass('loading', false);
     });
     function prepare() {
       if (audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
