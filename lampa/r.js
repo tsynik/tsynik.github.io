@@ -171,6 +171,7 @@
   function getUrlsFromPlaylist(playlistUrl) {
     return new Promise((resolve, reject) => {
       //const response = await got(playlistUrl);
+      var network = new Lampa.Reguest();
       network.native(playlistUrl, (response) => {
         try {
           //const data = ini.decode(response.body);            
