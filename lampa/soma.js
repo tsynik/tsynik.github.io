@@ -2,12 +2,30 @@
 // https://somafm.com/channels.xml
 // https://somafm.com/channels.json
 // https://github.com/rainner/soma-fm-player
+// https://codeberg.org/cuschk/somafm
+
 (function () {
   'use strict';
 
-  var api_url = 'https://somafm.com/channels.json';
-  var genres_url = 'https://tsynik.github.io/lampa/genres.json';
-  var logo = '<svg enable-background="new 0 0 284 80.7" viewBox="0 0 284 80.7" xmlns="http://www.w3.org/2000/svg"><g fill="#ed1f24"><path d="m-474.8-759.5h14.7c2.3 0 4.3.7 6.1 2 1.8 1.4 2.6 2.7 2.6 4 0 .9-.3 1.7-1 2.3-.6.6-1.4.9-2.1.9-1 0-1.9-.5-2.8-1.4-.8-.9-1.7-1.4-2.6-1.4h-14.4c-1.4 0-2.1.6-2.1 1.7 0 .8.5 1.4 1.4 1.8l17 7.6c1.7.8 3.1 2 4.2 3.7s1.7 3.6 1.7 5.6c0 2.7-1 5.1-2.9 7s-4.1 2.9-6.6 2.9h-13c-2.2 0-4.3-.7-6.2-2-1.9-1.4-2.9-2.7-2.9-3.9 0-.8.3-1.6.9-2.2.6-.7 1.4-1 2.4-1 .8 0 1.7.5 2.6 1.4s2.3 1.4 4 1.4h11.9c.9 0 1.7-.4 2.4-1.1.6-.7 1-1.6 1-2.5 0-1.4-.7-2.5-2.1-3.1l-17.2-7.7c-1.7-.7-2.9-1.8-3.8-3.2s-1.3-2.8-1.3-4.3c0-2.3.8-4.3 2.4-6 1.4-1.6 3.4-2.5 5.7-2.5" transform="translate(509.62346 785.52008)"/><path d="m-474.8-752.4c-2.7-2.4-5.5-3.6-8.4-3.6h-7.5c-3.1 0-5.9 1.2-8.5 3.7s-3.9 5.1-3.9 7.9v13.5c0 2.8 1.3 5.4 4 7.9s5.5 3.7 8.4 3.7h7.5c2.9 0 5.7-1.2 8.4-3.7 2.7-2.4 4.1-5.1 4.1-8v-13.5c0-2.7-1.4-5.4-4.1-7.9m-20.6 5.8 2.2-1.9c.8-.7 1.9-1 3.3-1h6.6c1 0 1.9.3 2.7 1l2.2 1.8c.8.6 1.2 1.5 1.2 2.8v12.9c0 1.1-.4 1.9-1.2 2.6l-1.9 1.7c-.9.8-1.9 1.2-3 1.2h-7.4c-1 0-1.7-.2-2.2-.7l-2.4-2.1c-.8-.7-1.3-1.6-1.3-2.8v-12.9c.1-1.1.5-2 1.2-2.6" transform="translate(564.37836 781.97068)"/><path d="m-474.8-692.2v-30.4c0-.9.3-1.6.9-2.3.6-.6 1.4-.9 2.3-.9 1.7 0 2.7.8 3.2 2.5 1.8-1.7 3.7-2.5 5.9-2.5 2.6 0 4.7 1.1 6.3 3.3 2-2.2 4.3-3.3 6.7-3.3 2 0 3.7.7 5.1 2.1 1.5 1.4 2.2 3.2 2.3 5.4l1 26.1c0 .9-.3 1.6-1 2.2-.6.6-1.4.9-2.3.9s-1.7-.3-2.3-.9-1-1.4-1-2.2l-.8-25c-.1-1.4-.5-2.1-1.3-2.1-.4 0-.9.2-1.3.6l-3.8 3.2v23.4c0 .9-.3 1.6-.9 2.2s-1.4.9-2.3.9-1.6-.3-2.3-.9c-.6-.6-1-1.4-1-2.3v-25.4c0-1.1-.5-1.6-1.4-1.6-.5 0-.9.2-1.2.5l-4.6 3.9v22.7c0 .9-.3 1.6-.9 2.2s-1.4.9-2.2.9c-.9 0-1.7-.3-2.3-1-.4-.6-.8-1.4-.8-2.2" transform="translate(573.79246 751.91648)"/><path d="m-474.8-726.3c-1.9 1.9-2.9 4.2-2.9 6.8v3.7c0 2.7.9 5 2.8 6.9s4.2 2.8 6.9 2.8h10.8l5.4-3.2c0 .9.3 1.7 1 2.3.6.6 1.4.9 2.3.9s1.6-.3 2.3-.9c.6-.6 1-1.4 1-2.3l-.8-24c-.1-2.7-1.1-5-2.9-6.8-1.9-1.9-4.1-2.8-6.8-2.8h-12.2c-.9 0-1.7.3-2.3.9s-.9 1.4-.9 2.3.3 1.6 1 2.3c.6.6 1.4 1 2.3 1h12.2c.9 0 1.7.3 2.3.9s.9 1.4.9 2.3l.1 4.5c-1.3-.3-2.3-.4-3-.4h-12.6c-2.7 0-5 .9-6.9 2.8m15.9 13.6h-9c-.9 0-1.6-.3-2.3-.9-.6-.6-1-1.4-1-2.2v-3.5c0-.9.3-1.6.9-2.2s1.4-.9 2.3-.9h12.6c.9 0 1.6.3 2.2.9s.9 1.3 1 2.2l.2 2.6z" transform="translate(614.65666 768.93358)"/><path d="m-474.8-746.6v27.2c0 .9-.3 1.6-1 2.3-.6.6-1.4.9-2.3.9s-1.7-.3-2.3-.9-1-1.4-1-2.3v-27.2h-3.3c-.9 0-1.6-.3-2.2-1-.6-.6-.9-1.4-.9-2.3 0-.8.3-1.6.8-2.2.6-.7 1.3-1 2.3-1h3.3v-2.5c0-3.3 1.1-6 3.4-8.1 2.3-2.2 5.1-3.2 8.5-3.2h7.5c.9 0 1.7.3 2.3 1 .6.6.9 1.4.9 2.3s-.3 1.6-1 2.3c-.6.6-1.4 1-2.3 1h-7.5c-1.5 0-2.8.5-3.8 1.4s-1.5 2.1-1.5 3.5v2.5h6.4c.9 0 1.6.3 2.3.9.6.6 1 1.4 1 2.3s-.3 1.6-.9 2.3c-.6.6-1.4 1-2.2 1h-6.5z" transform="translate(680.67526 779.08838)"/><path d="m-474.8-692.2v-30.4c0-.9.3-1.6.9-2.3.6-.6 1.4-.9 2.3-.9 1.7 0 2.7.8 3.2 2.5 1.8-1.7 3.7-2.5 5.9-2.5 2.6 0 4.7 1.1 6.3 3.3 2-2.2 4.3-3.3 6.7-3.3 2 0 3.7.7 5.1 2.1 1.5 1.4 2.2 3.2 2.3 5.4l1 26.1c0 .9-.3 1.6-1 2.2-.6.6-1.4.9-2.3.9s-1.7-.3-2.3-.9-1-1.4-1-2.2l-.8-25c-.1-1.4-.5-2.1-1.3-2.1-.4 0-.9.2-1.3.6l-3.8 3.2v23.4c0 .9-.3 1.6-.9 2.2s-1.4.9-2.3.9-1.6-.3-2.3-.9c-.6-.6-1-1.4-1-2.3v-25.4c0-1.1-.5-1.6-1.4-1.6-.5 0-.9.2-1.2.5l-4.6 3.9v22.7c0 .9-.3 1.6-.9 2.2s-1.4.9-2.2.9c-.9 0-1.7-.3-2.3-1-.4-.6-.8-1.4-.8-2.2" transform="translate(694.63226 751.91648)"/></g></svg>'
+  let api_url = 'https://somafm.com/channels.json';
+  let genres_url = 'https://tsynik.github.io/lampa/genres.json';
+  let img_bg = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg=='
+  let logo = '<svg enable-background="new 0 0 284 80.7" viewBox="0 0 284 80.7" xmlns="http://www.w3.org/2000/svg"><g fill="#ed1f24"><path d="m-474.8-759.5h14.7c2.3 0 4.3.7 6.1 2 1.8 1.4 2.6 2.7 2.6 4 0 .9-.3 1.7-1 2.3-.6.6-1.4.9-2.1.9-1 0-1.9-.5-2.8-1.4-.8-.9-1.7-1.4-2.6-1.4h-14.4c-1.4 0-2.1.6-2.1 1.7 0 .8.5 1.4 1.4 1.8l17 7.6c1.7.8 3.1 2 4.2 3.7s1.7 3.6 1.7 5.6c0 2.7-1 5.1-2.9 7s-4.1 2.9-6.6 2.9h-13c-2.2 0-4.3-.7-6.2-2-1.9-1.4-2.9-2.7-2.9-3.9 0-.8.3-1.6.9-2.2.6-.7 1.4-1 2.4-1 .8 0 1.7.5 2.6 1.4s2.3 1.4 4 1.4h11.9c.9 0 1.7-.4 2.4-1.1.6-.7 1-1.6 1-2.5 0-1.4-.7-2.5-2.1-3.1l-17.2-7.7c-1.7-.7-2.9-1.8-3.8-3.2s-1.3-2.8-1.3-4.3c0-2.3.8-4.3 2.4-6 1.4-1.6 3.4-2.5 5.7-2.5" transform="translate(509.62346 785.52008)"/><path d="m-474.8-752.4c-2.7-2.4-5.5-3.6-8.4-3.6h-7.5c-3.1 0-5.9 1.2-8.5 3.7s-3.9 5.1-3.9 7.9v13.5c0 2.8 1.3 5.4 4 7.9s5.5 3.7 8.4 3.7h7.5c2.9 0 5.7-1.2 8.4-3.7 2.7-2.4 4.1-5.1 4.1-8v-13.5c0-2.7-1.4-5.4-4.1-7.9m-20.6 5.8 2.2-1.9c.8-.7 1.9-1 3.3-1h6.6c1 0 1.9.3 2.7 1l2.2 1.8c.8.6 1.2 1.5 1.2 2.8v12.9c0 1.1-.4 1.9-1.2 2.6l-1.9 1.7c-.9.8-1.9 1.2-3 1.2h-7.4c-1 0-1.7-.2-2.2-.7l-2.4-2.1c-.8-.7-1.3-1.6-1.3-2.8v-12.9c.1-1.1.5-2 1.2-2.6" transform="translate(564.37836 781.97068)"/><path d="m-474.8-692.2v-30.4c0-.9.3-1.6.9-2.3.6-.6 1.4-.9 2.3-.9 1.7 0 2.7.8 3.2 2.5 1.8-1.7 3.7-2.5 5.9-2.5 2.6 0 4.7 1.1 6.3 3.3 2-2.2 4.3-3.3 6.7-3.3 2 0 3.7.7 5.1 2.1 1.5 1.4 2.2 3.2 2.3 5.4l1 26.1c0 .9-.3 1.6-1 2.2-.6.6-1.4.9-2.3.9s-1.7-.3-2.3-.9-1-1.4-1-2.2l-.8-25c-.1-1.4-.5-2.1-1.3-2.1-.4 0-.9.2-1.3.6l-3.8 3.2v23.4c0 .9-.3 1.6-.9 2.2s-1.4.9-2.3.9-1.6-.3-2.3-.9c-.6-.6-1-1.4-1-2.3v-25.4c0-1.1-.5-1.6-1.4-1.6-.5 0-.9.2-1.2.5l-4.6 3.9v22.7c0 .9-.3 1.6-.9 2.2s-1.4.9-2.2.9c-.9 0-1.7-.3-2.3-1-.4-.6-.8-1.4-.8-2.2" transform="translate(573.79246 751.91648)"/><path d="m-474.8-726.3c-1.9 1.9-2.9 4.2-2.9 6.8v3.7c0 2.7.9 5 2.8 6.9s4.2 2.8 6.9 2.8h10.8l5.4-3.2c0 .9.3 1.7 1 2.3.6.6 1.4.9 2.3.9s1.6-.3 2.3-.9c.6-.6 1-1.4 1-2.3l-.8-24c-.1-2.7-1.1-5-2.9-6.8-1.9-1.9-4.1-2.8-6.8-2.8h-12.2c-.9 0-1.7.3-2.3.9s-.9 1.4-.9 2.3.3 1.6 1 2.3c.6.6 1.4 1 2.3 1h12.2c.9 0 1.7.3 2.3.9s.9 1.4.9 2.3l.1 4.5c-1.3-.3-2.3-.4-3-.4h-12.6c-2.7 0-5 .9-6.9 2.8m15.9 13.6h-9c-.9 0-1.6-.3-2.3-.9-.6-.6-1-1.4-1-2.2v-3.5c0-.9.3-1.6.9-2.2s1.4-.9 2.3-.9h12.6c.9 0 1.6.3 2.2.9s.9 1.3 1 2.2l.2 2.6z" transform="translate(614.65666 768.93358)"/><path d="m-474.8-746.6v27.2c0 .9-.3 1.6-1 2.3-.6.6-1.4.9-2.3.9s-1.7-.3-2.3-.9-1-1.4-1-2.3v-27.2h-3.3c-.9 0-1.6-.3-2.2-1-.6-.6-.9-1.4-.9-2.3 0-.8.3-1.6.8-2.2.6-.7 1.3-1 2.3-1h3.3v-2.5c0-3.3 1.1-6 3.4-8.1 2.3-2.2 5.1-3.2 8.5-3.2h7.5c.9 0 1.7.3 2.3 1 .6.6.9 1.4.9 2.3s-.3 1.6-1 2.3c-.6.6-1.4 1-2.3 1h-7.5c-1.5 0-2.8.5-3.8 1.4s-1.5 2.1-1.5 3.5v2.5h6.4c.9 0 1.6.3 2.3.9.6.6 1 1.4 1 2.3s-.3 1.6-.9 2.3c-.6.6-1.4 1-2.2 1h-6.5z" transform="translate(680.67526 779.08838)"/><path d="m-474.8-692.2v-30.4c0-.9.3-1.6.9-2.3.6-.6 1.4-.9 2.3-.9 1.7 0 2.7.8 3.2 2.5 1.8-1.7 3.7-2.5 5.9-2.5 2.6 0 4.7 1.1 6.3 3.3 2-2.2 4.3-3.3 6.7-3.3 2 0 3.7.7 5.1 2.1 1.5 1.4 2.2 3.2 2.3 5.4l1 26.1c0 .9-.3 1.6-1 2.2-.6.6-1.4.9-2.3.9s-1.7-.3-2.3-.9-1-1.4-1-2.2l-.8-25c-.1-1.4-.5-2.1-1.3-2.1-.4 0-.9.2-1.3.6l-3.8 3.2v23.4c0 .9-.3 1.6-.9 2.2s-1.4.9-2.3.9-1.6-.3-2.3-.9c-.6-.6-1-1.4-1-2.3v-25.4c0-1.1-.5-1.6-1.4-1.6-.5 0-.9.2-1.2.5l-4.6 3.9v22.7c0 .9-.3 1.6-.9 2.2s-1.4.9-2.2.9c-.9 0-1.7-.3-2.3-1-.4-.6-.8-1.4-.8-2.2" transform="translate(694.63226 751.91648)"/></g></svg>'
+
+  const PREFERRED_STREAMS = [
+    // 320k MP3
+    { urlRegex: /320\.pls$/, format: 'mp3' },
+    // 256k MP3
+    { urlRegex: /256\.pls$/, format: 'mp3' },
+    // 128k AAC
+    { quality: 'highest', format: 'aac' },
+    // 128k MP3
+    { quality: 'highest', format: 'mp3' },
+    // 64k AAC
+    { quality: 'high', format: 'aacp' },
+    // 32k AAC
+    { quality: 'low', format: 'aacp' },
+  ];
 
   Lampa.Lang.add({
     somafm_title: {
@@ -32,15 +50,54 @@
     }
   });
 
+  // parse pls
+  function parseINIString(data) {
+    var regex = {
+      section: /^\s*\[\s*([^\]]*)\s*\]\s*$/,
+      param: /^\s*([^=]+?)\s*=\s*(.*?)\s*$/,
+      comment: /^\s*;.*$/
+    };
+    var value = {};
+    var lines = data.split(/[\r\n]+/);
+    var section = null;
+    lines.forEach(function (line) {
+      if (regex.comment.test(line)) {
+        return;
+      } else if (regex.param.test(line)) {
+        var match = line.match(regex.param);
+        if (section) {
+          value[section][match[1]] = match[2];
+        } else {
+          value[match[1]] = match[2];
+        }
+      } else if (regex.section.test(line)) {
+        var match = line.match(regex.section);
+        value[match[1]] = {};
+        section = match[1];
+      } else if (line.length == 0 && section) {
+        section = null;
+      };
+    });
+    return value;
+  }
+
   // parse channels list from api response
   function parseChannels(channels) {
     let output = [];
+
+
     if (Array.isArray(channels)) {
+
       for (let c of channels) {
+        const streamHighestQuality = getHighestQualityStream(c, PREFERRED_STREAMS);
+
         if (!Array.isArray(c.playlists)) continue;
+
+        c.stream = streamHighestQuality;
+        c.stream.urls = getStreamUrls(c);
         c.plsfile = 'https://api.somafm.com/' + c.id + '.pls';
-        c.mp3file = 'https://ice1.somafm.com/' + c.id + '-128-mp3';
-        c.aacfile = 'https://ice1.somafm.com/' + c.id + '-128-aac';
+        // c.mp3file = 'https://ice1.somafm.com/' + c.id + '-128-mp3';
+        // c.aacfile = 'https://ice1.somafm.com/' + c.id + '-128-aac';
         c.songsurl = 'https://somafm.com/songs/' + c.id + '.json';
         c.infourl = 'https://somafm.com/' + c.id + '/';
         c.twitter = c.twitter ? 'https://twitter.com/@' + c.twitter : '';
@@ -49,11 +106,94 @@
         c.updated = c.updated | 0;
         c.favorite = false;
         c.active = false;
+        c.genre = c.genre.replace(/\|/g, ' • ') // '/'
         output.push(c);
       }
     }
     return output;
   }
+
+  function getHighestQualityStream(channel, streams) {
+    for (const stream of streams) {
+      for (const playlist of channel.playlists) {
+        if (
+          (!stream.urlRegex || stream.urlRegex.test(playlist.url))
+          && (!stream.quality || playlist.quality === stream.quality)
+          && (!stream.format || playlist.format === stream.format)
+        ) {
+          return {
+            url: playlist.url,
+            format: playlist.format,
+            quality: playlist.quality
+          };
+        }
+      }
+    }
+    return null;
+  }
+
+
+  function getChannelById(id, channels) {
+    return new Promise((resolve, reject) => {
+      if (id === 'random') {
+        resolve(channels[
+          Math.floor(channels.length * Math.random())
+        ]);
+      }
+
+      for (const channel of channels) {
+        if (id === channel.id) {
+          resolve(channel);
+        }
+      }
+
+      reject(new Error('Channel not found.'));
+    });
+  }
+
+  function getStreamUrls(channel) {
+    if (channel.stream.urls) {
+      return Promise.resolve(channel.stream.urls);
+    }
+
+    return getUrlsFromPlaylist(channel.stream.url);
+  }
+
+  function list() {
+    return new Promise((resolve, reject) => {
+      this.network.native(this.api_url, (result) => {
+        Lampa.Cache.rewriteData('other', 'somafm_list', result).finally(resolve.bind(resolve, result))
+      }, () => {
+        Lampa.Cache.getData('other', 'somafm_list').then(resolve).catch(reject)
+      })
+    })
+  }
+
+  function getUrlsFromPlaylist(playlistUrl) {
+    return new Promise((resolve, reject) => {
+      //const response = await got(playlistUrl);
+      let network = new Lampa.Reguest();
+      network.timeout(5000)
+      network.native(playlistUrl, (response) => {
+        try {
+          //const data = ini.decode(response.body);            
+          const data = parseINIString(response);
+          //console.log('SomaFM', "getUrlsFromPlaylist data:", data);
+          const result = [];
+          for (const key of Object.keys(data.playlist)
+            .filter(x => x.match(/^File\d+$/))) {
+            result.push(data.playlist[key]);
+          }
+          resolve(result);
+        } catch (error) {
+          console.log('SomaFM', error);
+          reject(error);
+        }
+      }, () => {
+      }, false, { dataType: 'text' })
+    });
+  }
+
 
   function item(data) {
     var item = Lampa.Template.get('somafm_item', {
@@ -75,6 +215,10 @@
       img.src = '';
       item.remove();
     };
+  }
+
+  function random_item(items) {
+    return items[Math.floor(Math.random() * items.length)];
   }
 
   function component() {
@@ -132,7 +276,7 @@
       Lampa.Activity.backward();
     };
     this.background = function () {
-      Lampa.Background.immediately('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAADUlEQVR42gECAP3/AAAAAgABUyucMAAAAABJRU5ErkJggg==');
+      Lampa.Background.immediately(img_bg);
     };
     this.start = function () {
       if (Lampa.Activity.active().activity !== this.activity) return;
@@ -246,7 +390,12 @@
     };
     this.play = function (data) {
       stop();
-      url = data.mp3file ? data.mp3file : data.aacfile;
+      //url = data.mp3file ? data.mp3file : data.aacfile;
+      Promise.resolve(data.stream.urls).then(value => {
+        url = random_item(value);
+        console.log('SomaFM', 'Play URL:', url)
+      })
+      //console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
       html.find('.somafm-player__name').text(data.title);
       html.toggleClass('hide', false);
       play();

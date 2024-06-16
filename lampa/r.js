@@ -2,7 +2,8 @@
 // https://somafm.com/channels.xml
 // https://somafm.com/channels.json
 // https://github.com/rainner/soma-fm-player
-// https://codeberg.org/cuschk/somafm/src/branch/main/index.js
+// https://codeberg.org/cuschk/somafm
+
 (function () {
   'use strict';
 
@@ -177,7 +178,7 @@
         try {
           //const data = ini.decode(response.body);            
           const data = parseINIString(response);
-          console.log('SomaFM', "getUrlsFromPlaylist data:", data);
+          //console.log('SomaFM', "getUrlsFromPlaylist data:", data);
           const result = [];
           for (const key of Object.keys(data.playlist)
             .filter(x => x.match(/^File\d+$/))) {
@@ -392,9 +393,9 @@
       //url = data.mp3file ? data.mp3file : data.aacfile;
       Promise.resolve(data.stream.urls).then(value => {
         url = random_item(value);
-        console.log('SomaFM', 'URL:', url)
+        console.log('SomaFM', 'Play URL:', url)
       })
-      console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
+      //console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
       html.find('.somafm-player__name').text(data.title);
       html.toggleClass('hide', false);
       play();
