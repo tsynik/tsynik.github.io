@@ -1,0 +1,199 @@
+{
+    "result": {
+        "genre": [
+            {
+                "id": 1,
+                "name": "70s",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 2,
+                "name": "alternative",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 3,
+                "name": "ambient",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 4,
+                "name": "americana",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 5,
+                "name": "bossanova",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 6,
+                "name": "celtic",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 7,
+                "name": "chill",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 8,
+                "name": "eclectic",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 9,
+                "name": "electronic",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 10,
+                "name": "folk",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 11,
+                "name": "hiphop",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 12,
+                "name": "industrial",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 13,
+                "name": "jazz",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 14,
+                "name": "lounge",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 15,
+                "name": "metal",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 16,
+                "name": "news",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 17,
+                "name": "oldies",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 18,
+                "name": "pop",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 19,
+                "name": "reggae",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+
+            {
+                "id": 20,
+                "name": "rock",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 21,
+                "name": "specials",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 22,
+                "name": "spoken",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 23,
+                "name": "tiki",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            },
+            {
+                "id": 24,
+                "name": "world",
+                "detail_picture": null,
+                "picture": null,
+                "svg": null,
+                "description": null
+            }
+        ]
+    }
+}
