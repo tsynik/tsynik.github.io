@@ -92,8 +92,8 @@
 
         if (!Array.isArray(c.playlists)) continue;
 
-        c.urls = getStreamUrls(c);
         c.stream = streamHighestQuality;
+        c.urls = getStreamUrls(c);
         c.plsfile = 'https://api.somafm.com/' + c.id + '.pls';
         // c.mp3file = 'https://ice1.somafm.com/' + c.id + '-128-mp3';
         // c.aacfile = 'https://ice1.somafm.com/' + c.id + '-128-aac';
