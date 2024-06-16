@@ -336,6 +336,7 @@
     this.play = function (data) {
       stop();
       url = data.stream // data.mp3file ? data.mp3file : data.aacfile;
+      console.log('SomaFM', 'channel:', data.id, 'url:', data.stream);
       html.find('.somafm-player__name').text(data.title);
       html.toggleClass('hide', false);
       play();
