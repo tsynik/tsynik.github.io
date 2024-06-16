@@ -93,7 +93,7 @@
         if (!Array.isArray(c.playlists)) continue;
 
         c.stream = streamHighestQuality;
-        c.urls = getStreamUrls(c);
+        c.stream.urls = getStreamUrls(c);
         c.plsfile = 'https://api.somafm.com/' + c.id + '.pls';
         // c.mp3file = 'https://ice1.somafm.com/' + c.id + '-128-mp3';
         // c.aacfile = 'https://ice1.somafm.com/' + c.id + '-128-aac';
@@ -214,6 +214,10 @@
       img.src = '';
       item.remove();
     };
+  }
+
+  function random_item(items) {
+    return items[Math.floor(Math.random()*items.length)];   
   }
 
   function component() {
@@ -385,8 +389,8 @@
     };
     this.play = function (data) {
       stop();
-      url = data.stream.url // data.mp3file ? data.mp3file : data.aacfile;
-      console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream);
+      url = random_item(data.stream.urls) // data.mp3file ? data.mp3file : data.aacfile;
+      console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
       html.find('.somafm-player__name').text(data.title);
       html.toggleClass('hide', false);
       play();
