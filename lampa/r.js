@@ -384,7 +384,7 @@
     };
     this.play = function (data) {
       stop();
-      url = data.aacfile? data.aacfile : data.mp3file;
+      url = data.aacfile ? data.aacfile : data.mp3file;
       // Promise.resolve(data.stream.urls).then(value => {
       //   url = random_item(value);
       //   console.log('SomaFM', 'Play URL:', url)
@@ -392,11 +392,13 @@
       // console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
       html.find('.somafm-player__name').text(data.title);
       html.toggleClass('hide', false);
-      let btn = html.find('.somafm-player__button')[0];
+      let btn = html.find('.somafm-player__button');
       if (btn) {
-        btn.style.backgroundImage = "url('" + data.image + "')";
-        btn.style.backgroundSize = "cover";
-        btn.style.borderRadius = "0.2em";
+        btn.css({
+          "background-image": "url('" + data.image + "')",
+          "background-size": "cover",
+          "border-radius": "0.2em"
+        });
       }
       play();
     };
