@@ -91,8 +91,8 @@
         // channel.stream = streamHighestQuality;
         // channel.stream.urls = getStreamUrls(channel);
         channel.plsfile = 'https://api.somafm.com/' + channel.id + '.pls';
-        channel.mp3file = 'https://ice1.somafm.com/' + c.id + '-128-mp3';
-        channel.aacfile = 'https://ice1.somafm.com/' + c.id + '-128-aac';
+        channel.mp3file = 'https://ice1.somafm.com/' + channel.id + '-128-mp3';
+        channel.aacfile = 'https://ice1.somafm.com/' + channel.id + '-128-aac';
         channel.songsurl = 'https://somafm.com/songs/' + channel.id + '.json';
         channel.infourl = 'https://somafm.com/' + channel.id + '/';
         channel.twitter = channel.twitter ? 'https://twitter.com/@' + channel.twitter : '';
