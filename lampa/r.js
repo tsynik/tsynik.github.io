@@ -295,6 +295,7 @@
     let format = '';
     let played = false;
     let hls;
+    let screenreset;
 
     function prepare() {
       if (audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
@@ -346,6 +347,7 @@
     }
 
     function stop() {
+      clearInterval(screenreset);
       played = false;
       html.toggleClass('stop', true);
       html.toggleClass('loading', false);
@@ -357,8 +359,19 @@
     }
 
     audio.addEventListener("play", function (event) {
+      console.log('SomaFM', 'got play event');
+      screenreset = setInterval(function () {
+        Lampa.Screensaver.resetTimer();
+      }, 5000);
       played = true;
     });
+    audio.addEventListener("playing", function (event) {
+      console.log('SomaFM', 'got playing event');
+    });
+    audio.addEventListener("waiting", function (event) {
+      console.log('SomaFM', 'got waiting event');
+    });
+
     // handle player button click
     html.on('hover:enter', function () {
       if (played) stop(); else if (url) play();
