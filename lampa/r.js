@@ -319,14 +319,6 @@
     let format = '';
     let played = false;
     let hls;
-    
-    audio.addEventListener("play", function (event) {
-      played = true;
-    });
-    // handle player button click
-    html.on('hover:enter', function () {
-      if (played) stop(); else if (url) play();
-    });
 
     function prepare() {
       if (audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
@@ -388,6 +380,14 @@
       audio.src = '';
     }
 
+    audio.addEventListener("play", function (event) {
+      played = true;
+    });
+    // handle player button click
+    html.on('hover:enter', function () {
+      if (played) stop(); else if (url) play();
+    });
+
     this.create = function () {
       $('.head__actions .open--search').before(html);
     };
@@ -397,7 +397,6 @@
       // url = data.aacfile ? data.aacfile : data.mp3file;
       Promise.resolve(data.stream.urls).then(value => {
         url = random_item(value);
-        // console.log('SomaFM', 'Play URL:', url)
         play();
       })
       // console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
