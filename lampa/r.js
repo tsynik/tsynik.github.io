@@ -407,7 +407,6 @@
           "border-radius": "0.2em"
         })
       }
-    }
       play();
     };
   }
