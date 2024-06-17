@@ -323,9 +323,8 @@
     audio.addEventListener("play", function (event) {
       played = true;
     });
-
+    // handle player button click
     html.on('hover:enter', function () {
-      console.log('SomaFM', 'Handle on hover:enter, played ', played, ' url ', url);
       if (played) stop(); else if (url) play();
     });
 
@@ -398,7 +397,7 @@
       // url = data.aacfile ? data.aacfile : data.mp3file;
       Promise.resolve(data.stream.urls).then(value => {
         url = random_item(value);
-        console.log('SomaFM', 'Play URL:', url)
+        // console.log('SomaFM', 'Play URL:', url)
         play();
       })
       // console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
