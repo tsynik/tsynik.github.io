@@ -87,12 +87,12 @@
     if (Array.isArray(channels)) {
       for (let channel of channels) {
         if (!Array.isArray(channel.playlists)) continue;
-        const streamHighestQuality = getHighestQualityStream(channel, PREFERRED_STREAMS);
-        channel.stream = streamHighestQuality;
-        channel.stream.urls = getStreamUrls(channel);
+        // const streamHighestQuality = getHighestQualityStream(channel, PREFERRED_STREAMS);
+        // channel.stream = streamHighestQuality;
+        // channel.stream.urls = getStreamUrls(channel);
         channel.plsfile = 'https://api.somafm.com/' + channel.id + '.pls';
-        // channel.mp3file = 'https://ice1.somafm.com/' + c.id + '-128-mp3';
-        // channel.aacfile = 'https://ice1.somafm.com/' + c.id + '-128-aac';
+        channel.mp3file = 'https://ice1.somafm.com/' + c.id + '-128-mp3';
+        channel.aacfile = 'https://ice1.somafm.com/' + c.id + '-128-aac';
         channel.songsurl = 'https://somafm.com/songs/' + channel.id + '.json';
         channel.infourl = 'https://somafm.com/' + channel.id + '/';
         channel.twitter = channel.twitter ? 'https://twitter.com/@' + channel.twitter : '';
@@ -320,7 +320,6 @@
     var hls;
     audio.addEventListener("play", function (event) {
       played = true;
-      //html.toggleClass('loading', false);
     });
     function prepare() {
       if (audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
@@ -385,12 +384,12 @@
     };
     this.play = function (data) {
       stop();
-      //url = data.mp3file ? data.mp3file : data.aacfile;
-      Promise.resolve(data.stream.urls).then(value => {
-        url = random_item(value);
-        console.log('SomaFM', 'Play URL:', url)
-      })
-      //console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
+      url = data.aacfile? data.aacfile : data.mp3file;
+      // Promise.resolve(data.stream.urls).then(value => {
+      //   url = random_item(value);
+      //   console.log('SomaFM', 'Play URL:', url)
+      // })
+      // console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
       html.find('.somafm-player__name').text(data.title);
       html.toggleClass('hide', false);
       let btn = html.find('.somafm-player__button')[0];
