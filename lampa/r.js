@@ -87,12 +87,12 @@
     if (Array.isArray(channels)) {
       for (let channel of channels) {
         if (!Array.isArray(channel.playlists)) continue;
-        // const streamHighestQuality = getHighestQualityStream(channel, PREFERRED_STREAMS);
-        // channel.stream = streamHighestQuality;
-        // channel.stream.urls = getStreamUrls(channel);
+        const streamHighestQuality = getHighestQualityStream(channel, PREFERRED_STREAMS);
+        channel.stream = streamHighestQuality;
+        channel.stream.urls = getStreamUrls(channel);
         channel.plsfile = 'https://api.somafm.com/' + channel.id + '.pls';
-        channel.mp3file = 'https://ice1.somafm.com/' + channel.id + '-128-mp3';
-        channel.aacfile = 'https://ice1.somafm.com/' + channel.id + '-128-aac';
+        // channel.mp3file = 'https://ice1.somafm.com/' + channel.id + '-128-mp3';
+        // channel.aacfile = 'https://ice1.somafm.com/' + channel.id + '-128-aac';
         channel.songsurl = 'https://somafm.com/songs/' + channel.id + '.json';
         channel.infourl = 'https://somafm.com/' + channel.id + '/';
         channel.twitter = channel.twitter ? 'https://twitter.com/@' + channel.twitter : '';
@@ -384,11 +384,11 @@
     };
     this.play = function (data) {
       stop();
-      url = data.aacfile ? data.aacfile : data.mp3file;
-      // Promise.resolve(data.stream.urls).then(value => {
-      //   url = random_item(value);
-      //   console.log('SomaFM', 'Play URL:', url)
-      // })
+      // url = data.aacfile ? data.aacfile : data.mp3file;
+      Promise.resolve(data.stream.urls).then(value => {
+        url = random_item(value);
+        console.log('SomaFM', 'Play URL:', url)
+      })
       // console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
       html.find('.somafm-player__name').text(data.title);
       html.toggleClass('hide', false);
