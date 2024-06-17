@@ -392,7 +392,7 @@
         url = random_item(value);
         play();
       })
-      // console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
+      // setup player button
       html.find('.somafm-player__name').text(data.title);
       html.toggleClass('hide', false);
       let btn = html.find('.somafm-player__button');
