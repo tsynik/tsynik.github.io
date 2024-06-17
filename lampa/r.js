@@ -399,13 +399,11 @@
       //console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
       html.find('.somafm-player__name').text(data.title);
       html.toggleClass('hide', false);
-      let btn = html.find('.somafm-player__button');
+      let btn = html.find('.somafm-player__button')[0];
       if (btn) {
-        btn.css({
-          "background-image": "url('" + data.image + "')",
-          "background-size": "cover",
-          "border-radius": "0.2em"
-        });
+        btn.style.backgroundImage = "url('" + data.image + "')";
+        btn.style.backgroundSize = "cover";
+        btn.style.borderRadius = "0.2em";
       }
       play();
     };
