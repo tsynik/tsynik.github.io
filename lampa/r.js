@@ -399,12 +399,15 @@
       //console.log('SomaFM', 'channel:', data.id, 'stream:', data.stream, "url", url);
       html.find('.somafm-player__name').text(data.title);
       html.toggleClass('hide', false);
-      let b = document.getElementById("somafm_player_button");
-      if (b) {
-        b.style.backgroundImage = "url('" + data.image + "')";
-        b.style.backgroundSize = "cover";
-        b.style.borderRadius = "0.2em";
+      let btn = html.find('.somafm-player__button');
+      if (btn) {
+        btn.css({
+          "background-image": "url('" + data.image + "')",
+          "background-size": "cover",
+          "border-radius": "0.2em"
+        })
       }
+    }
       play();
     };
   }
