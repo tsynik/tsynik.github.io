@@ -297,15 +297,16 @@
     };
   }
 
-  function Player(station) {
-    var player_html = Lampa.Template.get('somafm_player', {});
+  function Info(station) {
     var info_html = Lampa.Template.js('somafm_info');
     var audio = new Audio();
-    var url = '';
-    var format = '';
-    var played = false;
-    var hls;
-    var screenreset;
+
+    audio.addEventListener("playing", function (event) {
+      changeWave('play');
+    });
+    audio.addEventListener("waiting", function (event) {
+      changeWave('loading');
+    });
 
     function createWave() {
       var box = info_html.find('.somafm-info__wave');
@@ -325,6 +326,47 @@
         lines[i].style['animation-delay'] = (class_name == 'loading' ? Math.round(400 / lines.length * i) : 0) + 'ms';
       }
     }
+
+    this.create = function () {
+      // var cover = Lampa.Template.js('radio_cover');
+      // cover.find('.radio-cover__title').text(station.title || '');
+      // cover.find('.radio-cover__tooltip').text(station.tooltip || '');
+      // var img_box = cover.find('.radio-cover__img-box');
+      // var img_elm = img_box.find('img');
+      // img_box.removeClass('loaded loaded-icon');
+
+      // img_elm.onload = function () {
+      //   img_box.addClass('loaded');
+      // };
+
+      // img_elm.onerror = function () {
+      //   img_elm.src = './img/icons/menu/movie.svg';
+      //   img_box.addClass('loaded-icon');
+      // };
+
+      // img_elm.src = station.image;
+      // info_html.find('.somafm-info__cover').append(cover);
+      info_html.find('.somafm-info__close').on('click', function () {
+        window.history.back();
+      });
+      document.body.append(info_html);
+      createWave();
+    };
+
+    this.destroy = function () {
+      info_html.remove();
+    };
+
+}
+
+  function player() {
+    var player_html = Lampa.Template.get('somafm_player', {});
+    var audio = new Audio();
+    var url = '';
+    var format = '';
+    var played = false;
+    var hls;
+    var screenreset;
 
     function prepare() {
       if (audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
@@ -413,10 +455,7 @@
       $('.head__actions .open--search').before(player_html);
     };
 
-    this.play = function (station) {
-      var player = new Player(station);
-      player.create();
-      document.body.addClass('ambience--enable');
+    this.play = function (station) {  
       stop();
       // url = data.aacfile ? data.aacfile : data.mp3file;
       Promise.resolve(station.stream.urls).then(value => {
@@ -434,6 +473,11 @@
           "border-radius": "0.2em"
         });
       }
+      // add Info
+      var info = new Info(station);
+      info.create();
+      document.body.addClass('ambience--enable');
+      
     };
   }
 
@@ -450,8 +494,8 @@
     });
     $('.menu .menu__list').eq(0).append(menu_button);
     $('body').append(Lampa.Template.get('somafm_style', {}, true));
-    //window.somafm_player = new player();
-    //window.somafm_player.create();
+    window.somafm_player = new player();
+    window.somafm_player.create();
   }
 
   function createSomaFM() {
