@@ -349,7 +349,9 @@
       cover.find('.somafm-cover__genre').text(station.genre || '');
       cover.find('.somafm-cover__title').text(station.title || '');
       cover.find('.somafm-cover__tooltip').text(station.description || '');
-      cover.find('.somafm-cover__nowplay').text(station.track || '');
+
+      var nowplay = "Track: " + station.track.title + "Artist: " + station.track.artist + "Album:" + station.track.album;
+      cover.find('.somafm-cover__nowplay').text(nowplay || '');
 
       var img_box = cover.find('.somafm-cover__img-box');
       img_box.removeClass('loaded loaded-icon');
