@@ -398,9 +398,9 @@
       if (!channel || !channel.id || !channel.songsurl) return;
       // if ( !this.isCurrentChannel( channel ) ) { this.songs = []; this.track = {}; }
 
-      fetchSongs(channel, (err, songs) => {
-        if (err) return;
-        if (songs) {
+      fetchSongs(channel, (songs) => {
+        if (songs.size < 1) return;
+        else {
           currTrack = songs.shift();
           lastSongs = songs.slice(0, 3);
           console.log("SomaFM", "getSongs currTrack", currTrack, "songs", songs);
@@ -491,7 +491,7 @@
       if (!songsupdate) {
         songsupdate = setInterval(function () {
           if (currChannel) getSongs(currChannel);
-          console.log('SomaFM', 'currTrack', currTrack, "lastSongs", lastSongs);
+          console.log('SomaFM', 'currChannel', currChannel, 'currTrack', currTrack, "lastSongs", lastSongs);
         }, 15000);
       }
     });
