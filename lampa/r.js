@@ -1,5 +1,4 @@
 // SomaFM Radio plugin for Lampa by @tsynik
-// https://somafm.com/channels.xml
 // https://somafm.com/channels.json
 // https://github.com/rainner/soma-fm-player
 // https://codeberg.org/cuschk/somafm
@@ -79,11 +78,40 @@
         channel.updated = channel.updated | 0;
         channel.favorite = false;
         channel.active = false;
-        channel.genre = channel.genre.replace(/\|/g, ' ● ') // '/'
-        output.push(channel);
+        channel.genre = channel.genre.replace(/\|/g, ' ● '),
+          output.push(channel);
       }
     }
     return output;
+  }
+
+  // fetch songs for a channel
+  function fetchSongs(channel, callback) {
+    var apiurl = channel.songsurl || '';
+    var title = channel.title || '...';
+    var error = 'There was a problem loading the list of songs for channel ' + title + ' from SomaFM.';
+    var network = new Lampa.Reguest();
+    network.timeout(5000)
+    network.native(apiurl, (response) => {
+      try {
+        if (!response.data.songs) return callback(error, []);
+        return callback(null, response.data.songs);
+        //resolve(result);
+      } catch (e) {
+        console.log('SomaFM', error + String(e.message || ''));
+        return callback(error + String(e.message || ''), []);
+        //reject(e);
+      }
+    }, () => {
+    }, false, { dataType: 'text' })
+
+    // axios.get(apiurl).then(res => {
+    //   if (!res.data.songs) return callback(error, []);
+    //   return callback(null, res.data.songs);
+    // })
+    //   .catch(e => {
+    //     return callback(error + String(e.message || ''), []);
+    //   });
   }
 
   function getHighestQualityStream(channel, streams) {
@@ -364,16 +392,34 @@
   }
 
   function Player() {
-  
+
     var player_html = Lampa.Template.get('somafm_player', {});
 
     var url = '';
     var format = '';
+    var currChannel; // track channel for songs update
+    var currTrack = {};
+    var lastSongs = [];
     var played = false;
     var hls;
     var screenreset;
+    var songsupdate;
     var info; // = window.somafm_info;
     var showinfo = true;
+
+    // get songs list for a channel from api
+    function getSongs(channel, cb) {
+      if (!channel || !channel.id || !channel.songsurl) return;
+      // if ( !this.isCurrentChannel( channel ) ) { this.songs = []; this.track = {}; }
+
+      fetchSongs(channel, (err, songs) => {
+        if (err) return this.setError('songs', err);
+        if (typeof cb === 'function') cb(songs);
+        currTrack = songs.shift();
+        lastSongs = songs.slice(0, 3);
+        this.clearError('songs');
+      });
+    }
 
     function prepare() {
       if (audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
@@ -426,6 +472,8 @@
     function stop() {
       clearInterval(screenreset);
       screenreset = null; // release timer from the variable
+      clearInterval(songsupdate);
+      songsupdate = null; // release songs update timer
       played = false;
       player_html.toggleClass('stop', true);
       player_html.toggleClass('loading', false);
@@ -453,6 +501,12 @@
           Lampa.Screensaver.resetTimer();
         }, 5000);
       }
+      if (!songsupdate) {
+        songsupdate = setInterval(function () {
+          if (currChannel) getSongs(currChannel);
+          console.log('SomaFM', 'currTrack', currTrack, "lastSongs", lastSongs);
+        }, 30000);
+      }
     });
     audio.addEventListener("waiting", function (event) {
       // console.log('SomaFM', 'got waiting event');
@@ -471,6 +525,7 @@
       stop();
       // add info
       if (showinfo) {
+        currChannel = station;
         info = new Info(station);
         info.create();
         document.body.addClass('ambience--enable');
