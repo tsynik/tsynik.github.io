@@ -391,7 +391,7 @@
     var hls;
     var screenreset;
     var songsupdate;
-    var info = window.somafm_info;
+    var info; // = window.somafm_info;
     var showinfo = true;
 
     // get songs list for a channel from api
@@ -494,14 +494,15 @@
           if (currChannel) {
             getSongs(currChannel);
             console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currTrack);
-            if (currTrack.title)
+            if (info && currTrack.title)
               info.find('.somafm-cover__title').text(currTrack.title);
             var tooltip = [];
             if (currTrack.artist)
               tooltip.push(currTrack.artist)
             if (currTrack.album)
               tooltip.push(currTrack.album)
-            info.find('.somafm-cover__tooltip').text(tooltip.join(' ● ') || '');
+            if (info)
+              info.find('.somafm-cover__tooltip').text(tooltip.join(' ● ') || '');
             // TODO: use for lastSongs
             // cover.find('.somafm-cover__nowplay').text(nowplay || '');
           }
@@ -528,8 +529,8 @@
         currChannel = station;
         getSongs(currChannel);
         // console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currChannel.track);
-        window.somafm_info = new Info(currChannel);
-        window.somafm_info.create();
+        info = new Info(currChannel);
+        info.create();
         document.body.addClass('ambience--enable');
         Lampa.Background.change(currChannel.xlimage || IMG_BG);
         Lampa.Controller.add('content', {
