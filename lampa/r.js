@@ -94,20 +94,11 @@
     var network = new Lampa.Reguest();
     network.timeout(5000)
     network.native(apiurl, (result) => {
-      console.log('SomaFM', result);
-      var songsJson = result.songs;
-      console.log('SomaFM', 'songsJson:', songsJson);
       if (!result.songs) return callback(error, []);
       return callback(null, result.songs);
     }, () => {
       return callback(error, [])
     })
-
-    // network.native(apiurl, (resp) => {
-    //   console.log('SomaFM', resp);
-    //   return callback(null, json.songs);
-    // }, () => {
-    // }, false, { dataType: 'text' })
   }
 
   function getHighestQualityStream(channel, streams) {
@@ -358,6 +349,7 @@
       cover.find('.somafm-cover__genre').text(station.genre || '');
       cover.find('.somafm-cover__title').text(station.title || '');
       cover.find('.somafm-cover__tooltip').text(station.description || '');
+      cover.find('.somafm-cover__nowplay').text(station.track || '');
 
       var img_box = cover.find('.somafm-cover__img-box');
       img_box.removeClass('loaded loaded-icon');
@@ -409,14 +401,12 @@
       // if ( !this.isCurrentChannel( channel ) ) { this.songs = []; this.track = {}; }
 
       fetchSongs(channel, (err, songs) => {
-        //console.log('SomaFM', 'getSongs songs', songs, 'err', err);
         var size = Object.keys(songs).length;
         if (err || size < 1) return;
         else {
-          // console.log('SomaFM', 'fetchSongs return: songs', songs, 'err:', err);
           currTrack = songs.shift();
           lastSongs = songs.slice(0, 3);
-          console.log('SomaFM', "getSongs currTrack:", currTrack, "lastSongs:", lastSongs);
+          // console.log('SomaFM', "getSongs currTrack:", currTrack, "lastSongs:", lastSongs);
         }
       });
     }
@@ -503,8 +493,10 @@
       }
       if (!songsupdate) {
         songsupdate = setInterval(function () {
-          if (currChannel) getSongs(currChannel);
-          console.log('SomaFM', 'currChannel', currChannel, 'currTrack', currTrack, "lastSongs", lastSongs);
+          if (currChannel) {
+            getSongs(currChannel);
+            console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currTrack, "lastSongs", lastSongs);
+          }
         }, 15000);
       }
     });
@@ -527,6 +519,8 @@
       if (showinfo) {
         currChannel = station;
         getSongs(station);
+        station.track = currTrack;
+        console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currTrack);
         info = new Info(station);
         info.create();
         document.body.addClass('ambience--enable');
