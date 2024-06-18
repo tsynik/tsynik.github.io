@@ -297,6 +297,16 @@
     };
   }
 
+  function changeWave(class_name) {
+    var info_html = Lampa.Template.js('somafm_info');
+    var lines = info_html.find('.somafm-info__wave').querySelectorAll('div');
+    for (var i = 0; i < lines.length; i++) {
+      lines[i].removeClass('play loading').addClass(class_name);
+      lines[i].style['animation-duration'] = (class_name == 'loading' ? 400 : 200 + Math.random() * 200) + 'ms';
+      lines[i].style['animation-delay'] = (class_name == 'loading' ? Math.round(400 / lines.length * i) : 0) + 'ms';
+    }
+  }
+
   function Info(station) {
     var info_html = Lampa.Template.js('somafm_info');
 
@@ -306,7 +316,7 @@
         var div = document.createElement('div');
         box.append(div);
       }
-      // changeWave('loading');
+      changeWave('loading');
     }
 
     this.create = function () {
@@ -343,7 +353,6 @@
 
   function player() {
     var player_html = Lampa.Template.get('somafm_player', {});
-    var info_html = Lampa.Template.js('somafm_info');
 
     var audio = new Audio();
     var url = '';
@@ -351,16 +360,8 @@
     var played = false;
     var hls;
     var screenreset;
+    var info;
     var showinfo = true;
-
-    function changeWave(class_name) {
-      var lines = info_html.find('.somafm-info__wave').querySelectorAll('div');
-      for (var i = 0; i < lines.length; i++) {
-        lines[i].removeClass('play loading').addClass(class_name);
-        lines[i].style['animation-duration'] = (class_name == 'loading' ? 400 : 200 + Math.random() * 200) + 'ms';
-        lines[i].style['animation-delay'] = (class_name == 'loading' ? Math.round(400 / lines.length * i) : 0) + 'ms';
-      }
-    }
 
     function prepare() {
       if (audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
@@ -421,6 +422,10 @@
         hls = false;
       }
       audio.src = '';
+      if (showinfo && info) {
+          info.destroy();
+          info = null;
+      }
     }
     // handle audio stream state changes
     audio.addEventListener("play", function (event) {
@@ -459,7 +464,7 @@
       stop();
       // add Info
       if (showinfo) {
-        var info = new Info(station);
+        info = new Info(station);
         info.create();
         // document.body.addClass('ambience--enable');
       }
