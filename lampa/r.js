@@ -93,7 +93,10 @@
     var network = new Lampa.Reguest();
     network.timeout(5000)
     network.native(apiurl, (json) => {
-      // console.log('SomaFM', json);
+      console.log('SomaFM', json);
+      if(json.songs){
+        console.log('SomaFM', 'songs', json.songs);
+      }
       if (!json.songs) return callback(error, []);
       return callback(null, json.songs);
     }, () => {
