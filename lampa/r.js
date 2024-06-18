@@ -469,7 +469,7 @@
       if (showinfo) {
         info = new Info(station);
         info.create();
-        document.body.addClass('ambience--enable');
+        // document.body.addClass('ambience--enable');
         Lampa.Background.change(station.xlimage || IMG_BG);
         Lampa.Controller.add('content', {
           invisible: true,
@@ -477,13 +477,13 @@
             Lampa.Controller.clear();
           },
           back: function back() {
-            document.body.removeClass('ambience--enable');
+            // document.body.removeClass('ambience--enable');
             // player.destroy();
             if (showinfo && info) {
               info.destroy();
               info = false;
             }
-            //_component.activity.toggle();
+            this.activity.toggle(); //_component.activity.toggle();
           },
           // up: function up() {
           //   move(-1);
@@ -492,7 +492,7 @@
           //   move(1);
           // }
         });
-        Lampa.Controller.toggle('content');
+        // Lampa.Controller.toggle('content');
       }
       // url = data.aacfile ? data.aacfile : data.mp3file;
       Promise.resolve(station.stream.urls).then(value => {
