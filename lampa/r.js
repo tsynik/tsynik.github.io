@@ -210,7 +210,7 @@
     var active;
     var last;
 
-    somaComponent = this;
+    // somaComponent = this;
 
     this.create = function () {
       var _this = this;
