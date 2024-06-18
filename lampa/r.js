@@ -300,6 +300,15 @@
   function Info(station) {
     var info_html = Lampa.Template.js('somafm_info');
 
+    function createWave() {
+      var box = info_html.find('.somafm-info__wave');
+      for (var i = 0; i < 15; i++) {
+        var div = document.createElement('div');
+        box.append(div);
+      }
+      // changeWave('loading');
+    }
+
     this.create = function () {
       var cover = Lampa.Template.js('somafm_cover');
       cover.find('.somafm-cover__title').text(station.title || '');
@@ -323,7 +332,7 @@
         window.history.back();
       });
       document.body.append(info_html);
-      // createWave();
+      createWave();
     };
 
     this.destroy = function () {
@@ -344,18 +353,8 @@
     var screenreset;
     var showinfo = true;
 
-    function createWave() {
-      var box = info_html.find('.somafm-info__wave');
-      for (var i = 0; i < 15; i++) {
-        var div = document.createElement('div');
-        box.append(div);
-      }
-      changeWave('loading');
-    }
-
     function changeWave(class_name) {
       var lines = info_html.find('.somafm-info__wave').querySelectorAll('div');
-
       for (var i = 0; i < lines.length; i++) {
         lines[i].removeClass('play loading').addClass(class_name);
         lines[i].style['animation-duration'] = (class_name == 'loading' ? 400 : 200 + Math.random() * 200) + 'ms';
@@ -427,9 +426,6 @@
     audio.addEventListener("play", function (event) {
       // console.log('SomaFM', 'got play event');
       played = true;
-      // info
-      if (showinfo)
-        createWave();
     });
     audio.addEventListener("playing", function (event) {
       // console.log('SomaFM', 'got playing event');
