@@ -470,7 +470,6 @@
       // add info
       if (showinfo) {
         info = new Info(station);
-        info.attachMedia(audio);
         info.create();
         // document.body.addClass('ambience--enable');
       }      
