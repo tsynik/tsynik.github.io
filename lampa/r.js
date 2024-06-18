@@ -26,7 +26,6 @@
     { quality: 'low', format: 'aacp' },
   ];
   var audio = new Audio();
-  var showinfo = true;
 
   // parse pls INI
   function parseINIString(data) {
@@ -361,7 +360,7 @@
   }
 
   function Player() {
-    var info = window.somafm_info;
+  
     var player_html = Lampa.Template.get('somafm_player', {});
 
     var url = '';
@@ -369,6 +368,8 @@
     var played = false;
     var hls;
     var screenreset;
+    var info; // = window.somafm_info;
+    var showinfo = true;
 
     function prepare() {
       if (audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
