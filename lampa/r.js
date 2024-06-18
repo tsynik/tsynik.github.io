@@ -242,20 +242,20 @@
       this.activity.toggle();
     };
     this.append = function (element) {
-      element.forEach(function (el) {
-        var item$1 = new item(el);
+      element.forEach(function (station) {
+        var item$1 = new item(station);
         item$1.render().on('hover:focus', function () {
           last = item$1.render()[0];
           active = items.indexOf(item$1);
           scroll.update(items[active].render(), true);
         }).on('hover:enter', function () {
-          player.play(el);
+          player.play(station);
           // add info
           if (showinfo) {
             info = new Info(station);
             info.create();
             document.body.addClass('ambience--enable');
-            Lampa.Background.change(el.xlimage || img_bg);
+            Lampa.Background.change(station.xlimage || IMG_BG);
             Lampa.Controller.add('content', {
               invisible: true,
               toggle: function toggle() {
