@@ -197,7 +197,6 @@
   }
 
   function Component() {
-    var _component = this;
     var network = new Lampa.Reguest();
     var scroll = new Lampa.Scroll({
       mask: true,
@@ -205,7 +204,6 @@
       step: 250
     });
     var player = window.somafm_player;
-    var info = window.somafm_info;
     var items = [];
     var html = $('<div></div>');
     var body = $('<div class="category-full"></div>');
@@ -250,31 +248,6 @@
           scroll.update(items[active].render(), true);
         }).on('hover:enter', function () {
           player.play(station);
-          // add info
-          if (showinfo) {
-            info = new Info(station);
-            info.create();
-            document.body.addClass('ambience--enable');
-            Lampa.Background.change(station.xlimage || IMG_BG);
-            Lampa.Controller.add('content', {
-              invisible: true,
-              toggle: function toggle() {
-                Lampa.Controller.clear();
-              },
-              back: function back() {
-                document.body.removeClass('ambience--enable');
-                // player.destroy();
-                _component.activity.toggle();
-              },
-              // up: function up() {
-              //   move(-1);
-              // },
-              // down: function down() {
-              //   move(1);
-              // }
-            });
-            Lampa.Controller.toggle('content');
-          }
         });
         body.append(item$1.render());
         items.push(item$1);
@@ -491,6 +464,35 @@
 
     this.play = function (station) {
       stop();
+      // add info
+      if (showinfo) {
+        info = new Info(station);
+        info.create();
+        document.body.addClass('ambience--enable');
+        Lampa.Background.change(station.xlimage || IMG_BG);
+        Lampa.Controller.add('content', {
+          invisible: true,
+          toggle: function toggle() {
+            Lampa.Controller.clear();
+          },
+          back: function back() {
+            document.body.removeClass('ambience--enable');
+            // player.destroy();
+            if (showinfo && info) {
+              info.destroy();
+              info = false;
+            }
+            //_component.activity.toggle();
+          },
+          // up: function up() {
+          //   move(-1);
+          // },
+          // down: function down() {
+          //   move(1);
+          // }
+        });
+        Lampa.Controller.toggle('content');
+      }
       // url = data.aacfile ? data.aacfile : data.mp3file;
       Promise.resolve(station.stream.urls).then(value => {
         url = random_item(value);
