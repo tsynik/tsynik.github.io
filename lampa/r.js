@@ -381,7 +381,6 @@
   function Player() {
 
     var player_html = Lampa.Template.get('somafm_player', {});
-    var info_html = Lampa.Template.get('somafm_info', {});
 
     var url = '';
     var format = '';
@@ -408,6 +407,21 @@
           lastSongs = songs.slice(0, 3);
         }
       });
+    }
+
+    function updatePlayingInfo(playingTrack) {
+      if (!showinfo)
+        return;
+      if (playingTrack.title)
+        document.body.find('.somafm-cover__title').text(playingTrack.title);
+      var tooltip = [];
+      if (playingTrack.artist)
+        tooltip.push(playingTrack.artist);
+      if (playingTrack.album)
+        tooltip.push(playingTrack.album);
+      document.body.find('.somafm-cover__tooltip').text(tooltip.join(' ● ') || '');
+      // TODO: use for lastSongs
+      // document.body.find('.somafm-cover__nowplay').text(nowplay || '');
     }
 
     function prepare() {
@@ -494,19 +508,8 @@
         songsupdate = setInterval(function () {
           if (currChannel) {
             getSongs(currChannel);
-            console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currTrack);
-            if (currTrack.title)
-              info_html.find('.somafm-cover__title').text(currTrack.title);
-              //document.body.find('.somafm-cover__title').text(currTrack.title);
-            var tooltip = [];
-            if (currTrack.artist)
-              tooltip.push(currTrack.artist)
-            if (currTrack.album)
-              tooltip.push(currTrack.album)
-              info_html.find('.somafm-cover__tooltip').text(tooltip.join(' ● ') || '');
-              //document.body.find('.somafm-cover__tooltip').text(tooltip.join(' ● ') || '');
-            // TODO: use for lastSongs
-            // cover.find('.somafm-cover__nowplay').text(nowplay || '');
+            // console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currTrack);
+            updatePlayingInfo(currTrack);
           }
         }, 15000);
       }
@@ -533,6 +536,7 @@
         // console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currChannel.track);
         info = new Info(currChannel);
         info.create();
+        updatePlayingInfo(currTrack);
         document.body.addClass('ambience--enable');
         Lampa.Background.change(currChannel.xlimage || IMG_BG);
         Lampa.Controller.add('content', {
