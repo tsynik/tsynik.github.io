@@ -26,7 +26,7 @@
     { quality: 'low', format: 'aacp' },
   ];
 
-  // parse pls ini
+  // parse pls INI
   function parseINIString(data) {
     var regex = {
       section: /^\s*\[\s*([^\]]*)\s*\]\s*$/,
@@ -131,14 +131,12 @@
 
   function getUrlsFromPlaylist(playlistUrl) {
     return new Promise((resolve, reject) => {
-      //var response = await got(playlistUrl);
       var network = new Lampa.Reguest();
       network.timeout(5000)
       network.native(playlistUrl, (response) => {
         try {
-          //var data = ini.decode(response.body);            
-          var data = parseINIString(response);
-          //console.log('SomaFM', "getUrlsFromPlaylist data:", data);
+          var data = parseINIString(response); // decode pls INI
+          // console.log('SomaFM', "getUrlsFromPlaylist data:", data);
           var result = [];
           for (var key of Object.keys(data.playlist)
             .filter(x => x.match(/^File\d+$/))) {
@@ -181,9 +179,14 @@
     return items[Math.floor(Math.random() * items.length)];
   }
 
+  function compareChannelObjects(ch1, ch2) {
+    return Math.sign(ch2.listeners - ch1.listeners);
+  }
+  // TODO: use cached list
   function list() {
     return new Promise((resolve, reject) => {
-      this.network.native(this.api_url, (result) => {
+      var network = new Lampa.Reguest();
+      network.native(API_URL, (result) => {
         Lampa.Cache.rewriteData('other', 'somafm_list', result).finally(resolve.bind(resolve, result))
       }, () => {
         Lampa.Cache.getData('other', 'somafm_list').then(resolve).catch(reject)
@@ -220,7 +223,12 @@
     };
     this.build = function (data) {
       scroll.minus();
-      var stations = parseChannels(data.channels).sort(function (a, b) {
+      var stations = parseChannels(data.channels);
+      var sortChannels = true;
+      // TODO: add sorting options
+      if (sortChannels) // sort by popularity
+        stations = stations.sort(compareChannelObjects)
+      else stations = stations.sort(function (a, b) {
         return a.sort - b.sort;
       });
       this.append(stations);
@@ -357,7 +365,7 @@
       }
       audio.src = '';
     }
-
+    // handle audio stream state changes
     audio.addEventListener("play", function (event) {
       // console.log('SomaFM', 'got play event');
       played = true;
@@ -375,7 +383,6 @@
       // console.log('SomaFM', 'got waiting event');
       html.toggleClass('loading', true);
     });
-
     // handle player button click
     html.on('hover:enter', function () {
       if (played) stop(); else if (url) play();
