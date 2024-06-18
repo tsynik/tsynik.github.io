@@ -493,7 +493,7 @@
           //   move(1);
           // }
         });
-        // Lampa.Controller.toggle('content');
+        Lampa.Controller.toggle('content');
       }
       // url = data.aacfile ? data.aacfile : data.mp3file;
       Promise.resolve(station.stream.urls).then(value => {
