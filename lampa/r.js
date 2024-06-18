@@ -363,13 +363,6 @@
       };
       img_elm.src = station.largeimage;
 
-      var nowplay = 'Now playing ';
-      (station.track.title) ? nowplay += station.track.title : '';
-      (station.track.artist) ? nowplay += " by " + station.track.artist : '';
-      (station.track.album) ? nowplay += " from " + station.track.album : '';
-
-      cover.find('.somafm-cover__nowplay').text(nowplay || '');
-
       info_html.find('.somafm-info__cover').append(cover);
       info_html.find('.somafm-info__close').on('click', function () {
         window.history.back();
@@ -501,6 +494,17 @@
           if (currChannel) {
             getSongs(currChannel);
             console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currTrack);
+            var cover = Lampa.Template.js('somafm_cover');
+            if (currTrack.title)
+              cover.find('.somafm-cover__title').text(currTrack.title);
+            var tooltip = [];
+            if (currTrack.artist)
+              tooltip.push(currTrack.artist)
+            if (currTrack.album)
+              tooltip.push(currTrack.album)
+            cover.find('.somafm-cover__tooltip').text(tooltip.join(' ● ') || '');
+            // TODO: use for lastSongs
+            // cover.find('.somafm-cover__nowplay').text(nowplay || '');
           }
         }, 15000);
       }
@@ -524,7 +528,6 @@
       if (showinfo) {
         currChannel = station;
         getSongs(currChannel);
-        currChannel.track = currTrack;
         // console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currChannel.track);
         info = new Info(currChannel);
         info.create();
