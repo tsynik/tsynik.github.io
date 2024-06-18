@@ -86,7 +86,7 @@
   }
 
   // fetch songs for a channel
-  function fetchSongs(channel, oncomplite) {
+  function fetchSongs(channel, callback) {
     var apiurl = channel.songsurl || '';
     var title = channel.title || '...';
     var error = 'There was a problem loading the list of songs for channel ' + title + ' from SomaFM.';
@@ -94,8 +94,8 @@
     network.timeout(5000)
     network.native(apiurl, (json) => {
       // console.log('SomaFM', json);
-      if (!json.songs) return oncomplite(error, []);
-      return oncomplite(null, json.songs);
+      if (!json.songs) return callback(error, []);
+      return callback(null, json.songs);
     }, () => {
     }, false, { dataType: 'text' })
   }
@@ -398,12 +398,13 @@
       if (!channel || !channel.id || !channel.songsurl) return;
       // if ( !this.isCurrentChannel( channel ) ) { this.songs = []; this.track = {}; }
 
-      fetchSongs(channel, (songs) => {
-        if (songs.size < 1) return;
+      fetchSongs(channel, (err, songs) => {
+        console.log('SomaFM', 'getSongs songs size', songs.size, 'err', err);
+        if (err || songs.size < 1) return;
         else {
           currTrack = songs.shift();
           lastSongs = songs.slice(0, 3);
-          console.log("SomaFM", "getSongs currTrack", currTrack, "songs", songs);
+          console.log('SomaFM', "getSongs currTrack", currTrack, "songs", songs);
         }
       });
     }
