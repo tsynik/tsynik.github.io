@@ -134,7 +134,7 @@
       var network = new Lampa.Reguest();
       network.timeout(5000)
       network.native(playlistUrl, (response) => {
-        try {          
+        try {
           var data = parseINIString(response); // decode pls INI
           // console.log('SomaFM', "getUrlsFromPlaylist data:", data);
           var result = [];
@@ -224,9 +224,10 @@
     this.build = function (data) {
       scroll.minus();
       var stations = parseChannels(data.channels);
+      var sortChannels = true;
       // TODO: add sorting options
-      if (sortChannels = true) // sort by popularity
-      stations = stations.sort(compareChannelObjects)
+      if (sortChannels) // sort by popularity
+        stations = stations.sort(compareChannelObjects)
       else stations = stations.sort(function (a, b) {
         return a.sort - b.sort;
       });
