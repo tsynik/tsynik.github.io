@@ -26,7 +26,7 @@
     { quality: 'low', format: 'aacp' },
   ];
   var audio = new Audio();
-  var somaComponent;
+  // var somaComponent;
 
   // parse pls INI
   function parseINIString(data) {
@@ -472,7 +472,7 @@
       if (showinfo) {
         info = new Info(station);
         info.create();
-        // document.body.addClass('ambience--enable');
+        document.body.addClass('ambience--enable');
         Lampa.Background.change(station.xlimage || IMG_BG);
         Lampa.Controller.add('content', {
           invisible: true,
@@ -480,22 +480,16 @@
             Lampa.Controller.clear();
           },
           back: function back() {
-            // document.body.removeClass('ambience--enable');
+            document.body.removeClass('ambience--enable');
             // player.destroy();
             if (showinfo && info) {
               info.destroy();
               info = false;
             }
-            //_component.activity.toggle();
-            if (somaComponent) somaComponent.activity.toggle();
-            Lampa.Controller.toggle('content');
+            // if (somaComponent) somaComponent.activity.toggle();
+            // Lampa.Controller.toggle('content');
+            window.history.back;
           },
-          // up: function up() {
-          //   move(-1);
-          // },
-          // down: function down() {
-          //   move(1);
-          // }
         });
         Lampa.Controller.toggle('content');
       }
