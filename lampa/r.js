@@ -26,6 +26,7 @@
     { quality: 'low', format: 'aacp' },
   ];
   var audio = new Audio();
+  var somaComponent;
 
   // parse pls INI
   function parseINIString(data) {
@@ -208,6 +209,8 @@
     var body = $('<div class="category-full"></div>');
     var active;
     var last;
+
+    somaComponent = this;
 
     this.create = function () {
       var _this = this;
@@ -484,6 +487,7 @@
               info = false;
             }
             //_component.activity.toggle();
+            if (somaComponent) somaComponent.activity.toggle();
             Lampa.Controller.toggle('content');
           },
           // up: function up() {
