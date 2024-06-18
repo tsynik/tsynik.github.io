@@ -412,7 +412,6 @@
         else {
           currTrack = songs.shift();
           lastSongs = songs.slice(0, 3);
-          // console.log('SomaFM', "getSongs currTrack:", currTrack, "lastSongs:", lastSongs);
         }
       });
     }
@@ -501,7 +500,7 @@
         songsupdate = setInterval(function () {
           if (currChannel) {
             getSongs(currChannel);
-            console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currTrack, "lastSongs", lastSongs);
+            console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currTrack);
           }
         }, 15000);
       }
@@ -525,12 +524,12 @@
       if (showinfo) {
         currChannel = station;
         getSongs(currChannel);
-        currChannel.track = currTrack;
-        console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currChannel.track);
+        // currChannel.track = currTrack;
+        // console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currChannel.track);
         info = new Info(currChannel);
         info.create();
         document.body.addClass('ambience--enable');
-        Lampa.Background.change(station.xlimage || IMG_BG);
+        Lampa.Background.change(currChannel.xlimage || IMG_BG);
         Lampa.Controller.add('content', {
           invisible: true,
           toggle: function toggle() {
@@ -542,7 +541,8 @@
             if (showinfo && info) {
               info.destroy();
               info = false;
-              if (songsupdate) clearInterval(songsupdate);
+              if (songsupdate)
+                clearInterval(songsupdate);
               songsupdate = null; // release songs update timer
             }
             if (somaComponent) somaComponent.activity.toggle();
