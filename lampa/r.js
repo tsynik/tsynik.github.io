@@ -26,7 +26,7 @@
     { quality: 'low', format: 'aacp' },
   ];
   var audio = new Audio();
-  // var somaComponent;
+  var somaComponent;
 
   // parse pls INI
   function parseINIString(data) {
@@ -210,7 +210,7 @@
     var active;
     var last;
 
-    // somaComponent = this;
+    somaComponent = this;
 
     this.create = function () {
       var _this = this;
@@ -486,9 +486,8 @@
               info.destroy();
               info = false;
             }
-            // if (somaComponent) somaComponent.activity.toggle();
-            // Lampa.Controller.toggle('content');
-            window.history.back;
+            if (somaComponent) somaComponent.activity.toggle();
+            Lampa.Controller.toggle('content');
           },
         });
         Lampa.Controller.toggle('content');
