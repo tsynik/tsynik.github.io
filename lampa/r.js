@@ -94,6 +94,7 @@
     network.timeout(5000)
     network.native(apiurl, (response) => {
       try {
+        console.log('SomaFM', response);
         if (!response.data.songs) return callback(error, []);
         return callback(null, response.data.songs);
         //resolve(result);
@@ -413,11 +414,11 @@
       // if ( !this.isCurrentChannel( channel ) ) { this.songs = []; this.track = {}; }
 
       fetchSongs(channel, (err, songs) => {
-        if (err) return this.setError('songs', err);
+        if (err) return; // this.setError('songs', err);
         if (typeof cb === 'function') cb(songs);
         currTrack = songs.shift();
         lastSongs = songs.slice(0, 3);
-        this.clearError('songs');
+        // this.clearError('songs');
       });
     }
 
