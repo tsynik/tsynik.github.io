@@ -92,27 +92,17 @@
     var error = 'There was a problem loading the list of songs for channel ' + title + ' from SomaFM.';
     var network = new Lampa.Reguest();
     network.timeout(5000)
-    network.native(apiurl, (response) => {
+    network.native(apiurl, (resp) => {
       try {
-        console.log('SomaFM', response);
-        if (!response.data.songs) return callback(error, []);
-        return callback(null, response.data.songs);
-        //resolve(result);
+        console.log('SomaFM', resp);
+        if (!resp.songs) return callback(error, []);
+        return callback(null, resp.songs);
       } catch (e) {
-        console.log('SomaFM', error + String(e.message || ''));
-        return callback(error + String(e.message || ''), []);
-        //reject(e);
+        console.log('SomaFM', error + " " + String(e.message || ''));
+        return callback(error + " " + String(e.message || ''), []);
       }
     }, () => {
     }, false, { dataType: 'text' })
-
-    // axios.get(apiurl).then(res => {
-    //   if (!res.data.songs) return callback(error, []);
-    //   return callback(null, res.data.songs);
-    // })
-    //   .catch(e => {
-    //     return callback(error + String(e.message || ''), []);
-    //   });
   }
 
   function getHighestQualityStream(channel, streams) {
@@ -506,7 +496,7 @@
         songsupdate = setInterval(function () {
           if (currChannel) getSongs(currChannel);
           console.log('SomaFM', 'currTrack', currTrack, "lastSongs", lastSongs);
-        }, 30000);
+        }, 15000);
       }
     });
     audio.addEventListener("waiting", function (event) {
