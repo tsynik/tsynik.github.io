@@ -299,14 +299,50 @@
 
   function Info(station) {
     var info_html = Lampa.Template.js('somafm_info');
-    var audio = new Audio();
 
-    audio.addEventListener("playing", function (event) {
-      changeWave('play');
-    });
-    audio.addEventListener("waiting", function (event) {
-      changeWave('loading');
-    });
+    this.create = function () {
+      var cover = Lampa.Template.js('somafm_cover');
+      cover.find('.somafm-cover__title').text(station.title || '');
+      cover.find('.somafm-cover__tooltip').text(station.genre || '');
+
+      var img_box = cover.find('.somafm-cover__img-box');
+      img_box.removeClass('loaded loaded-icon');
+
+      var img_elm = img_box.find('img');
+      img_elm.onload = function () {
+        img_box.addClass('loaded');
+      };
+      img_elm.onerror = function () {
+        img_elm.src = './img/icons/menu/movie.svg';
+        img_box.addClass('loaded-icon');
+      };
+      img_elm.src = station.largeimage;
+
+      info_html.find('.somafm-info__cover').append(cover);
+      info_html.find('.somafm-info__close').on('click', function () {
+        window.history.back();
+      });
+      document.body.append(info_html);
+      // createWave();
+    };
+
+    this.destroy = function () {
+      info_html.remove();
+    };
+
+  }
+
+  function player() {
+    var player_html = Lampa.Template.js('somafm_player');
+    var info_html = Lampa.Template.js('somafm_info');
+
+    var audio = new Audio();
+    var url = '';
+    var format = '';
+    var played = false;
+    var hls;
+    var screenreset;
+    var showinfo = true;
 
     function createWave() {
       var box = info_html.find('.somafm-info__wave');
@@ -326,47 +362,6 @@
         lines[i].style['animation-delay'] = (class_name == 'loading' ? Math.round(400 / lines.length * i) : 0) + 'ms';
       }
     }
-
-    this.create = function () {
-      var cover = Lampa.Template.js('somafm_cover');
-      cover.find('.somafm-cover__title').text(station.title || '');
-      cover.find('.somafm-cover__tooltip').text(station.tooltip || '');
-      var img_box = cover.find('.somafm-cover__img-box');
-      var img_elm = img_box.find('img');
-      img_box.removeClass('loaded loaded-icon');
-
-      img_elm.onload = function () {
-        img_box.addClass('loaded');
-      };
-
-      img_elm.onerror = function () {
-        img_elm.src = './img/icons/menu/movie.svg';
-        img_box.addClass('loaded-icon');
-      };
-
-      img_elm.src = station.image;
-      info_html.find('.somafm-info__cover').append(cover);
-      info_html.find('.somafm-info__close').on('click', function () {
-        window.history.back();
-      });
-      document.body.append(info_html);
-      createWave();
-    };
-
-    this.destroy = function () {
-      info_html.remove();
-    };
-
-  }
-
-  function player() {
-    var player_html = Lampa.Template.get('somafm_player', {});
-    var audio = new Audio();
-    var url = '';
-    var format = '';
-    var played = false;
-    var hls;
-    var screenreset;
 
     function prepare() {
       if (audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
@@ -432,6 +427,9 @@
     audio.addEventListener("play", function (event) {
       // console.log('SomaFM', 'got play event');
       played = true;
+      // info
+      if (showinfo)
+        createWave();
     });
     audio.addEventListener("playing", function (event) {
       // console.log('SomaFM', 'got playing event');
@@ -441,10 +439,16 @@
           Lampa.Screensaver.resetTimer();
         }, 5000);
       }
+      // info
+      if (showinfo)
+        changeWave('play');
     });
     audio.addEventListener("waiting", function (event) {
       // console.log('SomaFM', 'got waiting event');
       player_html.toggleClass('loading', true);
+      // info
+      if (showinfo)
+        changeWave('loading');
     });
     // handle player button click
     player_html.on('hover:enter', function () {
@@ -474,10 +478,11 @@
         });
       }
       // add Info
-      var info = new Info(station);
-      info.create();
-      document.body.addClass('ambience--enable');
-
+      if (showinfo) {
+        var info = new Info(station);
+        info.create();
+        document.body.addClass('ambience--enable');
+      }
     };
   }
 
