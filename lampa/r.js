@@ -381,6 +381,7 @@
   function Player() {
 
     var player_html = Lampa.Template.get('somafm_player', {});
+    var info_html = Lampa.Template.get('somafm_info', {});
 
     var url = '';
     var format = '';
@@ -494,15 +495,14 @@
           if (currChannel) {
             getSongs(currChannel);
             console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currTrack);
-            if (info && currTrack.title)
-              info.find('.somafm-cover__title').text(currTrack.title);
+            if (currTrack.title)
+              document.body.find('.somafm-cover__title').text(currTrack.title);
             var tooltip = [];
             if (currTrack.artist)
               tooltip.push(currTrack.artist)
             if (currTrack.album)
               tooltip.push(currTrack.album)
-            if (info)
-              info.find('.somafm-cover__tooltip').text(tooltip.join(' ● ') || '');
+              document.body.find('.somafm-cover__tooltip').text(tooltip.join(' ● ') || '');
             // TODO: use for lastSongs
             // cover.find('.somafm-cover__nowplay').text(nowplay || '');
           }
