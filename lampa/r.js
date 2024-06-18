@@ -25,6 +25,7 @@
     // 32k AAC
     { quality: 'low', format: 'aacp' },
   ];
+  var audio = new Audio();
 
   // parse pls INI
   function parseINIString(data) {
@@ -362,7 +363,6 @@
   function player() {
     var player_html = Lampa.Template.get('somafm_player', {});
 
-    var audio = new Audio();
     var url = '';
     var format = '';
     var played = false;
