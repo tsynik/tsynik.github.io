@@ -333,7 +333,7 @@
   }
 
   function player() {
-    var player_html = Lampa.Template.js('somafm_player');
+    var player_html = Lampa.Template.get('somafm_player', {});
     var info_html = Lampa.Template.js('somafm_info');
 
     var audio = new Audio();
