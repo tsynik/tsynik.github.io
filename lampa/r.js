@@ -524,7 +524,7 @@
       if (showinfo) {
         currChannel = station;
         getSongs(currChannel);
-        // currChannel.track = currTrack;
+        currChannel.track = currTrack;
         // console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currChannel.track);
         info = new Info(currChannel);
         info.create();
