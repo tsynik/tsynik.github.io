@@ -394,7 +394,7 @@
     var showinfo = true;
 
     // get songs list for a channel from api
-    function getSongs(channel, cb) {
+    function getSongs(channel) {
       if (!channel || !channel.id || !channel.songsurl) return;
       // if ( !this.isCurrentChannel( channel ) ) { this.songs = []; this.track = {}; }
 
@@ -403,6 +403,7 @@
         if (songs) {
           currTrack = songs.shift();
           lastSongs = songs.slice(0, 3);
+          console.log("SomaFM", "getSongs currTrack", currTrack, "songs", songs);
         }
       });
     }
