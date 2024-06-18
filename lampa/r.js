@@ -409,6 +409,12 @@
       player_html.toggleClass('loading', true);
       player_html.toggleClass('stop', false);
       prepare();
+      // add Info
+      if (showinfo) {
+        info = new Info(station);
+        info.create();
+        // document.body.addClass('ambience--enable');
+      }      
     }
 
     function stop() {
@@ -422,7 +428,7 @@
         hls = false;
       }
       audio.src = '';
-      if (showinfo && info) {
+      if (showinfo) {
           info.destroy();
           info = null;
       }
@@ -462,12 +468,6 @@
 
     this.play = function (station) {
       stop();
-      // add Info
-      if (showinfo) {
-        info = new Info(station);
-        info.create();
-        // document.body.addClass('ambience--enable');
-      }
       // url = data.aacfile ? data.aacfile : data.mp3file;
       Promise.resolve(station.stream.urls).then(value => {
         url = random_item(value);
