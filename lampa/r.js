@@ -388,6 +388,7 @@
   }
 
   function Player() {
+    var info = window.somafm_info;
     var player_html = Lampa.Template.get('somafm_player', {});
 
     var url = '';
@@ -395,7 +396,6 @@
     var played = false;
     var hls;
     var screenreset;
-    var info;
 
     function prepare() {
       if (audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
