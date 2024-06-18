@@ -350,7 +350,11 @@
       cover.find('.somafm-cover__title').text(station.title || '');
       cover.find('.somafm-cover__tooltip').text(station.description || '');
 
-      var nowplay = "Track: " + station.track.title + "Artist: " + station.track.artist + "Album:" + station.track.album;
+      var nowplay;
+      (station.track.title) ? nowplay += " Track: " + station.track.title : '';
+      (station.track.artist) ? nowplay += " Artist: " + station.track.artist : '';
+      (station.track.album) ? nowplay += " Album:" + station.track.album : '';
+
       cover.find('.somafm-cover__nowplay').text(nowplay || '');
 
       var img_box = cover.find('.somafm-cover__img-box');
