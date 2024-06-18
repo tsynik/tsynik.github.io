@@ -525,6 +525,7 @@
       // add info
       if (showinfo) {
         currChannel = station;
+        getSongs(station);
         info = new Info(station);
         info.create();
         document.body.addClass('ambience--enable');
