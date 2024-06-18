@@ -90,6 +90,7 @@
     var apiurl = channel.songsurl || '';
     var title = channel.title || '...';
     var error = 'There was a problem loading the list of songs for channel ' + title + ' from SomaFM.';
+
     var network = new Lampa.Reguest();
     network.timeout(5000)
     network.native(apiurl, (result) => {
@@ -408,13 +409,13 @@
       // if ( !this.isCurrentChannel( channel ) ) { this.songs = []; this.track = {}; }
 
       fetchSongs(channel, (err, songs) => {
-        console.log('SomaFM', 'getSongs songs size', songs.size, 'err', err);
-        if (err || songs.size < 1) return;
+        //console.log('SomaFM', 'getSongs songs size', songs.size(), 'err', err);
+        if (err || songs.size() < 1) return;
         else {
-          console.log('SomaFM', 'fetchSongs return: songs', songs, 'err:', err);
-          // currTrack = songs.shift();
-          // lastSongs = songs.slice(0, 3);
-          // console.log('SomaFM', "getSongs currTrack", currTrack, "songs", songs);
+          // console.log('SomaFM', 'fetchSongs return: songs', songs, 'err:', err);
+          currTrack = songs.shift();
+          lastSongs = songs.slice(0, 3);
+          console.log('SomaFM', "getSongs currTrack", currTrack, "songs:", songs.size());
         }
       });
     }
