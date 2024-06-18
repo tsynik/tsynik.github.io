@@ -297,16 +297,6 @@
     };
   }
 
-  function changeWave(class_name) {
-    var info_html = Lampa.Template.js('somafm_info');
-    var lines = info_html.find('.somafm-info__wave').querySelectorAll('div');
-    for (var i = 0; i < lines.length; i++) {
-      lines[i].removeClass('play loading').addClass(class_name);
-      lines[i].style['animation-duration'] = (class_name == 'loading' ? 400 : 200 + Math.random() * 200) + 'ms';
-      lines[i].style['animation-delay'] = (class_name == 'loading' ? Math.round(400 / lines.length * i) : 0) + 'ms';
-    }
-  }
-
   function Info(station) {
     var info_html = Lampa.Template.js('somafm_info');
 
@@ -319,6 +309,15 @@
       changeWave('loading');
     }
 
+    function changeWave(class_name) {
+      var lines = info_html.find('.somafm-info__wave').querySelectorAll('div');
+      for (var i = 0; i < lines.length; i++) {
+        lines[i].removeClass('play loading').addClass(class_name);
+        lines[i].style['animation-duration'] = (class_name == 'loading' ? 400 : 200 + Math.random() * 200) + 'ms';
+        lines[i].style['animation-delay'] = (class_name == 'loading' ? Math.round(400 / lines.length * i) : 0) + 'ms';
+      }
+    }
+  
     this.create = function () {
       var cover = Lampa.Template.js('somafm_cover');
       cover.find('.somafm-cover__title').text(station.title || '');
@@ -341,6 +340,7 @@
       info_html.find('.somafm-info__close').on('click', function () {
         window.history.back();
       });
+
       document.body.append(info_html);
       createWave();
     };
@@ -409,7 +409,7 @@
       player_html.toggleClass('loading', true);
       player_html.toggleClass('stop', false);
       prepare();
-      // add Info
+      // add info
       if (showinfo) {
         info = new Info(station);
         info.create();
@@ -428,9 +428,10 @@
         hls = false;
       }
       audio.src = '';
+      // remove info
       if (showinfo) {
           info.destroy();
-          info = null;
+          info = false;
       }
     }
     // handle audio stream state changes
@@ -447,15 +448,15 @@
         }, 5000);
       }
       // info
-      if (showinfo)
-        changeWave('play');
+      // if (showinfo)
+      //   changeWave('play');
     });
     audio.addEventListener("waiting", function (event) {
       // console.log('SomaFM', 'got waiting event');
       player_html.toggleClass('loading', true);
       // info
-      if (showinfo)
-        changeWave('loading');
+      // if (showinfo)
+      //   changeWave('loading');
     });
     // handle player button click
     player_html.on('hover:enter', function () {
