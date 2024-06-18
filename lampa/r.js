@@ -26,6 +26,7 @@
     { quality: 'low', format: 'aacp' },
   ];
   var audio = new Audio();
+  var showinfo = true;
 
   // parse pls INI
   function parseINIString(data) {
@@ -249,6 +250,31 @@
           scroll.update(items[active].render(), true);
         }).on('hover:enter', function () {
           player.play(el);
+          // add info
+          if (showinfo) {
+            info = new Info(station);
+            info.create();
+            document.body.addClass('ambience--enable');
+            Lampa.Background.change(el.xlimage || img_bg);
+            Lampa.Controller.add('content', {
+              invisible: true,
+              toggle: function toggle() {
+                Lampa.Controller.clear();
+              },
+              back: function back() {
+                document.body.removeClass('ambience--enable');
+                // player.destroy();
+                _component.activity.toggle();
+              },
+              // up: function up() {
+              //   move(-1);
+              // },
+              // down: function down() {
+              //   move(1);
+              // }
+            });
+            Lampa.Controller.toggle('content');
+          }
         });
         body.append(item$1.render());
         items.push(item$1);
@@ -327,7 +353,7 @@
         lines[i].style['animation-delay'] = (class_name == 'loading' ? Math.round(400 / lines.length * i) : 0) + 'ms';
       }
     }
-  
+
     this.create = function () {
       var cover = Lampa.Template.js('somafm_cover');
       cover.find('.somafm-cover__title').text(station.title || '');
@@ -370,7 +396,6 @@
     var hls;
     var screenreset;
     var info;
-    var showinfo = true;
 
     function prepare() {
       if (audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
@@ -433,8 +458,8 @@
       audio.src = '';
       // remove info
       if (showinfo && info) {
-          info.destroy();
-          info = false;
+        info.destroy();
+        info = false;
       }
     }
     // handle audio stream state changes
@@ -466,31 +491,6 @@
 
     this.play = function (station) {
       stop();
-      // add info
-      if (showinfo) {
-        info = new Info(station);
-        info.create();
-        document.body.addClass('ambience--enable');
-        Lampa.Background.change(station.xlimage || img_bg);
-        Lampa.Controller.add('content', {
-          invisible: true,
-          toggle: function toggle() {
-            Lampa.Controller.clear();
-          },
-          back: function back() {
-            document.body.removeClass('ambience--enable');
-            // player.destroy();
-            // _component.activity.toggle();
-          },
-          // up: function up() {
-          //   move(-1);
-          // },
-          // down: function down() {
-          //   move(1);
-          // }
-        });
-        Lampa.Controller.toggle('content');
-      }      
       // url = data.aacfile ? data.aacfile : data.mp3file;
       Promise.resolve(station.stream.urls).then(value => {
         url = random_item(value);
