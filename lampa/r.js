@@ -350,13 +350,6 @@
       cover.find('.somafm-cover__title').text(station.title || '');
       cover.find('.somafm-cover__tooltip').text(station.description || '');
 
-      var nowplay;
-      (station.track.title) ? nowplay += " Track: " + station.track.title : '';
-      (station.track.artist) ? nowplay += " Artist: " + station.track.artist : '';
-      (station.track.album) ? nowplay += " Album:" + station.track.album : '';
-
-      cover.find('.somafm-cover__nowplay').text(nowplay || '');
-
       var img_box = cover.find('.somafm-cover__img-box');
       img_box.removeClass('loaded loaded-icon');
 
@@ -369,6 +362,13 @@
         img_box.addClass('loaded-icon');
       };
       img_elm.src = station.largeimage;
+
+      var nowplay;
+      (station.track.title) ? nowplay += " Track: " + station.track.title : '';
+      (station.track.artist) ? nowplay += " Artist: " + station.track.artist : '';
+      (station.track.album) ? nowplay += " Album: " + station.track.album : '';
+
+      cover.find('.somafm-cover__nowplay').text(nowplay || '');
 
       info_html.find('.somafm-info__cover').append(cover);
       info_html.find('.somafm-info__close').on('click', function () {
@@ -524,10 +524,10 @@
       // add info
       if (showinfo) {
         currChannel = station;
-        getSongs(station);
-        station.track = currTrack;
-        console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currTrack);
-        info = new Info(station);
+        getSongs(currChannel);
+        currChannel.track = currTrack;
+        console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currChannel.track);
+        info = new Info(currChannel);
         info.create();
         document.body.addClass('ambience--enable');
         Lampa.Background.change(station.xlimage || IMG_BG);
@@ -542,6 +542,8 @@
             if (showinfo && info) {
               info.destroy();
               info = false;
+              if (songsupdate) clearInterval(songsupdate);
+              songsupdate = null; // release songs update timer
             }
             if (somaComponent) somaComponent.activity.toggle();
             Lampa.Controller.toggle('content');
