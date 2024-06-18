@@ -92,16 +92,21 @@
     var error = 'There was a problem loading the list of songs for channel ' + title + ' from SomaFM.';
     var network = new Lampa.Reguest();
     network.timeout(5000)
-    network.native(apiurl, (resp) => {
-      console.log('SomaFM', resp);
-      var json = resp.json();
-      if(json.id){
-        console.log('SomaFM', 'songs', json.id);
-      }
-      if (!json.songs) return callback(error, []);
-      return callback(null, json.songs);
+    network.native(apiurl, (result) => {
+      console.log('SomaFM', result);
+      var songsJson = result.songs;
+      console.log('SomaFM', 'songsJson:', songsJson);
+      if (!result.songs) return callback(error, []);
+      return callback(null, result.songs);
     }, () => {
-    }, false, { dataType: 'text' })
+      return callback(error, [])
+    })
+
+    // network.native(apiurl, (resp) => {
+    //   console.log('SomaFM', resp);
+    //   return callback(null, json.songs);
+    // }, () => {
+    // }, false, { dataType: 'text' })
   }
 
   function getHighestQualityStream(channel, streams) {
