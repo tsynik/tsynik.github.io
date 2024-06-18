@@ -409,13 +409,14 @@
       // if ( !this.isCurrentChannel( channel ) ) { this.songs = []; this.track = {}; }
 
       fetchSongs(channel, (err, songs) => {
-        //console.log('SomaFM', 'getSongs songs size', songs.size(), 'err', err);
-        if (err || songs.size() < 1) return;
+        //console.log('SomaFM', 'getSongs songs', songs, 'err', err);
+        var size = Object.keys(songs).length;
+        if (err || size < 1) return;
         else {
           // console.log('SomaFM', 'fetchSongs return: songs', songs, 'err:', err);
           currTrack = songs.shift();
           lastSongs = songs.slice(0, 3);
-          console.log('SomaFM', "getSongs currTrack", currTrack, "songs:", songs.size());
+          console.log('SomaFM', "getSongs currTrack:", currTrack, "lastSongs:", lastSongs);
         }
       });
     }
