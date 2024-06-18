@@ -483,8 +483,8 @@
               info.destroy();
               info = false;
             }
-            // this.activity.toggle(); //_component.activity.toggle();
-            Lampa.Controller.toggle('content');
+            this.activity.toggle(); //_component.activity.toggle();
+            // Lampa.Controller.toggle('content');
           },
           // up: function up() {
           //   move(-1);
