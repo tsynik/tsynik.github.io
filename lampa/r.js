@@ -195,7 +195,8 @@
     })
   }
 
-  function component() {
+  function Component() {
+    var _component = this;
     var network = new Lampa.Reguest();
     var scroll = new Lampa.Scroll({
       mask: true,
@@ -360,7 +361,7 @@
 
   }
 
-  function player() {
+  function Player() {
     var player_html = Lampa.Template.get('somafm_player', {});
 
     var url = '';
@@ -431,11 +432,9 @@
       }
       audio.src = '';
       // remove info
-      if (showinfo) {
-        if (info) {
+      if (showinfo && info) {
           info.destroy();
           info = false;
-        }
       }
     }
     // handle audio stream state changes
@@ -471,7 +470,26 @@
       if (showinfo) {
         info = new Info(station);
         info.create();
-        // document.body.addClass('ambience--enable');
+        document.body.addClass('ambience--enable');
+        Lampa.Background.change(station.xlimage || img_bg);
+        Lampa.Controller.add('content', {
+          invisible: true,
+          toggle: function toggle() {
+            Lampa.Controller.clear();
+          },
+          back: function back() {
+            document.body.removeClass('ambience--enable');
+            //player.destroy();
+            _component.activity.toggle();
+          },
+          up: function up() {
+            move(-1);
+          },
+          down: function down() {
+            move(1);
+          }
+        });
+        Lampa.Controller.toggle('content');
       }      
       // url = data.aacfile ? data.aacfile : data.mp3file;
       Promise.resolve(station.stream.urls).then(value => {
@@ -505,7 +523,7 @@
     });
     $('.menu .menu__list').eq(0).append(menu_button);
     $('body').append(Lampa.Template.get('somafm_style', {}, true));
-    window.somafm_player = new player();
+    window.somafm_player = new Player();
     window.somafm_player.create();
   }
 
@@ -550,7 +568,7 @@
     Lampa.Template.add('somafm_cover', "<div class=\"somafm-cover\">\n		<div class=\"somafm-cover__img-container\">\n				<div class=\"somafm-cover__img-box\">\n						<img src=\"http://somafm.com/logos/SomaFM-Text-Logo-512.png\" />\n				</div>\n		</div>\n		<div class=\"somafm-cover__title\"></div>\n		<div class=\"somafm-cover__tooltip\"></div>\n</div>\n");
     Lampa.Template.add('somafm_style', "<style>\n.somafm-item {\n  margin-left: 1em;\n  margin-bottom: 1em;\n  width: 13%;\n  -webkit-flex-shrink: 0;\n  -ms-flex-negative: 0;\n  flex-shrink: 0;\n}\n.somafm-item__imgbox {\n  background-color: #3e3e3e;\n  padding-bottom: 100%;\n  position: relative;\n  -webkit-border-radius: 0.3em;\n  -moz-border-radius: 0.3em;\n  border-radius: 0.3em;\n}\n.somafm-item__img {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  -webkit-border-radius: 0.4em;\n  -moz-border-radius: 0.4em;\n  border-radius: 0.4em;\n}\n.somafm-item__name {\n  font-size: 1.1em;\n  margin-top: 0.8em;\n}\n.somafm-item.focus .somafm-item__imgbox:after {\n  border: solid 0.26em #fff;\n  content: \"\";\n  display: block;\n  position: absolute;\n  left: -0.5em;\n  top: -0.5em;\n  right: -0.5em;\n  bottom: -0.5em;\n  -webkit-border-radius: 0.8em;\n  -moz-border-radius: 0.8em;\n  border-radius: 0.8em;\n}\n@-webkit-keyframes sound {\n  0% {\n    height: 0.1em;\n  }\n  100% {\n    height: 1em;\n  }\n}\n@-moz-keyframes sound {\n  0% {\n    height: 0.1em;\n  }\n  100% {\n    height: 1em;\n  }\n}\n@-o-keyframes sound {\n  0% {\n    height: 0.1em;\n  }\n  100% {\n    height: 1em;\n  }\n}\n@keyframes sound {\n  0% {\n    height: 0.1em;\n  }\n  100% {\n    height: 1em;\n  }\n}\n@-webkit-keyframes sound-loading {\n  0% {\n    -webkit-transform: rotate(0deg);\n    transform: rotate(0deg);\n  }\n  100% {\n    -webkit-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n@-moz-keyframes sound-loading {\n  0% {\n    -moz-transform: rotate(0deg);\n    transform: rotate(0deg);\n  }\n  100% {\n    -moz-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n@-o-keyframes sound-loading {\n  0% {\n    -o-transform: rotate(0deg);\n    transform: rotate(0deg);\n  }\n  100% {\n    -o-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n@keyframes sound-loading {\n  0% {\n    -webkit-transform: rotate(0deg);\n    -moz-transform: rotate(0deg);\n    -o-transform: rotate(0deg);\n    transform: rotate(0deg);\n  }\n  100% {\n    -webkit-transform: rotate(360deg);\n    -moz-transform: rotate(360deg);\n    -o-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n.somafm-player {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -moz-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-border-radius: 0.3em;\n  -moz-border-radius: 0.3em;\n  border-radius: 0.3em;\n  padding: 0.2em 0.5em;\n  margin-left: 1em;\n  margin-right: 1em;\n  background-color: #3e3e3e;\n}\n.somafm-player__name {\n  margin-right: 0.35em;\n  white-space: nowrap;\n  overflow: hidden;\n  -o-text-overflow: ellipsis;\n  text-overflow: ellipsis;\n  max-width: 8em;\n}\n@media screen and (max-width: 580px) {\n  .somafm-item {\n    width: 21%;\n  }\n}\n@media screen and (max-width: 385px) {\n  .somafm-player__name {\n    display: none;\n  }\n  .somafm-item__name {\n    display: none;\n  }\n}\n.somafm-player__button {\n  position: relative;\n  width: 2em;\n  height: 2em;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -moz-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n  -moz-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  -webkit-flex-shrink: 0;\n  -ms-flex-negative: 0;\n  flex-shrink: 0;\n}\n.somafm-player__button > * {\n  opacity: 0.75;\n}\n.somafm-player__button i {\n  display: block;\n  width: 0.2em;\n  background-color: #fff;\n  margin: 0 0.1em;\n  -webkit-animation: sound 0ms -800ms linear infinite alternate;\n  -moz-animation: sound 0ms -800ms linear infinite alternate;\n  -o-animation: sound 0ms -800ms linear infinite alternate;\n  animation: sound 0ms -800ms linear infinite alternate;\n  -webkit-flex-shrink: 0;\n  -ms-flex-negative: 0;\n  flex-shrink: 0;\n}\n.somafm-player__button i:nth-child(1) {\n  -webkit-animation-duration: 474ms;\n  -moz-animation-duration: 474ms;\n  -o-animation-duration: 474ms;\n  animation-duration: 474ms;\n}\n.somafm-player__button i:nth-child(2) {\n  -webkit-animation-duration: 433ms;\n  -moz-animation-duration: 433ms;\n  -o-animation-duration: 433ms;\n  animation-duration: 433ms;\n}\n.somafm-player__button i:nth-child(3) {\n  -webkit-animation-duration: 407ms;\n  -moz-animation-duration: 407ms;\n  -o-animation-duration: 407ms;\n  animation-duration: 407ms;\n}\n.somafm-player__button i:nth-child(4) {\n  -webkit-animation-duration: 458ms;\n  -moz-animation-duration: 458ms;\n  -o-animation-duration: 458ms;\n  animation-duration: 458ms;\n}\n.somafm-player.stop .somafm-player__button {\n  -webkit-border-radius: 100%;\n  -moz-border-radius: 100%;\n  border-radius: 100%;\n  border: 0.2em solid rgba(255, 255, 255, 0.9);\n}\n.somafm-player.stop .somafm-player__button i {\n  display: none;\n}\n.somafm-player.stop .somafm-player__button:after {\n  content: \"\";\n  width: 0.5em;\n  height: 0.5em;\n  background-color: rgba(255, 255, 255, 0.9);\n}\n.somafm-player.loading .somafm-player__button:before {\n  content: \"\";\n  display: block;\n  border-top: 0.2em solid rgba(255, 255, 255, 0.9);\n  border-left: 0.2em solid transparent;\n  border-right: 0.2em solid transparent;\n  border-bottom: 0.2em solid transparent;\n  -webkit-animation: sound-loading 1s linear infinite;\n  -moz-animation: sound-loading 1s linear infinite;\n  -o-animation: sound-loading 1s linear infinite;\n  animation: sound-loading 1s linear infinite;\n  width: 0.9em;\n  height: 0.9em;\n  -webkit-border-radius: 100%;\n  -moz-border-radius: 100%;\n  border-radius: 100%;\n  -webkit-flex-shrink: 0;\n  -ms-flex-negative: 0;\n  flex-shrink: 0;\n}\n.somafm-player.loading .somafm-player__button i {\n  display: none;\n}\n.somafm-player.focus {\n  background-color: #fff;\n  color: #000;\n}\n.somafm-player.focus .somafm-player__button {\n  border-color: #000;\n}\n.somafm-player.focus .somafm-player__button i,\n.somafm-player.focus .somafm-player__button:after {\n  background-color: #000;\n}\n.somafm-player.focus .somafm-player__button:before {\n  border-top-color: #000;\n}\n.somafm-cover {\n  text-align: center;\n  line-height: 1.4;\n}\n.somafm-cover__img-container {\n  max-width: 20em;\n  margin: 0 auto;\n}\n.somafm-cover__img-box {\n  position: relative;\n  padding-bottom: 100%;\n  background-color: rgba(0, 0, 0, 0.3);\n  -webkit-border-radius: 1em;\n  -moz-border-radius: 1em;\n  border-radius: 1em;\n}\n.somafm-cover__img-box > img {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  -webkit-border-radius: 1em;\n  -moz-border-radius: 1em;\n  border-radius: 1em;\n  opacity: 0;\n}\n.somafm-cover__img-box.loaded {\n  background-color: transparent;\n}\n.somafm-cover__img-box.loaded > img {\n  opacity: 1;\n}\n.somafm-cover__img-box.loaded-icon {\n  background-color: rgba(0, 0, 0, 0.3);\n}\n.somafm-cover__img-box.loaded-icon > img {\n  left: 20%;\n  top: 20%;\n  width: 60%;\n  height: 60%;\n  opacity: 0.2;\n}\n.somafm-cover__title {\n  font-weight: 700;\n  font-size: 1.5em;\n  margin-top: 1em;\n}\n.somafm-cover__tooltip {\n  font-weight: 300;\n  font-size: 1.3em;\n  margin-top: 0.2em;\n}\n.somafm-info {\n  position: fixed;\n  z-index: 100;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -moz-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n  -moz-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n}\n.somafm-info__cover {\n  width: 30em;\n}\n.somafm-info__wave {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -moz-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n  -moz-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  margin-top: 2em;\n}\n.somafm-info__wave > div {\n  width: 2px;\n  background-color: #fff;\n  margin: 0 0.3em;\n  height: 1em;\n  opacity: 0;\n}\n.somafm-info__wave > div.loading {\n  -webkit-animation: somafmAnimationWaveLoading 400ms ease infinite;\n  -moz-animation: somafmAnimationWaveLoading 400ms ease infinite;\n  -o-animation: somafmAnimationWaveLoading 400ms ease infinite;\n  animation: somafmAnimationWaveLoading 400ms ease infinite;\n}\n.somafm-info__wave > div.play {\n  -webkit-animation: somafmAnimationWavePlay 50ms linear infinite alternate;\n  -moz-animation: somafmAnimationWavePlay 50ms linear infinite alternate;\n  -o-animation: somafmAnimationWavePlay 50ms linear infinite alternate;\n  animation: somafmAnimationWavePlay 50ms linear infinite alternate;\n}\n.somafm-info__close {\n  position: fixed;\n  top: 1.5em;\n  right: 50%;\n  margin-right: -2em;\n  -webkit-border-radius: 100%;\n  -moz-border-radius: 100%;\n  border-radius: 100%;\n  padding: 1em;\n  display: none;\n  background-color: rgba(255, 255, 255, 0.1);\n}\n.somafm-info__close > svg {\n  width: 1.5em;\n  height: 1.5em;\n}\nbody.true--mobile .somafm-info__close {\n  display: block;\n}\n@-webkit-keyframes somafmAnimationWaveLoading {\n  0% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  10% {\n    -webkit-transform: scale3d(1, 1.5, 1);\n    transform: scale3d(1, 1.5, 1);\n    opacity: 1;\n  }\n  20% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  100% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n}\n@-moz-keyframes somafmAnimationWaveLoading {\n  0% {\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  10% {\n    -moz-transform: scale3d(1, 1.5, 1);\n    transform: scale3d(1, 1.5, 1);\n    opacity: 1;\n  }\n  20% {\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  100% {\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n}\n@-o-keyframes somafmAnimationWaveLoading {\n  0% {\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  10% {\n    transform: scale3d(1, 1.5, 1);\n    opacity: 1;\n  }\n  20% {\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  100% {\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n}\n@keyframes somafmAnimationWaveLoading {\n  0% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  10% {\n    -webkit-transform: scale3d(1, 1.5, 1);\n    -moz-transform: scale3d(1, 1.5, 1);\n    transform: scale3d(1, 1.5, 1);\n    opacity: 1;\n  }\n  20% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  100% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n}\n@-webkit-keyframes somafmAnimationWavePlay {\n  0% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 0.3;\n  }\n  100% {\n    -webkit-transform: scale3d(1, 2, 1);\n    transform: scale3d(1, 2, 1);\n    opacity: 1;\n  }\n}\n@-moz-keyframes somafmAnimationWavePlay {\n  0% {\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 0.3;\n  }\n  100% {\n    -moz-transform: scale3d(1, 2, 1);\n    transform: scale3d(1, 2, 1);\n    opacity: 1;\n  }\n}\n@-o-keyframes somafmAnimationWavePlay {\n  0% {\n    transform: scale3d(1, 0.3, 1);\n    opacity: 0.3;\n  }\n  100% {\n    transform: scale3d(1, 2, 1);\n    opacity: 1;\n  }\n}\n@keyframes somafmAnimationWavePlay {\n  0% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 0.3;\n  }\n  100% {\n    -webkit-transform: scale3d(1, 2, 1);\n    -moz-transform: scale3d(1, 2, 1);\n    transform: scale3d(1, 2, 1);\n    opacity: 1;\n  }\n}\n</style>\n");
 
-    Lampa.Component.add("somafm", component);
+    Lampa.Component.add("somafm", Component);
 
     if (window.appready) add();
     else {
