@@ -496,13 +496,15 @@
             getSongs(currChannel);
             console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currTrack);
             if (currTrack.title)
-              document.body.find('.somafm-cover__title').text(currTrack.title);
+              info_html.find('.somafm-cover__title').text(currTrack.title);
+              //document.body.find('.somafm-cover__title').text(currTrack.title);
             var tooltip = [];
             if (currTrack.artist)
               tooltip.push(currTrack.artist)
             if (currTrack.album)
               tooltip.push(currTrack.album)
-              document.body.find('.somafm-cover__tooltip').text(tooltip.join(' ● ') || '');
+              info_html.find('.somafm-cover__tooltip').text(tooltip.join(' ● ') || '');
+              //document.body.find('.somafm-cover__tooltip').text(tooltip.join(' ● ') || '');
             // TODO: use for lastSongs
             // cover.find('.somafm-cover__nowplay').text(nowplay || '');
           }
