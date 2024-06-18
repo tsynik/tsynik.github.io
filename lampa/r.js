@@ -300,6 +300,14 @@
   function Info(station) {
     var info_html = Lampa.Template.js('somafm_info');
 
+    audio.addEventListener("playing", function (event) {
+      changeWave('play');
+    });
+
+    audio.addEventListener("waiting", function (event) {
+      changeWave('loading');
+    });
+
     function createWave() {
       var box = info_html.find('.somafm-info__wave');
       for (var i = 0; i < 15; i++) {
@@ -412,6 +420,7 @@
       // add info
       if (showinfo) {
         info = new Info(station);
+        info.attachMedia(audio);
         info.create();
         // document.body.addClass('ambience--enable');
       }      
@@ -430,8 +439,10 @@
       audio.src = '';
       // remove info
       if (showinfo) {
+        if (info) {
           info.destroy();
           info = false;
+        }
       }
     }
     // handle audio stream state changes
@@ -447,16 +458,10 @@
           Lampa.Screensaver.resetTimer();
         }, 5000);
       }
-      // info
-      // if (showinfo)
-      //   changeWave('play');
     });
     audio.addEventListener("waiting", function (event) {
       // console.log('SomaFM', 'got waiting event');
       player_html.toggleClass('loading', true);
-      // info
-      // if (showinfo)
-      //   changeWave('loading');
     });
     // handle player button click
     player_html.on('hover:enter', function () {
