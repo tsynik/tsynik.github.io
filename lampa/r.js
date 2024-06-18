@@ -92,10 +92,11 @@
     var error = 'There was a problem loading the list of songs for channel ' + title + ' from SomaFM.';
     var network = new Lampa.Reguest();
     network.timeout(5000)
-    network.native(apiurl, (json) => {
-      console.log('SomaFM', json);
-      if(json.songs){
-        console.log('SomaFM', 'songs', json.songs);
+    network.native(apiurl, (resp) => {
+      console.log('SomaFM', resp);
+      var json = resp.json();
+      if(json.id){
+        console.log('SomaFM', 'songs', json.id);
       }
       if (!json.songs) return callback(error, []);
       return callback(null, json.songs);
