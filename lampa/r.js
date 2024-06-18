@@ -479,15 +479,15 @@
           },
           back: function back() {
             document.body.removeClass('ambience--enable');
-            //player.destroy();
-            _component.activity.toggle();
+            // player.destroy();
+            // _component.activity.toggle();
           },
-          up: function up() {
-            move(-1);
-          },
-          down: function down() {
-            move(1);
-          }
+          // up: function up() {
+          //   move(-1);
+          // },
+          // down: function down() {
+          //   move(1);
+          // }
         });
         Lampa.Controller.toggle('content');
       }      
