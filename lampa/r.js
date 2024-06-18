@@ -402,9 +402,10 @@
         console.log('SomaFM', 'getSongs songs size', songs.size, 'err', err);
         if (err || songs.size < 1) return;
         else {
-          currTrack = songs.shift();
-          lastSongs = songs.slice(0, 3);
-          console.log('SomaFM', "getSongs currTrack", currTrack, "songs", songs);
+          console.log('SomaFM', 'fetchSongs return: songs', songs, 'err:', err);
+          // currTrack = songs.shift();
+          // lastSongs = songs.slice(0, 3);
+          // console.log('SomaFM', "getSongs currTrack", currTrack, "songs", songs);
         }
       });
     }
