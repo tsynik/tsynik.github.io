@@ -363,10 +363,10 @@
       };
       img_elm.src = station.largeimage;
 
-      var nowplay;
-      (station.track.title) ? nowplay += " Track: " + station.track.title : '';
-      (station.track.artist) ? nowplay += " Artist: " + station.track.artist : '';
-      (station.track.album) ? nowplay += " Album: " + station.track.album : '';
+      var nowplay = 'Now playing ';
+      (station.track.title) ? nowplay += station.track.title : '';
+      (station.track.artist) ? nowplay += " by " + station.track.artist : '';
+      (station.track.album) ? nowplay += " from " + station.track.album : '';
 
       cover.find('.somafm-cover__nowplay').text(nowplay || '');
 
