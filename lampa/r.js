@@ -414,9 +414,19 @@
       if (playingTrack.title)
         info_html.find('.somafm-cover__title').text(playingTrack.title);
 
+      if (fetchCovers) {
+        var genres = [];
+        if (station.title)
+          genres.push(station.title)
+        if (station.genre)
+          genres.push(station.genre)
+        if (station.dj)
+          genres.push(station.dj)
+        if (genres.length > 0)
+          info_html.find('.somafm-cover__genre').text(genres.join(' ● '));
+      }
+
       var tooltip = [];
-      if (fetchCovers)
-        tooltip.push(station.title);
       if (playingTrack.artist)
         tooltip.push(playingTrack.artist);
       if (playingTrack.album)
