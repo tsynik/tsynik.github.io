@@ -331,7 +331,7 @@
   var albumCoverCache = {};
 
   // https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1
-  function getTrackCover(title, album, artist, callback) {
+  function getTrackCover(title, album, callback) {
     var albumHash = Lampa.Utils.hash(album);
     var setTrackCover = callback || function () { };
     if (albumHash && albumCoverCache[albumHash]) {
@@ -340,14 +340,13 @@
     }
     var network = new Lampa.Reguest();
     if (noCoverTitle.indexOf(title) < 0) {
-      var filtered = [];
-      //var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&limit=1';
-      var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&entity=musicTrack&attribute=songTerm&limit=100';
+      //var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music';
+      //var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&entity=musicTrack&attribute=songTerm&limit=100';
       network.native(
         request,
         function (data) {
           var bigCover = false;
-          filtered = data['results'].filter(result => result.artistName.toLowerCase() === artist.toLowerCase() || result.collectionName.toLowerCase() === album.toLowerCase());
+          var filtered = data['results'].filter(result => result.collectionName.toLowerCase() === album.toLowerCase());
           console.log('SomaFM', 'getTrackCover request:', request, 'data resultCount', data['resultCount'], "filtered", filtered.length);
 
           if (!data || !data['resultCount'] || !data['results'] || !data['results'][0]['artworkUrl100'] | !filtered.length > 0) {
@@ -425,7 +424,7 @@
       if (albumart)
         setTrackCover(albumart);
       else
-        getTrackCover(playingTrack.title, playingTrack.album, playingTrack.artist, setTrackCover);
+        getTrackCover(playingTrack.artist + " - " + playingTrack.title, playingTrack.album, setTrackCover);
     }
 
     audio.addEventListener("playing", function (event) {
