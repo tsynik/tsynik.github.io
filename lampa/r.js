@@ -322,9 +322,9 @@
     var lastSongs = [];
 
     getSongs(station);
-
+    // Playing Info update task 
     audio.addEventListener("play", function (event) {
-      if (!songsupdate) { // Playing Info update task 
+      if (!songsupdate) {
         songsupdate = setInterval(function () {
           getSongs(station);
           updatePlayingInfo(currTrack);
