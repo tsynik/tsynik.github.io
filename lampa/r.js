@@ -332,6 +332,7 @@
     var currTrack = {};
     var lastSongs = [];
     var noCoverTitle = [];
+    var img_elm;
 
     getSongs(station);
     // Playing Info update task 
@@ -359,8 +360,6 @@
       });
     }
 
-    var coverImg = $('.somafm-cover__img-box img')[0];
-
     function getTrackCover(title) {
       var currentCoverTitle = title;
       var network = new Lampa.Reguest();
@@ -377,12 +376,12 @@
 
     function setTrackCover(title, data) {
       if (!data || !data['resultCount'] || !data['results'] || !data['results'][0]['artworkUrl100']) {
-        coverImg.src = station.xlimage; // Дефолтный ковер от станции
+        img_elm.src = station.xlimage; // Дефолтный ковер от станции
         if (data !== false) {
           noCoverTitle.push(title);
         }
       } else {
-        coverImg.src = data['results'][0]['artworkUrl100'].replace('100x100bb.jpg', '500x500bb.jpg'); // увеличиваем разрешение
+        img_elm.src = data['results'][0]['artworkUrl100'].replace('100x100bb.jpg', '500x500bb.jpg'); // увеличиваем разрешение
       }
     }
 
@@ -399,8 +398,9 @@
       // TODO: use playlist for lastSongs
       // info_html.find('.somafm-cover__playlist').text(playlist);
       var albumart = playingTrack.albumart;
+      var coverImg = info_html.find('.somafm-cover__title')
       if(albumart)
-        coverImg.src = albumart
+        img_elm.src = albumart
       else
         getTrackCover(playingTrack.title);
     }
@@ -440,7 +440,7 @@
       var img_box = cover.find('.somafm-cover__img-box');
       img_box.removeClass('loaded loaded-icon');
 
-      var img_elm = img_box.find('img');
+      img_elm = img_box.find('img');
       img_elm.onload = function () {
         img_box.addClass('loaded');
       };
