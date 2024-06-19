@@ -321,6 +321,8 @@
     var currTrack = {};
     var lastSongs = [];
 
+    getSongs(station);
+
     audio.addEventListener("play", function (event) {
       if (!songsupdate) {
         songsupdate = setInterval(function () {
@@ -356,7 +358,7 @@
         tooltip.push(playingTrack.artist);
       if (playingTrack.album)
         tooltip.push(playingTrack.album);
-      if (tooltip)
+      if (tooltip.length > 0)
         info_html.find('.somafm-cover__tooltip').text(tooltip.join(' ● '));
       //document.body.find('.somafm-cover__tooltip').text(tooltip.join(' ● ') || '');
       // TODO: use for lastSongs
@@ -421,6 +423,8 @@
       info_html.remove();
       clearInterval(songsupdate);
       songsupdate = null; // release songs update timer
+      currTrack = {};
+      lastSongs = [];
     };
 
   }
