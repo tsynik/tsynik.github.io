@@ -326,7 +326,7 @@
     };
   }
 
-  var songsupdate;
+
   var noCoverTitle = [];
   var albumCoverCache = {};
 
@@ -375,20 +375,21 @@
     var currTrack = {};
     var lastSongs = [];
     var img_elm;
+    var songsupdate;
+
     if (songsupdate) {
       clearInterval(songsupdate);
       songsupdate = null;
     }
-
     getSongs(station);
     // Playing Info update task
-    audio.addEventListener("play", function (event) {
-      if (!songsupdate) {
-        songsupdate = setInterval(function () {
-          getSongs(station);
-        }, 5000);
-      }
-    });
+    // audio.addEventListener("play", function (event) {
+    //   if (!songsupdate) {
+    songsupdate = setInterval(function () {
+      getSongs(station);
+    }, 5000);
+    //   }
+    // });
 
     // get songs list for a channel from api
     function getSongs(channel) {
