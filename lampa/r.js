@@ -359,7 +359,7 @@
       });
     }
 
-    var coverImg = info_html.find('.somafm-cover__img-box').find('img'); // $('.cover-img')[0];
+    var coverImg = $('.somafm-cover__img-box img')[0];
 
     function getTrackCover(title) {
       var currentCoverTitle = title;
