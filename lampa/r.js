@@ -78,8 +78,8 @@
         channel.updated = channel.updated | 0;
         channel.favorite = false;
         channel.active = false;
-        channel.genre = channel.genre.replace(/\|/g, ' ● '),
-          output.push(channel);
+        channel.genre = channel.genre.replace(/\|/g, ' ● ');
+        output.push(channel);
       }
     }
     return output;

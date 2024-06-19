@@ -1,5 +1,4 @@
 // SomaFM Radio plugin for Lampa by @tsynik
-// https://somafm.com/channels.xml
 // https://somafm.com/channels.json
 // https://github.com/rainner/soma-fm-player
 // https://codeberg.org/cuschk/somafm
@@ -79,11 +78,27 @@
         channel.updated = channel.updated | 0;
         channel.favorite = false;
         channel.active = false;
-        channel.genre = channel.genre.replace(/\|/g, ' ● ') // '/'
+        channel.genre = channel.genre.replace(/\|/g, ' ● ');
         output.push(channel);
       }
     }
     return output;
+  }
+
+  // fetch songs for a channel
+  function fetchSongs(channel, callback) {
+    var apiurl = channel.songsurl || '';
+    var title = channel.title || '...';
+    var error = 'There was a problem loading the list of songs for channel ' + title + ' from SomaFM.';
+
+    var network = new Lampa.Reguest();
+    network.timeout(5000)
+    network.native(apiurl, (result) => {
+      if (!result.songs) return callback(error, []);
+      return callback(null, result.songs);
+    }, () => {
+      return callback(error, [])
+    })
   }
 
   function getHighestQualityStream(channel, streams) {
@@ -302,6 +317,50 @@
 
   function Info(station) {
     var info_html = Lampa.Template.js('somafm_info');
+    var songsupdate;
+    var currTrack = {};
+    var lastSongs = [];
+
+    getSongs(station);
+    // Playing Info update task 
+    audio.addEventListener("play", function (event) {
+      if (!songsupdate) {
+        songsupdate = setInterval(function () {
+          getSongs(station);
+          updatePlayingInfo(currTrack);
+        }, 5000);
+      }
+    });
+
+    // get songs list for a channel from api
+    function getSongs(channel) {
+      if (!channel || !channel.id || !channel.songsurl) return;
+      // if ( !this.isCurrentChannel( channel ) ) { this.songs = []; this.track = {}; }
+
+      fetchSongs(channel, (err, songs) => {
+        var size = Object.keys(songs).length;
+        if (err || size < 1) return;
+        else {
+          currTrack = songs.shift();
+          lastSongs = songs.slice(0, 3);
+        }
+      });
+    }
+
+    function updatePlayingInfo(playingTrack) {
+      // if (!showinfo) return;
+      if (playingTrack.title)
+        info_html.find('.somafm-cover__title').text(playingTrack.title);
+      var tooltip = [];
+      if (playingTrack.artist)
+        tooltip.push(playingTrack.artist);
+      if (playingTrack.album)
+        tooltip.push(playingTrack.album);
+      if (tooltip.length > 0)
+        info_html.find('.somafm-cover__tooltip').text(tooltip.join(' ● '));
+      // TODO: use nowplay for lastSongs
+      // info_html.find('.somafm-cover__nowplay').text(nowplay || '');
+    }
 
     audio.addEventListener("playing", function (event) {
       changeWave('play');
@@ -359,12 +418,16 @@
 
     this.destroy = function () {
       info_html.remove();
+      clearInterval(songsupdate);
+      songsupdate = null; // release songs update timer
+      currTrack = {};
+      lastSongs = [];
     };
 
   }
 
   function Player() {
-  
+
     var player_html = Lampa.Template.get('somafm_player', {});
 
     var url = '';
@@ -372,6 +435,7 @@
     var played = false;
     var hls;
     var screenreset;
+
     var info; // = window.somafm_info;
     var showinfo = true;
 
@@ -442,11 +506,9 @@
     }
     // handle audio stream state changes
     audio.addEventListener("play", function (event) {
-      // console.log('SomaFM', 'got play event');
       played = true;
     });
     audio.addEventListener("playing", function (event) {
-      // console.log('SomaFM', 'got playing event');
       player_html.toggleClass('loading', false);
       if (!screenreset) {
         screenreset = setInterval(function () {
@@ -455,7 +517,6 @@
       }
     });
     audio.addEventListener("waiting", function (event) {
-      // console.log('SomaFM', 'got waiting event');
       player_html.toggleClass('loading', true);
     });
     // handle player button click
@@ -474,7 +535,7 @@
         info = new Info(station);
         info.create();
         document.body.addClass('ambience--enable');
-        Lampa.Background.change(station.xlimage || IMG_BG);
+        Lampa.Background.change(station.image || IMG_BG);
         Lampa.Controller.add('content', {
           invisible: true,
           toggle: function toggle() {
