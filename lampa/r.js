@@ -346,7 +346,11 @@
         request,
         function (data) {
           var bigCover = false;
-          var filtered = data['results'].filter(result => result.collectionName.toLowerCase() === album.toLowerCase());
+          var filtered = data['results'].filter(function (result) {
+            return result.collectionName.toLowerCase().indexOf(album.toLowerCase()) >= 0
+              || album.toLowerCase.indexOf(result.collectionName.toLowerCase()) >= 0
+          }
+          );
           console.log('SomaFM', 'getTrackCover request:', request, 'data resultCount', data['resultCount'], "filtered", filtered.length);
 
           if (!data || !data['resultCount'] || !data['results'] || !data['results'][0]['artworkUrl100'] || !filtered.length > 0) {
