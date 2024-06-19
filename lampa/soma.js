@@ -384,7 +384,7 @@
     // getSongs(station); // no delay on show info
     // Playing Info update task{
     songsupdate = setInterval(function () {
-      console.log('SomaFM', 'getSongs for', station.id);
+      // console.log('SomaFM', 'getSongs for', station.id);
       getSongs(station);
     }, 10000);
 
