@@ -373,7 +373,7 @@
         network.native( // 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&limit=1',
           request,
           function (data) {
-            var filtered = data['results'].filter(result => result.artistName.toLowerCase() == artist.toLowerCase()); // || result.collectionName.toLowerCase() === album.toLowerCase()));
+            var filtered = data['results'].filter(result => result.artistName.toLowerCase() === artist.toLowerCase() || result.collectionName.toLowerCase() === album.toLowerCase());
             filterMatch = filtered.length > 0
             console.log('SomaFM', 'getTrackCover request:', request, 'data resultCount', data['resultCount'], "filtered", filtered, "filterMatch", filterMatch);
             setTrackCover(currentCoverTitle, data, filterMatch);
@@ -416,7 +416,7 @@
         img_elm.src = albumart
         Lampa.Background.change(albumart);
       } else
-        getTrackCover(playingTrack.title);
+        getTrackCover(playingTrack.title, playingTrack.album, playingTrack.artist);
     }
 
     audio.addEventListener("playing", function (event) {
