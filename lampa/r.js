@@ -324,12 +324,11 @@
     getSongs(station);
 
     audio.addEventListener("play", function (event) {
-      if (!songsupdate) {
+      if (!songsupdate) { // Playing Info update task 
         songsupdate = setInterval(function () {
           getSongs(station);
-          // console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currTrack);
           updatePlayingInfo(currTrack);
-        }, 15000);
+        }, 5000);
       }
     });
 
@@ -352,7 +351,6 @@
       // if (!showinfo) return;
       if (playingTrack.title)
         info_html.find('.somafm-cover__title').text(playingTrack.title);
-        //document.body.find('.somafm-cover__title').text(playingTrack.title);
       var tooltip = [];
       if (playingTrack.artist)
         tooltip.push(playingTrack.artist);
@@ -360,9 +358,8 @@
         tooltip.push(playingTrack.album);
       if (tooltip.length > 0)
         info_html.find('.somafm-cover__tooltip').text(tooltip.join(' ● '));
-      //document.body.find('.somafm-cover__tooltip').text(tooltip.join(' ● ') || '');
-      // TODO: use for lastSongs
-      // document.body.find('.somafm-cover__nowplay').text(nowplay || '');
+      // TODO: use nowplay for lastSongs
+      // info_html.find('.somafm-cover__nowplay').text(nowplay || '');
     }
 
     audio.addEventListener("playing", function (event) {
