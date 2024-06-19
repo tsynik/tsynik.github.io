@@ -158,7 +158,6 @@
 
   function getUrlsFromPlaylist(playlistUrl) {
     return new Promise((resolve, reject) => {
-      var error = 'There was a problem parse urls from playlist ' + playlistUrl + ' from SomaFM.';
       var network = new Lampa.Reguest();
       network.timeout(5000)
       network.native(playlistUrl, (response) => {
@@ -171,14 +170,12 @@
             result.push(data.playlist[key]);
           }
           resolve(result);
-        } catch (e) {
-          console.log('SomaFM', error, e.message);
-          reject(e);
+        } catch (error) {
+          console.log('SomaFM', error);
+          reject(error);
         }
       }, () => {
-        console.log('SomaFM', error);
-        return reject(error)
-      });
+      }, false, { dataType: 'text' })
     });
   }
 
