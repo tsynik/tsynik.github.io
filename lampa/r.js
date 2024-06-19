@@ -317,6 +317,48 @@
 
   function Info(station) {
     var info_html = Lampa.Template.js('somafm_info');
+    var songsupdate;
+    var currTrack = {};
+    var lastSongs = [];
+
+    audio.addEventListener("play", function (event) {
+      if (!songsupdate) {
+        songsupdate = setInterval(function () {
+          getSongs(station);
+          // console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currTrack);
+          updatePlayingInfo(currTrack);
+        }, 15000);
+      }
+    });
+
+    // get songs list for a channel from api
+    function getSongs(channel) {
+      if (!channel || !channel.id || !channel.songsurl) return;
+      // if ( !this.isCurrentChannel( channel ) ) { this.songs = []; this.track = {}; }
+
+      fetchSongs(channel, (err, songs) => {
+        var size = Object.keys(songs).length;
+        if (err || size < 1) return;
+        else {
+          currTrack = songs.shift();
+          lastSongs = songs.slice(0, 3);
+        }
+      });
+    }
+
+    function updatePlayingInfo(playingTrack) {
+      // if (!showinfo) return;
+      if (playingTrack.title)
+        document.body.find('.somafm-cover__title').text(playingTrack.title);
+      var tooltip = [];
+      if (playingTrack.artist)
+        tooltip.push(playingTrack.artist);
+      if (playingTrack.album)
+        tooltip.push(playingTrack.album);
+      document.body.find('.somafm-cover__tooltip').text(tooltip.join(' ● ') || '');
+      // TODO: use for lastSongs
+      // document.body.find('.somafm-cover__nowplay').text(nowplay || '');
+    }
 
     audio.addEventListener("playing", function (event) {
       changeWave('play');
@@ -374,6 +416,8 @@
 
     this.destroy = function () {
       info_html.remove();
+      clearInterval(songsupdate);
+      songsupdate = null; // release songs update timer
     };
 
   }
@@ -384,45 +428,12 @@
 
     var url = '';
     var format = '';
-    var currChannel; // track channel for songs update
-    var currTrack = {};
-    var lastSongs = [];
     var played = false;
     var hls;
     var screenreset;
-    var songsupdate;
+
     var info; // = window.somafm_info;
     var showinfo = true;
-
-    // get songs list for a channel from api
-    function getSongs(channel) {
-      if (!channel || !channel.id || !channel.songsurl) return;
-      // if ( !this.isCurrentChannel( channel ) ) { this.songs = []; this.track = {}; }
-
-      fetchSongs(channel, (err, songs) => {
-        var size = Object.keys(songs).length;
-        if (err || size < 1) return;
-        else {
-          currTrack = songs.shift();
-          lastSongs = songs.slice(0, 3);
-        }
-      });
-    }
-
-    function updatePlayingInfo(playingTrack) {
-      if (!showinfo)
-        return;
-      if (playingTrack.title)
-        document.body.find('.somafm-cover__title').text(playingTrack.title);
-      var tooltip = [];
-      if (playingTrack.artist)
-        tooltip.push(playingTrack.artist);
-      if (playingTrack.album)
-        tooltip.push(playingTrack.album);
-      document.body.find('.somafm-cover__tooltip').text(tooltip.join(' ● ') || '');
-      // TODO: use for lastSongs
-      // document.body.find('.somafm-cover__nowplay').text(nowplay || '');
-    }
 
     function prepare() {
       if (audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
@@ -475,8 +486,6 @@
     function stop() {
       clearInterval(screenreset);
       screenreset = null; // release timer from the variable
-      clearInterval(songsupdate);
-      songsupdate = null; // release songs update timer
       played = false;
       player_html.toggleClass('stop', true);
       player_html.toggleClass('loading', false);
@@ -493,29 +502,17 @@
     }
     // handle audio stream state changes
     audio.addEventListener("play", function (event) {
-      // console.log('SomaFM', 'got play event');
       played = true;
     });
     audio.addEventListener("playing", function (event) {
-      // console.log('SomaFM', 'got playing event');
       player_html.toggleClass('loading', false);
       if (!screenreset) {
         screenreset = setInterval(function () {
           Lampa.Screensaver.resetTimer();
         }, 5000);
       }
-      if (!songsupdate) {
-        songsupdate = setInterval(function () {
-          if (currChannel) {
-            getSongs(currChannel);
-            // console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currTrack);
-            updatePlayingInfo(currTrack);
-          }
-        }, 15000);
-      }
     });
     audio.addEventListener("waiting", function (event) {
-      // console.log('SomaFM', 'got waiting event');
       player_html.toggleClass('loading', true);
     });
     // handle player button click
@@ -531,14 +528,10 @@
       stop();
       // add info
       if (showinfo) {
-        currChannel = station;
-        getSongs(currChannel);
-        // console.log('SomaFM', 'currChannel', currChannel.id, 'currTrack', currChannel.track);
-        info = new Info(currChannel);
+        info = new Info(station);
         info.create();
-        updatePlayingInfo(currTrack);
         document.body.addClass('ambience--enable');
-        Lampa.Background.change(currChannel.xlimage || IMG_BG);
+        Lampa.Background.change(station.image || IMG_BG);
         Lampa.Controller.add('content', {
           invisible: true,
           toggle: function toggle() {
@@ -550,9 +543,6 @@
             if (showinfo && info) {
               info.destroy();
               info = false;
-              if (songsupdate)
-                clearInterval(songsupdate);
-              songsupdate = null; // release songs update timer
             }
             if (somaComponent) somaComponent.activity.toggle();
             Lampa.Controller.toggle('content');
