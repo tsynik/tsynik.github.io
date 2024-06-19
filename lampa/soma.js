@@ -77,7 +77,7 @@
         var streamHighestQuality = getHighestQualityStream(channel, PREFERRED_STREAMS);
         channel.stream = streamHighestQuality;
         channel.stream.urls = getStreamUrls(channel);
-        channel.plsfile = 'https://api.somafm.com/' + channel.id + '.pls';
+        // channel.plsfile = 'https://api.somafm.com/' + channel.id + '.pls';
         // channel.mp3file = 'https://ice1.somafm.com/' + channel.id + '-128-mp3';
         // channel.aacfile = 'https://ice1.somafm.com/' + channel.id + '-128-aac';
         channel.songsurl = 'https://somafm.com/songs/' + channel.id + '.json';
@@ -326,19 +326,66 @@
     };
   }
 
+  var songsupdate;
+  var noCoverTitle = [];
+  var albumCoverCache = {};
+
+  // https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1
+  function getTrackCover(title, album, callback) {
+    var albumHash = Lampa.Utils.hash(album);
+    var setTrackCover = callback || function () { };
+    if (albumHash && albumCoverCache[albumHash]) {
+      setTrackCover(albumCoverCache[albumHash]);
+      return;
+    }
+    var network = new Lampa.Reguest();
+    if (noCoverTitle.indexOf(title) < 0) {
+      var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music';
+      //var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&entity=musicTrack&attribute=songTerm&limit=100';
+      network.native(
+        request,
+        function (data) {
+          var bigCover = false;
+          var filtered = data['results'].filter(
+            function (result) {
+              return result.collectionName && (result.collectionName.toLowerCase().indexOf(album.toLowerCase()) >= 0
+                || album.toLowerCase().indexOf(result.collectionName.toLowerCase()) >= 0)
+            });
+          console.log('SomaFM', 'getTrackCover request:', request, 'data resultCount', data['resultCount'], "filtered", filtered.length);
+
+          if (!data || !data['resultCount'] || !data['results'] || !data['results'][0]['artworkUrl100'] || !filtered.length > 0) {
+            if (data !== false) {
+              noCoverTitle.push(title);
+            }
+          } else {
+            bigCover = filtered[0]['artworkUrl100'].replace('100x100bb.jpg', '500x500bb.jpg'); // увеличиваем разрешение
+            albumCoverCache[albumHash] = bigCover;
+          }
+          setTrackCover(bigCover)
+        },
+        function () { setTrackCover(false) }
+      );
+    } else {
+      setTrackCover(false);
+    }
+  }
+
   function Info(station) {
     var info_html = Lampa.Template.js('somafm_info');
-    var songsupdate;
     var currTrack = {};
     var lastSongs = [];
+    var img_elm;
+    if (songsupdate) {
+      clearInterval(songsupdate);
+      songsupdate = null;
+    }
 
     getSongs(station);
-    // Playing Info update task 
+    // Playing Info update task
     audio.addEventListener("play", function (event) {
       if (!songsupdate) {
         songsupdate = setInterval(function () {
           getSongs(station);
-          updatePlayingInfo(currTrack);
         }, 5000);
       }
     });
@@ -350,17 +397,39 @@
 
       fetchSongs(channel, (err, songs) => {
         var size = Object.keys(songs).length;
-        if (err || size < 1) return;
-        else {
+        if (!err && size > 0
+          && (!currTrack.date || (songs[0].date && currTrack.date !== songs[0].date))
+        ) {
           currTrack = songs.shift();
           lastSongs = songs.slice(0, 3);
+          updatePlayingInfo(currTrack);
         }
       });
     }
 
+    function setTrackCover(cover) {
+      img_elm.src = cover || station.xlimage;
+      Lampa.Background.change(img_elm.src);
+    }
+
     function updatePlayingInfo(playingTrack) {
+      var fetchCovers = Lampa.Storage.field('somafm_fetch_covers');
+
       if (playingTrack.title)
         info_html.find('.somafm-cover__title').text(playingTrack.title);
+
+      if (fetchCovers) {
+        var genres = [];
+        if (station.title)
+          genres.push(station.title)
+        if (station.genre)
+          genres.push(station.genre)
+        // if (station.dj)
+        //   genres.push(station.dj)
+        if (genres.length > 0)
+          info_html.find('.somafm-cover__genre').text(genres.join(' ● '));
+      }
+
       var tooltip = [];
       if (playingTrack.artist)
         tooltip.push(playingTrack.artist);
@@ -368,8 +437,15 @@
         tooltip.push(playingTrack.album);
       if (tooltip.length > 0)
         info_html.find('.somafm-cover__tooltip').text(tooltip.join(' ● '));
+
       // TODO: use playlist for lastSongs
       // info_html.find('.somafm-cover__playlist').text(playlist);
+
+      var albumart = playingTrack.albumart;
+      if (albumart)
+        setTrackCover(albumart);
+      else if (fetchCovers)
+        getTrackCover(playingTrack.artist + " - " + playingTrack.title, playingTrack.album, setTrackCover);
     }
 
     audio.addEventListener("playing", function (event) {
@@ -407,7 +483,7 @@
       var img_box = cover.find('.somafm-cover__img-box');
       img_box.removeClass('loaded loaded-icon');
 
-      var img_elm = img_box.find('img');
+      img_elm = img_box.find('img');
       img_elm.onload = function () {
         img_box.addClass('loaded');
       };
@@ -625,7 +701,7 @@
         name: Lampa.Lang.translate('somafm_use_aac_title'),
         description: Lampa.Lang.translate('somafm_use_aac_desc')
       },
-      onRender: function onRender(item) {}
+      onRender: function onRender(item) { }
     });
 
     Lampa.SettingsApi.addParam({
@@ -640,7 +716,7 @@
         name: Lampa.Lang.translate('somafm_show_info_title'),
         description: Lampa.Lang.translate('somafm_show_info_desc')
       },
-      onRender: function onRender(item) {}
+      onRender: function onRender(item) { }
     });
 
     Lampa.SettingsApi.addParam({
@@ -655,7 +731,22 @@
         name: Lampa.Lang.translate('somafm_sort_stations_title'),
         description: Lampa.Lang.translate('somafm_sort_stations_desc')
       },
-      onRender: function onRender(item) {}
+      onRender: function onRender(item) { }
+    });
+
+    Lampa.SettingsApi.addParam({
+      component: 'somafm',
+      param: {
+        name: 'somafm_fetch_covers',
+        type: 'trigger',
+        values: '',
+        "default": true
+      },
+      field: {
+        name: Lampa.Lang.translate('somafm_fetch_covers_title'),
+        description: Lampa.Lang.translate('somafm_fetch_covers_desc')
+      },
+      onRender: function onRender(item) { }
     });
 
   }
@@ -695,7 +786,7 @@
         he: "העדיפו זרמי AAC אם זמינים"
       },
       somafm_show_info_title: {
-        ru: "Показывать инфо",
+        ru: "Показывать информацию",
         en: "Show Info screen",
         uk: "Показати екран інформації",
         be: "Паказаць экран інфармацыі",
@@ -734,6 +825,26 @@
         bg: "Сортиране на списъка със станции по слушатели",
         he: "מיון רשימת תחנות לפי מאזינים"
       },
+      somafm_fetch_covers_title: {
+        ru: "Получать обложки",
+        en: "Fetch Music Covers",
+        uk: "Отримати обкладинки",
+        be: "Атрымаць вокладкі",
+        zh: "获取音乐封面",
+        pt: "Buscar capas de músicas",
+        bg: "Извличане на обложки",
+        he: "אחזר עטיפות מוזיקה"
+      },
+      somafm_fetch_covers_desc: {
+        ru: "Загружать обложки альбомов с Apple Music",
+        en: "Search music covers on Apple Music",
+        uk: "Пошук музичних обкладинок в Apple Music",
+        be: "Пошук вокладак музыкі ў Apple Music",
+        zh: "在 Apple Music 上搜索音乐封面",
+        pt: "Pesquisando capas de músicas no Apple Music",
+        bg: "Търсене на музикални обложки в Apple Music",
+        he: "חיפוש עטיפות מוזיקה ב-Apple Music"
+      },
       somafm_error: {
         ru: "Ошибка загрузки данных",
         en: "Error loading stations",
@@ -748,7 +859,7 @@
 
     var manifest = {
       type: 'audio',
-      version: '1.0.2',
+      version: '1.0.3',
       name: Lampa.Lang.translate('somafm_title'),
       description: 'Over 30 unique channels of listener-supported, commercial-free, underground/alternative radio broadcasting to the world. All music hand-picked by SomaFM`s award-winning DJs and music directors.',
       component: 'radio'
