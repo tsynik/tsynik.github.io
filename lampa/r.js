@@ -381,16 +381,12 @@
       clearInterval(songsupdate);
       songsupdate = null;
     }
-    // getSongs(station);
-    // Playing Info update task
-    // audio.addEventListener("play", function (event) {
-    //   if (!songsupdate) {
+    // getSongs(station); // no delay on show info
+    // Playing Info update task{
     songsupdate = setInterval(function () {
       console.log('SomaFM', 'getSongs for', station.id);
       getSongs(station);
     }, 10000);
-    //   }
-    // });
 
     // get songs list for a channel from api
     function getSongs(channel) {
