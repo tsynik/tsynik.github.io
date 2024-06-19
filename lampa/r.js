@@ -420,8 +420,8 @@
           genres.push(station.title)
         if (station.genre)
           genres.push(station.genre)
-        if (station.dj)
-          genres.push(station.dj)
+        // if (station.dj)
+        //   genres.push(station.dj)
         if (genres.length > 0)
           info_html.find('.somafm-cover__genre').text(genres.join(' ● '));
       }
@@ -431,8 +431,6 @@
         tooltip.push(playingTrack.artist);
       if (playingTrack.album)
         tooltip.push(playingTrack.album);
-      if (station.dj)
-        tooltip.push(station.dj);
       if (tooltip.length > 0)
         info_html.find('.somafm-cover__tooltip').text(tooltip.join(' ● '));
 
