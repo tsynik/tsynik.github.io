@@ -361,24 +361,34 @@
       });
     }
 
-    function getTrackCover(title) {
+    // https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1
+    function getTrackCover(title, album, artist) {
       if (currentCoverTitle === title)
         return; // avoid excessive updates
       currentCoverTitle = title;
       var network = new Lampa.Reguest();
       if (noCoverTitle.indexOf(title) < 0) {
-        network.native(
-          'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&limit=1',
-          function (data) { setTrackCover(currentCoverTitle, data) },
-          function () { setTrackCover(currentCoverTitle, false) }
+        var filterMatch = false;
+        network.native( // 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&limit=1',
+          'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&entity=musicTrack&attribute=songTerm&limit=100',
+          function (data) {
+            var filtered = data['results']
+            .filter(artistName => artistName.includes(artist))
+            .filter(collectionName => collectionName.includes(album))
+            filterMatch = ( data['results'].filter(collectionName => collectionName.includes(album)).length > 0 // match album
+            || data['results'].filter(artistName => artistName.includes(artist)).length > 0 ) // match artist
+            console.log('SomaFM', 'getTrackCover data resultCount', data['resultCount'], "filtered", filtered, "filterMatch", filterMatch);
+            setTrackCover(currentCoverTitle, data, filterMatch);
+          },
+          function () { setTrackCover(currentCoverTitle, false, filterMatch) }
         );
       } else {
-        setTrackCover(currentCoverTitle, false);
+        setTrackCover(currentCoverTitle, false, filterMatch);
       }
     }
 
-    function setTrackCover(title, data) {
-      if (!data || !data['resultCount'] || !data['results'] || !data['results'][0]['artworkUrl100']) {
+    function setTrackCover(title, data, filterMatch) {
+      if (!data || !data['resultCount'] || !data['results'] || !data['results'][0]['artworkUrl100'] || !filterMatch) {
         img_elm.src = station.xlimage; // Дефолтный ковер от станции
         Lampa.Background.change(station.xlimage);
         if (data !== false) {
