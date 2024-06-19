@@ -627,7 +627,7 @@
 
     var manifest = {
       type: 'audio',
-      version: '1.0.0',
+      version: '1.0.1',
       name: Lampa.Lang.translate('somafm_title'),
       description: 'Over 30 unique channels of listener-supported, commercial-free, underground/alternative radio broadcasting to the world. All music hand-picked by SomaFM`s award-winning DJs and music directors.',
       component: 'radio'
