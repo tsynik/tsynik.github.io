@@ -331,6 +331,7 @@
     var songsupdate;
     var currTrack = {};
     var lastSongs = [];
+    var noCoverTitle = [];
 
     getSongs(station);
     // Playing Info update task 
@@ -358,6 +359,33 @@
       });
     }
 
+    // var coverImg = info_html.find('.somafm-cover__img-box').find('img'); // $('.cover-img')[0];
+    
+    function getTrackCover(title) {
+      var currentCoverTitle = title;
+      var network = new Lampa.Reguest();
+      if (noCoverTitle.indexOf(title) < 0) {
+        network.native(
+          'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&limit=1',
+          function (data) { setTrackCover(currentCoverTitle, data) },
+          function () { setTrackCover(currentCoverTitle, false) }
+        );
+      } else {
+        setTrackCover(currentCoverTitle, false);
+      }
+    }
+
+    function setTrackCover(title, data) {
+      if (!data || !data['resultCount'] || !data['results'] || !data['results'][0]['artworkUrl100']) {
+        img_elm.src = station.xlimage; // Дефолтный ковер от станции
+        if (data !== false) {
+          noCoverTitle.push(title);
+        }
+      } else {
+        img_elm.src = data['results'][0]['artworkUrl100'].replace('100x100bb.jpg', '500x500bb.jpg'); // увеличиваем разрешение
+      }
+    }
+
     function updatePlayingInfo(playingTrack) {
       if (playingTrack.title)
         info_html.find('.somafm-cover__title').text(playingTrack.title);
@@ -370,6 +398,11 @@
         info_html.find('.somafm-cover__tooltip').text(tooltip.join(' ● '));
       // TODO: use playlist for lastSongs
       // info_html.find('.somafm-cover__playlist').text(playlist);
+      var albumart = playingTrack.albumart;
+      if(albumart)
+        img_elm.src = albumart
+      else
+        getTrackCover(playingTrack.title);
     }
 
     audio.addEventListener("playing", function (event) {
@@ -625,7 +658,7 @@
         name: Lampa.Lang.translate('somafm_use_aac_title'),
         description: Lampa.Lang.translate('somafm_use_aac_desc')
       },
-      onRender: function onRender(item) {}
+      onRender: function onRender(item) { }
     });
 
     Lampa.SettingsApi.addParam({
@@ -640,7 +673,7 @@
         name: Lampa.Lang.translate('somafm_show_info_title'),
         description: Lampa.Lang.translate('somafm_show_info_desc')
       },
-      onRender: function onRender(item) {}
+      onRender: function onRender(item) { }
     });
 
     Lampa.SettingsApi.addParam({
@@ -655,7 +688,7 @@
         name: Lampa.Lang.translate('somafm_sort_stations_title'),
         description: Lampa.Lang.translate('somafm_sort_stations_desc')
       },
-      onRender: function onRender(item) {}
+      onRender: function onRender(item) { }
     });
 
   }
