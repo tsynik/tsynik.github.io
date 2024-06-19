@@ -90,7 +90,7 @@
         channel.active = false;
         // channel.genre = channel.genre.replace(/\|/g, ' ● ');
         var genres = channel.genre.split("|");
-        if (genres.size > 0) {
+        if (genres.length > 0) {
           genres = genres.map(function (x) { return x.charAt(0).toUpperCase() + x.slice(1); });
           channel.genre = genres.join(' ● ');
         }
