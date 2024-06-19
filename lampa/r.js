@@ -368,32 +368,31 @@
       currentCoverTitle = title;
       var network = new Lampa.Reguest();
       if (noCoverTitle.indexOf(title) < 0) {
-        var filterMatch = false;
+        var filtered = [];
         var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&entity=musicTrack&attribute=songTerm&limit=100';
         network.native( // 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&limit=1',
           request,
           function (data) {
-            var filtered = data['results'].filter(result => result.artistName.toLowerCase() === artist.toLowerCase() || result.collectionName.toLowerCase() === album.toLowerCase());
-            filterMatch = filtered.length > 0
-            console.log('SomaFM', 'getTrackCover request:', request, 'data resultCount', data['resultCount'], "filtered", filtered, "filterMatch", filterMatch);
-            setTrackCover(currentCoverTitle, data, filterMatch);
+            filtered = data['results'].filter(result => result.artistName.toLowerCase() === artist.toLowerCase() || result.collectionName.toLowerCase() === album.toLowerCase());
+            console.log('SomaFM', 'getTrackCover request:', request, 'data resultCount', data['resultCount'], "filtered", filtered.length);
+            setTrackCover(currentCoverTitle, data, filtered);
           },
-          function () { setTrackCover(currentCoverTitle, false, filterMatch) }
+          function () { setTrackCover(currentCoverTitle, false, filtered) }
         );
       } else {
-        setTrackCover(currentCoverTitle, false, filterMatch);
+        setTrackCover(currentCoverTitle, false, filtered);
       }
     }
 
-    function setTrackCover(title, data, filterMatch) {
-      if (!data || !data['resultCount'] || !data['results'] || !data['results'][0]['artworkUrl100'] || !filterMatch) {
+    function setTrackCover(title, data, filtered) {
+      if (!data || !data['resultCount'] || !data['results'] || !data['results'][0]['artworkUrl100'] || !filtered.length > 0) {
         img_elm.src = station.xlimage; // Дефолтный ковер от станции
         Lampa.Background.change(station.xlimage);
         if (data !== false) {
           noCoverTitle.push(title);
         }
       } else {
-        var bigCover = data['results'][0]['artworkUrl100'].replace('100x100bb.jpg', '500x500bb.jpg'); // увеличиваем разрешение
+        var bigCover = filtered['results'][0]['artworkUrl100'].replace('100x100bb.jpg', '500x500bb.jpg'); // увеличиваем разрешение
         img_elm.src = bigCover
         Lampa.Background.change(bigCover);
       }
