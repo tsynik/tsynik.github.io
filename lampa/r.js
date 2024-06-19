@@ -253,7 +253,7 @@
     this.build = function (data) {
       scroll.minus();
       var stations = parseChannels(data.channels);
-      var sortChannels = true;
+      var sortChannels = Lampa.Storage.field('somafm_sort_stations');
       // TODO: add sorting options
       if (sortChannels) // sort by popularity
         stations = stations.sort(compareChannelObjects)
@@ -446,7 +446,7 @@
     var screenreset;
 
     var info; // = window.somafm_info;
-    var showinfo = true;
+    var showinfo = Lampa.Storage.field('somafm_show_info');
 
     function prepare() {
       if (audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
@@ -457,7 +457,7 @@
           hls.on(Hls.Events.ERROR, function (event, data) {
             if (data.details === Hls.ErrorDetails.MANIFEST_PARSING_ERROR) {
               if (data.reason === "no EXTM3U delimiter") {
-                Lampa.Noty.show(Lampa.Lang.translate("somafm_error"));
+                Lampa.Noty.show(Lampa.Lang.translate('somafm_error'));
               }
             }
           });
@@ -465,7 +465,7 @@
             start();
           });
         } catch (e) {
-          Lampa.Noty.show(Lampa.Lang.translate("somafm_error"));
+          Lampa.Noty.show(Lampa.Lang.translate('somafm_error'));
         }
       } else load();
     }
@@ -588,7 +588,7 @@
     menu_button.on('hover:enter', function () {
       Lampa.Activity.push({
         url: '',
-        title: Lampa.Lang.translate("somafm_title"),
+        title: Lampa.Lang.translate('somafm_title'),
         component: 'somafm',
         page: 1
       });
@@ -621,8 +621,38 @@
         "default": true
       },
       field: {
-        name: 'Use AAC streams',
-        description: 'Prefer AAC streams if available'
+        name: Lampa.Lang.translate('somafm_use_aac_title'),
+        description: Lampa.Lang.translate('somafm_use_aac_desc')
+      },
+      onRender: function onRender(item) {}
+    });
+
+    Lampa.SettingsApi.addParam({
+      component: 'somafm',
+      param: {
+        name: 'somafm_show_info',
+        type: 'trigger',
+        values: '',
+        "default": true
+      },
+      field: {
+        name: Lampa.Lang.translate('somafm_show_info_title'),
+        description: Lampa.Lang.translate('somafm_show_info_desc')
+      },
+      onRender: function onRender(item) {}
+    });
+
+    Lampa.SettingsApi.addParam({
+      component: 'somafm',
+      param: {
+        name: 'somafm_sort_stations',
+        type: 'trigger',
+        values: '',
+        "default": true
+      },
+      field: {
+        name: Lampa.Lang.translate('somafm_sort_stations_title'),
+        description: Lampa.Lang.translate('somafm_sort_stations_desc')
       },
       onRender: function onRender(item) {}
     });
@@ -643,6 +673,66 @@
         bg: "SomaFM радио",
         he: "רדיו SomaFM"
       },
+      somafm_use_aac_title: {
+        ru: "Предпочтение AAC",
+        en: "Use AAC streams",
+        uk: "Перевага AAC",
+        be: "Перавага AAC",
+        zh: "AAC 偏好",
+        pt: "Preferência AAC",
+        bg: "AAC предпочитание",
+        he: "העדפת AAC"
+      },
+      somafm_use_aac_desc: {
+        ru: "Использовать AAC-потоки при доступности",
+        en: "Prefer AAC streams if available",
+        uk: "Віддавати перевагу потокам AAC, якщо вони доступні",
+        be: "Аддавайце перавагу патокам AAC, калі яны даступныя",
+        zh: "优先选择 AAC 流（如果可用）",
+        pt: "Prefira streams AAC, se disponíveis",
+        bg: "Предпочитайте AAC потоци, ако има такива",
+        he: "העדיפו זרמי AAC אם זמינים"
+      },
+      somafm_show_info_title: {
+        ru: "Показывать инфо",
+        en: "Show Info screen",
+        uk: "Показати екран інформації",
+        be: "Паказаць экран інфармацыі",
+        zh: "显示信息屏幕",
+        pt: "Mostrar tela de informações",
+        bg: "Показване на екрана с информация",
+        he: "הצג מסך מידע"
+      },
+      somafm_show_info_desc: {
+        ru: "Открывать информацию о станции при выборе",
+        en: "Show Playing Info screen on select",
+        uk: "Показати екран інформації про відтворення на вибраному",
+        be: "Паказаць экран Інфармацыя аб прайграванні пры выбары",
+        zh: "选择时显示播放信息屏幕",
+        pt: "Mostrar tela de informações de jogo ao selecionar",
+        bg: "Показване на екрана с информация за възпроизвеждане при избор",
+        he: "הצג מידע על משחק בבחירה"
+      },
+      somafm_sort_stations_title: {
+        ru: "Сортировка по популярности",
+        en: "Sort by Popularity",
+        uk: "Сортувати за популярністю",
+        be: "Сартаваць па папулярнасці",
+        zh: "按受欢迎程度排序",
+        pt: "Classificar por popularidade",
+        bg: "Сортиране по популярност",
+        he: "מיין לפי פופולריות"
+      },
+      somafm_sort_stations_desc: {
+        ru: "Сотрировать список по слушающим",
+        en: "Sorting stations list by listeners",
+        uk: "Сортування списку станцій за слухачами",
+        be: "Сартаванне спісу станцый па слухачах",
+        zh: "按听众对电台列表进行排序",
+        pt: "Classificando lista de estações por ouvintes",
+        bg: "Сортиране на списъка със станции по слушатели",
+        he: "מיון רשימת תחנות לפי מאזינים"
+      },
       somafm_error: {
         ru: "Ошибка загрузки данных",
         en: "Error loading stations",
@@ -657,7 +747,7 @@
 
     var manifest = {
       type: 'audio',
-      version: '1.0.1',
+      version: '1.0.2',
       name: Lampa.Lang.translate('somafm_title'),
       description: 'Over 30 unique channels of listener-supported, commercial-free, underground/alternative radio broadcasting to the world. All music hand-picked by SomaFM`s award-winning DJs and music directors.',
       component: 'radio'
