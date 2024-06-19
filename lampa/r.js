@@ -409,7 +409,7 @@
     }
 
     function updatePlayingInfo(playingTrack) {
-      var fetchCovers = Lampa.Storage.field('somafm_sort_stations');
+      var fetchCovers = Lampa.Storage.field('somafm_fetch_covers');
 
       if (playingTrack.title)
         info_html.find('.somafm-cover__title').text(playingTrack.title);
