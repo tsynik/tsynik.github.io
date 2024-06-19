@@ -409,21 +409,30 @@
     }
 
     function updatePlayingInfo(playingTrack) {
+      var fetchCovers = Lampa.Storage.field('somafm_sort_stations');
+
       if (playingTrack.title)
         info_html.find('.somafm-cover__title').text(playingTrack.title);
+
       var tooltip = [];
+      if (fetchCovers)
+        tooltip.push(station.title);
       if (playingTrack.artist)
         tooltip.push(playingTrack.artist);
       if (playingTrack.album)
         tooltip.push(playingTrack.album);
+      if (station.dj)
+        tooltip.push(station.dj);
       if (tooltip.length > 0)
         info_html.find('.somafm-cover__tooltip').text(tooltip.join(' ● '));
+
       // TODO: use playlist for lastSongs
       // info_html.find('.somafm-cover__playlist').text(playlist);
+
       var albumart = playingTrack.albumart;
       if (albumart)
         setTrackCover(albumart);
-      else
+      else if (fetchCovers)
         getTrackCover(playingTrack.artist + " - " + playingTrack.title, playingTrack.album, setTrackCover);
     }
 
@@ -713,6 +722,21 @@
       onRender: function onRender(item) { }
     });
 
+    Lampa.SettingsApi.addParam({
+      component: 'somafm',
+      param: {
+        name: 'somafm_fetch_covers',
+        type: 'trigger',
+        values: '',
+        "default": true
+      },
+      field: {
+        name: Lampa.Lang.translate('somafm_fetch_covers_title'),
+        description: Lampa.Lang.translate('somafm_fetch_covers_desc')
+      },
+      onRender: function onRender(item) { }
+    });
+
   }
 
   function createSomaFM() {
@@ -750,7 +774,7 @@
         he: "העדיפו זרמי AAC אם זמינים"
       },
       somafm_show_info_title: {
-        ru: "Показывать инфо",
+        ru: "Показывать информацию",
         en: "Show Info screen",
         uk: "Показати екран інформації",
         be: "Паказаць экран інфармацыі",
@@ -788,6 +812,26 @@
         pt: "Classificando lista de estações por ouvintes",
         bg: "Сортиране на списъка със станции по слушатели",
         he: "מיון רשימת תחנות לפי מאזינים"
+      },
+      somafm_fetch_covers_title: {
+        ru: "Получать обложки",
+        en: "Fetch Music Covers",
+        uk: "Отримати обкладинки",
+        be: "Атрымаць вокладкі",
+        zh: "获取音乐封面",
+        pt: "Buscar capas de músicas",
+        bg: "Извличане на обложки",
+        he: "אחזר עטיפות מוזיקה"
+      },
+      somafm_fetch_covers_desc: {
+        ru: "Загружать обложки альбомов с Apple Music",
+        en: "Search music covers on Apple Music",
+        uk: "Пошук музичних обкладинок в Apple Music",
+        be: "Пошук вокладак музыкі ў Apple Music",
+        zh: "在 Apple Music 上搜索音乐封面",
+        pt: "Pesquisando capas de músicas no Apple Music",
+        bg: "Търсене на музикални обложки в Apple Music",
+        he: "חיפוש עטיפות מוזיקה ב-Apple Music"
       },
       somafm_error: {
         ru: "Ошибка загрузки данных",
