@@ -332,6 +332,7 @@
     var currTrack = {};
     var lastSongs = [];
     var noCoverTitle = [];
+    var currentCoverTitle = '';
     var img_elm;
 
     getSongs(station);
@@ -341,7 +342,7 @@
         songsupdate = setInterval(function () {
           getSongs(station);
           updatePlayingInfo(currTrack);
-        }, 5000);
+        }, 10000);
       }
     });
 
@@ -361,7 +362,9 @@
     }
 
     function getTrackCover(title) {
-      var currentCoverTitle = title;
+      if (currentCoverTitle === title)
+        return; // avoid excessive updates
+      currentCoverTitle = title;
       var network = new Lampa.Reguest();
       if (noCoverTitle.indexOf(title) < 0) {
         network.native(
