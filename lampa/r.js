@@ -340,7 +340,7 @@
     }
     var network = new Lampa.Reguest();
     if (noCoverTitle.indexOf(title) < 0) {
-      //var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music';
+      var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music';
       //var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&entity=musicTrack&attribute=songTerm&limit=100';
       network.native(
         request,
