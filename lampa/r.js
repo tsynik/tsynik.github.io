@@ -326,23 +326,63 @@
     };
   }
 
+  var songsupdate;
+  var noCoverTitle = [];
+  var albumCoverCache = {};
+
+  // https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1
+  function getTrackCover(title, album, callback) {
+    var albumHash = Lampa.Utils.hash(album);
+    var setTrackCover = callback || function () { };
+    if (albumHash && albumCoverCache[albumHash]) {
+      setTrackCover(albumCoverCache[albumHash]);
+      return;
+    }
+    var network = new Lampa.Reguest();
+    if (noCoverTitle.indexOf(title) < 0) {
+      var filtered = [];
+      var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&limit=1';
+      network.native(
+        request,
+        function (data) {
+          var bigCover = false;
+          filtered = data['results'].filter(result => result.artistName.toLowerCase() === artist.toLowerCase() || result.collectionName.toLowerCase() === album.toLowerCase());
+          console.log('SomaFM', 'getTrackCover request:', request, 'data resultCount', data['resultCount'], "filtered", filtered.length);
+
+          if (!data || !data['resultCount'] || !data['results'] || !data['results'][0]['artworkUrl100'] | !filtered.length > 0) {
+            if (data !== false) {
+              noCoverTitle.push(title);
+            }
+          } else {
+            bigCover = filtered[0]['artworkUrl100'].replace('100x100bb.jpg', '500x500bb.jpg'); // увеличиваем разрешение
+            albumCoverCache[albumHash] = bigCover;
+          }
+          setTrackCover(bigCover)
+        },
+        function () { setTrackCover(false) }
+      );
+    } else {
+      setTrackCover(false);
+    }
+  }
+
   function Info(station) {
     var info_html = Lampa.Template.js('somafm_info');
-    var songsupdate;
     var currTrack = {};
     var lastSongs = [];
-    var noCoverTitle = [];
-    var currentCoverTitle = '';
     var img_elm;
+    if (songsupdate) {
+      clearInterval(songsupdate);
+      songsupdate = null;
+    }
 
     getSongs(station);
-    // Playing Info update task 
+    // Playing Info update task
     audio.addEventListener("play", function (event) {
       if (!songsupdate) {
         songsupdate = setInterval(function () {
           getSongs(station);
-          updatePlayingInfo(currTrack);
-        }, 10000);
+        }, 5000);
       }
     });
 
@@ -353,49 +393,19 @@
 
       fetchSongs(channel, (err, songs) => {
         var size = Object.keys(songs).length;
-        if (err || size < 1) return;
-        else {
+        if (!err && size > 0
+          && (!currTrack.date || (songs[0].date && currTrack.date !== songs[0].date))
+        ) {
           currTrack = songs.shift();
           lastSongs = songs.slice(0, 3);
+          updatePlayingInfo(currTrack);
         }
       });
     }
 
-    // https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1
-    function getTrackCover(title, album, artist) {
-      if (currentCoverTitle === title)
-        return; // avoid excessive updates
-      currentCoverTitle = title;
-      var network = new Lampa.Reguest();
-      if (noCoverTitle.indexOf(title) < 0) {
-        var filtered = [];
-        var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&entity=musicTrack&attribute=songTerm&limit=100';
-        network.native( // 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&limit=1',
-          request,
-          function (data) {
-            filtered = data['results'].filter(result => result.artistName.toLowerCase() === artist.toLowerCase() || result.collectionName.toLowerCase() === album.toLowerCase());
-            console.log('SomaFM', 'getTrackCover request:', request, 'data resultCount', data['resultCount'], "filtered", filtered.length);
-            setTrackCover(currentCoverTitle, data, filtered);
-          },
-          function () { setTrackCover(currentCoverTitle, false, filtered) }
-        );
-      } else {
-        setTrackCover(currentCoverTitle, false, filtered);
-      }
-    }
-
-    function setTrackCover(title, data, filtered) {
-      if (!data || !data['resultCount'] || !data['results'] || !data['results'][0]['artworkUrl100'] || !filtered.length > 0) {
-        img_elm.src = station.xlimage; // Дефолтный ковер от станции
-        Lampa.Background.change(station.xlimage);
-        if (data !== false) {
-          noCoverTitle.push(title);
-        }
-      } else {
-        var bigCover = filtered[0]['artworkUrl100'].replace('100x100bb.jpg', '500x500bb.jpg'); // увеличиваем разрешение
-        img_elm.src = bigCover
-        Lampa.Background.change(bigCover);
-      }
+    function setTrackCover(cover) {
+      img_elm.src = cover || station.xlimage;
+      Lampa.Background.change(img_elm.src);
     }
 
     function updatePlayingInfo(playingTrack) {
@@ -411,11 +421,10 @@
       // TODO: use playlist for lastSongs
       // info_html.find('.somafm-cover__playlist').text(playlist);
       var albumart = playingTrack.albumart;
-      if (albumart) {
-        img_elm.src = albumart
-        Lampa.Background.change(albumart);
-      } else
-        getTrackCover(playingTrack.title, playingTrack.album, playingTrack.artist);
+      if (albumart)
+        setTrackCover(albumart);
+      else
+        getTrackCover(playingTrack.artist + ' - ' + playingTrack.title, playingTrack.album, setTrackCover);
     }
 
     audio.addEventListener("playing", function (event) {
