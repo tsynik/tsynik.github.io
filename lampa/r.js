@@ -381,14 +381,14 @@
       clearInterval(songsupdate);
       songsupdate = null;
     }
-    getSongs(station);
+    // getSongs(station);
     // Playing Info update task
     // audio.addEventListener("play", function (event) {
     //   if (!songsupdate) {
     songsupdate = setInterval(function () {
-      console.log('SomaFM', 'getSongs for', station);
+      console.log('SomaFM', 'getSongs for', station.id);
       getSongs(station);
-    }, 5000);
+    }, 10000);
     //   }
     // });
 
