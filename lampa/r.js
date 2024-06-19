@@ -386,6 +386,7 @@
     // audio.addEventListener("play", function (event) {
     //   if (!songsupdate) {
     songsupdate = setInterval(function () {
+      console.log('SomaFM', 'getSongs for', station);
       getSongs(station);
     }, 5000);
     //   }
