@@ -373,7 +373,7 @@
         network.native( // 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&limit=1',
           request,
           function (data) {
-            var filtered = data['results'].filter(result => result.artistName == artist || result.collectionName === album);
+            var filtered = data['results'].filter(result => (result.artistName.toLowerCase() == artist.toLowerCase() || result.collectionName.toLowerCase() === album.toLowerCase()));
             filterMatch = filtered.length > 0
             console.log('SomaFM', 'getTrackCover request:', request, 'data resultCount', data['resultCount'], "filtered", filtered, "filterMatch", filterMatch);
             setTrackCover(currentCoverTitle, data, filterMatch);
@@ -412,7 +412,7 @@
       // TODO: use playlist for lastSongs
       // info_html.find('.somafm-cover__playlist').text(playlist);
       var albumart = playingTrack.albumart;
-      if(albumart) {
+      if (albumart) {
         img_elm.src = albumart
         Lampa.Background.change(albumart);
       } else
