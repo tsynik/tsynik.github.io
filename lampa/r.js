@@ -349,13 +349,16 @@
     function updatePlayingInfo(playingTrack) {
       // if (!showinfo) return;
       if (playingTrack.title)
-        document.body.find('.somafm-cover__title').text(playingTrack.title);
+        info_html.find('.somafm-cover__title').text(playingTrack.title);
+        //document.body.find('.somafm-cover__title').text(playingTrack.title);
       var tooltip = [];
       if (playingTrack.artist)
         tooltip.push(playingTrack.artist);
       if (playingTrack.album)
         tooltip.push(playingTrack.album);
-      document.body.find('.somafm-cover__tooltip').text(tooltip.join(' ● ') || '');
+      if (tooltip)
+        info_html.find('.somafm-cover__tooltip').text(tooltip.join(' ● '));
+      //document.body.find('.somafm-cover__tooltip').text(tooltip.join(' ● ') || '');
       // TODO: use for lastSongs
       // document.body.find('.somafm-cover__nowplay').text(nowplay || '');
     }
