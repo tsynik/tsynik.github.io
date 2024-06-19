@@ -377,11 +377,14 @@
     function setTrackCover(title, data) {
       if (!data || !data['resultCount'] || !data['results'] || !data['results'][0]['artworkUrl100']) {
         img_elm.src = station.xlimage; // Дефолтный ковер от станции
+        Lampa.Background.change(station.xlimage);
         if (data !== false) {
           noCoverTitle.push(title);
         }
       } else {
-        img_elm.src = data['results'][0]['artworkUrl100'].replace('100x100bb.jpg', '500x500bb.jpg'); // увеличиваем разрешение
+        var bigCover = data['results'][0]['artworkUrl100'].replace('100x100bb.jpg', '500x500bb.jpg'); // увеличиваем разрешение
+        img_elm.src = bigCover
+        Lampa.Background.change(bigCover);
       }
     }
 
@@ -398,10 +401,10 @@
       // TODO: use playlist for lastSongs
       // info_html.find('.somafm-cover__playlist').text(playlist);
       var albumart = playingTrack.albumart;
-      var coverImg = info_html.find('.somafm-cover__title')
-      if(albumart)
+      if(albumart) {
         img_elm.src = albumart
-      else
+        Lampa.Background.change(albumart);
+      } else
         getTrackCover(playingTrack.title);
     }
 
