@@ -88,7 +88,12 @@
         channel.updated = channel.updated | 0;
         channel.favorite = false;
         channel.active = false;
-        channel.genre = channel.genre.replace(/\|/g, ' ● ');
+        // channel.genre = channel.genre.replace(/\|/g, ' ● ');
+        var genres = channel.genre.split("|");
+        if (genres.size > 0) {
+          genres = genres.map(function (x) { return x.charAt(0).toUpperCase() + x.slice(1); });
+          channel.genre = genres.join(' ● ');
+        }
         output.push(channel);
       }
     }
@@ -382,7 +387,7 @@
       songsupdate = null;
     }
     // getSongs(station); // no delay on show info
-    // Playing Info update task{
+    // Playing Info update task
     songsupdate = setInterval(function () {
       console.log('SomaFM', 'getSongs for', station.id);
       getSongs(station);
