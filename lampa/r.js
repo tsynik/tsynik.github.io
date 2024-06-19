@@ -353,8 +353,9 @@
           var bigCover = false;
           var filtered = data['results'].filter(
             function (result) {
-              return result.collectionName && (result.collectionName.toLowerCase().indexOf(album.toLowerCase()) >= 0
-                || album.toLowerCase().indexOf(result.collectionName.toLowerCase()) >= 0)
+              var regex = /[\p{Sc}|\p{P}\s]/gu; // currency, punctuation and spaces
+              return result.collectionName && (result.collectionName.toLowerCase().replace(regex, "").indexOf(album.toLowerCase().replace(regex, "")) >= 0
+                || album.toLowerCase().replace(regex, "").indexOf(result.collectionName.toLowerCase().replace(regex, "")) >= 0)
             });
           console.log('SomaFM', 'getTrackCover request:', request, 'data resultCount', data['resultCount'], "filtered", filtered.length);
 
