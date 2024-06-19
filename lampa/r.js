@@ -392,7 +392,7 @@
           noCoverTitle.push(title);
         }
       } else {
-        var bigCover = filtered['results'][0]['artworkUrl100'].replace('100x100bb.jpg', '500x500bb.jpg'); // увеличиваем разрешение
+        var bigCover = filtered[0]['artworkUrl100'].replace('100x100bb.jpg', '500x500bb.jpg'); // увеличиваем разрешение
         img_elm.src = bigCover
         Lampa.Background.change(bigCover);
       }
