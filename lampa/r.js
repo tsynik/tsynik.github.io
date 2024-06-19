@@ -77,7 +77,7 @@
         var streamHighestQuality = getHighestQualityStream(channel, PREFERRED_STREAMS);
         channel.stream = streamHighestQuality;
         channel.stream.urls = getStreamUrls(channel);
-        channel.plsfile = 'https://api.somafm.com/' + channel.id + '.pls';
+        // channel.plsfile = 'https://api.somafm.com/' + channel.id + '.pls';
         // channel.mp3file = 'https://ice1.somafm.com/' + channel.id + '-128-mp3';
         // channel.aacfile = 'https://ice1.somafm.com/' + channel.id + '-128-aac';
         channel.songsurl = 'https://somafm.com/songs/' + channel.id + '.json';
@@ -176,9 +176,7 @@
           reject(e);
         }
       }, () => {
-        console.log('SomaFM', error);
-        return reject(error)
-      });
+      }, false, { dataType: 'text' })
     });
   }
 
