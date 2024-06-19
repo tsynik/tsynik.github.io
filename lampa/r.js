@@ -369,12 +369,13 @@
       var network = new Lampa.Reguest();
       if (noCoverTitle.indexOf(title) < 0) {
         var filterMatch = false;
+        var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&entity=musicTrack&attribute=songTerm&limit=100';
         network.native( // 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&limit=1',
-          'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&entity=musicTrack&attribute=songTerm&limit=100',
+          request,
           function (data) {
             var filtered = data['results'].filter(result => result.artistName == artist || result.collectionName === album);
             filterMatch = filtered.length > 0
-            console.log('SomaFM', 'getTrackCover data resultCount', data['resultCount'], "filtered", filtered, "filterMatch", filterMatch);
+            console.log('SomaFM', 'getTrackCover request:', request, 'data resultCount', data['resultCount'], "filtered", filtered, "filterMatch", filterMatch);
             setTrackCover(currentCoverTitle, data, filterMatch);
           },
           function () { setTrackCover(currentCoverTitle, false, filterMatch) }
