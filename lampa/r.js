@@ -372,11 +372,8 @@
         network.native( // 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&limit=1',
           'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&entity=musicTrack&attribute=songTerm&limit=100',
           function (data) {
-            var filtered = data['results']
-            .filter(artistName => artistName.includes(artist))
-            .filter(collectionName => collectionName.includes(album))
-            filterMatch = ( data['results'].filter(collectionName => collectionName.includes(album)).length > 0 // match album
-            || data['results'].filter(artistName => artistName.includes(artist)).length > 0 ) // match artist
+            var filtered = data['results'].filter(result => result.artistName == artist || result.collectionName === album);
+            filterMatch = filtered.length > 0
             console.log('SomaFM', 'getTrackCover data resultCount', data['resultCount'], "filtered", filtered, "filterMatch", filterMatch);
             setTrackCover(currentCoverTitle, data, filterMatch);
           },
