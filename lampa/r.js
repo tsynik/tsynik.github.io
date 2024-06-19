@@ -359,8 +359,8 @@
       });
     }
 
-    // var coverImg = info_html.find('.somafm-cover__img-box').find('img'); // $('.cover-img')[0];
-    
+    var coverImg = info_html.find('.somafm-cover__img-box').find('img'); // $('.cover-img')[0];
+
     function getTrackCover(title) {
       var currentCoverTitle = title;
       var network = new Lampa.Reguest();
@@ -377,12 +377,12 @@
 
     function setTrackCover(title, data) {
       if (!data || !data['resultCount'] || !data['results'] || !data['results'][0]['artworkUrl100']) {
-        img_elm.src = station.xlimage; // Дефолтный ковер от станции
+        coverImg.src = station.xlimage; // Дефолтный ковер от станции
         if (data !== false) {
           noCoverTitle.push(title);
         }
       } else {
-        img_elm.src = data['results'][0]['artworkUrl100'].replace('100x100bb.jpg', '500x500bb.jpg'); // увеличиваем разрешение
+        coverImg.src = data['results'][0]['artworkUrl100'].replace('100x100bb.jpg', '500x500bb.jpg'); // увеличиваем разрешение
       }
     }
 
@@ -400,7 +400,7 @@
       // info_html.find('.somafm-cover__playlist').text(playlist);
       var albumart = playingTrack.albumart;
       if(albumart)
-        img_elm.src = albumart
+        coverImg.src = albumart
       else
         getTrackCover(playingTrack.title);
     }
