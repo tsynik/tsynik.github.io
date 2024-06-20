@@ -1,4 +1,4 @@
-// SomaFM Radio plugin for Lampa by @tsynik
+// SomaFM Radio plugin for Lampa by @tsynik & @usmanec
 // https://somafm.com/channels.json
 // https://github.com/rainner/soma-fm-player
 // https://codeberg.org/cuschk/somafm
@@ -986,7 +986,7 @@
 
     var manifest = {
       type: 'audio',
-      version: '1.0.3',
+      version: '1.0.4',
       name: Lampa.Lang.translate('somafm_title'),
       description: 'Over 30 unique channels of listener-supported, commercial-free, underground/alternative radio broadcasting to the world. All music hand-picked by SomaFM`s award-winning DJs and music directors.',
       component: 'radio'
