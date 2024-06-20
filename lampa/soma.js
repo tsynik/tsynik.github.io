@@ -474,7 +474,7 @@
                 || albumLC.indexOf(r.collectionNameLC) >= 0
               );
           });
-          console.log('SomaFM', 'getTrackCover request:', request, 'data resultCount', data['resultCount'], "filtered", filtered.length);
+          // console.log('SomaFM', 'getTrackCover request:', request, 'data resultCount', data['resultCount'], "filtered", filtered.length);
           if (!filtered.length) {
             var accuracyPercent = 60; // Допустимая погрешность %
             var accuracyMaxLen = albumLC.length * accuracyPercent / 100;
@@ -483,10 +483,10 @@
               r.levenshtein = levenshtein(r.collectionNameLC, albumLC);
               return r.levenshtein <= accuracyMaxLen;
             }).sort(function (a, b) { return a.levenshtein - b.levenshtein });
-            if (filtered.length)
-              console.log('SomaFM', 'getTrackCover levenshtein:', '"' + albumLC + '"', 'accuracyPercent', accuracyPercent, "filtered", filtered.length, "min", filtered[0].levenshtein, "max", filtered[filtered.length - 1].levenshtein)
-            else
-              console.log('SomaFM', 'getTrackCover levenshtein:', '"' + albumLC + '"', 'accuracyPercent', accuracyPercent, "filtered", 0);
+            // if (filtered.length)
+            //   console.log('SomaFM', 'getTrackCover levenshtein:', '"' + albumLC + '"', 'accuracyPercent', accuracyPercent, "filtered", filtered.length, "min", filtered[0].levenshtein, "max", filtered[filtered.length - 1].levenshtein)
+            // else
+            //   console.log('SomaFM', 'getTrackCover levenshtein:', '"' + albumLC + '"', 'accuracyPercent', accuracyPercent, "filtered", 0);
           }
           if (!filtered.length || !filtered[0]['artworkUrl100']) {
             noCoverTitle.push(title);
@@ -745,7 +745,7 @@
         info = new Info(station);
         info.create();
         document.body.addClass('ambience--enable');
-        Lampa.Background.immediately(station.image || IMG_BG);
+        Lampa.Background.change(station.image || IMG_BG);
         Lampa.Controller.add('content', {
           invisible: true,
           toggle: function toggle() {
