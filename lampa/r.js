@@ -570,10 +570,10 @@
 
       // TODO: use playlist for lastSongs
       // info_html.find('.somafm-cover__playlist').text(playlist);
-      var album_svg = '<svg width="800" height="800" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m0 0h24v24h-24z" fill="none"/><path d="m12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10-10-4.48-10-10 4.48-10 10-10zm0 14c2.213 0 4-1.787 4-4s-1.787-4-4-4-4 1.787-4 4 1.787 4 4 4zm0-5c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1z"/></svg>';
+      var album_svg = "<svg width=\"800\" height=\"800\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m0 0h24v24h-24z\" fill=\"none\"/><path d=\"m12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10-10-4.48-10-10 4.48-10 10-10zm0 14c2.213 0 4-1.787 4-4s-1.787-4-4-4-4 1.787-4 4 1.787 4 4 4zm0-5c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1z\"/></svg>";
       var album_info = info_html.find('.somafm-cover__album');
 			album_info.text(playingTrack.album ? playingTrack.album : '');
-      if (playingTrack.album) album_info.appendChild(album_svg);
+      if (playingTrack.album) album_info.append(album_svg);
 			info_html.find('.somafm-cover__title').text(playingTrack.title || '');
 			info_html.find('.somafm-cover__tooltip').text(playingTrack.artist || '');
 
