@@ -821,7 +821,6 @@
       param: {
         name: 'somafm_use_aac',
         type: 'trigger',
-        values: '',
         "default": true
       },
       field: {
@@ -836,7 +835,6 @@
       param: {
         name: 'somafm_show_info',
         type: 'trigger',
-        values: '',
         "default": true
       },
       field: {
@@ -851,7 +849,6 @@
       param: {
         name: 'somafm_sort_stations',
         type: 'trigger',
-        values: '',
         "default": true
       },
       field: {
@@ -866,7 +863,6 @@
       param: {
         name: 'somafm_fetch_covers',
         type: 'trigger',
-        values: '',
         "default": true
       },
       field: {
@@ -880,6 +876,9 @@
 
   function createSomaFM() {
     window.plugin_somafm_ready = true;
+    // init defaults
+    if (!Lampa.Storage.get('somafm_use_aac'))
+      Lampa.Storage.set('somafm_use_aac', true)
 
     Lampa.Lang.add({
       somafm_title: {
