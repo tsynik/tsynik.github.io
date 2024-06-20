@@ -573,7 +573,7 @@
       var album_cont = info_html.find('.somafm-cover__album');
       var album_svg = album_cont.find('svg');
       var album_info = album_cont.find('span');
-      playingTrack.album ? album_svg.css({"width": "1em"}) : album_svg.css({"width": "0em"});
+      // playingTrack.album ? album_svg.css({"width": "1em"}) : album_svg.css({"width": "0em"});
       album_info.text(playingTrack.album || '');
 			info_html.find('.somafm-cover__title').text(playingTrack.title || '');
 			info_html.find('.somafm-cover__tooltip').text(playingTrack.artist || '');
