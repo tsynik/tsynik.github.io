@@ -878,7 +878,7 @@
     window.plugin_somafm_ready = true;
     // init defaults
     if (!Lampa.Storage.get('somafm_use_aac'))
-      Lampa.Storage.set('somafm_use_aac', true)
+      Lampa.Storage.set('somafm_use_aac', false)
 
     Lampa.Lang.add({
       somafm_title: {
