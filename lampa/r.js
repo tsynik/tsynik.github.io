@@ -199,8 +199,7 @@
     var item = Lampa.Template.get('somafm_item', {
       id: data.id,
       name: data.title,
-      genre: data.genre,
-      description: data.description
+      listeners: data.listeners
     });
     var img = item.find('img')[0];
     img.onerror = function () {
@@ -878,7 +877,7 @@
     window.plugin_somafm_ready = true;
     // init defaults
     if (!Lampa.Storage.get('somafm_use_aac'))
-      Lampa.Storage.set('somafm_use_aac', false)
+      Lampa.Storage.set('somafm_use_aac', false);
 
     Lampa.Lang.add({
       somafm_title: {
@@ -962,7 +961,7 @@
         he: "אחזר עטיפות מוזיקה"
       },
       somafm_fetch_covers_desc: {
-        ru: "Загружать обложки альбомов с Apple Music",
+        ru: "Загружать обложки альбомов из Apple Music",
         en: "Search music covers on Apple Music",
         uk: "Пошук музичних обкладинок в Apple Music",
         be: "Пошук вокладак музыкі ў Apple Music",
@@ -992,7 +991,7 @@
     };
     Lampa.Manifest.plugins = manifest;
 
-    Lampa.Template.add('somafm_item', "<div class=\"selector somafm-item\">\n	<div class=\"somafm-item__imgbox\">\n		<img class=\"somafm-item__img\" />\n	</div>\n	<div class=\"somafm-item__name\">{name}</div>\n</div>\n");
+    Lampa.Template.add('somafm_item', "<div class=\"selector somafm-item\">\n	<div class=\"somafm-item__imgbox\">\n		<img class=\"somafm-item__img\" />\n		<div class=\"somafm-item__listeners\">{listeners}</div>\n	</div>\n	<div class=\"somafm-item__name\">{name}</div>\n</div>\n");
     Lampa.Template.add('somafm_player', "<div class=\"selector somafm-player loading stop hide\">\n	<div class=\"somafm-player__name\">Soma FM</div>\n	<div id=\"somafm_player_button\" class=\"somafm-player__button\">\n		<i></i>\n		<i></i>\n		<i></i>\n		<i></i>\n	</div>\n</div>\n");
     Lampa.Template.add('somafm_info', "<div class=\"somafm-info\">\n	<div>\n		<div class=\"somafm-info__cover\"></div>\n		<div class=\"somafm-info__wave\"></div>\n	</div>\n	<div class=\"somafm-info__close\">\n		<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 329.269 329\" xml:space=\"preserve\">\n			<path d=\"M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0\" fill=\"currentColor\"></path>\n		</svg>\n	</div>\n</div>\n");
     Lampa.Template.add('somafm_cover', "<div class=\"somafm-cover\">\n	<div class=\"somafm-cover__img-container\">\n		<div class=\"somafm-cover__img-box\">\n			<img src=\"https://somafm.com/logos/SomaFM-Text-Logo-512.png\" />\n		</div>\n	</div>\n	<div class=\"somafm-cover__genre\"></div>\n	<div class=\"somafm-cover__title\"></div>\n	<div class=\"somafm-cover__tooltip\"></div>\n	<div class=\"somafm-cover__playlist\"></div>\n</div>\n");
