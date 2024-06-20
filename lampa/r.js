@@ -745,7 +745,7 @@
         info = new Info(station);
         info.create();
         document.body.addClass('ambience--enable');
-        Lampa.Background.immediately(station.image || IMG_BG);
+        Lampa.Background.change(station.image || IMG_BG);
         Lampa.Controller.add('content', {
           invisible: true,
           toggle: function toggle() {
