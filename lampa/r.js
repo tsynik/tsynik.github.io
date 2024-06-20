@@ -35,7 +35,17 @@
   ];
 
   var audio = new Audio();
+  var played = false;
   var somaComponent;
+  var changeWave = function () { };
+
+  audio.addEventListener("playing", function (event) {
+    changeWave('play');
+  });
+
+  audio.addEventListener("waiting", function (event) {
+    changeWave('loading');
+  });
 
   // parse pls INI
   function parseINIString(data) {
@@ -331,7 +341,106 @@
     };
   }
 
+  var levenshtein = (function () {
+    function _min(d0, d1, d2, bx, ay) {
+      return d0 < d1 || d2 < d1
+        ? d0 > d2
+          ? d2 + 1
+          : d0 + 1
+        : bx === ay
+          ? d1
+          : d1 + 1;
+    }
 
+    return function (a, b) {
+      if (a === b) {
+        return 0;
+      }
+
+      if (a.length > b.length) {
+        var tmp = a;
+        a = b;
+        b = tmp;
+      }
+
+      var la = a.length;
+      var lb = b.length;
+
+      while (la > 0 && (a.charCodeAt(la - 1) === b.charCodeAt(lb - 1))) {
+        la--;
+        lb--;
+      }
+
+      var offset = 0;
+
+      while (offset < la && (a.charCodeAt(offset) === b.charCodeAt(offset))) {
+        offset++;
+      }
+
+      la -= offset;
+      lb -= offset;
+
+      if (la === 0 || lb < 3) {
+        return lb;
+      }
+
+      var x = 0;
+      var y;
+      var d0;
+      var d1;
+      var d2;
+      var d3;
+      var dd;
+      var dy;
+      var ay;
+      var bx0;
+      var bx1;
+      var bx2;
+      var bx3;
+
+      var vector = [];
+
+      for (y = 0; y < la; y++) {
+        vector.push(y + 1);
+        vector.push(a.charCodeAt(offset + y));
+      }
+
+      var len = vector.length - 1;
+
+      for (; x < lb - 3;) {
+        bx0 = b.charCodeAt(offset + (d0 = x));
+        bx1 = b.charCodeAt(offset + (d1 = x + 1));
+        bx2 = b.charCodeAt(offset + (d2 = x + 2));
+        bx3 = b.charCodeAt(offset + (d3 = x + 3));
+        dd = (x += 4);
+        for (y = 0; y < len; y += 2) {
+          dy = vector[y];
+          ay = vector[y + 1];
+          d0 = _min(dy, d0, d1, bx0, ay);
+          d1 = _min(d0, d1, d2, bx1, ay);
+          d2 = _min(d1, d2, d3, bx2, ay);
+          dd = _min(d2, d3, dd, bx3, ay);
+          vector[y] = dd;
+          d3 = d2;
+          d2 = d1;
+          d1 = d0;
+          d0 = dy;
+        }
+      }
+
+      for (; x < lb;) {
+        bx0 = b.charCodeAt(offset + (d0 = x));
+        dd = ++x;
+        for (y = 0; y < len; y += 2) {
+          dy = vector[y];
+          vector[y] = dd = _min(dy, d0, dd, bx0, vector[y + 1]);
+          d0 = dy;
+        }
+      }
+
+      return dd;
+    };
+  })();
   var noCoverTitle = [];
   var albumCoverCache = {};
 
@@ -344,25 +453,43 @@
       return;
     }
     var network = new Lampa.Reguest();
+    var regex = /[\p{Sc}|\p{P}\s]/gu; // currency, punctuation 
     if (noCoverTitle.indexOf(title) < 0) {
-      var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music';
+      var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&entity=song';
       //var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&entity=musicTrack&attribute=songTerm&limit=100';
       network.native(
         request,
         function (data) {
           var bigCover = false;
-          var filtered = data['results'].filter(
-            function (result) {
-              var regex = /[\p{Sc}|\p{P}\s]/gu; // currency, punctuation and spaces
-              return result.collectionName && (result.collectionName.toLowerCase().replace(regex, "").indexOf(album.toLowerCase().replace(regex, "")) >= 0
-                || album.toLowerCase().replace(regex, "").indexOf(result.collectionName.toLowerCase().replace(regex, "")) >= 0)
-            });
-          console.log('SomaFM', 'getTrackCover request:', request, 'data resultCount', data['resultCount'], "filtered", filtered.length);
-
-          if (!data || !data['resultCount'] || !data['results'] || !data['results'][0]['artworkUrl100'] || !filtered.length > 0) {
+          if (!data || !data['resultCount'] || !data['results'] || !data['results'].length) {
             if (data !== false) {
               noCoverTitle.push(title);
             }
+          }
+          var albumLC = album.toLowerCase().replace(regex, "");
+          var filtered = data['results'].filter(function (r) {
+            r.collectionNameLC = r.collectionName ? r.collectionName.toLowerCase().replace(regex, "") : '';
+            return r.collectionNameLC
+              && (r.collectionNameLC.indexOf(albumLC) >= 0
+                || albumLC.indexOf(r.collectionNameLC) >= 0
+              );
+          });
+          console.log('SomaFM', 'getTrackCover request:', request, 'data resultCount', data['resultCount'], "filtered", filtered.length);
+          if (!filtered.length) {
+            var accuracyPercent = 60; // Допустимая погрешность %
+            var accuracyMaxLen = albumLC.length * accuracyPercent / 100;
+
+            filtered = data['results'].filter(function (r) {
+              r.levenshtein = levenshtein(r.collectionNameLC, albumLC);
+              return r.levenshtein <= accuracyMaxLen;
+            }).sort(function (a, b) { return a.levenshtein - b.levenshtein });
+            if (filtered.length)
+              console.log('SomaFM', 'getTrackCover levenshtein:', '"' + albumLC + '"', 'accuracyPercent', accuracyPercent, "filtered", filtered.length, "min", filtered[0].levenshtein, "max", filtered[filtered.length - 1].levenshtein)
+            else
+              console.log('SomaFM', 'getTrackCover levenshtein:', '"' + albumLC + '"', 'accuracyPercent', accuracyPercent, "filtered", 0);
+          }
+          if (!filtered.length || !filtered[0]['artworkUrl100']) {
+            noCoverTitle.push(title);
           } else {
             bigCover = filtered[0]['artworkUrl100'].replace('100x100bb.jpg', '500x500bb.jpg'); // увеличиваем разрешение
             albumCoverCache[albumHash] = bigCover;
@@ -413,7 +540,7 @@
 
     function setTrackCover(cover) {
       img_elm.src = cover || station.xlimage;
-      Lampa.Background.change(img_elm.src);
+      Lampa.Background.immediately(img_elm.src);
     }
 
     function updatePlayingInfo(playingTrack) {
@@ -452,24 +579,7 @@
         getTrackCover(playingTrack.artist + " - " + playingTrack.title, playingTrack.album, setTrackCover);
     }
 
-    audio.addEventListener("playing", function (event) {
-      changeWave('play');
-    });
-
-    audio.addEventListener("waiting", function (event) {
-      changeWave('loading');
-    });
-
-    function createWave() {
-      var box = info_html.find('.somafm-info__wave');
-      for (var i = 0; i < 15; i++) {
-        var div = document.createElement('div');
-        box.append(div);
-      }
-      changeWave('loading');
-    }
-
-    function changeWave(class_name) {
+    changeWave = function (class_name) {
       var lines = info_html.find('.somafm-info__wave').querySelectorAll('div');
       for (var i = 0; i < lines.length; i++) {
         lines[i].removeClass('play loading').addClass(class_name);
@@ -477,6 +587,16 @@
         lines[i].style['animation-delay'] = (class_name == 'loading' ? Math.round(400 / lines.length * i) : 0) + 'ms';
       }
     }
+
+    function createWave() {
+      var box = info_html.find('.somafm-info__wave');
+      for (var i = 0; i < 15; i++) {
+        var div = document.createElement('div');
+        box.append(div);
+      }
+      changeWave(played ? 'play' : 'loading');
+    }
+
 
     this.create = function () {
       var cover = Lampa.Template.js('somafm_cover');
@@ -522,7 +642,6 @@
 
     var url = '';
     var format = '';
-    var played = false;
     var hls;
     var screenreset;
 
@@ -618,14 +737,15 @@
       $('.head__actions .open--search').before(player_html);
     };
 
+    var curPlayID = null;
     this.play = function (station) {
-      stop();
+      if (curPlayID !== station.id || !played) stop();
       // add info
       if (showinfo) {
         info = new Info(station);
         info.create();
         document.body.addClass('ambience--enable');
-        Lampa.Background.change(station.image || IMG_BG);
+        Lampa.Background.immediately(station.image || IMG_BG);
         Lampa.Controller.add('content', {
           invisible: true,
           toggle: function toggle() {
@@ -645,10 +765,13 @@
         Lampa.Controller.toggle('content');
       }
       // url = data.aacfile ? data.aacfile : data.mp3file;
-      Promise.resolve(station.stream.urls).then(value => {
-        url = random_item(value);
-        play();
-      })
+      if (curPlayID !== station.id || !played) {
+        Promise.resolve(station.stream.urls).then(value => {
+          url = random_item(value);
+          play();
+        });
+        curPlayID = station.id;
+      }
       // setup player button
       player_html.find('.somafm-player__name').text(station.title);
       player_html.toggleClass('hide', false);
