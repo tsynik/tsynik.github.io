@@ -610,7 +610,7 @@
 			cover.find('.somafm-cover__station').text(station.title || '');
       cover.find('.somafm-cover__genre').text(station.genre || '');
       cover.find('.somafm-cover__tooltip').text(station.description || '');
-      cover.find('.somafm-cover__album span').text(station.dj ? 'DJ: ' + station.dj : '');
+      cover.find('.somafm-cover__album span').text(station.dj ? 'DJ – ' + station.dj : '');
 
       var img_box = cover.find('.somafm-cover__img-box');
       img_box.removeClass('loaded loaded-icon');
