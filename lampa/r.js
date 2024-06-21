@@ -452,7 +452,7 @@
       return;
     }
     var network = new Lampa.Reguest();
-    var regex = /[\p{Sc}|\p{P}\s]/gu; // currency, punctuation 
+    var regex = /[\s.,{}\-\\\/()\[\]:;'"!@#$%^&*]+/g; // punctuation and spaces
     if (noCoverTitle.indexOf(title) < 0) {
       var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&entity=song';
       //var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&entity=musicTrack&attribute=songTerm&limit=100';
@@ -473,7 +473,7 @@
                 || albumLC.indexOf(r.collectionNameLC) >= 0
               );
           });
-          console.log('SomaFM', 'getTrackCover request:', request, 'data resultCount', data['resultCount'], "filtered", filtered.length);
+          // console.log('SomaFM', 'getTrackCover request:', request, 'data resultCount', data['resultCount'], "filtered", filtered.length);
           if (!filtered.length) {
             var accuracyPercent = 60; // Допустимая погрешность %
             var accuracyMaxLen = albumLC.length * accuracyPercent / 100;
@@ -482,10 +482,10 @@
               r.levenshtein = levenshtein(r.collectionNameLC, albumLC);
               return r.levenshtein <= accuracyMaxLen;
             }).sort(function (a, b) { return a.levenshtein - b.levenshtein });
-            if (filtered.length)
-              console.log('SomaFM', 'getTrackCover levenshtein:', '"' + albumLC + '"', 'accuracyPercent', accuracyPercent, "filtered", filtered.length, "min", filtered[0].levenshtein, "max", filtered[filtered.length - 1].levenshtein)
-            else
-              console.log('SomaFM', 'getTrackCover levenshtein:', '"' + albumLC + '"', 'accuracyPercent', accuracyPercent, "filtered", 0);
+            // if (filtered.length)
+            //   console.log('SomaFM', 'getTrackCover levenshtein:', '"' + albumLC + '"', 'accuracyPercent', accuracyPercent, "filtered", filtered.length, "min", filtered[0].levenshtein, "max", filtered[filtered.length - 1].levenshtein)
+            // else
+            //   console.log('SomaFM', 'getTrackCover levenshtein:', '"' + albumLC + '"', 'accuracyPercent', accuracyPercent, "filtered", 0);
           }
           if (!filtered.length || !filtered[0]['artworkUrl100']) {
             noCoverTitle.push(title);
@@ -516,7 +516,7 @@
     // getSongs(station); // no delay on show info
     // Playing Info update task
     songsupdate = setInterval(function () {
-      console.log('SomaFM', 'getSongs for', station.id);
+      // console.log('SomaFM', 'getSongs for', station.id);
       getSongs(station);
     }, 10000);
 

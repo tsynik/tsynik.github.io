@@ -452,7 +452,7 @@
       return;
     }
     var network = new Lampa.Reguest();
-    var regex = /[\p{Sc}|\p{P}\s]/gu; // currency, punctuation 
+    var regex = /[\s.,{}\-\\\/()\[\]:;'"!@#$%^&*]+/g; // punctuation and spaces
     if (noCoverTitle.indexOf(title) < 0) {
       var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&entity=song';
       //var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&entity=musicTrack&attribute=songTerm&limit=100';
