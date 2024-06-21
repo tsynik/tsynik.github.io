@@ -517,7 +517,7 @@
     songsupdate = setInterval(function () {
       // console.log('SomaFM', 'getSongs for', station.id);
       getSongs(station);
-    }, 10000);
+    }, 5000); // songs update internal
 
     // get songs list for a channel from api
     function getSongs(channel) {
