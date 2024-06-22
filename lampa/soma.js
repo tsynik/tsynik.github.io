@@ -128,9 +128,9 @@
   }
 
   function getHighestQualityStream(channel, streams) {
-    for (var ks of streams) {
+    for (var ks in streams) {
       var stream = streams[ks];
-      for (var kp of channel.playlists) {
+      for (var kp in channel.playlists) {
         var playlist = channel.playlists[kp];
         if (
           (!stream.urlRegex || stream.urlRegex.test(playlist.url))
