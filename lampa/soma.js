@@ -654,7 +654,6 @@
     var screenreset;
 
     var info; // = window.somafm_info;
-    var showinfo = Lampa.Storage.field('somafm_show_info');
 
     function prepare() {
       if (audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
@@ -716,7 +715,7 @@
       }
       audio.src = '';
       // remove info
-      if (showinfo && info) {
+      if (info) {
         info.destroy();
         info = false;
       }
@@ -749,7 +748,7 @@
     this.play = function (station) {
       if (curPlayID !== station.id || !played) stop();
       // add info
-      if (showinfo) {
+      if (Lampa.Storage.field('somafm_show_info') === true) {
         info = new Info(station);
         info.create();
         document.body.addClass('ambience--enable');
@@ -762,7 +761,7 @@
           back: function back() {
             document.body.removeClass('ambience--enable');
             // player.destroy();
-            if (showinfo && info) {
+            if (info) {
               info.destroy();
               info = false;
             }
