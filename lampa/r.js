@@ -183,15 +183,17 @@
         try {
           var data = parseINIString(response); // decode pls INI
           var result = [];
-          for (var key in data.playlist) if (key.match(/^File\d+$/)) {
           //for (var key of Object.keys(data.playlist).filter(x => x.match(/^File\d+$/))) {
+          for (var key in data.playlist) if (key.match(/^File\d+$/)) {
             result.push(data.playlist[key]);
           }
-          console.log('SomaFM', "getUrlsFromPlaylist result:", result);
+          //console.log('SomaFM', "getUrlsFromPlaylist result:", result);
           if (result.length > 0)
             resolve(result);
-          else
+          else {
+            console.log('SomaFM', error, "No files found.");
             reject(error);
+          }
         } catch (e) {
           console.log('SomaFM', error, e.message);
           reject(e);
