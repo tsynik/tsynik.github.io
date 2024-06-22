@@ -149,14 +149,15 @@
   }
 
   function getChannelById(id, channels) {
-    return new Promise((resolve, reject) => {
+    return new Promise(function (resolve, reject) {
       if (id === 'random') {
         resolve(channels[
           Math.floor(channels.length * Math.random())
         ]);
       }
 
-      for (var channel of channels) {
+      for (var key in channels) {
+        var channel = channels[key];
         if (id === channel.id) {
           resolve(channel);
         }
@@ -175,17 +176,17 @@
   }
 
   function getUrlsFromPlaylist(playlistUrl) {
-    return new Promise((resolve, reject) => {
+    return new Promise(function (resolve, reject) {
       var error = 'There was a problem parse urls from playlist ' + playlistUrl + ' from SomaFM.';
       var network = new Lampa.Reguest();
       network.timeout(5000)
-      network.native(playlistUrl, (response) => {
+      network.native(playlistUrl, function (response) {
         try {
           var data = parseINIString(response); // decode pls INI
           // console.log('SomaFM', "getUrlsFromPlaylist data:", data);
           var result = [];
-          for (var key of Object.keys(data.playlist)
-            .filter(x => x.match(/^File\d+$/))) {
+          for (var key in data.playlist) if (data.playlist[key].match(/^File\d+$/)) {
+            // for (var key of Object.keys(data.playlist).filter(x => x.match(/^File\d+$/))) {
             result.push(data.playlist[key]);
           }
           resolve(result);
@@ -193,7 +194,7 @@
           console.log('SomaFM', error, e.message);
           reject(e);
         }
-      }, () => {
+      }, function () {
       }, false, { dataType: 'text' })
     });
   }
@@ -229,11 +230,11 @@
   }
   // TODO: use cached list
   function list() {
-    return new Promise((resolve, reject) => {
+    return new Promise(function (resolve, reject) {
       var network = new Lampa.Reguest();
-      network.native(API_URL, (result) => {
+      network.native(API_URL, function (result) {
         Lampa.Cache.rewriteData('other', 'somafm_list', result).finally(resolve.bind(resolve, result))
-      }, () => {
+      }, function () {
         Lampa.Cache.getData('other', 'somafm_list').then(resolve).catch(reject)
       })
     })
@@ -528,7 +529,7 @@
       if (!channel || !channel.id || !channel.songsurl) return;
       // if ( !this.isCurrentChannel( channel ) ) { this.songs = []; this.track = {}; }
 
-      fetchSongs(channel, (err, songs) => {
+      fetchSongs(channel, function (err, songs) {
         var size = Object.keys(songs).length;
         if (!err && size > 0
           && (!currTrack.date || (songs[0].date && currTrack.date !== songs[0].date))
@@ -777,7 +778,7 @@
       }
       // url = data.aacfile ? data.aacfile : data.mp3file;
       if (curPlayID !== station.id || !played) {
-        Promise.resolve(station.stream.urls).then(value => {
+        Promise.resolve(station.stream.urls).then(function (value) {
           url = random_item(value);
           play();
         });
