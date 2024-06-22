@@ -81,7 +81,6 @@
   function parseChannels(channels) {
     var output = [];
     if (Array.isArray(channels)) {
-      // for (var channel of channels) {
       for (var key in channels) {
         var channel = channels[key];
         if (!Array.isArray(channel.playlists)) continue;
@@ -183,13 +182,18 @@
       network.native(playlistUrl, function (response) {
         try {
           var data = parseINIString(response); // decode pls INI
-          // console.log('SomaFM', "getUrlsFromPlaylist data:", data);
           var result = [];
-          for (var key in data.playlist) if (data.playlist[key].match(/^File\d+$/)) {
-            // for (var key of Object.keys(data.playlist).filter(x => x.match(/^File\d+$/))) {
+          //for (var key of Object.keys(data.playlist).filter(x => x.match(/^File\d+$/))) {
+          for (var key in data.playlist) if (key.match(/^File\d+$/)) {
             result.push(data.playlist[key]);
           }
-          resolve(result);
+          //console.log('SomaFM', "getUrlsFromPlaylist result:", result);
+          if (result.length > 0)
+            resolve(result);
+          else {
+            console.log('SomaFM', error, "No files found.");
+            reject(error);
+          }
         } catch (e) {
           console.log('SomaFM', error, e.message);
           reject(e);
@@ -779,9 +783,13 @@
       }
       // url = data.aacfile ? data.aacfile : data.mp3file;
       if (curPlayID !== station.id || !played) {
-        Promise.resolve(station.stream.urls).then(function (value) {
-          url = random_item(value);
-          play();
+        Promise.resolve(station.stream.urls).then(function (urls) {
+          if (urls.length > 1)
+            url = random_item(urls);
+          else if (urls.length == 1)
+            url = urls[0];
+          if (url)
+            play();
         });
         curPlayID = station.id;
       }

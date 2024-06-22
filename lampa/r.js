@@ -783,11 +783,13 @@
       }
       // url = data.aacfile ? data.aacfile : data.mp3file;
       if (curPlayID !== station.id || !played) {
-        Promise.resolve(station.stream.urls).then(function (value) {
-          console.log('SomaFM', 'station.stream.urls', value);
-          url = random_item(value);
-          console.log('SomaFM', 'random url', url);
-          play();
+        Promise.resolve(station.stream.urls).then(function (urls) {
+          if (urls.length > 1)
+            url = random_item(urls);
+          else if (urls.length == 1)
+            url = urls[0];
+          if (url)
+            play();
         });
         curPlayID = station.id;
       }
