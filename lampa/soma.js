@@ -224,10 +224,13 @@
   function random_item(items) {
     return items[Math.floor(Math.random() * items.length)];
   }
+  // https://stackoverflow.com/questions/7624920/number-sign-in-javascript
+  function sign(x) {
+    return typeof x === 'number' ? x ? x < 0 ? -1 : 1 : x === x ? 0 : NaN : NaN;
+  }
 
   function compareChannelObjects(ch1, ch2) {
-    if (!Math.sign) Math.sign = function(x) { return ((x > 0) - (x < 0)) || +x; };
-    return Math.sign(ch2.listeners - ch1.listeners);
+    return sign(ch2.listeners - ch1.listeners);
   }
   // TODO: use cached list
   function list() {
