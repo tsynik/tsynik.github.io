@@ -119,17 +119,19 @@
 
     var network = new Lampa.Reguest();
     network.timeout(5000)
-    network.native(apiurl, function(result) {
+    network.native(apiurl, function (result) {
       if (!result.songs) return callback(error, []);
       return callback(null, result.songs);
-    }, function() {
+    }, function () {
       return callback(error, [])
     })
   }
 
   function getHighestQualityStream(channel, streams) {
-    for (var stream of streams) {
-      for (var playlist of channel.playlists) {
+    for (var ks of streams) {
+      var stream = streams[ks];
+      for (var kp of channel.playlists) {
+        var playlist = channel.playlists[kp];
         if (
           (!stream.urlRegex || stream.urlRegex.test(playlist.url))
           && (!stream.quality || playlist.quality === stream.quality)
@@ -577,8 +579,8 @@
       album_info.text(playingTrack.album || '');
       var album_svg = album_cont.find('svg');
       playingTrack.album ? album_svg.style.width = "1em" : album_svg.style.width = "0em";
-			info_html.find('.somafm-cover__title').text(playingTrack.title || '');
-			info_html.find('.somafm-cover__tooltip').text(playingTrack.artist || '');
+      info_html.find('.somafm-cover__title').text(playingTrack.title || '');
+      info_html.find('.somafm-cover__tooltip').text(playingTrack.artist || '');
 
       var albumart = playingTrack.albumart;
       if (albumart)
@@ -608,7 +610,7 @@
 
     this.create = function () {
       var cover = Lampa.Template.js('somafm_cover');
-			cover.find('.somafm-cover__station').text(station.title || '');
+      cover.find('.somafm-cover__station').text(station.title || '');
       cover.find('.somafm-cover__genre').text(station.genre || '');
       cover.find('.somafm-cover__tooltip').text(station.description || '');
       cover.find('.somafm-cover__album span').text(station.dj ? 'DJ – ' + station.dj : '');
