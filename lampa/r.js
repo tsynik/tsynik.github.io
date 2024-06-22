@@ -779,6 +779,7 @@
       // url = data.aacfile ? data.aacfile : data.mp3file;
       if (curPlayID !== station.id || !played) {
         Promise.resolve(station.stream.urls).then(function (value) {
+          console.log('SomaFM', 'station.stream.urls', station.stream.urls);
           url = random_item(value);
           console.log('SomaFM', 'random url', url);
           play();
