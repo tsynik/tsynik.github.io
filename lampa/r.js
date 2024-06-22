@@ -81,7 +81,8 @@
   function parseChannels(channels) {
     var output = [];
     if (Array.isArray(channels)) {
-      for (var channel of channels) {
+      for (var key in channels) {
+        var channel = channels[key];
         if (!Array.isArray(channel.playlists)) continue;
         var streamHighestQuality = getHighestQualityStream(channel, PREFERRED_STREAMS);
         channel.stream = streamHighestQuality;
@@ -117,17 +118,19 @@
 
     var network = new Lampa.Reguest();
     network.timeout(5000)
-    network.native(apiurl, (result) => {
+    network.native(apiurl, function (result) {
       if (!result.songs) return callback(error, []);
       return callback(null, result.songs);
-    }, () => {
+    }, function () {
       return callback(error, [])
     })
   }
 
   function getHighestQualityStream(channel, streams) {
-    for (var stream of streams) {
-      for (var playlist of channel.playlists) {
+    for (var ks in streams) {
+      var stream = streams[ks];
+      for (var kp in channel.playlists) {
+        var playlist = channel.playlists[kp];
         if (
           (!stream.urlRegex || stream.urlRegex.test(playlist.url))
           && (!stream.quality || playlist.quality === stream.quality)
@@ -145,14 +148,15 @@
   }
 
   function getChannelById(id, channels) {
-    return new Promise((resolve, reject) => {
+    return new Promise(function (resolve, reject) {
       if (id === 'random') {
         resolve(channels[
           Math.floor(channels.length * Math.random())
         ]);
       }
 
-      for (var channel of channels) {
+      for (var key in channels) {
+        var channel = channels[key];
         if (id === channel.id) {
           resolve(channel);
         }
@@ -171,17 +175,17 @@
   }
 
   function getUrlsFromPlaylist(playlistUrl) {
-    return new Promise((resolve, reject) => {
+    return new Promise(function (resolve, reject) {
       var error = 'There was a problem parse urls from playlist ' + playlistUrl + ' from SomaFM.';
       var network = new Lampa.Reguest();
       network.timeout(5000)
-      network.native(playlistUrl, (response) => {
+      network.native(playlistUrl, function (response) {
         try {
           var data = parseINIString(response); // decode pls INI
           // console.log('SomaFM', "getUrlsFromPlaylist data:", data);
           var result = [];
-          for (var key of Object.keys(data.playlist)
-            .filter(x => x.match(/^File\d+$/))) {
+          for (var key in data.playlist) if (data.playlist[key].match(/^File\d+$/)) {
+            // for (var key of Object.keys(data.playlist).filter(x => x.match(/^File\d+$/))) {
             result.push(data.playlist[key]);
           }
           resolve(result);
@@ -189,7 +193,7 @@
           console.log('SomaFM', error, e.message);
           reject(e);
         }
-      }, () => {
+      }, function () {
       }, false, { dataType: 'text' })
     });
   }
@@ -219,17 +223,18 @@
   function random_item(items) {
     return items[Math.floor(Math.random() * items.length)];
   }
-
+  // https://stackoverflow.com/questions/7624920/number-sign-in-javascript
   function compareChannelObjects(ch1, ch2) {
+    if (!Math.sign) Math.sign = function sign(x) { return typeof x === 'number' ? x ? x < 0 ? -1 : 1 : x === x ? 0 : NaN : NaN; }
     return Math.sign(ch2.listeners - ch1.listeners);
   }
   // TODO: use cached list
   function list() {
-    return new Promise((resolve, reject) => {
+    return new Promise(function (resolve, reject) {
       var network = new Lampa.Reguest();
-      network.native(API_URL, (result) => {
+      network.native(API_URL, function (result) {
         Lampa.Cache.rewriteData('other', 'somafm_list', result).finally(resolve.bind(resolve, result))
-      }, () => {
+      }, function () {
         Lampa.Cache.getData('other', 'somafm_list').then(resolve).catch(reject)
       })
     })
@@ -524,7 +529,7 @@
       if (!channel || !channel.id || !channel.songsurl) return;
       // if ( !this.isCurrentChannel( channel ) ) { this.songs = []; this.track = {}; }
 
-      fetchSongs(channel, (err, songs) => {
+      fetchSongs(channel, function (err, songs) {
         var size = Object.keys(songs).length;
         if (!err && size > 0
           && (!currTrack.date || (songs[0].date && currTrack.date !== songs[0].date))
@@ -575,8 +580,8 @@
       album_info.text(playingTrack.album || '');
       var album_svg = album_cont.find('svg');
       playingTrack.album ? album_svg.style.width = "1em" : album_svg.style.width = "0em";
-			info_html.find('.somafm-cover__title').text(playingTrack.title || '');
-			info_html.find('.somafm-cover__tooltip').text(playingTrack.artist || '');
+      info_html.find('.somafm-cover__title').text(playingTrack.title || '');
+      info_html.find('.somafm-cover__tooltip').text(playingTrack.artist || '');
 
       var albumart = playingTrack.albumart;
       if (albumart)
@@ -606,7 +611,7 @@
 
     this.create = function () {
       var cover = Lampa.Template.js('somafm_cover');
-			cover.find('.somafm-cover__station').text(station.title || '');
+      cover.find('.somafm-cover__station').text(station.title || '');
       cover.find('.somafm-cover__genre').text(station.genre || '');
       cover.find('.somafm-cover__tooltip').text(station.description || '');
       cover.find('.somafm-cover__album span').text(station.dj ? 'DJ – ' + station.dj : '');
@@ -773,8 +778,9 @@
       }
       // url = data.aacfile ? data.aacfile : data.mp3file;
       if (curPlayID !== station.id || !played) {
-        Promise.resolve(station.stream.urls).then(value => {
+        Promise.resolve(station.stream.urls).then(function (value) {
           url = random_item(value);
+          console.log('SomaFM', 'random url', url);
           play();
         });
         curPlayID = station.id;
