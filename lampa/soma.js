@@ -81,7 +81,9 @@
   function parseChannels(channels) {
     var output = [];
     if (Array.isArray(channels)) {
-      for (var channel of channels) {
+      // for (var channel of channels) {
+      for (var key in channels) {
+        var channel = channels[key];
         if (!Array.isArray(channel.playlists)) continue;
         var streamHighestQuality = getHighestQualityStream(channel, PREFERRED_STREAMS);
         channel.stream = streamHighestQuality;
