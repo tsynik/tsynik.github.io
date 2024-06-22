@@ -182,7 +182,7 @@
       network.native(playlistUrl, function (response) {
         try {
           var data = parseINIString(response); // decode pls INI
-          // console.log('SomaFM', "getUrlsFromPlaylist data:", data);
+          console.log('SomaFM', "getUrlsFromPlaylist data:", data);
           var result = [];
           for (var key in data.playlist) if (data.playlist[key].match(/^File\d+$/)) {
             // for (var key of Object.keys(data.playlist).filter(x => x.match(/^File\d+$/))) {
