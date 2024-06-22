@@ -183,8 +183,8 @@
         try {
           var data = parseINIString(response); // decode pls INI
           var result = [];
-          //for (var key in data.playlist) if (data.playlist[key].match(/^File\d+$/)) {
-          for (var key of Object.keys(data.playlist).filter(x => x.match(/^File\d+$/))) {
+          for (var key in data.playlist) if (data.playlist[key].match(/^File\d+$/)) {
+          //for (var key of Object.keys(data.playlist).filter(x => x.match(/^File\d+$/))) {
             result.push(data.playlist[key]);
           }
           console.log('SomaFM', "getUrlsFromPlaylist result:", result);
