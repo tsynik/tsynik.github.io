@@ -226,6 +226,7 @@
   }
 
   function compareChannelObjects(ch1, ch2) {
+    if (!Math.sign) Math.sign = function(x) { return ((x > 0) - (x < 0)) || +x; };
     return Math.sign(ch2.listeners - ch1.listeners);
   }
   // TODO: use cached list
