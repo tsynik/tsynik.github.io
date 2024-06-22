@@ -183,17 +183,10 @@
         try {
           var data = parseINIString(response); // decode pls INI
           var result = [];
-          //for (var key of Object.keys(data.playlist).filter(x => x.match(/^File\d+$/))) {
           for (var key in data.playlist) if (key.match(/^File\d+$/)) {
             result.push(data.playlist[key]);
           }
-          //console.log('SomaFM', "getUrlsFromPlaylist result:", result);
-          if (result.length > 0)
-            resolve(result);
-          else {
-            console.log('SomaFM', error, "No files found.");
-            reject(error);
-          }
+          !result.length ? reject(error) : resolve(result);
         } catch (e) {
           console.log('SomaFM', error, e.message);
           reject(e);
@@ -449,6 +442,7 @@
       return dd;
     };
   })();
+
   var noCoverTitle = [];
   var albumCoverCache = {};
 
@@ -464,7 +458,6 @@
     var regex = /[\s.,{}\-\\\/()\[\]:;'"!@#$%^&*]+/g; // punctuation and spaces
     if (noCoverTitle.indexOf(title) < 0) {
       var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&entity=song';
-      //var request = 'https://itunes.apple.com/search?term=' + encodeURIComponent(title) + '&media=music&entity=musicTrack&attribute=songTerm&limit=100';
       network.native(
         request,
         function (data) {
@@ -525,7 +518,6 @@
     // getSongs(station); // no delay on show info
     // Playing Info update task
     songsupdate = setInterval(function () {
-      // console.log('SomaFM', 'getSongs for', station.id);
       getSongs(station);
     }, 5000); // songs update internal
 
@@ -612,7 +604,6 @@
       }
       changeWave(played ? 'play' : 'loading');
     }
-
 
     this.create = function () {
       var cover = Lampa.Template.js('somafm_cover');
@@ -784,12 +775,10 @@
       // url = data.aacfile ? data.aacfile : data.mp3file;
       if (curPlayID !== station.id || !played) {
         Promise.resolve(station.stream.urls).then(function (urls) {
-          if (urls.length > 1)
+          if (urls.length > 0) {
             url = random_item(urls);
-          else if (urls.length == 1)
-            url = urls[0];
-          if (url)
             play();
+          }
         });
         curPlayID = station.id;
       }
@@ -1003,7 +992,7 @@
 
     var manifest = {
       type: 'audio',
-      version: '1.0.5',
+      version: '1.0.6',
       name: Lampa.Lang.translate('somafm_title'),
       description: 'Over 30 unique channels of listener-supported, commercial-free, underground/alternative radio broadcasting to the world. All music hand-picked by SomaFM`s award-winning DJs and music directors.',
       component: 'radio'
