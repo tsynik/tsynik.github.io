@@ -119,10 +119,10 @@
 
     var network = new Lampa.Reguest();
     network.timeout(5000)
-    network.native(apiurl, (result) => {
+    network.native(apiurl, function(result) {
       if (!result.songs) return callback(error, []);
       return callback(null, result.songs);
-    }, () => {
+    }, function() {
       return callback(error, [])
     })
   }
