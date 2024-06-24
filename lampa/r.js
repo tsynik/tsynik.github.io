@@ -742,6 +742,8 @@
 
     var info; // = window.somafm_info;
 
+    setupAudio();
+
     function prepare() {
       if (_audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
         try {
@@ -788,7 +790,6 @@
     }
 
     function play() {
-      setupAudio();
       // stopAudio();
       if (_context.state === 'suspended') {
         _context.resume().then(function () {
