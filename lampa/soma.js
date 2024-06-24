@@ -746,7 +746,14 @@
     };
 
     var curPlayID = null;
+
     this.play = function (station) {
+      // todo player.destroy() start
+      if (window.currentPlayer && window.currentPlayer !== this && window.currentPlayer.destroy) {
+        window.currentPlayer.destroy();
+      }
+      window.currentPlayer = this;
+      // todo player.destroy() end
       if (curPlayID !== station.id || !played) stop();
       // add info
       if (Lampa.Storage.field('somafm_show_info') === true) {
@@ -794,6 +801,12 @@
         });
       }
     };
+
+    this.destroy = function () { // todo player.destroy()
+      stop();
+      player_html.toggleClass('hide', true);
+      curPlayID = null; // todo player.destroy()
+    }
   }
 
   function add() {
@@ -992,7 +1005,7 @@
 
     var manifest = {
       type: 'audio',
-      version: '1.0.6',
+      version: '1.0.7',
       name: Lampa.Lang.translate('somafm_title'),
       description: 'Over 30 unique channels of listener-supported, commercial-free, underground/alternative radio broadcasting to the world. All music hand-picked by SomaFM`s award-winning DJs and music directors.',
       component: 'radio'
