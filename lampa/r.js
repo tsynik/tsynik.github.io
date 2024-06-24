@@ -48,7 +48,6 @@
 
   // setup audio routing, called after user interaction, setup once
   function setupAudio() {
-    var _this = this;
     if (_audio && _context) return;
     _audio = new Audio();
     _context = new (window.AudioContext || window.webkitAudioContext)();
@@ -60,12 +59,12 @@
     _source.connect(_gain);
     _gain.connect(_context.destination);
     _audio.addEventListener('canplay', function (e) {
-      _this._freq = new Uint8Array(_this._analyser.frequencyBinCount);
-      _this._audio.play();
+      _freq = new Uint8Array(_analyser.frequencyBinCount);
+      _audio.play();
     });
     ['waiting', 'playing', 'ended', 'stalled', 'error'].forEach(function (event) {
-      _this._audio.addEventListener(event, function (e) {
-        return _this.emit(event, e);
+      _audio.addEventListener(event, function (e) {
+        return emit(event, e);
       });
     });
     _audio.addEventListener("playing", function (event) {
