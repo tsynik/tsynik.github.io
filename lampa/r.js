@@ -60,9 +60,10 @@
     _gain.connect(_context.destination);
     _audio.addEventListener('canplay', function (e) {
       _freq = new Uint8Array(_analyser.frequencyBinCount);
+      console.log('SomaFM', 'got canplay');
       _audio.play();
     });
-    ['waiting', 'playing', 'ended', 'stalled', 'error'].forEach(function (event) {
+    ['play', 'waiting', 'playing', 'ended', 'stalled', 'error'].forEach(function (event) {
       _audio.addEventListener(event, function (e) {
         return emit(event, e);
       });
