@@ -33,16 +33,105 @@
     { quality: 'highest', format: 'mp3' }
   ];
 
-  var audio = new Audio();
+  var _context = null;
+  var _audio = null;
+  var _source = null;
+  var _gain = null;
+  var _analyser = null;
+  var _freq = new Uint8Array(32);
+  var _hasfreq = false;
+  var _counter = 0;
+  var _events = {};
+  var _component;
   var played = false;
-  var somaComponent;
   var changeWave = function () { };
 
-  audio.addEventListener("playing", function (event) {
+  // setup audio routing, called after user interaction, setup once
+  function setupAudio() {
+    var _this = this;
+    if (_audio && _context) return;
+    _audio = new Audio();
+    _context = new (window.AudioContext || window.webkitAudioContext)();
+    _source = _context.createMediaElementSource(this._audio);
+    _analyser = _context.createAnalyser();
+    _gain = _context.createGain();
+    _analyser.fftSize = 32;
+    _source.connect(_analyser);
+    _source.connect(_gain);
+    _gain.connect(_context.destination);
+    _audio.addEventListener('canplay', function (e) {
+      _this._freq = new Uint8Array(_this._analyser.frequencyBinCount);
+      _this._audio.play();
+    });
+    ['waiting', 'playing', 'ended', 'stalled', 'error'].forEach(function (event) {
+      _this._audio.addEventListener(event, function (e) {
+        return _this.emit(event, e);
+      });
+    });
+  }
+  // stop playing audio
+  function stopAudio() {
+    if (!_audio) return;
+    try {
+      _audio.pause();
+    } catch (e) { }
+    try {
+      _audio.stop();
+    } catch (e) { }
+    try {
+      _audio.close();
+    } catch (e) { }
+  }
+
+  // emit saved audio event
+  function emit(event, data) {
+    if (event && _events.hasOwnProperty(event)) {
+      console.log('SomaFM', 'emit', event);
+      _events[event](data);
+    }
+  }
+
+  // set audio volume
+  function setVolume(volume) {
+    if (!_gain) return;
+    volume = parseFloat(volume) || 0;
+    volume = volume > 1 ? volume / 100 : volume;
+    volume = volume > 1 ? 1 : volume;
+    volume = volume < 0 ? 0 : volume;
+    _audio.muted = volume <= 0 ? true : false;
+    _gain.gain.value = volume;
+  }
+
+  // update and return analyser frequency value (0-1) to control animations
+  function getFreqData(playing) {
+    if (!_analyser) return 0;
+
+    // this is not working on some devices running safari
+    _analyser.getByteFrequencyData(_freq);
+    var _freq = Math.floor(_freq[4] | 0) / 255;
+
+    // indicate that a freq value can be read
+    if (!_hasfreq && _freq) {
+      _hasfreq = true;
+    }
+
+    // frequency data available
+    if (_hasfreq) return _freq;
+
+    // return fake counter if no freq data available (safari workaround)
+    if (playing) {
+      _counter = _counter < .6 ? _counter + .01 : _counter;
+    } else {
+      _counter = _counter > 0 ? _counter - .01 : _counter;
+    }
+    return _counter;
+  }
+
+  _audio.addEventListener("playing", function (event) {
     changeWave('play');
   });
 
-  audio.addEventListener("waiting", function (event) {
+  _audio.addEventListener("waiting", function (event) {
     changeWave('loading');
   });
 
@@ -253,7 +342,7 @@
     var active;
     var last;
 
-    somaComponent = this;
+    _component = this;
 
     this.create = function () {
       var _this = this;
@@ -525,7 +614,6 @@
     // get songs list for a channel from api
     function getSongs(channel) {
       if (!channel || !channel.id || !channel.songsurl) return;
-      // if ( !this.isCurrentChannel( channel ) ) { this.songs = []; this.track = {}; }
 
       fetchSongs(channel, function (err, songs) {
         var size = Object.keys(songs).length;
@@ -657,10 +745,10 @@
     var info; // = window.somafm_info;
 
     function prepare() {
-      if (audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
+      if (_audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
         try {
           hls = new Hls();
-          hls.attachMedia(audio);
+          hls.attachMedia(_audio);
           hls.loadSource(url);
           hls.on(Hls.Events.ERROR, function (event, data) {
             if (data.details === Hls.ErrorDetails.MANIFEST_PARSING_ERROR) {
@@ -679,15 +767,15 @@
     }
 
     function load() {
-      audio.src = url;
-      audio.load();
+      _audio.src = url;
+      _audio.load();
       start();
     }
 
     function start() {
       var playPromise;
       try {
-        playPromise = audio.play();
+        playPromise = _audio.play();
       } catch (e) { }
       if (playPromise !== undefined) {
         playPromise.then(function () {
@@ -699,6 +787,13 @@
     }
 
     function play() {
+      setupAudio();
+      // stopAudio();
+      if (_context.state === 'suspended') {
+        _context.resume().then(function () {
+          console.log('Audio context has been resumed.');
+        });
+      }
       player_html.toggleClass('loading', true);
       player_html.toggleClass('stop', false);
       prepare();
@@ -714,18 +809,19 @@
         hls.destroy();
         hls = false;
       }
-      audio.src = '';
+      _audio.src = '';
       // remove info
       if (info) {
         info.destroy();
         info = false;
       }
+      stopAudio();
     }
     // handle audio stream state changes
-    audio.addEventListener("play", function (event) {
+    _audio.addEventListener("play", function (event) {
       played = true;
     });
-    audio.addEventListener("playing", function (event) {
+    _audio.addEventListener("playing", function (event) {
       player_html.toggleClass('loading', false);
       if (!screenreset) {
         screenreset = setInterval(function () {
@@ -733,7 +829,7 @@
         }, 5000);
       }
     });
-    audio.addEventListener("waiting", function (event) {
+    _audio.addEventListener("waiting", function (event) {
       player_html.toggleClass('loading', true);
     });
     // handle player button click
@@ -773,7 +869,7 @@
               info.destroy();
               info = false;
             }
-            if (somaComponent) somaComponent.activity.toggle();
+            if (_component) _component.activity.toggle();
             Lampa.Controller.toggle('content');
           },
         });
