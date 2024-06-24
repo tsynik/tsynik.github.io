@@ -64,15 +64,19 @@
     });
     ['waiting', 'playing', 'ended', 'stalled', 'error'].forEach(function (event) {
       _audio.addEventListener(event, function (e) {
+        if (event === 'playing')
+          changeWave('play');
+        if (event === 'waiting')
+          changeWave('loading');
         return emit(event, e);
       });
     });
-    _audio.addEventListener("playing", function (event) {
-      changeWave('play');
-    });  
-    _audio.addEventListener("waiting", function (event) {
-      changeWave('loading');
-    });
+    // _audio.addEventListener("playing", function (event) {
+    //   changeWave('play');
+    // });  
+    // _audio.addEventListener("waiting", function (event) {
+    //   changeWave('loading');
+    // });
   }
   // stop playing audio
   function stopAudio() {
@@ -739,9 +743,16 @@
     var hls;
     var screenreset;
 
-    var info; // = window.somafm_info;
+    var info;
 
     setupAudio();
+
+    // add event listeners to the audio api
+    function on(event, callback) {
+      if (event && typeof callback === 'function') {
+        _events[event] = callback;
+      }
+    }
 
     function prepare() {
       if (_audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
