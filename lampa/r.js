@@ -52,7 +52,7 @@
     if (_audio && _context) return;
     _audio = new Audio();
     _context = new (window.AudioContext || window.webkitAudioContext)();
-    _source = _context.createMediaElementSource(this._audio);
+    _source = _context.createMediaElementSource(_audio);
     _analyser = _context.createAnalyser();
     _gain = _context.createGain();
     _analyser.fftSize = 32;
