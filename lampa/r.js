@@ -64,19 +64,22 @@
     });
     ['waiting', 'playing', 'ended', 'stalled', 'error'].forEach(function (event) {
       _audio.addEventListener(event, function (e) {
-        if (event === 'playing')
-          changeWave('play');
-        if (event === 'waiting')
-          changeWave('loading');
         return emit(event, e);
       });
     });
-    // _audio.addEventListener("playing", function (event) {
-    //   changeWave('play');
-    // });  
-    // _audio.addEventListener("waiting", function (event) {
-    //   changeWave('loading');
-    // });
+  }
+  // emit saved audio event
+  function emit(event, data) {
+    if (event && _events.hasOwnProperty(event)) {
+      console.log('SomaFM', 'emit', event);
+      _events[event](data);
+    }
+  }
+  // add event listeners to the audio api
+  function on(event, callback) {
+    if (event && typeof callback === 'function') {
+      _events[event] = callback;
+    }
   }
   // stop playing audio
   function stopAudio() {
@@ -91,15 +94,6 @@
       _audio.close();
     } catch (e) { }
   }
-
-  // emit saved audio event
-  function emit(event, data) {
-    if (event && _events.hasOwnProperty(event)) {
-      console.log('SomaFM', 'emit', event);
-      _events[event](data);
-    }
-  }
-
   // set audio volume
   function setVolume(volume) {
     if (!_gain) return;
@@ -110,7 +104,6 @@
     _audio.muted = volume <= 0 ? true : false;
     _gain.gain.value = volume;
   }
-
   // update and return analyser frequency value (0-1) to control animations
   function getFreqData(playing) {
     if (!_analyser) return 0;
@@ -639,26 +632,6 @@
       if (playingTrack.title)
         info_html.find('.somafm-cover__title').text(playingTrack.title);
 
-      // if (fetchCovers) {
-      //   var genres = [];
-      //   if (station.title)
-      //     genres.push(station.title)
-      //   if (station.genre)
-      //     genres.push(station.genre)
-      //   // if (station.dj)
-      //   //   genres.push(station.dj)
-      //   if (genres.length > 0)
-      //     info_html.find('.somafm-cover__genre').text(genres.join(' ● '));
-      // }
-
-      // var tooltip = [];
-      // if (playingTrack.artist)
-      //   tooltip.push(playingTrack.artist);
-      // if (playingTrack.album)
-      //   tooltip.push(playingTrack.album);
-      // if (tooltip.length > 0)
-      //   info_html.find('.somafm-cover__tooltip').text(tooltip.join(' ● '));
-
       // TODO: use playlist for lastSongs
       // info_html.find('.somafm-cover__playlist').text(playlist);
 
@@ -694,6 +667,13 @@
       }
       changeWave(played ? 'play' : 'loading');
     }
+
+    on("playing", function () {
+      changeWave('play');
+    });
+    on("waiting", function () {
+      changeWave('loading');
+    });
 
     this.create = function () {
       var cover = Lampa.Template.js('somafm_cover');
@@ -746,13 +726,6 @@
     var info;
 
     setupAudio();
-
-    // add event listeners to the audio api
-    function on(event, callback) {
-      if (event && typeof callback === 'function') {
-        _events[event] = callback;
-      }
-    }
 
     function prepare() {
       if (_audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
@@ -827,7 +800,7 @@
         info.destroy();
         info = false;
       }
-      // stopAudio();
+      stopAudio();
     }
     // handle audio stream state changes
     on("play", function () {
@@ -844,20 +817,7 @@
     on("waiting", function () {
       player_html.toggleClass('loading', true);
     });
-    // _audio.addEventListener("play", function (event) {
-    //   played = true;
-    // });
-    // _audio.addEventListener("playing", function (event) {
-    //   player_html.toggleClass('loading', false);
-    //   if (!screenreset) {
-    //     screenreset = setInterval(function () {
-    //       Lampa.Screensaver.resetTimer();
-    //     }, 5000);
-    //   }
-    // });
-    // _audio.addEventListener("waiting", function (event) {
-    //   player_html.toggleClass('loading', true);
-    // });
+
     // handle player button click
     player_html.on('hover:enter', function () {
       if (played) stop(); else if (url) play();
