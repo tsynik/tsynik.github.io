@@ -766,6 +766,9 @@
 
     function load() {
       _audio.src = url;
+      _audio.preload = 'metadata';
+      _audio.crossOrigin = 'anonymous';
+      _audio.autoplay = false;
       _audio.load();
       start();
     }
