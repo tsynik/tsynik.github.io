@@ -803,7 +803,7 @@
       // stopAudio();
       if (_context.state === 'suspended') {
         _context.resume().then(function () {
-          console.log('Audio context has been resumed.');
+          console.log('SomaFM', 'Audio context has been resumed.');
         });
       }
       player_html.toggleClass('loading', true);
@@ -830,10 +830,10 @@
       // stopAudio();
     }
     // handle audio stream state changes
-    _audio.addEventListener("play", function (event) {
+    this.on("play", function () {
       played = true;
     });
-    _audio.addEventListener("playing", function (event) {
+    this.on("playing", function () {
       player_html.toggleClass('loading', false);
       if (!screenreset) {
         screenreset = setInterval(function () {
@@ -841,9 +841,23 @@
         }, 5000);
       }
     });
-    _audio.addEventListener("waiting", function (event) {
+    this.on("waiting", function () {
       player_html.toggleClass('loading', true);
     });
+    // _audio.addEventListener("play", function (event) {
+    //   played = true;
+    // });
+    // _audio.addEventListener("playing", function (event) {
+    //   player_html.toggleClass('loading', false);
+    //   if (!screenreset) {
+    //     screenreset = setInterval(function () {
+    //       Lampa.Screensaver.resetTimer();
+    //     }, 5000);
+    //   }
+    // });
+    // _audio.addEventListener("waiting", function (event) {
+    //   player_html.toggleClass('loading', true);
+    // });
     // handle player button click
     player_html.on('hover:enter', function () {
       if (played) stop(); else if (url) play();
