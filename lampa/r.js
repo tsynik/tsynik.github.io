@@ -816,7 +816,7 @@
         info.destroy();
         info = false;
       }
-      stopAudio();
+      // stopAudio();
     }
     // handle audio stream state changes
     _audio.addEventListener("play", function (event) {
