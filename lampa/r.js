@@ -830,10 +830,10 @@
       // stopAudio();
     }
     // handle audio stream state changes
-    this.on("play", function () {
+    on("play", function () {
       played = true;
     });
-    this.on("playing", function () {
+    on("playing", function () {
       player_html.toggleClass('loading', false);
       if (!screenreset) {
         screenreset = setInterval(function () {
@@ -841,7 +841,7 @@
         }, 5000);
       }
     });
-    this.on("waiting", function () {
+    on("waiting", function () {
       player_html.toggleClass('loading', true);
     });
     // _audio.addEventListener("play", function (event) {
