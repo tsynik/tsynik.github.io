@@ -68,6 +68,12 @@
         return _this.emit(event, e);
       });
     });
+    _audio.addEventListener("playing", function (event) {
+      changeWave('play');
+    });  
+    _audio.addEventListener("waiting", function (event) {
+      changeWave('loading');
+    });
   }
   // stop playing audio
   function stopAudio() {
@@ -126,14 +132,6 @@
     }
     return _counter;
   }
-
-  _audio.addEventListener("playing", function (event) {
-    changeWave('play');
-  });
-
-  _audio.addEventListener("waiting", function (event) {
-    changeWave('loading');
-  });
 
   // parse pls INI
   function parseINIString(data) {
