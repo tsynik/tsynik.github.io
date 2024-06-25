@@ -122,7 +122,7 @@
     if (_hasfreq) return _freq;
 
     // return fake counter if no freq data available (safari workaround)
-    if (playing) {
+    if (played) {
       _counter = _counter < .6 ? _counter + .01 : _counter;
     } else {
       _counter = _counter > 0 ? _counter - .01 : _counter;
@@ -602,18 +602,18 @@
       canvas.height = window.innerHeight;
       var ctx = canvas.getContext("2d");
 
-      var bufferLength = 32 // analyser.frequencyBinCount;
-      var dataArray = _freq // new Uint8Array(bufferLength);
+      var bufferLength = _analyser.frequencyBinCount;
+      var dataArray =  new Uint8Array(bufferLength); // _freq
       var barWidth = canvas.width / bufferLength; // half of the fftSize
-      var freq = getFreqData(played);  // TODO
+      //var freq = getFreqData(played);  // TODO
 
       let x = 0;
       function animate() {
         x = 0;
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         analyser.getByteFrequencyData(dataArray);
-        freq = getFreqData(played);
-        console.log('SomaFM', "freq", freq);
+        //freq = getFreqData(played);
+        //console.log('SomaFM', "freq", freq);
         for (let i = 0; i < bufferLength; i++) {
           barHeight = dataArray[i];
           ctx.fillStyle = "white";
