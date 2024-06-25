@@ -615,8 +615,7 @@
       // https://wesbos.com/javascript/15-final-round-of-exercise/85-audio-visualization
       function renderFrame() {
         // get data
-        getFreqData(played)
-        //_analyser.getByteFrequencyData(_freq);
+        getFreqData(played) //_analyser.getByteFrequencyData(dataArray);
         // clear draw
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         x = 0;
