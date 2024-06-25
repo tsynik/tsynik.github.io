@@ -632,7 +632,7 @@
           var r = 238;
           var g = 238;
           var b = 238;
-          var opacity = 1 * barHeight; // 25 * (i/bufferLength);
+          var opacity = dataArray[i] / 300 // percent, 0 to 0.85, data = [0 to 255]
           
           ctx.fillStyle = "rgba(" + r + "," + g + "," + b + "," + opacity + ")";
           ctx.fillRect(x, HEIGHT - barHeight, barWidth, barHeight);
