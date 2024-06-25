@@ -112,15 +112,15 @@
 
     // this is not working on some devices running safari
     _analyser.getByteFrequencyData(_freq);
-    var _freq = Math.floor(_freq[4] | 0) / 255;
+    var freq = Math.floor(_freq[4] | 0) / 255;
 
     // indicate that a freq value can be read
-    if (!_hasfreq && _freq) {
+    if (!_hasfreq && freq) {
       _hasfreq = true;
     }
 
     // frequency data available
-    if (_hasfreq) return _freq;
+    if (_hasfreq) return freq;
 
     // return fake counter if no freq data available (safari workaround)
     if (played) {
