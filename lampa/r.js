@@ -33,12 +33,13 @@
     { quality: 'highest', format: 'mp3' }
   ];
 
+  var powtwo = 1024; // power of 2 value
   var _context = null;
   var _audio = null;
   var _source = null;
   var _gain = null;
   var _analyser = null;
-  var _freq = new Uint8Array(32);
+  var _freq = new Uint8Array(powtwo);
   var _hasfreq = false;
   var _counter = 0;
   var _events = {};
@@ -54,7 +55,7 @@
     _source = _context.createMediaElementSource(_audio);
     _analyser = _context.createAnalyser();
     _gain = _context.createGain();
-    _analyser.fftSize = 1024; // power of 2 values
+    _analyser.fftSize = powtwo;
     _source.connect(_analyser);
     _source.connect(_gain);
     _gain.connect(_context.destination);
@@ -105,7 +106,7 @@
     _audio.muted = volume <= 0 ? true : false;
     _gain.gain.value = volume;
   }
-  // update and return analyser frequency value (0-1) to control animations
+  // update and return analyser frequency value [0-1] to control animations
   function getFreqData(playing) {
     if (!_analyser) return 0;
 
@@ -603,7 +604,7 @@
       var ctx = canvas.getContext("2d");
 
       var bufferLength = _analyser.frequencyBinCount;
-      var dataArray = new Uint8Array(bufferLength);
+      //var dataArray = new Uint8Array(bufferLength);
 
       var WIDTH = canvas.width;
       var HEIGHT = canvas.height;
@@ -614,12 +615,13 @@
       // https://wesbos.com/javascript/15-final-round-of-exercise/85-audio-visualization
       function renderFrame() {
         // get data
-       _analyser.getByteFrequencyData(dataArray);
-        // clear
+        var opacity = getFreqData(played) // dataArray[i] / 300 // percent, 0 to 0.85, data = [0 to 255]
+        //_analyser.getByteFrequencyData(_freq);
+        // clear draw
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         x = 0;
         for (var i = 0; i < bufferLength; i++) {
-          barHeight = dataArray[i] / 2;
+          barHeight = _freq[i] / 2;
 
           // var r = barHeight + (25 * (i/bufferLength));
           // var g = 250 * (i/bufferLength);
@@ -629,7 +631,6 @@
           var r = 255;
           var g = 255;
           var b = 255;
-          var opacity = dataArray[i] / 300 // percent, 0 to 0.85, data = [0 to 255]
 
           ctx.fillStyle = "rgba(" + r + "," + g + "," + b + "," + opacity + ")";
           ctx.fillRect(x, HEIGHT - barHeight, barWidth, barHeight);
