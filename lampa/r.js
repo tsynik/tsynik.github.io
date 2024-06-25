@@ -615,12 +615,14 @@
       // https://wesbos.com/javascript/15-final-round-of-exercise/85-audio-visualization
       function renderFrame() {
         // get data
-        var opacity = getFreqData(played) // dataArray[i] / 300 // percent, 0 to 0.85, data = [0 to 255]
         //_analyser.getByteFrequencyData(_freq);
         // clear draw
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         x = 0;
         for (var i = 0; i < bufferLength; i++) {
+          // fill data
+          var opacity = getFreqData(played) // dataArray[i] / 300 // percent, 0 to 0.85, data = [0 to 255]
+
           barHeight = _freq[i] / 2;
 
           // var r = barHeight + (25 * (i/bufferLength));
