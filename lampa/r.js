@@ -59,8 +59,8 @@
     _source.connect(_gain);
     _gain.connect(_context.destination);
     _audio.addEventListener('canplay', function (e) {
-      _freq = new Uint8Array(_analyser.frequencyBinCount);
       console.log('SomaFM', 'got canplay');
+      _freq = new Uint8Array(_analyser.frequencyBinCount);
       _audio.play();
     });
     ['play', 'waiting', 'playing', 'ended', 'stalled', 'error'].forEach(function (event) {
@@ -774,7 +774,7 @@
     }
 
     function play() {
-      // stopAudio();
+      stopAudio();
       if (_context.state === 'suspended') {
         _context.resume().then(function () {
           console.log('SomaFM', 'Audio context has been resumed.');
@@ -786,6 +786,7 @@
     }
 
     function stop() {
+      stopAudio();
       clearInterval(screenreset);
       screenreset = null; // release timer from the variable
       played = false;
@@ -801,8 +802,8 @@
         info.destroy();
         info = false;
       }
-      stopAudio();
     }
+
     // handle audio stream state changes
     on("play", function () {
       played = true;
