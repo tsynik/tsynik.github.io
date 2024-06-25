@@ -54,7 +54,7 @@
     _source = _context.createMediaElementSource(_audio);
     _analyser = _context.createAnalyser();
     _gain = _context.createGain();
-    _analyser.fftSize = 40; // to reduce LF bars
+    _analyser.fftSize = 256; // power of 2 values
     _source.connect(_analyser);
     _source.connect(_gain);
     _gain.connect(_context.destination);
@@ -600,550 +600,573 @@
     if (canvas) {
       //canvas.width = window.innerWidth;
       //canvas.height = window.innerHeight;
-      var ctx = canvas.getContext("2d");
+      var canvasCtx = canvas.getContext("2d");
 
       var bufferLength = _analyser.frequencyBinCount;
-      var dataArray =  new Uint8Array(bufferLength); // _freq
-      var barHeight;
-      var barWidth = canvas.width / bufferLength; // half of the fftSize
-      //var freq = getFreqData(played);  // TODO
+      var dataArray = new Uint8Array(bufferLength);
+      // var barHeight;
+      // var barWidth = canvas.width / bufferLength; // half of the fftSize
+      // var freq = getFreqData(played);  // TODO
+      // let x = 0;
+      // function animate() {
+      //   x = 0;
+      //   canvasCtx.clearRect(0, 0, canvas.width, canvas.height);
+      //   _analyser.getByteFrequencyData(dataArray);
+      //   //freq = getFreqData(played);
+      //   //console.log('SomaFM', "freq", freq);
+      //   for (let i = 0; i < bufferLength; i++) {
+      //     barHeight = dataArray[i];
+      //     canvasCtx.fillStyle = "white";
+      //     canvasCtx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
+      //     x += barWidth;
+      //   }
+      //   requestAnimationFrame(animate);
+      // }
+      // animate();
 
-      let x = 0;
-      function animate() {
-        x = 0;
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-        _analyser.getByteFrequencyData(dataArray);
-        //freq = getFreqData(played);
-        //console.log('SomaFM', "freq", freq);
+      var WIDTH = window.innerWidth;
+      var HEIGHT = window.innerHeight;
+
+      canvasCtx.clearRect(0, 0, WIDTH, HEIGHT);
+
+      function draw() {
+        drawVisual = requestAnimationFrame(draw);
+
+        analyser.getByteFrequencyData(dataArray);
+        // background
+        // canvasCtx.fillStyle = "rgb(0 0 0)";
+        // canvasCtx.fillRect(0, 0, WIDTH, HEIGHT);
+        const barWidth = (WIDTH / bufferLength) * 2.5;
+        let barHeight;
+        let x = 0;
         for (let i = 0; i < bufferLength; i++) {
-          barHeight = dataArray[i];
-          ctx.fillStyle = "white";
-          ctx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
-          x += barWidth;
+          barHeight = dataArray[i] / 2;
+          canvasCtx.fillStyle = `rgb(${barHeight + 100} 50 50)`;
+          canvasCtx.fillRect(x, HEIGHT - barHeight / 2, barWidth, barHeight);
+
+          x += barWidth + 1;
         }
-
-        requestAnimationFrame(animate);
       }
-
-      animate();
+      draw();
     }
-
-    if (songsupdate) {
-      clearInterval(songsupdate);
-      songsupdate = null;
-    }
-    // getSongs(station); // no delay on show info
-    // Playing Info update task
-    songsupdate = setInterval(function () {
-      getSongs(station);
-    }, 5000); // songs update internal
-
-    // get songs list for a channel from api
-    function getSongs(channel) {
-      if (!channel || !channel.id || !channel.songsurl) return;
-
-      fetchSongs(channel, function (err, songs) {
-        var size = Object.keys(songs).length;
-        if (!err && size > 0
-          && (!currTrack.date || (songs[0].date && currTrack.date !== songs[0].date))
-        ) {
-          currTrack = songs.shift();
-          lastSongs = songs.slice(0, 3);
-          updatePlayingInfo(currTrack);
-        }
-      });
-    }
-
-    function setTrackCover(cover) {
-      img_elm.src = cover || station.largeimage; // image - 120 | largeimage - 256 | xlimage 512
-      Lampa.Background.immediately(img_elm.src);
-    }
-
-    function updatePlayingInfo(playingTrack) {
-      var fetchCovers = Lampa.Storage.field('somafm_fetch_covers');
-
-      if (playingTrack.title)
-        info_html.find('.somafm-cover__title').text(playingTrack.title);
-
-      // TODO: use playlist for lastSongs
-      // info_html.find('.somafm-cover__playlist').text(playlist);
-
-      var album_cont = info_html.find('.somafm-cover__album');
-      var album_info = album_cont.find('span');
-      album_info.text(playingTrack.album || '');
-      var album_svg = album_cont.find('svg');
-      playingTrack.album ? album_svg.style.width = "1em" : album_svg.style.width = "0em";
-      info_html.find('.somafm-cover__title').text(playingTrack.title || '');
-      info_html.find('.somafm-cover__tooltip').text(playingTrack.artist || '');
-
-      var albumart = playingTrack.albumart;
-      if (albumart)
-        setTrackCover(albumart);
-      else if (fetchCovers)
-        getTrackCover(playingTrack.artist + " - " + playingTrack.title, playingTrack.album, setTrackCover);
-    }
-
-    changeWave = function (class_name) {
-      var lines = info_html.find('.somafm-info__wave').querySelectorAll('div');
-      for (var i = 0; i < lines.length; i++) {
-        lines[i].removeClass('play loading').addClass(class_name);
-        lines[i].style['animation-duration'] = (class_name == 'loading' ? 400 : 200 + Math.random() * 200) + 'ms';
-        lines[i].style['animation-delay'] = (class_name == 'loading' ? Math.round(400 / lines.length * i) : 0) + 'ms';
-      }
-    }
-
-    function createWave() {
-      var box = info_html.find('.somafm-info__wave');
-      for (var i = 0; i < 15; i++) {
-        var div = document.createElement('div');
-        box.append(div);
-      }
-      changeWave(played ? 'play' : 'loading');
-    }
-
-    on("playing", function () {
-      changeWave('play');
-    });
-    on("waiting", function () {
-      changeWave('loading');
-    });
-
-    this.create = function () {
-      var cover = Lampa.Template.js('somafm_cover');
-      cover.find('.somafm-cover__station').text(station.title || '');
-      cover.find('.somafm-cover__genre').text(station.genre || '');
-      cover.find('.somafm-cover__tooltip').text(station.description || '');
-      cover.find('.somafm-cover__album span').text(station.dj ? 'DJ – ' + station.dj : '');
-
-      var img_box = cover.find('.somafm-cover__img-box');
-      img_box.removeClass('loaded loaded-icon');
-
-      img_elm = img_box.find('img');
-      img_elm.onload = function () {
-        img_box.addClass('loaded');
-      };
-      img_elm.onerror = function () {
-        img_elm.src = './img/icons/menu/movie.svg';
-        img_box.addClass('loaded-icon');
-      };
-      img_elm.src = station.largeimage; // image - 120 | largeimage - 256 | xlimage 512
-
-      info_html.find('.somafm-info__cover').append(cover);
-      info_html.find('.somafm-info__close').on('click', function () {
-        window.history.back();
-      });
-
-      document.body.append(info_html);
-      createWave();
-    };
-
-    this.destroy = function () {
-      info_html.remove();
-      clearInterval(songsupdate);
-      songsupdate = null; // release songs update timer
-      currTrack = {};
-      lastSongs = [];
-    };
-
   }
+
+  if (songsupdate) {
+    clearInterval(songsupdate);
+    songsupdate = null;
+  }
+  // getSongs(station); // no delay on show info
+  // Playing Info update task
+  songsupdate = setInterval(function () {
+    getSongs(station);
+  }, 5000); // songs update internal
+
+  // get songs list for a channel from api
+  function getSongs(channel) {
+    if (!channel || !channel.id || !channel.songsurl) return;
+
+    fetchSongs(channel, function (err, songs) {
+      var size = Object.keys(songs).length;
+      if (!err && size > 0
+        && (!currTrack.date || (songs[0].date && currTrack.date !== songs[0].date))
+      ) {
+        currTrack = songs.shift();
+        lastSongs = songs.slice(0, 3);
+        updatePlayingInfo(currTrack);
+      }
+    });
+  }
+
+  function setTrackCover(cover) {
+    img_elm.src = cover || station.largeimage; // image - 120 | largeimage - 256 | xlimage 512
+    Lampa.Background.immediately(img_elm.src);
+  }
+
+  function updatePlayingInfo(playingTrack) {
+    var fetchCovers = Lampa.Storage.field('somafm_fetch_covers');
+
+    if (playingTrack.title)
+      info_html.find('.somafm-cover__title').text(playingTrack.title);
+
+    // TODO: use playlist for lastSongs
+    // info_html.find('.somafm-cover__playlist').text(playlist);
+
+    var album_cont = info_html.find('.somafm-cover__album');
+    var album_info = album_cont.find('span');
+    album_info.text(playingTrack.album || '');
+    var album_svg = album_cont.find('svg');
+    playingTrack.album ? album_svg.style.width = "1em" : album_svg.style.width = "0em";
+    info_html.find('.somafm-cover__title').text(playingTrack.title || '');
+    info_html.find('.somafm-cover__tooltip').text(playingTrack.artist || '');
+
+    var albumart = playingTrack.albumart;
+    if (albumart)
+      setTrackCover(albumart);
+    else if (fetchCovers)
+      getTrackCover(playingTrack.artist + " - " + playingTrack.title, playingTrack.album, setTrackCover);
+  }
+
+  changeWave = function (class_name) {
+    var lines = info_html.find('.somafm-info__wave').querySelectorAll('div');
+    for (var i = 0; i < lines.length; i++) {
+      lines[i].removeClass('play loading').addClass(class_name);
+      lines[i].style['animation-duration'] = (class_name == 'loading' ? 400 : 200 + Math.random() * 200) + 'ms';
+      lines[i].style['animation-delay'] = (class_name == 'loading' ? Math.round(400 / lines.length * i) : 0) + 'ms';
+    }
+  }
+
+  function createWave() {
+    var box = info_html.find('.somafm-info__wave');
+    for (var i = 0; i < 15; i++) {
+      var div = document.createElement('div');
+      box.append(div);
+    }
+    changeWave(played ? 'play' : 'loading');
+  }
+
+  on("playing", function () {
+    changeWave('play');
+  });
+  on("waiting", function () {
+    changeWave('loading');
+  });
+
+  this.create = function () {
+    var cover = Lampa.Template.js('somafm_cover');
+    cover.find('.somafm-cover__station').text(station.title || '');
+    cover.find('.somafm-cover__genre').text(station.genre || '');
+    cover.find('.somafm-cover__tooltip').text(station.description || '');
+    cover.find('.somafm-cover__album span').text(station.dj ? 'DJ – ' + station.dj : '');
+
+    var img_box = cover.find('.somafm-cover__img-box');
+    img_box.removeClass('loaded loaded-icon');
+
+    img_elm = img_box.find('img');
+    img_elm.onload = function () {
+      img_box.addClass('loaded');
+    };
+    img_elm.onerror = function () {
+      img_elm.src = './img/icons/menu/movie.svg';
+      img_box.addClass('loaded-icon');
+    };
+    img_elm.src = station.largeimage; // image - 120 | largeimage - 256 | xlimage 512
+
+    info_html.find('.somafm-info__cover').append(cover);
+    info_html.find('.somafm-info__close').on('click', function () {
+      window.history.back();
+    });
+
+    document.body.append(info_html);
+    createWave();
+  };
+
+  this.destroy = function () {
+    info_html.remove();
+    clearInterval(songsupdate);
+    songsupdate = null; // release songs update timer
+    currTrack = {};
+    lastSongs = [];
+  };
+
+}
 
   function Player() {
 
-    var player_html = Lampa.Template.get('somafm_player', {});
+  var player_html = Lampa.Template.get('somafm_player', {});
 
-    var url = '';
-    var format = '';
-    var hls;
-    var screenreset;
+  var url = '';
+  var format = '';
+  var hls;
+  var screenreset;
 
-    var info;
+  var info;
 
-    setupAudio();
+  setupAudio();
 
-    function prepare() {
-      if (_audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
-        try {
-          hls = new Hls();
-          hls.attachMedia(_audio);
-          hls.loadSource(url);
-          hls.on(Hls.Events.ERROR, function (event, data) {
-            if (data.details === Hls.ErrorDetails.MANIFEST_PARSING_ERROR) {
-              if (data.reason === "no EXTM3U delimiter") {
-                Lampa.Noty.show(Lampa.Lang.translate('somafm_error'));
-              }
-            }
-          });
-          hls.on(Hls.Events.MANIFEST_LOADED, function () {
-            start();
-          });
-        } catch (e) {
-          Lampa.Noty.show(Lampa.Lang.translate('somafm_error'));
-        }
-      } else load();
-    }
-
-    function load() {
-      _audio.src = url;
-      _audio.preload = 'metadata';
-      _audio.crossOrigin = 'anonymous';
-      _audio.autoplay = false;
-      _audio.load();
-      start();
-    }
-
-    function start() {
-      var playPromise;
+  function prepare() {
+    if (_audio.canPlayType('audio/vnd.apple.mpegurl')) load(); else if (Hls.isSupported() && format == "aacp") {
       try {
-        playPromise = _audio.play();
-      } catch (e) { }
-      if (playPromise !== undefined) {
-        playPromise.then(function () {
-          console.log('SomaFM', 'start playing', url);
-        })["catch"](function (e) {
-          console.log('SomaFM', 'play promise error:', e.message);
-        });
-      }
-    }
-
-    function play() {
-      stopAudio();
-      if (_context.state === 'suspended') {
-        _context.resume().then(function () {
-          console.log('SomaFM', 'Audio context has been resumed.');
-        });
-      }
-      player_html.toggleClass('loading', true);
-      player_html.toggleClass('stop', false);
-      prepare();
-    }
-
-    function stop() {
-      stopAudio();
-      clearInterval(screenreset);
-      screenreset = null; // release timer from the variable
-      played = false;
-      player_html.toggleClass('stop', true);
-      player_html.toggleClass('loading', false);
-      if (hls) {
-        hls.destroy();
-        hls = false;
-      }
-      _audio.src = '';
-      // remove info
-      if (info) {
-        info.destroy();
-        info = false;
-      }
-    }
-
-    // handle audio stream state changes
-    on("play", function () {
-      played = true;
-    });
-    on("playing", function () {
-      player_html.toggleClass('loading', false);
-      if (!screenreset) {
-        screenreset = setInterval(function () {
-          Lampa.Screensaver.resetTimer();
-        }, 5000);
-      }
-    });
-    on("waiting", function () {
-      player_html.toggleClass('loading', true);
-    });
-
-    // handle player button click
-    player_html.on('hover:enter', function () {
-      if (played) stop(); else if (url) play();
-    });
-
-    this.create = function () {
-      $('.head__actions .open--search').before(player_html);
-    };
-
-    var curPlayID = null;
-
-    this.play = function (station) {
-      // todo player.destroy() start
-      if (window.currentPlayer && window.currentPlayer !== this && window.currentPlayer.destroy) {
-        window.currentPlayer.destroy();
-      }
-      window.currentPlayer = this;
-      // todo player.destroy() end
-      if (curPlayID !== station.id || !played) stop();
-      // add info
-      if (Lampa.Storage.field('somafm_show_info') === true) {
-        info = new Info(station);
-        info.create();
-        document.body.addClass('ambience--enable');
-        Lampa.Background.change(station.largeimage || IMG_BG); // image - 120 | largeimage - 256 | xlimage 512
-        Lampa.Controller.add('content', {
-          invisible: true,
-          toggle: function toggle() {
-            Lampa.Controller.clear();
-          },
-          back: function back() {
-            document.body.removeClass('ambience--enable');
-            // player.destroy();
-            if (info) {
-              info.destroy();
-              info = false;
+        hls = new Hls();
+        hls.attachMedia(_audio);
+        hls.loadSource(url);
+        hls.on(Hls.Events.ERROR, function (event, data) {
+          if (data.details === Hls.ErrorDetails.MANIFEST_PARSING_ERROR) {
+            if (data.reason === "no EXTM3U delimiter") {
+              Lampa.Noty.show(Lampa.Lang.translate('somafm_error'));
             }
-            if (_component) _component.activity.toggle();
-            Lampa.Controller.toggle('content');
-          },
-        });
-        Lampa.Controller.toggle('content');
-      }
-      // url = data.aacfile ? data.aacfile : data.mp3file;
-      if (curPlayID !== station.id || !played) {
-        Promise.resolve(station.stream.urls).then(function (urls) {
-          if (urls.length > 0) {
-            url = random_item(urls);
-            play();
           }
         });
-        curPlayID = station.id;
-      }
-      // setup player button
-      player_html.find('.somafm-player__name').text(station.title);
-      player_html.toggleClass('hide', false);
-      var btn = player_html.find('.somafm-player__button');
-      if (btn) {
-        btn.css({
-          "background-image": "url('" + station.largeimage + "')", // image - 120 | largeimage - 256 | xlimage 512
-          "background-size": "cover"
+        hls.on(Hls.Events.MANIFEST_LOADED, function () {
+          start();
         });
+      } catch (e) {
+        Lampa.Noty.show(Lampa.Lang.translate('somafm_error'));
       }
-    };
-
-    this.destroy = function () { // todo player.destroy()
-      stop();
-      player_html.toggleClass('hide', true);
-      curPlayID = null; // todo player.destroy()
-    }
+    } else load();
   }
 
-  function add() {
-    var icon = '<svg enable-background="new 0 0 533.3 377.1" viewBox="0 0 533.3 377.1" xmlns="http://www.w3.org/2000/svg"><path d="m266.7 121.9c36.8 0 66.7 29.8 66.7 66.7s-29.8 66.7-66.7 66.7-66.7-29.9-66.7-66.7 29.8-66.7 66.7-66.7zm-116.7 66.7c0 32.2 13.1 61.4 34.2 82.5l-35.4 35.4c-30.2-30.2-48.8-71.8-48.8-117.9 0-46 18.7-87.7 48.8-117.9l35.4 35.4c-21.1 21.1-34.2 50.2-34.2 82.5zm233.3 0c0-32.2-13.1-61.4-34.2-82.5l35.4-35.4c30.2 30.2 48.8 71.8 48.8 117.9 0 46-18.7 87.7-48.8 117.9l-35.4-35.4c21.2-21.2 34.2-50.3 34.2-82.5zm-333.3 0c0 59.8 24.3 114 63.5 153.2l-35.4 35.4c-48.3-48.3-78.1-115-78.1-188.6s29.8-140.3 78.1-188.6l35.4 35.4c-39.2 39.2-63.5 93.3-63.5 153.2zm433.3 0c0-59.8-24.3-114-63.5-153.2l35.4-35.4c48.3 48.3 78.1 114.9 78.1 188.6s-29.8 140.3-78.1 188.6l-35.4-35.4c39.3-39.2 63.5-93.4 63.5-153.2z" fill="#eee"/></svg>'
-    var menu_button = $("<li class=\"menu__item selector\" data-action=\"radio\">\n\t<div class=\"menu__ico\">\n\t\t" + icon + "\n\t</div>\n\t<div class=\"menu__text\">Soma FM</div>\n</li>\n");
-    menu_button.on('hover:enter', function () {
-      Lampa.Activity.push({
-        url: '',
-        title: Lampa.Lang.translate('somafm_title'),
-        component: 'somafm',
-        page: 1
-      });
-    });
-    $('.menu .menu__list').eq(0).append(menu_button);
-    $('body').append(Lampa.Template.get('somafm_style', {}, true));
-
-    window.somafm_player = new Player();
-    window.somafm_player.create();
-
-    addSettings();
+  function load() {
+    _audio.src = url;
+    _audio.preload = 'metadata';
+    _audio.crossOrigin = 'anonymous';
+    _audio.autoplay = false;
+    _audio.load();
+    start();
   }
 
-  function addSettings() {
-    if (window.somafm_add_param_ready) return;
-    window.somafm_add_param_ready = true;
-
-    Lampa.SettingsApi.addComponent({
-      component: 'somafm',
-      name: 'Soma FM',
-      icon: '<svg enable-background="new 0 0 533.3 377.1" viewBox="0 0 533.3 377.1" xmlns="http://www.w3.org/2000/svg"><path d="m266.7 121.9c36.8 0 66.7 29.8 66.7 66.7s-29.8 66.7-66.7 66.7-66.7-29.9-66.7-66.7 29.8-66.7 66.7-66.7zm-116.7 66.7c0 32.2 13.1 61.4 34.2 82.5l-35.4 35.4c-30.2-30.2-48.8-71.8-48.8-117.9 0-46 18.7-87.7 48.8-117.9l35.4 35.4c-21.1 21.1-34.2 50.2-34.2 82.5zm233.3 0c0-32.2-13.1-61.4-34.2-82.5l35.4-35.4c30.2 30.2 48.8 71.8 48.8 117.9 0 46-18.7 87.7-48.8 117.9l-35.4-35.4c21.2-21.2 34.2-50.3 34.2-82.5zm-333.3 0c0 59.8 24.3 114 63.5 153.2l-35.4 35.4c-48.3-48.3-78.1-115-78.1-188.6s29.8-140.3 78.1-188.6l35.4 35.4c-39.2 39.2-63.5 93.3-63.5 153.2zm433.3 0c0-59.8-24.3-114-63.5-153.2l35.4-35.4c48.3 48.3 78.1 114.9 78.1 188.6s-29.8 140.3-78.1 188.6l-35.4-35.4c39.3-39.2 63.5-93.4 63.5-153.2z" fill="#eee"/></svg>'
-    });
-
-    Lampa.SettingsApi.addParam({
-      component: 'somafm',
-      param: {
-        name: 'somafm_use_aac',
-        type: 'trigger',
-        "default": false
-      },
-      field: {
-        name: Lampa.Lang.translate('somafm_use_aac_title'),
-        description: Lampa.Lang.translate('somafm_use_aac_desc')
-      },
-      onRender: function onRender(item) { }
-    });
-
-    Lampa.SettingsApi.addParam({
-      component: 'somafm',
-      param: {
-        name: 'somafm_show_info',
-        type: 'trigger',
-        "default": true
-      },
-      field: {
-        name: Lampa.Lang.translate('somafm_show_info_title'),
-        description: Lampa.Lang.translate('somafm_show_info_desc')
-      },
-      onRender: function onRender(item) { }
-    });
-
-    Lampa.SettingsApi.addParam({
-      component: 'somafm',
-      param: {
-        name: 'somafm_sort_stations',
-        type: 'trigger',
-        "default": true
-      },
-      field: {
-        name: Lampa.Lang.translate('somafm_sort_stations_title'),
-        description: Lampa.Lang.translate('somafm_sort_stations_desc')
-      },
-      onRender: function onRender(item) { }
-    });
-
-    Lampa.SettingsApi.addParam({
-      component: 'somafm',
-      param: {
-        name: 'somafm_fetch_covers',
-        type: 'trigger',
-        "default": true
-      },
-      field: {
-        name: Lampa.Lang.translate('somafm_fetch_covers_title'),
-        description: Lampa.Lang.translate('somafm_fetch_covers_desc')
-      },
-      onRender: function onRender(item) { }
-    });
-
-  }
-
-  function createSomaFM() {
-    window.plugin_somafm_ready = true;
-
-    Lampa.Lang.add({
-      somafm_title: {
-        ru: "Радио SomaFM",
-        en: "SomaFM Radio",
-        uk: "Радіо SomaFM",
-        be: "Радыё SomaFM",
-        zh: "SomaFM 电台",
-        pt: "Rádio SomFM",
-        bg: "SomaFM радио",
-        he: "רדיו SomaFM"
-      },
-      somafm_use_aac_title: {
-        ru: "Предпочтение AAC",
-        en: "Use AAC streams",
-        uk: "Перевага AAC",
-        be: "Перавага AAC",
-        zh: "AAC 偏好",
-        pt: "Preferência AAC",
-        bg: "AAC предпочитание",
-        he: "העדפת AAC"
-      },
-      somafm_use_aac_desc: {
-        ru: "Использовать AAC-потоки при доступности",
-        en: "Prefer AAC streams if available",
-        uk: "Віддавати перевагу потокам AAC, якщо вони доступні",
-        be: "Аддавайце перавагу патокам AAC, калі яны даступныя",
-        zh: "优先选择 AAC 流（如果可用）",
-        pt: "Prefira streams AAC, se disponíveis",
-        bg: "Предпочитайте AAC потоци, ако има такива",
-        he: "העדיפו זרמי AAC אם זמינים"
-      },
-      somafm_show_info_title: {
-        ru: "Показывать информацию",
-        en: "Show Info screen",
-        uk: "Показати екран інформації",
-        be: "Паказаць экран інфармацыі",
-        zh: "显示信息屏幕",
-        pt: "Mostrar tela de informações",
-        bg: "Показване на екрана с информация",
-        he: "הצג מסך מידע"
-      },
-      somafm_show_info_desc: {
-        ru: "Открывать информацию о станции при выборе",
-        en: "Show Playing Info screen on select",
-        uk: "Показати екран інформації про відтворення на вибраному",
-        be: "Паказаць экран Інфармацыя аб прайграванні пры выбары",
-        zh: "选择时显示播放信息屏幕",
-        pt: "Mostrar tela de informações de jogo ao selecionar",
-        bg: "Показване на екрана с информация за възпроизвеждане при избор",
-        he: "הצג מידע על משחק בבחירה"
-      },
-      somafm_sort_stations_title: {
-        ru: "Сортировка по популярности",
-        en: "Sort by Popularity",
-        uk: "Сортувати за популярністю",
-        be: "Сартаваць па папулярнасці",
-        zh: "按受欢迎程度排序",
-        pt: "Classificar por popularidade",
-        bg: "Сортиране по популярност",
-        he: "מיין לפי פופולריות"
-      },
-      somafm_sort_stations_desc: {
-        ru: "Сотрировать список по слушающим",
-        en: "Sorting stations list by listeners",
-        uk: "Сортування списку станцій за слухачами",
-        be: "Сартаванне спісу станцый па слухачах",
-        zh: "按听众对电台列表进行排序",
-        pt: "Classificando lista de estações por ouvintes",
-        bg: "Сортиране на списъка със станции по слушатели",
-        he: "מיון רשימת תחנות לפי מאזינים"
-      },
-      somafm_fetch_covers_title: {
-        ru: "Получать обложки",
-        en: "Fetch Music Covers",
-        uk: "Отримати обкладинки",
-        be: "Атрымаць вокладкі",
-        zh: "获取音乐封面",
-        pt: "Buscar capas de músicas",
-        bg: "Извличане на обложки",
-        he: "אחזר עטיפות מוזיקה"
-      },
-      somafm_fetch_covers_desc: {
-        ru: "Загружать обложки альбомов из Apple Music",
-        en: "Search music covers on Apple Music",
-        uk: "Пошук музичних обкладинок в Apple Music",
-        be: "Пошук вокладак музыкі ў Apple Music",
-        zh: "在 Apple Music 上搜索音乐封面",
-        pt: "Pesquisando capas de músicas no Apple Music",
-        bg: "Търсене на музикални обложки в Apple Music",
-        he: "חיפוש עטיפות מוזיקה ב-Apple Music"
-      },
-      somafm_error: {
-        ru: "Ошибка загрузки данных",
-        en: "Error loading stations",
-        uk: "Помилка завантаження станції",
-        be: "Памылка загрузкі станцыі",
-        zh: "错误加载站点",
-        pt: "Erro ao carregar estação",
-        bg: "Грешка при зареждане на станцията",
-        he: "שגיאה בטעינת התחנה"
-      }
-    });
-
-    var manifest = {
-      type: 'audio',
-      version: '1.0.7',
-      name: Lampa.Lang.translate('somafm_title'),
-      description: 'Over 30 unique channels of listener-supported, commercial-free, underground/alternative radio broadcasting to the world. All music hand-picked by SomaFM`s award-winning DJs and music directors.',
-      component: 'radio'
-    };
-    Lampa.Manifest.plugins = manifest;
-
-    Lampa.Template.add('somafm_item', "<div class=\"selector somafm-item\">\n	<div class=\"somafm-item__imgbox\">\n		<img class=\"somafm-item__img\" />\n		<div class=\"somafm-item__listeners\">\n			<svg fill=\"none\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"#292d32\"><path d=\"m13.1807 11.8606c-.4 0-.76-.22-.93-.58l-1.45-2.89002-.42.78c-.23.43-.69.7-1.18.7h-.73c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h.64l.79-1.46c.19-.34.57-.57.93-.55.39 0 .74.23.92.57l1.43 2.86.34-.69c.23-.46.68-.74 1.2-.74h.81c.41 0 .75.34.75.75s-.34.75-.75.75h-.71l-.71 1.41002c-.18.37-.53.59-.93.59z\"/><path d=\"m2.74982 18.6508c-.41 0-.75-.34-.75-.75v-5.7c-.05-2.71002.96-5.27002 2.84-7.19002 1.88-1.91 4.4-2.96 7.10998-2.96 5.54 0 10.05 4.51 10.05 10.05002v5.7c0 .41-.34.75-.75.75s-.75-.34-.75-.75v-5.7c0-4.71002-3.83-8.55002-8.55-8.55002-2.30998 0-4.44998.89-6.03998 2.51-1.6 1.63-2.45 3.8-2.41 6.12002v5.71c0 .42-.33.76-.75.76z\"/><path d=\"m5.94 12.4492h-.13c-2.1 0-3.81 1.71-3.81 3.81v1.88c0 2.1 1.71 3.81 3.81 3.81h.13c2.1 0 3.81-1.71 3.81-3.81v-1.88c0-2.1-1.71-3.81-3.81-3.81z\"/><path d=\"m18.19 12.4492h-.13c-2.1 0-3.81 1.71-3.81 3.81v1.88c0 2.1 1.71 3.81 3.81 3.81h.13c2.1 0 3.81-1.71 3.81-3.81v-1.88c0-2.1-1.71-3.81-3.81-3.81z\"/></g></svg>\n			{listeners}\n		</div>\n	</div>\n	<div class=\"somafm-item__name\">{name}</div>\n</div>\n");
-    Lampa.Template.add('somafm_player', "<div class=\"selector somafm-player loading stop hide\">\n	<div class=\"somafm-player__name\">Soma FM</div>\n	<div id=\"somafm_player_button\" class=\"somafm-player__button\">\n		<i></i>\n		<i></i>\n		<i></i>\n		<i></i>\n	</div>\n</div>\n");
-    Lampa.Template.add('somafm_info', "<div class=\"somafm-info\">\n	<div>\n		<div class=\"somafm-info__cover\"></div>\n		<div class=\"somafm-info__wave\"><canvas id=\"canvas\"></canvas></div>\n	</div>\n	<div class=\"somafm-info__close\">\n		<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 329.269 329\" xml:space=\"preserve\">\n			<path d=\"M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0\" fill=\"currentColor\"></path>\n		</svg>\n	</div>\n</div>\n");
-    Lampa.Template.add('somafm_cover', "<div class=\"somafm-cover\">\n	<div class=\"somafm-cover__station\"></div>\n	<div class=\"somafm-cover__genre\"></div>\n	<div class=\"somafm-cover__img-container\">\n		<div class=\"somafm-cover__img-box\">\n			<img src=\"https://somafm.com/logos/SomaFM-Text-Logo-512.png\" />\n		</div>\n	</div>\n	<div class=\"somafm-cover__album\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m0 0h24v24h-24z\" fill=\"none\"/><path d=\"m12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10-10-4.48-10-10 4.48-10 10-10zm0 14c2.213 0 4-1.787 4-4s-1.787-4-4-4-4 1.787-4 4 1.787 4 4 4zm0-5c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1z\" fill=\"#eee\"/></svg><span class=\"somafm-cover__album_title\"></span></div>\n	<div class=\"somafm-cover__title\"></div>\n	<div class=\"somafm-cover__tooltip\"></div>\n	<div class=\"somafm-cover__playlist\"></div>\n</div>\n");
-    Lampa.Template.add('somafm_style', "<style>\n.somafm-item {\n  margin-left: 1em;\n  margin-bottom: 1em;\n  width: 13%;\n  -webkit-flex-shrink: 0;\n  -ms-flex-negative: 0;\n  flex-shrink: 0;\n}\n.somafm-item__imgbox {\n  background-color: #3e3e3e;\n  padding-bottom: 100%;\n  position: relative;\n  -webkit-border-radius: 0.3em;\n  -moz-border-radius: 0.3em;\n  border-radius: 0.3em;\n}\n.somafm-item__listeners {\n  position: absolute;\n  top: 0.5em;\n  left: 0.5em;\n  background-color: #eee;\n  padding: 0.1em 0.3em;\n  font-size: 0.7em;\n  font-weight: bold;\n  color: #292d32;\n  -webkit-border-radius: 0.25em;\n  -moz-border-radius: 0.25em;\n  border-radius: 0.25em;\n}\n.somafm-item__listeners > svg {\n  width: 1em;\n  height: 1em;\n  vertical-align: bottom;\n}\n.somafm-item__img {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  -webkit-border-radius: 0.4em;\n  -moz-border-radius: 0.4em;\n  border-radius: 0.4em;\n}\n.somafm-item__name {\n  font-size: 1.1em;\n  margin-top: 0.8em;\n}\n.somafm-item.focus .somafm-item__imgbox:after {\n  border: solid 0.26em #fff;\n  content: \"\";\n  display: block;\n  position: absolute;\n  left: -0.5em;\n  top: -0.5em;\n  right: -0.5em;\n  bottom: -0.5em;\n  -webkit-border-radius: 0.8em;\n  -moz-border-radius: 0.8em;\n  border-radius: 0.8em;\n}\n@-webkit-keyframes sound {\n  0% {\n    height: 0.1em;\n  }\n  100% {\n    height: 1em;\n  }\n}\n@-moz-keyframes sound {\n  0% {\n    height: 0.1em;\n  }\n  100% {\n    height: 1em;\n  }\n}\n@-o-keyframes sound {\n  0% {\n    height: 0.1em;\n  }\n  100% {\n    height: 1em;\n  }\n}\n@keyframes sound {\n  0% {\n    height: 0.1em;\n  }\n  100% {\n    height: 1em;\n  }\n}\n@-webkit-keyframes sound-loading {\n  0% {\n    -webkit-transform: rotate(0deg);\n    transform: rotate(0deg);\n  }\n  100% {\n    -webkit-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n@-moz-keyframes sound-loading {\n  0% {\n    -moz-transform: rotate(0deg);\n    transform: rotate(0deg);\n  }\n  100% {\n    -moz-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n@-o-keyframes sound-loading {\n  0% {\n    -o-transform: rotate(0deg);\n    transform: rotate(0deg);\n  }\n  100% {\n    -o-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n@keyframes sound-loading {\n  0% {\n    -webkit-transform: rotate(0deg);\n    -moz-transform: rotate(0deg);\n    -o-transform: rotate(0deg);\n    transform: rotate(0deg);\n  }\n  100% {\n    -webkit-transform: rotate(360deg);\n    -moz-transform: rotate(360deg);\n    -o-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n@media screen and (max-width: 580px) {\n  .somafm-item {\n    width: 21%;\n  }\n}\n@media screen and (max-width: 385px) {\n  .somafm-item__name {\n    display: none;\n  }\n}\n.somafm-player {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -moz-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-border-radius: 0.3em;\n  -moz-border-radius: 0.3em;\n  border-radius: 0.3em;\n  padding: 0.2em 0.4em;\n  margin-left: 0.5em;\n  margin-right: 0.5em;\n}\n.somafm-player__name {\n  margin-right: 0.35em;\n  white-space: nowrap;\n  overflow: hidden;\n  -o-text-overflow: ellipsis;\n  text-overflow: ellipsis;\n  max-width: 8em;\n  display: none;\n}\n.somafm-player__button {\n  position: relative;\n  width: 2em;\n  height: 2em;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -moz-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n  -moz-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  -webkit-flex-shrink: 0;\n  -ms-flex-negative: 0;\n  flex-shrink: 0;\n  -webkit-border-radius: 0.3em;\n  -moz-border-radius: 0.3em;\n  border-radius: 0.3em;\n  border: 0.15em solid rgba(255, 255, 255, 1);\n}\n.somafm-player__button > * {\n  opacity: 0.75;\n}\n.somafm-player__button i {\n  display: block;\n  width: 0.2em;\n  background-color: #fff;\n  margin: 0 0.1em;\n  -webkit-animation: sound 0ms -800ms linear infinite alternate;\n  -moz-animation: sound 0ms -800ms linear infinite alternate;\n  -o-animation: sound 0ms -800ms linear infinite alternate;\n  animation: sound 0ms -800ms linear infinite alternate;\n  -webkit-flex-shrink: 0;\n  -ms-flex-negative: 0;\n  flex-shrink: 0;\n}\n.somafm-player__button i:nth-child(1) {\n  -webkit-animation-duration: 474ms;\n  -moz-animation-duration: 474ms;\n  -o-animation-duration: 474ms;\n  animation-duration: 474ms;\n}\n.somafm-player__button i:nth-child(2) {\n  -webkit-animation-duration: 433ms;\n  -moz-animation-duration: 433ms;\n  -o-animation-duration: 433ms;\n  animation-duration: 433ms;\n}\n.somafm-player__button i:nth-child(3) {\n  -webkit-animation-duration: 407ms;\n  -moz-animation-duration: 407ms;\n  -o-animation-duration: 407ms;\n  animation-duration: 407ms;\n}\n.somafm-player__button i:nth-child(4) {\n  -webkit-animation-duration: 458ms;\n  -moz-animation-duration: 458ms;\n  -o-animation-duration: 458ms;\n  animation-duration: 458ms;\n}\n.somafm-player.stop .somafm-player__button i {\n  display: none;\n}\n.somafm-player.stop .somafm-player__button:after {\n  content: \"\";\n  width: 0.5em;\n  height: 0.5em;\n  background-color: rgba(255, 255, 255, 1);\n}\n.somafm-player.loading .somafm-player__button:before {\n  content: \"\";\n  display: block;\n  border-top: 0.2em solid rgba(255, 255, 255, 0.9);\n  border-left: 0.2em solid transparent;\n  border-right: 0.2em solid transparent;\n  border-bottom: 0.2em solid transparent;\n  -webkit-animation: sound-loading 1s linear infinite;\n  -moz-animation: sound-loading 1s linear infinite;\n  -o-animation: sound-loading 1s linear infinite;\n  animation: sound-loading 1s linear infinite;\n  width: 0.9em;\n  height: 0.9em;\n  -webkit-border-radius: 100%;\n  -moz-border-radius: 100%;\n  border-radius: 100%;\n  -webkit-flex-shrink: 0;\n  -ms-flex-negative: 0;\n  flex-shrink: 0;\n}\n.somafm-player.loading .somafm-player__button i {\n  display: none;\n}\n.somafm-player.focus {\n  background-color: #fff;\n  color: #000;\n}\n.somafm-player.focus .somafm-player__name {\n  display: inline;\n}\n@media screen and (max-width: 580px) {\n  .somafm-player.focus .somafm-player__name {\n    display: none;\n  }\n}\n@media screen and (max-width: 385px) {\n  .somafm-player.focus .somafm-player__name {\n    display: none;\n  }\n}\n.somafm-player.focus .somafm-player__button {\n  border-color: #000;\n}\n.somafm-player.focus .somafm-player__button i,\n.somafm-player.focus .somafm-player__button:after {\n  background-color: #000;\n}\n.somafm-player.focus .somafm-player__button:before {\n  border-top-color: #000;\n}\n.somafm-cover {\n  text-align: center;\n  line-height: 1.4;\n}\n.somafm-cover__img-container {\n  max-width: 20em;\n  margin: 0 auto;\n}\n.somafm-cover__img-box {\n  position: relative;\n  padding-bottom: 100%;\n  background-color: rgba(0, 0, 0, 0.3);\n  -webkit-border-radius: 0.5em;\n  -moz-border-radius: 0.5em;\n  border-radius: 0.5em;\n}\n.somafm-cover__img-box > img {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  -webkit-border-radius: 0.5em;\n  -moz-border-radius: 0.5em;\n  border-radius: 0.5em;\n  opacity: 0;\n}\n.somafm-cover__img-box.loaded {\n  background-color: transparent;\n}\n.somafm-cover__img-box.loaded > img {\n  opacity: 1;\n}\n.somafm-cover__img-box.loaded-icon {\n  background-color: rgba(0, 0, 0, 0.3);\n}\n.somafm-cover__img-box.loaded-icon > img {\n  left: 20%;\n  top: 20%;\n  width: 60%;\n  height: 60%;\n  opacity: 0.2;\n}\n.somafm-cover__station {\n  font-weight: 500;\n  font-size: 1.3em;\n  margin-bottom: 0.2em;\n}\n.somafm-cover__genre {\n  font-weight: 200;\n  font-size: 1em;\n  margin-bottom: 0.6em;\n}\n.somafm-cover__album {\n  font-weight: 300;\n  font-size: 1em;\n  margin-top: 0.4em;\n}\n.somafm-cover__album > svg {\n  width: 0em;\n  height: 1.25em;\n  margin-right: 0.2em;\n  vertical-align: text-bottom;\n}\n.somafm-cover__title {\n  font-weight: 600;\n  font-size: 1.5em;\n  margin-top: 0.6em;\n}\n.somafm-cover__tooltip {\n  font-weight: 300;\n  font-size: 1.3em;\n  margin-top: 0.2em;\n}\n.somafm-cover__playlist {\n  font-weight: 300;\n  font-size: 1.3em;\n  margin-top: 0.2em;\n}\n.somafm-info {\n  position: fixed;\n  z-index: 100;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -moz-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n  -moz-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n}\n.somafm-info__cover {\n  width: 30em;\n}\n.somafm-info__wave {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -moz-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n  -moz-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  margin-top: 2em;\n}\n.somafm-info__wave > div {\n  width: 2px;\n  background-color: #fff;\n  margin: 0 0.3em;\n  height: 1em;\n  opacity: 0;\n}\n.somafm-info__wave > div.loading {\n  -webkit-animation: somafmAnimationWaveLoading 400ms ease infinite;\n  -moz-animation: somafmAnimationWaveLoading 400ms ease infinite;\n  -o-animation: somafmAnimationWaveLoading 400ms ease infinite;\n  animation: somafmAnimationWaveLoading 400ms ease infinite;\n}\n.somafm-info__wave > div.play {\n  -webkit-animation: somafmAnimationWavePlay 50ms linear infinite alternate;\n  -moz-animation: somafmAnimationWavePlay 50ms linear infinite alternate;\n  -o-animation: somafmAnimationWavePlay 50ms linear infinite alternate;\n  animation: somafmAnimationWavePlay 50ms linear infinite alternate;\n}\n.somafm-info__close {\n  position: fixed;\n  top: 5em;\n  right: 50%;\n  margin-right: -2em;\n  -webkit-border-radius: 100%;\n  -moz-border-radius: 100%;\n  border-radius: 100%;\n  padding: 1em;\n  display: none;\n  background-color: rgba(255, 255, 255, 0.1);\n}\n.somafm-info__close > svg {\n  width: 1.5em;\n  height: 1.5em;\n}\nbody.true--mobile .somafm-info__close {\n  display: block;\n}\n@-webkit-keyframes somafmAnimationWaveLoading {\n  0% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  10% {\n    -webkit-transform: scale3d(1, 1.5, 1);\n    transform: scale3d(1, 1.5, 1);\n    opacity: 1;\n  }\n  20% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  100% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n}\n@-moz-keyframes somafmAnimationWaveLoading {\n  0% {\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  10% {\n    -moz-transform: scale3d(1, 1.5, 1);\n    transform: scale3d(1, 1.5, 1);\n    opacity: 1;\n  }\n  20% {\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  100% {\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n}\n@-o-keyframes somafmAnimationWaveLoading {\n  0% {\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  10% {\n    transform: scale3d(1, 1.5, 1);\n    opacity: 1;\n  }\n  20% {\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  100% {\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n}\n@keyframes somafmAnimationWaveLoading {\n  0% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  10% {\n    -webkit-transform: scale3d(1, 1.5, 1);\n    -moz-transform: scale3d(1, 1.5, 1);\n    transform: scale3d(1, 1.5, 1);\n    opacity: 1;\n  }\n  20% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  100% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n}\n@-webkit-keyframes somafmAnimationWavePlay {\n  0% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 0.3;\n  }\n  100% {\n    -webkit-transform: scale3d(1, 2, 1);\n    transform: scale3d(1, 2, 1);\n    opacity: 1;\n  }\n}\n@-moz-keyframes somafmAnimationWavePlay {\n  0% {\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 0.3;\n  }\n  100% {\n    -moz-transform: scale3d(1, 2, 1);\n    transform: scale3d(1, 2, 1);\n    opacity: 1;\n  }\n}\n@-o-keyframes somafmAnimationWavePlay {\n  0% {\n    transform: scale3d(1, 0.3, 1);\n    opacity: 0.3;\n  }\n  100% {\n    transform: scale3d(1, 2, 1);\n    opacity: 1;\n  }\n}\n@keyframes somafmAnimationWavePlay {\n  0% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 0.3;\n  }\n  100% {\n    -webkit-transform: scale3d(1, 2, 1);\n    -moz-transform: scale3d(1, 2, 1);\n    transform: scale3d(1, 2, 1);\n    opacity: 1;\n  }\n}\n@media screen and (min-height: 320px) and (max-height: 428px) and (orientation: landscape) {\n  .somafm-info__close {\n    position: fixed;\n    top: 5%;\n    right: 95%;\n    margin-right: -2em;\n  }\n  .somafm-cover__img-container {\n    max-width: 12em;\n  }\n}\n</style>\n");
-
-    Lampa.Component.add("somafm", Component);
-
-    if (window.appready) {
-      add();
-    } else {
-      Lampa.Listener.follow("app", function (e) {
-        if (e.type == "ready") add();
+  function start() {
+    var playPromise;
+    try {
+      playPromise = _audio.play();
+    } catch (e) { }
+    if (playPromise !== undefined) {
+      playPromise.then(function () {
+        console.log('SomaFM', 'start playing', url);
+      })["catch"](function (e) {
+        console.log('SomaFM', 'play promise error:', e.message);
       });
     }
   }
 
-  if (!window.plugin_somafm_ready) createSomaFM();
+  function play() {
+    stopAudio();
+    if (_context.state === 'suspended') {
+      _context.resume().then(function () {
+        console.log('SomaFM', 'Audio context has been resumed.');
+      });
+    }
+    player_html.toggleClass('loading', true);
+    player_html.toggleClass('stop', false);
+    prepare();
+  }
 
-})();
+  function stop() {
+    stopAudio();
+    clearInterval(screenreset);
+    screenreset = null; // release timer from the variable
+    played = false;
+    player_html.toggleClass('stop', true);
+    player_html.toggleClass('loading', false);
+    if (hls) {
+      hls.destroy();
+      hls = false;
+    }
+    _audio.src = '';
+    // remove info
+    if (info) {
+      info.destroy();
+      info = false;
+    }
+  }
+
+  // handle audio stream state changes
+  on("play", function () {
+    played = true;
+  });
+  on("playing", function () {
+    player_html.toggleClass('loading', false);
+    if (!screenreset) {
+      screenreset = setInterval(function () {
+        Lampa.Screensaver.resetTimer();
+      }, 5000);
+    }
+  });
+  on("waiting", function () {
+    player_html.toggleClass('loading', true);
+  });
+
+  // handle player button click
+  player_html.on('hover:enter', function () {
+    if (played) stop(); else if (url) play();
+  });
+
+  this.create = function () {
+    $('.head__actions .open--search').before(player_html);
+  };
+
+  var curPlayID = null;
+
+  this.play = function (station) {
+    // todo player.destroy() start
+    if (window.currentPlayer && window.currentPlayer !== this && window.currentPlayer.destroy) {
+      window.currentPlayer.destroy();
+    }
+    window.currentPlayer = this;
+    // todo player.destroy() end
+    if (curPlayID !== station.id || !played) stop();
+    // add info
+    if (Lampa.Storage.field('somafm_show_info') === true) {
+      info = new Info(station);
+      info.create();
+      document.body.addClass('ambience--enable');
+      Lampa.Background.change(station.largeimage || IMG_BG); // image - 120 | largeimage - 256 | xlimage 512
+      Lampa.Controller.add('content', {
+        invisible: true,
+        toggle: function toggle() {
+          Lampa.Controller.clear();
+        },
+        back: function back() {
+          document.body.removeClass('ambience--enable');
+          // player.destroy();
+          if (info) {
+            info.destroy();
+            info = false;
+          }
+          if (_component) _component.activity.toggle();
+          Lampa.Controller.toggle('content');
+        },
+      });
+      Lampa.Controller.toggle('content');
+    }
+    // url = data.aacfile ? data.aacfile : data.mp3file;
+    if (curPlayID !== station.id || !played) {
+      Promise.resolve(station.stream.urls).then(function (urls) {
+        if (urls.length > 0) {
+          url = random_item(urls);
+          play();
+        }
+      });
+      curPlayID = station.id;
+    }
+    // setup player button
+    player_html.find('.somafm-player__name').text(station.title);
+    player_html.toggleClass('hide', false);
+    var btn = player_html.find('.somafm-player__button');
+    if (btn) {
+      btn.css({
+        "background-image": "url('" + station.largeimage + "')", // image - 120 | largeimage - 256 | xlimage 512
+        "background-size": "cover"
+      });
+    }
+  };
+
+  this.destroy = function () { // todo player.destroy()
+    stop();
+    player_html.toggleClass('hide', true);
+    curPlayID = null; // todo player.destroy()
+  }
+}
+
+function add() {
+  var icon = '<svg enable-background="new 0 0 533.3 377.1" viewBox="0 0 533.3 377.1" xmlns="http://www.w3.org/2000/svg"><path d="m266.7 121.9c36.8 0 66.7 29.8 66.7 66.7s-29.8 66.7-66.7 66.7-66.7-29.9-66.7-66.7 29.8-66.7 66.7-66.7zm-116.7 66.7c0 32.2 13.1 61.4 34.2 82.5l-35.4 35.4c-30.2-30.2-48.8-71.8-48.8-117.9 0-46 18.7-87.7 48.8-117.9l35.4 35.4c-21.1 21.1-34.2 50.2-34.2 82.5zm233.3 0c0-32.2-13.1-61.4-34.2-82.5l35.4-35.4c30.2 30.2 48.8 71.8 48.8 117.9 0 46-18.7 87.7-48.8 117.9l-35.4-35.4c21.2-21.2 34.2-50.3 34.2-82.5zm-333.3 0c0 59.8 24.3 114 63.5 153.2l-35.4 35.4c-48.3-48.3-78.1-115-78.1-188.6s29.8-140.3 78.1-188.6l35.4 35.4c-39.2 39.2-63.5 93.3-63.5 153.2zm433.3 0c0-59.8-24.3-114-63.5-153.2l35.4-35.4c48.3 48.3 78.1 114.9 78.1 188.6s-29.8 140.3-78.1 188.6l-35.4-35.4c39.3-39.2 63.5-93.4 63.5-153.2z" fill="#eee"/></svg>'
+  var menu_button = $("<li class=\"menu__item selector\" data-action=\"radio\">\n\t<div class=\"menu__ico\">\n\t\t" + icon + "\n\t</div>\n\t<div class=\"menu__text\">Soma FM</div>\n</li>\n");
+  menu_button.on('hover:enter', function () {
+    Lampa.Activity.push({
+      url: '',
+      title: Lampa.Lang.translate('somafm_title'),
+      component: 'somafm',
+      page: 1
+    });
+  });
+  $('.menu .menu__list').eq(0).append(menu_button);
+  $('body').append(Lampa.Template.get('somafm_style', {}, true));
+
+  window.somafm_player = new Player();
+  window.somafm_player.create();
+
+  addSettings();
+}
+
+function addSettings() {
+  if (window.somafm_add_param_ready) return;
+  window.somafm_add_param_ready = true;
+
+  Lampa.SettingsApi.addComponent({
+    component: 'somafm',
+    name: 'Soma FM',
+    icon: '<svg enable-background="new 0 0 533.3 377.1" viewBox="0 0 533.3 377.1" xmlns="http://www.w3.org/2000/svg"><path d="m266.7 121.9c36.8 0 66.7 29.8 66.7 66.7s-29.8 66.7-66.7 66.7-66.7-29.9-66.7-66.7 29.8-66.7 66.7-66.7zm-116.7 66.7c0 32.2 13.1 61.4 34.2 82.5l-35.4 35.4c-30.2-30.2-48.8-71.8-48.8-117.9 0-46 18.7-87.7 48.8-117.9l35.4 35.4c-21.1 21.1-34.2 50.2-34.2 82.5zm233.3 0c0-32.2-13.1-61.4-34.2-82.5l35.4-35.4c30.2 30.2 48.8 71.8 48.8 117.9 0 46-18.7 87.7-48.8 117.9l-35.4-35.4c21.2-21.2 34.2-50.3 34.2-82.5zm-333.3 0c0 59.8 24.3 114 63.5 153.2l-35.4 35.4c-48.3-48.3-78.1-115-78.1-188.6s29.8-140.3 78.1-188.6l35.4 35.4c-39.2 39.2-63.5 93.3-63.5 153.2zm433.3 0c0-59.8-24.3-114-63.5-153.2l35.4-35.4c48.3 48.3 78.1 114.9 78.1 188.6s-29.8 140.3-78.1 188.6l-35.4-35.4c39.3-39.2 63.5-93.4 63.5-153.2z" fill="#eee"/></svg>'
+  });
+
+  Lampa.SettingsApi.addParam({
+    component: 'somafm',
+    param: {
+      name: 'somafm_use_aac',
+      type: 'trigger',
+      "default": false
+    },
+    field: {
+      name: Lampa.Lang.translate('somafm_use_aac_title'),
+      description: Lampa.Lang.translate('somafm_use_aac_desc')
+    },
+    onRender: function onRender(item) { }
+  });
+
+  Lampa.SettingsApi.addParam({
+    component: 'somafm',
+    param: {
+      name: 'somafm_show_info',
+      type: 'trigger',
+      "default": true
+    },
+    field: {
+      name: Lampa.Lang.translate('somafm_show_info_title'),
+      description: Lampa.Lang.translate('somafm_show_info_desc')
+    },
+    onRender: function onRender(item) { }
+  });
+
+  Lampa.SettingsApi.addParam({
+    component: 'somafm',
+    param: {
+      name: 'somafm_sort_stations',
+      type: 'trigger',
+      "default": true
+    },
+    field: {
+      name: Lampa.Lang.translate('somafm_sort_stations_title'),
+      description: Lampa.Lang.translate('somafm_sort_stations_desc')
+    },
+    onRender: function onRender(item) { }
+  });
+
+  Lampa.SettingsApi.addParam({
+    component: 'somafm',
+    param: {
+      name: 'somafm_fetch_covers',
+      type: 'trigger',
+      "default": true
+    },
+    field: {
+      name: Lampa.Lang.translate('somafm_fetch_covers_title'),
+      description: Lampa.Lang.translate('somafm_fetch_covers_desc')
+    },
+    onRender: function onRender(item) { }
+  });
+
+}
+
+function createSomaFM() {
+  window.plugin_somafm_ready = true;
+
+  Lampa.Lang.add({
+    somafm_title: {
+      ru: "Радио SomaFM",
+      en: "SomaFM Radio",
+      uk: "Радіо SomaFM",
+      be: "Радыё SomaFM",
+      zh: "SomaFM 电台",
+      pt: "Rádio SomFM",
+      bg: "SomaFM радио",
+      he: "רדיו SomaFM"
+    },
+    somafm_use_aac_title: {
+      ru: "Предпочтение AAC",
+      en: "Use AAC streams",
+      uk: "Перевага AAC",
+      be: "Перавага AAC",
+      zh: "AAC 偏好",
+      pt: "Preferência AAC",
+      bg: "AAC предпочитание",
+      he: "העדפת AAC"
+    },
+    somafm_use_aac_desc: {
+      ru: "Использовать AAC-потоки при доступности",
+      en: "Prefer AAC streams if available",
+      uk: "Віддавати перевагу потокам AAC, якщо вони доступні",
+      be: "Аддавайце перавагу патокам AAC, калі яны даступныя",
+      zh: "优先选择 AAC 流（如果可用）",
+      pt: "Prefira streams AAC, se disponíveis",
+      bg: "Предпочитайте AAC потоци, ако има такива",
+      he: "העדיפו זרמי AAC אם זמינים"
+    },
+    somafm_show_info_title: {
+      ru: "Показывать информацию",
+      en: "Show Info screen",
+      uk: "Показати екран інформації",
+      be: "Паказаць экран інфармацыі",
+      zh: "显示信息屏幕",
+      pt: "Mostrar tela de informações",
+      bg: "Показване на екрана с информация",
+      he: "הצג מסך מידע"
+    },
+    somafm_show_info_desc: {
+      ru: "Открывать информацию о станции при выборе",
+      en: "Show Playing Info screen on select",
+      uk: "Показати екран інформації про відтворення на вибраному",
+      be: "Паказаць экран Інфармацыя аб прайграванні пры выбары",
+      zh: "选择时显示播放信息屏幕",
+      pt: "Mostrar tela de informações de jogo ao selecionar",
+      bg: "Показване на екрана с информация за възпроизвеждане при избор",
+      he: "הצג מידע על משחק בבחירה"
+    },
+    somafm_sort_stations_title: {
+      ru: "Сортировка по популярности",
+      en: "Sort by Popularity",
+      uk: "Сортувати за популярністю",
+      be: "Сартаваць па папулярнасці",
+      zh: "按受欢迎程度排序",
+      pt: "Classificar por popularidade",
+      bg: "Сортиране по популярност",
+      he: "מיין לפי פופולריות"
+    },
+    somafm_sort_stations_desc: {
+      ru: "Сотрировать список по слушающим",
+      en: "Sorting stations list by listeners",
+      uk: "Сортування списку станцій за слухачами",
+      be: "Сартаванне спісу станцый па слухачах",
+      zh: "按听众对电台列表进行排序",
+      pt: "Classificando lista de estações por ouvintes",
+      bg: "Сортиране на списъка със станции по слушатели",
+      he: "מיון רשימת תחנות לפי מאזינים"
+    },
+    somafm_fetch_covers_title: {
+      ru: "Получать обложки",
+      en: "Fetch Music Covers",
+      uk: "Отримати обкладинки",
+      be: "Атрымаць вокладкі",
+      zh: "获取音乐封面",
+      pt: "Buscar capas de músicas",
+      bg: "Извличане на обложки",
+      he: "אחזר עטיפות מוזיקה"
+    },
+    somafm_fetch_covers_desc: {
+      ru: "Загружать обложки альбомов из Apple Music",
+      en: "Search music covers on Apple Music",
+      uk: "Пошук музичних обкладинок в Apple Music",
+      be: "Пошук вокладак музыкі ў Apple Music",
+      zh: "在 Apple Music 上搜索音乐封面",
+      pt: "Pesquisando capas de músicas no Apple Music",
+      bg: "Търсене на музикални обложки в Apple Music",
+      he: "חיפוש עטיפות מוזיקה ב-Apple Music"
+    },
+    somafm_error: {
+      ru: "Ошибка загрузки данных",
+      en: "Error loading stations",
+      uk: "Помилка завантаження станції",
+      be: "Памылка загрузкі станцыі",
+      zh: "错误加载站点",
+      pt: "Erro ao carregar estação",
+      bg: "Грешка при зареждане на станцията",
+      he: "שגיאה בטעינת התחנה"
+    }
+  });
+
+  var manifest = {
+    type: 'audio',
+    version: '1.0.7',
+    name: Lampa.Lang.translate('somafm_title'),
+    description: 'Over 30 unique channels of listener-supported, commercial-free, underground/alternative radio broadcasting to the world. All music hand-picked by SomaFM`s award-winning DJs and music directors.',
+    component: 'radio'
+  };
+  Lampa.Manifest.plugins = manifest;
+
+  Lampa.Template.add('somafm_item', "<div class=\"selector somafm-item\">\n	<div class=\"somafm-item__imgbox\">\n		<img class=\"somafm-item__img\" />\n		<div class=\"somafm-item__listeners\">\n			<svg fill=\"none\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"#292d32\"><path d=\"m13.1807 11.8606c-.4 0-.76-.22-.93-.58l-1.45-2.89002-.42.78c-.23.43-.69.7-1.18.7h-.73c-.41 0-.75-.34-.75-.75s.34-.75.75-.75h.64l.79-1.46c.19-.34.57-.57.93-.55.39 0 .74.23.92.57l1.43 2.86.34-.69c.23-.46.68-.74 1.2-.74h.81c.41 0 .75.34.75.75s-.34.75-.75.75h-.71l-.71 1.41002c-.18.37-.53.59-.93.59z\"/><path d=\"m2.74982 18.6508c-.41 0-.75-.34-.75-.75v-5.7c-.05-2.71002.96-5.27002 2.84-7.19002 1.88-1.91 4.4-2.96 7.10998-2.96 5.54 0 10.05 4.51 10.05 10.05002v5.7c0 .41-.34.75-.75.75s-.75-.34-.75-.75v-5.7c0-4.71002-3.83-8.55002-8.55-8.55002-2.30998 0-4.44998.89-6.03998 2.51-1.6 1.63-2.45 3.8-2.41 6.12002v5.71c0 .42-.33.76-.75.76z\"/><path d=\"m5.94 12.4492h-.13c-2.1 0-3.81 1.71-3.81 3.81v1.88c0 2.1 1.71 3.81 3.81 3.81h.13c2.1 0 3.81-1.71 3.81-3.81v-1.88c0-2.1-1.71-3.81-3.81-3.81z\"/><path d=\"m18.19 12.4492h-.13c-2.1 0-3.81 1.71-3.81 3.81v1.88c0 2.1 1.71 3.81 3.81 3.81h.13c2.1 0 3.81-1.71 3.81-3.81v-1.88c0-2.1-1.71-3.81-3.81-3.81z\"/></g></svg>\n			{listeners}\n		</div>\n	</div>\n	<div class=\"somafm-item__name\">{name}</div>\n</div>\n");
+  Lampa.Template.add('somafm_player', "<div class=\"selector somafm-player loading stop hide\">\n	<div class=\"somafm-player__name\">Soma FM</div>\n	<div id=\"somafm_player_button\" class=\"somafm-player__button\">\n		<i></i>\n		<i></i>\n		<i></i>\n		<i></i>\n	</div>\n</div>\n");
+  Lampa.Template.add('somafm_info', "<div class=\"somafm-info\">\n	<div>\n		<div class=\"somafm-info__cover\"></div>\n		<div class=\"somafm-info__wave\"><canvas id=\"canvas\"></canvas></div>\n	</div>\n	<div class=\"somafm-info__close\">\n		<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 329.269 329\" xml:space=\"preserve\">\n			<path d=\"M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.266 21.266 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.273 21.273 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0\" fill=\"currentColor\"></path>\n		</svg>\n	</div>\n</div>\n");
+  Lampa.Template.add('somafm_cover', "<div class=\"somafm-cover\">\n	<div class=\"somafm-cover__station\"></div>\n	<div class=\"somafm-cover__genre\"></div>\n	<div class=\"somafm-cover__img-container\">\n		<div class=\"somafm-cover__img-box\">\n			<img src=\"https://somafm.com/logos/SomaFM-Text-Logo-512.png\" />\n		</div>\n	</div>\n	<div class=\"somafm-cover__album\"><svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m0 0h24v24h-24z\" fill=\"none\"/><path d=\"m12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10-10-4.48-10-10 4.48-10 10-10zm0 14c2.213 0 4-1.787 4-4s-1.787-4-4-4-4 1.787-4 4 1.787 4 4 4zm0-5c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1z\" fill=\"#eee\"/></svg><span class=\"somafm-cover__album_title\"></span></div>\n	<div class=\"somafm-cover__title\"></div>\n	<div class=\"somafm-cover__tooltip\"></div>\n	<div class=\"somafm-cover__playlist\"></div>\n</div>\n");
+  Lampa.Template.add('somafm_style', "<style>\n.somafm-item {\n  margin-left: 1em;\n  margin-bottom: 1em;\n  width: 13%;\n  -webkit-flex-shrink: 0;\n  -ms-flex-negative: 0;\n  flex-shrink: 0;\n}\n.somafm-item__imgbox {\n  background-color: #3e3e3e;\n  padding-bottom: 100%;\n  position: relative;\n  -webkit-border-radius: 0.3em;\n  -moz-border-radius: 0.3em;\n  border-radius: 0.3em;\n}\n.somafm-item__listeners {\n  position: absolute;\n  top: 0.5em;\n  left: 0.5em;\n  background-color: #eee;\n  padding: 0.1em 0.3em;\n  font-size: 0.7em;\n  font-weight: bold;\n  color: #292d32;\n  -webkit-border-radius: 0.25em;\n  -moz-border-radius: 0.25em;\n  border-radius: 0.25em;\n}\n.somafm-item__listeners > svg {\n  width: 1em;\n  height: 1em;\n  vertical-align: bottom;\n}\n.somafm-item__img {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  -webkit-border-radius: 0.4em;\n  -moz-border-radius: 0.4em;\n  border-radius: 0.4em;\n}\n.somafm-item__name {\n  font-size: 1.1em;\n  margin-top: 0.8em;\n}\n.somafm-item.focus .somafm-item__imgbox:after {\n  border: solid 0.26em #fff;\n  content: \"\";\n  display: block;\n  position: absolute;\n  left: -0.5em;\n  top: -0.5em;\n  right: -0.5em;\n  bottom: -0.5em;\n  -webkit-border-radius: 0.8em;\n  -moz-border-radius: 0.8em;\n  border-radius: 0.8em;\n}\n@-webkit-keyframes sound {\n  0% {\n    height: 0.1em;\n  }\n  100% {\n    height: 1em;\n  }\n}\n@-moz-keyframes sound {\n  0% {\n    height: 0.1em;\n  }\n  100% {\n    height: 1em;\n  }\n}\n@-o-keyframes sound {\n  0% {\n    height: 0.1em;\n  }\n  100% {\n    height: 1em;\n  }\n}\n@keyframes sound {\n  0% {\n    height: 0.1em;\n  }\n  100% {\n    height: 1em;\n  }\n}\n@-webkit-keyframes sound-loading {\n  0% {\n    -webkit-transform: rotate(0deg);\n    transform: rotate(0deg);\n  }\n  100% {\n    -webkit-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n@-moz-keyframes sound-loading {\n  0% {\n    -moz-transform: rotate(0deg);\n    transform: rotate(0deg);\n  }\n  100% {\n    -moz-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n@-o-keyframes sound-loading {\n  0% {\n    -o-transform: rotate(0deg);\n    transform: rotate(0deg);\n  }\n  100% {\n    -o-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n@keyframes sound-loading {\n  0% {\n    -webkit-transform: rotate(0deg);\n    -moz-transform: rotate(0deg);\n    -o-transform: rotate(0deg);\n    transform: rotate(0deg);\n  }\n  100% {\n    -webkit-transform: rotate(360deg);\n    -moz-transform: rotate(360deg);\n    -o-transform: rotate(360deg);\n    transform: rotate(360deg);\n  }\n}\n@media screen and (max-width: 580px) {\n  .somafm-item {\n    width: 21%;\n  }\n}\n@media screen and (max-width: 385px) {\n  .somafm-item__name {\n    display: none;\n  }\n}\n.somafm-player {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -moz-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-border-radius: 0.3em;\n  -moz-border-radius: 0.3em;\n  border-radius: 0.3em;\n  padding: 0.2em 0.4em;\n  margin-left: 0.5em;\n  margin-right: 0.5em;\n}\n.somafm-player__name {\n  margin-right: 0.35em;\n  white-space: nowrap;\n  overflow: hidden;\n  -o-text-overflow: ellipsis;\n  text-overflow: ellipsis;\n  max-width: 8em;\n  display: none;\n}\n.somafm-player__button {\n  position: relative;\n  width: 2em;\n  height: 2em;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -moz-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n  -moz-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  -webkit-flex-shrink: 0;\n  -ms-flex-negative: 0;\n  flex-shrink: 0;\n  -webkit-border-radius: 0.3em;\n  -moz-border-radius: 0.3em;\n  border-radius: 0.3em;\n  border: 0.15em solid rgba(255, 255, 255, 1);\n}\n.somafm-player__button > * {\n  opacity: 0.75;\n}\n.somafm-player__button i {\n  display: block;\n  width: 0.2em;\n  background-color: #fff;\n  margin: 0 0.1em;\n  -webkit-animation: sound 0ms -800ms linear infinite alternate;\n  -moz-animation: sound 0ms -800ms linear infinite alternate;\n  -o-animation: sound 0ms -800ms linear infinite alternate;\n  animation: sound 0ms -800ms linear infinite alternate;\n  -webkit-flex-shrink: 0;\n  -ms-flex-negative: 0;\n  flex-shrink: 0;\n}\n.somafm-player__button i:nth-child(1) {\n  -webkit-animation-duration: 474ms;\n  -moz-animation-duration: 474ms;\n  -o-animation-duration: 474ms;\n  animation-duration: 474ms;\n}\n.somafm-player__button i:nth-child(2) {\n  -webkit-animation-duration: 433ms;\n  -moz-animation-duration: 433ms;\n  -o-animation-duration: 433ms;\n  animation-duration: 433ms;\n}\n.somafm-player__button i:nth-child(3) {\n  -webkit-animation-duration: 407ms;\n  -moz-animation-duration: 407ms;\n  -o-animation-duration: 407ms;\n  animation-duration: 407ms;\n}\n.somafm-player__button i:nth-child(4) {\n  -webkit-animation-duration: 458ms;\n  -moz-animation-duration: 458ms;\n  -o-animation-duration: 458ms;\n  animation-duration: 458ms;\n}\n.somafm-player.stop .somafm-player__button i {\n  display: none;\n}\n.somafm-player.stop .somafm-player__button:after {\n  content: \"\";\n  width: 0.5em;\n  height: 0.5em;\n  background-color: rgba(255, 255, 255, 1);\n}\n.somafm-player.loading .somafm-player__button:before {\n  content: \"\";\n  display: block;\n  border-top: 0.2em solid rgba(255, 255, 255, 0.9);\n  border-left: 0.2em solid transparent;\n  border-right: 0.2em solid transparent;\n  border-bottom: 0.2em solid transparent;\n  -webkit-animation: sound-loading 1s linear infinite;\n  -moz-animation: sound-loading 1s linear infinite;\n  -o-animation: sound-loading 1s linear infinite;\n  animation: sound-loading 1s linear infinite;\n  width: 0.9em;\n  height: 0.9em;\n  -webkit-border-radius: 100%;\n  -moz-border-radius: 100%;\n  border-radius: 100%;\n  -webkit-flex-shrink: 0;\n  -ms-flex-negative: 0;\n  flex-shrink: 0;\n}\n.somafm-player.loading .somafm-player__button i {\n  display: none;\n}\n.somafm-player.focus {\n  background-color: #fff;\n  color: #000;\n}\n.somafm-player.focus .somafm-player__name {\n  display: inline;\n}\n@media screen and (max-width: 580px) {\n  .somafm-player.focus .somafm-player__name {\n    display: none;\n  }\n}\n@media screen and (max-width: 385px) {\n  .somafm-player.focus .somafm-player__name {\n    display: none;\n  }\n}\n.somafm-player.focus .somafm-player__button {\n  border-color: #000;\n}\n.somafm-player.focus .somafm-player__button i,\n.somafm-player.focus .somafm-player__button:after {\n  background-color: #000;\n}\n.somafm-player.focus .somafm-player__button:before {\n  border-top-color: #000;\n}\n.somafm-cover {\n  text-align: center;\n  line-height: 1.4;\n}\n.somafm-cover__img-container {\n  max-width: 20em;\n  margin: 0 auto;\n}\n.somafm-cover__img-box {\n  position: relative;\n  padding-bottom: 100%;\n  background-color: rgba(0, 0, 0, 0.3);\n  -webkit-border-radius: 0.5em;\n  -moz-border-radius: 0.5em;\n  border-radius: 0.5em;\n}\n.somafm-cover__img-box > img {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  -webkit-border-radius: 0.5em;\n  -moz-border-radius: 0.5em;\n  border-radius: 0.5em;\n  opacity: 0;\n}\n.somafm-cover__img-box.loaded {\n  background-color: transparent;\n}\n.somafm-cover__img-box.loaded > img {\n  opacity: 1;\n}\n.somafm-cover__img-box.loaded-icon {\n  background-color: rgba(0, 0, 0, 0.3);\n}\n.somafm-cover__img-box.loaded-icon > img {\n  left: 20%;\n  top: 20%;\n  width: 60%;\n  height: 60%;\n  opacity: 0.2;\n}\n.somafm-cover__station {\n  font-weight: 500;\n  font-size: 1.3em;\n  margin-bottom: 0.2em;\n}\n.somafm-cover__genre {\n  font-weight: 200;\n  font-size: 1em;\n  margin-bottom: 0.6em;\n}\n.somafm-cover__album {\n  font-weight: 300;\n  font-size: 1em;\n  margin-top: 0.4em;\n}\n.somafm-cover__album > svg {\n  width: 0em;\n  height: 1.25em;\n  margin-right: 0.2em;\n  vertical-align: text-bottom;\n}\n.somafm-cover__title {\n  font-weight: 600;\n  font-size: 1.5em;\n  margin-top: 0.6em;\n}\n.somafm-cover__tooltip {\n  font-weight: 300;\n  font-size: 1.3em;\n  margin-top: 0.2em;\n}\n.somafm-cover__playlist {\n  font-weight: 300;\n  font-size: 1.3em;\n  margin-top: 0.2em;\n}\n.somafm-info {\n  position: fixed;\n  z-index: 100;\n  left: 0;\n  top: 0;\n  width: 100%;\n  height: 100%;\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -moz-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n  -moz-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n}\n.somafm-info__cover {\n  width: 30em;\n}\n.somafm-info__wave {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -moz-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -moz-box-align: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n  -moz-box-pack: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  margin-top: 2em;\n}\n.somafm-info__wave > div {\n  width: 2px;\n  background-color: #fff;\n  margin: 0 0.3em;\n  height: 1em;\n  opacity: 0;\n}\n.somafm-info__wave > div.loading {\n  -webkit-animation: somafmAnimationWaveLoading 400ms ease infinite;\n  -moz-animation: somafmAnimationWaveLoading 400ms ease infinite;\n  -o-animation: somafmAnimationWaveLoading 400ms ease infinite;\n  animation: somafmAnimationWaveLoading 400ms ease infinite;\n}\n.somafm-info__wave > div.play {\n  -webkit-animation: somafmAnimationWavePlay 50ms linear infinite alternate;\n  -moz-animation: somafmAnimationWavePlay 50ms linear infinite alternate;\n  -o-animation: somafmAnimationWavePlay 50ms linear infinite alternate;\n  animation: somafmAnimationWavePlay 50ms linear infinite alternate;\n}\n.somafm-info__close {\n  position: fixed;\n  top: 5em;\n  right: 50%;\n  margin-right: -2em;\n  -webkit-border-radius: 100%;\n  -moz-border-radius: 100%;\n  border-radius: 100%;\n  padding: 1em;\n  display: none;\n  background-color: rgba(255, 255, 255, 0.1);\n}\n.somafm-info__close > svg {\n  width: 1.5em;\n  height: 1.5em;\n}\nbody.true--mobile .somafm-info__close {\n  display: block;\n}\n@-webkit-keyframes somafmAnimationWaveLoading {\n  0% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  10% {\n    -webkit-transform: scale3d(1, 1.5, 1);\n    transform: scale3d(1, 1.5, 1);\n    opacity: 1;\n  }\n  20% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  100% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n}\n@-moz-keyframes somafmAnimationWaveLoading {\n  0% {\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  10% {\n    -moz-transform: scale3d(1, 1.5, 1);\n    transform: scale3d(1, 1.5, 1);\n    opacity: 1;\n  }\n  20% {\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  100% {\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n}\n@-o-keyframes somafmAnimationWaveLoading {\n  0% {\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  10% {\n    transform: scale3d(1, 1.5, 1);\n    opacity: 1;\n  }\n  20% {\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  100% {\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n}\n@keyframes somafmAnimationWaveLoading {\n  0% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  10% {\n    -webkit-transform: scale3d(1, 1.5, 1);\n    -moz-transform: scale3d(1, 1.5, 1);\n    transform: scale3d(1, 1.5, 1);\n    opacity: 1;\n  }\n  20% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n  100% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 1;\n  }\n}\n@-webkit-keyframes somafmAnimationWavePlay {\n  0% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 0.3;\n  }\n  100% {\n    -webkit-transform: scale3d(1, 2, 1);\n    transform: scale3d(1, 2, 1);\n    opacity: 1;\n  }\n}\n@-moz-keyframes somafmAnimationWavePlay {\n  0% {\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 0.3;\n  }\n  100% {\n    -moz-transform: scale3d(1, 2, 1);\n    transform: scale3d(1, 2, 1);\n    opacity: 1;\n  }\n}\n@-o-keyframes somafmAnimationWavePlay {\n  0% {\n    transform: scale3d(1, 0.3, 1);\n    opacity: 0.3;\n  }\n  100% {\n    transform: scale3d(1, 2, 1);\n    opacity: 1;\n  }\n}\n@keyframes somafmAnimationWavePlay {\n  0% {\n    -webkit-transform: scale3d(1, 0.3, 1);\n    -moz-transform: scale3d(1, 0.3, 1);\n    transform: scale3d(1, 0.3, 1);\n    opacity: 0.3;\n  }\n  100% {\n    -webkit-transform: scale3d(1, 2, 1);\n    -moz-transform: scale3d(1, 2, 1);\n    transform: scale3d(1, 2, 1);\n    opacity: 1;\n  }\n}\n@media screen and (min-height: 320px) and (max-height: 428px) and (orientation: landscape) {\n  .somafm-info__close {\n    position: fixed;\n    top: 5%;\n    right: 95%;\n    margin-right: -2em;\n  }\n  .somafm-cover__img-container {\n    max-width: 12em;\n  }\n}\n</style>\n");
+
+  Lampa.Component.add("somafm", Component);
+
+  if (window.appready) {
+    add();
+  } else {
+    Lampa.Listener.follow("app", function (e) {
+      if (e.type == "ready") add();
+    });
+  }
+}
+
+if (!window.plugin_somafm_ready) createSomaFM();
+
+}) ();
