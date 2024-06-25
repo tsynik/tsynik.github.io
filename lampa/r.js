@@ -629,9 +629,9 @@
           // var g = 250 * (i/bufferLength);
           // var b = 50;
           // var opacity = 0.75;
-          var r = 238;
-          var g = 238;
-          var b = 238;
+          var r = 255;
+          var g = 255;
+          var b = 255;
           var opacity = dataArray[i] / 300 // percent, 0 to 0.85, data = [0 to 255]
           
           ctx.fillStyle = "rgba(" + r + "," + g + "," + b + "," + opacity + ")";
