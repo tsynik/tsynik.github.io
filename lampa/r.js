@@ -604,6 +604,7 @@
 
       var bufferLength = _analyser.frequencyBinCount;
       var dataArray =  new Uint8Array(bufferLength); // _freq
+      var barHeight;
       var barWidth = canvas.width / bufferLength; // half of the fftSize
       //var freq = getFreqData(played);  // TODO
 
