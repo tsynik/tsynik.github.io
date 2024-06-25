@@ -599,8 +599,9 @@
     var img_elm;
     var songsupdate;
 
+    var showAnalyzer = Lampa.Storage.field('somafm_show_analyzer');
     var canvas = info_html.find("canvas");
-    if (canvas) {
+    if (showAnalyzer && canvas) {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
       var ctx = canvas.getContext("2d");
@@ -629,11 +630,10 @@
           // var g = 250 * (i/bufferLength);
           // var b = 50;
           // var opacity = 0.75;
-
           var r = 255;
           var g = 255;
           var b = 255;
-          var opacity = _freq[i] / 510 // percent, 0 to 0.5, data = [0 to 255]
+          var opacity = _freq[i] / 510 // 0 to 0.5, data = [0 to 255]
 
           ctx.fillStyle = "rgba(" + r + "," + g + "," + b + "," + opacity + ")";
           ctx.fillRect(x, HEIGHT - barHeight, barWidth, barHeight);
@@ -823,7 +823,7 @@
     }
 
     function play() {
-      stopAudio();
+      // stopAudio();
       if (_context.state === 'suspended') {
         _context.resume().then(function () {
           console.log('SomaFM', 'Audio context has been resumed.');
@@ -835,7 +835,7 @@
     }
 
     function stop() {
-      stopAudio();
+      // stopAudio();
       clearInterval(screenreset);
       screenreset = null; // release timer from the variable
       played = false;
@@ -1027,6 +1027,19 @@
       onRender: function onRender(item) { }
     });
 
+    Lampa.SettingsApi.addParam({
+      component: 'somafm',
+      param: {
+        name: 'somafm_show_analyzer',
+        type: 'trigger',
+        "default": false
+      },
+      field: {
+        name: Lampa.Lang.translate('somafm_show_analyzer_title'),
+        description: Lampa.Lang.translate('somafm_show_analyzer_desc')
+      },
+      onRender: function onRender(item) { }
+    });
   }
 
   function createSomaFM() {
@@ -1123,6 +1136,26 @@
         bg: "Търсене на музикални обложки в Apple Music",
         he: "חיפוש עטיפות מוזיקה ב-Apple Music"
       },
+      somafm_show_analyzer_title: {
+        ru: "Показать визуализатор",
+        en: "Show visualizer",
+        uk: "Показати візуалізатор",
+        be: "Паказаць візуалізатар",
+        zh: "显示可视化工具",
+        pt: "Mostrar visualizador",
+        bg: "Покажи визуализатор",
+        he: "הצג מכשיר חזותי"
+      },
+      somafm_show_analyzer_desc: {
+        ru: "Индикатор уровня частоты на заднем плане",
+        en: "Frequency level indicator on background",
+        uk: "Індикатор рівня частоти на фоні",
+        be: "Індыкатар ўзроўню частоты на фоне",
+        zh: "背景上的频率级别指示器",
+        pt: "Indicador de nível de frequência em segundo plano",
+        bg: "Индикатор за нивото на честотата на фона",
+        he: "מחוון רמת התדר ברקע"
+      },
       somafm_error: {
         ru: "Ошибка загрузки данных",
         en: "Error loading stations",
@@ -1137,7 +1170,7 @@
 
     var manifest = {
       type: 'audio',
-      version: '1.0.7',
+      version: '1.0.8',
       name: Lampa.Lang.translate('somafm_title'),
       description: 'Over 30 unique channels of listener-supported, commercial-free, underground/alternative radio broadcasting to the world. All music hand-picked by SomaFM`s award-winning DJs and music directors.',
       component: 'radio'
