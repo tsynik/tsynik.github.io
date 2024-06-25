@@ -634,7 +634,7 @@
           ctx.fillStyle = "rgba(" + r + "," + g + "," + b + "," + opacity + ")";
           ctx.fillRect(x, HEIGHT - barHeight, barWidth, barHeight);
 
-          x += barWidth + 2;
+          x += barWidth + 4;
         }
         requestAnimationFrame(renderFrame);
       }
