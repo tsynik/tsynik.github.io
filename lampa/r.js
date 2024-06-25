@@ -605,14 +605,14 @@
       var bufferLength = 32 // analyser.frequencyBinCount;
       var dataArray = _freq // new Uint8Array(bufferLength);
       var barWidth = canvas.width / bufferLength; // half of the fftSize
-      var freq = _audio.getFreqData(played);  // TODO
+      var freq = getFreqData(played);  // TODO
 
       let x = 0;
       function animate() {
         x = 0;
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         analyser.getByteFrequencyData(dataArray);
-        freq = _audio.getFreqData(played);
+        freq = getFreqData(played);
         console.log('SomaFM', "freq", freq);
         for (let i = 0; i < bufferLength; i++) {
           barHeight = dataArray[i];
