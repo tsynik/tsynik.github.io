@@ -623,7 +623,7 @@
         // ctx.fillRect(0, 0, WIDTH, HEIGHT);
   
         for (var i = 0; i < bufferLength; i++) {
-          barHeight = dataArray[i];
+          barHeight = dataArray[i] / 2;
           
           // var r = barHeight + (25 * (i/bufferLength));
           // var g = 250 * (i/bufferLength);
@@ -637,7 +637,7 @@
           ctx.fillStyle = "rgba(" + r + "," + g + "," + b + "," + opacity + ")";
           ctx.fillRect(x, HEIGHT - barHeight, barWidth, barHeight);
   
-          x += barWidth + 10;
+          x += barWidth + 5;
         }
         requestAnimationFrame(renderFrame);
       }
