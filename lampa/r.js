@@ -596,33 +596,36 @@
     var img_elm;
     var songsupdate;
 
-    const canvas = document.getElementById("canvas");
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-    var ctx = canvas.getContext("2d");
+    var canvas = info_html.find("canvas");
+    if (canvas) {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      var ctx = canvas.getContext("2d");
 
-    var bufferLength = 32 // analyser.frequencyBinCount;
-    var dataArray = _freq // new Uint8Array(bufferLength);
-    var barWidth = canvas.width / bufferLength; // half of the fftSize
-    var freq = _audio.getFreqData(played);  // TODO
-    let x = 0;
-    function animate() {
-      x = 0;
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
-      analyser.getByteFrequencyData(dataArray);
-      freq = _audio.getFreqData(played);
-      console.log('SomaFM', "freq", freq);
-      for (let i = 0; i < bufferLength; i++) {
-        barHeight = dataArray[i];
-        ctx.fillStyle = "white";
-        ctx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
-        x += barWidth;
+      var bufferLength = 32 // analyser.frequencyBinCount;
+      var dataArray = _freq // new Uint8Array(bufferLength);
+      var barWidth = canvas.width / bufferLength; // half of the fftSize
+      var freq = _audio.getFreqData(played);  // TODO
+
+      let x = 0;
+      function animate() {
+        x = 0;
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        analyser.getByteFrequencyData(dataArray);
+        freq = _audio.getFreqData(played);
+        console.log('SomaFM', "freq", freq);
+        for (let i = 0; i < bufferLength; i++) {
+          barHeight = dataArray[i];
+          ctx.fillStyle = "white";
+          ctx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
+          x += barWidth;
+        }
+
+        requestAnimationFrame(animate);
       }
 
-      requestAnimationFrame(animate);
+      animate();
     }
-
-    animate();
 
     if (songsupdate) {
       clearInterval(songsupdate);
