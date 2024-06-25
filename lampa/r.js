@@ -604,25 +604,6 @@
 
       var bufferLength = _analyser.frequencyBinCount;
       var dataArray = new Uint8Array(bufferLength);
-      // var barHeight;
-      // var barWidth = canvas.width / bufferLength; // half of the fftSize
-      // var freq = getFreqData(played);  // TODO
-      // let x = 0;
-      // function animate() {
-      //   x = 0;
-      //   canvasCtx.clearRect(0, 0, canvas.width, canvas.height);
-      //   _analyser.getByteFrequencyData(dataArray);
-      //   //freq = getFreqData(played);
-      //   //console.log('SomaFM', "freq", freq);
-      //   for (let i = 0; i < bufferLength; i++) {
-      //     barHeight = dataArray[i];
-      //     canvasCtx.fillStyle = "white";
-      //     canvasCtx.fillRect(x, canvas.height - barHeight, barWidth, barHeight);
-      //     x += barWidth;
-      //   }
-      //   requestAnimationFrame(animate);
-      // }
-      // animate();
 
       var WIDTH = canvas.width;
       var HEIGHT = canvas.height;
@@ -630,7 +611,7 @@
       var barWidth = (WIDTH / bufferLength) * 2.5;
       var barHeight;
       var x = 0;
-  
+      // https://wesbos.com/javascript/15-final-round-of-exercise/85-audio-visualization
       function renderFrame() {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
   
@@ -651,7 +632,7 @@
           ctx.fillStyle = "rgba(" + r + "," + g + "," + b + ", 0.5)";
           ctx.fillRect(x, HEIGHT - barHeight, barWidth, barHeight);
   
-          x += barWidth + 20;
+          x += barWidth + 50;
         }
         requestAnimationFrame(renderFrame);
       }
