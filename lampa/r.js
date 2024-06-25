@@ -54,7 +54,7 @@
     _source = _context.createMediaElementSource(_audio);
     _analyser = _context.createAnalyser();
     _gain = _context.createGain();
-    _analyser.fftSize = 256; // power of 2 values
+    _analyser.fftSize = 1024; // power of 2 values
     _source.connect(_analyser);
     _source.connect(_gain);
     _gain.connect(_context.destination);
