@@ -600,7 +600,7 @@
     if (canvas) {
       //canvas.width = window.innerWidth;
       //canvas.height = window.innerHeight;
-      var canvasCtx = canvas.getContext("2d");
+      var ctx = canvas.getContext("2d");
 
       var bufferLength = _analyser.frequencyBinCount;
       var dataArray = new Uint8Array(bufferLength);
@@ -624,28 +624,37 @@
       // }
       // animate();
 
-      var WIDTH = window.innerWidth;
-      var HEIGHT = window.innerHeight;
-
-      function draw() {
-        canvasCtx.clearRect(0, 0, WIDTH, HEIGHT);
-        _analyser.getByteFrequencyData(dataArray); // get data
-        // background
-        canvasCtx.fillStyle = "rgb(0 0 0)";
-        canvasCtx.fillRect(0, 0, WIDTH, HEIGHT);
-        const barWidth = (WIDTH / bufferLength) * 2.5;
-        let barHeight;
-        let x = 0;
-        for (let i = 0; i < bufferLength; i++) {
-          barHeight = dataArray[i] / 2;
-          canvasCtx.fillStyle = `rgb(${barHeight + 100} 50 50)`;
-          canvasCtx.fillRect(x, HEIGHT - barHeight / 2, barWidth, barHeight);
-
+      var WIDTH = canvas.width;
+      var HEIGHT = canvas.height;
+  
+      var barWidth = (WIDTH / bufferLength) * 2.5;
+      var barHeight;
+      var x = 0;
+  
+      function renderFrame() {
+        requestAnimationFrame(renderFrame);
+  
+        x = 0;
+  
+        _analyser.getByteFrequencyData(dataArray);
+  
+        // ctx.fillStyle = "#000";
+        // ctx.fillRect(0, 0, WIDTH, HEIGHT);
+  
+        for (var i = 0; i < bufferLength; i++) {
+          barHeight = dataArray[i];
+          
+          var r = barHeight + (25 * (i/bufferLength));
+          var g = 250 * (i/bufferLength);
+          var b = 50;
+  
+          ctx.fillStyle = "rgb(" + r + "," + g + "," + b + ")";
+          ctx.fillRect(x, HEIGHT - barHeight, barWidth, barHeight);
+  
           x += barWidth + 1;
         }
-        requestAnimationFrame(draw); // draw visual
       }
-      draw();
+      renderFrame();
     }
 
     if (songsupdate) {
