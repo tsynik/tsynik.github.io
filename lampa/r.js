@@ -630,10 +630,10 @@
           // var b = 50;
           // var opacity = 0.75;
 
-          var r = 220;
-          var g = 220;
-          var b = 220;
-          var opacity = _freq[i] / 300 // percent, 0 to 0.85, data = [0 to 255]
+          var r = 255;
+          var g = 255;
+          var b = 255;
+          var opacity = _freq[i] / 510 // percent, 0 to 0.5, data = [0 to 255]
 
           ctx.fillStyle = "rgba(" + r + "," + g + "," + b + "," + opacity + ")";
           ctx.fillRect(x, HEIGHT - barHeight, barWidth, barHeight);
