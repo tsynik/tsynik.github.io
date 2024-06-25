@@ -607,37 +607,34 @@
 
       var WIDTH = canvas.width;
       var HEIGHT = canvas.height;
-  
+
       var barWidth = (WIDTH / bufferLength) * 2.5;
       var barHeight;
       var x = 0;
       // https://wesbos.com/javascript/15-final-round-of-exercise/85-audio-visualization
       function renderFrame() {
+        // get data
+       _analyser.getByteFrequencyData(dataArray);
+        // clear
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-  
         x = 0;
-  
-        _analyser.getByteFrequencyData(dataArray);
-  
-        // ctx.fillStyle = "#000";
-        // ctx.fillRect(0, 0, WIDTH, HEIGHT);
-  
         for (var i = 0; i < bufferLength; i++) {
           barHeight = dataArray[i] / 2;
-          
+
           // var r = barHeight + (25 * (i/bufferLength));
           // var g = 250 * (i/bufferLength);
           // var b = 50;
           // var opacity = 0.75;
+
           var r = 255;
           var g = 255;
           var b = 255;
           var opacity = dataArray[i] / 300 // percent, 0 to 0.85, data = [0 to 255]
-          
+
           ctx.fillStyle = "rgba(" + r + "," + g + "," + b + "," + opacity + ")";
           ctx.fillRect(x, HEIGHT - barHeight, barWidth, barHeight);
-  
-          x += barWidth + 5;
+
+          x += barWidth + 2;
         }
         requestAnimationFrame(renderFrame);
       }
@@ -822,7 +819,6 @@
     }
 
     function play() {
-      //stopAudio();
       if (_context.state === 'suspended') {
         _context.resume().then(function () {
           console.log('SomaFM', 'Audio context has been resumed.');
