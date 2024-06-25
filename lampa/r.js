@@ -627,15 +627,12 @@
       var WIDTH = window.innerWidth;
       var HEIGHT = window.innerHeight;
 
-      canvasCtx.clearRect(0, 0, WIDTH, HEIGHT);
-
       function draw() {
-        requestAnimationFrame(draw); // draw visual
-
+        canvasCtx.clearRect(0, 0, WIDTH, HEIGHT);
         _analyser.getByteFrequencyData(dataArray); // get data
         // background
-        // canvasCtx.fillStyle = "rgb(0 0 0)";
-        // canvasCtx.fillRect(0, 0, WIDTH, HEIGHT);
+        canvasCtx.fillStyle = "rgb(0 0 0)";
+        canvasCtx.fillRect(0, 0, WIDTH, HEIGHT);
         const barWidth = (WIDTH / bufferLength) * 2.5;
         let barHeight;
         let x = 0;
@@ -646,6 +643,7 @@
 
           x += barWidth + 1;
         }
+        requestAnimationFrame(draw); // draw visual
       }
       draw();
     }
