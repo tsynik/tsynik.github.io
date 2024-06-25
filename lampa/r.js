@@ -632,7 +632,7 @@
       var x = 0;
   
       function renderFrame() {
-        requestAnimationFrame(renderFrame);
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
   
         x = 0;
   
@@ -653,6 +653,7 @@
   
           x += barWidth + 1;
         }
+        requestAnimationFrame(renderFrame);
       }
       renderFrame();
     }
