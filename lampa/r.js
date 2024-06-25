@@ -54,7 +54,7 @@
     _source = _context.createMediaElementSource(_audio);
     _analyser = _context.createAnalyser();
     _gain = _context.createGain();
-    _analyser.fftSize = 32;
+    _analyser.fftSize = 40; // to reduce LF bars
     _source.connect(_analyser);
     _source.connect(_gain);
     _gain.connect(_context.destination);
