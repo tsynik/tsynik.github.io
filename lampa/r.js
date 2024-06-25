@@ -625,11 +625,16 @@
         for (var i = 0; i < bufferLength; i++) {
           barHeight = dataArray[i];
           
-          var r = barHeight + (25 * (i/bufferLength));
-          var g = 250 * (i/bufferLength);
-          var b = 50;
-  
-          ctx.fillStyle = "rgba(" + r + "," + g + "," + b + ", 0.75)";
+          // var r = barHeight + (25 * (i/bufferLength));
+          // var g = 250 * (i/bufferLength);
+          // var b = 50;
+          // var opacity = 0.75;
+          var r = 238;
+          var g = 238;
+          var b = 238;
+          var opacity = 25 * (i/bufferLength);
+          
+          ctx.fillStyle = "rgba(" + r + "," + g + "," + b + "," + opacity + ")";
           ctx.fillRect(x, HEIGHT - barHeight, barWidth, barHeight);
   
           x += barWidth + 10;
