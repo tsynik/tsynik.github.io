@@ -611,7 +611,7 @@
       var WIDTH = canvas.width;
       var HEIGHT = canvas.height;
 
-      var barWidth = (WIDTH / bufferLength) * 2;
+      var barWidth = (WIDTH / bufferLength) * 2.5;
       var barHeight;
       var x = 0;
       // https://wesbos.com/javascript/15-final-round-of-exercise/85-audio-visualization
@@ -630,9 +630,9 @@
           // var b = 50;
           // var opacity = 0.75;
 
-          var r = 200;
-          var g = 200;
-          var b = 200;
+          var r = 220;
+          var g = 220;
+          var b = 220;
           var opacity = _freq[i] / 300 // percent, 0 to 0.85, data = [0 to 255]
 
           ctx.fillStyle = "rgba(" + r + "," + g + "," + b + "," + opacity + ")";
