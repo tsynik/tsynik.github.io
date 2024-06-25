@@ -64,7 +64,8 @@
       _freq = new Uint8Array(_analyser.frequencyBinCount);
       _audio.play();
     });
-    ['play', 'waiting', 'playing', 'ended', 'stalled', 'error'].forEach(function (event) {
+    // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio#events
+    ['play', 'waiting', 'playing', 'ended', 'stalled', 'suspend'].forEach(function (event) {
       _audio.addEventListener(event, function (e) {
         return emit(event, e);
       });
