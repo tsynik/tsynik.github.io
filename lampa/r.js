@@ -822,7 +822,7 @@
     }
 
     function play() {
-      stopAudio();
+      //stopAudio();
       if (_context.state === 'suspended') {
         _context.resume().then(function () {
           console.log('SomaFM', 'Audio context has been resumed.');
