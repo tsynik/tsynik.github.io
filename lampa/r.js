@@ -611,7 +611,7 @@
       function animate() {
         x = 0;
         ctx.clearRect(0, 0, canvas.width, canvas.height);
-        analyser.getByteFrequencyData(dataArray);
+        _analyser.getByteFrequencyData(dataArray);
         //freq = getFreqData(played);
         //console.log('SomaFM', "freq", freq);
         for (let i = 0; i < bufferLength; i++) {
