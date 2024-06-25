@@ -74,13 +74,14 @@
   function emit(event, data) {
     if (event && _events.hasOwnProperty(event)) {
       console.log('SomaFM', 'emit', event);
-      _events[event](data);
+      _events[event].map(function (fn) { fn(data) });
     }
   }
   // add event listeners to the audio api
   function on(event, callback) {
     if (event && typeof callback === 'function') {
-      _events[event] = callback;
+      if (!_events[event]) _events[event] = [];
+      _events[event].push(callback);
     }
   }
   // stop playing audio
@@ -620,7 +621,7 @@
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         x = 0;
         for (var i = 0; i < bufferLength; i++) {
-          
+
           barHeight = _freq[i] / 2;
 
           // var r = barHeight + (25 * (i/bufferLength));
