@@ -611,7 +611,7 @@
       var WIDTH = canvas.width;
       var HEIGHT = canvas.height;
 
-      var barWidth = (WIDTH / bufferLength) * 3;
+      var barWidth = (WIDTH / bufferLength) * 2;
       var barHeight;
       var x = 0;
       // https://wesbos.com/javascript/15-final-round-of-exercise/85-audio-visualization
