@@ -1147,14 +1147,14 @@
         he: "הצג מכשיר חזותי"
       },
       somafm_show_analyzer_desc: {
-        ru: "Индикатор уровня частоты на заднем плане",
-        en: "Frequency level indicator on background",
-        uk: "Індикатор рівня частоти на фоні",
-        be: "Індыкатар ўзроўню частоты на фоне",
-        zh: "背景上的频率级别指示器",
-        pt: "Indicador de nível de frequência em segundo plano",
-        bg: "Индикатор за нивото на честотата на фона",
-        he: "מחוון רמת התדר ברקע"
+        ru: "Анализатор аудиоспектра на заднем плане",
+        en: "Audio spectrum analyzer on the background",
+        uk: "Аналізатор аудіо спектру на тлі",
+        be: "Аўдыё аналізатар спектру на фоне",
+        zh: "背景上的音频频谱分析仪",
+        pt: "Analisador de espectro de áudio em segundo plano",
+        bg: "Аудио спектрален анализатор на заден план",
+        he: "מנתח ספקטרום שמע ברקע"
       },
       somafm_error: {
         ru: "Ошибка загрузки данных",
