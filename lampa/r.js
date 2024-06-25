@@ -822,6 +822,7 @@
     }
 
     function play() {
+      stopAudio();
       if (_context.state === 'suspended') {
         _context.resume().then(function () {
           console.log('SomaFM', 'Audio context has been resumed.');
@@ -833,6 +834,7 @@
     }
 
     function stop() {
+      stopAudio();
       clearInterval(screenreset);
       screenreset = null; // release timer from the variable
       played = false;
@@ -848,7 +850,6 @@
         info.destroy();
         info = false;
       }
-      // stopAudio();
     }
 
     // handle audio stream state changes
