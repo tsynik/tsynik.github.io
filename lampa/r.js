@@ -629,7 +629,7 @@
           var g = 250 * (i/bufferLength);
           var b = 50;
   
-          ctx.fillStyle = "rgba(" + r + "," + g + "," + b + ", 0.5)";
+          ctx.fillStyle = "rgba(" + r + "," + g + "," + b + ", 0.75)";
           ctx.fillRect(x, HEIGHT - barHeight, barWidth, barHeight);
   
           x += barWidth + 50;
