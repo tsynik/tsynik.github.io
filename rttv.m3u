@@ -883,9 +883,8 @@ http://31.148.48.15:80/Ani/index.m3u8?token=test
 #EXTINF:-1 tvg-id="animal-planet" group-title="Познавательные" catchup-enable="0",Animal Planet HD
 http://45.159.74.14:80/AnimalPlanet/tracks-v1a2/mono.m3u8
 # http://185.163.194.185:6987/43/mpegts
-#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Big Planet
+#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Big Planet HD
 http://185.163.194.185:6987/184/mpegts
-# http://91.207.115.228:5000/c94
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood HD
 http://sc.id-tv.kz/bollywood_hd_34_35.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" group-title="Музыкальные" catchup-enable="0",Bridge TV Русский хит HD
@@ -969,8 +968,9 @@ http://178.212.71.253:8002/play/a00n/index.m3u8
 #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
 http://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
 # #EXTINF:-1 tvg-id="nano-tv" group-title="Познавательные" catchup-enable="0",NANO
+# http://s1.tv-nano.com/Nano_rec/video.m3u8
 #EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные" catchup-enable="0",Nat Geo Wild HD
-https://st1.uzdigital.tv/Nat_Geo_Wild_HD/tracks-v1a1/mono.m3u8
+http://185.163.194.185:6987/50/mpegts
 # #EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные" catchup-enable="0",National Geographic HD
 #EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr.
 http://185.163.194.185:6987/114/mpegts
