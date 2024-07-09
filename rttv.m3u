@@ -931,10 +931,9 @@ http://185.163.194.185:6987/131/mpegts
 # http://91.207.115.228:5000/c154
 # #EXTINF:-1 group-title="Новости" catchup-enable="0",France 24 HD
 #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы" catchup-enable="0",FX HD
-http://185.163.194.185:6987/32/mpegts
-# http://sc.id-tv.kz/FOX_HD_34_35.m3u8
-#EXTINF:-1 tvg-id="foxlife" group-title="Кино и сериалы" catchup-enable="0",FX Life
-http://91.205.199.3:80/FoxLife/index.m3u8
+http://sc.id-tv.kz/FOX_HD_34_35.m3u8
+# #EXTINF:-1 tvg-id="foxlife" group-title="Кино и сериалы" catchup-enable="0",FX Life
+# http://91.205.199.3:80/FoxLife/index.m3u8
 #EXTINF:-1 tvg-id="galaxy-tv" group-title="Познавательные" catchup-enable="0",Galaxy TV
 http://185.163.194.185:6987/193/mpegts
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Gulli Girl
