@@ -911,11 +911,12 @@ http://185.163.194.185:6987/47/mpegts
 # http://sc.id-tv.kz/Euronews_34_35.m3u8
 #EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
 https://livetv.mylifeisgood.net.ru/channels/europaplustv24.m3u8
-# #EXTINF:-1 tvg-id="eurosport1" group-title="Спортивные" catchup-enable="0",Eurosport 1 HD
+#EXTINF:-1 tvg-id="eurosport1" group-title="Спортивные" catchup-enable="0",Eurosport 1 HD
 http://185.163.194.185:6987/130/mpegts
-# #EXTINF:-1 tvg-id="eurosport2" group-title="Спортивные" catchup-enable="0",Eurosport 2 HD
+#EXTINF:-1 tvg-id="eurosport2" group-title="Спортивные" catchup-enable="0",Eurosport 2 HD
 http://185.163.194.185:6987/131/mpegts
-# #EXTINF:-1 group-title="Новости" catchup-enable="0",France 24 HD
+#EXTINF:-1 group-title="Новости" catchup-enable="0",France 24 HD
+http://185.19.190.1:8090/FRANCE24/index.m3u8
 #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы" catchup-enable="0",FX HD
 http://sc.id-tv.kz/FOX_HD_34_35.m3u8
 # #EXTINF:-1 tvg-id="foxlife" group-title="Кино и сериалы" catchup-enable="0",FX Life
