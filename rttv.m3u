@@ -861,10 +861,10 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 # #EXTINF:-1 tvg-id="sony-scifi" group-title="Кино и сериалы" catchup-enable="0",.Sci-Fi
 #EXTINF:-1 tvg-id="1hd" tvg-id="1hd" group-title="Музыкальные" catchup-enable="0",1HD Music Television
 https://livetv.mylifeisgood.net.ru/channels/1hdmusic.m3u8
-#EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы" catchup-enable="0",A1
-http://sc.id-tv.kz/A1.m3u8
-#EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы" catchup-enable="0",A2
-http://sc.id-tv.kz/A2_36_37.m3u8
+# #EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы" catchup-enable="0",A1
+# http://sc.id-tv.kz/A1.m3u8
+# #EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы" catchup-enable="0",A2
+# http://sc.id-tv.kz/A2_36_37.m3u8
 #EXTINF:-1 tvg-id="amedia-hit" group-title="Кино и сериалы" catchup-enable="0",Amedia Hit HD
 http://stream01.vnet.am/Nauka/mono.m3u8
 # http://stream.rutvportal.com:8085/AmediaHitHD/video.m3u8
@@ -875,9 +875,7 @@ http://stream01.vnet.am/AmediaPremium/mono.m3u8
 http://31.148.48.15:80/Ani/index.m3u8?token=test
 #EXTINF:-1 tvg-id="animal-planet" group-title="Познавательные" catchup-enable="0",Animal Planet HD
 http://45.159.74.14:80/AnimalPlanet/tracks-v1a2/mono.m3u8
-# https://bkm.beetv.kz/btv/live/hls/000000216.m3u8
 # #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Big Planet HD
-# https://bkm.beetv.kz/btv/live/hls/000008052.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood HD
 http://sc.id-tv.kz/bollywood_hd_34_35.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" group-title="Музыкальные" catchup-enable="0",Bridge TV Русский хит HD
@@ -905,7 +903,6 @@ http://sc.id-tv.kz/DaVinci_34_35.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel HD
 http://45.159.74.14:80/DiscoveryChannel/tracks-v1a2/mono.m3u8
 # http://stream.rutvportal.com:8085/DiscoveryChannelHD/video.m3u8
-# https://bkm.beetv.kz/btv/live/hls/000001496.m3u8
 # #EXTINF:-1 tvg-id="deutsche-welle-eu" group-title="Новости" catchup-enable="0",DW Europe
 # #EXTINF:-1 tvg-id="euronews-en" group-title="Новости" catchup-enable="0",EuroNews
 #EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
@@ -948,7 +945,6 @@ http://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
 http://stream.rutvportal.com:8085/NatGeoWildHD/video.m3u8
 #EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные" catchup-enable="0",National Geographic HD
 http://stream.rutvportal.com:8085/NationalGeographicHD/video.m3u8
-# https://bkm.beetv.kz/btv/live/hls/000000034.m3u8
 #EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr.
 http://81.7.108.21:9000/play/NickJr-DVBC346-sti4400019110542
 #EXTINF:-1 tvg-id="nickelodeon-ru" group-title="Детские" catchup-enable="0",Nickelodeon HD
@@ -982,13 +978,10 @@ http://sc.id-tv.kz/TiJi_34_35.m3u8
 #EXTINF:-1 tvg-id="viasat-explore" group-title="Познавательные" catchup-enable="0",Viju Explore
 http://sc.id-tv.kz/ViasatExplorer_34_35.m3u8
 # http://91.205.199.3:80/viasatexplorer/index.m3u8
-# https://bkm.beetv.kz/btv/live/hls/000004157.m3u8
 # #EXTINF:-1 tvg-id="viasat-history" group-title="Познавательные" catchup-enable="0",Viju History
 # http://sc.id-tv.kz/ViasatHistory_34_35.m3u8
-# https://bkm.beetv.kz/btv/live/hls/000005528.m3u8
 #EXTINF:-1 tvg-id="viasat-nature" group-title="Познавательные" catchup-enable="0",Viju Nature
 http://sc.id-tv.kz/ViasatNature_34_35.m3u8
-# https://bkm.beetv.kz/btv/live/hls/000006482.m3u8
 #EXTINF:-1 tvg-id="viasat-nature-history-hd" group-title="Познавательные" catchup-enable="0",Viju+ Planet HD
 http://31.131.136.4:8001/play/e006
 #EXTINF:-1 tvg-id="tv1000" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 HD
@@ -1021,11 +1014,9 @@ http://stream.rutvportal.com:8085/Bober/video.m3u8
 # #EXTINF:-1 tvg-id="voprosy-i-otvety" group-title="Познавательные" catchup-enable="0",Вопросы и ответы
 #EXTINF:-1 tvg-id="glazami-turista" group-title="Познавательные" catchup-enable="0",Глазами туриста HD
 https://livetv.mylifeisgood.net.ru/channels/glazamiturista.m3u8
-#EXTINF:-1 tvg-id="dikaya-oxota-hd" group-title="Хобби и увлечения" catchup-enable="0",Дикая Охота HD
-https://bkm.beetv.kz/btv/live/hls/000004609.m3u8
+# #EXTINF:-1 tvg-id="dikaya-oxota-hd" group-title="Хобби и увлечения" catchup-enable="0",Дикая Охота HD
 # http://91.218.160.212:8015/play/a04m/index.m3u8
-#EXTINF:-1 tvg-id="dikaya-rybalka-hd" group-title="Хобби и увлечения" catchup-enable="0",Дикая Рыбалка HD
-https://bkm.beetv.kz/btv/live/hls/000004610.m3u8
+# #EXTINF:-1 tvg-id="dikaya-rybalka-hd" group-title="Хобби и увлечения" catchup-enable="0",Дикая Рыбалка HD
 # http://91.218.160.212:8015/play/a04l/index.m3u8
 # #EXTINF:-1 tvg-id="dikiy" group-title="Хобби и увлечения" catchup-enable="0",Дикий
 #EXTINF:-1 tvg-id="domkino" group-title="Кино и сериалы" catchup-enable="0",Дом Кино
@@ -1196,7 +1187,6 @@ http://sc.id-tv.kz/Pobeda_34_35.m3u8
 #EXTINF:-1 tvg-id="poexali" group-title="Познавательные" catchup-enable="0",Поехали!
 http://sc.id-tv.kz/poehali_34_35.m3u8
 # #EXTINF:-1 tvg-id="prikluchenia-hd" group-title="Познавательные" catchup-enable="0",Приключения HD
-# https://bkm.beetv.kz/btv/live/hls/000000277.m3u8
 # #EXTINF:-1 tvg-id="pro-lyubov" group-title="Кино и сериалы" catchup-enable="0",Про Любовь
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Продвижение
 http://prodvizhenie.bonus-tv.ru/cdn/prodvizhenie/tracks-v1a1/index.m3u8
