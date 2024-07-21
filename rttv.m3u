@@ -1110,21 +1110,23 @@ http://stream.rutvportal.com:8085/Mama/video.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
 #EXTINF:-1 tvg-id="match-tv" group-title="Спортивные" catchup-enable="0",Матч! HD
-http://tv.streams.baikal-telecom.net:8080/MatchHD/mpegts
+http://45.93.46.27:8887/8179/video.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Арена HD
 http://188.113.190.15/325/video.m3u8
 # http://194.143.148.28:8080/MatchArena/mpegts
-# #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Боец
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Боец
+http://45.93.46.27:8887/8027/video.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Игра HD
 http://188.113.190.15/326/video.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Планета
 http://80.245.93.242:9030/play/a01u/index.m3u8
 # http://sc.id-tv.kz/MatchPlaneta_36_37.m3u8
-#EXTINF:-1 tvg-id="match-premier" group-title="Спортивные" catchup-enable="0",Матч! Премьер
+#EXTINF:-1 tvg-id="match-premier" group-title="Спортивные" catchup-enable="0",Матч! Премьер HD
 http://45.93.46.27:8887/8023/video.m3u8
 # http://188.134.76.176:81/udp/235.10.10.182:1234
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна
-http://188.113.190.15/95/tracks-v1a1/index.m3u8
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна HD
+http://45.93.46.27:8887/8019/video.m3u8
+# http://188.113.190.15/95/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="match-football1" group-title="Спортивные" catchup-enable="0",Матч! Футбол 1 HD
 http://194.143.148.28:8080/MatchFutbol1/mpegts
 #EXTINF:-1 tvg-id="match-football2" group-title="Спортивные" catchup-enable="0",Матч! Футбол 2 HD
