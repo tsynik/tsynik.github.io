@@ -1022,11 +1022,11 @@ http://stream.rutvportal.com:8085/Bober/video.m3u8
 #EXTINF:-1 tvg-id="glazami-turista" group-title="Познавательные" catchup-enable="0",Глазами туриста HD
 https://livetv.mylifeisgood.net.ru/channels/glazamiturista.m3u8
 #EXTINF:-1 tvg-id="dikaya-oxota-hd" group-title="Хобби и увлечения" catchup-enable="0",Дикая Охота HD
-http://91.218.160.212:8015/play/a04m/index.m3u8
-# https://bkm.beetv.kz/btv/live/hls/000004609.m3u8
+https://bkm.beetv.kz/btv/live/hls/000004609.m3u8
+# http://91.218.160.212:8015/play/a04m/index.m3u8
 #EXTINF:-1 tvg-id="dikaya-rybalka-hd" group-title="Хобби и увлечения" catchup-enable="0",Дикая Рыбалка HD
-http://91.218.160.212:8015/play/a04l/index.m3u8
-# https://bkm.beetv.kz/btv/live/hls/000004610.m3u8
+https://bkm.beetv.kz/btv/live/hls/000004610.m3u8
+# http://91.218.160.212:8015/play/a04l/index.m3u8
 # #EXTINF:-1 tvg-id="dikiy" group-title="Хобби и увлечения" catchup-enable="0",Дикий
 #EXTINF:-1 tvg-id="domkino" group-title="Кино и сериалы" catchup-enable="0",Дом Кино
 http://sc.id-tv.kz/DomKino_36_37.m3u8
@@ -1063,9 +1063,9 @@ http://109.239.208.82:80/history/index.m3u8
 http://188.113.190.15/45/video.m3u8
 # http://91.218.160.212:8015/play/a02q/index.m3u8
 #EXTINF:-1 tvg-id="indiyskoe-kino" group-title="Кино и сериалы" catchup-enable="0",Индийское кино
-http://91.218.160.212:8015/play/a02x/index.m3u8
+http://188.113.190.15/329/tracks-v1a1/index.m3u8
 # http://sc.id-tv.kz/Indiiskoe_kino.m3u8
-# http://188.113.190.15/329/tracks-v1a1/index.m3u8
+# http://91.218.160.212:8015/play/a02x/index.m3u8
 # #EXTINF:-1 tvg-id="ginger-hd" group-title="Детские" catchup-enable="0",Капитан Фантастика HD
 # #EXTINF:-1 tvg-id="kamedi" group-title="Кино и сериалы" catchup-enable="0",Камеди
 # #EXTINF:-1 tvg-id="kinosat" group-title="Кино и сериалы" catchup-enable="0",КиноСат
@@ -1181,10 +1181,11 @@ https://strm.yandex.ru/kal/ntv_hit/ntv_hit0.m3u8
 http://188.113.190.15/136/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="oruzhie" group-title="Хобби и увлечения" catchup-enable="0",Оружие
 http://188.113.190.15/155/mono.m3u8
-#EXTINF:-1 tvg-id="oxota-i-rybalka" group-title="Хобби и увлечения" catchup-enable="0",Охота и рыбалка
-http://91.218.160.212:8015/play/a02y/index.m3u8
+# #EXTINF:-1 tvg-id="oxota-i-rybalka" group-title="Хобби и увлечения" catchup-enable="0",Охота и рыбалка
+http://45.93.46.27:8887/8065/video.m3u8
+# http://91.218.160.212:8015/play/a02y/index.m3u8
 # #EXTINF:-1 tvg-id="oxotnik-i-rybolov-hd" group-title="Хобби и увлечения" catchup-enable="0",Охотник и рыболов HD
-#EXTINF:-1 tvg-id="eureka-hd" group-title="Познавательные" сatchup-enable="0",Первый космический HD
+#EXTINF:-1 tvg-id="eureka-hd" group-title="Познавательные" catchup-enable="0",Первый космический HD
 http://stream01.vnet.am/Evrika/mono.m3u8
 #EXTINF:-1 tvg-id="onemuz" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5365.png" catchup-enable="0",Первый музыкальный BY
 http://rtmp.one.by:1300
@@ -1192,7 +1193,7 @@ http://rtmp.one.by:1300
 http://rtmp.one.by:2300
 #EXTINF:-1 tvg-id="pobeda" group-title="Кино и сериалы" catchup-enable="0",Победа
 http://sc.id-tv.kz/Pobeda_34_35.m3u8
-# #EXTINF:-1 tvg-id="poexali" group-title="Познавательные" catchup-enable="0",Поехали!
+#EXTINF:-1 tvg-id="poexali" group-title="Познавательные" catchup-enable="0",Поехали!
 http://sc.id-tv.kz/poehali_34_35.m3u8
 # #EXTINF:-1 tvg-id="prikluchenia-hd" group-title="Познавательные" catchup-enable="0",Приключения HD
 # https://bkm.beetv.kz/btv/live/hls/000000277.m3u8
@@ -1215,7 +1216,8 @@ http://91.142.158.107:8092/play/26/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский детектив
 http://91.142.158.107:8092/play/27/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский иллюзион
-http://91.218.160.212:8015/play/a04q/index.m3u8
+http://45.93.46.27:8887/8132/video.m3u8
+# http://91.218.160.212:8015/play/a04q/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский роман
 http://91.142.158.107:8092/play/25/index.m3u8
 #EXTINF:-1 tvg-id="oxotnik-i-rybolov" group-title="Хобби и увлечения" catchup-enable="0",Рыболов
