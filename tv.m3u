@@ -1054,8 +1054,8 @@ http://178.124.179.122:8088/ZdorovoeTV/index.m3u8
 #EXTINF:-1 group-title="Новости" catchup-enable="0",Известия HD
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/iz.m3u8
-#EXTINF:-1 tvg-id="istoria" group-title="Познавательные" catchup-enable="0",История
-http://109.239.208.82:80/history/index.m3u8
+# #EXTINF:-1 tvg-id="istoria" group-title="Познавательные" catchup-enable="0",История
+# http://109.239.208.82:80/history/index.m3u8
 #EXTINF:-1 tvg-id="illuzion-plus" group-title="Кино и сериалы" catchup-enable="0",Иллюзион+
 http://sc.id-tv.kz/IlluzionPlus_36_37.m3u8
 #EXTINF:-1 tvg-id="indiyskoe-kino" group-title="Кино и сериалы" catchup-enable="0",Индийское кино
@@ -1165,8 +1165,8 @@ http://91.142.158.107:8092/play/29/index.m3u8
 #EXTINF:-1 tvg-id="ntv-pravo" group-title="Развлекательные" catchup-enable="0",НТВ Право
 https://strm.yandex.ru/kal/ntv_pravo_new/ntv_pravo_new0.m3u8
 # http://stream01.vnet.am/ParamountChannel/mono.m3u8
-#EXTINF:-1 tvg-id="ntv-serial" group-title="Кино и сериалы" catchup-enable="0",НТВ Сериал HD
-https://strm.yandex.ru/kal/ntv_serial_new/ntv_serial_new0.m3u8
+# #EXTINF:-1 tvg-id="ntv-serial" group-title="Кино и сериалы" catchup-enable="0",НТВ Сериал HD
+# https://strm.yandex.ru/kal/ntv_serial_new/ntv_serial_new0.m3u8
 #EXTINF:-1 tvg-id="ntv-xit" group-title="Кино и сериалы" catchup-enable="0",НТВ Хит HD
 https://strm.yandex.ru/kal/ntv_hit/ntv_hit0.m3u8
 # #EXTINF:-1 tvg-id="o_" tvg-name="О!" group-title="Детские" catchup-enable="0",О!
@@ -1181,8 +1181,8 @@ http://stream01.vnet.am/Evrika/mono.m3u8
 http://rtmp.one.by:1300
 #EXTINF:-1 tvg-id="onemuz" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5364.png" catchup-enable="0",Первый музыкальный RU
 http://rtmp.one.by:2300
-#EXTINF:-1 tvg-id="pobeda" group-title="Кино и сериалы" catchup-enable="0",Победа
-http://sc.id-tv.kz/Pobeda_34_35.m3u8
+# #EXTINF:-1 tvg-id="pobeda" group-title="Кино и сериалы" catchup-enable="0",Победа
+# http://sc.id-tv.kz/Pobeda_34_35.m3u8
 #EXTINF:-1 tvg-id="poexali" group-title="Познавательные" catchup-enable="0",Поехали!
 http://sc.id-tv.kz/poehali_34_35.m3u8
 # #EXTINF:-1 tvg-id="prikluchenia-hd" group-title="Познавательные" catchup-enable="0",Приключения HD
@@ -1196,8 +1196,8 @@ https://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
 http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 # http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
 # http://92.50.128.180/utv/1358/index.m3u8
-#EXTINF:-1 tvg-id="retro-tv" group-title="Кино и сериалы" catchup-enable="0",Ретро
-http://109.239.208.82:80/retro/index.m3u8
+# #EXTINF:-1 tvg-id="retro-tv" group-title="Кино и сериалы" catchup-enable="0",Ретро
+# http://109.239.208.82:80/retro/index.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Родное кино
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Романтичное HD
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский бестселлер
