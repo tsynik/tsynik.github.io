@@ -948,9 +948,10 @@ http://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
 # http://stream.rutvportal.com:8085/NatGeoWildHD/video.m3u8
 #EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные" catchup-enable="0",National Geographic HD
 rtmp://5.182.229.90//7320
-#EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr.
-http://81.7.108.21:9000/play/NickJr-DVBC346-sti4400019110542
-# #EXTINF:-1 tvg-id="nickelodeon-ru" group-title="Детские" catchup-enable="0",Nickelodeon HD
+# #EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr.
+#EXTINF:-1 tvg-id="nickelodeon-ru" group-title="Детские" catchup-enable="0",Nickelodeon
+http://hls.seversk.ru:8080/play/a00t/index.m3u8
+# http://135.181.115.81:8000/play/a009/index.m3u8?token=livetv
 # #EXTINF:-1 tvg-id="plan-b" group-title="Кино и сериалы" catchup-enable="0",Plan B
 # #EXTINF:-1 tvg-id="q-sport-ext" group-title="Спортивные" catchup-enable="0",Q League HD
 # #EXTINF:-1 tvg-id="qsport-kz" group-title="Спортивные" catchup-enable="0",Q Sport HD
@@ -1013,8 +1014,7 @@ http://91.205.199.3/vipmegahit/index.m3u8
 #EXTINF:-1 tvg-id="vip-serial" group-title="Кино и сериалы" catchup-enable="0",Viju+ Serial HD
 http://91.205.199.3/vipserialhd/index.m3u8
 # #EXTINF:-1 tvg-id="zoopark" group-title="Познавательные" catchup-enable="0",ZooПарк
-#EXTINF:-1 tvg-id="avto24" group-title="Хобби и увлечения" catchup-enable="0",Авто 24
-http://sc.id-tv.kz/Avto24_36_37.m3u8
+# #EXTINF:-1 tvg-id="avto24" group-title="Хобби и увлечения" catchup-enable="0",Авто 24
 # #EXTINF:-1 tvg-id="avto-plus" group-title="Хобби и увлечения" catchup-enable="0",Авто Плюс HD
 # #EXTINF:-1 tvg-id="blokbaster-hd" group-title="Кино и сериалы" catchup-enable="0",Блокбастер
 # #EXTINF:-1 tvg-id="bobior" group-title="Детские" catchup-enable="0",Бобёр
@@ -1043,10 +1043,9 @@ http://91.218.160.212:8015/play/a04r/index.m3u8
 http://188.134.76.176:81/udp/235.10.10.240:1234
 # #EXTINF:-1 tvg-id="zhara" group-title="Музыкальные" catchup-enable="0",Жара ТВ HD
 # http://188.113.190.15/328/mono.m3u8
-#EXTINF:-1 tvg-id="zhivaya-priroda" group-title="Познавательные" catchup-enable="0",Живая природа HD
-https://livetv.mylifeisgood.net.ru/channels/jivyapriroda.m3u8
-#EXTINF:-1 tvg-id="zagorodnaya-zhizn" group-title="Хобби и увлечения" catchup-enable="0",Загородная жизнь
-http://sc.id-tv.kz/Zagorod.m3u8
+# #EXTINF:-1 tvg-id="zhivaya-priroda" group-title="Познавательные" catchup-enable="0",Живая природа HD
+# https://livetv.mylifeisgood.net.ru/channels/jivyapriroda.m3u8
+# #EXTINF:-1 tvg-id="zagorodnaya-zhizn" group-title="Хобби и увлечения" catchup-enable="0",Загородная жизнь
 #EXTINF:-1 tvg-id="zagorodny" group-title="Хобби и увлечения" catchup-enable="0",Загородный
 http://stream01.vnet.am/DTX/mono.m3u8
 #EXTINF:-1 tvg-id="zdorovoe-tv" group-title="Хобби и увлечения" catchup-enable="0",Здоровое ТВ
