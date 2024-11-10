@@ -1198,9 +1198,9 @@ http://185.23.80.28:8080/Multilandiya/index.m3u8?token=test
 # https://strm.yandex.ru/kal/multilandia/multilandia0.m3u8
 #EXTINF:-1 tvg-id="nano-tv" group-title="Познавательные" catchup-enable="0",Нано ТВ
 http://s1.tv-nano.com/Nano_rec/video.m3u8
-#EXTINF:-1 tvg-id="nauka" group-title="Познавательные" catchup-enable="0",Наука
+# #EXTINF:-1 tvg-id="nauka" group-title="Познавательные" catchup-enable="0",Наука
+#EXTINF:-1 tvg-id="nauka-20" group-title="Познавательные" catchup-enable="0",Наука 2.0
 http://91.224.169.250:5000/c2
-# #EXTINF:-1 tvg-id="nauka-20" group-title="Познавательные" catchup-enable="0",Наука 2.0
 #EXTINF:-1 tvg-id="nash-kinopokaz-hd" group-title="Кино и сериалы" catchup-enable="0",Наш Кинопоказ HD
 http://77.235.1.17/nash_kinopokaz/index.m3u8
 #EXTINF:-1 tvg-id="nashehd" group-title="Кино и сериалы" catchup-enable="0",Наше крутое HD
