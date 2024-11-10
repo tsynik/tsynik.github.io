@@ -931,9 +931,9 @@ http://91.224.169.250:5000/c168
 # http://77.235.1.17/eurosport_2/index.m3u8
 # #EXTINF:-1 group-title="Новости" catchup-enable="0",France 24 HD
 #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы" catchup-enable="0",FX HD
+http://sc.id-tv.kz/FOX_HD_34_35.m3u8
+#EXTINF:-1 tvg-id="foxlife" group-title="Кино и сериалы" catchup-enable="0",FX Life HD
 rtmp://5.182.229.90//7318
-# http://sc.id-tv.kz/FOX_HD_34_35.m3u8
-# #EXTINF:-1 tvg-id="foxlife" group-title="Кино и сериалы" catchup-enable="0",FX Life
 #EXTINF:-1 tvg-id="galaxy-tv" group-title="Познавательные" catchup-enable="0",Galaxy TV
 http://77.235.1.17/galaxy/index.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Gulli Girl
@@ -1194,7 +1194,7 @@ http://77.235.1.17/ntv_hit/index.m3u8
 # https://strm.yandex.ru/kal/ntv_hit/ntv_hit0.m3u8
 # #EXTINF:-1 tvg-id="o_" tvg-name="О!" group-title="Детские" catchup-enable="0",О!
 # http://188.113.190.15/136/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="o2tv" tvg-name="О2ТВ" group-title="Музыкальные" catchup-enable="0",О2
+#EXTINF:-1 tvg-id="o2tv" tvg-name="О2ТВ" group-title="Музыкальные" catchup-enable="0",О!2
 http://185.23.80.28:8080/O2/index.m3u8?token=test
 # #EXTINF:-1 tvg-id="oruzhie" group-title="Хобби и увлечения" catchup-enable="0",Оружие
 # http://188.113.190.15/155/mono.m3u8
