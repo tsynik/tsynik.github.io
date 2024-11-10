@@ -74,7 +74,7 @@ https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_
 http://77.235.1.17/home_4k/index.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Luxury HD
 http://185.23.80.28:8080/LUXURY_HD/index.m3u8?token=test
-#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Relax Nature HD
+#EXTINF:-1 tvg-id="no_epg" group-title="HD и UHD" catchup-enable="0",Relax Nature HD
 https://bl.rutube.ru/livestream/420654c698dce9f03390d32aaf210cdc/index.m3u8?s=9PeIg1Fq6JgWDgbaKCgm6Q&e=1731255654&scheme=https
 #EXTINF:-1 tvg-id="rtd-hd" group-title="HD и UHD" catchup-enable="0",RTД HD
 https://hls.rt.com/hls/rtdru.m3u8
@@ -1025,9 +1025,11 @@ http://77.235.1.17/travel_adventure/index.m3u8
 https://livetv.mylifeisgood.net.ru/channels/viju-explorer.m3u8
 # http://77.235.1.17/viasat_explorer/index.m3u8
 #EXTINF:-1 tvg-id="viasat-history" group-title="Познавательные" catchup-enable="0",Viju History
-http://77.235.1.17/viasat_history/index.m3u8
+https://livetv.mylifeisgood.net.ru/channels/viju-history.m3u8
+# http://77.235.1.17/viasat_history/index.m3u8
 #EXTINF:-1 tvg-id="viasat-nature" group-title="Познавательные" catchup-enable="0",Viju Nature
 http://77.235.1.17/viasat_nature/index.m3u8
+# https://livetv.mylifeisgood.net.ru/channels/viju-nature.m3u8
 #EXTINF:-1 tvg-id="viasat-nature-history-hd" group-title="Познавательные" catchup-enable="0",Viju+ Planet HD
 https://livetv.mylifeisgood.net.ru/channels/50c0316fa37fc4a9866a66f817e6c4383cb23cc0a49f0c322c505ffd7b8b4774.m3u8
 #EXTINF:-1 tvg-id="tv1000" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000
@@ -1167,8 +1169,8 @@ http://77.235.1.17/match_premier/index.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна
 http://91.224.169.250:5000/c33
 #EXTINF:-1 tvg-id="match-football1" group-title="Спортивные" catchup-enable="0",Матч! Футбол 1 HD
-rtmp://92.119.88.58//2407
-# http://194.143.148.28:8080/MatchFutbol1/mpegts
+http://194.143.148.28:8080/MatchFutbol1/mpegts
+# rtmp://92.119.88.58//2407
 # #EXTINF:-1 tvg-id="match-football2" group-title="Спортивные" catchup-enable="0",Матч! Футбол 2 HD
 #EXTINF:-1 tvg-id="match-football3" group-title="Спортивные" catchup-enable="0",Матч! Футбол 3 HD
 rtmp://92.119.88.58//2408
