@@ -1019,14 +1019,17 @@ https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
 #EXTINF:-1 tvg-id="tiji" group-title="Детские" catchup-enable="0",TiJi
 http://77.235.1.17/tiji/index.m3u8
 # http://sc.id-tv.kz/TiJi_34_35.m3u8
-# #EXTINF:-1 tvg-id="travel-channel" group-title="Познавательные" catchup-enable="0",Travel Channel HD
+#EXTINF:-1 tvg-id="travel-adventure" group-title="Познавательные" catchup-enable="0",Travel+Adventure HD
+http://77.235.1.17/travel_adventure/index.m3u8
 #EXTINF:-1 tvg-id="viasat-explore" group-title="Познавательные" catchup-enable="0",Viju Explore
-http://77.235.1.17/viasat_explorer/index.m3u8
+https://livetv.mylifeisgood.net.ru/channels/viju-explorer.m3u8
+# http://77.235.1.17/viasat_explorer/index.m3u8
 #EXTINF:-1 tvg-id="viasat-history" group-title="Познавательные" catchup-enable="0",Viju History
 http://77.235.1.17/viasat_history/index.m3u8
 #EXTINF:-1 tvg-id="viasat-nature" group-title="Познавательные" catchup-enable="0",Viju Nature
 http://77.235.1.17/viasat_nature/index.m3u8
-# #EXTINF:-1 tvg-id="viasat-nature-history-hd" group-title="Познавательные" catchup-enable="0",Viju+ Planet HD
+#EXTINF:-1 tvg-id="viasat-nature-history-hd" group-title="Познавательные" catchup-enable="0",Viju+ Planet HD
+https://livetv.mylifeisgood.net.ru/channels/50c0316fa37fc4a9866a66f817e6c4383cb23cc0a49f0c322c505ffd7b8b4774.m3u8
 #EXTINF:-1 tvg-id="tv1000" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000
 http://77.235.1.17/tv1000/index.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/viju-tv1000.m3u8
