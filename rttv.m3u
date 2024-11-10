@@ -1092,24 +1092,24 @@ http://77.235.1.17/kineko/index.m3u8
 http://45.159.74.13:80/Kinopremera/tracks-v1a1/mono.m3u8
 # http://77.235.1.17/kinopremiera/index.m3u8
 #EXTINF:-1 tvg-id="kinosvidanie" group-title="Кино и сериалы" catchup-enable="0",Киносвидание HD
-rtmp://5.182.229.90//7245
-# http://77.235.1.17/kinosvidanie/index.m3u8
+http://77.235.1.17/kinosvidanie/index.m3u8
+# rtmp://5.182.229.90//7245
 #EXTINF:-1 tvg-id="kinosemiya" group-title="Кино и сериалы" catchup-enable="0",Киносемья HD
-rtmp://5.182.229.90//7244
-# http://77.235.1.17/kinosemiya/index.m3u8
+http://77.235.1.17/kinosemiya/index.m3u8
+# rtmp://5.182.229.90//7244
 #EXTINF:-1 tvg-id="kinokomedia" group-title="Кино и сериалы" catchup-enable="0",Кинокомедия HD
 rtmp://5.182.229.90//7248
 #EXTINF:-1 tvg-id="kinomiks" group-title="Кино и сериалы" catchup-enable="0",Киномикс HD
-rtmp://5.182.229.90//7249
-# http://77.235.1.17/kinomix/index.m3u8
+http://77.235.1.17/kinomix/index.m3u8
+# rtmp://5.182.229.90//7249
 #EXTINF:-1 tvg-id="kinoseria" group-title="Кино и сериалы" catchup-enable="0",Киносерия HD
 http://77.235.1.17/kinoseria/index.m3u8
 # #EXTINF:-1 tvg-id="kino-tv" group-title="Кино и сериалы" catchup-enable="0",Кино ТВ HD
 #EXTINF:-1 tvg-id="kinouzhas" group-title="Кино и сериалы" catchup-enable="0",Киноужас HD
 http://77.235.1.17/kinoujas/index.m3u8
 #EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы" catchup-enable="0",Кинохит HD
-rtmp://5.182.229.90//7250
-# http://77.235.1.17/kinohit/index.m3u8
+http://77.235.1.17/kinohit/index.m3u8
+# rtmp://5.182.229.90//7250
 #EXTINF:-1 tvg-id="komedijnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Комедийное HD
 http://135.181.115.81:8000/play/a00j/index.m3u8?token=livetv
 #EXTINF:-1 tvg-id="russkaya-komedia" group-title="Кино и сериалы" catchup-enable="0",Комедия
