@@ -919,12 +919,10 @@ http://sc.id-tv.kz/FOX_HD_34_35.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Gulli Girl
 http://sc.id-tv.kz/Gulli_34_35.m3u8
 # #EXTINF:-1 tvg-id="hd-life" group-title="Познавательные" catchup-enable="0",HD Life
-#EXTINF:-1 tvg-id="history-ru" group-title="Познавательные" catchup-enable="0",History HD
-http://195.211.27.149:8887/8356/index.m3u8?token=test
+# #EXTINF:-1 tvg-id="history-ru" group-title="Познавательные" catchup-enable="0",History HD
 # #EXTINF:-1 tvg-id="h2" group-title="Познавательные" catchup-enable="0",History2 HD
-# http://ott.watch/stream/2T3UVZJLMZ/65.m3u8
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Hollywood
-# http://91.218.160.212:8015/play/a017/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Hollywood HD
+http://91.194.191.241:8081/chid421/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="id-xtra-eu" group-title="Познавательные" catchup-enable="0",Investigation Discovery HD
 http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/discoveryxtra.m3u8
@@ -956,7 +954,7 @@ http://hls.seversk.ru:8080/play/a00t/index.m3u8
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://logodix.com/logo/1348508.png" group-title="Спортивные" catchup-enable="0",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 #EXTINF:-1 tvg-id="rtg-hd" group-title="Познавательные" catchup-enable="0",RTG HD
-http://strm.yandex.ru/kal/rtg/rtg0.m3u8
+http://77.235.1.17/rtg_hd/index.m3u8
 #EXTINF:-1 tvg-id="ru-tv" group-title="Музыкальные" catchup-enable="0",RU.TV HD
 https://strm.yandex.ru/kal/rutv_cv/rutv_cv0.m3u8
 # https://hls-03-video.webcaramba.com/rutv/live_720/index.m3u8
@@ -970,19 +968,21 @@ http://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Cinema HD
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Family HD
 #EXTINF:-1 tvg-id="start-air" group-title="Кино и сериалы" catchup-enable="0",START Air HD
-https://livetv.mylifeisgood.net.ru/channels/96d9a62bc619079db307c8fd067a1ab9.m3u8
+http://77.235.1.17/start_air/index.m3u8
 #EXTINF:-1 tvg-id="start-world" group-title="Кино и сериалы" catchup-enable="0",START World HD
-https://livetv.mylifeisgood.net.ru/channels/ccf149ef976cb08ffb31e2047772386a.m3u8
+http://77.235.1.17/start_world/index.m3u8
 #EXTINF:-1 tvg-id="terra-ru" group-title="Познавательные" catchup-enable="0",Terra HD
 https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
 #EXTINF:-1 tvg-id="tiji" group-title="Детские" catchup-enable="0",TiJi
 http://sc.id-tv.kz/TiJi_34_35.m3u8
 # #EXTINF:-1 tvg-id="travel-channel" group-title="Познавательные" catchup-enable="0",Travel Channel HD
-# #EXTINF:-1 tvg-id="viasat-explore" group-title="Познавательные" catchup-enable="0",Viju Explore
-# #EXTINF:-1 tvg-id="viasat-history" group-title="Познавательные" catchup-enable="0",Viju History
-# #EXTINF:-1 tvg-id="viasat-nature" group-title="Познавательные" catchup-enable="0",Viju Nature
-#EXTINF:-1 tvg-id="viasat-nature-history-hd" group-title="Познавательные" catchup-enable="0",Viju+ Planet HD
-http://31.131.136.4:8001/play/e006
+#EXTINF:-1 tvg-id="viasat-explore" group-title="Познавательные" catchup-enable="0",Viju Explore
+http://77.235.1.17/viasat_explorer/index.m3u8
+#EXTINF:-1 tvg-id="viasat-history" group-title="Познавательные" catchup-enable="0",Viju History
+http://77.235.1.17/viasat_history/index.m3u8
+#EXTINF:-1 tvg-id="viasat-nature" group-title="Познавательные" catchup-enable="0",Viju Nature
+http://77.235.1.17/viasat_nature/index.m3u8
+# #EXTINF:-1 tvg-id="viasat-nature-history-hd" group-title="Познавательные" catchup-enable="0",Viju+ Planet HD
 #EXTINF:-1 tvg-id="tv1000" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000
 http://77.235.1.17/tv1000/index.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/viju-tv1000.m3u8
@@ -1011,8 +1011,9 @@ https://livetv.mylifeisgood.net.ru/channels/viju-premiere.m3u8
 # #EXTINF:-1 tvg-id="bobior" group-title="Детские" catchup-enable="0",Бобёр
 # #EXTINF:-1 tvg-id="v-mire-zhivotnyx-hd" group-title="Познавательные" catchup-enable="0",В мире животных HD
 # #EXTINF:-1 tvg-id="voprosy-i-otvety" group-title="Познавательные" catchup-enable="0",Вопросы и ответы
-#EXTINF:-1 tvg-id="glazami-turista" group-title="Познавательные" catchup-enable="0",Глазами туриста HD
-https://livetv.mylifeisgood.net.ru/channels/glazamiturista.m3u8
+#EXTINF:-1 tvg-id="glazami-turista" group-title="Познавательные" catchup-enable="0",Глазами туриста 4K
+http://77.235.1.17/glazami_turista_4k/index.m3u8
+# https://livetv.mylifeisgood.net.ru/channels/glazamiturista.m3u8
 # #EXTINF:-1 tvg-id="dikaya-oxota-hd" group-title="Хобби и увлечения" catchup-enable="0",Дикая Охота HD
 # http://91.218.160.212:8015/play/a04m/index.m3u8
 # #EXTINF:-1 tvg-id="dikaya-rybalka-hd" group-title="Хобби и увлечения" catchup-enable="0",Дикая Рыбалка HD
@@ -1168,10 +1169,11 @@ http://stream01.vnet.am/Evrika/mono.m3u8
 http://rtmp.one.by:1300
 #EXTINF:-1 tvg-id="onemuz" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5364.png" catchup-enable="0",Первый музыкальный RU
 http://rtmp.one.by:2300
-# #EXTINF:-1 tvg-id="pobeda" group-title="Кино и сериалы" catchup-enable="0",Победа
-# http://sc.id-tv.kz/Pobeda_34_35.m3u8
-#EXTINF:-1 tvg-id="poexali" group-title="Познавательные" catchup-enable="0",Поехали!
-http://sc.id-tv.kz/poehali_34_35.m3u8
+#EXTINF:-1 tvg-id="pobeda" group-title="Кино и сериалы" catchup-enable="0",Победа
+#EXTVLCOPT:http-referrer=https://pobeda.tv/
+https://pkvc-hls3.cdnvideo.ru/Pobeda/smil:Pobeda.smil/chunklist_b5128000_slru.m3u8
+# #EXTINF:-1 tvg-id="poexali" group-title="Познавательные" catchup-enable="0",Поехали!
+# http://sc.id-tv.kz/poehali_34_35.m3u8
 # #EXTINF:-1 tvg-id="prikluchenia-hd" group-title="Познавательные" catchup-enable="0",Приключения HD
 # #EXTINF:-1 tvg-id="pro-lyubov" group-title="Кино и сериалы" catchup-enable="0",Про Любовь
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Продвижение
