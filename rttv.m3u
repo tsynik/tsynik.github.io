@@ -941,7 +941,6 @@ http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
 # #EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL
 #EXTINF:-1 group-title="Спортивные" tvg-id="kxl-hd" catchup-enable="0",KHL Prime HD
 http://194.143.148.28:8080/KHL_HD/mpegts
-# http://178.124.179.122:8088/KHL_HD/index.m3u8
 # http://sc.id-tv.kz/FHD_KHL_34_35.m3u8
 #EXTINF:-1 tvg-id="mezzo" group-title="Музыкальные" catchup-enable="0",Mezzo
 http://178.212.71.253:8002/play/a00n/index.m3u8
@@ -1057,8 +1056,7 @@ http://91.218.160.212:8015/play/a04r/index.m3u8
 # #EXTINF:-1 tvg-id="zagorodnaya-zhizn" group-title="Хобби и увлечения" catchup-enable="0",Загородная жизнь
 #EXTINF:-1 tvg-id="zagorodny" group-title="Хобби и увлечения" catchup-enable="0",Загородный
 http://stream01.vnet.am/DTX/mono.m3u8
-#EXTINF:-1 tvg-id="zdorovoe-tv" group-title="Хобби и увлечения" catchup-enable="0",Здоровое ТВ
-http://178.124.179.122:8088/ZdorovoeTV/index.m3u8
+# #EXTINF:-1 tvg-id="zdorovoe-tv" group-title="Хобби и увлечения" catchup-enable="0",Здоровое ТВ
 #EXTINF:-1 group-title="Новости" catchup-enable="0",Известия HD
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/iz.m3u8
@@ -1115,13 +1113,15 @@ http://146.158.0.56:80/Lya-Minor/index.m3u8
 http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
 #EXTINF:-1 tvg-id="match-tv" group-title="Спортивные" catchup-enable="0",Матч! HD
 http://77.235.1.17/match/index.m3u8
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Арена HD
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Арена
 http://77.235.1.17/match_arena/index.m3u8
 # http://194.143.148.28:8080/MatchArena/mpegts
-# #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Боец HD
-# #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Игра
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Боец
+http://91.224.169.250:5000/c31
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Игра
+http://91.224.169.250:5000/c32
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Планета
-#EXTINF:-1 tvg-id="match-premier" group-title="Спортивные" catchup-enable="0",Матч! Премьер HD
+#EXTINF:-1 tvg-id="match-premier" group-title="Спортивные" catchup-enable="0",Матч! Премьер
 http://77.235.1.17/match_premier/index.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна
 http://91.224.169.250:5000/c33
@@ -1207,8 +1207,8 @@ http://77.235.1.17/romantichnoe_hd/index.m3u8
 # http://91.142.158.107:8092/play/26/index.m3u8
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский детектив
 # http://91.142.158.107:8092/play/27/index.m3u8
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский иллюзион
-# http://45.93.46.27:8887/8132/video.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский иллюзион
+http://91.224.169.250:5000/c48
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский роман
 # http://91.142.158.107:8092/play/25/index.m3u8
 # #EXTINF:-1 tvg-id="oxotnik-i-rybolov" group-title="Хобби и увлечения" catchup-enable="0",Рыболов
