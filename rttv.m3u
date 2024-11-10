@@ -985,7 +985,6 @@ rtmp://5.182.229.90//7320
 # #EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr.
 #EXTINF:-1 tvg-id="nickelodeon-ru" group-title="Детские" catchup-enable="0",Nickelodeon
 http://77.235.1.17/nickelodeon/index.m3u8
-# http://135.181.115.81:8000/play/a009/index.m3u8?token=livetv
 # #EXTINF:-1 tvg-id="plan-b" group-title="Кино и сериалы" catchup-enable="0",Plan B
 # #EXTINF:-1 tvg-id="q-sport-ext" group-title="Спортивные" catchup-enable="0",Q League HD
 # #EXTINF:-1 tvg-id="qsport-kz" group-title="Спортивные" catchup-enable="0",Q Sport HD
@@ -1132,8 +1131,7 @@ http://77.235.1.17/kinoujas/index.m3u8
 #EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы" catchup-enable="0",Кинохит HD
 http://77.235.1.17/kinohit/index.m3u8
 # rtmp://5.182.229.90//7250
-#EXTINF:-1 tvg-id="komedijnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Комедийное HD
-http://135.181.115.81:8000/play/a00j/index.m3u8?token=livetv
+# #EXTINF:-1 tvg-id="komedijnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Комедийное HD
 #EXTINF:-1 tvg-id="russkaya-komedia" group-title="Кино и сериалы" catchup-enable="0",Комедия
 http://95.142.88.250:80/komediya/index.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Конный мир
@@ -1295,7 +1293,8 @@ https://livetv.mylifeisgood.net.ru/channels/startlive.m3u8
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="strashnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Страшное HD
 rtmp://5.182.229.90//7250
-# #EXTINF:-1 group-title="Детские" catchup-enable="0",СТС Kids HD
+#EXTINF:-1 group-title="Детские" catchup-enable="0",СТС Kids HD
+http://91.224.169.250:5000/c157
 # #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",ТВ 21
 # #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Театр
 #EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="0",Телеканал Футбол
