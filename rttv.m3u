@@ -951,8 +951,8 @@ http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
 # #EXTINF:-1 tvg-id="jimjam" group-title="Детские" catchup-enable="0",JimJam
 # #EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL
 #EXTINF:-1 group-title="Спортивные" tvg-id="kxl-hd" catchup-enable="0",KHL Prime HD
-http://194.143.148.28:8080/KHL_HD/mpegts
-# rtmp://92.119.88.58//2403
+rtmp://92.119.88.58//2403
+# http://194.143.148.28:8080/KHL_HD/mpegts
 # http://sc.id-tv.kz/FHD_KHL_34_35.m3u8
 #EXTINF:-1 tvg-id="mezzo" group-title="Музыкальные" catchup-enable="0",Mezzo
 http://178.212.71.253:8002/play/a00n/index.m3u8
@@ -1141,8 +1141,8 @@ http://77.235.1.17/match_premier/index.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна
 http://91.224.169.250:5000/c33
 #EXTINF:-1 tvg-id="match-football1" group-title="Спортивные" catchup-enable="0",Матч! Футбол 1 HD
-http://194.143.148.28:8080/MatchFutbol1/mpegts
-# rtmp://92.119.88.58//2407
+rtmp://92.119.88.58//2407
+# http://194.143.148.28:8080/MatchFutbol1/mpegts
 # #EXTINF:-1 tvg-id="match-football2" group-title="Спортивные" catchup-enable="0",Матч! Футбол 2 HD
 #EXTINF:-1 tvg-id="match-football3" group-title="Спортивные" catchup-enable="0",Матч! Футбол 3 HD
 rtmp://92.119.88.58//2408
