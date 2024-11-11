@@ -905,7 +905,7 @@ http://185.23.80.28:8080/BRIDGE_FRESH/index.m3u8?token=test
 http://185.23.80.28:8080/BRIDGETVDANCE/index.m3u8?token=test
 # https://livetv.mylifeisgood.net.ru/channels/bridgehitstv.m3u8
 # https://strm.yandex.ru/kal/bridgetvhits/bridgetvhits0.m3u8
-# #EXTINF:-1 tvg-id="bridge-tv-rock" group-title="Музыкальные" catchup-enable="0",Bridge TV Rock HD
+# #EXTINF:-1 tvg-id="bridge-tv-rock" group-title="Музыкальные" catchup-enable="0",Bridge TV Rock
 # https://strm.yandex.ru/kal/bridge_tv_fresh/bridge_tv_fresh0.m3u8
 #EXTINF:-1 tvg-id="cartoon-network" group-title="Детские" catchup-enable="0",Cartoon Network
 http://65.21.85.175:8000/play/a00i/index.m3u8?token=livetv
@@ -918,7 +918,8 @@ http://77.235.1.17/cinema/index.m3u8
 http://77.235.1.17/da_vinci/index.m3u8
 # http://sc.id-tv.kz/DaVinci_34_35.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel HD
-http://45.159.74.14:80/DiscoveryChannel/tracks-v1a2/mono.m3u8
+http://77.235.1.17/discovery_channel/index.m3u8
+# http://45.159.74.14:80/DiscoveryChannel/tracks-v1a2/mono.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/discovery.m3u8
 # #EXTINF:-1 tvg-id="deutsche-welle-eu" group-title="Новости" catchup-enable="0",DW Europe
 # #EXTINF:-1 tvg-id="euronews-en" group-title="Новости" catchup-enable="0",EuroNews
