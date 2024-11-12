@@ -881,8 +881,9 @@ http://77.235.1.17/ani/index.m3u8
 #EXTINF:-1 tvg-id="animal-planet" group-title="Познавательные" catchup-enable="0",Animal Planet HD
 http://45.159.74.14:80/AnimalPlanet/tracks-v1a2/mono.m3u8
 # #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Big Planet HD
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood
-http://77.235.1.17/bollywood_hd/index.m3u8
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood HD
+http://91.224.169.250:5000/c155
+# http://77.235.1.17/bollywood_hd/index.m3u8
 # http://sc.id-tv.kz/bollywood_hd_34_35.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" group-title="Музыкальные" catchup-enable="0",Bridge TV Русский хит
 http://185.23.80.28:8080/BRIDGETVRusskijXit/index.m3u8?token=test
@@ -970,8 +971,8 @@ http://178.212.71.253:8002/play/a00n/index.m3u8
 # #EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные" catchup-enable="0",Nat Geo Wild HD
 #EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные" catchup-enable="0",National Geographic HD
 rtmp://5.182.229.90//7320
-#EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr.
-http://95.142.88.250:80/Nick_Jr./index.m3u8
+# #EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr.
+# http://95.142.88.250:80/Nick_Jr./index.m3u8
 #EXTINF:-1 tvg-id="nickelodeon-ru" group-title="Детские" catchup-enable="0",Nickelodeon
 http://77.235.1.17/nickelodeon/index.m3u8
 #EXTINF:-1 tvg-id="plan-b" group-title="Кино и сериалы" catchup-enable="0",Plan B HD
@@ -1049,7 +1050,7 @@ http://77.235.1.17/zoopark/index.m3u8
 #EXTINF:-1 tvg-id="avto24" group-title="Хобби и увлечения" catchup-enable="0",Авто 24
 http://77.235.1.17/avto24/index.m3u8
 # #EXTINF:-1 tvg-id="avto-plus" group-title="Хобби и увлечения" catchup-enable="0",Авто Плюс HD
-#EXTINF:-1 tvg-id="blokbaster-hd" group-title="Кино и сериалы" catchup-enable="0",Блокбастер
+#EXTINF:-1 tvg-id="blokbaster-hd" group-title="Кино и сериалы" catchup-enable="0",Блокбастер HD
 http://185.23.80.28:8080/Blockbaster/index.m3u8?token=test
 #EXTINF:-1 tvg-id="bobior" group-title="Детские" catchup-enable="0",Бобёр
 http://77.235.1.17/bober/index.m3u8
@@ -1137,7 +1138,7 @@ http://77.235.1.17/kinohit/index.m3u8
 # rtmp://5.182.229.90//7250
 # #EXTINF:-1 tvg-id="komedijnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Комедийное HD
 #EXTINF:-1 tvg-id="russkaya-komedia" group-title="Кино и сериалы" catchup-enable="0",Комедия
-http://95.142.88.250:80/komediya/index.m3u8
+http://91.224.169.250:5000/c11
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Конный мир
 http://77.235.1.17/konniy_mir/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Кухня ТВ
@@ -1145,7 +1146,7 @@ http://77.235.1.17/kuhnya/index.m3u8
 # #EXTINF:-1 tvg-id="liova" group-title="Детские" catchup-enable="0",Лёва HD
 # https://strm.yandex.ru/kal/leva/leva0.m3u8
 #EXTINF:-1 tvg-id="lubimoe-kino" group-title="Кино и сериалы" catchup-enable="0",Любимое кино
-http://95.142.88.250:80/lubimoe_kino/index.m3u8
+http://91.194.191.241:8081/chid73/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="la-minor" group-title="Музыкальные" catchup-enable="0",Ля-минор
 http://77.235.1.17/la-minor/index.m3u8
 #EXTINF:-1 tvg-id="mama" group-title="Детские" catchup-enable="0",Мама
@@ -1189,6 +1190,7 @@ rtmp://5.182.229.90//7347
 http://91.224.169.250:5000/c1
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино
 http://65.21.85.175:8000/play/a01o/index.m3u8?token=livetv
+# http://91.194.191.241:8081/chid462/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Мужской
 http://91.194.191.241:8081/chid120/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Музыка Первого
@@ -1324,7 +1326,7 @@ http://91.224.169.250:5000/c43
 http://185.23.80.28:8080/Unikum/index.m3u8?token=test
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Усадьба
 http://77.235.1.17/usadba/index.m3u8
-#EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс+ Кино
+#EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс+ Кино HD
 http://88.218.242.237:8000/play/a007
 # #EXTINF:-1 tvg-id="shanson-tv" group-title="Музыкальные" catchup-enable="0",Шансон-ТВ
 ###############################################################################
