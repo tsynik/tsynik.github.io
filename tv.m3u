@@ -101,6 +101,8 @@ http://185.23.80.28:8080/NashaSibir/index.m3u8?token=test
 # #EXTVLCOPT:http-user-agent=Mozilla/5.0
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/video_3840x2160_avc1/variant.m3u8
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Неизвестная Россия HD
+https://cdn.ntv.ru/unknown_russia/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="ntv" group-title="HD и UHD" catchup-enable="0",НТВ HD
 https://cdn.ntv.ru/ntv-msk_hd/tracks-v1a1/playlist.m3u8
 # http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8
@@ -1217,8 +1219,6 @@ http://91.224.169.250:5000/c29
 #EXTINF:-1 tvg-id="nst" group-title="Кино и сериалы" catchup-enable="0",НСТ
 http://sc.id-tv.kz/NSTV.m3u8
 # http://77.235.1.17/nst/index.m3u8
-#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Неизвестная Россия
-https://cdn.ntv.ru/unknown_russia/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="ntv-pravo" group-title="Развлекательные" catchup-enable="0",НТВ Право
 https://cdn.ntv.ru/th_pravo/tracks-v1a1/playlist.m3u8
 # http://65.21.85.175:8000/play/a01e/index.m3u8?token=livetv
@@ -1311,7 +1311,6 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="strashnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Страшное HD
 rtmp://5.182.229.90//7250
 #EXTINF:-1 group-title="Детские" catchup-enable="0",СТС Kids HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://91.224.169.250:5000/c157
 #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",ТВ 21
 http://91.194.191.241:8081/chid265/tracks-v1a1/mono.m3u8
