@@ -102,10 +102,8 @@ http://185.23.80.28:8080/NashaSibir/index.m3u8?token=test
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/video_3840x2160_avc1/variant.m3u8
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/variant.m3u8
 #EXTINF:-1 tvg-id="ntv" group-title="HD и UHD" catchup-enable="0",НТВ HD
-http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8
-# https://cdn.ntv.ru/ntv-msk_hd/tracks-v1a1/playlist.m3u8
-# #EXTINF:-1 tvg-id="ntv-style" group-title="HD и UHD" catchup-enable="0",НТВ Стиль HD
-# https://strm.yandex.ru/kal/ntv_stil/ntv_stil0.m3u8
+https://cdn.ntv.ru/ntv-msk_hd/tracks-v1a1/playlist.m3u8
+# http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Первый канал HD
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 # https://edge4.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
@@ -866,7 +864,7 @@ https://livetv.mylifeisgood.net.ru/channels/1hdmusic.m3u8
 #EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы" catchup-enable="0",A1
 http://77.235.1.17/amedia1/index.m3u8
 # http://sc.id-tv.kz/A1.m3u8
-#EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы" catchup-enable="0",A2
+#EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы" catchup-enable="0",A2 HD
 http://77.235.1.17/amedia2/index.m3u8
 # http://sc.id-tv.kz/A2_36_37.m3u8
 #EXTINF:-1 tvg-id="amedia-hit" group-title="Кино и сериалы" catchup-enable="0",Amedia Hit HD
@@ -1202,8 +1200,8 @@ http://185.23.80.28:8080/Multimuzyka/index.m3u8?token=test
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Мультиландия
 http://185.23.80.28:8080/Multilandiya/index.m3u8?token=test
 # https://strm.yandex.ru/kal/multilandia/multilandia0.m3u8
-#EXTINF:-1 tvg-id="nano-tv" group-title="Познавательные" catchup-enable="0",Нано ТВ
-http://s1.tv-nano.com/Nano_rec/video.m3u8
+# #EXTINF:-1 tvg-id="nano-tv" group-title="Познавательные" catchup-enable="0",Нано ТВ
+# http://s1.tv-nano.com/Nano_rec/video.m3u8
 #EXTINF:-1 tvg-id="nano-tv" group-title="Познавательные" catchup-enable="0",Нано ТВ HD
 http://185.23.80.28:8080/NANO_HD/index.m3u8?token=test
 #EXTINF:-1 tvg-id="nauka-20" group-title="Познавательные" catchup-enable="0",Наука 2.0
@@ -1219,15 +1217,23 @@ http://91.224.169.250:5000/c29
 #EXTINF:-1 tvg-id="nst" group-title="Кино и сериалы" catchup-enable="0",НСТ
 http://sc.id-tv.kz/NSTV.m3u8
 # http://77.235.1.17/nst/index.m3u8
+#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Неизвестная Россия
+https://cdn.ntv.ru/unknown_russia/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="ntv-pravo" group-title="Развлекательные" catchup-enable="0",НТВ Право
-http://65.21.85.175:8000/play/a01e/index.m3u8?token=livetv
+https://cdn.ntv.ru/th_pravo/tracks-v1a1/playlist.m3u8
+# http://65.21.85.175:8000/play/a01e/index.m3u8?token=livetv
 # http://185.23.80.28:8080/NTVPravo/index.m3u8?token=test
 # https://strm.yandex.ru/kal/ntv_pravo_new/ntv_pravo_new0.m3u8
 #EXTINF:-1 tvg-id="ntv-serial" group-title="Кино и сериалы" catchup-enable="0",НТВ Сериал
-http://77.235.1.17/ntv_serial/index.m3u8
+https://cdn.ntv.ru/th_serial/tracks-v1a1/playlist.m3u8
+# http://77.235.1.17/ntv_serial/index.m3u8
 # https://strm.yandex.ru/kal/ntv_serial_new/ntv_serial_new0.m3u8
+#EXTINF:-1 tvg-id="ntv-style" group-title="Хобби и увлечения" catchup-enable="0",НТВ Стиль
+https://cdn.ntv.ru/th_style/tracks-v1a1/playlist.m3u8
+# https://strm.yandex.ru/kal/ntv_stil/ntv_stil0.m3u8
 #EXTINF:-1 tvg-id="ntv-xit" group-title="Кино и сериалы" catchup-enable="0",НТВ Хит
-http://77.235.1.17/ntv_hit/index.m3u8
+https://cdn.ntv.ru/th_hit/tracks-v1a1/playlist.m3u8
+# http://77.235.1.17/ntv_hit/index.m3u8
 # https://strm.yandex.ru/kal/ntv_hit/ntv_hit0.m3u8
 #EXTINF:-1 tvg-id="o_" tvg-name="О!" group-title="Детские" catchup-enable="0",О!
 http://185.23.80.28:8080/O/index.m3u8?token=test
@@ -1305,6 +1311,7 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="strashnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Страшное HD
 rtmp://5.182.229.90//7250
 #EXTINF:-1 group-title="Детские" catchup-enable="0",СТС Kids HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://91.224.169.250:5000/c157
 #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",ТВ 21
 http://91.194.191.241:8081/chid265/tracks-v1a1/mono.m3u8
