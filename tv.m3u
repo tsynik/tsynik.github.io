@@ -87,7 +87,6 @@ http://77.235.1.17/tlc/index.m3u8
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA/variant.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Домашний HD
 https://livetv.mylifeisgood.net.ru/channels/domashnii
-# http://player.smotrim.ru/iframe/stream/live_id/64556
 # #EXTINF:-1 tvg-id="eda-hd-int" group-title="HD и UHD" catchup-enable="0",Еда Премиум HD
 #EXTINF:-1 tvg-id="zvezda" group-title="HD и UHD" catchup-enable="0",Звезда HD
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
@@ -111,13 +110,13 @@ https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 # https://edge4.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Пятница HD
 https://livetv.mylifeisgood.net.ru/channels/friday.m3u8
-#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",РЕН ТВ HD
-https://livetv.mylifeisgood.net.ru/channels/rentv.m3u8
+# #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",РЕН ТВ HD
+# https://livetv.mylifeisgood.net.ru/channels/rentv.m3u8
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="1" catchup="append" catchup-days="7" catchup-source="&offset=${offset}",РЕН ТВ HD
+http://api.peers.tv/timeshift/ren_tv_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3MzE3MDA2MzgsImlhdCI6MTczMTYxNDIzOCwiY2lkIjo2LCJ1aWQiOjg1Njc0NTU2NSwicmVnIjpmYWxzZSwiaXAiOjE3NDY3MTk4ODUsImFkdWx0IjpmYWxzZX0.cG134gGq-YS9aL1Ep-KEfYWIMp9o-kDbmjoLSkBVXfM&offset=10
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Россия 1 HD
 https://livetv.mylifeisgood.net.ru/channels/russia1.m3u8
-# https://player.smotrim.ru/iframe/stream/live_id/2961
 # #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Россия К HD
-# https://player.smotrim.ru/iframe/stream/live_id/19201
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",СТС HD
 https://livetv.mylifeisgood.net.ru/channels/sts.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Суббота! HD
@@ -211,9 +210,9 @@ http://rt-sth-cherks-htlive.cdn.ngenix.net/hls/CH_R03_OTT_STH_CHERKS_ARKHIZ241/v
 #EXTINF:-1 group-title="Региональные" catchup-enable="1",Астрахань 24 HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://rt-sth-astrh-htlive.cdn.ngenix.net/hls/CH_R01_ASTRAKHAN24/variant.m3u8
-#EXTINF:-1 tvg-id="afontovo-kr" group-title="Региональные" catchup-enable="1",Афонтово HD (Красноярск)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KRSK_AFONTOVO/variant.m3u8
+# #EXTINF:-1 tvg-id="afontovo-kr" group-title="Региональные" catchup-enable="1",Афонтово HD (Красноярск)
+# #EXTVLCOPT:http-user-agent=Mozilla/5.0
+# http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KRSK_AFONTOVO/variant.m3u8
 #EXTINF:-1 tvg-id="bst" group-title="Региональные" catchup-enable="1",БСТ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_BST/variant.m3u8
@@ -1182,7 +1181,6 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 https://livetv.mylifeisgood.net.ru/channels/moscow24.m3u8
 #EXTINF:-1 group-title="Новости" catchup-enable="0",Москва. Доверие
 https://livetv.mylifeisgood.net.ru/channels/moscvadoverie.m3u8
-# https://player.smotrim.ru/iframe/stream/live_id/61125
 #EXTINF:-1 group-title="Кино и сериалы" tvg-id="mosfilm" catchup-enable="0",Мосфильм. Золотая коллекция HD
 rtmp://5.182.229.90//7347
 # #EXTINF:-1 tvg-id="motorsportv-tv" group-title="Спортивные" catchup-enable="0",Моторспорт ТВ
@@ -1298,10 +1296,9 @@ https://livetv.mylifeisgood.net.ru/channels/saphire.m3u8
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/smile.m3u8
 #EXTINF:-1 tvg-id="solovjinypomiot" group-title="Новости" catchup-enable="0",Соловьев LIVE HD
-https://player.smotrim.ru/iframe/stream/live_id/63338
 # http://92.53.64.197:5050/Solovyov_live/video.m3u8?token=m3VIth-Rou_bM1
-#EXTINF:-1 tvg-id="start" group-title="Спортивные" catchup-enable="0",Старт HD
-https://livetv.mylifeisgood.net.ru/channels/startlive.m3u8
+# #EXTINF:-1 tvg-id="start" group-title="Спортивные" catchup-enable="0",Старт HD
+# https://livetv.mylifeisgood.net.ru/channels/startlive.m3u8
 # http://strm.yandex.ru/kal/start/start0.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Старт Триумф HD
 http://88.218.242.237:8000/play/a00d
@@ -1322,11 +1319,11 @@ http://185.23.80.28:8080/Football/index.m3u8?token=test
 http://77.235.1.17/telekafe/index.m3u8
 #EXTINF:-1 tvg-id="teleputeshestvia" group-title="Познавательные" catchup-enable="0",Телепутешествия
 http://185.23.80.28:8080/Teleputeshestviya/index.m3u8?token=test
-#EXTINF:-1 tvg-id="texno-24" group-title="Познавательные" catchup-enable="0",Техно 24
-http://185.23.80.28:8080/T24/index.m3u8?token=test
+# #EXTINF:-1 tvg-id="texno-24" group-title="Познавательные" catchup-enable="0",Техно 24
+# http://185.23.80.28:8080/T24/index.m3u8?token=test
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",ТНТ Music HD
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
-#EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Точка отрыва
+#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Точка отрыва
 http://91.224.169.250:5000/c43
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Уникум
 http://185.23.80.28:8080/Unikum/index.m3u8?token=test
