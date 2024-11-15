@@ -1034,6 +1034,8 @@ http://45.143.108.104/TV1000RU_HD/index.m3u8
 #EXTINF:-1 tvg-id="viasat-sport" group-title="Спортивные" catchup-enable="0",Viju+ Sport
 http://80.245.93.242:9030/play/a021/index.m3u8
 # http://91.194.191.241:8081/chid51/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="viasat-sport" group-title="Спортивные" catchup-enable="1" catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Viju+ Sport HD
+http://api.peers.tv/timeshift/viasat_sport_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3MzE3MDA2MzgsImlhdCI6MTczMTYxNDIzOCwiY2lkIjo2LCJ1aWQiOjg1Njc0NTU2NSwicmVnIjpmYWxzZSwiaXAiOjE3NDY3MTk4ODUsImFkdWx0IjpmYWxzZX0.cG134gGq-YS9aL1Ep-KEfYWIMp9o-kDbmjoLSkBVXfM&offset=10
 #EXTINF:-1 tvg-id="vip-comedy" group-title="Кино и сериалы" catchup-enable="0",Viju+ Comedy HD
 https://livetv.mylifeisgood.net.ru/channels/viju-comedy.m3u8
 # http://77.235.1.17/vip_comedy/index.m3u8
@@ -1048,7 +1050,8 @@ https://livetv.mylifeisgood.net.ru/channels/viju-premiere.m3u8
 http://77.235.1.17/zoopark/index.m3u8
 #EXTINF:-1 tvg-id="avto24" group-title="Хобби и увлечения" catchup-enable="0",Авто 24
 http://77.235.1.17/avto24/index.m3u8
-# #EXTINF:-1 tvg-id="avto-plus" group-title="Хобби и увлечения" catchup-enable="0",Авто Плюс HD
+#EXTINF:-1 tvg-id="avto-plus" group-title="Хобби и увлечения" catchup-enable="1" catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Авто Плюс
+http://api.peers.tv/timeshift/auto_plus/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3MzE3MDA2MzgsImlhdCI6MTczMTYxNDIzOCwiY2lkIjo2LCJ1aWQiOjg1Njc0NTU2NSwicmVnIjpmYWxzZSwiaXAiOjE3NDY3MTk4ODUsImFkdWx0IjpmYWxzZX0.cG134gGq-YS9aL1Ep-KEfYWIMp9o-kDbmjoLSkBVXfM&offset=10
 #EXTINF:-1 tvg-id="blokbaster-hd" group-title="Кино и сериалы" catchup-enable="0",Блокбастер HD
 http://185.23.80.28:8080/Blockbaster/index.m3u8?token=test
 #EXTINF:-1 tvg-id="bobior" group-title="Детские" catchup-enable="0",Бобёр
@@ -1142,8 +1145,8 @@ http://91.224.169.250:5000/c11
 http://77.235.1.17/konniy_mir/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Кухня ТВ
 http://77.235.1.17/kuhnya/index.m3u8
-# #EXTINF:-1 tvg-id="liova" group-title="Детские" catchup-enable="0",Лёва HD
-# https://strm.yandex.ru/kal/leva/leva0.m3u8
+#EXTINF:-1 tvg-id="liova" group-title="Детские" catchup-enable="1" catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Лёва
+http://api.peers.tv/timeshift/lyova/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3MzE3MDA2MzgsImlhdCI6MTczMTYxNDIzOCwiY2lkIjo2LCJ1aWQiOjg1Njc0NTU2NSwicmVnIjpmYWxzZSwiaXAiOjE3NDY3MTk4ODUsImFkdWx0IjpmYWxzZX0.cG134gGq-YS9aL1Ep-KEfYWIMp9o-kDbmjoLSkBVXfM&offset=10
 #EXTINF:-1 tvg-id="lubimoe-kino" group-title="Кино и сериалы" catchup-enable="0",Любимое кино
 http://91.194.191.241:8081/chid73/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="la-minor" group-title="Музыкальные" catchup-enable="0",Ля-минор
@@ -1319,8 +1322,10 @@ http://185.23.80.28:8080/Football/index.m3u8?token=test
 http://77.235.1.17/telekafe/index.m3u8
 #EXTINF:-1 tvg-id="teleputeshestvia" group-title="Познавательные" catchup-enable="0",Телепутешествия
 http://185.23.80.28:8080/Teleputeshestviya/index.m3u8?token=test
-# #EXTINF:-1 tvg-id="texno-24" group-title="Познавательные" catchup-enable="0",Техно 24
+# #EXTINF:-1 tvg-id="texno-24" group-title="Познавательные" catchup-enable="0",Т24
 # http://185.23.80.28:8080/T24/index.m3u8?token=test
+#EXTINF:-1 tvg-id="texno-24" group-title="Познавательные" catchup-enable="1" catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Т24
+http://api.peers.tv/timeshift/24techno/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3MzE3MDA2MzgsImlhdCI6MTczMTYxNDIzOCwiY2lkIjo2LCJ1aWQiOjg1Njc0NTU2NSwicmVnIjpmYWxzZSwiaXAiOjE3NDY3MTk4ODUsImFkdWx0IjpmYWxzZX0.cG134gGq-YS9aL1Ep-KEfYWIMp9o-kDbmjoLSkBVXfM&offset=10
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",ТНТ Music HD
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Точка отрыва
@@ -1331,5 +1336,6 @@ http://185.23.80.28:8080/Unikum/index.m3u8?token=test
 http://77.235.1.17/usadba/index.m3u8
 #EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс+ Кино HD
 http://88.218.242.237:8000/play/a007
-# #EXTINF:-1 tvg-id="shanson-tv" group-title="Музыкальные" catchup-enable="0",Шансон-ТВ
+#EXTINF:-1 tvg-id="shanson-tv" group-title="Музыкальные" catchup-enable="1" catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Шансон-ТВ
+http://api.peers.tv/timeshift/shanson/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3MzE3MDA2MzgsImlhdCI6MTczMTYxNDIzOCwiY2lkIjo2LCJ1aWQiOjg1Njc0NTU2NSwicmVnIjpmYWxzZSwiaXAiOjE3NDY3MTk4ODUsImFkdWx0IjpmYWxzZX0.cG134gGq-YS9aL1Ep-KEfYWIMp9o-kDbmjoLSkBVXfM&offset=10
 ###############################################################################
