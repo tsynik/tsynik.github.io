@@ -67,7 +67,6 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 #
 #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="HD и UHD" catchup-enable="0",360° HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
-# http://strm.yandex.ru/kal/360tv/360tv0.m3u8
 #EXTINF:-1 tvg-id="fashion-tv-eu" group-title="HD и UHD" catchup-enable="0",Fashion TV UHD
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",HOME 4K
@@ -95,7 +94,6 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 # #EXTINF:-1 tvg-id="muztv" group-title="HD и UHD" catchup-enable="0",Муз-ТВ HD
 #EXTINF:-1 channelId="259" tvg-id="nasha-sibir" group-title="HD и UHD" catchup-enable="0",Наша Сибирь HD
 http://185.23.80.28:8080/NashaSibir/index.m3u8?token=test
-# https://strm.yandex.ru/kal/sibir/sibir0.m3u8 
 # #EXTINF:-1 channelId="259" tvg-id="nasha-sibir-4k" group-title="HD и UHD" catchup-enable="1",Наша Сибирь 4K
 # #EXTVLCOPT:http-user-agent=Mozilla/5.0
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_NASHASIBIR4K/video_3840x2160_avc1/variant.m3u8
@@ -887,26 +885,20 @@ http://91.224.169.250:5000/c155
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" group-title="Музыкальные" catchup-enable="0",Bridge TV Русский хит
 http://185.23.80.28:8080/BRIDGETVRusskijXit/index.m3u8?token=test
 # https://livetv.mylifeisgood.net.ru/channels/bridgerushittv.m3u8
-# https://strm.yandex.ru/kal/bridgetv_russkiyhit/bridgetv_russkiyhit0.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-shlager" group-title="Музыкальные" catchup-enable="0",Bridge TV Шлягер
 http://185.23.80.28:8080/BridgeTVShlyager/index.m3u8?token=test
 # https://livetv.mylifeisgood.net.ru/channels/bridgetvshlyager.m3u8
-# https://strm.yandex.ru/kal/bridgetv_shlyager/bridgetv_shlyager0.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-classic" group-title="Музыкальные" catchup-enable="0",Bridge TV Classic
 http://185.23.80.28:8080/BRIDGETVCLASSIC/index.m3u8?token=test
 # https://livetv.mylifeisgood.net.ru/channels/bridgeclassictv.m3u8
-# https://strm.yandex.ru/kal/bridgetvclassic/bridgetvclassic0.m3u8
 #EXTINF:-1 tvg-id="bridge-hd" group-title="Музыкальные" catchup-enable="0",Bridge TV Deluxe HD
 https://livetv.mylifeisgood.net.ru/channels/bridgedeluxetv.m3u8
-# https://strm.yandex.ru/kal/bridgetvdeluxe/bridgetvdeluxe0.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-fresh" group-title="Музыкальные" catchup-enable="0",Bridge TV Fresh
 http://185.23.80.28:8080/BRIDGE_FRESH/index.m3u8?token=test
 #EXTINF:-1 tvg-id="bridge-tv-dance" group-title="Музыкальные" catchup-enable="0",Bridge TV Hits
 http://185.23.80.28:8080/BRIDGETVDANCE/index.m3u8?token=test
 # https://livetv.mylifeisgood.net.ru/channels/bridgehitstv.m3u8
-# https://strm.yandex.ru/kal/bridgetvhits/bridgetvhits0.m3u8
 # #EXTINF:-1 tvg-id="bridge-tv-rock" group-title="Музыкальные" catchup-enable="0",Bridge TV Rock
-# https://strm.yandex.ru/kal/bridge_tv_fresh/bridge_tv_fresh0.m3u8
 #EXTINF:-1 tvg-id="cartoon-network" group-title="Детские" catchup-enable="0",Cartoon Network
 http://65.21.85.175:8000/play/a00i/index.m3u8?token=livetv
 # #EXTINF:-1 tvg-id="boomerang" group-title="Детские" catchup-enable="0",Cartoonito
@@ -966,7 +958,6 @@ http://178.212.71.253:8002/play/a00n/index.m3u8
 # https://dai.google.com/linear/hls/event/qI1pC-R_Sma0bVLVjaEOtw/master.m3u8
 # #EXTINF:-1 tvg-id="mtv-europe" group-title="Музыкальные" catchup-enable="0",MTV Europe
 # #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
-# http://strm.yandex.ru/kal/musicboxgold/musicboxgold0.m3u8
 # #EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные" catchup-enable="0",Nat Geo Wild HD
 #EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные" catchup-enable="0",National Geographic HD
 rtmp://5.182.229.90//7320
@@ -984,13 +975,11 @@ https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 http://77.235.1.17/rtg_hd/index.m3u8
 #EXTINF:-1 tvg-id="ru-tv" group-title="Музыкальные" catchup-enable="0",RU.TV HD
 https://hls-03-video.webcaramba.com/rutv/live_720/index.m3u8
-# https://strm.yandex.ru/kal/rutv_cv/rutv_cv0.m3u8
 # http://185.23.80.28:8080/RU.TV/index.m3u8?token=test
 #EXTINF:-1 tvg-id="rt-news" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/300px-Russia-today-logo.svg.png" group-title="Новости" catchup-enable="0",Russia Today HD
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="russian-musicbox" group-title="Музыкальные" catchup-enable="0",Russian Music Box HD
 https://livetv.mylifeisgood.net.ru/channels/rusmusicbox.m3u8
-# http://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
 #EXTINF:-1 tvg-id="setanta-sports" group-title="Спортивные" catchup-enable="0",Setanta Sports 1 HD
 rtmp://92.119.88.58//271
 #EXTINF:-1 tvg-id="setanta-sports-plus" group-title="Спортивные" catchup-enable="0",Setanta Sports 2 HD
@@ -1202,7 +1191,6 @@ http://stream01.vnet.am/Mult/mono.m3u8
 http://185.23.80.28:8080/Multimuzyka/index.m3u8?token=test
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Мультиландия
 http://185.23.80.28:8080/Multilandiya/index.m3u8?token=test
-# https://strm.yandex.ru/kal/multilandia/multilandia0.m3u8
 # #EXTINF:-1 tvg-id="nano-tv" group-title="Познавательные" catchup-enable="0",Нано ТВ
 # http://s1.tv-nano.com/Nano_rec/video.m3u8
 #EXTINF:-1 tvg-id="nano-tv" group-title="Познавательные" catchup-enable="0",Нано ТВ HD
@@ -1222,20 +1210,12 @@ http://sc.id-tv.kz/NSTV.m3u8
 # http://77.235.1.17/nst/index.m3u8
 #EXTINF:-1 tvg-id="ntv-pravo" group-title="Развлекательные" catchup-enable="0",НТВ Право
 https://cdn.ntv.ru/th_pravo/tracks-v1a1/playlist.m3u8
-# http://65.21.85.175:8000/play/a01e/index.m3u8?token=livetv
-# http://185.23.80.28:8080/NTVPravo/index.m3u8?token=test
-# https://strm.yandex.ru/kal/ntv_pravo_new/ntv_pravo_new0.m3u8
 #EXTINF:-1 tvg-id="ntv-serial" group-title="Кино и сериалы" catchup-enable="0",НТВ Сериал
 https://cdn.ntv.ru/th_serial/tracks-v1a1/playlist.m3u8
-# http://77.235.1.17/ntv_serial/index.m3u8
-# https://strm.yandex.ru/kal/ntv_serial_new/ntv_serial_new0.m3u8
 #EXTINF:-1 tvg-id="ntv-style" group-title="Хобби и увлечения" catchup-enable="0",НТВ Стиль
 https://cdn.ntv.ru/th_style/tracks-v1a1/playlist.m3u8
-# https://strm.yandex.ru/kal/ntv_stil/ntv_stil0.m3u8
 #EXTINF:-1 tvg-id="ntv-xit" group-title="Кино и сериалы" catchup-enable="0",НТВ Хит
 https://cdn.ntv.ru/th_hit/tracks-v1a1/playlist.m3u8
-# http://77.235.1.17/ntv_hit/index.m3u8
-# https://strm.yandex.ru/kal/ntv_hit/ntv_hit0.m3u8
 #EXTINF:-1 tvg-id="o_" tvg-name="О!" group-title="Детские" catchup-enable="0",О!
 http://185.23.80.28:8080/O/index.m3u8?token=test
 #EXTINF:-1 tvg-id="o2tv" tvg-name="О2ТВ" group-title="Музыкальные" catchup-enable="0",О!2
@@ -1302,10 +1282,8 @@ https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/play
 # http://92.53.64.197:5050/Solovyov_live/video.m3u8?token=m3VIth-Rou_bM1
 # #EXTINF:-1 tvg-id="start" group-title="Спортивные" catchup-enable="0",Старт HD
 # https://livetv.mylifeisgood.net.ru/channels/startlive.m3u8
-# http://strm.yandex.ru/kal/start/start0.m3u8
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Старт Триумф HD
 http://88.218.242.237:8000/play/a00d
-# https://strm.yandex.ru/kal/start_triumf/start_triumf0.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Страна FM HD
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="strashnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Страшное HD
