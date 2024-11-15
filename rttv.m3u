@@ -1275,14 +1275,14 @@ http://185.23.80.28:8080/OxotnikIRybolov/index.m3u8?token=test
 http://185.23.80.28:8080/Ryzhij/index.m3u8?token=test
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Сапфир HD
 https://livetv.mylifeisgood.net.ru/channels/saphire.m3u8
-#EXTINF:-1 group-title="Детские" catchup-enable="0",Смайл ТВ HD
+#EXTINF:-1 tvg-id="smaylik-tv" group-title="Детские" catchup-enable="0",Смайл ТВ HD
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/smile.m3u8
 #EXTINF:-1 tvg-id="solovjinypomiot" group-title="Новости" catchup-enable="0",Соловьев LIVE HD
 # http://92.53.64.197:5050/Solovyov_live/video.m3u8?token=m3VIth-Rou_bM1
 # #EXTINF:-1 tvg-id="start" group-title="Спортивные" catchup-enable="0",Старт HD
 # https://livetv.mylifeisgood.net.ru/channels/startlive.m3u8
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Старт Триумф HD
+#EXTINF:-1 tvg-id="start-triumf" group-title="Спортивные" catchup-enable="0",Старт Триумф HD
 http://88.218.242.237:8000/play/a00d
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Страна FM HD
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
