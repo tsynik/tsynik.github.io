@@ -71,8 +71,6 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 http://95.28.205.161:4022/udp/233.33.220.175:5050
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",FAN HD
 http://95.28.205.161:4022/udp/233.33.210.17:5050
-#EXTINF:-1 tvg-id="fashion-tv-eu" group-title="HD и UHD" catchup-enable="0",Fashion TV HD
-http://95.28.205.161:4022/udp/233.33.221.113:5050
 #EXTINF:-1 tvg-id="fashion-tv-eu" group-title="HD и UHD" catchup-enable="0",Fashion TV UHD
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Food HD
@@ -1010,10 +1008,10 @@ https://livetv.mylifeisgood.net.ru/channels/rusmusicbox.m3u8
 rtmp://92.119.88.58//271
 #EXTINF:-1 tvg-id="setanta-sports-plus" group-title="Спортивные" catchup-enable="0",Setanta Sports 2 HD
 rtmp://92.119.88.58//270
-#EXTINF:-1 group-title="Телемагазины" catchup-enable="0",Shop&Show
-http://95.28.205.161:4022/udp/233.33.221.57:5050
-#EXTINF:-1 group-title="Телемагазины" catchup-enable="0",Shopping Live
-http://95.28.205.161:4022/udp/233.33.221.41:5050
+# #EXTINF:-1 group-title="Телемагазины" catchup-enable="0",Shop&Show
+# http://95.28.205.161:4022/udp/233.33.221.57:5050
+# #EXTINF:-1 group-title="Телемагазины" catchup-enable="0",Shopping Live
+# http://95.28.205.161:4022/udp/233.33.221.41:5050
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Cinema
 http://77.235.1.17/star_cinema/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Family
