@@ -73,8 +73,6 @@ http://95.28.205.161:4022/udp/233.33.220.175:5050
 http://95.28.205.161:4022/udp/233.33.210.17:5050
 #EXTINF:-1 tvg-id="fashion-tv-eu" group-title="HD и UHD" catchup-enable="0",Fashion TV UHD
 https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8
-#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Food HD
-http://95.28.205.161:4022/udp/233.33.220.95:5050
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",HOME 4K
 http://77.235.1.17/home_4k/index.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Luxury HD
@@ -94,7 +92,8 @@ http://77.235.1.17/tlc/index.m3u8
 # http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA/variant.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Домашний HD
 https://livetv.mylifeisgood.net.ru/channels/domashnii
-# #EXTINF:-1 tvg-id="eda-hd-int" group-title="HD и UHD" catchup-enable="0",Еда Премиум HD
+#EXTINF:-1 tvg-id="eda-hd" group-title="HD и UHD" catchup-enable="0",Еда HD
+http://95.28.205.161:4022/udp/233.33.220.95:5050
 #EXTINF:-1 tvg-id="zvezda" group-title="HD и UHD" catchup-enable="0",Звезда HD
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-id="mir" group-title="HD и UHD" catchup-enable="0",Мир HD
@@ -118,8 +117,6 @@ https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 https://livetv.mylifeisgood.net.ru/channels/friday.m3u8
 # #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",РЕН ТВ HD
 # https://livetv.mylifeisgood.net.ru/channels/rentv.m3u8
-# #EXTINF:-1 group-title="HD и UHD" catchup-enable="1" catchup="append" catchup-days="7" catchup-source="&offset=${offset}",РЕН ТВ HD
-# http://api.peers.tv/timeshift/ren_tv_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3MzIwNDYzNDMsImlhdCI6MTczMTk1OTk0MywiY2lkIjo2LCJ1aWQiOjg1ODgyNDAwNSwicmVnIjpmYWxzZSwiaXAiOjE4NDQ0MTI2NzgsImFkdWx0IjpmYWxzZX0.6p7KzywT7xfab4JB8VVxF2hlizQaSLt1IEAR2gVEaSc&offset=10
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Россия 1 HD
 https://livetv.mylifeisgood.net.ru/channels/russia1.m3u8
 # #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Россия К HD
