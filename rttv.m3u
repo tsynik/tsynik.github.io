@@ -1047,8 +1047,6 @@ https://livetv.mylifeisgood.net.ru/channels/50c0316fa37fc4a9866a66f817e6c4383cb2
 http://80.245.93.242:9030/play/a021/index.m3u8
 #EXTINF:-1 tvg-id="viasat-sport" group-title="Спортивные" catchup-enable="0",Viju+ Sport HD
 http://95.28.205.161:4022/udp/233.33.221.31:5050
-# #EXTINF:-1 tvg-id="viasat-sport" group-title="Спортивные" catchup-enable="1" catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Viju+ Sport HD
-# http://api.peers.tv/timeshift/viasat_sport_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3MzIwNDYzNDMsImlhdCI6MTczMTk1OTk0MywiY2lkIjo2LCJ1aWQiOjg1ODgyNDAwNSwicmVnIjpmYWxzZSwiaXAiOjE4NDQ0MTI2NzgsImFkdWx0IjpmYWxzZX0.6p7KzywT7xfab4JB8VVxF2hlizQaSLt1IEAR2gVEaSc&offset=10
 #EXTINF:-1 tvg-id="vip-comedy" group-title="Кино и сериалы" catchup-enable="0",Viju+ Comedy HD
 https://livetv.mylifeisgood.net.ru/channels/viju-comedy.m3u8
 # http://77.235.1.17/vip_comedy/index.m3u8
@@ -1069,8 +1067,7 @@ http://77.235.1.17/zoopark/index.m3u8
 #EXTINF:-1 tvg-id="avto24" group-title="Хобби и увлечения" catchup-enable="0",Авто 24
 http://77.235.1.17/avto24/index.m3u8
 # http://95.28.205.161:4022/udp/233.33.221.29:5050
-# #EXTINF:-1 tvg-id="avto-plus" group-title="Хобби и увлечения" catchup-enable="1" catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Авто Плюс
-# http://api.peers.tv/timeshift/auto_plus/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3MzIwNDYzNDMsImlhdCI6MTczMTk1OTk0MywiY2lkIjo2LCJ1aWQiOjg1ODgyNDAwNSwicmVnIjpmYWxzZSwiaXAiOjE4NDQ0MTI2NzgsImFkdWx0IjpmYWxzZX0.6p7KzywT7xfab4JB8VVxF2hlizQaSLt1IEAR2gVEaSc&offset=10
+# #EXTINF:-1 tvg-id="avto-plus" group-title="Хобби и увлечения" catchup-enable="0",Авто Плюс
 #EXTINF:-1 tvg-id="arsenaltv" group-title="Хобби и увлечения" catchup-enable="0",Арсенал HD
 http://95.28.205.161:4022/udp/233.33.221.125:5050
 #EXTINF:-1 tvg-id="blokbaster-hd" group-title="Кино и сериалы" catchup-enable="0",Блокбастер HD
@@ -1119,7 +1116,7 @@ http://185.23.80.28:8080/ZhivayaPlaneta/index.m3u8?token=test
 #EXTINF:-1 tvg-id="zhivaya-priroda" group-title="Познавательные" catchup-enable="0",Живая природа HD
 http://185.23.80.28:8080/ZhivayaPriroda_HD/index.m3u8?token=test
 # https://livetv.mylifeisgood.net.ru/channels/jivyapriroda.m3u8
-#EXTINF:-1 tvg-id="zhivi" group-title="Познавательные" catchup-enable="0",Живи!
+#EXTINF:-1 tvg-id="zhivi" group-title="Хобби и увлечения" catchup-enable="0",Живи!
 http://95.28.205.161:4022/udp/233.33.210.55:5050
 # #EXTINF:-1 tvg-id="zagorodnaya-zhizn" group-title="Хобби и увлечения" catchup-enable="0",Загородная жизнь
 #EXTINF:-1 tvg-id="zagorodny" group-title="Хобби и увлечения" catchup-enable="0",Загородный
@@ -1181,8 +1178,7 @@ http://77.235.1.17/konniy_mir/index.m3u8
 http://95.28.205.161:4022/udp/233.33.220.181:5050
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Кухня ТВ
 http://77.235.1.17/kuhnya/index.m3u8
-# #EXTINF:-1 tvg-id="liova" group-title="Детские" catchup-enable="1" catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Лёва
-# http://api.peers.tv/timeshift/lyova/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3MzIwNDYzNDMsImlhdCI6MTczMTk1OTk0MywiY2lkIjo2LCJ1aWQiOjg1ODgyNDAwNSwicmVnIjpmYWxzZSwiaXAiOjE4NDQ0MTI2NzgsImFkdWx0IjpmYWxzZX0.6p7KzywT7xfab4JB8VVxF2hlizQaSLt1IEAR2gVEaSc&offset=10
+# # #EXTINF:-1 tvg-id="liova" group-title="Детские" catchup-enable="0",Лёва
 #EXTINF:-1 tvg-id="lubimoe-kino" group-title="Кино и сериалы" catchup-enable="0",Любимое кино
 http://91.194.191.241:8081/chid73/tracks-v1a1/mono.m3u8
 # http://95.28.205.161:4022/udp/233.33.220.244:5050
@@ -1348,10 +1344,8 @@ http://88.218.242.237:8000/play/a00d
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="strashnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Страшное HD
 rtmp://5.182.229.90//7250
-# #EXTINF:-1 group-title="Детские" catchup-enable="0",СТС Kids HD
-# http://91.224.169.250:5000/c157
-#EXTINF:-1 group-title="Детские" catchup-enable="1" catchup="append" catchup-days="7" catchup-source="&offset=${offset}",СТС Kids HD
-http://api.peers.tv/timeshift/sts_kids_hd/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3MzIwNDYzNDMsImlhdCI6MTczMTk1OTk0MywiY2lkIjo2LCJ1aWQiOjg1ODgyNDAwNSwicmVnIjpmYWxzZSwiaXAiOjE4NDQ0MTI2NzgsImFkdWx0IjpmYWxzZX0.6p7KzywT7xfab4JB8VVxF2hlizQaSLt1IEAR2gVEaSc&offset=10
+#EXTINF:-1 group-title="Детские" catchup-enable="0",СТС Kids HD
+http://91.224.169.250:5000/c157
 #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",ТВ 21
 http://95.28.205.161:4022/udp/233.33.210.1:5050
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Театр HD
@@ -1364,8 +1358,6 @@ http://77.235.1.17/telekafe/index.m3u8
 http://185.23.80.28:8080/Teleputeshestviya/index.m3u8?token=test
 #EXTINF:-1 tvg-id="texno-24" group-title="Познавательные" catchup-enable="0",Т24
 http://95.28.205.161:4022/udp/233.33.220.189:5050
-# #EXTINF:-1 tvg-id="texno-24" group-title="Познавательные" catchup-enable="1" catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Т24
-# http://api.peers.tv/timeshift/24techno/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3MzIwNDYzNDMsImlhdCI6MTczMTk1OTk0MywiY2lkIjo2LCJ1aWQiOjg1ODgyNDAwNSwicmVnIjpmYWxzZSwiaXAiOjE4NDQ0MTI2NzgsImFkdWx0IjpmYWxzZX0.6p7KzywT7xfab4JB8VVxF2hlizQaSLt1IEAR2gVEaSc&offset=10
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",ТНТ Music HD
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Точка отрыва
@@ -1378,6 +1370,4 @@ http://77.235.1.17/usadba/index.m3u8
 http://88.218.242.237:8000/play/a007
 #EXTINF:-1 tvg-id="shanson-tv" group-title="Музыкальные" catchup-enable="0",Шансон-ТВ
 http://95.28.205.161:4022/udp/233.33.221.66:5050
-# #EXTINF:-1 tvg-id="shanson-tv" group-title="Музыкальные" catchup-enable="1" catchup="append" catchup-days="7" catchup-source="&offset=${offset}",Шансон-ТВ
-# http://api.peers.tv/timeshift/shanson/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2Nlc3MiLCJleHAiOjE3MzIwNDYzNDMsImlhdCI6MTczMTk1OTk0MywiY2lkIjo2LCJ1aWQiOjg1ODgyNDAwNSwicmVnIjpmYWxzZSwiaXAiOjE4NDQ0MTI2NzgsImFkdWx0IjpmYWxzZX0.6p7KzywT7xfab4JB8VVxF2hlizQaSLt1IEAR2gVEaSc&offset=10
 ###############################################################################
