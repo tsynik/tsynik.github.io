@@ -917,8 +917,8 @@ http://213.226.137.140:81/tl/l400/mpegts
 # #EXTINF:-1 tvg-id="da-vinci" group-title="Детские" catchup-enable="0",Da Vinci
 # http://77.235.1.17/da_vinci/index.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel HD
-http://s5.merlive.am:80/discovery/index.m3u8
-# http://45.159.74.14:80/DiscoveryChannel/tracks-v1a2/mono.m3u8
+http://45.159.74.14:80/DiscoveryChannel/tracks-v1a2/mono.m3u8
+# http://s5.merlive.am:80/discovery/index.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/discovery.m3u8
 # #EXTINF:-1 tvg-id="deutsche-welle-eu" group-title="Новости" catchup-enable="0",DW Europe
 # #EXTINF:-1 tvg-id="euronews-en" group-title="Новости" catchup-enable="0",EuroNews
@@ -968,6 +968,8 @@ http://213.226.137.140:81/tl/l302/mpegts
 # #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
 # http://95.28.205.161:4022/udp/233.33.210.70:5050
 # #EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные" catchup-enable="0",Nat Geo Wild HD
+#EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные" catchup-enable="0",National Geographic
+rtmp://92.119.88.58//2336
 #EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные" catchup-enable="0",National Geographic HD
 rtmp://5.182.229.90//7320
 # #EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr.
