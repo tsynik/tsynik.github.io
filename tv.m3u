@@ -868,10 +868,10 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 # http://95.28.205.161:4022/udp/233.33.210.13:5050
 #EXTINF:-1 tvg-id="1hd" tvg-id="1hd" group-title="Музыкальные" catchup-enable="0",1HD Music Television
 https://livetv.mylifeisgood.net.ru/channels/1hdmusic.m3u8
-#EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы" catchup-enable="0",A1
-http://sc.id-tv.kz/A1.m3u8
-#EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы" catchup-enable="0",A2
-http://sc.id-tv.kz/A2_36_37.m3u8
+# #EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы" catchup-enable="0",A1
+# http://sc.id-tv.kz/A1.m3u8
+# #EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы" catchup-enable="0",A2
+# http://sc.id-tv.kz/A2_36_37.m3u8
 #EXTINF:-1 tvg-id="amedia-hit" group-title="Кино и сериалы" catchup-enable="0",Amedia Hit HD
 http://stream01.vnet.am/Nauka/mono.m3u8
 #EXTINF:-1 tvg-id="amedia-premium" group-title="Кино и сериалы" catchup-enable="0",Amedia Premium HD
@@ -1009,15 +1009,11 @@ https://livetv.mylifeisgood.net.ru/channels/viju-explorer.m3u8
 https://livetv.mylifeisgood.net.ru/channels/viju-history.m3u8
 #EXTINF:-1 tvg-id="viasat-nature" group-title="Познавательные" catchup-enable="0",Viju Nature
 https://livetv.mylifeisgood.net.ru/channels/viju-nature.m3u8
-# http://77.235.1.17/viasat_nature/index.m3u8
 #EXTINF:-1 tvg-id="tv1000" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000
 https://livetv.mylifeisgood.net.ru/channels/viju-tv1000.m3u8
-# http://77.235.1.17/tv1000/index.m3u8
-##EXTINF:-1 tvg-id="tv1000-action" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Action
+#EXTINF:-1 tvg-id="tv1000-action" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Action
 https://livetv.mylifeisgood.net.ru/channels/viju-tv1000action.m3u8
-# http://77.235.1.17/tv1000_action/index.m3u8
-#EXTINF:-1 tvg-id="tv1000-russkoe-kino" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Русское HD
-http://45.143.108.104/TV1000RU_HD/index.m3u8
+# #EXTINF:-1 tvg-id="tv1000-russkoe-kino" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Русское
 #EXTINF:-1 tvg-id="viasat-nature-history-hd" group-title="Познавательные" catchup-enable="0",Viju+ Planet HD
 https://livetv.mylifeisgood.net.ru/channels/50c0316fa37fc4a9866a66f817e6c4383cb23cc0a49f0c322c505ffd7b8b4774.m3u8
 #EXTINF:-1 tvg-id="viasat-sport" group-title="Спортивные" catchup-enable="0",Viju+ Sport
@@ -1055,12 +1051,11 @@ http://185.23.80.28:8080/Dikaya_Rybalka/index.m3u8?token=test
 # http://91.224.169.250:5000/c160
 # #EXTINF:-1 tvg-id="domkino" group-title="Кино и сериалы" catchup-enable="0",Дом Кино
 # http://77.235.1.17/dom_kino/index.m3u8
-# #EXTINF:-1 tvg-id="domkino-premium" group-title="Кино и сериалы" catchup-enable="0",Дом Кино Премиум HD
-# http://77.235.1.17/dom_kino_premium/index.m3u8
+#EXTINF:-1 tvg-id="domkino-premium" group-title="Кино и сериалы" catchup-enable="0",Дом Кино Премиум HD
+http://213.226.137.140:81/tl/l75/mpegts
 # #EXTINF:-1 tvg-id="domashnie-zhivotnye" group-title="Хобби и увлечения" catchup-enable="0",Домашние животные
 # http://95.28.205.161:4022/udp/233.33.210.23:5050
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Дорама
-http://sc.id-tv.kz/dorama_hd_34_35.m3u8
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Дорама
 # #EXTINF:-1 tvg-id="drive" group-title="Хобби и увлечения" catchup-enable="0",Драйв
 # http://77.235.1.17/drive/index.m3u8
 # #EXTINF:-1 tvg-id="dushevnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Душевное HD
