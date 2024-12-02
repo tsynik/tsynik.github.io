@@ -906,6 +906,8 @@ http://65.21.85.175:8000/play/a00i/index.m3u8?token=livetv
 # http://95.28.205.161:4022/udp/233.33.221.156:5050
 # #EXTINF:-1 group-title="Новости" catchup-enable="0",CGTN
 # http://95.28.205.161:4022/udp/233.33.221.86:5050
+#EXTINF:-1 group-title="Новости" catchup-enable="0",CNBC HD
+http://213.226.137.140:81/tl/l400/mpegts
 # #EXTINF:-1 tvg-id="cinema-ru" group-title="Кино и сериалы" catchup-enable="0",Cinema HD
 # http://77.235.1.17/cinema/index.m3u8
 # #EXTINF:-1 tvg-id="cnn" group-title="Новости" catchup-enable="0",CNN International Europe HD
@@ -954,11 +956,12 @@ rtmp://92.119.88.58//2403
 # http://95.28.205.161:4022/udp/233.33.210.64:5050
 #EXTINF:-1 tvg-id="mezzo" group-title="Музыкальные" catchup-enable="0",Mezzo
 http://178.212.71.253:8002/play/a00n/index.m3u8
-# #EXTINF:-1 tvg-id="mezzo-live-hd" group-title="Музыкальные" catchup-enable="0",Mezzo Live HD
-# http://95.28.205.161:4022/udp/233.33.220.51:5050
+#EXTINF:-1 tvg-id="mezzo-live-hd" group-title="Музыкальные" catchup-enable="0",Mezzo Live HD
+http://213.226.137.140:81/tl/l56/mpegts
 # #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://www.lyngsat.com/logo/tv/mm/motorracing-tv.png" group-title="Спортивные" catchup-enable="0",MotoRRacing TV
 # https://dai.google.com/linear/hls/event/qI1pC-R_Sma0bVLVjaEOtw/master.m3u8
-# #EXTINF:-1 tvg-id="mtv-europe" group-title="Музыкальные" catchup-enable="0",MTV Europe
+#EXTINF:-1 tvg-id="mtv-europe" group-title="Музыкальные" catchup-enable="0",MTV HD
+http://213.226.137.140:81/tl/l302/mpegts
 # #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
 # http://95.28.205.161:4022/udp/233.33.210.70:5050
 # #EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные" catchup-enable="0",Nat Geo Wild HD
@@ -1003,6 +1006,8 @@ https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
 # http://95.28.205.161:4022/udp/233.33.210.106:5050
 # #EXTINF:-1 tvg-id="travel-adventure" group-title="Познавательные" catchup-enable="0",Travel+Adventure HD
 # http://77.235.1.17/travel_adventure/index.m3u8
+#EXTINF:-1 group-title="Музыкальные" catchup-enable="0",VH1 Classic
+http://213.226.137.140:81/tl/l108/mpegts
 #EXTINF:-1 tvg-id="viasat-explore" group-title="Познавательные" catchup-enable="0",Viju Explore
 https://livetv.mylifeisgood.net.ru/channels/viju-explorer.m3u8
 #EXTINF:-1 tvg-id="viasat-history" group-title="Познавательные" catchup-enable="0",Viju History
@@ -1013,7 +1018,8 @@ https://livetv.mylifeisgood.net.ru/channels/viju-nature.m3u8
 https://livetv.mylifeisgood.net.ru/channels/viju-tv1000.m3u8
 #EXTINF:-1 tvg-id="tv1000-action" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Action
 https://livetv.mylifeisgood.net.ru/channels/viju-tv1000action.m3u8
-# #EXTINF:-1 tvg-id="tv1000-russkoe-kino" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Русское
+#EXTINF:-1 tvg-id="tv1000-russkoe-kino" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Русское
+http://213.226.137.140:81/tl/l93/mpegts
 #EXTINF:-1 tvg-id="viasat-nature-history-hd" group-title="Познавательные" catchup-enable="0",Viju+ Planet HD
 https://livetv.mylifeisgood.net.ru/channels/50c0316fa37fc4a9866a66f817e6c4383cb23cc0a49f0c322c505ffd7b8b4774.m3u8
 #EXTINF:-1 tvg-id="viasat-sport" group-title="Спортивные" catchup-enable="0",Viju+ Sport
@@ -1031,12 +1037,13 @@ https://livetv.mylifeisgood.net.ru/channels/viju-premiere.m3u8
 # #EXTINF:-1 tvg-id="viva-rus" group-title="Музыкальные" catchup-enable="0",VIVA Russia HD
 # #EXTINF:-1 tvg-id="zoopark" group-title="Познавательные" catchup-enable="0",ZooПарк
 # #EXTINF:-1 tvg-id="avto24" group-title="Хобби и увлечения" catchup-enable="0",Авто 24
-# #EXTINF:-1 tvg-id="avto-plus" group-title="Хобби и увлечения" catchup-enable="0",Авто Плюс
+#EXTINF:-1 tvg-id="avto-plus" group-title="Хобби и увлечения" catchup-enable="0",Авто Плюс
+http://213.226.137.140:81/tl/l105/mpegts
 # #EXTINF:-1 tvg-id="arsenaltv" group-title="Хобби и увлечения" catchup-enable="0",Арсенал HD
 #EXTINF:-1 tvg-id="blokbaster-hd" group-title="Кино и сериалы" catchup-enable="0",Блокбастер HD
 http://185.23.80.28:8080/Blockbaster/index.m3u8?token=test
-# #EXTINF:-1 tvg-id="bobior" group-title="Детские" catchup-enable="0",Бобёр
-# http://95.28.205.161:4022/udp/233.33.210.231:5050
+#EXTINF:-1 tvg-id="bobior" group-title="Детские" catchup-enable="0",Бобёр
+http://213.226.137.140:81/tl/l112/mpegts
 #EXTINF:-1 tvg-id="v-mire-zhivotnyx-hd" group-title="Познавательные" catchup-enable="0",В мире животных HD
 http://185.23.80.28:8080/VMireZhivotnyx/index.m3u8?token=test
 # #EXTINF:-1 tvg-id="voprosy-i-otvety" group-title="Познавательные" catchup-enable="0",Вопросы и ответы
@@ -1060,10 +1067,10 @@ http://213.226.137.140:81/tl/l75/mpegts
 # http://77.235.1.17/drive/index.m3u8
 # #EXTINF:-1 tvg-id="dushevnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Душевное HD
 # http://77.235.1.17/nash_kinoroman_hd/index.m3u8
-# #EXTINF:-1 tvg-id="evrokino" group-title="Кино и сериалы" catchup-enable="0",Еврокино
-# http://91.224.169.250:5000/c46
-# #EXTINF:-1 tvg-id="e-tv" group-title="Хобби и увлечения" catchup-enable="0",Е
-# http://95.28.205.161:4022/udp/233.33.221.145:5050
+#EXTINF:-1 tvg-id="evrokino" group-title="Кино и сериалы" catchup-enable="0",Еврокино
+http://213.226.137.140:81/tl/l407/mpegts
+#EXTINF:-1 tvg-id="e-tv" group-title="Хобби и увлечения" catchup-enable="0",Е
+http://213.226.137.140:81/tl/l416/mpegts
 #EXTINF:-1 tvg-id="eda" group-title="Хобби и увлечения" catchup-enable="0",Еда
 http://185.23.80.28:8080/Eda/index.m3u8?token=test
 #EXTINF:-1 tvg-id="zhara" group-title="Музыкальные" catchup-enable="0",Жара ТВ
@@ -1096,8 +1103,8 @@ http://65.21.85.175:8000/play/a00o/index.m3u8?token=livetv
 http://185.23.80.28:8080/KapitanFantastika/index.m3u8?token=test
 #EXTINF:-1 tvg-id="kamedi" group-title="Кино и сериалы" catchup-enable="0",Камеди
 http://185.23.80.28:8080/Camedi/index.m3u8?token=test
-# #EXTINF:-1 tvg-id="kvn-tv" group-title="Развлекательные" catchup-enable="0",КВН ТВ
-# http://95.28.205.161:4022/udp/233.33.210.32:5050
+#EXTINF:-1 tvg-id="kvn-tv" group-title="Развлекательные" catchup-enable="0",КВН ТВ
+http://213.226.137.140:81/tl/l410/mpegts
 #EXTINF:-1 tvg-id="kinosat" group-title="Кино и сериалы" catchup-enable="0",КиноСат
 http://185.23.80.28:8080/KinoSat/index.m3u8?token=test
 # #EXTINF:-1 tvg-id="kineko" group-title="Кино и сериалы" catchup-enable="0",Кинеко HD
@@ -1127,8 +1134,8 @@ rtmp://5.182.229.90//7250
 # http://77.235.1.17/konniy_mir/index.m3u8
 # #EXTINF:-1 tvg-id="mir-uvlecheniy" group-title="Хобби и увлечения" catchup-enable="0",Кто Куда
 # http://95.28.205.161:4022/udp/233.33.220.181:5050
-# #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Кухня ТВ
-# http://77.235.1.17/kuhnya/index.m3u8
+#EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Кухня ТВ
+http://213.226.137.140:81/tl/l65/mpegts
 # #EXTINF:-1 tvg-id="liova" group-title="Детские" catchup-enable="0",Лёва
 # #EXTINF:-1 tvg-id="lubimoe-kino" group-title="Кино и сериалы" catchup-enable="0",Любимое кино
 # #EXTINF:-1 tvg-id="la-minor" group-title="Музыкальные" catchup-enable="0",Ля-минор
@@ -1138,8 +1145,8 @@ http://65.21.85.175:8000/play/a01l/index.m3u8?token=livetv
 #EXTINF:-1 tvg-id="matur-tv" group-title="Музыкальные" catchup-enable="1",Матур ТВ HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
-# #EXTINF:-1 tvg-id="match-tv" group-title="Спортивные" catchup-enable="0",Матч! HD
-# http://77.235.1.17/match/index.m3u8
+#EXTINF:-1 tvg-id="match-tv" group-title="Спортивные" catchup-enable="0",Матч! HD
+http://213.226.137.140:81/tl/l320/mpegts
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Арена
 http://194.143.148.28:8080/MatchArena/mpegts
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Арена HD
@@ -1148,16 +1155,16 @@ http://194.143.148.28:8080/MatchArena/mpegts
 # http://91.224.169.250:5000/c31
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Игра
 # http://91.224.169.250:5000/c32
-# #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Игра HD
-# http://95.28.205.161:4022/udp/233.33.221.89:5050
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Игра HD
+http://213.226.137.140:81/tl/l304/mpegts
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Планета
 http://93.189.224.24/Match_planeta/index.m3u8
 # #EXTINF:-1 tvg-id="match-premier" group-title="Спортивные" catchup-enable="0",Матч! Премьер
 # http://77.235.1.17/match_premier/index.m3u8
 # #EXTINF:-1 tvg-id="match-premier" group-title="Спортивные" catchup-enable="0",Матч! Премьер HD
 # http://95.28.205.161:4022/udp/233.33.210.74:5050
-# #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна
-# http://91.224.169.250:5000/c33
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Страна
+http://213.226.137.140:81/tl/l73/mpegts
 #EXTINF:-1 tvg-id="match-football1" group-title="Спортивные" catchup-enable="0",Матч! Футбол 1 HD
 http://194.143.148.28:8080/MatchFutbol1/mpegts
 # rtmp://92.119.88.58//2407
@@ -1273,8 +1280,8 @@ https://livetv.mylifeisgood.net.ru/channels/saphire.m3u8
 #EXTINF:-1 tvg-id="smaylik-tv" group-title="Детские" catchup-enable="0",Смайл ТВ HD
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/smile.m3u8
-# #EXTINF:-1 tvg-id="sarafan" group-title="Развлекательные" catchup-enable="0",Сарафан
-# http://95.28.205.161:4022/udp/233.33.210.4:5050
+#EXTINF:-1 tvg-id="sarafan" group-title="Развлекательные" catchup-enable="0",Сарафан
+http://213.226.137.140:81/tl/l103/mpegts
 # #EXTINF:-1 tvg-id="sovsek" group-title="Развлекательные" catchup-enable="0",Совершенно секретно
 # http://95.28.205.161:4022/udp/233.33.220.166:5050
 #EXTINF:-1 tvg-id="solovjinypomiot" group-title="Новости" catchup-enable="0",Соловьев LIVE HD
