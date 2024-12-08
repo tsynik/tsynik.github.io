@@ -866,8 +866,8 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 # http://95.28.205.161:4022/udp/233.33.210.159:5050
 #EXTINF:-1 tvg-id="sony-scifi" group-title="Кино и сериалы" catchup-enable="0",.Sci-Fi
 http://s5.merlive.am:80/Sci-Fi/index.m3u8
-#EXTINF:-1 tvg-id="1hd" tvg-id="1hd" group-title="Музыкальные" catchup-enable="0",1HD Music Television
-https://livetv.mylifeisgood.net.ru/channels/1hdmusic.m3u8
+# #EXTINF:-1 tvg-id="1hd" tvg-id="1hd" group-title="Музыкальные" catchup-enable="0",1HD Music Television
+# https://livetv.mylifeisgood.net.ru/channels/1hdmusic.m3u8
 #EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы" catchup-enable="0",A1
 http://s5.merlive.am:80/Amedia1/index.m3u8
 # http://sc.id-tv.kz/A1.m3u8
@@ -893,8 +893,8 @@ http://185.23.80.28:8080/BridgeTVShlyager/index.m3u8?token=test
 #EXTINF:-1 tvg-id="bridge-tv-classic" group-title="Музыкальные" catchup-enable="0",Bridge TV Classic
 http://185.23.80.28:8080/BRIDGETVCLASSIC/index.m3u8?token=test
 # https://livetv.mylifeisgood.net.ru/channels/bridgeclassictv.m3u8
-#EXTINF:-1 tvg-id="bridge-hd" group-title="Музыкальные" catchup-enable="0",Bridge TV Deluxe HD
-https://livetv.mylifeisgood.net.ru/channels/bridgedeluxetv.m3u8
+# #EXTINF:-1 tvg-id="bridge-hd" group-title="Музыкальные" catchup-enable="0",Bridge TV Deluxe HD
+# https://livetv.mylifeisgood.net.ru/channels/bridgedeluxetv.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-fresh" group-title="Музыкальные" catchup-enable="0",Bridge TV Fresh
 http://185.23.80.28:8080/BRIDGE_FRESH/index.m3u8?token=test
 #EXTINF:-1 tvg-id="bridge-tv-dance" group-title="Музыкальные" catchup-enable="0",Bridge TV Hits
@@ -965,8 +965,10 @@ http://178.212.71.253:8002/play/a00n/index.m3u8
 http://213.226.137.140:81/tl/l56/mpegts
 # #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://www.lyngsat.com/logo/tv/mm/motorracing-tv.png" group-title="Спортивные" catchup-enable="0",MotoRRacing TV
 # https://dai.google.com/linear/hls/event/qI1pC-R_Sma0bVLVjaEOtw/master.m3u8
-#EXTINF:-1 tvg-id="mtv-europe" group-title="Музыкальные" catchup-enable="0",MTV HD
+#EXTINF:-1 tvg-id="mtv-live-hd" group-title="Музыкальные" catchup-enable="0",MTV Live HD
 http://213.226.137.140:81/tl/l302/mpegts
+#EXTINF:-1 tvg-id="vh1-classic" group-title="Музыкальные" catchup-enable="0",MTV 80s
+http://213.226.137.140:81/tl/l108/mpegts
 # #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
 # http://95.28.205.161:4022/udp/233.33.210.70:5050
 # #EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные" catchup-enable="0",Nat Geo Wild HD
@@ -1012,8 +1014,7 @@ http://s5.merlive.am:80/starsinema/index.m3u8
 # http://95.28.205.161:4022/udp/233.33.210.106:5050
 # #EXTINF:-1 tvg-id="travel-adventure" group-title="Познавательные" catchup-enable="0",Travel+Adventure HD
 # http://77.235.1.17/travel_adventure/index.m3u8
-#EXTINF:-1 group-title="Музыкальные" catchup-enable="0",VH1 Classic
-http://213.226.137.140:81/tl/l108/mpegts
+# #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",VH1 Classic
 #EXTINF:-1 tvg-id="viasat-explore" group-title="Познавательные" catchup-enable="0",Viju Explore
 https://livetv.mylifeisgood.net.ru/channels/viju-explorer.m3u8
 #EXTINF:-1 tvg-id="viasat-history" group-title="Познавательные" catchup-enable="0",Viju History
