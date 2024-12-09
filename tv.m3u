@@ -1029,8 +1029,8 @@ http://213.226.137.140:81/tl/l112/mpegts
 #EXTINF:-1 tvg-id="v-mire-zhivotnyx-hd" group-title="Познавательные" catchup-enable="0",В мире животных HD
 http://185.23.80.28:8080/VMireZhivotnyx/index.m3u8?token=test
 # #EXTINF:-1 tvg-id="voprosy-i-otvety" group-title="Познавательные" catchup-enable="0",Вопросы и ответы
-#EXTINF:-1 tvg-id="glazami-turista" group-title="Познавательные" catchup-enable="0",Глазами туриста HD
-https://livetv.mylifeisgood.net.ru/channels/glazamiturista.m3u8
+# #EXTINF:-1 tvg-id="glazami-turista" group-title="Познавательные" catchup-enable="0",Глазами туриста HD
+# https://livetv.mylifeisgood.net.ru/channels/glazamiturista.m3u8
 #EXTINF:-1 tvg-id="dikaya-oxota-hd" group-title="Хобби и увлечения" catchup-enable="0",Дикая Охота HD
 http://185.23.80.28:8080/Dikaya_Ohota/index.m3u8?token=test
 #EXTINF:-1 tvg-id="dikaya-rybalka-hd" group-title="Хобби и увлечения" catchup-enable="0",Дикая Рыбалка HD
@@ -1068,12 +1068,12 @@ http://stream01.vnet.am/DTX/mono.m3u8
 #EXTINF:-1 group-title="Новости" catchup-enable="0",Известия HD
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/iz.m3u8
-#EXTINF:-1 tvg-id="istoria" group-title="Познавательные" catchup-enable="0",История
-http://185.23.80.28:8080/Istoriya/index.m3u8?token=test
+# #EXTINF:-1 tvg-id="istoria" group-title="Познавательные" catchup-enable="0",История
+# http://185.23.80.28:8080/Istoriya/index.m3u8?token=test
 #EXTINF:-1 tvg-id="illuzion-plus" group-title="Кино и сериалы" catchup-enable="0",Иллюзион+
 http://185.23.80.28:8080/Illyuzion+/index.m3u8?token=test
-#EXTINF:-1 tvg-id="indiyskoe-kino" group-title="Кино и сериалы" catchup-enable="0",Индийское кино
-http://sc.id-tv.kz/Indiiskoe_kino.m3u8
+# #EXTINF:-1 tvg-id="indiyskoe-kino" group-title="Кино и сериалы" catchup-enable="0",Индийское кино
+# http://sc.id-tv.kz/Indiiskoe_kino.m3u8
 #EXTINF:-1 tvg-id="ginger-hd" group-title="Детские" catchup-enable="0",Капитан Фантастика HD
 http://185.23.80.28:8080/KapitanFantastika/index.m3u8?token=test
 #EXTINF:-1 tvg-id="kamedi" group-title="Кино и сериалы" catchup-enable="0",Камеди
@@ -1096,7 +1096,7 @@ rtmp://5.182.229.90//7248
 rtmp://5.182.229.90//7249
 #EXTINF:-1 tvg-id="kinoseria" group-title="Кино и сериалы" catchup-enable="0",Киносерия HD
 http://95.142.88.250:80/Kinoserija/index.m3u8
-#EXTINF:-1 tvg-id="kino-tv" group-title="Кино и сериалы" catchup-enable="0",Кино ТВ
+#EXTINF:-1 tvg-id="kino-tv" group-title="Кино и сериалы" catchup-enable="0",Кино ТВ HD
 http://185.23.80.28:8080/Kino_TV/index.m3u8?token=test
 #EXTINF:-1 tvg-id="kinouzhas" group-title="Кино и сериалы" catchup-enable="0",Киноужас
 http://213.226.137.140:81/tl/l415/mpegts
@@ -1107,9 +1107,9 @@ rtmp://5.182.229.90//7250
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Конный мир
 http://185.23.80.28:8080/Konniy_Mir/index.m3u8?token=test
 # #EXTINF:-1 tvg-id="mir-uvlecheniy" group-title="Хобби и увлечения" catchup-enable="0",Кто Куда
-#EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Кухня ТВ
+#EXTINF:-1 tvg-id="kuxnia-tv" group-title="Хобби и увлечения" catchup-enable="0",Кухня ТВ
 http://213.226.137.140:81/tl/l65/mpegts
-#EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Кухня HD
+#EXTINF:-1 tvg-id="kuxnia-tv" group-title="Хобби и увлечения" catchup-enable="0",Кухня HD
 http://88.218.242.237:8000/play/a00s
 # #EXTINF:-1 tvg-id="liova" group-title="Детские" catchup-enable="0",Лёва
 # #EXTINF:-1 tvg-id="lubimoe-kino" group-title="Кино и сериалы" catchup-enable="0",Любимое кино
@@ -1155,8 +1155,8 @@ http://86.57.198.251:8181/play/1036/index.m3u8
 http://185.23.80.28:8080/MuzikaPervogo/index.m3u8?token=test
 #EXTINF:-1 tvg-id="mult" group-title="Детские" catchup-enable="0",Мульт HD
 http://stream01.vnet.am/Mult/mono.m3u8
-#EXTINF:-1 tvg-id="multimuzyka" group-title="Детские" catchup-enable="0",Мульт и музыка
-http://185.23.80.28:8080/Multimuzyka/index.m3u8?token=test
+# #EXTINF:-1 tvg-id="multimuzyka" group-title="Детские" catchup-enable="0",Мульт и музыка
+# http://185.23.80.28:8080/Multimuzyka/index.m3u8?token=test
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Мультиландия
 http://185.23.80.28:8080/Multilandiya/index.m3u8?token=test
 # #EXTINF:-1 tvg-id="nano-tv" group-title="Познавательные" catchup-enable="0",Нано ТВ
@@ -1230,8 +1230,8 @@ http://178.57.121.38:8080/rusbest/index.m3u8?token=test
 http://178.57.121.38:8080/rusdet/index.m3u8?token=test
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский иллюзион
 http://185.23.80.28:8080/RusIlluzion/index.m3u8?token=test
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский роман
-http://185.23.80.28:8080/RusskijRoman/index.m3u8?token=test
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский роман
+# http://185.23.80.28:8080/RusskijRoman/index.m3u8?token=test
 #EXTINF:-1 tvg-id="oxotnik-i-rybolov" group-title="Хобби и увлечения" catchup-enable="0",Рыболов
 http://185.23.80.28:8080/OxotnikIRybolov/index.m3u8?token=test
 # rtmp://92.119.88.58//2394
