@@ -997,11 +997,11 @@ http://live.admuspeh.my/8086/index.m3u8?token=iptvshared
 #EXTINF:-1 tvg-id="viasat-nature" group-title="Познавательные" catchup-enable="0",Viju Nature HD
 http://live.admuspeh.my/8087/index.m3u8?token=iptvshared
 # https://livetv.mylifeisgood.net.ru/channels/viju-nature.m3u8
-#EXTINF:-1 tvg-id="tv1000" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000
+#EXTINF:-1 tvg-id="tv1000" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 HD
 http://65.21.85.175:8000/play/a011/index.m3u8?token=livetv
 # http://91.205.199.3/tv1000/index.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/viju-tv1000.m3u8
-#EXTINF:-1 tvg-id="tv1000-action" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Action
+#EXTINF:-1 tvg-id="tv1000-action" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Action HD
 http://65.21.85.175:8000/play/a012/index.m3u8?token=livetv
 # http://91.205.199.3/tv1000action/index.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/viju-tv1000action.m3u8
@@ -1014,12 +1014,14 @@ http://flu.ttk.mx:90/Viasat_Sport/mono.m3u8?token=hs06e
 #EXTINF:-1 tvg-id="viasat-sport" group-title="Спортивные" catchup-enable="0",Viju+ Sport HD
 http://213.226.137.140:81/tl/l97/mpegts
 #EXTINF:-1 tvg-id="vip-comedy" group-title="Кино и сериалы" catchup-enable="0",Viju+ Comedy HD
+http://135.181.115.81:8000/play/a019/index.m3u8?token=livetv
 https://livetv.mylifeisgood.net.ru/channels/viju-comedy.m3u8
 #EXTINF:-1 tvg-id="vip-megahit" group-title="Кино и сериалы" catchup-enable="0",Viju+ Megahit HD
 http://91.205.199.3/vipmegahit/index.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/viju-megahit.m3u8
 #EXTINF:-1 tvg-id="vip-premiere" group-title="Кино и сериалы" catchup-enable="0",Viju+ Premiere HD
-https://livetv.mylifeisgood.net.ru/channels/viju-premiere.m3u8
+http://135.181.115.81:8000/play/a01a/index.m3u8?token=livetv
+# https://livetv.mylifeisgood.net.ru/channels/viju-premiere.m3u8
 # http://213.226.137.140:81/tl/l319/mpegts
 #EXTINF:-1 tvg-id="vip-serial" group-title="Кино и сериалы" catchup-enable="0",Viju+ Serial HD
 http://91.205.199.3/vipserialhd/index.m3u8
@@ -1064,7 +1066,8 @@ http://185.23.80.28:8080/Eda/index.m3u8?token=test
 http://185.23.80.28:8080/ZhARA/index.m3u8?token=test
 # #EXTINF:-1 tvg-id="zhara" group-title="Музыкальные" catchup-enable="0",Жара HD
 #EXTINF:-1 tvg-id="zhivaya-planeta" group-title="Познавательные" catchup-enable="0",Живая Планета
-http://185.23.80.28:8080/ZhivayaPlaneta/index.m3u8?token=test
+http://tv.ttk.mx:9047
+# http://185.23.80.28:8080/ZhivayaPlaneta/index.m3u8?token=test
 #EXTINF:-1 tvg-id="zhivaya-priroda" group-title="Познавательные" catchup-enable="0",Живая природа HD
 http://185.23.80.28:8080/ZhivayaPriroda_HD/index.m3u8?token=test
 # https://livetv.mylifeisgood.net.ru/channels/jivyapriroda.m3u8
@@ -1165,8 +1168,9 @@ http://tv.ttk.mx:9091
 #EXTINF:-1 group-title="Кино и сериалы" tvg-id="mosfilm" catchup-enable="0",Мосфильм. Золотая коллекция HD
 rtmp://5.182.229.90//7347
 # #EXTINF:-1 tvg-id="motorsportv-tv" group-title="Спортивные" catchup-enable="0",Моторспорт ТВ
-#EXTINF:-1 tvg-id="moya-planeta" group-title="Познавательные" catchup-enable="0",Моя Планета
-http://194.143.148.28:8080/Moya_Planeta/mpegts
+#EXTINF:-1 tvg-id="moya-planeta" group-title="Познавательные" catchup-enable="0",Моя Планета HD
+http://tv.ttk.mx:9087
+# http://194.143.148.28:8080/Moya_Planeta/mpegts
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино
 http://65.21.85.175:8000/play/a01o/index.m3u8?token=livetv
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Мужской
@@ -1277,7 +1281,8 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 http://91.205.199.3/stskids/index.m3u8
 #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",ТВ 21
 http://tv.ttk.mx:9067
-# #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Театр
+#EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Театр
+http://flu.ttk.mx:90/Teatr/mono.m3u8?token=hs06e
 #EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="0",Телеканал Футбол
 http://185.23.80.28:8080/Football/index.m3u8?token=test
 # #EXTINF:-1 tvg-id="telekafe" group-title="Хобби и увлечения" catchup-enable="0",Телекафе
