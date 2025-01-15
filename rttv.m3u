@@ -76,7 +76,6 @@ http://213.226.137.140:81/tl/l98/mpegts
 # #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",HOME 4K
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Luxury HD
 http://185.23.80.28:8080/LUXURY_HD/index.m3u8?token=test
-# http://88.218.242.237:8000/play/a00u
 #EXTINF:-1 tvg-id="rtd-hd" group-title="HD и UHD" catchup-enable="0",RTД HD
 https://hls.rt.com/hls/rtdru.m3u8
 # #EXTINF:-1 tvg-id="russian-extreme-uhd" group-title="HD и UHD" catchup-enable="1",Russian Extreme HD
@@ -95,7 +94,6 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 http://185.23.80.28:8080/NashaSibir/index.m3u8?token=test
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Неизвестная Россия HD
 https://cdn.ntv.ru/unknown_russia/tracks-v1a1/playlist.m3u8
-# http://88.218.242.237:8000/play/a00n
 #EXTINF:-1 tvg-id="ntv" group-title="HD и UHD" catchup-enable="0",НТВ HD
 https://cdn.ntv.ru/ntv-msk_hd/tracks-v1a1/playlist.m3u8
 # http://cdn.ntv.ru/ntv0_hd/tracks-v1a1/mono.m3u8
@@ -857,10 +855,10 @@ http://91.205.199.3/red/index.m3u8
 # http://s5.merlive.am:80/Sci-Fi/index.m3u8
 # #EXTINF:-1 tvg-id="1hd" tvg-id="1hd" group-title="Музыкальные" catchup-enable="0",1HD Music Television
 # https://livetv.mylifeisgood.net.ru/channels/1hdmusic.m3u8
-#EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы" catchup-enable="0",A1
+#EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы" catchup-enable="0",Amedia 1
 http://live.admuspeh.my/8204/index.m3u8?token=iptvshared
 # http://sc.id-tv.kz/A1.m3u8
-#EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы" catchup-enable="0",A2
+#EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы" catchup-enable="0",Amedia 2
 http://live.admuspeh.my/8927/index.m3u8?token=iptvshared
 # http://sc.id-tv.kz/A2_36_37.m3u8
 #EXTINF:-1 tvg-id="amedia-hit" group-title="Кино и сериалы" catchup-enable="0",Amedia Hit HD
@@ -871,8 +869,7 @@ http://stream01.vnet.am/AmediaPremium/mono.m3u8
 http://31.148.48.15:80/Ani/index.m3u8?token=test
 #EXTINF:-1 tvg-id="animal-planet" group-title="Познавательные" catchup-enable="0",Animal Planet HD
 http://45.159.74.14:80/AnimalPlanet/tracks-v1a2/mono.m3u8
-#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Big Planet HD
-http://88.218.242.237:8000/play/a00k
+# #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Big Planet HD
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood HD
 # http://s5.merlive.am:80/Bollywood/index.m3u8
 #EXTINF:-1 tvg-id="bridge-tv-ruxit" group-title="Музыкальные" catchup-enable="0",Bridge TV Русский хит
@@ -921,7 +918,8 @@ http://live.admuspeh.my/8168/index.m3u8?token=iptvshared
 # #EXTINF:-1 tvg-id="foxlife" group-title="Кино и сериалы" catchup-enable="0",FX Life HD
 # #EXTINF:-1 tvg-id="galaxy-tv" group-title="Познавательные" catchup-enable="0",Galaxy TV
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Gulli Girl
-http://sc.id-tv.kz/Gulli_34_35.m3u8
+http://135.181.115.81:8000/play/a01g/index.m3u8?token=livetv
+# http://sc.id-tv.kz/Gulli_34_35.m3u8
 #EXTINF:-1 tvg-id="hd-life" group-title="Познавательные" catchup-enable="0",HD Life
 http://93.189.224.24/HDL/index.m3u8
 # http://213.226.137.140:81/tl/l305/mpegts
@@ -1000,10 +998,12 @@ http://live.admuspeh.my/8086/index.m3u8?token=iptvshared
 http://live.admuspeh.my/8087/index.m3u8?token=iptvshared
 # https://livetv.mylifeisgood.net.ru/channels/viju-nature.m3u8
 #EXTINF:-1 tvg-id="tv1000" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000
-http://91.205.199.3/tv1000/index.m3u8
+http://65.21.85.175:8000/play/a011/index.m3u8?token=livetv
+# http://91.205.199.3/tv1000/index.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/viju-tv1000.m3u8
 #EXTINF:-1 tvg-id="tv1000-action" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Action
-http://91.205.199.3/tv1000action/index.m3u8
+http://65.21.85.175:8000/play/a012/index.m3u8?token=livetv
+# http://91.205.199.3/tv1000action/index.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/viju-tv1000action.m3u8
 #EXTINF:-1 tvg-id="tv1000-russkoe-kino" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Русское
 http://91.205.199.3/tv1000ruskoekino/index.m3u8
@@ -1091,26 +1091,27 @@ http://185.23.80.28:8080/Camedi/index.m3u8?token=test
 http://213.226.137.140:81/tl/l410/mpegts
 #EXTINF:-1 tvg-id="kinosat" group-title="Кино и сериалы" catchup-enable="0",КиноСат
 http://185.23.80.28:8080/KinoSat/index.m3u8?token=test
-# #EXTINF:-1 tvg-id="kineko" group-title="Кино и сериалы" catchup-enable="0",Кинеко HD
-# http://s5.merlive.am:80/kineko/index.m3u8
+#EXTINF:-1 tvg-id="kineko" group-title="Кино и сериалы" catchup-enable="0",Кинеко HD
+http://91.205.199.3:80/roos-kinomix/manifest.m3u8
 #EXTINF:-1 tvg-id="kinopremiera-hd" group-title="Кино и сериалы" catchup-enable="0",Кинопремьера HD
-http://45.159.74.13:80/Kinopremera/tracks-v1a1/mono.m3u8
+http://91.205.199.3/kinopremerahd/index.m3u8
 #EXTINF:-1 tvg-id="kinosvidanie" group-title="Кино и сериалы" catchup-enable="0",Киносвидание HD
-rtmp://5.182.229.90//7245
+http://65.21.85.175:8000/play/a01a/index.m3u8?token=livetv
+# http://91.205.199.3/kinosvidanie/index.m3u8
 #EXTINF:-1 tvg-id="kinosemiya" group-title="Кино и сериалы" catchup-enable="0",Киносемья HD
-rtmp://5.182.229.90//7244
+http://91.205.199.3/kinosemyahd/index.m3u8
 #EXTINF:-1 tvg-id="kinokomedia" group-title="Кино и сериалы" catchup-enable="0",Кинокомедия HD
-rtmp://5.182.229.90//7248
+http://65.21.85.175:8000/play/a01g/index.m3u8?token=livetv
 #EXTINF:-1 tvg-id="kinomiks" group-title="Кино и сериалы" catchup-enable="0",Киномикс HD
-rtmp://5.182.229.90//7249
-#EXTINF:-1 tvg-id="kinoseria" group-title="Кино и сериалы" catchup-enable="0",Киносерия HD
-http://95.142.88.250:80/Kinoserija/index.m3u8
+http://65.21.85.175:8000/play/a01c/index.m3u8?token=livetv
+#EXTINF:-1 tvg-id="kinoseria" group-title="Кино и сериалы" catchup-enable="0",Киносерия
+http://91.205.199.3:80/roos-kinoseria/manifest.m3u8
 #EXTINF:-1 tvg-id="kino-tv" group-title="Кино и сериалы" catchup-enable="0",Кино ТВ HD
 http://185.23.80.28:8080/Kino_TV/index.m3u8?token=test
 #EXTINF:-1 tvg-id="kinouzhas" group-title="Кино и сериалы" catchup-enable="0",Киноужас
 http://213.226.137.140:81/tl/l415/mpegts
 #EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы" catchup-enable="0",Кинохит HD
-rtmp://5.182.229.90//7250
+http://91.205.199.3/kinoxithd/index.m3u8
 # #EXTINF:-1 tvg-id="komedijnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Комедийное HD
 # #EXTINF:-1 tvg-id="russkaya-komedia" group-title="Кино и сериалы" catchup-enable="0",Комедия
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Конный мир
@@ -1118,8 +1119,7 @@ http://185.23.80.28:8080/Konniy_Mir/index.m3u8?token=test
 # #EXTINF:-1 tvg-id="mir-uvlecheniy" group-title="Хобби и увлечения" catchup-enable="0",Кто Куда
 #EXTINF:-1 tvg-id="kuxnia-tv" group-title="Хобби и увлечения" catchup-enable="0",Кухня ТВ
 http://213.226.137.140:81/tl/l65/mpegts
-#EXTINF:-1 tvg-id="kuxnia-tv" group-title="Хобби и увлечения" catchup-enable="0",Кухня HD
-http://88.218.242.237:8000/play/a00s
+# #EXTINF:-1 tvg-id="kuxnia-tv" group-title="Хобби и увлечения" catchup-enable="0",Кухня HD
 # #EXTINF:-1 tvg-id="liova" group-title="Детские" catchup-enable="0",Лёва
 # #EXTINF:-1 tvg-id="lubimoe-kino" group-title="Кино и сериалы" catchup-enable="0",Любимое кино
 #EXTINF:-1 tvg-id="la-minor" group-title="Музыкальные" catchup-enable="0",Ля-минор
@@ -1131,12 +1131,13 @@ http://s45177.cdn.ngenix.net/hls/CH_R02_MATURTV/variant.m3u8
 # #EXTINF:-1 tvg-id="match-tv" group-title="Спортивные" catchup-enable="0",Матч! HD
 # http://213.226.137.140:81/tl/l320/mpegts
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Арена
-http://194.143.148.28:8080/MatchArena/mpegts
+http://tv.ttk.mx:9153
+# http://flu.ttk.mx:90/Arena/mono.m3u8?token=hs06e
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Боец HD
 http://live.admuspeh.my/8027/index.m3u8?token=iptvshared
 # http://flu.ttk.mx:90/Boets/mono.m3u8?token=hs06e
-# #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Игра HD
-# http://213.226.137.140:81/tl/l304/mpegts
+#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Игра
+http://tv.ttk.mx:9152
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Матч! Планета
 #EXTINF:-1 tvg-id="match-premier" group-title="Спортивные" catchup-enable="0",Матч! Премьер HD
 http://live.admuspeh.my/8023/index.m3u8?token=iptvshared
@@ -1146,23 +1147,28 @@ http://live.admuspeh.my/8019/index.m3u8?token=iptvshared
 # http://213.226.137.140:81/tl/l73/mpegts
 #EXTINF:-1 tvg-id="match-football1" group-title="Спортивные" catchup-enable="0",Матч! Футбол 1 HD
 http://194.143.148.28:8080/MatchFutbol1/mpegts
+# http://tv.ttk.mx:9114
+# http://flu.ttk.mx:90/Football_1HD/mono.m3u8?token=hs06e
 #EXTINF:-1 tvg-id="match-football2" group-title="Спортивные" catchup-enable="0",Матч! Футбол 2 HD
-http://flu.ttk.mx:90/Football_2HD/mono.m3u8?token=hs06e
+http://tv.ttk.mx:9111
+# http://flu.ttk.mx:90/Football_2HD/mono.m3u8?token=hs06e
 #EXTINF:-1 tvg-id="match-football3" group-title="Спортивные" catchup-enable="0",Матч! Футбол 3 HD
 http://tv.ttk.mx:9116
+# http://flu.ttk.mx:90/Football_3HD/mono.m3u8?token=hs06e
 #EXTINF:-1 tvg-id="mir-24" group-title="Новости" catchup-enable="0",Мир 24 HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
-#EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Новости" catchup-enable="0",Москва 24
-https://livetv.mylifeisgood.net.ru/channels/moscow24.m3u8
+# #EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Новости" catchup-enable="0",Москва 24
+# https://livetv.mylifeisgood.net.ru/channels/moscow24.m3u8
 #EXTINF:-1 group-title="Новости" catchup-enable="0",Москва. Доверие
-https://livetv.mylifeisgood.net.ru/channels/moscvadoverie.m3u8
+http://tv.ttk.mx:9091
+# https://livetv.mylifeisgood.net.ru/channels/moscvadoverie.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" tvg-id="mosfilm" catchup-enable="0",Мосфильм. Золотая коллекция HD
 rtmp://5.182.229.90//7347
 # #EXTINF:-1 tvg-id="motorsportv-tv" group-title="Спортивные" catchup-enable="0",Моторспорт ТВ
 #EXTINF:-1 tvg-id="moya-planeta" group-title="Познавательные" catchup-enable="0",Моя Планета
 http://194.143.148.28:8080/Moya_Planeta/mpegts
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино
-http://213.226.137.140:81/tl/l111/mpegts
+http://65.21.85.175:8000/play/a01o/index.m3u8?token=livetv
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Мужской
 http://86.57.198.251:8181/play/1036/index.m3u8
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Музыка Первого
@@ -1187,8 +1193,8 @@ http://185.23.80.28:8080/NasheMuzhskoe/index.m3u8?token=test
 #EXTINF:-1 tvg-id="nashe-novoe-kino" group-title="Кино и сериалы" catchup-enable="0",Наше новое кино
 http://213.226.137.140:81/tl/l53/mpegts
 #EXTINF:-1 tvg-id="nst" group-title="Кино и сериалы" catchup-enable="0",НСТ
-http://sc.id-tv.kz/NSTV.m3u8
-# http://185.23.80.28:8080/NST/index.m3u8?token=test
+http://tv.ttk.mx:9057
+# http://sc.id-tv.kz/NSTV.m3u8
 #EXTINF:-1 tvg-id="ntv-pravo" group-title="Развлекательные" catchup-enable="0",НТВ Право
 https://cdn.ntv.ru/th_pravo/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="ntv-serial" group-title="Кино и сериалы" catchup-enable="0",НТВ Сериал
@@ -1263,15 +1269,14 @@ http://178.57.121.38:8080/idxtra/index.m3u8?token=test
 #EXTINF:-1 tvg-id="start" group-title="Спортивные" catchup-enable="0",Старт
 http://185.23.80.28:8080/START/index.m3u8?token=test
 # #EXTINF:-1 tvg-id="start" group-title="Спортивные" catchup-enable="0",Старт HD
-# https://livetv.mylifeisgood.net.ru/channels/startlive.m3u8
-#EXTINF:-1 tvg-id="start-triumf" group-title="Спортивные" catchup-enable="0",Старт Триумф HD
-http://88.218.242.237:8000/play/a00d
+# #EXTINF:-1 tvg-id="start-triumf" group-title="Спортивные" catchup-enable="0",Старт Триумф HD
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Страна FM HD
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 # #EXTINF:-1 tvg-id="strashnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Страшное HD
 #EXTINF:-1 group-title="Детские" catchup-enable="0",СТС Kids
 http://91.205.199.3/stskids/index.m3u8
-# #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",ТВ 21
+#EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",ТВ 21
+http://tv.ttk.mx:9067
 # #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Театр
 #EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="0",Телеканал Футбол
 http://185.23.80.28:8080/Football/index.m3u8?token=test
