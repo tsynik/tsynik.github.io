@@ -968,8 +968,7 @@ https://hls-03-video.webcaramba.com/rutv/live_720/index.m3u8
 # http://185.23.80.28:8080/RU.TV/index.m3u8?token=test
 #EXTINF:-1 tvg-id="rt-news" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/300px-Russia-today-logo.svg.png" group-title="Новости" catchup-enable="0",Russia Today HD
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
-#EXTINF:-1 tvg-id="russian-musicbox" group-title="Музыкальные" catchup-enable="0",Russian Music Box HD
-https://livetv.mylifeisgood.net.ru/channels/rusmusicbox.m3u8
+# #EXTINF:-1 tvg-id="russian-musicbox" group-title="Музыкальные" catchup-enable="0",Russian Music Box HD
 # #EXTINF:-1 tvg-id="setanta-sports" group-title="Спортивные" catchup-enable="0",Setanta Sports 1 HD
 # #EXTINF:-1 tvg-id="setanta-sports-plus" group-title="Спортивные" catchup-enable="0",Setanta Sports 2 HD
 # #EXTINF:-1 group-title="Телемагазины" catchup-enable="0",Shop&Show
@@ -1150,8 +1149,7 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 http://194.143.148.28:8080/Moya_Planeta/mpegts
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино
 http://65.21.85.175:8000/play/a01o/index.m3u8?token=livetv
-#EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Мужской
-http://86.57.198.251:8181/play/1036/index.m3u8
+# #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Мужской
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Музыка Первого
 http://185.23.80.28:8080/MuzikaPervogo/index.m3u8?token=test
 #EXTINF:-1 tvg-id="mult" group-title="Детские" catchup-enable="0",Мульт HD
@@ -1233,7 +1231,8 @@ http://185.23.80.28:8080/RusIlluzion/index.m3u8?token=test
 # http://185.23.80.28:8080/OxotnikIRybolov/index.m3u8?token=test
 #EXTINF:-1 tvg-id="ryzhy" group-title="Детские" catchup-enable="0",Рыжий
 http://185.23.80.28:8080/Ryzhij/index.m3u8?token=test
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Сапфир HD
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Сапфир
+http://135.181.115.81:8000/play/a03f/index.m3u8?token=livetv
 # https://livetv.mylifeisgood.net.ru/channels/saphire.m3u8
 #EXTINF:-1 tvg-id="smaylik-tv" group-title="Детские" catchup-enable="0",Смайл ТВ HD
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
