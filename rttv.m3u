@@ -945,7 +945,7 @@ http://jbvtcssi.deploy.cx/ace/getstream?infohash=259cb14a1a9178a6b3f8228b25c057e
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=2410ae82a0227b51843b4cf47260c14aa8b4503e
 # #EXTINF:-1 tvg-id="id-xtra-eu" group-title="Познавательные" catchup-enable="0",Investigation Discovery HD
 # #EXTINF:-1 tvg-id="jimjam" group-title="Детские" catchup-enable="0",JimJam
-#EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL
+#EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=38c98858c0fc5e670820d2e1d308c71efcaa2ddc
 # http://178.124.152.238:8088/khl
 #EXTINF:-1 group-title="Спортивные" tvg-id="kxl-hd" catchup-enable="0",KHL Prime HD
@@ -973,7 +973,7 @@ http://jbvtcssi.deploy.cx/ace/getstream?infohash=1a6c974216f9305c02fb92962575f32
 # #EXTINF:-1 tvg-id="plan-b" group-title="Кино и сериалы" catchup-enable="0",Plan B HD
 # #EXTINF:-1 tvg-id="q-sport-ext" group-title="Спортивные" catchup-enable="0",Q League HD
 # #EXTINF:-1 tvg-id="qsport-kz" group-title="Спортивные" catchup-enable="0",Q Sport HD
-#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://logodix.com/logo/1348508.png" group-title="Спортивные" catchup-enable="0",Red Bull TV
+#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="http://epg.one/img2/6039.png" group-title="Спортивные" catchup-enable="0",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 #EXTINF:-1 tvg-id="rtg-tv" group-title="Познавательные" catchup-enable="0",RTG
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=dcc496fba4ca2f4541823deae31247ec6ecfab38
@@ -1283,7 +1283,8 @@ http://109.200.130.123:7537/play/a028
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
 # https://livetv.mylifeisgood.net.ru/channels/smile.m3u8
 #EXTINF:-1 tvg-id="sarafan" group-title="Развлекательные" catchup-enable="0",Сарафан
-http://jbvtcssi.deploy.cx/ace/getstream?infohash=5b251913732ccaf9c4df23a67023cb2b27432f4c
+http://tv.ttk.mx:9044
+# http://jbvtcssi.deploy.cx/ace/getstream?infohash=5b251913732ccaf9c4df23a67023cb2b27432f4c
 #EXTINF:-1 tvg-id="sovsek" group-title="Развлекательные" catchup-enable="0",Совершенно секретно
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=c18fd62e385573b8d4c8aa2cb5811a193e2befea
 # #EXTINF:-1 tvg-id="solovjinypomiot" group-title="Новости" catchup-enable="0",Соловьев LIVE
