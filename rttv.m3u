@@ -1132,7 +1132,7 @@ http://jbvtcssi.deploy.cx/ace/getstream?infohash=47c727a649958399a0b18aa3e92350f
 #EXTINF:-1 tvg-id="lubimoe-kino" group-title="Кино и сериалы" catchup-enable="0",Любимое кино HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=2d5d33c8c011603172bf9d778d6d77dcce6e0aca
 #EXTINF:-1 tvg-id="la-minor" group-title="Музыкальные" catchup-enable="0",Ля-минор
-http://178.57.121.38:8080/laminor/index.m3u8?token=test
+http://jbvtcssi.deploy.cx/ace/getstream?infohash=9fb2a296420e6a33d1de4e54611d7039d533a2b3
 # #EXTINF:-1 tvg-id="mama" group-title="Детские" catchup-enable="0",Мама
 #EXTINF:-1 tvg-id="matur-tv" group-title="Музыкальные" catchup-enable="1",Матур ТВ HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
@@ -1241,17 +1241,16 @@ http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 # http://185.23.80.28:8080/Retro/index.m3u8?token=test
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Родное кино
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=2f681a20a31e7e7a351702823d50c50dcf96fc0c
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Романтичное HD
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Романтичное HD
+http://jbvtcssi.deploy.cx/ace/getstream?infohash=fc05594eea6af5b2d82b022b768a92d1260b4ffe
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский бестселлер
-http://178.57.121.38:8080/rusbest/index.m3u8?token=test
+http://jbvtcssi.deploy.cx/ace/getstream?infohash=4a66f6256d4aafe9043ca46cb057e887ecf14980
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский детектив
-http://178.57.121.38:8080/rusdet/index.m3u8?token=test
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский иллюзион
-# http://185.23.80.28:8080/RusIlluzion/index.m3u8?token=test
+http://jbvtcssi.deploy.cx/ace/getstream?infohash=050d2c6e62118c2f8a75e26c1399d06cb07bb551
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский иллюзион HD
+http://jbvtcssi.deploy.cx/ace/getstream?infohash=ad985ece170940d1d93769dc9f2291469a718dfc
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Русский роман
-# http://185.23.80.28:8080/RusskijRoman/index.m3u8?token=test
 # #EXTINF:-1 tvg-id="oxotnik-i-rybolov" group-title="Хобби и увлечения" catchup-enable="0",Рыболов
-# http://185.23.80.28:8080/OxotnikIRybolov/index.m3u8?token=test
 #EXTINF:-1 tvg-id="ryzhy" group-title="Детские" catchup-enable="0",Рыжий
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=bde0b4aa0c8461fc252b5576a31a09e644e58d48
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Сапфир
@@ -1276,7 +1275,8 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=9ac637b44ab67b62d2e195c2e2e15178f96cb548
 # #EXTINF:-1 group-title="Детские" catchup-enable="0",СТС Kids
 # http://jbvtcssi.deploy.cx/ace/getstream?infohash=a07a6365dc2f3f7e1ca8dfdb63d05f45e187afb7
-# #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",ТВ 21
+#EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",ТВ 21
+http://jbvtcssi.deploy.cx/ace/getstream?infohash=1324b58bf20dd2dc6491353e6f09c5c19effb8e4
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Театр
 http://flu.ttk.mx:90/Teatr/mono.m3u8?token=hs06e
 #EXTINF:-1 tvg-id="football-ru" group-title="Спортивные" catchup-enable="0",Телеканал Футбол HD
