@@ -907,6 +907,8 @@ http://jbvtcssi.deploy.cx/ace/getstream?infohash=5d52371d64c6f92b5c5b9eaf49db091
 # #EXTINF:-1 group-title="Новости" catchup-enable="0",CNBC
 #EXTINF:-1 tvg-id="cinema-ru" group-title="Кино и сериалы" catchup-enable="0",Cinema
 http://185.46.48.18:80/cinema/tracks-v1a1/mono.m3u8
+# http://tv.ttk.mx:9053
+# http://jbvtcssi.deploy.cx/ace/getstream?infohash=3a0d0d196795f2d8053d16610f9dec9f13479c92
 # #EXTINF:-1 tvg-id="cnn" group-title="Новости" catchup-enable="0",CNN International Europe HD
 # #EXTINF:-1 tvg-id="da-vinci" group-title="Детские" catchup-enable="0",Da Vinci
 # http://s5.merlive.am:80/DaVinci/index.m3u8
@@ -1044,6 +1046,8 @@ http://109.200.130.123:7537/play/a02c
 # http://jbvtcssi.deploy.cx/ace/getstream?infohash=49dff9091e5f43a3d83a7ceada1fdfa60d969c4d
 #EXTINF:-1 tvg-id="v-mire-zhivotnyx-hd" group-title="Познавательные" catchup-enable="0",В мире животных HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=db78bbaaa4dbb877cfa87070db8179cd0c78b515
+#EXTINF:-1 tvg-id="vmeste-rf" group-title="Новости" catchup-enable="0",Вместе-РФ
+http://tv.ttk.mx:9103
 #EXTINF:-1 tvg-id="voprosy-i-otvety" group-title="Познавательные" catchup-enable="0",Вопросы и ответы
 http://tv.ttk.mx:9038
 #EXTINF:-1 tvg-id="glazami-turista" group-title="Познавательные" catchup-enable="0",Глазами туриста HD
@@ -1122,17 +1126,19 @@ http://65.21.85.175:8000/play/a01c/index.m3u8?token=livetv
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=80e761abc1c2793ee2ceb87485db40b99bb13407
 #EXTINF:-1 tvg-id="kino-tv" group-title="Кино и сериалы" catchup-enable="0",Кино ТВ HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=931fedb03c0725cf589d4f021558f6069d843c5e
+# http://tv.ttk.mx:9113
 #EXTINF:-1 tvg-id="kinouzhas" group-title="Кино и сериалы" catchup-enable="0",Киноужас HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=44f248fb3e52db27504a1fa72560e0aa187ac72e
 #EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы" catchup-enable="0",Кинохит HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=373b097439b972056ddd336f74949e5d012a4634
 #EXTINF:-1 tvg-id="komedijnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Комедийное HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=ac61a121998a3dcd1aa2a0bda6c8d757f89388af
-# #EXTINF:-1 tvg-id="russkaya-komedia" group-title="Кино и сериалы" catchup-enable="0",Комедия
+#EXTINF:-1 tvg-id="russkaya-komedia" group-title="Кино и сериалы" catchup-enable="0",Комедия
+http://tv.ttk.mx:9050
 # http://jbvtcssi.deploy.cx/ace/getstream?infohash=23780708acc22cf6e378a8f674cacbcbd2c4cf8a
 #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Конный мир
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=223585a877fa51808b5c6244b3f0591c82e84cbd
-# #EXTINF:-1 tvg-id="mir-uvlecheniy" group-title="Хобби и увлечения" catchup-enable="0",Кто Куда
+# #EXTINF:-1 tvg-id="mir-uvlecheniy" group-title="Хобби и увлечения" catchup-enable="0",Кто куда
 #EXTINF:-1 tvg-id="kuxnia-tv" group-title="Хобби и увлечения" catchup-enable="0",Кухня HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=47c727a649958399a0b18aa3e92350f42a58d247
 # #EXTINF:-1 tvg-id="liova" group-title="Детские" catchup-enable="0",Лёва
@@ -1170,9 +1176,12 @@ http://jbvtcssi.deploy.cx/ace/getstream?infohash=7f6ceda82b964c416983ab233787cee
 # http://tv.ttk.mx:9116
 #EXTINF:-1 tvg-id="mir-24" group-title="Новости" catchup-enable="0",Мир 24 HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
-# #EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Новости" catchup-enable="0",Москва 24
-# #EXTINF:-1 group-title="Новости" catchup-enable="0",Москва. Доверие
-# #EXTINF:-1 group-title="Кино и сериалы" tvg-id="mosfilm" catchup-enable="0",Мосфильм. Золотая коллекция HD
+#EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Новости" catchup-enable="0",Москва 24
+http://tv.ttk.mx:9097
+#EXTINF:-1 group-title="Новости" catchup-enable="0",Москва. Доверие
+http://tv.ttk.mx:9091
+#EXTINF:-1 group-title="Кино и сериалы" tvg-id="mosfilm" catchup-enable="0",Мосфильм. Золотая коллекция HD
+http://jbvtcssi.deploy.cx/ace/getstream?infohash=7489852d25d4dbb269c1352042c7423f13220903
 # #EXTINF:-1 tvg-id="motorsportv-tv" group-title="Спортивные" catchup-enable="0",Моторспорт ТВ
 #EXTINF:-1 tvg-id="moya-planeta" group-title="Познавательные" catchup-enable="0",Моя Планета HD
 http://tv.ttk.mx:9087
