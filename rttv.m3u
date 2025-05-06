@@ -949,7 +949,6 @@ http://jbvtcssi.deploy.cx/ace/getstream?infohash=38c98858c0fc5e670820d2e1d308c71
 #EXTINF:-1 group-title="Спортивные" tvg-id="kxl-hd" catchup-enable="0",KHL Prime HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=242553daf687872eca8e184c238dc11ab712e9ac
 # http://194.143.148.28:8080/KHL_HD/mpegts
-# http://sc.id-tv.kz/FHD_KHL_34_35.m3u8
 # #EXTINF:-1 tvg-id="mcm-top" group-title="Музыкальные" catchup-enable="0",MCM Top
 #EXTINF:-1 tvg-id="mezzo" group-title="Музыкальные" catchup-enable="0",Mezzo
 http://178.212.71.253:8002/play/a00n/index.m3u8
@@ -1078,7 +1077,7 @@ http://jbvtcssi.deploy.cx/ace/getstream?infohash=d4e1984fe9e54956aec065fe4532841
 #EXTINF:-1 tvg-id="zhivaya-planeta" group-title="Познавательные" catchup-enable="0",Живая Планета
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=7670a5eb8855ee531fd83071d3f4dcb4088608c2
 #EXTINF:-1 tvg-id="zhivaya-priroda" group-title="Познавательные" catchup-enable="0",Живая природа HD
-https://livetv.mylifeisgood.net.ru/channels/jivyapriroda.m3u8
+http://tv.ttk.mx:9066
 #EXTINF:-1 tvg-id="zhivi-aktivno" group-title="Хобби и увлечения" catchup-enable="0",Живи активно HD
 https://livetv.mylifeisgood.net.ru/channels/jiviactivno.m3u8
 #EXTINF:-1 tvg-id="zagorodnaya-zhizn" group-title="Хобби и увлечения" catchup-enable="0",Загородная жизнь
@@ -1095,9 +1094,9 @@ http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=f38c884bce595a962f75f838596165c99ef8402a
 #EXTINF:-1 tvg-id="indiyskoe-kino" group-title="Кино и сериалы" catchup-enable="0",Индийское кино
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=c62affbc37a7b013f7e47d72e11e09e5879a053b
-# http://sc.id-tv.kz/Indiiskoe_kino.m3u8
 #EXTINF:-1 tvg-id="istoria" group-title="Познавательные" catchup-enable="0",История
-http://jbvtcssi.deploy.cx/ace/getstream?infohash=14f09b38b33b1dc0e518b725745ac4b629d65178
+http://tv.ttk.mx:9048
+# http://jbvtcssi.deploy.cx/ace/getstream?infohash=14f09b38b33b1dc0e518b725745ac4b629d65178
 #EXTINF:-1 tvg-id="ginger-hd" group-title="Детские" catchup-enable="0",Капитан Фантастика HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=f45b5a67839dad483c93132cbbb7c1f88f3f66a9
 # #EXTINF:-1 tvg-id="kamedi" group-title="Кино и сериалы" catchup-enable="0",Камеди
@@ -1227,8 +1226,7 @@ http://tv.ttk.mx:9034
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=10cb1b48a429a04bbcdbcd75835f26062c4e41b4
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Первый вегетарианский
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=d4f41fa67812cfdc4b952abef6df909b1eaa5f7e
-#EXTINF:-1 tvg-id="eureka-hd" group-title="Познавательные" catchup-enable="0",Первый космический HD
-http://jbvtcssi.deploy.cx/ace/getstream?infohash=07204f93c28678715f322d233aedda765e45ee5e
+# #EXTINF:-1 tvg-id="eureka-hd" group-title="Познавательные" catchup-enable="0",Первый космический HD
 #EXTINF:-1 tvg-id="onemuz" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5365.png" catchup-enable="0",Первый музыкальный BY
 http://rtmp.one.by:1300
 #EXTINF:-1 tvg-id="onemuz" group-title="Музыкальные" tvg-logo="http://epg.it999.ru/img2/5364.png" catchup-enable="0",Первый музыкальный RU
@@ -1239,7 +1237,6 @@ https://pkvc-hls3.cdnvideo.ru/Pobeda/smil:Pobeda.smil/chunklist_b5128000_slru.m3
 #EXTINF:-1 tvg-id="poexali" group-title="Познавательные" catchup-enable="0",Поехали! HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=7f68905586e70b6d2684f6ded8e6367365906f5c
 # http://91.247.68.229:8000/play/Poehali/index.m3u8
-# http://sc.id-tv.kz/poehali_34_35.m3u8
 #EXTINF:-1 tvg-id="prikluchenia-hd" group-title="Познавательные" catchup-enable="0",Приключения HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=9a7419d0e9ccf16b5c474cb9c80f3b5cc08d7872
 #EXTINF:-1 tvg-id="pro-lyubov" group-title="Кино и сериалы" catchup-enable="0",Про Любовь HD
@@ -1299,8 +1296,7 @@ http://jbvtcssi.deploy.cx/ace/getstream?infohash=1324b58bf20dd2dc6491353e6f09c5c
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=9d4b38b7218803e1d877b01b3a6c6db1a494bb6a
 #EXTINF:-1 tvg-id="telekafe" group-title="Хобби и увлечения" catchup-enable="0",Телекафе
 http://tv.ttk.mx:9081
-#EXTINF:-1 tvg-id="teleputeshestvia" group-title="Познавательные" catchup-enable="0",Телепутешествия
-http://jbvtcssi.deploy.cx/ace/getstream?infohash=c3b9dd38119147b0f5ca869091a770b81049b399
+# #EXTINF:-1 tvg-id="teleputeshestvia" group-title="Познавательные" catchup-enable="0",Телепутешествия
 #EXTINF:-1 tvg-id="texno-24" group-title="Познавательные" catchup-enable="0",Техно 24
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=bfe2959a7f07d3b572528925b801a4dd24bc8aec
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",ТНТ Music HD
