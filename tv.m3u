@@ -977,9 +977,12 @@ http://jbvtcssi.deploy.cx/ace/getstream?infohash=dcc496fba4ca2f4541823deae31247e
 https://hls-03-video.webcaramba.com/rutv/live_720/index.m3u8
 #EXTINF:-1 tvg-id="rt-news" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/300px-Russia-today-logo.svg.png" group-title="Новости" catchup-enable="0",Russia Today HD
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
-# #EXTINF:-1 tvg-id="russian-musicbox" group-title="Музыкальные" catchup-enable="0",Russian Music Box HD
-# #EXTINF:-1 tvg-id="setanta-sports" group-title="Спортивные" catchup-enable="0",Setanta Sports 1 HD
-# #EXTINF:-1 tvg-id="setanta-sports-plus" group-title="Спортивные" catchup-enable="0",Setanta Sports 2 HD
+#EXTINF:-1 tvg-id="russian-musicbox" group-title="Музыкальные" catchup-enable="0",Russian Music Box HD
+http://jbvtcssi.deploy.cx/ace/getstream?infohash=e7631c1d6d20cf5fb4e09a3b85cd6b7cea049be3
+#EXTINF:-1 tvg-id="setanta-sports" group-title="Спортивные" catchup-enable="0",Setanta Sports 1 HD
+http://jbvtcssi.deploy.cx/ace/getstream?infohash=626c5326f29984bbedceee04c9694a0447ba0a9a
+#EXTINF:-1 tvg-id="setanta-sports-plus" group-title="Спортивные" catchup-enable="0",Setanta Sports 2 HD
+http://jbvtcssi.deploy.cx/ace/getstream?infohash=fded295edff9d57adb77cf02a08c5f2fcb9e608b
 # #EXTINF:-1 group-title="Телемагазины" catchup-enable="0",Shop&Show
 # #EXTINF:-1 group-title="Телемагазины" catchup-enable="0",Shopping Live
 #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Cinema
@@ -1169,7 +1172,6 @@ http://194.143.148.28:8080/Moya_Planeta/mpegts
 http://65.21.85.175:8000/play/a01o/index.m3u8?token=livetv
 # #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Мужской
 # #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Музыка Первого
-# http://185.23.80.28:8080/MuzikaPervogo/index.m3u8?token=test
 #EXTINF:-1 tvg-id="mult" group-title="Детские" catchup-enable="0",Мульт HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=120cffa3087fc07ea13c83f2c4fff8f3f5767eb8
 # http://stream01.vnet.am/Mult/mono.m3u8
@@ -1274,8 +1276,8 @@ http://jbvtcssi.deploy.cx/ace/getstream?infohash=9079f1340c8fca1236c24b038b218cd
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="strashnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Страшное HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=9ac637b44ab67b62d2e195c2e2e15178f96cb548
-#EXTINF:-1 group-title="Детские" catchup-enable="0",СТС Kids
-http://jbvtcssi.deploy.cx/ace/getstream?infohash=a07a6365dc2f3f7e1ca8dfdb63d05f45e187afb7
+# #EXTINF:-1 group-title="Детские" catchup-enable="0",СТС Kids
+# http://jbvtcssi.deploy.cx/ace/getstream?infohash=a07a6365dc2f3f7e1ca8dfdb63d05f45e187afb7
 # #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",ТВ 21
 #EXTINF:-1 group-title="Развлекательные" catchup-enable="0",Театр
 http://flu.ttk.mx:90/Teatr/mono.m3u8?token=hs06e
@@ -1291,7 +1293,7 @@ http://jbvtcssi.deploy.cx/ace/getstream?infohash=bfe2959a7f07d3b572528925b801a4d
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Точка отрыва HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=8ee0c3512883fe9cd8fc597e30a4cf45631c92df
-#EXTINF:-1 group-title="Детские" catchup-enable="0",Уникум
+#EXTINF:-1 group-title="Детские" catchup-enable="0",Уникум HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=f19a2cd4c0e4924b79d207c39a9570bcf2620f70
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Усадьба
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=69af62012e44a54dbe1d7a330bc53d037dd7cc3e
