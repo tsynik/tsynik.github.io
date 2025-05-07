@@ -116,18 +116,18 @@ http://tv.ttk.mx:9075
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",СТС HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=00ed244a3f5e36067b57b6a62b18cfa5d9dd0e22
 # https://livetv.mylifeisgood.net.ru/channels/sts.m3u8
-# #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Суббота! HD
+#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Суббота! HD
+https://livetv.mylifeisgood.net.ru/channels/subbota.m3u8
 # http://jbvtcssi.deploy.cx/ace/getstream?infohash=350f323f04126624a7bde8885d4320fd00ea55d2
-# https://livetv.mylifeisgood.net.ru/channels/subbota.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",ТВ-3 HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=3403267623697a7092a10478aad7f234f2ce4a64
 # https://livetv.mylifeisgood.net.ru/channels/tv3.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",ТНТ HD
-http://jbvtcssi.deploy.cx/ace/getstream?infohash=a6169d01fb2b8a62b45857666946732773c651d1
-# http://tv.ttk.mx:9128
+http://tv.ttk.mx:9128
 # https://livetv.mylifeisgood.net.ru/channels/tnthd.m3u8
-# #EXTINF:-1 tvg-id="tnt4" group-title="HD и UHD" catchup-enable="0",ТНТ4 HD
-# https://livetv.mylifeisgood.net.ru/channels/tnt4.m3u8
+# http://jbvtcssi.deploy.cx/ace/getstream?infohash=a6169d01fb2b8a62b45857666946732773c651d1
+#EXTINF:-1 tvg-id="tnt4" group-title="HD и UHD" catchup-enable="0",ТНТ4 HD
+https://livetv.mylifeisgood.net.ru/channels/tnt4.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Ювелирочка HD
 http://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
 #
@@ -1219,6 +1219,7 @@ http://jbvtcssi.deploy.cx/ace/getstream?infohash=2fcdf632729bef234bfe1048532be31
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=5e41e16355cfe58b6aa24820ce4110b3e1fd7f05
 #EXTINF:-1 tvg-id="nst" group-title="Кино и сериалы" catchup-enable="0",НСТ
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=2a996dbd7180fe0fa2c147b7ee1d532c220c2457
+# http://tv.ttk.mx:9057
 #EXTINF:-1 tvg-id="ntv-pravo" group-title="Развлекательные" catchup-enable="0",НТВ Право
 https://cdn.ntv.ru/th_pravo/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="ntv-serial" group-title="Кино и сериалы" catchup-enable="0",НТВ Сериал
