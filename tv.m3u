@@ -879,7 +879,8 @@ http://jbvtcssi.deploy.cx/ace/getstream?infohash=2c4f6570d3c6cdbd726a98fd1df2bd1
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=bd3909c04c1086803526c7b06a8266654a70e482
 # http://stream01.vnet.am/AmediaPremium/mono.m3u8
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Ani
-http://31.148.48.15:80/Ani/index.m3u8?token=test
+http://tv.ttk.mx:9049
+# http://31.148.48.15:80/Ani/index.m3u8?token=test
 #EXTINF:-1 tvg-id="animal-planet" group-title="Познавательные" catchup-enable="0",Animal Planet HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=568159b1059c7bbe3eaf40f123541fef86ef83cb
 #EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные" catchup-enable="0",Arabica Music
@@ -910,8 +911,8 @@ http://185.46.48.18:80/cinema/tracks-v1a1/mono.m3u8
 # http://tv.ttk.mx:9053
 # http://jbvtcssi.deploy.cx/ace/getstream?infohash=3a0d0d196795f2d8053d16610f9dec9f13479c92
 # #EXTINF:-1 tvg-id="cnn" group-title="Новости" catchup-enable="0",CNN International Europe HD
-# #EXTINF:-1 tvg-id="da-vinci" group-title="Детские" catchup-enable="0",Da Vinci
-# http://s5.merlive.am:80/DaVinci/index.m3u8
+#EXTINF:-1 tvg-id="da-vinci" group-title="Детские" catchup-enable="0",Da Vinci
+http://tv.ttk.mx:9188
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=6477d56108d979adf1a069b26c820e749b94b9da
 # https://livetv.mylifeisgood.net.ru/channels/discovery.m3u8
@@ -1111,6 +1112,7 @@ http://jbvtcssi.deploy.cx/ace/getstream?infohash=c1dee6517b501723725b0ba578e2134
 # #EXTINF:-1 tvg-id="kineko" group-title="Кино и сериалы" catchup-enable="0",Кинеко HD
 #EXTINF:-1 tvg-id="kinopremiera-hd" group-title="Кино и сериалы" catchup-enable="0",Кинопремьера HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=8eb2c2a4534bcbaa1873e258e0fa4fcdad0dc05c
+# http://tv.ttk.mx:9162
 #EXTINF:-1 tvg-id="kinosvidanie" group-title="Кино и сериалы" catchup-enable="0",Киносвидание HD
 http://65.21.85.175:8000/play/a01a/index.m3u8?token=livetv
 # http://jbvtcssi.deploy.cx/ace/getstream?infohash=ce1735b634b02267a74367a51f0ef8ef66630ef7
@@ -1125,8 +1127,8 @@ http://65.21.85.175:8000/play/a01c/index.m3u8?token=livetv
 #EXTINF:-1 tvg-id="kinoseria" group-title="Кино и сериалы" catchup-enable="0",Киносерия HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=80e761abc1c2793ee2ceb87485db40b99bb13407
 #EXTINF:-1 tvg-id="kino-tv" group-title="Кино и сериалы" catchup-enable="0",Кино ТВ HD
-http://jbvtcssi.deploy.cx/ace/getstream?infohash=931fedb03c0725cf589d4f021558f6069d843c5e
-# http://tv.ttk.mx:9113
+http://tv.ttk.mx:9113
+# http://jbvtcssi.deploy.cx/ace/getstream?infohash=931fedb03c0725cf589d4f021558f6069d843c5e
 #EXTINF:-1 tvg-id="kinouzhas" group-title="Кино и сериалы" catchup-enable="0",Киноужас HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=44f248fb3e52db27504a1fa72560e0aa187ac72e
 #EXTINF:-1 tvg-id="kinoxit" group-title="Кино и сериалы" catchup-enable="0",Кинохит HD
@@ -1194,9 +1196,11 @@ http://tv.ttk.mx:9165
 http://tv.ttk.mx:9078
 #EXTINF:-1 tvg-id="mult" group-title="Детские" catchup-enable="0",Мульт HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=120cffa3087fc07ea13c83f2c4fff8f3f5767eb8
+# http://tv.ttk.mx:9086
 # http://stream01.vnet.am/Mult/mono.m3u8
 #EXTINF:-1 tvg-id="multimuzyka" group-title="Детские" catchup-enable="0",Мульт и музыка
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=78250d0bb48bb99877ef2708f5c98ffa532d5a08
+# http://tv.ttk.mx:9045
 #EXTINF:-1 group-title="Детские" catchup-enable="0",Мультиландия
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=b229a0b136490e63cd361c1dcd0f55d45281a87a
 # #EXTINF:-1 tvg-id="nano-tv" group-title="Познавательные" catchup-enable="0",Нано ТВ
@@ -1225,6 +1229,7 @@ https://cdn.ntv.ru/th_style/tracks-v1a1/playlist.m3u8
 https://cdn.ntv.ru/th_hit/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="o_" tvg-name="О!" group-title="Детские" catchup-enable="0",О!
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=1fdaf5914ea4b80d10b1053de7d740fe31f31fee
+# http://tv.ttk.mx:9092
 #EXTINF:-1 tvg-id="o2tv" tvg-name="О2ТВ" group-title="Музыкальные" catchup-enable="0",О!2
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=13dedec898afe474d90fd6d55dbf0bacc8da8084
 #EXTINF:-1 tvg-id="oruzhie" group-title="Хобби и увлечения" catchup-enable="0",Оружие
