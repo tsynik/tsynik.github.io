@@ -117,7 +117,8 @@ http://158.160.149.81:8080/5340/index.m3u8
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Суббота! HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=350f323f04126624a7bde8885d4320fd00ea55d2
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",ТВ-3 HD
-http://jbvtcssi.deploy.cx/ace/getstream?infohash=3403267623697a7092a10478aad7f234f2ce4a64
+http://178.217.72.66:8080/TV3/index.m3u8
+# http://jbvtcssi.deploy.cx/ace/getstream?infohash=3403267623697a7092a10478aad7f234f2ce4a64
 #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",ТНТ HD
 http://178.217.72.66:8080/TNT_HD/index.m3u8
 # http://jbvtcssi.deploy.cx/ace/getstream?infohash=a6169d01fb2b8a62b45857666946732773c651d1
@@ -872,11 +873,10 @@ http://jbvtcssi.deploy.cx/ace/getstream?infohash=2c4f6570d3c6cdbd726a98fd1df2bd1
 #EXTINF:-1 tvg-id="amedia-premium" group-title="Кино и сериалы" catchup-enable="0",Amedia Premium HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=bd3909c04c1086803526c7b06a8266654a70e482
 # http://stream01.vnet.am/AmediaPremium/mono.m3u8
-#EXTINF:-1 group-title="Детские" catchup-enable="0",Ani
-http://tv.ttk.mx:9049
-# http://31.148.48.15:80/Ani/index.m3u8?token=test
+# #EXTINF:-1 group-title="Детские" catchup-enable="0",Ani
 #EXTINF:-1 tvg-id="animal-planet" group-title="Познавательные" catchup-enable="0",Animal Planet HD
-http://jbvtcssi.deploy.cx/ace/getstream?infohash=568159b1059c7bbe3eaf40f123541fef86ef83cb
+http://178.217.72.66:8080/Animal_Planet_HD/index.m3u8
+# http://jbvtcssi.deploy.cx/ace/getstream?infohash=568159b1059c7bbe3eaf40f123541fef86ef83cb
 #EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные" catchup-enable="0",Arabica Music
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=96fe1281760be8e40a28e120f99def011b0b943f
 #EXTINF:-1 tvg-id="bbc" group-title="Новости" catchup-enable="0",BBC World News HD
@@ -908,6 +908,7 @@ http://185.46.48.18:80/cinema/tracks-v1a1/mono.m3u8
 # #EXTINF:-1 tvg-id="da-vinci" group-title="Детские" catchup-enable="0",Da Vinci
 #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel HD
 http://158.160.149.81:8080/3465/index.m3u8
+# http://178.217.72.66:8080/Discovery_HD/index.m3u8
 # http://jbvtcssi.deploy.cx/ace/getstream?infohash=6477d56108d979adf1a069b26c820e749b94b9da
 # #EXTINF:-1 tvg-id="deutsche-welle-eu" group-title="Новости" catchup-enable="0",DW Europe
 #EXTINF:-1 tvg-id="euronews-en" group-title="Новости" catchup-enable="0",EuroNews
@@ -1004,12 +1005,16 @@ https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=8adf3a3dc4379137b05d1fa340c5cc84283d7e72
 #EXTINF:-1 tvg-id="travel-adventure" group-title="Познавательные" catchup-enable="0",Travel+Adventure HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=6e96ec55341e3bf654d0c9335fffb43f0a7e46a2
+# http://178.217.72.66:8080/Travel_And_Adventure/index.m3u8
 #EXTINF:-1 tvg-id="viasat-explore" group-title="Познавательные" catchup-enable="0",Viju Explore HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=361e2b2f24d617ed599dc354180c80cd1705f5c0
+# http://178.217.72.66:8080/Viasat_Explorer/index.m3u8
 #EXTINF:-1 tvg-id="viasat-history" group-title="Познавательные" catchup-enable="0",Viju History HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=0f88c98c5e4f31e9918e16d469a495cc15dcfe50
+# http://178.217.72.66:8080/Viasat_History/index.m3u8
 #EXTINF:-1 tvg-id="viasat-nature" group-title="Познавательные" catchup-enable="0",Viju Nature HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=724f24ba3e7faf98394f75de217d1e404700f41b
+# http://178.217.72.66:8080/Viasat_Nature/index.m3u8
 #EXTINF:-1 tvg-id="tv1000" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=b2937e666b87952e13f299d9ee52bd77117f5ccb
 # http://65.21.85.175:8000/play/a011/index.m3u8?token=livetv
@@ -1180,10 +1185,10 @@ http://jbvtcssi.deploy.cx/ace/getstream?infohash=fc5e35ba19a015dc14fa4060fb922f7
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=7f6ceda82b964c416983ab233787cee4e2333435
 #EXTINF:-1 tvg-id="mir-24" group-title="Новости" catchup-enable="0",Мир 24 HD
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
-# #EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Новости" catchup-enable="0",Москва 24
-# http://tv.ttk.mx:9097
-# #EXTINF:-1 group-title="Новости" catchup-enable="0",Москва. Доверие
-# http://tv.ttk.mx:9091
+#EXTINF:-1 channelId="21" tvg-id="moskva-24" group-title="Новости" catchup-enable="0",Москва 24
+http://178.217.72.66:8080/Moskva_24/index.m3u8
+#EXTINF:-1 group-title="Новости" catchup-enable="0",Москва. Доверие
+http://178.212.71.253:8000/play/53/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" tvg-id="mosfilm" catchup-enable="0",Мосфильм. Золотая коллекция
 http://158.160.149.81:8080/6839/index.m3u8
 #EXTINF:-1 group-title="Кино и сериалы" tvg-id="mosfilm" catchup-enable="0",Мосфильм. Золотая коллекция HD
@@ -1191,12 +1196,11 @@ http://jbvtcssi.deploy.cx/ace/getstream?infohash=7489852d25d4dbb269c1352042c7423
 # #EXTINF:-1 tvg-id="motorsportv-tv" group-title="Спортивные" catchup-enable="0",Моторспорт ТВ
 #EXTINF:-1 tvg-id="moya-planeta" group-title="Познавательные" catchup-enable="0",Моя Планета
 http://194.143.148.28:8080/Moya_Planeta/mpegts
-# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино HD
-# http://tv.ttk.mx:9165
+#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Мужское кино
+http://178.212.71.253:8000/play/126/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Мужской HD
 http://158.160.149.81:8080/8850/index.m3u8
 # #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Музыка Первого
-# http://tv.ttk.mx:9078
 #EXTINF:-1 tvg-id="mult" group-title="Детские" catchup-enable="0",Мульт HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=120cffa3087fc07ea13c83f2c4fff8f3f5767eb8
 # http://stream01.vnet.am/Mult/mono.m3u8
@@ -1293,14 +1297,16 @@ http://158.160.149.81:8080/236/index.m3u8
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=c18fd62e385573b8d4c8aa2cb5811a193e2befea
 # #EXTINF:-1 tvg-id="solovjinypomiot" group-title="Новости" catchup-enable="0",Соловьев LIVE
 # http://jbvtcssi.deploy.cx/ace/getstream?infohash=e6bdd492cef8a0c82a4eed98308ca70cb04e0da7
-# #EXTINF:-1 tvg-id="start" group-title="Спортивные" catchup-enable="0",Старт HD
-#EXTINF:-1 tvg-id="start-triumf" group-title="Спортивные" catchup-enable="0",Старт Триумф HD
-http://jbvtcssi.deploy.cx/ace/getstream?infohash=9079f1340c8fca1236c24b038b218cdba8e1861d
+#EXTINF:-1 tvg-id="start" group-title="Спортивные" catchup-enable="0",Старт
+http://178.212.71.253:8000/play/81/index.m3u8
+# #EXTINF:-1 tvg-id="start-triumf" group-title="Спортивные" catchup-enable="0",Старт Триумф HD
+# http://jbvtcssi.deploy.cx/ace/getstream?infohash=9079f1340c8fca1236c24b038b218cdba8e1861d
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Страна FM HD
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="strashnoe-hd" group-title="Кино и сериалы" catchup-enable="0",Страшное HD
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=9ac637b44ab67b62d2e195c2e2e15178f96cb548
-# #EXTINF:-1 group-title="Детские" catchup-enable="0",СТС Kids
+#EXTINF:-1 group-title="Детские" catchup-enable="0",СТС Kids HD
+http://178.217.72.66:8080/ctc_kids_hd/index.m3u8
 # http://jbvtcssi.deploy.cx/ace/getstream?infohash=a07a6365dc2f3f7e1ca8dfdb63d05f45e187afb7
 #EXTINF:-1 tvg-id="tvxxi" group-title="Кино и сериалы" catchup-enable="0",ТВ 21
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=1324b58bf20dd2dc6491353e6f09c5c19effb8e4
@@ -1310,7 +1316,8 @@ http://195.26.83.96:7005/play/16/index.m3u8
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=9d4b38b7218803e1d877b01b3a6c6db1a494bb6a
 #EXTINF:-1 tvg-id="telekafe" group-title="Хобби и увлечения" catchup-enable="0",Телекафе
 http://178.217.72.66:8080/Telekafe/index.m3u8
-# #EXTINF:-1 tvg-id="teleputeshestvia" group-title="Познавательные" catchup-enable="0",Телепутешествия
+#EXTINF:-1 tvg-id="teleputeshestvia" group-title="Познавательные" catchup-enable="0",Телепутешествия
+http://178.217.72.66:8080/teleputeshestviya/index.m3u8
 #EXTINF:-1 tvg-id="texno-24" group-title="Познавательные" catchup-enable="0",Техно 24
 http://jbvtcssi.deploy.cx/ace/getstream?infohash=bfe2959a7f07d3b572528925b801a4dd24bc8aec
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",ТНТ Music HD
