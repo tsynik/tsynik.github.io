@@ -892,12 +892,12 @@
       if (Lampa.Storage.field('somafm_show_info') === true) {
         info = new Info(station);
         info.create();
-        document.body.addClass('ambience--enable');
-        Lampa.Background.change(station.largeimage || IMG_BG); // image - 120 | largeimage - 256 | xlimage 512
         Lampa.Controller.add('content', {
           invisible: true,
           toggle: function toggle() {
             Lampa.Controller.clear();
+            document.body.addClass('ambience--enable');
+            Lampa.Background.change(station.largeimage || IMG_BG); // image - 120 | largeimage - 256 | xlimage 512
           },
           back: function back() {
             document.body.removeClass('ambience--enable');
