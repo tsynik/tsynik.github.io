@@ -84,8 +84,8 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 # #EXTINF:-1 tvg-id="tlc" group-title="HD и UHD" catchup-enable="0",TLC HD
 # #EXTINF:-1 channelId="160" tvg-id="ultra-hd-cinema" group-title="HD и UHD" catchup-enable="0",Ultra HD Cinema
 # http://localhost/ace/getstream?infohash=4447d0a31556f25b0ebce1bac9c8f60c669bc68d
-#EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Домашний HD
-http://localhost/ace/getstream?infohash=ad5c09fb6b08bc1aefe4b6bf292c4db6a04f7700
+# #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",Домашний HD
+# http://localhost/ace/getstream?infohash=ad5c09fb6b08bc1aefe4b6bf292c4db6a04f7700
 #EXTINF:-1 tvg-id="zvezda" group-title="HD и UHD" catchup-enable="0",Звезда HD
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-id="mir" group-title="HD и UHD" catchup-enable="0",Мир HD
@@ -840,52 +840,51 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_U_7/variant.m3u8
 # smartoteka https://iptvlist.ru/playlists2/smartoteka | https://iptvlist.ru/iptv2/iptv-russia-refresh-2/ | https://iptvlist.ru/ru.m3u
 # LoganetX https://github.com/blackbirdstudiorus/LoganetXIPTV/blob/main/LoganetXAll.m3u
 # https://t.me/freeneo_net https://github.com/Dimonovich/TV http://50na50.net/IPTV-list.m3u
-# aceproxy https://deploy.cx/worker/f724a176-7e6d-4ad1-9c86-84bdbfdb8a4e
+# aceproxy
 #
 #EXTINF:-1 channelId="52" tvg-id="360-news" tvg-name="360° Новости" group-title="Новости" catchup-enable="0",360° Новости HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 # #EXTINF:-1 tvg-id="365-dnej" group-title="Познавательные" catchup-enable="0",365 Дней ТВ
-#EXTINF:-1 tvg-id="sony-turbo" group-title="Кино и сериалы" catchup-enable="0",.BLACK HD
-http://localhost/ace/getstream?infohash=18cf2d3491233fa980add6db246847a5077be047
-#EXTINF:-1 tvg-id="sony-tv" group-title="Кино и сериалы" catchup-enable="0",.RED HD
-http://localhost/ace/getstream?infohash=cd680104166a605ed27730dcaec73bf81221d540
-#EXTINF:-1 tvg-id="sony-scifi" group-title="Кино и сериалы" catchup-enable="0",.Sci-Fi HD
-http://localhost/ace/getstream?infohash=4155750f93c063a053c9d6628657616b0457eb9f
-#EXTINF:-1 tvg-id="1hd" tvg-id="1hd" group-title="Музыкальные" catchup-enable="0",1HD Music
-http://localhost/ace/getstream?infohash=5b12f2cf29ad1c793998cf82fbd07ca50c9f1b59
-#EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы" catchup-enable="0",Amedia 1 HD
-http://localhost/ace/getstream?infohash=cce1a8bc804cefa65bc72638f3a5f0252b086f90
-#EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы" catchup-enable="0",Amedia 2 HD
-http://localhost/ace/getstream?infohash=2a11aebead8123a02ed1413671eaa1e1ad33a408
-#EXTINF:-1 tvg-id="amedia-hit" group-title="Кино и сериалы" catchup-enable="0",Amedia Hit HD
-http://localhost/ace/getstream?infohash=2c4f6570d3c6cdbd726a98fd1df2bd1dcb60eab9
+# #EXTINF:-1 tvg-id="sony-turbo" group-title="Кино и сериалы" catchup-enable="0",.BLACK HD
+# http://localhost/ace/getstream?infohash=18cf2d3491233fa980add6db246847a5077be047
+# #EXTINF:-1 tvg-id="sony-tv" group-title="Кино и сериалы" catchup-enable="0",.RED HD
+# http://localhost/ace/getstream?infohash=cd680104166a605ed27730dcaec73bf81221d540
+# #EXTINF:-1 tvg-id="sony-scifi" group-title="Кино и сериалы" catchup-enable="0",.Sci-Fi HD
+# http://localhost/ace/getstream?infohash=4155750f93c063a053c9d6628657616b0457eb9f
+# #EXTINF:-1 tvg-id="1hd" tvg-id="1hd" group-title="Музыкальные" catchup-enable="0",1HD Music
+# http://localhost/ace/getstream?infohash=5b12f2cf29ad1c793998cf82fbd07ca50c9f1b59
+# #EXTINF:-1 tvg-id="amedia1" group-title="Кино и сериалы" catchup-enable="0",Amedia 1 HD
+# http://localhost/ace/getstream?infohash=cce1a8bc804cefa65bc72638f3a5f0252b086f90
+# #EXTINF:-1 tvg-id="amedia2" group-title="Кино и сериалы" catchup-enable="0",Amedia 2 HD
+# http://localhost/ace/getstream?infohash=2a11aebead8123a02ed1413671eaa1e1ad33a408
+# #EXTINF:-1 tvg-id="amedia-hit" group-title="Кино и сериалы" catchup-enable="0",Amedia Hit HD
+# http://localhost/ace/getstream?infohash=2c4f6570d3c6cdbd726a98fd1df2bd1dcb60eab9
 # http://stream01.vnet.am/Nauka/mono.m3u8
-#EXTINF:-1 tvg-id="amedia-premium" group-title="Кино и сериалы" catchup-enable="0",Amedia Premium HD
-http://localhost/ace/getstream?infohash=bd3909c04c1086803526c7b06a8266654a70e482
+# #EXTINF:-1 tvg-id="amedia-premium" group-title="Кино и сериалы" catchup-enable="0",Amedia Premium HD
+# http://localhost/ace/getstream?infohash=bd3909c04c1086803526c7b06a8266654a70e482
 # http://stream01.vnet.am/AmediaPremium/mono.m3u8
 # #EXTINF:-1 group-title="Детские" catchup-enable="0",Ani
 # #EXTINF:-1 tvg-id="animal-planet" group-title="Познавательные" catchup-enable="0",Animal Planet HD
 # http://localhost/ace/getstream?infohash=568159b1059c7bbe3eaf40f123541fef86ef83cb
-#EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные" catchup-enable="0",Arabica Music
-http://localhost/ace/getstream?infohash=96fe1281760be8e40a28e120f99def011b0b943f
-#EXTINF:-1 tvg-id="bbc" group-title="Новости" catchup-enable="0",BBC World News HD
-http://localhost/ace/getstream?infohash=050702a6580361bbf040fbb42f8004ab4f1b9211
+# #EXTINF:-1 tvg-id="no_epg_music" group-title="Музыкальные" catchup-enable="0",Arabica Music
+# http://localhost/ace/getstream?infohash=96fe1281760be8e40a28e120f99def011b0b943f
+# #EXTINF:-1 tvg-id="bbc" group-title="Новости" catchup-enable="0",BBC World News HD
+# http://localhost/ace/getstream?infohash=050702a6580361bbf040fbb42f8004ab4f1b9211
 # #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Big Planet HD
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood HD
-http://158.160.149.81:8080/1520/index.m3u8
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Bollywood HD
 # http://localhost/ace/getstream?infohash=a64f487b491e1c0ad0be1af30383aba16411b8b6
-#EXTINF:-1 tvg-id="bridge-tv-ruxit" group-title="Музыкальные" catchup-enable="0",Bridge TV Русский хит
-http://localhost/ace/getstream?infohash=47e8edc7887b55cffb0c59996ab1887f9caf711f
+# #EXTINF:-1 tvg-id="bridge-tv-ruxit" group-title="Музыкальные" catchup-enable="0",Bridge TV Русский хит
+# http://localhost/ace/getstream?infohash=47e8edc7887b55cffb0c59996ab1887f9caf711f
 # #EXTINF:-1 tvg-id="bridge-tv-shlager" group-title="Музыкальные" catchup-enable="0",Bridge TV Шлягер
-#EXTINF:-1 tvg-id="bridge-tv-classic" group-title="Музыкальные" catchup-enable="0",Bridge TV Classic
-http://localhost/ace/getstream?infohash=42e74d3cf6ce872fb2c9e7d58c42648240b63867
-#EXTINF:-1 tvg-id="bridge-hd" group-title="Музыкальные" catchup-enable="0",Bridge TV Deluxe HD
-http://localhost/ace/getstream?infohash=56f73fefee3e8cfdc742d1de9c892f0a3ec79413
+# #EXTINF:-1 tvg-id="bridge-tv-classic" group-title="Музыкальные" catchup-enable="0",Bridge TV Classic
+# http://localhost/ace/getstream?infohash=42e74d3cf6ce872fb2c9e7d58c42648240b63867
+# #EXTINF:-1 tvg-id="bridge-hd" group-title="Музыкальные" catchup-enable="0",Bridge TV Deluxe HD
+# http://localhost/ace/getstream?infohash=56f73fefee3e8cfdc742d1de9c892f0a3ec79413
 # #EXTINF:-1 tvg-id="bridge-tv-fresh" group-title="Музыкальные" catchup-enable="0",Bridge TV Fresh
 # #EXTINF:-1 tvg-id="bridge-tv-dance" group-title="Музыкальные" catchup-enable="0",Bridge TV Hits
 # #EXTINF:-1 tvg-id="bridge-tv-rock" group-title="Музыкальные" catchup-enable="0",Bridge TV Rock
-#EXTINF:-1 tvg-id="cartoon-network" group-title="Детские" catchup-enable="0",Cartoon Network HD
-http://localhost/ace/getstream?infohash=5d52371d64c6f92b5c5b9eaf49db0912578c5c95
+# #EXTINF:-1 tvg-id="cartoon-network" group-title="Детские" catchup-enable="0",Cartoon Network HD
+# http://localhost/ace/getstream?infohash=5d52371d64c6f92b5c5b9eaf49db0912578c5c95
 # #EXTINF:-1 tvg-id="boomerang" group-title="Детские" catchup-enable="0",Cartoonito
 # #EXTINF:-1 group-title="Новости" catchup-enable="0",CCTV4
 # #EXTINF:-1 group-title="Новости" catchup-enable="0",CGTN
@@ -897,88 +896,76 @@ http://185.46.48.18:80/cinema/tracks-v1a1/mono.m3u8
 # #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Discovery Channel HD
 # http://localhost/ace/getstream?infohash=6477d56108d979adf1a069b26c820e749b94b9da
 # #EXTINF:-1 tvg-id="deutsche-welle-eu" group-title="Новости" catchup-enable="0",DW Europe
-#EXTINF:-1 tvg-id="euronews-en" group-title="Новости" catchup-enable="0",EuroNews
-http://localhost/ace/getstream?infohash=f8757bfa9b59fb272c9fd40bdc0fcb4e296d69bf
+# #EXTINF:-1 tvg-id="euronews-en" group-title="Новости" catchup-enable="0",EuroNews
+# http://localhost/ace/getstream?infohash=f8757bfa9b59fb272c9fd40bdc0fcb4e296d69bf
 # #EXTINF:-1 tvg-id="europa-plus-tv" group-title="Музыкальные" catchup-enable="0",Europa Plus TV
 # http://localhost/ace/getstream?infohash=0349677b468cd305ccc2d502446a60e9f0ff3ec3
-#EXTINF:-1 tvg-id="eurosport1" group-title="Спортивные" catchup-enable="0",Eurosport 1 HD
-http://158.160.149.81:8080/2586/index.m3u8
+# #EXTINF:-1 tvg-id="eurosport1" group-title="Спортивные" catchup-enable="0",Eurosport 1 HD
 # http://localhost/ace/getstream?infohash=42e959bffd0dd0f138dd03abf387b4284ece7e30
-#EXTINF:-1 tvg-id="eurosport2" group-title="Спортивные" catchup-enable="0",Eurosport 2 HD
-http://158.160.149.81:8080/2587/index.m3u8
+# #EXTINF:-1 tvg-id="eurosport2" group-title="Спортивные" catchup-enable="0",Eurosport 2 HD
 # http://localhost/ace/getstream?infohash=3fee4ce1dbc079ff3f302535070d9547988a407c
-#EXTINF:-1 tvg-id="food-network" group-title="Хобби и увлечения" catchup-enable="0",Food Network
-http://localhost/ace/getstream?infohash=52ddcf2a88a5c0465fbaeb4781885b87ffb6825a
+# #EXTINF:-1 tvg-id="food-network" group-title="Хобби и увлечения" catchup-enable="0",Food Network
+# http://localhost/ace/getstream?infohash=52ddcf2a88a5c0465fbaeb4781885b87ffb6825a
 # #EXTINF:-1 group-title="Новости" catchup-enable="0",France 24 HD
-#EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы" catchup-enable="0",FX HD
-http://158.160.149.81:8080/4510/index.m3u8
+# #EXTINF:-1 tvg-id="fox" group-title="Кино и сериалы" catchup-enable="0",FX HD
 # http://localhost/ace/getstream?infohash=5e40d94899925654ba5baf7f9ede7db5e0c10ad7
-#EXTINF:-1 tvg-id="foxlife" group-title="Кино и сериалы" catchup-enable="0",FX Life HD
-http://localhost/ace/getstream?infohash=d8b7a3f67305d65d0c75602eb7ec8e7f1df6b8b7
+# #EXTINF:-1 tvg-id="foxlife" group-title="Кино и сериалы" catchup-enable="0",FX Life HD
+# http://localhost/ace/getstream?infohash=d8b7a3f67305d65d0c75602eb7ec8e7f1df6b8b7
 # #EXTINF:-1 tvg-id="galaxy-tv" group-title="Познавательные" catchup-enable="0",Galaxy HD
-#EXTINF:-1 group-title="Детские" catchup-enable="0",Gulli Girl
-http://localhost/ace/getstream?infohash=45b1c4b07917fd5d1cc10b55d376753593ed4a0a
-#EXTINF:-1 tvg-id="hd-life" group-title="Познавательные" catchup-enable="0",HD Life
-http://localhost/ace/getstream?infohash=44ffb1bd04a4aa2df86bbca0f29a714772a7abe1
-#EXTINF:-1 tvg-id="history-ru" group-title="Познавательные" catchup-enable="0",History HD
-http://localhost/ace/getstream?infohash=4f7be698925e8df0bc338170a81c390d3cb391ae
-#EXTINF:-1 tvg-id="h2" group-title="Познавательные" catchup-enable="0",History2 HD
-http://localhost/ace/getstream?infohash=259cb14a1a9178a6b3f8228b25c057e0f1463ce7
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Hollywood HD
-http://localhost/ace/getstream?infohash=2410ae82a0227b51843b4cf47260c14aa8b4503e
+# #EXTINF:-1 group-title="Детские" catchup-enable="0",Gulli Girl
+# http://localhost/ace/getstream?infohash=45b1c4b07917fd5d1cc10b55d376753593ed4a0a
+# #EXTINF:-1 tvg-id="hd-life" group-title="Познавательные" catchup-enable="0",HD Life
+# http://localhost/ace/getstream?infohash=44ffb1bd04a4aa2df86bbca0f29a714772a7abe1
+# #EXTINF:-1 tvg-id="history-ru" group-title="Познавательные" catchup-enable="0",History HD
+# http://localhost/ace/getstream?infohash=4f7be698925e8df0bc338170a81c390d3cb391ae
+# #EXTINF:-1 tvg-id="h2" group-title="Познавательные" catchup-enable="0",History2 HD
+# http://localhost/ace/getstream?infohash=259cb14a1a9178a6b3f8228b25c057e0f1463ce7
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Hollywood HD
+# http://localhost/ace/getstream?infohash=2410ae82a0227b51843b4cf47260c14aa8b4503e
 # #EXTINF:-1 tvg-id="id-xtra-eu" group-title="Познавательные" catchup-enable="0",Investigation Discovery HD
 # #EXTINF:-1 tvg-id="jimjam" group-title="Детские" catchup-enable="0",JimJam
-#EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL HD
-http://localhost/ace/getstream?infohash=38c98858c0fc5e670820d2e1d308c71efcaa2ddc
-# http://178.124.152.238:8088/khl
-#EXTINF:-1 group-title="Спортивные" tvg-id="kxl-hd" catchup-enable="0",KHL Prime HD
-http://localhost/ace/getstream?infohash=242553daf687872eca8e184c238dc11ab712e9ac
-# http://194.143.148.28:8080/KHL_HD/mpegts
+# #EXTINF:-1 group-title="Спортивные" tvg-id="kxl" catchup-enable="0",KHL HD
+# http://localhost/ace/getstream?infohash=38c98858c0fc5e670820d2e1d308c71efcaa2ddc
+# #EXTINF:-1 group-title="Спортивные" tvg-id="kxl-hd" catchup-enable="0",KHL Prime HD
+# http://localhost/ace/getstream?infohash=242553daf687872eca8e184c238dc11ab712e9ac
 # #EXTINF:-1 tvg-id="mcm-top" group-title="Музыкальные" catchup-enable="0",MCM Top
-#EXTINF:-1 tvg-id="mezzo" group-title="Музыкальные" catchup-enable="0",Mezzo
-http://178.212.71.253:8002/play/a00n/index.m3u8
-#EXTINF:-1 tvg-id="mezzo-live-hd" group-title="Музыкальные" catchup-enable="0",Mezzo Live HD
-http://localhost/ace/getstream?infohash=3dbd85a62033e6e26f8e0b50fb7f156d26756695
+# #EXTINF:-1 tvg-id="mezzo" group-title="Музыкальные" catchup-enable="0",Mezzo
+# #EXTINF:-1 tvg-id="mezzo-live-hd" group-title="Музыкальные" catchup-enable="0",Mezzo Live HD
+# http://localhost/ace/getstream?infohash=3dbd85a62033e6e26f8e0b50fb7f156d26756695
 # #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://www.lyngsat.com/logo/tv/mm/motorracing-tv.png" group-title="Спортивные" catchup-enable="0",MotoRRacing TV
 # https://dai.google.com/linear/hls/event/qI1pC-R_Sma0bVLVjaEOtw/master.m3u8
-#EXTINF:-1 tvg-id="mtv-live-hd" group-title="Музыкальные" catchup-enable="0",MTV Live HD
-http://localhost/ace/getstream?infohash=9ddda51034375eb93505c076d4437064abdf2dcf
+# #EXTINF:-1 tvg-id="mtv-live-hd" group-title="Музыкальные" catchup-enable="0",MTV Live HD
+# http://localhost/ace/getstream?infohash=9ddda51034375eb93505c076d4437064abdf2dcf
 # #EXTINF:-1 tvg-id="vh1-classic" group-title="Музыкальные" catchup-enable="0",MTV 80s
-#EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
-http://localhost/ace/getstream?infohash=7c2b7486ae9c899bf407280ca2ddfd0d888bb11f
-#EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные" catchup-enable="0",Nat Geo Wild HD
-http://localhost/ace/getstream?infohash=c0280edf1a8bab3e8ea8fd33e12d1009c9f09e11
-#EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные" catchup-enable="0",National Geographic HD
-http://localhost/ace/getstream?infohash=1a6c974216f9305c02fb92962575f32ce85030a3
-#EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr.
-http://158.160.149.81:8080/520/index.m3u8
+# #EXTINF:-1 tvg-id="musicbox" group-title="Музыкальные" catchup-enable="0",Music Box Gold
+# http://localhost/ace/getstream?infohash=7c2b7486ae9c899bf407280ca2ddfd0d888bb11f
+# #EXTINF:-1 tvg-id="nat-geo-wild" group-title="Познавательные" catchup-enable="0",Nat Geo Wild HD
+# http://localhost/ace/getstream?infohash=c0280edf1a8bab3e8ea8fd33e12d1009c9f09e11
+# #EXTINF:-1 tvg-id="national-geographic" group-title="Познавательные" catchup-enable="0",National Geographic HD
+# http://localhost/ace/getstream?infohash=1a6c974216f9305c02fb92962575f32ce85030a3
+# #EXTINF:-1 tvg-id="nick-jr" group-title="Детские" catchup-enable="0",Nick Jr.
 # #EXTINF:-1 tvg-id="nickelodeon-ru" group-title="Детские" catchup-enable="0",Nickelodeon HD
 # http://localhost/ace/getstream?infohash=309ae3916169c5a0fa532e25753fff3a7e1f16a6
-#EXTINF:-1 tvg-id="plan-b" group-title="Кино и сериалы" catchup-enable="0",Plan B
-http://158.160.149.81:8080/7688/index.m3u8
+# #EXTINF:-1 tvg-id="plan-b" group-title="Кино и сериалы" catchup-enable="0",Plan B
 # #EXTINF:-1 tvg-id="q-sport-ext" group-title="Спортивные" catchup-enable="0",Q League HD
-#EXTINF:-1 group-title="Спортивные" catchup-enable="0",Q Sport Arena HD
-http://158.160.149.81:8080/7080/index.m3u8
+# #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Q Sport Arena HD
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="http://epg.one/img2/6039.png" group-title="Спортивные" catchup-enable="0",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
-#EXTINF:-1 tvg-id="rtg-tv" group-title="Познавательные" catchup-enable="0",RTG
-http://localhost/ace/getstream?infohash=dcc496fba4ca2f4541823deae31247ec6ecfab38
-#EXTINF:-1 tvg-id="ru-tv" group-title="Музыкальные" catchup-enable="0",RU.TV HD
-https://hls-03-video.webcaramba.com/rutv/live_720/index.m3u8
+# #EXTINF:-1 tvg-id="rtg-tv" group-title="Познавательные" catchup-enable="0",RTG
+# http://localhost/ace/getstream?infohash=dcc496fba4ca2f4541823deae31247ec6ecfab38
+# #EXTINF:-1 tvg-id="ru-tv" group-title="Музыкальные" catchup-enable="0",RU.TV HD
 #EXTINF:-1 tvg-id="rt-news" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/300px-Russia-today-logo.svg.png" group-title="Новости" catchup-enable="0",Russia Today HD
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
-#EXTINF:-1 tvg-id="russian-musicbox" group-title="Музыкальные" catchup-enable="0",Russian Music Box HD
-http://localhost/ace/getstream?infohash=e7631c1d6d20cf5fb4e09a3b85cd6b7cea049be3
-#EXTINF:-1 tvg-id="setanta-sports" group-title="Спортивные" catchup-enable="0",Setanta Sports 1 HD
-http://158.160.149.81:8080/4536/index.m3u8
+# #EXTINF:-1 tvg-id="russian-musicbox" group-title="Музыкальные" catchup-enable="0",Russian Music Box HD
+# http://localhost/ace/getstream?infohash=e7631c1d6d20cf5fb4e09a3b85cd6b7cea049be3
+# #EXTINF:-1 tvg-id="setanta-sports" group-title="Спортивные" catchup-enable="0",Setanta Sports 1 HD
 # http://localhost/ace/getstream?infohash=626c5326f29984bbedceee04c9694a0447ba0a9a
-#EXTINF:-1 tvg-id="setanta-sports-plus" group-title="Спортивные" catchup-enable="0",Setanta Sports 2 HD
-http://158.160.149.81:8080/8829/index.m3u8
+# #EXTINF:-1 tvg-id="setanta-sports-plus" group-title="Спортивные" catchup-enable="0",Setanta Sports 2 HD
 # http://localhost/ace/getstream?infohash=fded295edff9d57adb77cf02a08c5f2fcb9e608b
 # #EXTINF:-1 group-title="Телемагазины" catchup-enable="0",Shop&Show
 # #EXTINF:-1 group-title="Телемагазины" catchup-enable="0",Shopping Live
-#EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Cinema HD
-http://localhost/ace/getstream?infohash=f77691e6419afa90a62b4bbd40629fab751246de
+# #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Cinema HD
+# http://localhost/ace/getstream?infohash=f77691e6419afa90a62b4bbd40629fab751246de
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Family
 #EXTINF:-1 tvg-id="start-air" group-title="Кино и сериалы" catchup-enable="0",START Air HD
 https://livetv.mylifeisgood.net.ru/channels/strwc.m3u8
@@ -986,8 +973,8 @@ https://livetv.mylifeisgood.net.ru/channels/strwc.m3u8
 https://livetv.mylifeisgood.net.ru/channels/strvf.m3u8
 #EXTINF:-1 tvg-id="terra-ru" group-title="Познавательные" catchup-enable="0",Terra HD
 https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
-#EXTINF:-1 tvg-id="tiji" group-title="Детские" catchup-enable="0",TiJi
-http://localhost/ace/getstream?infohash=8adf3a3dc4379137b05d1fa340c5cc84283d7e72
+# #EXTINF:-1 tvg-id="tiji" group-title="Детские" catchup-enable="0",TiJi
+# http://localhost/ace/getstream?infohash=8adf3a3dc4379137b05d1fa340c5cc84283d7e72
 # #EXTINF:-1 tvg-id="travel-adventure" group-title="Познавательные" catchup-enable="0",Travel+Adventure HD
 # http://localhost/ace/getstream?infohash=6e96ec55341e3bf654d0c9335fffb43f0a7e46a2
 # #EXTINF:-1 tvg-id="viasat-explore" group-title="Познавательные" catchup-enable="0",Viju Explore HD
@@ -1282,10 +1269,10 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 # #EXTINF:-1 tvg-id="texno-24" group-title="Познавательные" catchup-enable="0",Техно 24
 # http://localhost/ace/getstream?infohash=bfe2959a7f07d3b572528925b801a4dd24bc8aec
 # #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",ТНТ Music HD
-#EXTINF:-1 group-title="Познавательные" catchup-enable="0",Точка отрыва
-http://localhost/ace/getstream?infohash=8ee0c3512883fe9cd8fc597e30a4cf45631c92df
-#EXTINF:-1 group-title="Детские" catchup-enable="0",Уникум HD
-http://localhost/ace/getstream?infohash=f19a2cd4c0e4924b79d207c39a9570bcf2620f70
+# #EXTINF:-1 group-title="Познавательные" catchup-enable="0",Точка отрыва
+# http://localhost/ace/getstream?infohash=8ee0c3512883fe9cd8fc597e30a4cf45631c92df
+# #EXTINF:-1 group-title="Детские" catchup-enable="0",Уникум HD
+# http://localhost/ace/getstream?infohash=f19a2cd4c0e4924b79d207c39a9570bcf2620f70
 # #EXTINF:-1 group-title="Хобби и увлечения" catchup-enable="0",Усадьба
 # http://localhost/ace/getstream?infohash=69af62012e44a54dbe1d7a330bc53d037dd7cc3e
 # #EXTINF:-1 tvg-id="feniks-plus-kino" group-title="Кино и сериалы" catchup-enable="0",Феникс+ Кино HD
