@@ -68,7 +68,7 @@ http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 #EXTINF:-1 channelId="42" tvg-id="360-podmoskovie" tvg-name="360°" group-title="HD и UHD" catchup-enable="0",360° HD
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 # #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",FAN HD
-#EXTINF:-1 tvg-id="fashion-one-hd" group-title="HD и UHD" catchup-enable="0",Fashion & Lifestyle HD
+#EXTINF:-1 tvg-id="fashion-one" group-title="HD и UHD" catchup-enable="0",Fashion & Lifestyle HD
 http://stream.mcquack.net/119/index.m3u8
 # #EXTINF:-1 tvg-id="eda-hd" group-title="HD и UHD" catchup-enable="0",FoodTime HD
 # #EXTINF:-1 group-title="HD и UHD" catchup-enable="0",HOME 4K
@@ -927,7 +927,7 @@ http://stream.mcquack.net/493/index.m3u8
 # #EXTINF:-1 group-title="Спортивные" catchup-enable="0",Q Sport Arena HD
 #EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="http://epg.one/img2/6039.png" group-title="Спортивные" catchup-enable="0",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
-#EXTINF:-1 tvg-id="rtg-tv" group-title="Познавательные" catchup-enable="0",RTG HD
+#EXTINF:-1 tvg-id="rtg-hd" group-title="Познавательные" catchup-enable="0",RTG HD
 http://stream.mcquack.net/164/index.m3u8
 #EXTINF:-1 tvg-id="ru-tv" group-title="Музыкальные" catchup-enable="0",RU.TV HD
 https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=2069285076&s=d-E-bxKy2v3EEJ94RQX9CA&scheme=https
@@ -1156,7 +1156,8 @@ http://77.232.131.211/Sapfir/manifest.m3u8
 #EXTINF:-1 tvg-id="sarafan" group-title="Развлекательные" catchup-enable="0",Сарафан
 http://stream.mcquack.net/81/index.m3u8
 # #EXTINF:-1 tvg-id="sovsek" group-title="Развлекательные" catchup-enable="0",Совершенно секретно
-# #EXTINF:-1 tvg-id="solovjinypomiot" group-title="Новости" catchup-enable="0",Соловьев LIVE
+#EXTINF:-1 tvg-id="solovjinypomiot" group-title="Новости" catchup-enable="0",Соловьев LIVE
+https://stream.smotrim.ru/hls2/solovievlive/playlist_6.m3u8
 # #EXTINF:-1 tvg-id="start" group-title="Спортивные" catchup-enable="0",Старт
 # #EXTINF:-1 tvg-id="start-triumf" group-title="Спортивные" catchup-enable="0",Старт Триумф HD
 #EXTINF:-1 group-title="Музыкальные" catchup-enable="0",Страна FM HD
