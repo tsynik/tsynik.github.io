@@ -929,8 +929,9 @@ http://stream.mcquack.net/493/index.m3u8
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8
 #EXTINF:-1 tvg-id="rtg-tv" group-title="Познавательные" catchup-enable="0",RTG HD
 http://stream.mcquack.net/164/index.m3u8
-# #EXTINF:-1 tvg-id="ru-tv" group-title="Музыкальные" catchup-enable="0",RU.TV HD
-#EXTINF:-1 tvg-id="rt-news" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/300px-Russia-today-logo.svg.png" group-title="Новости" catchup-enable="0",Russia Today HD
+#EXTINF:-1 tvg-id="ru-tv" group-title="Музыкальные" catchup-enable="0",RU.TV HD
+https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=2069285076&s=d-E-bxKy2v3EEJ94RQX9CA&scheme=https
+#EXTINF:-1 tvg-id="rt-news" group-title="Новости" catchup-enable="0",Russia Today HD
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-id="russian-musicbox" group-title="Музыкальные" catchup-enable="0",Russian Music Box HD
 http://stream.mcquack.net/319/index.m3u8
