@@ -968,13 +968,13 @@ https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 # http://localhost/ace/getstream?infohash=f77691e6419afa90a62b4bbd40629fab751246de
 # #EXTINF:-1 group-title="Кино и сериалы" catchup-enable="0",Star Family
 #EXTINF:-1 tvg-id="start-air" group-title="Кино и сериалы" catchup-enable="0",START Air HD
-https://livetv.mylifeisgood.net.ru/channels/strwc.m3u8
-#EXTINF:-1 tvg-id="start-world" group-title="Кино и сериалы" catchup-enable="0",START World HD
-https://livetv.mylifeisgood.net.ru/channels/strvf.m3u8
-#EXTINF:-1 tvg-id="terra-ru" group-title="Познавательные" catchup-enable="0",Terra HD
-https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
-# #EXTINF:-1 tvg-id="tiji" group-title="Детские" catchup-enable="0",TiJi
-# http://localhost/ace/getstream?infohash=8adf3a3dc4379137b05d1fa340c5cc84283d7e72
+http://stream.mcquack.net/128/index.m3u8
+# #EXTINF:-1 tvg-id="start-world" group-title="Кино и сериалы" catchup-enable="0",START World HD
+# https://livetv.mylifeisgood.net.ru/channels/strvf.m3u8
+# #EXTINF:-1 tvg-id="terra-ru" group-title="Познавательные" catchup-enable="0",Terra HD
+# https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
+#EXTINF:-1 tvg-id="tiji" group-title="Детские" catchup-enable="0",TiJi
+http://stream.mcquack.net/111/index.m3u8
 # #EXTINF:-1 tvg-id="travel-adventure" group-title="Познавательные" catchup-enable="0",Travel+Adventure HD
 # http://localhost/ace/getstream?infohash=6e96ec55341e3bf654d0c9335fffb43f0a7e46a2
 # #EXTINF:-1 tvg-id="viasat-explore" group-title="Познавательные" catchup-enable="0",Viju Explore HD
@@ -983,23 +983,24 @@ https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
 # http://localhost/ace/getstream?infohash=0f88c98c5e4f31e9918e16d469a495cc15dcfe50
 # #EXTINF:-1 tvg-id="viasat-nature" group-title="Познавательные" catchup-enable="0",Viju Nature HD
 # http://localhost/ace/getstream?infohash=724f24ba3e7faf98394f75de217d1e404700f41b
-# #EXTINF:-1 tvg-id="tv1000" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 HD
-# http://localhost/ace/getstream?infohash=b2937e666b87952e13f299d9ee52bd77117f5ccb
-# #EXTINF:-1 tvg-id="tv1000-action" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Action HD
-# http://localhost/ace/getstream?infohash=647c31eee02705588b3d84e6f4359d4c8123585b
+#EXTINF:-1 tvg-id="tv1000" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000
+http://stream.mcquack.net/110/index.m3u8
+#EXTINF:-1 tvg-id="tv1000-action" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Action HD
+http://stream.mcquack.net/100/index.m3u8
 # #EXTINF:-1 tvg-id="tv1000-russkoe-kino" group-title="Кино и сериалы" catchup-enable="0",Viju TV1000 Русское HD
 # http://localhost/ace/getstream?infohash=579f9693b8084c1b8349c4108ab7a69d2953e72f
-# #EXTINF:-1 tvg-id="viasat-nature-history-hd" group-title="Познавательные" catchup-enable="0",Viju+ Planet HD
-# http://localhost/ace/getstream?infohash=14c74e9552c440606b9f628cc4f50dc14e2dfc2b
-# #EXTINF:-1 tvg-id="viasat-sport" group-title="Спортивные" catchup-enable="0",Viju+ Sport
-# #EXTINF:-1 tvg-id="vip-comedy" group-title="Кино и сериалы" catchup-enable="0",Viju+ Comedy HD
-# http://localhost/ace/getstream?infohash=8e27f09c9c4eb4ea09a1d2bc1c71689a52be5129
-# #EXTINF:-1 tvg-id="vip-megahit" group-title="Кино и сериалы" catchup-enable="0",Viju+ Megahit HD
-# http://localhost/ace/getstream?infohash=2946debcde707ac6dff8c35f56a02ebefc5e094d
-# #EXTINF:-1 tvg-id="vip-premiere" group-title="Кино и сериалы" catchup-enable="0",Viju+ Premiere HD
-# http://localhost/ace/getstream?infohash=9808c355077d9f9a8fd937732fe1141a7cbd54db
-# #EXTINF:-1 tvg-id="vip-serial" group-title="Кино и сериалы" catchup-enable="0",Viju+ Serial HD
-# http://localhost/ace/getstream?infohash=0f12577008461ddbdef03d974a23e7f2236ff2de
+#EXTINF:-1 tvg-id="viasat-nature-history-hd" group-title="Познавательные" catchup-enable="0",Viju+ Planet HD
+http://stream.mcquack.net/240/index.m3u8
+#EXTINF:-1 tvg-id="viasat-sport" group-title="Спортивные" catchup-enable="0",Viju+ Sport
+http://stream.mcquack.net/333/index.m3u8
+#EXTINF:-1 tvg-id="vip-comedy" group-title="Кино и сериалы" catchup-enable="0",Viju+ Comedy HD
+http://stream.mcquack.net/201/index.m3u8
+#EXTINF:-1 tvg-id="vip-megahit" group-title="Кино и сериалы" catchup-enable="0",Viju+ Megahit HD
+http://stream.mcquack.net/200/index.m3u8
+#EXTINF:-1 tvg-id="vip-premiere" group-title="Кино и сериалы" catchup-enable="0",Viju+ Premiere HD
+http://stream.mcquack.net/202/index.m3u8
+#EXTINF:-1 tvg-id="vip-serial" group-title="Кино и сериалы" catchup-enable="0",Viju+ Serial HD
+http://stream.mcquack.net/311/index.m3u8
 # #EXTINF:-1 tvg-id="viva-rus" group-title="Музыкальные" catchup-enable="0",VIVA Russia HD
 # http://localhost/ace/getstream?infohash=fb361b926b7211092010d6944fb5b70753ee19b2
 # #EXTINF:-1 tvg-id="zoopark" group-title="Познавательные" catchup-enable="0",ZooПарк
@@ -1240,7 +1241,6 @@ http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 # http://158.160.149.81:8080/8191/index.m3u8
 #EXTINF:-1 tvg-id="smaylik-tv" group-title="Детские" catchup-enable="0",Смайл ТВ HD
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
-# https://livetv.mylifeisgood.net.ru/channels/smile.m3u8
 # #EXTINF:-1 tvg-id="sarafan" group-title="Развлекательные" catchup-enable="0",Сарафан
 # http://158.160.149.81:8080/236/index.m3u8
 # http://localhost/ace/getstream?infohash=5b251913732ccaf9c4df23a67023cb2b27432f4c
